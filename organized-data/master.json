@@ -9,6 +9,10 @@
       "path": "Tools/claude-code-cli.md"
     },
     {
+      "name": "Composio",
+      "path": "Tools/composio.md"
+    },
+    {
       "name": "Copilot CLI",
       "path": "Tools/copilot-cli.md"
     },
@@ -21,8 +25,16 @@
       "path": "Tools/firecrawl-cli.md"
     },
     {
+      "name": "LLM CLI Tool",
+      "path": "Tools/llm-cli.md"
+    },
+    {
       "name": "Ollama",
       "path": "Tools/ollama.md"
+    },
+    {
+      "name": "shadcn/ui",
+      "path": "Tools/shadcn-ui.md"
     },
     {
       "name": "Trae IDE",
@@ -35,6 +47,78 @@
     {
       "name": "Wispr Flow",
       "path": "Tools/wispr-flow.md"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Fabric (Daniel Miessler)",
+      "path": "Frameworks/fabric.md"
+    },
+    {
+      "name": "llm-wiki (Karpathy Gist)",
+      "path": "Frameworks/llm-wiki.md"
+    }
+  ],
+  "guides": [
+    {
+      "name": "Prompt Engineering Guide",
+      "path": "Guides/prompt-engineering.md"
+    }
+  ],
+  "learning": [
+    {
+      "name": "AI for Beginners (Microsoft)",
+      "path": "Learning/ai-for-beginners.md"
+    },
+    {
+      "name": "Developer Roadmaps (AI & Engineering)",
+      "path": "Learning/developer-roadmaps.md"
+    },
+    {
+      "name": "LLM Zoomcamp",
+      "path": "Learning/llm-zoomcamp.md"
+    },
+    {
+      "name": "Made With ML",
+      "path": "Learning/made-with-ml.md"
+    },
+    {
+      "name": "nanoGPT (Karpathy)",
+      "path": "Learning/nanogpt.md"
+    }
+  ],
+  "resources": [
+    {
+      "name": "App Ideas",
+      "path": "Resources/app-ideas.md"
+    },
+    {
+      "name": "Awesome ChatGPT Prompts",
+      "path": "Resources/awesome-chatgpt-prompts.md"
+    },
+    {
+      "name": "Awesome DESIGN.md",
+      "path": "Resources/awesome-design.md"
+    },
+    {
+      "name": "Awesome LLM Apps",
+      "path": "Resources/awesome-llm-apps.md"
+    },
+    {
+      "name": "Awesome MCP Servers",
+      "path": "Resources/awesome-mcp-servers.md"
+    },
+    {
+      "name": "Claude Quickstarts & Prompt Cookbook",
+      "path": "Resources/claude-quickstarts.md"
+    },
+    {
+      "name": "Official MCP Servers",
+      "path": "Resources/official-mcp-servers.md"
+    },
+    {
+      "name": "Real AI System Prompts Collection",
+      "path": "Resources/system-prompts.md"
     }
   ]
 }
