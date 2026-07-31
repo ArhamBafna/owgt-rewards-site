@@ -2,7 +2,7 @@
 Build A Sop For A Repeatable Process
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here's a process we run repeatedly: [describe].
+Here's a process we run repeatedly: [describe].
 
 ### Prompt
 ```text

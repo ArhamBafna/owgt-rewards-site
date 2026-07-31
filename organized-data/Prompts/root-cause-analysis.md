@@ -2,7 +2,7 @@
 Root Cause Analysis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is a problem I keep seeing: [describe].
+Here is a problem I keep seeing: [describe].
 
 ### Prompt
 ```text

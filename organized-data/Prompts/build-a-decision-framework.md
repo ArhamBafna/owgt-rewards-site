@@ -2,7 +2,7 @@
 Build A Decision Framework
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I regularly face decisions about [type of decision].
+I regularly face decisions about [type of decision].
 
 ### Prompt
 ```text

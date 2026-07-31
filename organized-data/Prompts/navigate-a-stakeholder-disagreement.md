@@ -2,7 +2,7 @@
 Navigate A Stakeholder Disagreement
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is a disagreement I'm navigating between [stakeholder A] and
+Here is a disagreement I'm navigating between [stakeholder A] and
 [stakeholder B] about [issue].
 
 ### Prompt

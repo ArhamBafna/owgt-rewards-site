@@ -2,7 +2,7 @@
 Evaluate A New Market Opportunity
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Evaluate this market opportunity: [describe].
+Evaluate this market opportunity: [describe].
 
 ### Prompt
 ```text

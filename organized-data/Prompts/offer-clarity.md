@@ -2,7 +2,7 @@
 Offer Clarity
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Help me improve this offer: [describe offer].
+Help me improve this offer: [describe offer].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Prioritize Between Competing Initiatives
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here are the strategic initiatives I'm choosing between: [list].
+Here are the strategic initiatives I'm choosing between: [list].
 
 ### Prompt
 ```text

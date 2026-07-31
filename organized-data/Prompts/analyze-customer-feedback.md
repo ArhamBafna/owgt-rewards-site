@@ -2,7 +2,7 @@
 Analyze Customer Feedback
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here's customer feedback: [paste].
+Here's customer feedback: [paste].
 
 ### Prompt
 ```text

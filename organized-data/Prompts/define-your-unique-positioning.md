@@ -2,7 +2,7 @@
 Define Your Unique Positioning
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My company does [describe].
+My company does [describe].
 
 ### Prompt
 ```text

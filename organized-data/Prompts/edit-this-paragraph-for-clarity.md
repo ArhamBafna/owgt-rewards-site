@@ -2,7 +2,7 @@
 Edit This Paragraph For Clarity
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Edit this paragraph for clarity and conciseness.
+Edit this paragraph for clarity and conciseness.
 
 ### Prompt
 ```text

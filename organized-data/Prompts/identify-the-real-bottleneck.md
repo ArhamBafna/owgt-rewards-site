@@ -2,7 +2,7 @@
 Identify The Real Bottleneck
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is the system or process I'm trying to improve: [describe].
+Here is the system or process I'm trying to improve: [describe].
 
 ### Prompt
 ```text

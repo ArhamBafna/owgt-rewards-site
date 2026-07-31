@@ -2,7 +2,7 @@
 Analyze Why A Deal Was Lost
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here's the deal I lost: [describe].
+Here's the deal I lost: [describe].
 
 ### Prompt
 ```text

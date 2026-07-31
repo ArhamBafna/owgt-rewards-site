@@ -2,7 +2,7 @@
 Difficult Employee Conversation
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Prep
+Prep
 I need to have a difficult conversation with [an employee,
 described by role and situation] abo...
 

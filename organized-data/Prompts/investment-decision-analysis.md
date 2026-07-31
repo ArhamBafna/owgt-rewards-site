@@ -2,7 +2,7 @@
 Investment Decision Analysis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm deciding whether to [enter/exit] [market or segment].
+I'm deciding whether to [enter/exit] [market or segment].
 
 ### Prompt
 ```text

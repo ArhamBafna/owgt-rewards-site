@@ -12,7 +12,7 @@ The following is a comprehensive list of recommended courses on Artificial Intel
 
 ## Foundational AI Courses
 
-### Introduction to Generative AI
+#### Introduction to Generative AI
 This course is perfect for beginners and offers practical labs. It focuses on generative AI, a technology that allows you to create new content such as text, images, and code. Participants can experiment and learn by doing, which makes the learning process engaging and effective.
 
 * **Creator:** Cloud Skills Boost platform
@@ -21,7 +21,7 @@ This course is perfect for beginners and offers practical labs. It focuses on ge
 * **Time:** ~1 hour
 * **🔗 Link:** https://www.cloudskillsboost.google/course_templates/536
 
-### Responsible AI
+#### Responsible AI
 This course focuses on the ethical aspects of AI, discussing issues such as bias, fairness, and building ethical AI tools. It provides practical tips on how to create AI solutions that respect social values.
 
 * **Creator:** Cloud Skills Boost
@@ -29,7 +29,7 @@ This course focuses on the ethical aspects of AI, discussing issues such as bias
 * **Time:** ~1 hour
 * **🔗 Link:** https://www.cloudskillsboost.google/course_templates/554
 
-### Introduction to AI and Machine Learning
+#### Introduction to AI and Machine Learning
 An accelerated course for aspiring machine learning engineers that includes coding exercises. It's a great way to gain practical skills in building and deploying machine learning models.
 
 * **Creator:** Cloud Skills Boost
@@ -41,7 +41,7 @@ An accelerated course for aspiring machine learning engineers that includes codi
 
 ## Academic & Comprehensive Courses
 
-### CS50: Introduction to AI with Python
+#### CS50: Introduction to AI with Python
 One of the most in-depth introductory courses to AI at the university level. It covers a wide range of topics, including search, machine learning, natural language processing, and more. This course is an excellent choice for those who want to gain a thorough understanding of the fundamentals of AI.
 
 * **Creator:** Harvard University
@@ -50,7 +50,7 @@ One of the most in-depth introductory courses to AI at the university level. It 
 * **Time:** ~16 hours
 * **🔗 Link:** https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python
 
-### AI for Beginners
+#### AI for Beginners
 A complete curriculum consisting of 12 lessons, 24 labs, and real-world projects. This course offers a comprehensive introduction to AI, allowing participants to gain practical skills by working on real projects.
 
 * **Creator:** Microsoft
@@ -58,7 +58,7 @@ A complete curriculum consisting of 12 lessons, 24 labs, and real-world projects
 * **What you'll learn:** A full curriculum in 12 lessons: from neurons to NLP + 24 labs.
 * **🔗 Link:** https://github.com/microsoft/AI-For-Beginners
 
-### Machine Learning with Python
+#### Machine Learning with Python
 Part of a professional AI certificate. This course focuses on supervised and unsupervised learning, as well as real-world use cases. It's a great opportunity to learn how to apply machine learning techniques in practice.
 
 * **Creator:** IBM (on Coursera)
@@ -66,7 +66,7 @@ Part of a professional AI certificate. This course focuses on supervised and uns
 * **Time:** ~16 hours
 * **🔗 Link:** https://www.coursera.org/learn/machine-learning-with-python
 
-### Prompt Engineering for AI Models
+#### Prompt Engineering for AI Models
 Created in collaboration with leading AI researchers, this course teaches you how to create better prompts for real-world applications. It's a unique opportunity to learn how to effectively communicate with large language models and generative AI systems.
 
 * **Creator:** DeepLearning.AI (Andrew Ng)
@@ -74,7 +74,7 @@ Created in collaboration with leading AI researchers, this course teaches you ho
 * **What you'll learn:** How to effectively create prompts for specific tasks.
 * **🔗 Link:** https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
 
-### AI for Everyone
+#### AI for Everyone
 A non-technical course that helps you understand how to think about and work with AI. It is an excellent choice for people who want to understand the impact of AI on business and society, without getting into the technical details.
 
 * **Creator:** Andrew Ng (Stanford) on Coursera
@@ -83,7 +83,7 @@ A non-technical course that helps you understand how to think about and work wit
 * **Time:** ~16 hours
 * **🔗 Link:** https://www.coursera.org/learn/ai-for-everyone
 
-### AI Fundamentals
+#### AI Fundamentals
 Part of a series of AI certificates for beginners, including quizzes and badges. This course offers an introduction to fundamental AI concepts, allowing participants to earn a certificate that confirms their skills.
 
 * **Creator:** IBM (on Coursera)

@@ -2,7 +2,7 @@
 Prepare For A Sales Call
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have a [call type] with [prospect].
+I have a [call type] with [prospect].
 
 ### Prompt
 ```text

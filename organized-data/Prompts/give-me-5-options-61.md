@@ -2,7 +2,7 @@
 Give Me 5 Options. 61
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Give me 5 options.
+Give me 5 options.
 
 ### Prompt
 ```text

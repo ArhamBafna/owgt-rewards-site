@@ -2,7 +2,7 @@
 Diagnose Why Something Isn'T Working
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is what I was expecting to happen: [describe].
+Here is what I was expecting to happen: [describe].
 
 ### Prompt
 ```text

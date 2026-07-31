@@ -2,7 +2,7 @@
 Create A Meeting Agenda
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have a [type of meeting] coming up with [attendees].
+I have a [type of meeting] coming up with [attendees].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Objection Response
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a response to this sales objection: [quote objection].
+Write a response to this sales objection: [quote objection].
 
 ### Prompt
 ```text

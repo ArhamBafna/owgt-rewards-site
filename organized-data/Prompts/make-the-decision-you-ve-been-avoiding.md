@@ -2,7 +2,7 @@
 Make The Decision You'Ve Been Avoiding
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I've been avoiding a decision about [topic].
+I've been avoiding a decision about [topic].
 
 ### Prompt
 ```text

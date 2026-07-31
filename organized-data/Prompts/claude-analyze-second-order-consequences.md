@@ -2,7 +2,7 @@
 Analyze Second-Order Consequences
 
 ### Description
-A ready-to-use prompt that instructs the AI to: If [decision or event], what are the second and third-order
+If [decision or event], what are the second and third-order
 consequences for my business?
 
 ### Prompt

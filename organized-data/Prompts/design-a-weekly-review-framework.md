@@ -2,7 +2,7 @@
 Design A Weekly Review Framework
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Design a weekly review framework for a founder at a [stage]
+Design a weekly review framework for a founder at a [stage]
 company.
 
 ### Prompt

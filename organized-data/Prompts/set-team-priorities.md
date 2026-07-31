@@ -2,7 +2,7 @@
 Set Team Priorities
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My team of [describe] has the following competing demands: [list].
+My team of [describe] has the following competing demands: [list].
 
 ### Prompt
 ```text

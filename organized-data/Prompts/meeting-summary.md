@@ -2,7 +2,7 @@
 Meeting Summary
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Summarize this meeting transcript into: key decisions, action items (with owners), open questions.
+Summarize this meeting transcript into: key decisions, action items (with owners), open questions.
 
 ### Prompt
 ```text

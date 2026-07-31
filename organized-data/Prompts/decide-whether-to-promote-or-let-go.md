@@ -2,7 +2,7 @@
 Decide Whether To Promote Or Let Go
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm facing a decision about [role]: whether to promote/invest
+I'm facing a decision about [role]: whether to promote/invest
 further or move on.
 
 ### Prompt

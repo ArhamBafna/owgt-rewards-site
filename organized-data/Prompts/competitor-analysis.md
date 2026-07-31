@@ -2,7 +2,7 @@
 Competitor Analysis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Analyze the positioning of [competitor/brand].
+Analyze the positioning of [competitor/brand].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Post-Mortem Framework
 
 ### Description
-A ready-to-use prompt that instructs the AI to: A project, initiative, or quarter did not go as planned.
+A project, initiative, or quarter did not go as planned.
 
 ### Prompt
 ```text

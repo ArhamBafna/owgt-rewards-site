@@ -2,7 +2,7 @@
 Build A Decision Matrix
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I need to decide between [list options] using these criteria:
+I need to decide between [list options] using these criteria:
 [list criteria].
 
 ### Prompt

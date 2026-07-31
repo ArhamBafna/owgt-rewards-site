@@ -2,7 +2,7 @@
 Pressure-Test A Strategy
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Act as a rigorous strategic critic.
+Act as a rigorous strategic critic.
 
 ### Prompt
 ```text

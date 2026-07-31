@@ -2,7 +2,7 @@
 Meeting Effectiveness Audit
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am going to describe our current meeting culture and
+I am going to describe our current meeting culture and
 structure.
 
 ### Prompt

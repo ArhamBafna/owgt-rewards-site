@@ -2,7 +2,7 @@
 Identify The Root Cause
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here's a recurring problem: [describe].
+Here's a recurring problem: [describe].
 
 ### Prompt
 ```text

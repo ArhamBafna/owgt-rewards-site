@@ -2,7 +2,7 @@
 Apply First Principles Thinking
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Everyone in [industry/domain] assumes that [describe a common
+Everyone in [industry/domain] assumes that [describe a common
 assumption].
 
 ### Prompt

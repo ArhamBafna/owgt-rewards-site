@@ -2,7 +2,7 @@
 Analyze Second-Order Consequences
 
 ### Description
-A ready-to-use prompt that instructs the AI to: If [decision], what happens next?
+If [decision], what happens next?
 
 ### Prompt
 ```text

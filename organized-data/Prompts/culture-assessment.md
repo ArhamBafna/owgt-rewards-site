@@ -2,7 +2,7 @@
 Culture Assessment
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Help me assess the current state of our organisational
+Help me assess the current state of our organisational
 culture.
 
 ### Prompt

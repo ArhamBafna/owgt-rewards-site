@@ -2,7 +2,7 @@
 Build $10,000 Websites with AI Opus 5
 
 ### Description
-A guide on using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.
+Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.
 
 ### Content
 
@@ -13,7 +13,7 @@ AI Code running in the desktop app.
 
 Higgsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.
 
-### Connecting Higgsfield
+#### Connecting Higgsfield
 1. Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates
 2. Copy the MCP URL
 3. In AI Code: Connectors -> Add custom connector
@@ -22,14 +22,14 @@ Higgsfield MCP for visuals, which gives the AI direct access to image and video 
 
 Done. No API keys.
 
-### Confirm it worked
+#### Confirm it worked
 Before starting a build prompt, run this:
 
 > List the Higgsfield MCP tools you have access to.
 
 If it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder.
 
-### Which model
+#### Which model
 Use AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.
 
 ---
@@ -149,7 +149,7 @@ Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
 ```
 
-### Why this prompt works
+#### Why this prompt works
 - **Assets before code.** The site is designed around real images instead of AI guessing at layout and backfilling. This ordering decision improves overall build quality.
 - **One master asset, everything derived from it.** The six interiors are generated image-to-image from the exterior, not independently. This maintains consistent lighting and style.
 - **Detail is spent unevenly on purpose.** The drone reveal gets a full page of specific direction, while everything else stays concise. Be precise where the main mechanic lives.
@@ -160,14 +160,14 @@ Prioritize visual impact over everything.
 ## 3. Iteration Prompts
 The first output is a starting point, and iterating makes the final result stand out.
 
-### Pass one: parallax
+#### Pass one: parallax
 ```text
 Add a parallax scroll effect to the hero: background moving at a different rate
 to the foreground as you scroll down the page.
 ```
 This single addition helps make the site look polished.
 
-### Pass two: the construction timelapse
+#### Pass two: the construction timelapse
 ```text
 Add a timelapse section showing the estate being built: the structure rising out
 of the ground and the property taking shape.
@@ -178,7 +178,7 @@ Play it on scroll-into-view, not scroll-scrubbed.
 ```
 Takes roughly four minutes end to end, creating a clean feature for the site.
 
-### Other iteration prompts worth keeping
+#### Other iteration prompts worth keeping
 ```text
 Make the hero type larger and tighter. Reduce the line height. Increase the
 contrast between the display and body sizes.
@@ -201,7 +201,7 @@ Running that last prompt helps ensure proper layout alignment across the page.
 ## 4. Build Two: Nacho Macho
 Same workflow, different aesthetic. This shows the workflow works across varied styles.
 
-### The flavour system
+#### The flavour system
 | # | Name | Colour | Note |
 |---|---|---|---|
 | 01 | Nacho Classico | `#F5A623` | golden, the original |
@@ -211,7 +211,7 @@ Same workflow, different aesthetic. This shows the workflow works across varied 
 
 One colour per flavour. The main design system builds directly from this table.
 
-### The prompt
+#### The prompt
 ```text
 Build a fully animated marketing site for NACHO MACHO: a small-batch tortilla chip
 brand. Tagline: *Loud snack. No apologies.*
@@ -482,7 +482,7 @@ Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
 ```
 
-### Guidance
+#### Guidance
 - **The master asset is central.** Spend time refining it, as other images inherit its lighting and style.
 - **Pick one main feature.** Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.
 - **Banned words improve copy.** Setting clear negative constraints on overused words keeps the tone natural.

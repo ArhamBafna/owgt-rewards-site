@@ -2,7 +2,7 @@
 Get Devil'S Advocate Feedback
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have decided to [decision].
+I have decided to [decision].
 
 ### Prompt
 ```text

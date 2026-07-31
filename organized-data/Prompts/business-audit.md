@@ -2,7 +2,7 @@
 Business Audit
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I run a [describe business].
+I run a [describe business].
 
 ### Prompt
 ```text

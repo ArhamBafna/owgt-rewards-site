@@ -2,7 +2,7 @@
 Draft A Product Announcement
 
 ### Description
-A ready-to-use prompt that instructs the AI to: We are launching [feature or product].
+We are launching [feature or product].
 
 ### Prompt
 ```text

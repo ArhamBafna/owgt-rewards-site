@@ -2,7 +2,7 @@
 Research Synthesis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have gathered the following research or data on [topic].
+I have gathered the following research or data on [topic].
 
 ### Prompt
 ```text

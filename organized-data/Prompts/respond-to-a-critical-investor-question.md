@@ -2,7 +2,7 @@
 Respond To A Critical Investor Question
 
 ### Description
-A ready-to-use prompt that instructs the AI to: An investor asked me: [question].
+An investor asked me: [question].
 
 ### Prompt
 ```text

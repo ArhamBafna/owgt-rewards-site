@@ -2,7 +2,7 @@
 Evaluate A New Opportunity
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is an opportunity I'm considering: [describe].
+Here is an opportunity I'm considering: [describe].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Email Reply
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Draft a reply to this email: [paste email].
+Draft a reply to this email: [paste email].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Write A Company Announcement
 
 ### Description
-A ready-to-use prompt that instructs the AI to: We need to announce [news] to [audience: team / customers /
+We need to announce [news] to [audience: team / customers /
 investors / public].
 
 ### Prompt

@@ -2,7 +2,7 @@
 Decide On Organizational Structure
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm considering reorganizing [describe current structure] to
+I'm considering reorganizing [describe current structure] to
 [describe proposed structure].
 
 ### Prompt

@@ -2,7 +2,7 @@
 Prioritize A Product Backlog
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is our current product backlog: [list features or requests].
+Here is our current product backlog: [list features or requests].
 
 ### Prompt
 ```text

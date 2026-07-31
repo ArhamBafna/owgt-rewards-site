@@ -2,7 +2,7 @@
 Onboarding Program Design
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Design a 30-60-90 day onboarding program for [role].
+Design a 30-60-90 day onboarding program for [role].
 
 ### Prompt
 ```text

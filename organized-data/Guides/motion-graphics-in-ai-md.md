@@ -12,11 +12,11 @@ Create custom, high-quality motion graphics directly inside your AI workspace us
 
 ## Quick Start
 
-### What You Need
+#### What You Need
 - **Higgsfield AI Account:** Sign up on their site.
 - **AI Tool / Coding Assistant:** Fitted with custom Higgsfield MCP connector.
 
-### 3-Step Workflow
+#### 3-Step Workflow
 1. **Generate Prompt:** Describe style and topic to main AI Chat.
 2. **Build with AI Coding Assistant:** Paste prompt into AI Coding Assistant. Tell it "Build it".
 3. **Save Output:** Get final video folder.
@@ -38,7 +38,7 @@ MCP setup done. Image and video models now ready inside AI Coding Assistant.
 
 Use template inside main AI Chat. Fill in brackets to make prompt for AI Coding Assistant.
 
-### Master Prompt Generator
+#### Master Prompt Generator
 
 ```text
 You are writing a single, self-contained build prompt that I will paste into my AI Coding Assistant, which has the Higgsfield MCP connected. The AI will use that prompt to generate a complete narrated motion-graphics video end to end.
@@ -87,24 +87,24 @@ Output the build prompt only. No preamble, no explanation, no commentary. I am p
 
 Drop recipes into `VISUAL STYLE:` field in generator.
 
-### Vox-Style Paper Cutout
+#### Vox-Style Paper Cutout
 Paper-cutout collage. Old photos with coarse halftone dots, rough paper edges, soft drop shadow. Elements look like real layers. Hand-drawn arrows in one accent color. Flat muted background, warm paper texture. Data shown as cut-paper bar charts and dotted maps. Text: bold condensed sans, lowercase. Camera: slow 2D pushes and slides. Elements snap in on beat. No 3D, no gradients, no lens flares, no glow.
 
-### Bright Cartoon
+#### Bright Cartoon
 Bright cartoon. Thick outlines, flat colors, high saturation: orange, teal, pink, yellow on clean light background. Round friendly characters, exaggerated shapes. Bouncy motion with squash, stretch, overshoot. Text: chunky round sans. Camera: fast whip transitions, pop-in reveals, bounce on settle. No realistic textures, no dark colors, no slow moves.
 
-### Whiteboard Doodle
+#### Whiteboard Doodle
 Whiteboard doodle. Clean white board, black dry-erase marker with wobble and variable line weight, drawn on live. One or two accent marker colors for arrows. Simple stick figures and box diagrams. Text: hand-written marker style. Camera: slow pans across wide board, pushes on details. No extra color fills, no photos, no gradients.
 
-### Pixel Art
+#### Pixel Art
 Pixel art, 16-bit style. Fixed pixel grid, zero sub-pixel movement. 16 color limit. Dithering for shading. Readable sprites. Text: bitmap font, pixel-perfect, no anti-aliasing. Motion: low frame rate step animation. Camera: hard cuts, grid scrolls. No smooth motion, no modern effects.
 
-### Isometric Flat Vector
+#### Isometric Flat Vector
 Isometric flat vector. 30-degree isometric view across all shots. Flat colors with soft shadows, no gradients. Muted palette: dusty blue, soft coral, warm grey, one main accent color. Buildings, devices built as blocks. Text: clean geometric sans. Camera: slow isometric drift. No perspective distortion, no complex lighting.
 
 ---
 
-### Custom Style Interrogator Prompt
+#### Custom Style Interrogator Prompt
 
 Not sure about visual style? Run prompt in main AI Chat first:
 
@@ -128,7 +128,7 @@ After making prompt in AI Chat, run command in AI Coding Assistant:
 Take that prompt and build it.
 ```
 
-### Advanced Command (More Control)
+#### Advanced Command (More Control)
 ```bash
 Take that prompt and build it. Before generating anything, show me the shot list and wait for my approval. Then generate all shots, lock the style reference across every one, generate the voiceover, time the blocks so audio and visuals land together, and write the finished project plus every individual asset to ./[project-name]/
 ```
@@ -137,12 +137,12 @@ Take that prompt and build it. Before generating anything, show me the shot list
 
 ## Part 5: Extra Workflows
 
-### Language Translation
+#### Language Translation
 ```text
 Make a version of this video in Spanish. Regenerate the voiceover with a native-sounding delivery in the same tone and pace as the original, retime the blocks to fit the new audio length, translate all on-screen text and re-render the affected shots, and keep the visual style byte-for-byte identical. Write it to ./[project-name]-es/
 ```
 
-### Motion Graphic Overlays
+#### Motion Graphic Overlays
 ```text
 I need individual motion-graphic elements to composite over footage I already recorded. Not a full video.
 
@@ -156,7 +156,7 @@ Generate these as standalone assets with transparent backgrounds where possible:
 For each: specify duration, output at 1080p or higher, and write to ./elements/ with descriptive filenames.
 ```
 
-### Product Explainer Video
+#### Product Explainer Video
 ```text
 Build a product explainer video.
 
@@ -169,7 +169,7 @@ VISUAL STYLE: [paste a style recipe]
 Structure: open on the problem as the audience experiences it, show the mechanism of the solution visually rather than describing it, close on the outcome. No feature lists. Every claim marked [FACT] for my verification.
 ```
 
-### Course Lesson Video
+#### Course Lesson Video
 ```text
 Build a course lesson video.
 
@@ -186,7 +186,7 @@ Structure it around the one thing learners typically get wrong about this concep
 
 ## Part 6: Two Big Mistakes
 
-### Mistake 1: Fact Check After Render
+#### Mistake 1: Fact Check After Render
 Text and numbers on screen look authoritative. Wrong numbers mean re-rendering whole shots. Check facts first.
 
 **Pre-Render Fact-Check Prompt:**
@@ -200,7 +200,7 @@ Be blunt. I'd rather kill a claim now than regenerate a shot later.
 [paste script]
 ```
 
-### Mistake 2: Using Default Stock Presets
+#### Mistake 2: Using Default Stock Presets
 Presets make videos look generic. Use **Custom Style Interrogator** to build unique look.
 
 ---

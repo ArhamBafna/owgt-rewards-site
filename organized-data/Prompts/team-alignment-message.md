@@ -2,7 +2,7 @@
 Team Alignment Message
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My team is showing signs of misalignment around [describe the
+My team is showing signs of misalignment around [describe the
 issue].
 
 ### Prompt

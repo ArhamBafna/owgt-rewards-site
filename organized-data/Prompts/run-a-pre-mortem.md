@@ -2,7 +2,7 @@
 Run A Pre-Mortem
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am about to commit to [decision or project].
+I am about to commit to [decision or project].
 
 ### Prompt
 ```text

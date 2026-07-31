@@ -12,10 +12,10 @@ Turn raw video clips into captioned, scored, motion-graphic edited final videos 
 
 ## Overview
 
-### What You Are Building
+#### What You Are Building
 A single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.
 
-### How It Works
+#### How It Works
 - `video-use`: Free open-source skill that reads transcript, finds cut points, and runs the main edit.
 - `HyperFrames`: Code-based graphic generator called by `video-use` when visual elements are needed. You only talk to `video-use`.
 
@@ -32,7 +32,7 @@ A single AI setup that takes a raw clip and outputs a captioned, scored, motion-
 
 ## Workflow
 
-### 1. Rough Cut
+#### 1. Rough Cut
 Put raw video into project folder and prompt:
 "Start new project for raw clip and make rough cut."
 
@@ -47,7 +47,7 @@ Fix-it prompts:
 
 ---
 
-### 2. Graphics
+#### 2. Graphics
 Open new chat for graphics phase and prompt:
 "Plan motion graphic for each segment, then build."
 
@@ -60,7 +60,7 @@ Each tweak only re-renders affected section.
 
 ---
 
-### 3. Captions
+#### 3. Captions
 Prompt:
 "Add captions using existing transcript."
 
@@ -68,13 +68,13 @@ Generated using existing Scribe timestamps.
 
 ---
 
-### 4. Music
+#### 4. Music
 Point AI to audio file and set volume level (recommended **-22 to -23 dB** for background voice balance):
 "Add background music using this track at -22 dB."
 
 ---
 
-### 5. Export
+#### 5. Export
 Prompt:
 "Export final video."
 

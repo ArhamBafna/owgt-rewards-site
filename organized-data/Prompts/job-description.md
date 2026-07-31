@@ -2,7 +2,7 @@
 Job Description
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a job description for a [role] at my business.
+Write a job description for a [role] at my business.
 
 ### Prompt
 ```text

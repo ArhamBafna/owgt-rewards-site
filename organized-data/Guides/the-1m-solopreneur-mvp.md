@@ -2,7 +2,7 @@
 The $1M Solopreneur MVP
 
 ### Description
-Guide on building a minimal viable product for solopreneurs.
+Building a minimal viable product for solopreneurs.
 
 ### URL
 https://docs.google.com/document/d/1zI2ya7sDv8ycXmOzPO_aOS8-dNEwDoow14q_rrs_aU4/edit

@@ -2,7 +2,7 @@
 - **Stack
 
 ### Description
-A ready-to-use prompt that instructs the AI to: ** React 19, Tailwind CSS v3.4.17, GSAP 3 (with ScrollTrigger plugin), Lucide React for icons.
+** React 19, Tailwind CSS v3.4.17, GSAP 3 (with ScrollTrigger plugin), Lucide React for icons.
 
 ### Prompt
 ```text

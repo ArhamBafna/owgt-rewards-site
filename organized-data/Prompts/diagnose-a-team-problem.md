@@ -2,7 +2,7 @@
 Diagnose A Team Problem
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My team of [size] is experiencing [symptoms].
+My team of [size] is experiencing [symptoms].
 
 ### Prompt
 ```text

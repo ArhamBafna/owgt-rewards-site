@@ -2,7 +2,7 @@
 Prepare For A Board Meeting
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have a board meeting in [timeframe].
+I have a board meeting in [timeframe].
 
 ### Prompt
 ```text

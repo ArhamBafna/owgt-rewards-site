@@ -2,7 +2,7 @@
 Kpi Framework Design
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I need to design a KPI framework for [team/function].
+I need to design a KPI framework for [team/function].
 
 ### Prompt
 ```text

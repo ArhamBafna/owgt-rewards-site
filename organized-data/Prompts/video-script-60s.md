@@ -2,7 +2,7 @@
 Video Script (60s)
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a 60-second video script about [topic].
+Write a 60-second video script about [topic].
 
 ### Prompt
 ```text

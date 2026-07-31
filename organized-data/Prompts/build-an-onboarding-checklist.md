@@ -2,7 +2,7 @@
 Build An Onboarding Checklist
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm onboarding a new [role].
+I'm onboarding a new [role].
 
 ### Prompt
 ```text

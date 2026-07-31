@@ -2,7 +2,7 @@
 Write A Diplomatic Response To
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a diplomatic response to this difficult email without being defensive or agreeable to things I...
+Write a diplomatic response to this difficult email without being defensive or agreeable to things I...
 
 ### Prompt
 ```text

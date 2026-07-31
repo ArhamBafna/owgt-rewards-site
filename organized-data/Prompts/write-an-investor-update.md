@@ -2,7 +2,7 @@
 Write An Investor Update
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a monthly investor update for a [stage] company.
+Write a monthly investor update for a [stage] company.
 
 ### Prompt
 ```text

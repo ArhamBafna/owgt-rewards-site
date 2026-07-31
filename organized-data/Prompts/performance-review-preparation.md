@@ -2,7 +2,7 @@
 Performance Review Preparation
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I need to deliver a performance review for [role/level].
+I need to deliver a performance review for [role/level].
 
 ### Prompt
 ```text

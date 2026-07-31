@@ -2,7 +2,7 @@
 Write A Partnership Proposal
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I want to propose a partnership with [company].
+I want to propose a partnership with [company].
 
 ### Prompt
 ```text

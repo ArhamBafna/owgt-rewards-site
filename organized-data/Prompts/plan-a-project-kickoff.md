@@ -2,7 +2,7 @@
 Plan A Project Kickoff
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm kicking off [project] with [team].
+I'm kicking off [project] with [team].
 
 ### Prompt
 ```text

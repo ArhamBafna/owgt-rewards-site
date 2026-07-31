@@ -2,7 +2,7 @@
 Run A Competitor Analysis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Analyze [competitor] as a board briefing.
+Analyze [competitor] as a board briefing.
 
 ### Prompt
 ```text

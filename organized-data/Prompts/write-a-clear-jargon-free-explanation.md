@@ -2,7 +2,7 @@
 Write A Clear, Jargon-Free Explanation
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a clear, jargon-free explanation of these metrics for a non-technical executive audience: [pas...
+Write a clear, jargon-free explanation of these metrics for a non-technical executive audience: [pas...
 
 ### Prompt
 ```text

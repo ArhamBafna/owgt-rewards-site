@@ -2,7 +2,7 @@
 Identify Your Biggest Blind Spot
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is how I currently think about [topic, market, product, team,
+Here is how I currently think about [topic, market, product, team,
 growth]: [describe your view].
 
 ### Prompt

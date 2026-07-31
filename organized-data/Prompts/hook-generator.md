@@ -2,7 +2,7 @@
 Hook Generator
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write 5 strong video/post hooks about [topic].
+Write 5 strong video/post hooks about [topic].
 
 ### Prompt
 ```text

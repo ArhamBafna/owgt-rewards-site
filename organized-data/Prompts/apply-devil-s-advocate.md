@@ -2,7 +2,7 @@
 Apply Devil'S Advocate
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My team has converged on the following decision: [describe].
+My team has converged on the following decision: [describe].
 
 ### Prompt
 ```text

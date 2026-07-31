@@ -2,7 +2,7 @@
 All-Hands Talking Points
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am preparing for an all-hands meeting.
+I am preparing for an all-hands meeting.
 
 ### Prompt
 ```text

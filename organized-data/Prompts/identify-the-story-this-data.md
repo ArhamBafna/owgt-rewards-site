@@ -2,7 +2,7 @@
 Identify The Story This Data
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Identify the story this data is telling.
+Identify the story this data is telling.
 
 ### Prompt
 ```text

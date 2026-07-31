@@ -2,7 +2,7 @@
 Three-Scenario Planning
 
 ### Description
-A ready-to-use prompt that instructs the AI to: For [this strategic initiative or decision], help me build
+For [this strategic initiative or decision], help me build
 three planning scenarios: a base case, an...
 
 ### Prompt

@@ -2,7 +2,7 @@
 Data Story Narrative
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I have the following data to present to [describe your
+I have the following data to present to [describe your
 audience]: [paste in or describe your data].
 
 ### Prompt

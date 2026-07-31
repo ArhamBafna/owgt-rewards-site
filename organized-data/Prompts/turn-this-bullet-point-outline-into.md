@@ -2,7 +2,7 @@
 Turn This Bullet-Point Outline Into
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Turn this bullet-point outline into a polished first draft, maintaining a professional but conversat...
+Turn this bullet-point outline into a polished first draft, maintaining a professional but conversat...
 
 ### Prompt
 ```text

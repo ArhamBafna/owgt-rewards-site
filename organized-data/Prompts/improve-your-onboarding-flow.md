@@ -2,7 +2,7 @@
 Improve Your Onboarding Flow
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Our onboarding works like this: [describe].
+Our onboarding works like this: [describe].
 
 ### Prompt
 ```text

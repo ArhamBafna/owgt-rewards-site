@@ -2,7 +2,7 @@
 Decide Whether To Pivot Or Stay The Course
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I need to decide whether to pivot or stay the course on [describe
+I need to decide whether to pivot or stay the course on [describe
 current direction].
 
 ### Prompt

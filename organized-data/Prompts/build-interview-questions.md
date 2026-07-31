@@ -2,7 +2,7 @@
 Build Interview Questions
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm interviewing for a [role].
+I'm interviewing for a [role].
 
 ### Prompt
 ```text

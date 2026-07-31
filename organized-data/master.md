@@ -1,15 +1,20 @@
 # Master Index
 
+This index is automatically generated.
+
 ## Cheat Sheets
+
 - [ChatGPT & AI Cheatsheet](Cheat Sheets/chatgpt-and-ai-cheatsheet.md)
 - [Mobile App Growth Cheat Sheet](Cheat Sheets/mobile-app-growth-cheat-sheet.md)
 
 ## Frameworks
+
 - [Fabric (Daniel Miessler)](Frameworks/fabric.md)
 - [llm-wiki (Karpathy Gist)](Frameworks/llm-wiki.md)
 - [Taste Skill](Frameworks/taste-skill.md)
 
 ## Guides
+
 - [$1M Attention](Guides/1m-attention.md)
 - [39 Claude Skills Examples](Guides/39-claude-skills-examples.md)
 - [5 AI Businesses to Make $1M (With Zero Employees)](Guides/5-ai-businesses-to-make-1m.md)
@@ -36,6 +41,7 @@
 - [Which Model Should I Use? (Field Guide)](Guides/which-model-should-i-use.md)
 
 ## Learning
+
 - [AI AGENT COORDINATION](Learning/ai-agent-coordination.md)
 - [AI COMPETITIVE INTELLIGENCE](Learning/ai-competitive-intelligence.md)
 - [AI CRM AND PIPELINE MANAGEMENT](Learning/ai-crm-and-pipeline-management.md)
@@ -60,6 +66,7 @@
 - [PROMPT ENGINEERING](Learning/prompt-engineering.md)
 
 ## Prompts
+
 - [**Execution Directive](Prompts/execution-directive.md)
 - [- **Stack](Prompts/stack.md)
 - [- Time of day / light](Prompts/time-of-day-light.md)
@@ -214,6 +221,7 @@
 - [Write An Investor Update](Prompts/write-an-investor-update.md)
 
 ## Resources
+
 - [21st.dev](Resources/21stdev.md)
 - [AI Tool Index](Resources/ai-tool-index.md)
 - [App Ideas](Resources/app-ideas.md)
@@ -230,10 +238,12 @@
 - [Uiverse](Resources/uiverse.md)
 
 ## Templates
+
 - [HubSpot Full-Stack AI Marketing Toolkit](Templates/hubspot-full-stack-ai-marketing-toolkit.md)
 - [Marketing Against the Grain Newsletter Template](Templates/marketing-against-the-grain-newsletter-template.md)
 
 ## Tools
+
 - [AnimeJS](Tools/animejs.md)
 - [Antigravity IDE & Suite](Tools/antigravity.md)
 - [Apollo.Io](Tools/apollo-io.md)

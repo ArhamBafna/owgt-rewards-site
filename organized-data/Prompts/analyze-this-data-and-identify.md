@@ -2,7 +2,7 @@
 Analyze This Data And Identify
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Analyze this data and identify the top 3 trends, 2 anomalies, and 1 key recommendation: [paste data]
+Analyze this data and identify the top 3 trends, 2 anomalies, and 1 key recommendation: [paste data]
 
 ### Prompt
 ```text

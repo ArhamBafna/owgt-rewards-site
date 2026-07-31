@@ -2,7 +2,7 @@
 Draft A Weekly Update To Your Team
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Draft a weekly update for my team at a [stage] company.
+Draft a weekly update for my team at a [stage] company.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Write A Cold Outreach Email
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a cold outreach email to a [role] at a [type of company].
+Write a cold outreach email to a [role] at a [type of company].
 
 ### Prompt
 ```text

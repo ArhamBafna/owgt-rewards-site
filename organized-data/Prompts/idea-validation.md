@@ -2,7 +2,7 @@
 Idea Validation
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I want to [describe idea/project].
+I want to [describe idea/project].
 
 ### Prompt
 ```text

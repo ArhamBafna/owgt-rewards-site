@@ -2,7 +2,7 @@
 Assess An Acquisition Or Partnership
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm considering [acquisition/partnership] with [describe the
+I'm considering [acquisition/partnership] with [describe the
 opportunity].
 
 ### Prompt

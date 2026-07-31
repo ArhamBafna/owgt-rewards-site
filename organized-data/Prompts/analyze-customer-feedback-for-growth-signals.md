@@ -2,7 +2,7 @@
 Analyze Customer Feedback For Growth Signals
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Here is customer feedback I've collected: [paste].
+Here is customer feedback I've collected: [paste].
 
 ### Prompt
 ```text

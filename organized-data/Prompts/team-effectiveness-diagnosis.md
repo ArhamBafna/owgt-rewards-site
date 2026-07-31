@@ -2,7 +2,7 @@
 Team Effectiveness Diagnosis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: My team is facing the following challenges: [describe the
+My team is facing the following challenges: [describe the
 symptoms].
 
 ### Prompt

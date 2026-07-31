@@ -2,7 +2,7 @@
 Draft An Executive Summary
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a one-page executive summary for [company].
+Write a one-page executive summary for [company].
 
 ### Prompt
 ```text

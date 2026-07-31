@@ -2,7 +2,7 @@
 Build A Project Risk Assessment
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am about to start [project].
+I am about to start [project].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Generate Feature Ideas From Complaints
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Our most common customer complaints: [list].
+Our most common customer complaints: [list].
 
 ### Prompt
 ```text

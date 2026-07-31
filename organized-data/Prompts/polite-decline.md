@@ -2,7 +2,7 @@
 Polite Decline
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Decline this request politely: [describe request].
+Decline this request politely: [describe request].
 
 ### Prompt
 ```text

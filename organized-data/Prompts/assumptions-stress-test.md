@@ -2,7 +2,7 @@
 Assumptions Stress Test
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am going to share a strategy or plan.
+I am going to share a strategy or plan.
 
 ### Prompt
 ```text

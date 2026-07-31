@@ -2,7 +2,7 @@
 Employee Engagement Analysis
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am going to share results from an employee engagement survey
+I am going to share results from an employee engagement survey
 or feedback data.
 
 ### Prompt

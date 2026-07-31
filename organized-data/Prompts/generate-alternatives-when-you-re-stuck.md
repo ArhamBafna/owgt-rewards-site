@@ -2,7 +2,7 @@
 Generate Alternatives When You'Re Stuck
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I've been trying to solve [problem] by [current approach] and it's
+I've been trying to solve [problem] by [current approach] and it's
 not working.
 
 ### Prompt

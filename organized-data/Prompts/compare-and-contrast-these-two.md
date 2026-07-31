@@ -2,7 +2,7 @@
 Compare And Contrast These Two
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Compare and contrast these two options across cost, time, risk, and impact.
+Compare and contrast these two options across cost, time, risk, and impact.
 
 ### Prompt
 ```text

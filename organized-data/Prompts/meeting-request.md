@@ -2,7 +2,7 @@
 Meeting Request
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a brief meeting request to [name] about [topic].
+Write a brief meeting request to [name] about [topic].
 
 ### Prompt
 ```text

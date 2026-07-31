@@ -2,7 +2,7 @@
 Build A User Interview Question Set
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I'm interviewing [customer type] to understand [topic].
+I'm interviewing [customer type] to understand [topic].
 
 ### Prompt
 ```text

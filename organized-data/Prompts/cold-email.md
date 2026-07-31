@@ -2,7 +2,7 @@
 Cold Email
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Write a cold email to [name], [role] at [company].
+Write a cold email to [name], [role] at [company].
 
 ### Prompt
 ```text

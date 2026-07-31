@@ -2,7 +2,7 @@
 Act As A Skeptical Senior
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Act as a skeptical senior executive.
+Act as a skeptical senior executive.
 
 ### Prompt
 ```text

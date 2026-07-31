@@ -2,7 +2,7 @@
 Challenge An Assumption
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am operating under the assumption that [state assumption].
+I am operating under the assumption that [state assumption].
 
 ### Prompt
 ```text

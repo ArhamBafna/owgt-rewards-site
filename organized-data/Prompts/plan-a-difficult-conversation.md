@@ -2,7 +2,7 @@
 Plan A Difficult Conversation
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I need to have a conversation with [person in role] about [issue].
+I need to have a conversation with [person in role] about [issue].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Create A Project Kickoff Checklist
 
 ### Description
-A ready-to-use prompt that instructs the AI to: Create a project kickoff checklist for a team launching [project]
+Create a project kickoff checklist for a team launching [project]
 
 ### Prompt
 ```text

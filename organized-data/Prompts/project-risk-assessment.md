@@ -2,7 +2,7 @@
 Project Risk Assessment
 
 ### Description
-A ready-to-use prompt that instructs the AI to: I am about to kick off [project name and description].
+I am about to kick off [project name and description].
 
 ### Prompt
 ```text
