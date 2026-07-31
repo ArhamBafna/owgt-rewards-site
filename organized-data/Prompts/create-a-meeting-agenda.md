@@ -1,8 +1,8 @@
 ### Name
-Create a Meeting Agenda
+Create A Meeting Agenda
 
 ### Description
-A powerful prompt to create a meeting agenda.
+A ready-to-use prompt that instructs the AI to: I have a [type of meeting] coming up with [attendees].
 
 ### Prompt
 ```text

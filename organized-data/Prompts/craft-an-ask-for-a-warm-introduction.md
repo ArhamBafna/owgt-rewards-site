@@ -1,8 +1,8 @@
 ### Name
-Craft an Ask for a Warm Introduction
+Craft An Ask For A Warm Introduction
 
 ### Description
-A powerful prompt to craft an ask for a warm introduction.
+A ready-to-use prompt that instructs the AI to: I want [person] to introduce me to [target].
 
 ### Prompt
 ```text

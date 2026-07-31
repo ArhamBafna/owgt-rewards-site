@@ -1,8 +1,8 @@
 ### Name
-Identify the Real Bottleneck
+Identify The Real Bottleneck
 
 ### Description
-A powerful prompt to identify the real bottleneck.
+A ready-to-use prompt that instructs the AI to: Here is the system or process I'm trying to improve: [describe].
 
 ### Prompt
 ```text

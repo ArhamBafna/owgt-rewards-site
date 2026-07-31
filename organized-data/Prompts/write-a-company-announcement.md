@@ -1,8 +1,9 @@
 ### Name
-Write a Company Announcement
+Write A Company Announcement
 
 ### Description
-A powerful prompt to write a company announcement.
+A ready-to-use prompt that instructs the AI to: We need to announce [news] to [audience: team / customers /
+investors / public].
 
 ### Prompt
 ```text

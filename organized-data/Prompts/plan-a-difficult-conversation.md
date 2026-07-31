@@ -1,8 +1,8 @@
 ### Name
-Plan a Difficult Conversation
+Plan A Difficult Conversation
 
 ### Description
-A powerful prompt to plan a difficult conversation.
+A ready-to-use prompt that instructs the AI to: I need to have a conversation with [person in role] about [issue].
 
 ### Prompt
 ```text

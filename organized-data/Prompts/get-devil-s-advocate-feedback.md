@@ -1,8 +1,8 @@
 ### Name
-Get Devil's Advocate Feedback
+Get Devil'S Advocate Feedback
 
 ### Description
-A powerful prompt to get devil's advocate feedback.
+A ready-to-use prompt that instructs the AI to: I have decided to [decision].
 
 ### Prompt
 ```text

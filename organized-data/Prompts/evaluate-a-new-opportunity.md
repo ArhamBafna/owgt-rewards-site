@@ -1,8 +1,8 @@
 ### Name
-Evaluate a New Opportunity
+Evaluate A New Opportunity
 
 ### Description
-A powerful prompt to evaluate a new opportunity.
+A ready-to-use prompt that instructs the AI to: Here is an opportunity I'm considering: [describe].
 
 ### Prompt
 ```text

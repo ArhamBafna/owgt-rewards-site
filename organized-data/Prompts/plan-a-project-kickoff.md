@@ -1,8 +1,8 @@
 ### Name
-Plan a Project Kickoff
+Plan A Project Kickoff
 
 ### Description
-A powerful prompt to plan a project kickoff.
+A ready-to-use prompt that instructs the AI to: I'm kicking off [project] with [team].
 
 ### Prompt
 ```text

@@ -1,8 +1,8 @@
 ### Name
-Make the Decision You've Been Avoiding
+Make The Decision You'Ve Been Avoiding
 
 ### Description
-A powerful prompt to make the decision you've been avoiding.
+A ready-to-use prompt that instructs the AI to: I've been avoiding a decision about [topic].
 
 ### Prompt
 ```text

@@ -1,8 +1,8 @@
 ### Name
-Generate Feature Ideas from Complaints
+Generate Feature Ideas From Complaints
 
 ### Description
-A powerful prompt to generate feature ideas from complaints.
+A ready-to-use prompt that instructs the AI to: Our most common customer complaints: [list].
 
 ### Prompt
 ```text

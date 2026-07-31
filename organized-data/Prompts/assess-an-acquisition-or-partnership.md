@@ -1,8 +1,9 @@
 ### Name
-Assess an Acquisition or Partnership
+Assess An Acquisition Or Partnership
 
 ### Description
-A powerful prompt to assess an acquisition or partnership.
+A ready-to-use prompt that instructs the AI to: I'm considering [acquisition/partnership] with [describe the
+opportunity].
 
 ### Prompt
 ```text

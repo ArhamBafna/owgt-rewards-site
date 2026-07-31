@@ -1,8 +1,8 @@
 ### Name
-Respond to a Critical Investor Question
+Respond To A Critical Investor Question
 
 ### Description
-A powerful prompt to respond to a critical investor question.
+A ready-to-use prompt that instructs the AI to: An investor asked me: [question].
 
 ### Prompt
 ```text

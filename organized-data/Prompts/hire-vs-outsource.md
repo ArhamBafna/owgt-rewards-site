@@ -1,8 +1,8 @@
 ### Name
-Hire vs. Outsource
+Hire Vs. Outsource
 
 ### Description
-A powerful prompt to hire vs. outsource.
+A ready-to-use prompt that instructs the AI to: I need [capability] for [purpose].
 
 ### Prompt
 ```text

@@ -1,8 +1,9 @@
 ### Name
-Build a Decision Matrix
+Build A Decision Matrix
 
 ### Description
-A powerful prompt to build a decision matrix.
+A ready-to-use prompt that instructs the AI to: I need to decide between [list options] using these criteria:
+[list criteria].
 
 ### Prompt
 ```text

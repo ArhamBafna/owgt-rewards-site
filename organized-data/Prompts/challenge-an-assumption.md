@@ -1,8 +1,8 @@
 ### Name
-Challenge an Assumption
+Challenge An Assumption
 
 ### Description
-A powerful prompt to challenge an assumption.
+A ready-to-use prompt that instructs the AI to: I am operating under the assumption that [state assumption].
 
 ### Prompt
 ```text

@@ -1,8 +1,9 @@
 ### Name
-Decide Whether to Pivot or Stay the Course
+Decide Whether To Pivot Or Stay The Course
 
 ### Description
-A powerful prompt to decide whether to pivot or stay the course.
+A ready-to-use prompt that instructs the AI to: I need to decide whether to pivot or stay the course on [describe
+current direction].
 
 ### Prompt
 ```text

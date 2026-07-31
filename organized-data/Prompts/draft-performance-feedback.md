@@ -2,7 +2,8 @@
 Draft Performance Feedback
 
 ### Description
-A powerful prompt to draft performance feedback.
+A ready-to-use prompt that instructs the AI to: I need to give feedback to [role] about [behavior or performance
+issue].
 
 ### Prompt
 ```text

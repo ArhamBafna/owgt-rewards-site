@@ -1,8 +1,9 @@
 ### Name
-Write a Customer Re-Engagement Email
+Write A Customer Re-Engagement Email
 
 ### Description
-A powerful prompt to write a customer re-engagement email.
+A ready-to-use prompt that instructs the AI to: Write an email to [type of customer] who has not engaged with us
+in [timeframe].
 
 ### Prompt
 ```text

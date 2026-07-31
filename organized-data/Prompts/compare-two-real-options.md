@@ -2,7 +2,7 @@
 Compare Two Real Options
 
 ### Description
-A powerful prompt to compare two real options.
+A ready-to-use prompt that instructs the AI to: I need to decide between [Option A] and [Option B].
 
 ### Prompt
 ```text

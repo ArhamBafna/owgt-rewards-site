@@ -2,12 +2,17 @@
 Research Synthesis
 
 ### Description
-A powerful prompt to research synthesis.
+A ready-to-use prompt that instructs the AI to: I have gathered the following research or data on [topic].
 
 ### Prompt
 ```text
-For each finding, tell me how confident we should be in it and what the
-source quality is.
+I have gathered the following research or data on [topic].
+Synthesize it into a briefing of no more than one page
+covering: the three most important findings, what these
+findings mean for our business specifically, the key areas of
+uncertainty or conflicting evidence, and the one or two
+questions that still need to be answered before we can act.
+Research: [paste in your data or notes]
 ```
 
 ### Category

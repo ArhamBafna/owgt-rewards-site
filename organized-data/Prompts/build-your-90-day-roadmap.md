@@ -2,7 +2,7 @@
 Build Your 90-Day Roadmap
 
 ### Description
-A powerful prompt to build your 90-day roadmap.
+A ready-to-use prompt that instructs the AI to: I'm the founder of [company at stage X].
 
 ### Prompt
 ```text

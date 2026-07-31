@@ -1,8 +1,8 @@
 ### Name
-Build a Competitive Battle Card
+Build A Competitive Battle Card
 
 ### Description
-A powerful prompt to build a competitive battle card.
+A ready-to-use prompt that instructs the AI to: Build a battle card for facing [competitor] in a sale.
 
 ### Prompt
 ```text

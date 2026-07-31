@@ -1,8 +1,8 @@
 ### Name
-Diagnose a Team Problem
+Diagnose A Team Problem
 
 ### Description
-A powerful prompt to diagnose a team problem.
+A ready-to-use prompt that instructs the AI to: My team of [size] is experiencing [symptoms].
 
 ### Prompt
 ```text

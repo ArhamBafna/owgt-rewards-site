@@ -2,7 +2,7 @@
 Refine Your Value Proposition
 
 ### Description
-A powerful prompt to refine your value proposition.
+A ready-to-use prompt that instructs the AI to: My current value proposition is: [state it].
 
 ### Prompt
 ```text

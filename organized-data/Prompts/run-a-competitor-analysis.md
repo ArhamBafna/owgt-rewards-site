@@ -1,8 +1,8 @@
 ### Name
-Run a Competitor Analysis
+Run A Competitor Analysis
 
 ### Description
-A powerful prompt to run a competitor analysis.
+A ready-to-use prompt that instructs the AI to: Analyze [competitor] as a board briefing.
 
 ### Prompt
 ```text

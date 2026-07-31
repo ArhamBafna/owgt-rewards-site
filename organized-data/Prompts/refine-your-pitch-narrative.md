@@ -2,7 +2,7 @@
 Refine Your Pitch Narrative
 
 ### Description
-A powerful prompt to refine your pitch narrative.
+A ready-to-use prompt that instructs the AI to: Here is my current pitch narrative: [describe or paste].
 
 ### Prompt
 ```text

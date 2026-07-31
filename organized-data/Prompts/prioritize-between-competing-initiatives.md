@@ -2,7 +2,7 @@
 Prioritize Between Competing Initiatives
 
 ### Description
-A powerful prompt to prioritize between competing initiatives.
+A ready-to-use prompt that instructs the AI to: Here are the strategic initiatives I'm choosing between: [list].
 
 ### Prompt
 ```text

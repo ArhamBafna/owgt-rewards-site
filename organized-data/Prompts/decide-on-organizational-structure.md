@@ -1,8 +1,9 @@
 ### Name
-Decide on Organizational Structure
+Decide On Organizational Structure
 
 ### Description
-A powerful prompt to decide on organizational structure.
+A ready-to-use prompt that instructs the AI to: I'm considering reorganizing [describe current structure] to
+[describe proposed structure].
 
 ### Prompt
 ```text

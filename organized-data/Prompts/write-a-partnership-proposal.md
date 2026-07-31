@@ -1,8 +1,8 @@
 ### Name
-Write a Partnership Proposal
+Write A Partnership Proposal
 
 ### Description
-A powerful prompt to write a partnership proposal.
+A ready-to-use prompt that instructs the AI to: I want to propose a partnership with [company].
 
 ### Prompt
 ```text

@@ -1,8 +1,9 @@
 ### Name
-Generate Alternatives When You're Stuck
+Generate Alternatives When You'Re Stuck
 
 ### Description
-A powerful prompt to generate alternatives when you're stuck.
+A ready-to-use prompt that instructs the AI to: I've been trying to solve [problem] by [current approach] and it's
+not working.
 
 ### Prompt
 ```text

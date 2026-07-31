@@ -1,8 +1,8 @@
 ### Name
-Build a User Interview Question Set
+Build A User Interview Question Set
 
 ### Description
-A powerful prompt to build a user interview question set.
+A ready-to-use prompt that instructs the AI to: I'm interviewing [customer type] to understand [topic].
 
 ### Prompt
 ```text

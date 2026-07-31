@@ -1,8 +1,8 @@
 ### Name
-Prioritize a Product Backlog
+Prioritize A Product Backlog
 
 ### Description
-A powerful prompt to prioritize a product backlog.
+A ready-to-use prompt that instructs the AI to: Here is our current product backlog: [list features or requests].
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Set Team Priorities
 
 ### Description
-A powerful prompt to set team priorities.
+A ready-to-use prompt that instructs the AI to: My team of [describe] has the following competing demands: [list].
 
 ### Prompt
 ```text

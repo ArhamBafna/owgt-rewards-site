@@ -1,8 +1,8 @@
 ### Name
-Apply Devil's Advocate
+Apply Devil'S Advocate
 
 ### Description
-A powerful prompt to apply devil's advocate.
+A ready-to-use prompt that instructs the AI to: My team has converged on the following decision: [describe].
 
 ### Prompt
 ```text

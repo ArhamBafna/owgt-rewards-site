@@ -1,8 +1,8 @@
 ### Name
-Analyze Why a Deal Was Lost
+Analyze Why A Deal Was Lost
 
 ### Description
-A powerful prompt to analyze why a deal was lost.
+A ready-to-use prompt that instructs the AI to: Here's the deal I lost: [describe].
 
 ### Prompt
 ```text

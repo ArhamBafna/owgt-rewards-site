@@ -1,8 +1,8 @@
 ### Name
-Draft a Product Announcement
+Draft A Product Announcement
 
 ### Description
-A powerful prompt to draft a product announcement.
+A ready-to-use prompt that instructs the AI to: We are launching [feature or product].
 
 ### Prompt
 ```text

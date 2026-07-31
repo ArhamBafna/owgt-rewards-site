@@ -1,8 +1,8 @@
 ### Name
-Diagnose Why Something Isn't Working
+Diagnose Why Something Isn'T Working
 
 ### Description
-A powerful prompt to diagnose why something isn't working.
+A ready-to-use prompt that instructs the AI to: Here is what I was expecting to happen: [describe].
 
 ### Prompt
 ```text

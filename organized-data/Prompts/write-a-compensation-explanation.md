@@ -1,8 +1,9 @@
 ### Name
-Write a Compensation Explanation
+Write A Compensation Explanation
 
 ### Description
-A powerful prompt to write a compensation explanation.
+A ready-to-use prompt that instructs the AI to: Explain [equity offer / salary structure] to a [senior / early-
+stage] hire.
 
 ### Prompt
 ```text

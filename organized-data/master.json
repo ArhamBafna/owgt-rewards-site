@@ -225,16 +225,8 @@
       "path": "Prompts/time-of-day-light.md"
     },
     {
-      "name": "1. **\"What's the brand name and one-line purpose?\"** \u2014 Free text. Example",
-      "path": "Prompts/1-what-s-the-brand-name-and-one-line-purpose-free-text-examp.md"
-    },
-    {
-      "name": "Act as a World-Class Senior Creative Technologist and Lead Frontend Engineer. You build high-fidelity, cinematic \"1",
-      "path": "Prompts/act-as-a-world-class-senior-creative-technologist-and-lead-f.md"
-    },
-    {
-      "name": "All cards",
-      "path": "Prompts/all-cards.md"
+      "name": "Act As A Skeptical Senior",
+      "path": "Prompts/act-as-a-skeptical-senior.md"
     },
     {
       "name": "All-Hands Talking Points",
@@ -245,7 +237,7 @@
       "path": "Prompts/analyze-customer-feedback.md"
     },
     {
-      "name": "Analyze Customer Feedback for Growth Signals",
+      "name": "Analyze Customer Feedback For Growth Signals",
       "path": "Prompts/analyze-customer-feedback-for-growth-signals.md"
     },
     {
@@ -253,11 +245,19 @@
       "path": "Prompts/analyze-second-order-consequences.md"
     },
     {
-      "name": "Analyze Why a Deal Was Lost",
+      "name": "Analyze Second-Order Consequences",
+      "path": "Prompts/claude-analyze-second-order-consequences.md"
+    },
+    {
+      "name": "Analyze This Data And Identify",
+      "path": "Prompts/analyze-this-data-and-identify.md"
+    },
+    {
+      "name": "Analyze Why A Deal Was Lost",
       "path": "Prompts/analyze-why-a-deal-was-lost.md"
     },
     {
-      "name": "Apply Devil's Advocate",
+      "name": "Apply Devil'S Advocate",
       "path": "Prompts/apply-devil-s-advocate.md"
     },
     {
@@ -265,7 +265,7 @@
       "path": "Prompts/apply-first-principles-thinking.md"
     },
     {
-      "name": "Assess an Acquisition or Partnership",
+      "name": "Assess An Acquisition Or Partnership",
       "path": "Prompts/assess-an-acquisition-or-partnership.md"
     },
     {
@@ -273,35 +273,31 @@
       "path": "Prompts/assumptions-stress-test.md"
     },
     {
-      "name": "Authentic UGC selfie video, single continuous shot, vertical 9",
-      "path": "Prompts/authentic-ugc-selfie-video-single-continuous-shot-vertical-9.md"
-    },
-    {
-      "name": "Build a Competitive Battle Card",
+      "name": "Build A Competitive Battle Card",
       "path": "Prompts/build-a-competitive-battle-card.md"
     },
     {
-      "name": "Build a Decision Framework",
+      "name": "Build A Decision Framework",
       "path": "Prompts/build-a-decision-framework.md"
     },
     {
-      "name": "Build a Decision Matrix",
+      "name": "Build A Decision Matrix",
       "path": "Prompts/build-a-decision-matrix.md"
     },
     {
-      "name": "Build a Project Risk Assessment",
+      "name": "Build A Project Risk Assessment",
       "path": "Prompts/build-a-project-risk-assessment.md"
     },
     {
-      "name": "Build a SOP for a Repeatable Process",
+      "name": "Build A Sop For A Repeatable Process",
       "path": "Prompts/build-a-sop-for-a-repeatable-process.md"
     },
     {
-      "name": "Build a User Interview Question Set",
+      "name": "Build A User Interview Question Set",
       "path": "Prompts/build-a-user-interview-question-set.md"
     },
     {
-      "name": "Build an Onboarding Checklist",
+      "name": "Build An Onboarding Checklist",
       "path": "Prompts/build-an-onboarding-checklist.md"
     },
     {
@@ -317,7 +313,7 @@
       "path": "Prompts/business-audit.md"
     },
     {
-      "name": "Challenge an Assumption",
+      "name": "Challenge An Assumption",
       "path": "Prompts/challenge-an-assumption.md"
     },
     {
@@ -337,6 +333,10 @@
       "path": "Prompts/cold-email.md"
     },
     {
+      "name": "Compare And Contrast These Two",
+      "path": "Prompts/compare-and-contrast-these-two.md"
+    },
+    {
       "name": "Compare Two Real Options",
       "path": "Prompts/compare-two-real-options.md"
     },
@@ -349,27 +349,43 @@
       "path": "Prompts/content-ideas.md"
     },
     {
-      "name": "Craft an Ask for a Warm Introduction",
+      "name": "Craft An Ask For A Warm Introduction",
       "path": "Prompts/craft-an-ask-for-a-warm-introduction.md"
     },
     {
-      "name": "Create a Meeting Agenda",
+      "name": "Create A Meeting Agenda",
       "path": "Prompts/create-a-meeting-agenda.md"
+    },
+    {
+      "name": "Create A Personal Okr For",
+      "path": "Prompts/create-a-personal-okr-for.md"
+    },
+    {
+      "name": "Create A Project Kickoff Checklist",
+      "path": "Prompts/create-a-project-kickoff-checklist.md"
+    },
+    {
+      "name": "Create A Tight 10-Minute Meeting",
+      "path": "Prompts/create-a-tight-10-minute-meeting.md"
     },
     {
       "name": "Culture Assessment",
       "path": "Prompts/culture-assessment.md"
     },
     {
-      "name": "Decide on Organizational Structure",
+      "name": "Data Story Narrative",
+      "path": "Prompts/data-story-narrative.md"
+    },
+    {
+      "name": "Decide On Organizational Structure",
       "path": "Prompts/decide-on-organizational-structure.md"
     },
     {
-      "name": "Decide Whether to Pivot or Stay the Course",
+      "name": "Decide Whether To Pivot Or Stay The Course",
       "path": "Prompts/decide-whether-to-pivot-or-stay-the-course.md"
     },
     {
-      "name": "Decide Whether to Promote or Let Go",
+      "name": "Decide Whether To Promote Or Let Go",
       "path": "Prompts/decide-whether-to-promote-or-let-go.md"
     },
     {
@@ -377,36 +393,56 @@
       "path": "Prompts/define-your-unique-positioning.md"
     },
     {
-      "name": "Design a Weekly Review Framework",
+      "name": "Design A Weekly Review Framework",
       "path": "Prompts/design-a-weekly-review-framework.md"
     },
     {
-      "name": "Diagnose a Team Problem",
+      "name": "Diagnose A Team Problem",
       "path": "Prompts/diagnose-a-team-problem.md"
     },
     {
-      "name": "Diagnose Why Something Isn't Working",
+      "name": "Diagnose Why Something Isn'T Working",
       "path": "Prompts/diagnose-why-something-isn-t-working.md"
     },
     {
-      "name": "Draft a Follow-Up After No Response",
+      "name": "Difficult Employee Conversation",
+      "path": "Prompts/difficult-employee-conversation.md"
+    },
+    {
+      "name": "Draft 5 Questions I Should",
+      "path": "Prompts/draft-5-questions-i-should.md"
+    },
+    {
+      "name": "Draft A Follow-Up After No Response",
       "path": "Prompts/draft-a-follow-up-after-no-response.md"
     },
     {
-      "name": "Draft a Product Announcement",
+      "name": "Draft A Polite But Firm",
+      "path": "Prompts/draft-a-polite-but-firm.md"
+    },
+    {
+      "name": "Draft A Product Announcement",
       "path": "Prompts/draft-a-product-announcement.md"
     },
     {
-      "name": "Draft a Weekly Update to Your Team",
+      "name": "Draft A Request To Leadership",
+      "path": "Prompts/draft-a-request-to-leadership.md"
+    },
+    {
+      "name": "Draft A Weekly Update To Your Team",
       "path": "Prompts/draft-a-weekly-update-to-your-team.md"
     },
     {
-      "name": "Draft an Executive Summary",
+      "name": "Draft An Executive Summary",
       "path": "Prompts/draft-an-executive-summary.md"
     },
     {
       "name": "Draft Performance Feedback",
       "path": "Prompts/draft-performance-feedback.md"
+    },
+    {
+      "name": "Edit This Paragraph For Clarity",
+      "path": "Prompts/edit-this-paragraph-for-clarity.md"
     },
     {
       "name": "Email Newsletter",
@@ -417,11 +453,15 @@
       "path": "Prompts/email-reply.md"
     },
     {
-      "name": "Evaluate a New Market Opportunity",
+      "name": "Employee Engagement Analysis",
+      "path": "Prompts/employee-engagement-analysis.md"
+    },
+    {
+      "name": "Evaluate A New Market Opportunity",
       "path": "Prompts/evaluate-a-new-market-opportunity.md"
     },
     {
-      "name": "Evaluate a New Opportunity",
+      "name": "Evaluate A New Opportunity",
       "path": "Prompts/evaluate-a-new-opportunity.md"
     },
     {
@@ -433,19 +473,39 @@
       "path": "Prompts/follow-up-touch-1.md"
     },
     {
-      "name": "Generate Alternatives When You're Stuck",
+      "name": "Generate 10 Creative Solutions To",
+      "path": "Prompts/generate-10-creative-solutions-to.md"
+    },
+    {
+      "name": "Generate 5 Different Ways To",
+      "path": "Prompts/generate-5-different-ways-to.md"
+    },
+    {
+      "name": "Generate Alternatives When You'Re Stuck",
       "path": "Prompts/generate-alternatives-when-you-re-stuck.md"
     },
     {
-      "name": "Generate Feature Ideas from Complaints",
+      "name": "Generate Feature Ideas From Complaints",
       "path": "Prompts/generate-feature-ideas-from-complaints.md"
     },
     {
-      "name": "Get Devil's Advocate Feedback",
+      "name": "Get Devil'S Advocate Feedback",
       "path": "Prompts/get-devil-s-advocate-feedback.md"
     },
     {
-      "name": "Handle a Difficult Investor Conversation",
+      "name": "Give Me 5 Options. 61",
+      "path": "Prompts/give-me-5-options-61.md"
+    },
+    {
+      "name": "Give Me A Structured Swot",
+      "path": "Prompts/give-me-a-structured-swot.md"
+    },
+    {
+      "name": "Give Me The Tl;Dr Of",
+      "path": "Prompts/give-me-the-tl-dr-of.md"
+    },
+    {
+      "name": "Handle A Difficult Investor Conversation",
       "path": "Prompts/handle-a-difficult-investor-conversation.md"
     },
     {
@@ -457,7 +517,7 @@
       "path": "Prompts/higgsfield-ugc-prompt.md"
     },
     {
-      "name": "Hire vs. Outsource",
+      "name": "Hire Vs. Outsource",
       "path": "Prompts/hire-vs-outsource.md"
     },
     {
@@ -469,12 +529,24 @@
       "path": "Prompts/idea-validation.md"
     },
     {
-      "name": "Identify the Real Bottleneck",
+      "name": "Identify Inefficiencies In This Workflow",
+      "path": "Prompts/identify-inefficiencies-in-this-workflow.md"
+    },
+    {
+      "name": "Identify The 3 Biggest Risks",
+      "path": "Prompts/identify-the-3-biggest-risks.md"
+    },
+    {
+      "name": "Identify The Real Bottleneck",
       "path": "Prompts/identify-the-real-bottleneck.md"
     },
     {
-      "name": "Identify the Root Cause",
+      "name": "Identify The Root Cause",
       "path": "Prompts/identify-the-root-cause.md"
+    },
+    {
+      "name": "Identify The Story This Data",
+      "path": "Prompts/identify-the-story-this-data.md"
     },
     {
       "name": "Identify Your Biggest Blind Spot",
@@ -493,8 +565,16 @@
       "path": "Prompts/job-description.md"
     },
     {
-      "name": "Make the Decision You've Been Avoiding",
+      "name": "Kpi Framework Design",
+      "path": "Prompts/kpi-framework-design.md"
+    },
+    {
+      "name": "Make The Decision You'Ve Been Avoiding",
       "path": "Prompts/make-the-decision-you-ve-been-avoiding.md"
+    },
+    {
+      "name": "Meeting Effectiveness Audit",
+      "path": "Prompts/meeting-effectiveness-audit.md"
     },
     {
       "name": "Meeting Request",
@@ -505,7 +585,7 @@
       "path": "Prompts/meeting-summary.md"
     },
     {
-      "name": "Navigate a Stakeholder Disagreement",
+      "name": "Navigate A Stakeholder Disagreement",
       "path": "Prompts/navigate-a-stakeholder-disagreement.md"
     },
     {
@@ -521,11 +601,15 @@
       "path": "Prompts/onboarding-program-design.md"
     },
     {
-      "name": "Plan a Difficult Conversation",
+      "name": "Performance Review Preparation",
+      "path": "Prompts/performance-review-preparation.md"
+    },
+    {
+      "name": "Plan A Difficult Conversation",
       "path": "Prompts/plan-a-difficult-conversation.md"
     },
     {
-      "name": "Plan a Project Kickoff",
+      "name": "Plan A Project Kickoff",
       "path": "Prompts/plan-a-project-kickoff.md"
     },
     {
@@ -533,15 +617,19 @@
       "path": "Prompts/polite-decline.md"
     },
     {
-      "name": "Prepare for a Board Meeting",
+      "name": "Post-Mortem Framework",
+      "path": "Prompts/post-mortem-framework.md"
+    },
+    {
+      "name": "Prepare For A Board Meeting",
       "path": "Prompts/prepare-for-a-board-meeting.md"
     },
     {
-      "name": "Prepare for a Sales Call",
+      "name": "Prepare For A Sales Call",
       "path": "Prompts/prepare-for-a-sales-call.md"
     },
     {
-      "name": "Pressure-Test a Strategy",
+      "name": "Pressure-Test A Strategy",
       "path": "Prompts/pressure-test-a-strategy.md"
     },
     {
@@ -553,7 +641,7 @@
       "path": "Prompts/pricing-decision-framework.md"
     },
     {
-      "name": "Prioritize a Product Backlog",
+      "name": "Prioritize A Product Backlog",
       "path": "Prompts/prioritize-a-product-backlog.md"
     },
     {
@@ -589,19 +677,27 @@
       "path": "Prompts/research-synthesis.md"
     },
     {
-      "name": "Respond to a Critical Investor Question",
+      "name": "Respond To A Critical Investor Question",
       "path": "Prompts/respond-to-a-critical-investor-question.md"
+    },
+    {
+      "name": "Rewrite This In Half The",
+      "path": "Prompts/rewrite-this-in-half-the.md"
+    },
+    {
+      "name": "Rewrite This Section To Be",
+      "path": "Prompts/rewrite-this-section-to-be.md"
     },
     {
       "name": "Root Cause Analysis",
       "path": "Prompts/root-cause-analysis.md"
     },
     {
-      "name": "Run a Competitor Analysis",
+      "name": "Run A Competitor Analysis",
       "path": "Prompts/run-a-competitor-analysis.md"
     },
     {
-      "name": "Run a Pre-Mortem",
+      "name": "Run A Pre-Mortem",
       "path": "Prompts/run-a-pre-mortem.md"
     },
     {
@@ -613,8 +709,44 @@
       "path": "Prompts/sop-creation.md"
     },
     {
+      "name": "Summarize The Financial Implications Of",
+      "path": "Prompts/summarize-the-financial-implications-of.md"
+    },
+    {
+      "name": "Summarize This Email Thread Into",
+      "path": "Prompts/summarize-this-email-thread-into.md"
+    },
+    {
+      "name": "Summarize This Meeting Transcript Into",
+      "path": "Prompts/summarize-this-meeting-transcript-into.md"
+    },
+    {
+      "name": "Team Alignment Message",
+      "path": "Prompts/team-alignment-message.md"
+    },
+    {
       "name": "Team Effectiveness Diagnosis",
       "path": "Prompts/team-effectiveness-diagnosis.md"
+    },
+    {
+      "name": "Three-Scenario Planning",
+      "path": "Prompts/three-scenario-planning.md"
+    },
+    {
+      "name": "Turn These Messy Meeting Notes",
+      "path": "Prompts/turn-these-messy-meeting-notes.md"
+    },
+    {
+      "name": "Turn These Stats Into 3",
+      "path": "Prompts/turn-these-stats-into-3.md"
+    },
+    {
+      "name": "Turn This Bullet-Point Outline Into",
+      "path": "Prompts/turn-this-bullet-point-outline-into.md"
+    },
+    {
+      "name": "Turn This Messy Process Description",
+      "path": "Prompts/turn-this-messy-process-description.md"
     },
     {
       "name": "Video Script (60s)",
@@ -629,39 +761,63 @@
       "path": "Prompts/weekly-planning.md"
     },
     {
+      "name": "What Would A Mckinsey Consultant",
+      "path": "Prompts/what-would-a-mckinsey-consultant.md"
+    },
+    {
       "name": "Worst-Case Scenario Planning",
       "path": "Prompts/worst-case-scenario-planning.md"
     },
     {
-      "name": "Write a Cold Outreach Email",
+      "name": "Write 5 Sharp Talking Points",
+      "path": "Prompts/write-5-sharp-talking-points.md"
+    },
+    {
+      "name": "Write A Clear, Jargon-Free Explanation",
+      "path": "Prompts/write-a-clear-jargon-free-explanation.md"
+    },
+    {
+      "name": "Write A Cold Outreach Email",
       "path": "Prompts/write-a-cold-outreach-email.md"
     },
     {
-      "name": "Write a Company Announcement",
+      "name": "Write A Company Announcement",
       "path": "Prompts/write-a-company-announcement.md"
     },
     {
-      "name": "Write a Compensation Explanation",
+      "name": "Write A Compensation Explanation",
       "path": "Prompts/write-a-compensation-explanation.md"
     },
     {
-      "name": "Write a Customer Re-Engagement Email",
+      "name": "Write A Customer Re-Engagement Email",
       "path": "Prompts/write-a-customer-re-engagement-email.md"
     },
     {
-      "name": "Write a Job Description",
+      "name": "Write A Diplomatic Response To",
+      "path": "Prompts/write-a-diplomatic-response-to.md"
+    },
+    {
+      "name": "Write A Job Description",
       "path": "Prompts/write-a-job-description.md"
     },
     {
-      "name": "Write a Partnership Proposal",
+      "name": "Write A Partnership Proposal",
       "path": "Prompts/write-a-partnership-proposal.md"
     },
     {
-      "name": "Write an Escalation Policy",
+      "name": "Write A Performance Review For",
+      "path": "Prompts/write-a-performance-review-for.md"
+    },
+    {
+      "name": "Write An Escalation Policy",
       "path": "Prompts/write-an-escalation-policy.md"
     },
     {
-      "name": "Write an Investor Update",
+      "name": "Write An Executive Summary For",
+      "path": "Prompts/write-an-executive-summary-for.md"
+    },
+    {
+      "name": "Write An Investor Update",
       "path": "Prompts/write-an-investor-update.md"
     }
   ],

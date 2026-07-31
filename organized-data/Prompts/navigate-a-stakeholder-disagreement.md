@@ -1,8 +1,9 @@
 ### Name
-Navigate a Stakeholder Disagreement
+Navigate A Stakeholder Disagreement
 
 ### Description
-A powerful prompt to navigate a stakeholder disagreement.
+A ready-to-use prompt that instructs the AI to: Here is a disagreement I'm navigating between [stakeholder A] and
+[stakeholder B] about [issue].
 
 ### Prompt
 ```text

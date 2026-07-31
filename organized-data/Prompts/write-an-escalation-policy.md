@@ -1,8 +1,8 @@
 ### Name
-Write an Escalation Policy
+Write An Escalation Policy
 
 ### Description
-A powerful prompt to write an escalation policy.
+A ready-to-use prompt that instructs the AI to: Write a simple escalation policy for my team.
 
 ### Prompt
 ```text

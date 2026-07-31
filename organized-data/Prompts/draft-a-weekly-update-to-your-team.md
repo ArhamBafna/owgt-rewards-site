@@ -1,8 +1,8 @@
 ### Name
-Draft a Weekly Update to Your Team
+Draft A Weekly Update To Your Team
 
 ### Description
-A powerful prompt to draft a weekly update to your team.
+A ready-to-use prompt that instructs the AI to: Draft a weekly update for my team at a [stage] company.
 
 ### Prompt
 ```text

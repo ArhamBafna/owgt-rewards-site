@@ -1,8 +1,9 @@
 ### Name
-Draft a Follow-Up After No Response
+Draft A Follow-Up After No Response
 
 ### Description
-A powerful prompt to draft a follow-up after no response.
+A ready-to-use prompt that instructs the AI to: I sent [describe the original outreach] to [person/role] and have
+not heard back after [timeframe].
 
 ### Prompt
 ```text

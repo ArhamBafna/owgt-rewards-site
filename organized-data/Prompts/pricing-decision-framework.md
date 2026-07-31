@@ -2,7 +2,7 @@
 Pricing Decision Framework
 
 ### Description
-A powerful prompt to pricing decision framework.
+A ready-to-use prompt that instructs the AI to: I'm considering [pricing change: increase/restructure/add tier].
 
 ### Prompt
 ```text

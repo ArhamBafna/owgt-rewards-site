@@ -2,7 +2,8 @@
 Identify Your Biggest Blind Spot
 
 ### Description
-A powerful prompt to identify your biggest blind spot.
+A ready-to-use prompt that instructs the AI to: Here is how I currently think about [topic, market, product, team,
+growth]: [describe your view].
 
 ### Prompt
 ```text

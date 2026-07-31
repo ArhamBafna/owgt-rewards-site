@@ -1,8 +1,8 @@
 ### Name
-Prepare for a Sales Call
+Prepare For A Sales Call
 
 ### Description
-A powerful prompt to prepare for a sales call.
+A ready-to-use prompt that instructs the AI to: I have a [call type] with [prospect].
 
 ### Prompt
 ```text

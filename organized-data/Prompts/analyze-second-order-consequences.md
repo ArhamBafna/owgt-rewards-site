@@ -2,13 +2,14 @@
 Analyze Second-Order Consequences
 
 ### Description
-A powerful prompt to analyze second-order consequences.
+A ready-to-use prompt that instructs the AI to: If [decision], what happens next?
 
 ### Prompt
 ```text
-If [decision or event], what are the second and third-order
-consequences for my business? Go one level deeper than the obvious.
-Flag the consequence I'm least likely to have considered.
+If [decision], what happens next? Map the first-order consequences.
+Then, for the two most significant first-order consequences, map the
+second-order consequences, what happens as a result of those? Flag
+the second-order consequence I'm least likely to have considered.
 ```
 
 ### Category

@@ -1,8 +1,8 @@
 ### Name
-Analyze Customer Feedback for Growth Signals
+Analyze Customer Feedback For Growth Signals
 
 ### Description
-A powerful prompt to analyze customer feedback for growth signals.
+A ready-to-use prompt that instructs the AI to: Here is customer feedback I've collected: [paste].
 
 ### Prompt
 ```text

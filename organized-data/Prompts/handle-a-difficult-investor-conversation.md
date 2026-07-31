@@ -1,8 +1,9 @@
 ### Name
-Handle a Difficult Investor Conversation
+Handle A Difficult Investor Conversation
 
 ### Description
-A powerful prompt to handle a difficult investor conversation.
+A ready-to-use prompt that instructs the AI to: I need to have a difficult conversation with [investor role]
+about [topic, missed milestone, pivot, ...
 
 ### Prompt
 ```text

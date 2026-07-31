@@ -1,8 +1,8 @@
 ### Name
-Prepare for a Board Meeting
+Prepare For A Board Meeting
 
 ### Description
-A powerful prompt to prepare for a board meeting.
+A ready-to-use prompt that instructs the AI to: I have a board meeting in [timeframe].
 
 ### Prompt
 ```text

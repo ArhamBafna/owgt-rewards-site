@@ -2,7 +2,8 @@
 Apply First Principles Thinking
 
 ### Description
-A powerful prompt to apply first principles thinking.
+A ready-to-use prompt that instructs the AI to: Everyone in [industry/domain] assumes that [describe a common
+assumption].
 
 ### Prompt
 ```text

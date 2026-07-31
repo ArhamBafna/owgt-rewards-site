@@ -1,8 +1,8 @@
 ### Name
-Build a Decision Framework
+Build A Decision Framework
 
 ### Description
-A powerful prompt to build a decision framework.
+A ready-to-use prompt that instructs the AI to: I regularly face decisions about [type of decision].
 
 ### Prompt
 ```text

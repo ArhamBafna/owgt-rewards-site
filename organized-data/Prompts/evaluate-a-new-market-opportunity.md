@@ -1,8 +1,8 @@
 ### Name
-Evaluate a New Market Opportunity
+Evaluate A New Market Opportunity
 
 ### Description
-A powerful prompt to evaluate a new market opportunity.
+A ready-to-use prompt that instructs the AI to: Evaluate this market opportunity: [describe].
 
 ### Prompt
 ```text

@@ -1,8 +1,8 @@
 ### Name
-Identify the Root Cause
+Identify The Root Cause
 
 ### Description
-A powerful prompt to identify the root cause.
+A ready-to-use prompt that instructs the AI to: Here's a recurring problem: [describe].
 
 ### Prompt
 ```text

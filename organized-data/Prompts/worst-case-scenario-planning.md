@@ -2,7 +2,7 @@
 Worst-Case Scenario Planning
 
 ### Description
-A powerful prompt to worst-case scenario planning.
+A ready-to-use prompt that instructs the AI to: I am considering [decision].
 
 ### Prompt
 ```text

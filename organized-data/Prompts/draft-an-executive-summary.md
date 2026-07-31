@@ -1,8 +1,8 @@
 ### Name
-Draft an Executive Summary
+Draft An Executive Summary
 
 ### Description
-A powerful prompt to draft an executive summary.
+A ready-to-use prompt that instructs the AI to: Write a one-page executive summary for [company].
 
 ### Prompt
 ```text

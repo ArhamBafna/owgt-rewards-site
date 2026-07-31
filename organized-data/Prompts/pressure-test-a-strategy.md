@@ -1,8 +1,8 @@
 ### Name
-Pressure-Test a Strategy
+Pressure-Test A Strategy
 
 ### Description
-A powerful prompt to pressure-test a strategy.
+A ready-to-use prompt that instructs the AI to: Act as a rigorous strategic critic.
 
 ### Prompt
 ```text

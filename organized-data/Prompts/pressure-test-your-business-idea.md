@@ -2,7 +2,7 @@
 Pressure-Test Your Business Idea
 
 ### Description
-A powerful prompt to pressure-test your business idea.
+A ready-to-use prompt that instructs the AI to: Act as a skeptical investor who has seen thousands of pitches.
 
 ### Prompt
 ```text

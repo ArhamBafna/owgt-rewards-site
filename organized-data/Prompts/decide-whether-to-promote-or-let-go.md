@@ -1,8 +1,9 @@
 ### Name
-Decide Whether to Promote or Let Go
+Decide Whether To Promote Or Let Go
 
 ### Description
-A powerful prompt to decide whether to promote or let go.
+A ready-to-use prompt that instructs the AI to: I'm facing a decision about [role]: whether to promote/invest
+further or move on.
 
 ### Prompt
 ```text
