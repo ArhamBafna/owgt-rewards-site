@@ -12,4 +12,7 @@
 - Skipped 44 low-quality prompts that were either generic one-liners or too short to provide standalone value.
 - Categorized all prompts intelligently based on their original group headers.
 - Removed `notion.txt`, `github.txt`, `bookmarks.txt`, and `prompts.txt` because extraction captured all meaningful knowledge.
+- Processed `youtube/` (Batch 5): Converted 4 raw YouTube transcripts into highly polished, standalone instructional Guides. 
+- Processed `skool-communites/` (Batch 5): Formatted 8 Skool community `.md` files to ensure they follow the standard Guide Schema, then moved them to the `Guides` directory.
+- Deleted `youtube/` and `skool-communites/` raw folders as they have been fully processed.
 - Automated `master.md` and `master.json` generation to ensure indices are always up to date with the folder structure.

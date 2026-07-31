@@ -1,3 +1,11 @@
+### Name
+Avoid Chat Limits
+
+### Description
+Every message resends your entire chat history. Message one is tiny. Message 30 is massive. That is why limits hit fast and quality tanks (context ...
+
+### Content
+
 Every message resends your entire chat history. Message one is tiny. Message 30 is massive. That is why limits hit fast and quality tanks (context rot). 
 
 Fix the weight. Stop wasting tokens. 
@@ -51,3 +59,11 @@ Usage windows start at your very first message of the day.
 
 ## 7. Work Off-Peak
 Peak hours bring server congestion and faster session burn. Shift heavy workloads to early mornings, late nights, or weekends.
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

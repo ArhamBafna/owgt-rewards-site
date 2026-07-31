@@ -1,3 +1,11 @@
+### Name
+Top Ai Courses For Beginners
+
+### Description
+The following is a comprehensive list of recommended courses on Artificial Intelligence (AI) and Machine Learning (ML), curated from leading techno...
+
+### Content
+
 # Top AI Courses for Beginners
 
 The following is a comprehensive list of recommended courses on Artificial Intelligence (AI) and Machine Learning (ML), curated from leading technology companies and prestigious academic institutions. This guide is designed to help you find the right course for your skill level and career goals, whether you are a complete beginner or an aspiring professional. The courses are categorized by creator and cover a range of topics from foundational concepts and practical coding to ethical considerations and prompt engineering.
@@ -84,3 +92,11 @@ Part of a series of AI certificates for beginners, including quizzes and badges.
 * **For whom:** Beginners who want to earn an AI certificate.
 * **What you'll learn:** Fundamental AI concepts, business applications + quizzes.
 * **🔗 Link:** https://www.coursera.org/learn/applied-artifical-intelligence-ibm-watson-ai
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

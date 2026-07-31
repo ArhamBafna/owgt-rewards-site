@@ -1,3 +1,11 @@
+### Name
+Build $10,000 Websites With Ai
+
+### Description
+You need two things:
+
+### Content
+
 # Build $10,000 Websites with AI Opus 5
 
 ## 1. Setup
@@ -481,3 +489,11 @@ Prioritize visual impact over everything.
 - **Pick one main feature.** Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.
 - **Banned words improve copy.** Setting clear negative constraints on overused words keeps the tone natural.
 - **Specify models directly.** Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

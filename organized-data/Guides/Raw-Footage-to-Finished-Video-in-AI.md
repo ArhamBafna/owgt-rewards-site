@@ -1,3 +1,11 @@
+### Name
+Raw Footage To Finished Video In Ai
+
+### Description
+Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experien...
+
+### Content
+
 # Raw Footage to Finished Video — AI Setup & Workflow Guide
 
 Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.
@@ -92,3 +100,11 @@ Final file saves to downloads directory; source project folder remains intact.
 
 - Word-level Scribe timestamps give accurate cut placement.
 - Use natural language prompts for edits instead of manual timeline trimming.
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

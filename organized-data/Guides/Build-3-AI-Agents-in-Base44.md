@@ -1,3 +1,11 @@
+### Name
+Build 3 Ai Agents In Base44
+
+### Description
+> [!TIP]
+
+### Content
+
 # Build 3 AI Agents in Base44 — Complete Prompt Pack
 
 ## Before You Start
@@ -268,3 +276,11 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
   - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.
 - **"The agent reports estimated data as fact."**
   - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

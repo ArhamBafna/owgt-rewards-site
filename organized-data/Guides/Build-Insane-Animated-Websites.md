@@ -1,3 +1,11 @@
+### Name
+Build Insane Animated Websites
+
+### Description
+1. Sign up at Higgsfield AI (`https://higgsfield.ai/mcp`).
+
+### Content
+
 # Build Insane Animated Websites — Full Setup Guide
 
 ## Setup — Connect Higgsfield MCP to AI
@@ -117,3 +125,11 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
 ### Variant Structure
 - **Product / Brand Site:** Hero -> Product Showcase -> Video Reveal -> Features -> Story/Science -> Interactive Product Spin/Morph -> CTA.
 - **Personal / Portfolio / Story Site:** Guided interactive documentary scroll through sequential pinned scenes (Cold Open -> Origin -> Stats -> Work/Stack -> Community -> Photo Reveal -> CTA).
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

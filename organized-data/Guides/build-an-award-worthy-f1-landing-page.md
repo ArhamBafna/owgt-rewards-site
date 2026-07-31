@@ -1,3 +1,11 @@
+### Name
+Build An Award Worthy F1 Landing Page
+
+### Description
+Open your AI Web Builder and paste the prompt below. It will scaffold the entire site — hero section, gallery, animations, responsive design — all ...
+
+### Content
+
 # Build an Award-Worthy F1 Landing Page
 
 ## Step 1 — Build the Landing Page in AI Web Builder
@@ -85,3 +93,11 @@ This is where you go from "good enough" to award-worthy. Use these prompts one a
 To update: make changes in AI Web Builder → push to GitHub → Netlify auto-redeploys. No FTP, no cPanel.
 
 > **Note:** This workflow works for any niche — luxury brands, fitness, tech startups. Swap the visuals and prompts for your niche and follow the same framework.
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide

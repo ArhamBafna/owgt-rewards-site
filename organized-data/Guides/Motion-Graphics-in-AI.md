@@ -1,3 +1,11 @@
+### Name
+Motion Graphics In Ai
+
+### Description
+Create custom, high-quality motion graphics directly inside your AI workspace using an MCP connector and structured prompt templates.
+
+### Content
+
 # Motion Graphics with AI — Full Setup & Workflow Guide
 
 Create custom, high-quality motion graphics directly inside your AI workspace using an MCP connector and structured prompt templates.
@@ -205,3 +213,11 @@ No AI Coding Assistant? Use Web App:
 1. Make prompt in main AI Chat.
 2. Open **Higgsfield Explainer** web tool.
 3. Paste prompt and pick preset (Pixel Art, Claymotion, Papercraft, Cartoon, Whiteboard, Flat Vector).
+
+### Category
+Guides
+
+### Tags
+- Skool
+- Community
+- Guide
