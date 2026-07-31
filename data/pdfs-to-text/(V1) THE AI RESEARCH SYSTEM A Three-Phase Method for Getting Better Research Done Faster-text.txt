@@ -1,0 +1,353 @@
+1
+ THE AI RESEARCH SYSTEM: 
+3 years covering AI hiring and adoption daily
+Trusted by 400,000+ business leaders
+A THREE- PHASE 
+METHOD 
+for Getting Better Research Done Faster
+By 
+LIAM LAWSON
+ CEO, The AI Report
+
+
+Phase 3 - Output
+Phase 3 - Output
+TABLE OF
+CONTENTS
+3
+Introduction 
+Introduction 
+4
+How to Use This Guide
+How to Use This Guide
+5
+Phase 1 - Gather
+Phase 1 - Gather
+8
+Phase 2 - Analyze
+Phase 2 - Analyze
+9
+10
+The System in Practice 
+The System in Practice 
+3 years covering AI research tools daily
+11
+The Natural Next Step
+The Natural Next Step
+
+
+INTRODUCTION
+THE OUTPUT QUALITY IS NOT DETERMINED BY WHICH MODEL YOU USE.
+IT IS DETERMINED BY WHETHER YOU HAVE A PROCESS AT ALL.
+3 years covering AI research tools daily |
+HERE IS THE THING ABOUT AI
+RESEARCH THAT NOBODY TELLS YOU.
+HERE IS THE THING ABOUT AI
+RESEARCH THAT NOBODY TELLS YOU.
+3
+Right now, most professionals open ChatGPT, type a question, accept the
+first confident-sounding answer, and move on. 
+The problem is that AI models are confident whether they are right or
+wrong. 
+An answer that sounds authoritative can be wrong, outdated, or
+fabricated. 
+Using one model as your only source is using a single, fallible voice as
+your entire evidence base.
+READING THIS FROM THE FREE COMMUNITY?
+LEADERS LAUNCH MEMBERS GET THE FULL
+IMPLEMENTATION SYSTEM:
+16 lessons, HubSpot AI playbooks, an AI tools quick-start, 5
+custom GPTs, and more added continuously.
+Unlock the AI Report leaders launch Guide
+https://www.theaireport.ai/leaders-launch-guide
+There is a better way. It is not about using more tools or asking better questions. It is
+about running research as a three-phase process, where each phase uses a different
+tool for a different job.
+This guide gives you that process.
+
+
+3 years covering AI research tools daily |
+1
+2
+3
+4
+Phase one gathers your raw material, 
+phase two turns it into insight, 
+and phase three produces the deliverable.
+4
+HOW TO USE THIS GUIDE
+Run The Research Process In Order
+GATHER
+(Perplexity + Grok)
+ANALYZE
+(Claude)
+OUTPUT
+(Claude /
+ChatGPT)
+DECISION
+ACTION
+Don't skip phase one and jump straight to analysis. The
+quality of your output is determined almost entirely by
+the quality of what you feed into phase two.
+ONE NOTE BEFORE
+YOU START.
+AI research is only as credible as its
+sources. Any claim that matters
+should be verified. This guide shows
+you how to do that at every phase.
+
+
+3 years covering AI research tools daily |5
+GATHER
+PHASE 1
+PERPLEXITY
+Perplexity is search-first and always cites sources.
+Every answer it produces links to the original source material. That citation habit is what
+makes it the right tool for phase one. You're not looking for AI opinion. You are looking
+for sourced, traceable starting material.
+Start every research session here.
+What to use Perplexity for:
+Source discovery. Web research. Market data. Current events. Regulatory updates.
+Competitor news. Any question where you need a sourced answer rather than a
+generated one.
+How to prompt Perplexity for better research:
+Don't ask general questions. Ask specific ones.
+Instead of: "What are the trends in AI hiring?" 
+Ask: "What do 2026 employer surveys report about AI skill requirements in job
+postings? Cite sources."
+Instead of: "Tell me about competitor X." 
+Ask: "What has competitor X announced in the last 90 days? What do their recent job
+postings suggest about their strategic direction? Cite all sources."
+The more specific the question, the more useful the sourced answer.
+TOOL:
+GROOK
+What Grok adds to phase one:
+For anything where real-time intelligence matters, add Grok. Grok is connected directly
+to X data in real-time. News breaks there before it reaches any newsletter. If you're
+tracking a fast-moving market, a competitor's announcement, or a regulatory
+development, Grok surfaces what Perplexity may not yet have indexed. Use Perplexity
+for structured, sourced research. Use Grok when you need to know what's happening
+right now.
+TOOL:
+Phase one output: A set of sourced notes, links, and data points. Not polished. Not
+synthesized. Just raw material you can verify and hand to phase two.
+
+
+3 years covering AI research tools daily |6
+ANALYZE
+PHASE 2
+CLAUDE
+Claude is built for long-form thinking. It reads large amounts of material, identifies
+patterns, synthesizes across sources, and extracts what matters.
+This is where your phase one material becomes insight.
+What to use Claude for:
+Summarizing findings. Identifying patterns. Synthesizing across multiple sources.
+Extracting key points. Generating strategic takeaways. Pressure-testing your
+interpretation.
+The analysis prompts:
+Use these from The AI Report's Executive Prompt Library. All are copy-paste ready.
+TOOL:
+Prompt #84: Research Synthesis
+I have gathered the following research on [topic]. Synthesize
+it into a briefing of no more than one page covering: the
+three most important findings, what these findings mean for
+our business specifically, the key areas of uncertainty or
+conflicting evidence, and the one or two questions that still
+need to be answered before we can act with confidence.
+Research: [paste in your phase one notes]
+Use after every phase one gathering session. 
+"Ask: 'For each finding, tell me how confident we should be in it and what the source
+quality is.' Research synthesis is most valuable when it separates what is known
+from what is assumed."
+PRO TIP FROM THE EXECUTIVE PROMPT LIBRARY:
+
+
+3 years covering AI research tools daily |7
+Prompt #85: Competitive Intelligence Brief
+Build me a competitive intelligence brief on [competitor].
+Based on the following sources and what you know, cover:
+their current product positioning and how it has changed
+recently, pricing strategy and packaging, go-to-market
+approach and primary channels, known strengths and
+vulnerabilities, recent signals about their strategic
+direction, and one or two things they are likely to do next.
+Sources: [paste in your phase one notes]
+Use when phase one focuses on a specific competitor.
+"Ask: 'For each finding, tell me how confident we should be in it and what the source
+quality is.' Research synthesis is most valuable when it separates what is known
+from what is assumed."
+PRO TIP FROM THE EXECUTIVE PROMPT LIBRARY:
+Prompt #86: Industry Trend Analysis
+Analyze the following trends affecting [your industry]: [list
+what you found]. For each trend: how material it is likely to
+be in the next two to three years, whether it represents a
+threat or an opportunity for our business specifically, what
+leading companies in our space are doing in response, and what
+we should be doing now to either capitalize on or protect
+against it.
+Use when phase one covers a market shift or emerging pattern.
+"Ask: 'Of these trends, which one requires a decision from us in the next 90 days?'
+Trend analysis is only useful if it leads to action."
+PRO TIP FROM THE EXECUTIVE PROMPT LIBRARY:
+
+
+3 years covering AI research tools daily |8
+THE THREE MISTAKES MOST PEOPLE MAKE IN
+PHASE TWO:
+MISTAKE 1: 
+TRUSTING FIRST OUTPUTS. 
+The first synthesis is a starting point, not a conclusion. Ask Claude to identify
+the weakest assumption in its own analysis. The follow-up almost always
+produces something more valuable than the initial response.
+MISTAKE 2: 
+WEAK PROMPTING.
+Generic input produces generic output. The prompts above include specific
+output requirements, number of findings, format, confidence levels. That
+specificity is what separates useful synthesis from a summary you would
+have written yourself.
+MISTAKE 3: 
+SHALLOW SOURCING. 
+If phase one did not produce real sources, phase two cannot fix that. The
+quality of analysis is directly proportional to the quality of the inputs.
+HOW TO VERIFY WHAT PHASE TWO PRODUCES:
+Before any research finding becomes a claim you act on or share, verify it.
+The AI Report covered this directly: cross-verify significant claims across two or
+more models. 
+If Claude synthesizes a key finding, paste the same underlying data into a
+second model and compare. 
+Agreement across models is not proof of accuracy, but disagreement is a signal
+to dig further.
+For factual claims, go back to the original sourced links from phase one. 
+Verify the claim in the primary source.
+Never share AI-produced research with a senior stakeholder without having
+traced at least the key facts to a named, verifiable source.
+
+
+3 years covering AI research tools daily |9
+OUTPUT
+PHASE 3
+CLAUDE
+reports, memos, strategy documents,
+written briefs, anything requiring voice
+and judgment.
+TOOL:
+Phase three turns your synthesized insight into a deliverable someone else can use.
+The tool choice depends on the format.
+CHATGPT 
+structured formats, content where
+pattern and completeness matter more
+than prose quality, data-heavy
+summaries.
+TOOL:
+Use this from the Executive Prompt Library across any deliverable type.
+THE OUTPUT PROMPT:
+Prompt #91: Data Story Narrative
+I have the following research that I need to present to
+[audience, leadership, board, client, team]: [describe or
+paste in your phase two synthesis]. Help me turn this into a
+narrative that: opens with the single most important finding,
+builds the supporting evidence in a logical sequence, explains
+what the data means for our strategy or decisions, and closes
+with a clear recommendation or call to action.
+The audience cares most about: [describe what matters to them]
+Use this from the Executive Prompt Library across any deliverable type.
+PRO TIP FROM THE EXECUTIVE PROMPT LIBRARY: 
+Phase three output formats:
+The same phase two synthesis can produce different outputs for different
+audiences. The research does not change. The framing does.
+For a CEO: three findings and one recommendation. For a board: risk context
+and financial implications. For a client: how it affects them specifically.
+For a team: what it means for how they work next week.
+Tell the model who it is writing for and what that person cares most about. The
+output adjusts accordingly.
+
+
+3 years covering AI research tools daily |10
+Phase one: GATHER
+Perplexity search on
+top five competitors. 
+Grok scan for recent
+announcements and
+hiring patterns.
+Collect sourced
+notes. 
+Phase two: ANALYZE
+Claude with Prompt
+#85 for each
+competitor. 
+Prompt #86 for
+sector-wide trend
+read. 
+Phase three: OUTPUT
+Prompt #91 into a
+one-page
+competitive brief for
+the leadership team.
+THE SYSTEM IN PRACTICE
+USE CASE 1: 
+COMPETITIVE
+ANALYSIS
+Phase one: GATHER
+Perplexity for market
+data, industry
+reports, customer
+signals. 
+Grok for recent
+news.
+Phase two: ANALYZE
+Claude with Prompt
+#84 for synthesis.
+Prompt #86 for trend
+analysis. 
+Phase three: OUTPUT
+Prompt #91 into a
+market briefing
+document. 
+Or export to slides
+using Gamma.
+USE CASE 2: 
+MARKET
+RESEARCH
+Phase one: GATHER
+Perplexity on the
+company, person, or
+topic you are
+meeting about. 
+Phase two: ANALYZE
+Claude with Prompt
+#84 to synthesize
+the key context.
+Phase three: OUTPUT
+A short briefing note
+using Prompt #91,
+three findings, one
+question to open
+with.
+USE CASE 3: 
+PRE-MEETING
+RESEARCH
+WHAT THIS CHANGES
+Most people finish research wishing they had more time.
+This system does not give you more time. It gives you better output in the
+time you already spend.
+The gathering is more targeted, the analysis is more structured, and the
+output is more useful.
+That's what changes when you treat research as a three-phase process
+instead of a single question typed into a chat window.
+
+
+11
+The AI Leaders Launch Guide builds the implementation system
+that makes sure it keeps working across your whole organisation.
+16 lessons
+AI tools quick-start
+3 custom GPTs
+HubSpot AI playbooks
+THE NATURAL NEXT STEP
+The ROI framework tells you what is working.
+The AI-Era Interview | The AI Report |Trusted by 400,000+ business leaders | CEO Liam Lawson
+GET THE AI LEADER
+LAUNCH GUIDE
+GET THE AI LEADER
+LAUNCH GUIDE $27
+$27

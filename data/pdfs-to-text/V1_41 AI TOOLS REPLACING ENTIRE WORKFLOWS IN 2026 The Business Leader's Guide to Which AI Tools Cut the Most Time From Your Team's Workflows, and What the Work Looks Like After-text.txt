@@ -1,0 +1,1127 @@
+41 AI TOOLS
+41 AI TOOLS
+3 years covering AI hiring and adoption daily
+Trusted by 400,000+ business leaders
+The Business Leader's Guide to Which AI Tools Cut
+the Most Time From Your Team's Workflows,
+and What the Work Looks Like After
+Replacing Entire Workflows In 2026
+Replacing Entire Workflows In 2026
+By 
+LIAM LAWSON
+ CEO, The AI Report
+
+
+Category 3
+Category 3
+TABLE OF
+CONTENTS
+3
+Introduction 
+Introduction 
+4
+How to Use This Guide
+How to Use This Guide
+5
+Category 1
+Category 1
+7
+Category 2
+Category 2
+9
+11
+Category 4
+Category 4
+Q1 2026 | theaireport.ai. 
+13
+Category 5
+Category 5
+15
+Category 6
+Category 6
+17
+Category 7
+Category 7
+19
+20
+What This Means For Your Team? 
+What This Means For Your Team? 
+The Natural Next Step
+The Natural Next Step
+
+
+Q1 2026 | theaireport.ai. | 3
+INTRODUCTION
+THESE AI TOOLS ARE QUIETLY REPLACING
+ENTIRE WORKFLOWS IN MODERN
+COMPANIES.
+THESE AI TOOLS ARE QUIETLY REPLACING
+ENTIRE WORKFLOWS IN MODERN
+COMPANIES.
+NOT AUGMENTING THEM. NOT SPEEDING THEM UP. REPLACING THEM.
+OLD MODEL
+NEW MODEL
+AI Tool
+Workflow
+Output
+People
+Process
+Output
+The question most business leaders are asking is the wrong one. "Which AI tools
+should we buy?" is a tool question. The right question is a workflow question: which
+tasks your team runs today are consuming the most time, and which tools cut that
+time significantly?
+This guide answers that. Seven workflow categories. 41 tools. For each one: what it
+does, which workflow it replaces, the business outcome that follows, and which team
+should own the transition.
+READING THIS FROM THE FREE COMMUNITY?
+LEADERS LAUNCH MEMBERS GET THE FULL
+IMPLEMENTATION SYSTEM:
+16 lessons, HubSpot AI playbooks, an AI tools quick-start,
+5 custom GPTs, and more added continuously.
+Get the AI Leaders Launch Guide: $27
+https://www.theaireport.ai/leaders-launch-guide
+
+
+Q1 2026 | theaireport.ai. |
+HOW TO USE THIS GUIDE
+4
+01
+02
+03
+FIND THE WORKFLOW
+IDENTIFY THE TOOLS
+PICK ONE TO PILOT
+Start with the workflow consuming the most time on your team.
+Review the tools replacing that workflow.
+Start with one workflow. Implement one tool. Measure adoption.
+Then expand.
+The tools in this guide are included because they have demonstrated real-world
+adoption and measurable business outcomes.
+ONE PRINCIPLE BEFORE YOU START
+A TOOL ONLY CREATES VALUE WHEN THE TEAM ACTUALLY ADOPTS IT.
+THEY ARE NOT HERE BECAUSE OF MARKETING.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 1
+CATEGORY 1
+5
+RESEARCH AND INFORMATION GATHERING
+PERPLEXITY
+GROK
+Perplexity AI
+xAI
+Workflow being replaced: Manual web research, opening 15 tabs, reading articles,
+taking notes, synthesising by hand. A task that used to take a researcher 2 to 4 hours
+per briefing.
+What it does: AI-powered
+search that retrieves and
+synthesises information from
+the web with citations for
+every claim.
+Workflow it replaces: The
+manual research briefing.
+Instead of reading dozens of
+sources and writing a
+summary, you ask Perplexity
+a specific question and
+receive a sourced,
+synthesised answer in
+seconds.
+Business outcome: Research
+that previously took hours
+takes minutes. Every claim is
+cited and traceable. No
+fabricated sources.
+Best for: Research,
+competitive intelligence, legal,
+and compliance functions.
+What it does: AI model with
+real-time access to X data,
+surfacing breaking news,
+market signals, and live
+conversation before they
+reach traditional media.
+Workflow it replaces: Manual
+social and news monitoring.
+Instead of tracking multiple
+feeds to catch breaking
+developments, Grok surfaces
+what's happening before it
+reaches newsletters.
+Business outcome: Real-
+time intelligence without a
+dedicated monitoring
+function. News breaks on X
+before it reaches newsletters.
+Best for: Communications,
+competitive intelligence, and
+executive teams needing
+real-time signal.
+CLAUDE
+Anthropic
+What it does: Long-form
+document analysis, synthesis,
+and research summarisation
+across large files and reports.
+Workflow it replaces: Manual
+document review. Legal
+contracts, board reports,
+research papers, Claude
+reads, identifies key points,
+and summarises in seconds
+what would take a human
+analyst an hour.
+Business outcome:
+Document review time
+reduced dramatically.
+Analysts focus on judgment
+rather than reading.
+Best for: Legal, finance,
+strategy, and executive
+functions handling large
+document volumes.
+
+
+Q1 2026 | theaireport.ai. |6
+NOTEBOOK LM
+CONSENSUS
+Google
+Consensus
+What it does: AI research assistant
+that allows you to upload your own
+documents and ask questions across
+all of them simultaneously.
+Workflow it replaces: Internal
+research across multiple documents.
+Instead of searching through filing
+systems and reading multiple
+sources, NotebookLM treats all your
+uploaded documents as a single
+searchable knowledge base.
+Business outcome: Internal research
+that required cross-referencing
+multiple files becomes a single
+conversation.
+Best for: Research teams,
+consultants, and analysts working
+across large document libraries.
+What it does: AI-powered search
+across peer-reviewed scientific
+literature, with summaries and
+consensus indicators for each claim.
+Workflow it replaces: Academic
+literature review. Instead of searching
+databases and reading papers to
+establish evidence, Consensus
+surfaces what the research says on
+any topic with a single query.
+Business outcome: Evidence-based
+research and fact-checking without a
+dedicated researcher.
+Best for: Healthcare, pharma, policy,
+and any function requiring evidence-
+based decision-making.
+EVIDENCE
+Consensus
+Better Decisions
+DECISION
+INTERNAL KNOWLEDGE
+NotebookLM
+ANALYSIS & INSIGHT
+Claude
+REAL-TIME SIGNALS
+Grok
+INFORMATION
+Perplexity
+Each layer builds
+on the one
+below it.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 2
+CATEGORY 2
+7
+WRITING AND CONTENT PRODUCTION
+CLAUDE 
+CHATGPT (ENTERPRISE)
+Anthropic
+OpenAI
+Workflow being replaced: The blank page. First drafts, editing passes, reformatting,
+and brand consistency checks, tasks that consumed hours of writer and marketer
+time per piece.
+What it does: Long-form
+content generation, editing,
+and nuanced written
+communication that matches
+voice and tone.
+Workflow it replaces: First-
+draft creation and editing for
+long-form content, reports,
+executive communications,
+strategy memos, board
+updates.
+Business outcome: First
+drafts that previously took
+hours are produced in minutes.
+Writers and communicators
+shift from generating to editing
+and refining.
+Best for: Communications
+teams, legal, executive offices,
+any function producing long-
+form written output.
+What it does: Conversational
+AI for drafting, analysing,
+summarising, and general
+writing across all business
+functions.
+Workflow it replaces:
+General business writing,
+emails, summaries, meeting
+follow-ups, documentation,
+status updates.
+Business outcome: Writing
+tasks that accumulated in
+queues are handled in real
+time. Employees stop treating
+writing as a bottleneck.
+Best for: Organisations
+wanting a general-purpose
+writing AI across all functions,
+with enterprise-grade
+security controls.
+JASPER 
+ Jasper AI
+What it does: AI content
+generation trained specifically
+on high-performing
+marketing content, with
+brand voice controls.
+Workflow it replaces:
+Marketing content
+production, ad copy,
+campaign materials, product
+descriptions, and social
+content at volume.
+Business outcome:
+Marketing teams produce
+brand-consistent content at
+scale without proportional
+headcount increases.
+Best for: Marketing teams
+producing high-volume
+content across multiple
+channels with strict brand
+guidelines.
+
+
+Q1 2026 | theaireport.ai. |8
+GAMMA 
+COPY.AI
+Gamma
+Copy.ai
+What it does: AI-generated
+presentations, documents, and web
+pages from a prompt or document
+input, with design built in.
+Workflow it replaces: Slide deck
+creation. The blank slide problem,
+building structure, formatting, and
+designing presentations from scratch.
+Business outcome: First-draft
+presentations that took hours take
+minutes. Design and structure are
+handled automatically.
+Best for: Any team producing high
+volumes of presentations who wants
+to remove the formatting and design
+overhead.
+What it does: AI content workflows
+for go-to-market teams, outbound
+sequences, sales copy, product
+marketing, and content at scale.
+Workflow it replaces: Manual
+copywriting for sales and marketing,
+outreach emails, landing page copy,
+campaign messaging.
+Business outcome: Sales and
+marketing copy that required a
+copywriter is produced by the team
+using the content.
+Best for: Sales development, growth,
+and marketing teams running high-
+volume outbound or content
+programmes.
+CAMPAIGNS
+Copy.ai
+Business Growth
+REVENUE
+PRESENTATION
+Gamma
+BRAND CONTENT
+Jasper
+BUSINESS WRITING
+ChatGPT Enterprise
+FIRST DRAFT
+Claude
+Every layer
+transforms content
+into business
+impact.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 3
+CATEGORY 3
+9
+CUSTOMER SUPPORT AND COMMUNICATION
+INTERCOM (FIN)
+ZENDESK AI
+Intercom
+Zendesk
+Workflow being replaced: Tier 1 customer support, the high-volume, repeatable
+questions that consumed agent time without requiring human judgment.
+What it does: AI customer
+support agent that handles
+customer enquiries across
+chat, email, and messaging
+with context from your help
+centre and previous
+conversations.
+Workflow it replaces: Tier 1
+support ticket resolution.
+Intercom's AI agent Fin
+resolves the repeatable
+questions that used to queue
+for human agents.
+Business outcome: Support
+teams shift from resolving
+volume to handling complexity.
+Response times for routine
+queries drop to seconds.
+Best for: SaaS, e-commerce,
+and any product with a high
+volume of repeatable support
+requests.
+What it does: AI-powered
+ticket routing, response
+drafting, and resolution for
+customer support teams
+already using Zendesk.
+Workflow it replaces: Manual
+ticket triage and routing.
+Instead of a human reading
+each ticket and deciding who
+handles it, Zendesk AI
+categorises, prioritises, and
+routes automatically.
+Business outcome: Ticket
+handling capacity increases
+without headcount. Agents
+spend time on issues that
+require judgment.
+Best for: Mid-size to
+enterprise support teams
+already operating on the
+Zendesk platform.
+ADA 
+Ada
+What it does: AI customer
+service automation that
+resolves customer issues
+across every channel, chat,
+email, voice, and SMS.
+Workflow it replaces: Multi-
+channel support triage. Ada
+handles the first layer of
+customer contact across all
+channels simultaneously,
+escalating only when human
+judgment is required.
+Business outcome: Customer
+enquiries resolved without
+agent involvement for
+repeatable request types.
+Support operates at scale
+without proportional
+headcount.
+Best for: Enterprise
+organisations with high-
+volume customer contact
+across multiple channels.
+
+
+Q1 2026 | theaireport.ai. |10
+DRIFT 
+TIDIO 
+Salesloft
+Tidio
+What it does: AI-powered
+conversational marketing and sales
+qualification through chat, surfacing
+intent signals and routing qualified
+buyers to sales.
+Workflow it replaces: Manual
+website lead qualification. Instead of
+marketing teams nurturing every
+inbound lead manually, Drift qualifies
+intent in real time and routes the right
+conversations to sales.
+Business outcome: Sales teams
+spend time on qualified pipeline rather
+than first-contact qualification.
+Best for: B2B companies with high
+inbound traffic and a sales-led growth
+motion.
+What it does: AI customer support
+and live chat platform that handles
+customer queries, product questions,
+and order issues automatically.
+Workflow it replaces: Live chat
+support monitoring. Instead of agents
+monitoring and responding to chat
+queues, Tidio handles routine queries
+and escalates complex ones.
+Business outcome: E-commerce and
+small business support runs around
+the clock without a dedicated support
+team.
+Best for: E-commerce businesses and
+small-to-mid businesses with
+customer-facing support needs.
+COMPLEX ISSUES
+Humans
+CUSTOMER
+SUCCESS
+QUALIFICATION
+Drift
+MULTI-CHANNEL AI
+Ada
+TICKET ROUTING
+Zendesk AI
+TIER 1 SUPPORT
+Intercom (Fin)
+The goal is to
+remove
+repetitive work
+so humans
+focus on
+complexity.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 4
+CATEGORY 4
+11
+RECRUITING AND TALENT ACQUISITION
+WORKABLE 
+HUBERT 
+Workable
+Hubert
+Workflow being replaced: High-volume candidate screening, the time-intensive first
+pass through applications that consumed recruiter hours before any qualified
+candidate reached a human review.
+What it does: AI-powered
+applicant tracking with
+automated screening,
+interview scheduling, and
+candidate communication.
+Workflow it replaces: Manual
+application review and
+scheduling. Workable's AI
+screens applications against
+defined criteria and handles
+the administrative workflow of
+scheduling and
+communication.
+Business outcome: Hugging
+Face grew from 50 to 220
+employees using AI-assisted
+hiring, saving 2+ hours per
+recruiter per week and
+eliminating external recruiter
+spend.
+Best for: High-growth
+companies scaling hiring
+across multiple roles
+simultaneously.
+What it does: AI-powered
+candidate screening through
+conversational interviews,
+candidates complete an AI-led
+interview before reaching a
+human recruiter.
+Workflow it replaces: First-rou
+nd recruiter screening calls.
+Instead of a recruiter spending
+20 to 30 minutes with every
+applicant, Hubert conducts the
+first-round interview
+automatically.
+Business outcome:
+ManpowerGroup reduced
+recruiter screening time by
+67% using Hubert, with an 85%
+candidate completion rate and
+60% of interviews completed
+outside office hours.
+Best for: High-volume
+recruiting where first-round
+screening is a significant time
+cost.
+EIGHTFOLD AI
+Eightfold
+What it does: AI talent
+intelligence platform that
+matches candidates to roles,
+identifies internal mobility
+opportunities, and predicts
+hiring outcomes.
+Workflow it replaces: Manual
+candidate matching and
+sourcing. Instead of recruiters
+manually searching databases
+and evaluating fit, Eightfold
+surfaces the right candidates
+from both internal and
+external talent pools.
+Business outcome: Time-to-
+shortlist decreases. Internal
+mobility opportunities surface
+that would otherwise go
+unrecognised.
+Best for: Enterprise
+organisations with large
+existing talent databases and
+complex role requirements.
+
+
+Q1 2026 | theaireport.ai. |12
+HIREVUE 
+PARADOX (OLIVIA)
+HireVue
+Paradox
+What it does: AI video interview
+platform that conducts, scores, and
+ranks candidate video responses,
+providing structured assessments
+before human review.
+Workflow it replaces: First-round
+video screening by HR teams.
+Candidates complete structured video
+interviews on their own schedule;
+HireVue scores and surfaces top
+performers for human review.
+Business outcome: Screening capacity
+increases significantly without adding
+recruiter hours. Interview scheduling
+coordination is eliminated.
+Best for: Large enterprises with
+structured hiring processes and high
+applicant volumes.
+What it does: AI recruiting assistant
+that automates candidate
+conversations, scheduling, screening,
+and onboarding communications
+across text, chat, and email.
+Workflow it replaces: High-volume
+recruiting coordination, the back-and-
+forth of scheduling, status updates,
+and candidate communication that
+consumes coordinator time.
+Business outcome: Recruiting
+coordination that required a dedicated
+team member runs automatically.
+Candidate experience improves
+through faster response times.
+Best for: Retail, hospitality, and high-
+volume hiring environments where
+speed and candidate experience
+matter.
+TALENT MATCHING
+Eightfold
+RECRUITING
+AUTOMATION
+ASSESSMENT
+HireVue
+AI-LED INTERVIEWS
+Hubert
+CANDIDATE COORDINATION
+Paradox (Olivia)
+APPLICATION SCREENING
+Workable
+The modern
+hiring process
+is no longer
+a series of
+manual tasks.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 5
+CATEGORY 5
+13
+FINANCE AND OPERATIONS
+TIPALTI 
+VIC.AI
+Tipalti
+Vic.ai
+Workflow being replaced: Manual data processing in finance and operations, invoice
+handling, reconciliation, reporting, and workflow management that required
+dedicated headcount to keep moving.
+What it does: AI-powered
+accounts payable automation,
+invoice processing, approval
+workflows, payment
+execution, and reconciliation.
+Workflow it replaces: Manual
+AP processing. Instead of
+finance teams processing
+invoices by hand, chasing
+approvals, and managing
+payment runs, Tipalti handles
+the entire workflow.
+Business outcome: Mail Shark
+reduced AP workload by 75%,
+saved 3,000+ hours annually,
+and reached zero late
+payments after deploying
+Tipalti.
+Best for: Finance teams
+processing high invoice
+volumes with multi-entity or
+global payment requirements.
+What it does: AI accounting
+automation, autonomous
+invoice processing, coding, and
+approval with learning that
+improves accuracy over time.
+Workflow it replaces: Manual
+invoice coding and approval
+routing. Vic.ai reads invoices,
+applies the correct accounting
+codes, and routes for approval
+without human intervention for
+routine transactions.
+Business outcome: Finance
+teams shift from processing
+transactions to reviewing
+exceptions and managing
+strategy.
+Best for: Mid-market and
+enterprise finance teams with
+high invoice volume and
+complex coding requirements.
+WORKATO
+Workato
+What it does: Enterprise
+automation platform
+connecting business systems
+with AI-powered workflows
+across IT, HR, finance, and
+operations.
+Workflow it replaces: Manual
+cross-system coordination,
+the data movement, status
+updates, and process triggers
+that required human
+intervention between
+systems.
+Business outcome: Samsara
+scaled from 4 million to 40
+million automated tasks in six
+months using Workato for
+their IT helpdesk function.
+Best for: Enterprise
+organisations with complex
+multi-system environments
+and high-volume operational
+processes.
+
+
+Q1 2026 | theaireport.ai. |
+What it does: No-code automation
+connecting 7,000+ applications with
+AI-native workflow capabilities.
+Workflow it replaces: Manual data
+transfer and process triggers
+between applications, copy-pasting
+between tools, triggering follow-up
+actions, updating records across
+systems.
+Business outcome: Repetitive cross-
+application tasks that required human
+attention run automatically. Teams
+stop moving data between tools by
+hand.
+Best for: Teams that need broad
+application connectivity without
+engineering resources.
+14
+ZAPIER 
+MAKE 
+Zapier
+Make (formerly Integromat)
+What it does: Visual workflow
+automation with complex logic,
+branching, and data transformation
+across connected applications.
+Workflow it replaces: Complex
+operational workflows with
+conditional logic, approval processes,
+multi-step data transformations, and
+branching decision trees.
+Business outcome: Complex
+processes that required a developer
+or dedicated operations resource run
+without ongoing maintenance.
+Best for: Power users building
+complex, multi-step automation
+workflows where logic and cost
+efficiency matter.
+COMPLEX OPERATIONS
+Make
+BUSINESS
+OUTCOMES
+APP ECOSYSTEM
+Zapier
+PROCESS FLOWS
+Workato
+ACCOUNTING AI
+Vic.ai
+PAYMENTS & AP
+Tipalti
+Automating the
+entire flow of
+information,
+from invoice to
+insight.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 6
+CATEGORY 6
+15
+MEETINGS AND COMMUNICATION
+FIREFLIES.AI 
+OTTER.AI
+Fireflies
+Otter
+Workflow being replaced: Manual meeting administration, note-taking, action item
+tracking, follow-up drafting, and the time spent searching for what was said in
+previous calls.
+What it does: Meeting
+transcription and AI notes
+across Zoom, Google Meet,
+Teams, and Webex, with
+6,000+ integrations for
+distributing meeting data to
+downstream systems.
+Workflow it replaces: Manual
+meeting note-taking and
+action item capture. Instead of
+someone writing notes during
+a call, Fireflies records,
+transcribes, and extracts
+action items automatically.
+Business outcome: Meeting
+follow-ups that previously
+required manual write-ups are
+produced automatically and
+synced to CRM and project
+tools.
+Best for: Teams that need
+universal platform coverage
+and want meeting data
+feeding directly into existing
+systems.
+What it does: Real-time
+transcription, collaborative
+note-taking during meetings,
+and searchable archives across
+meeting history.
+Workflow it replaces: Live
+note-taking during meetings.
+Otter transcribes in real time,
+allowing participants to be
+present rather than typing.
+Business outcome: Meeting
+participants focus on the
+conversation rather than
+documentation. Searchable
+archives replace manual
+meeting archives.
+Best for: Teams prioritising
+real-time collaboration and
+transcription accuracy.
+GONG 
+Gong 
+What it does: Revenue
+intelligence platform with
+meeting recording, transcript
+analysis, deal scoring, and
+sales coaching.
+Workflow it replaces: Manual
+sales call review and
+coaching. Instead of
+managers listening to calls to
+coach reps, Gong surfaces
+insights, risks, and coaching
+opportunities automatically.
+Business outcome: Sales
+managers coach at scale.
+Deal risks surface before they
+become losses. Pipeline data
+reflects reality rather than rep
+estimates.
+Best for: Sales organisations
+that need to analyse
+conversations at scale, coach
+reps, and forecast pipeline
+with precision.
+
+
+Q1 2026 | theaireport.ai. |
+What it does: Meeting recorder and
+highlight reel tool that clips the most
+important moments from calls and
+distributes them automatically.
+Workflow it replaces: Manual
+meeting recap creation and sharing.
+Instead of writing summaries or
+forwarding recordings, Grain creates
+highlight clips and shares key
+moments automatically.
+Business outcome: Institutional
+knowledge from calls is captured
+and shareable without a human
+creating a summary.
+Best for: Customer success, sales,
+and product teams that want to
+share call insights without full
+recording review.
+16
+GRAIN 
+CHORUS 
+Grain 
+ZoomInfo
+What it does: Conversation
+intelligence for sales teams, call
+recording, analysis, and coaching
+integrated with CRM data.
+Workflow it replaces: Manual deal
+review and pipeline inspection. Instead
+of managers reviewing calls manually,
+Chorus flags risks and opportunities in
+the context of CRM data.
+Business outcome: Pipeline accuracy
+improves. Coaching happens at scale.
+Deal risks surface earlier.
+Best for: Mid-market to enterprise
+sales organisations already operating
+on ZoomInfo or Salesforce.
+REVENUE INTELLIGENCE
+Gong + Chorus
+ACTION
+KNOWLEDGE SHARING
+Grain
+SEARCHABLE MEMORY
+Otter
+MEETING CAPTURE
+Fireflies
+AI captures every
+conversation, surfaces
+the important moments,
+identifies risks and
+opportunities, and 
+turns discussions 
+into actions.
+
+
+Q1 2026 | theaireport.ai. |
+CATEGORY 7
+CATEGORY 7
+17
+SALES AND MARKETING WORKFLOWS
+REPLY.IO
+APOLLO.IO
+Reply.io
+Apollo
+Workflow being replaced: Manual outreach, lead qualification, and marketing
+production, high-volume tasks that consumed SDR, marketing, and growth team time
+without requiring senior judgment.
+What it does: AI-powered
+sales engagement platform,
+personalised outreach
+sequences, automated follow-
+ups, and meeting booking
+across email, LinkedIn, and
+phone.
+Workflow it replaces: Manual
+SDR outreach. Instead of a
+sales development rep
+personalising and sending
+each email individually, Reply.io
+personalises and executes
+sequences at scale.
+Business outcome: Outreach
+volume increases dramatically
+without proportional SDR
+headcount. Reps focus on
+conversations rather than
+composition.
+Best for: B2B sales
+organisations running high-
+volume outbound prospecting.
+What it does: Sales
+intelligence, lead identification,
+and outreach platform, finding
+contacts, verifying emails, and
+executing outbound
+sequences.
+Workflow it replaces: Manual
+prospecting and lead list
+building. Instead of a research
+function building contact lists
+manually, Apollo surfaces
+verified contacts matching
+defined criteria automatically.
+Business outcome:
+Prospecting that required a
+dedicated researcher or hours
+of SDR time runs in minutes.
+Best for: Sales teams doing
+outbound prospecting across
+any industry.
+HUBSPOT AI 
+HubSpot
+What it does: AI-powered
+CRM with content generation,
+email personalisation, and
+workflow automation built
+across the entire HubSpot
+platform.
+Workflow it replaces: Manual
+CRM maintenance, email
+creation, and marketing
+workflow management.
+Instead of marketers building
+every sequence and updating
+every record manually,
+HubSpot AI handles routine
+CRM and marketing tasks.
+Business outcome:
+Marketing and sales
+operations that required
+dedicated administration run
+automatically, with teams
+focusing on strategy rather
+than data entry.
+Best for: SMB to mid-market
+teams running their entire go-
+to-market on HubSpot.
+
+
+Q1 2026 | theaireport.ai. |18
+LAVENDER 
+MARKETO ENGAGE (ADOBE)
+Lavender 
+Adobe
+What it does: AI email coaching and
+personalisation tool that scores
+outbound emails and suggests
+improvements in real time.
+Workflow it replaces: The manual
+editing and review pass on outbound
+sales emails. Instead of managers
+reviewing rep emails or reps second-
+guessing their own writing, Lavender
+scores and improves each email
+before it sends.
+Business outcome: Reply rates
+improve. Email quality becomes
+consistent across the team rather
+than varying by rep.
+Best for: Sales teams sending high
+volumes of personalised outbound
+email.
+What it does: AI-powered marketing
+automation, lead nurturing, email
+campaigns, scoring, and multi-channel
+campaign management at enterprise
+scale.
+Workflow it replaces: Manual
+marketing campaign management and
+lead nurturing. Instead of marketers
+building and managing every campaign
+touchpoint, Marketo automates the
+nurturing sequences based on
+behaviour and scoring.
+Business outcome: Marketing teams
+run sophisticated nurture programmes
+at scale without proportional campaign
+management overhead.
+Best for: Enterprise marketing
+organisations with complex, multi-
+touch campaign requirements.
+CAMPAIGN SCALE
+Marketo
+PIPELINE
+RELATIONSHIPS
+HubSpot
+PERSONALISATION
+Lavender
+OUTREACH
+Reply.io
+PROSPECTS
+Apollo
+The modern revenue
+stack automates each
+stage of that process,
+allowing sales and
+marketing teams to
+spend more time on
+conversations and
+less time on
+administration.
+
+
+Q1 2026 | theaireport.ai. |
+WHAT THIS MEANS
+FOR YOUR TEAM?
+    The pattern across all seven categories is the same.
+The workflows being replaced are not the creative, strategic, or judgment-intensive
+ones. They are the high-volume, repeatable, administratively intensive ones, the work
+that consumed hours without requiring what only a human can bring.
+The teams winning right now are not the ones with the most AI tools.
+They are the ones that identified the three or four workflows consuming the most time,
+matched the right tool to each one, and actually got adoption.
+That is the work. This guide gives you the map.
+19
+Research
+Writing
+Finance
+Meetings
+Sales & Marketing
+Support
+Recruiting
+
+
+20
+The AI Leaders Launch Guide builds the implementation system
+that makes sure it keeps working across your whole organisation.
+16 lessons
+AI tools quick-start
+3 custom GPTs
+HubSpot AI playbooks
+THE NATURAL NEXT STEP
+The ROI framework tells you what is working.
+The AI-Era Interview | The AI Report |Trusted by 400,000+ business leaders | CEO Liam Lawson
+GET THE AI LEADER
+LAUNCH GUIDE
+GET THE AI LEADER
+LAUNCH GUIDE $27
+$27

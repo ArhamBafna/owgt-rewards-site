@@ -1,0 +1,161 @@
+9 Claude Skills You Need - Guide & Install Links
+
+Welcome! This guide has everything from the video — download links, install instructions, and pro tips for each skill.
+
+Quick Links — All 9 Skills
+Skill Creator — Pre-installed, no download needed
+
+
+Fact Checker — https://github.com/daymade/claude-code-skills
+
+Humanizer — https://github.com/blader/humanizer
+
+Playwright — https://github.com/anthropics/skills/tree/main/skills/webapp-testing
+
+Superpowers — https://github.com/obra/superpowers
+
+Septim Agents Pack — We have it here :)
+
+/review — Built-in, just type /review
+
+/context + /compact — Built-in, just type /context or /compact
+
+learnings.md — No download, pattern you create yourself
+
+How to Install Skills in Claude Desktop
+For Essential skills (1–4):
+
+Go to the GitHub link
+
+Click the green "Code" button → "Download ZIP"
+
+Open Claude Desktop
+
+Click the sidebar → Customize → Skills → Upload a Skill
+
+Select the ZIP file
+
+Done — the skill is now active
+
+For Claude Code skills (5–6): Same process, but upload through Customize in the Code tab of Claude Desktop.
+
+For built-in skills (1, 7, 8): No install needed. Just type the command in the Code tab.
+
+Skill 1: Skill Creator
+Install: Pre-installed. Open Claude Desktop and prompt: "I want to create a skill using /skill-creator."
+
+What it does: Turns any repeatable workflow into a reusable skill through a conversation. Claude asks you questions, builds the SKILL.md file, and generates test cases so you can see if the skill actually improves output.
+
+Pro tip: Don't skip the eval step. After Claude builds the skill, it generates test cases with and without the skill active. That side-by-side comparison is how you know if the skill is worth keeping.
+
+Skill 2: Prompt Master
+Install: Download ZIP from github.com/nidhinjs/prompt-master → Upload through Customize → Skills
+
+What it does: Takes messy, unstructured prompts and turns them into optimized, structured prompts. Detects the target AI tool, extracts your intent across 9 dimensions, asks max 3 clarifying questions, and delivers one clean prompt.
+
+Works with: Claude, ChatGPT, Cursor, Midjourney, Stable Diffusion, and 30+ other tools.
+
+Pro tip: Add this to your general instructions in Claude Desktop settings so it auto-runs on every complex prompt. You'll never think about it again and your outputs will improve across the board.
+
+Skill 3: Fact Checker
+Install: Download the fact-checker folder from github.com/daymade/claude-code-skills → ZIP it → Upload through Customize → Skills
+
+What it does: Runs a systematic fact verification pass on any text. Reads every factual claim, cross-references against external sources using web search, and gives you a report — what's confirmed, what's unverifiable, and what's false.
+
+Three use cases:
+
+Anything AI-generated that goes out publicly
+
+Your own content before you publish (video outlines, scripts, posts)
+
+Other people's content when you want to verify their claims
+
+Pro tip: Add a step to your writing skills that runs the fact checker automatically before giving you the final output.
+
+Skill 4: Humanizer
+Install: Download ZIP from github.com/blader/humanizer → Upload through Customize → Skills
+
+What it does: Removes 25 specific patterns of AI-generated writing based on Wikipedia's "Signs of AI writing" guide. Catches inflated symbolism, promotional language, em dash overuse, rule of three, AI vocabulary words ("leverage," "streamline"), vague attributions, and filler phrases.
+
+What makes it different from "make it sound more human": If you give it a sample of your own writing, it analyzes your sentence rhythm, word choices, and quirks — then applies those to the rewrite.
+
+Pro tip: Add this as the final step in any writing skill (LinkedIn writer, newsletter skill, email skill) so it runs automatically before you see the output.
+
+Skill 5: Playwright + Superpowers
+Install Playwright: Download from github.com/anthropics/skills/tree/main/skills/webapp-testing → ZIP the webapp-testing folder → Upload through Customize in the Code tab. You'll need Playwright installed on your machine.
+
+Install Superpowers: Download from github.com/obra/superpowers → ZIP → Upload through Customize in the Code tab.
+
+What Playwright does: Claude navigates your local app like a real user — clicks through flows, fills forms, captures screenshots, and reports what broke.
+
+What Superpowers does: Forces Claude to plan before coding, write tests before shipping, and review its own work in two stages before you ever see it.
+
+Together: Claude builds with quality gates baked in, then tests everything end to end. You stop being the QA department.
+
+Skill 6: Septim Agents Pack (Free Version)
+Install: Download our free version from the following link
+
+
+https://www.dropbox.com/scl/fo/fplu6l8ozzu1o4ijgkvg9/AFzmSJJf7yLR3Mfd3qpEN5g?rlkey=f3jvyts8157yyvxqvnbsxg8qj&st=o20yqbj9&dl=0
+
+
+
+What it does: Drops 10 specialized sub-agents into your project:
+
+Agent Role Atlas Planning Luca Architecture Canon Brand Ember Marketing Tally Finance Nova Design Ward Legal Mira Customer Experience Juno Research Pip Coordination
+
+How to use: Ask Claude to use a specific agent by name. "Use Atlas to plan this feature." "Use Ward to check for legal issues." "Use Tally to estimate cost."
+
+Note: The original Septim Agents Pack costs $49. This is our free version that does the same thing.
+
+Skill 7: /review
+Install: Built-in. No download needed.
+
+How to use: After Claude builds something, type /review in the Code tab. Claude does a structured code review — checks for bugs, edge cases, security issues, and design problems.
+
+Bonus: Type /security-review for a security-focused review of pending changes on your current branch.
+
+When to use: As your last step before merging anything. Runs locally, costs nothing extra.
+
+Skill 8: /context + /compact
+Install: Built-in. No download needed.
+
+How to use:
+
+Type /context to see what's eating your context window right now
+
+Type /compact to compress your conversation on your terms
+
+Add a focus: /compact focus on the auth module to tell Claude what to keep
+
+The habit: Run /context every 20 minutes. When you hit 60%, run /compact with a focus instruction. Sessions run longer and Claude stops forgetting what it was doing.
+
+Skill 9: learnings.md Pattern
+Install: No download needed. You create this yourself.
+
+Setup — 2 steps:
+
+Create an empty file called learnings.md alongside your existing skill file
+
+Add one line to your SKILL.md: "Before running, read learnings.md and apply any relevant notes."
+
+How it works: You use a skill. The output isn't perfect. You correct Claude. That correction gets logged into learnings.md automatically — dated, specific, scoped to that skill. Next time the skill runs, it reads those notes first.
+
+You don't write anything in learnings.md upfront. It builds itself from your corrections over time.
+
+Example entries after a few runs:
+
+"headlines with numbers consistently outperformed"
+
+"intro paragraphs over 80 words flagged as too long by client"
+
+"avoid the word 'leverage' — client has specifically rejected this three times"
+
+Apply this to any skill you already have. It's the single most impactful change you can make.
+
+---
+
+
+https://drive.google.com/drive/u/0/folders/1OFo2dm89C7SSypYcmcLmItWxaMsQ-EcO
+https://drive.google.com/drive/u/0/folders/1EyZdvuSqgW9JzUL0udvYATvfgFvtvaSC
+https://drive.google.com/drive/u/0/folders/18NbpcsZJ7vjY-7GtFWU5uX3Ocb7CPY8v

@@ -1,0 +1,378 @@
+1
+3 years covering AI for business leaders daily
+Trusted by 400,000+ business leaders
+37 CLAUDE
+PROMPTS
+THAT SAVE MANAGERS 10+ HOURS PER WEEK
+Organised by the 8 Situations Every Manager Faces
+By 
+LIAM LAWSON
+ CEO, The AI Report
+
+
+TABLE OF
+CONTENTS
+3
+Introduction 
+Introduction 
+4
+How to Use This Playbook
+How to Use This Playbook
+4
+Situation 1: Team Communication
+Situation 1: Team Communication
+3 years covering AI for business leaders daily
+5
+Situation 2: Performance and Development
+Situation 2: Performance and Development
+6
+Situation 3: Projects and Operations
+Situation 3: Projects and Operations
+7
+Situation 4: Meeting Management
+Situation 4: Meeting Management
+8
+Situation 5: Hiring and Talent
+Situation 5: Hiring and Talent
+9
+Situation 6: Strategy and Planning
+Situation 6: Strategy and Planning
+10
+Situation 7: Data and Reporting
+Situation 7: Data and Reporting
+11
+Situation 8: Culture and Change
+Situation 8: Culture and Change
+
+
+INTRODUCTION
+EVERY AI PROMPT GUIDE IS BUILT THE
+SAME WAY: BY BUSINESS FUNCTION.
+EVERY AI PROMPT GUIDE IS BUILT THE
+SAME WAY: BY BUSINESS FUNCTION.
+3
+READING THIS FROM THE FREE COMMUNITY?
+LEADERS LAUNCH MEMBERS GET THE FULL
+IMPLEMENTATION SYSTEM:
+16 lessons, HubSpot AI playbooks, an AI tools quick-start,
+5 custom GPTs, and more added continuously.
+Get the AI Leaders Launch Guide: $27
+https://www.theaireport.ai/leaders-launch-guide
+MARKETING PROMPTS. FINANCE PROMPTS. HR PROMPTS. 
+That's useful if you know exactly which function you're in. It's less useful when
+you're a manager facing seven different situations before lunch.
+This guide is built differently. It's organised by situation, not function. Find the
+moment you're in, copy the prompt, replace the brackets, and the right output is
+usually one run away.
+37
+PROMPTS
+All from the published Executive Prompt Library.
+8
+MANAGEMENT
+SITUATIONS
+1
+EXECUTIVE  
+PROMPT LIBRARY
+3 years covering AI for business leaders daily | 
+
+
+HOW TO USE THIS PLAYBOOK
+4
+Find the situation
+you're in.
+Copy the prompt.
+Replace the
+brackets. 
+Run it in Claude.
+One principle throughout: 
+be specific. Vague inputs produce vague outputs.
+SITUATION 1
+When you need to send a message that actually lands.
+The most common communication failure isn't the wrong message, it's the right
+message in the wrong order. AI catches those structural problems before they reach
+your team.
+Prompt #21: All-Hands Talking Points
+I am preparing for an all-hands meeting. The main topic is
+[describe the topic]. Draft talking points that: open with the
+headline message directly, explain the context and reasoning
+in plain language, anticipate the three questions employees
+are most likely to have and address them proactively, and
+close with a clear call to action or next step.
+TEAM COMMUNICATION
+Pro tip: After drafting, ask "What question am I most likely to get that I have not
+addressed?" This is almost always the most important thing to prepare for.
+3 years covering AI for business leaders daily | 
+
+
+5
+Prompt #29: Team Alignment Message
+My team is showing signs of misalignment around [describe the
+issue]. Help me draft talking points for a team conversation
+that: names the misalignment directly without blame,
+reconnects the team to our shared goals and values,
+establishes clear expectations going forward, and opens the
+door for honest conversation about what is getting in the way.
+Pro tip: Ask the AI to add a line where you own your part of the misalignment as the
+leader. Vulnerability from leadership accelerates team trust.
+3 years covering AI for business leaders daily | 
+Also in this situation: Prompt #17 (Difficult Message Framing), Prompt #22
+(Executive Email Draft), Prompt #25 (Change Management Message), Prompt #28
+(Decision Communication Framework), Prompt #19 (Leadership Vision
+Articulation)
+SITUATION 2
+When you need to send a message that actually lands.
+The most common communication failure isn't the wrong message, it's the right
+message in the wrong order. AI catches those structural problems before they reach
+your team.
+PERFORMANCE AND DEVELOPMENT
+Prompt #72: Performance Review Preparation
+I need to deliver a performance review for [role/level]. The
+employee's performance has been [strong/mixed/below
+expectations] and the key themes are [describe]. Help me
+structure the review conversation so that it: leads with
+genuine recognition before development areas, delivers
+critical feedback using the situation-behavior- impact
+framework, is specific enough to be actionable, and ends with
+agreed next steps and support commitments.
+Pro tip: Ask it to convert any general feedback you have into a specific SBI-format
+example. Vague performance feedback is the most common reason development
+conversations fail.
+
+
+6
+Prompt #79: Difficult Employee Conversation
+Prep
+I need to have a difficult conversation with [an employee,
+described by role and situation] about [the issue]. Help me
+prepare by: scripting my opening statement so it gets directly
+to the point without preamble, anticipating the three most
+likely responses and preparing my reply to each, identifying
+the specific outcome I need from this conversation, and
+planning how to close the conversation regardless of how the
+employee responds.
+3 years covering AI for business leaders daily | 
+SITUATION 3
+When you need to keep work moving without chaos.
+The highest-leverage use of AI for managers isn't drafting emails. It is thinking
+through operational problems before they become real ones. Risk assessment before
+a project starts. Process redesign before the team hits the wall.
+PROJECT AND OPERATIONS
+Prompt #46: Project Risk Assessment
+I am about to kick off [project name and description]. Before
+we start, help me build a project risk assessment. Identify
+the ten most likely risks across the categories of scope,
+resources, timeline, stakeholder alignment, and external
+dependencies. For each risk: probability, potential impact,
+and one specific mitigation action. Flag the top three risks
+that could derail the project entirely.
+Pro tip: Run this at the start of every major project, not after it has already begun to
+go wrong. Preventative risk management is ten times cheaper than reactive
+recovery.
+Pro tip: Ask "Critique my opening statement and tell me if I am burying the lead."
+Difficult conversations go wrong most often in the first 30 seconds.
+Also in this situation: Prompt #23 (Feedback Conversation Prep), Prompt #80
+(Leadership Development Plan)
+
+
+7
+Prompt #48: KPI Framework Design
+I need to design a KPI framework for [team/function]. The
+framework should cover: two or three leading indicators that
+predict future performance, two or three lagging indicators
+that confirm results, and one or two health metrics that
+prevent us from chasing top-line performance at the cost of
+team wellbeing. For each KPI: how it is measured, the data
+source, the reporting cadence, and what a good versus
+concerning result looks like.
+3 years covering AI for business leaders daily | 
+SITUATION 4
+When meetings are eating the week and producing nothing.
+The two most valuable meeting prompts aren't about running meetings better. They
+are about deciding which meetings should not exist at all.
+MEETING MANAGEMENT
+Prompt #50: Meeting Effectiveness Audit
+I am going to describe our current meeting culture and
+structure. Identify: which meetings are likely providing less
+value than their time cost, what meeting hygiene improvements
+would have the most impact on team productivity, and what a
+well-designed meeting architecture would look like for a team
+of [our size and function]. Current state: [describe your
+recurring meetings, their cadence, and the general state of
+your meeting culture]
+Pro tip: Most executive teams can reclaim 30 to 40% of meeting time without losing
+meaningful collaboration. The hardest part is having the political conversation
+about which meetings to eliminate.
+Pro tip: If the team cannot remember all the KPIs, you have too many. Aim for five to
+seven total.
+Also in this situation: Prompt #43 (Process Bottleneck Diagnosis), Prompt #44
+(Operations Efficiency Audit), Prompt #47 (Workflow Redesign Brief), Prompt #51
+(OKR Design)
+
+
+8
+Prompt #54: Post-Mortem Framework
+A project, initiative, or quarter did not go as planned. Help
+me run a constructive post-mortem. Based on the following
+context, identify: what we said would happen versus what
+actually happened, the three root causes behind the gap, what
+early warning signals we missed or ignored, and what we should
+do specifically differently next time. Context: [describe what
+happened]
+3 years covering AI for business leaders daily | 
+SITUATION 5
+When you are building the team and the process is slower than it needs to be.
+HIRING AND TALENT
+Prompt #76: Onboarding Program Design
+Design a 30-60-90 day onboarding program for [role]. The
+program should ensure that: by day 30 the new hire understands
+the business, their role, and key relationships; by day 60
+they are contributing independently; by day 90 they have clear
+goals and are operating at full pace. For each phase: the
+three to five most important activities, the key relationships
+to establish, and how success is defined.
+Pro tip: Ask "What is the single most important thing this person needs to
+understand in their first 30 days that is not in any document?" The answer is
+usually the most valuable part of the onboarding plan.
+Pro tip: Ask "Was there a moment when we knew this was going wrong but did not
+act?" Post-mortems are most useful when they surface the decision point, not just
+the outcome.
+Also in this situation: Prompt #16 (Board Update Structure), Prompt #49
+(Capacity Planning Analysis)
+
+
+9
+Prompt #78: Employee Engagement Analysis
+I am going to share results from an employee engagement survey
+or feedback data. Help me identify: the two or three themes
+that represent our biggest engagement risks, which findings
+are most likely driven by structural or systemic issues versus
+individual manager quality, the segment of employees most at
+risk, and the two actions with the highest potential impact.
+Data: [paste in survey results or theme summaries]
+3 years covering AI for business leaders daily | 
+SITUATION 6
+When you need to think more clearly before committing.
+STRATEGY AND PLANNING
+Prompt #5: Assumptions Stress Test
+I am going to share a strategy or plan. Identify every
+assumption embedded in it, stated or unstated. Then rate each
+assumption on two axes: how confident we should be that it is
+true, and how damaging it would be to the strategy if it
+turned out to be wrong. Flag the two or three assumptions that
+pose the highest combined risk. Strategy: [describe your
+current plan]
+Pro tip: This is the single most useful prompt for any strategic planning process.
+Run it on every major initiative before you present to leadership.
+Pro tip: Ask "What are we doing well that we risk losing if we focus all our attention
+on the gaps?" High-score items in engagement surveys are as important as low-
+score items.
+Also in this situation: Prompt #74 (Organisational Design Review), Prompt #77
+(Succession Planning Framework)
+
+
+10
+Prompt #6: Three-Scenario Planning
+For [this strategic initiative or decision], help me build
+three planning scenarios: a base case, an optimistic case, and
+a pessimistic case. For each scenario, describe the key
+conditions that would make it true, the likely business
+outcomes, and the three most important actions leadership
+should take to either create or respond to that scenario.
+3 years covering AI for business leaders daily | 
+SITUATION 7
+When you need to turn numbers into a story that moves people.
+DATA AND REPORTING
+Prompt #84: Research Synthesis
+I have gathered the following research or data on [topic].
+Synthesize it into a briefing of no more than one page
+covering: the three most important findings, what these
+findings mean for our business specifically, the key areas of
+uncertainty or conflicting evidence, and the one or two
+questions that still need to be answered before we can act.
+Research: [paste in your data or notes]
+Pro tip: Ask "For each finding, tell me how confident we should be in it and what the
+source quality is." The most valuable synthesis separates what is known from what
+is assumed.
+Pro tip: After generating the scenarios, ask "What early warning signals would tell
+us which scenario is unfolding?" This turns the exercise into something you can
+actually monitor.
+Also in this situation: Prompt #4 (Strategic Options Prioritization), Prompt #92
+(Decision Matrix Construction)
+
+
+11
+Prompt #91: Data Story Narrative
+I have the following data to present to [describe your
+audience]: [paste in or describe your data]. Help me turn this
+into a narrative that: opens with the single most important
+finding, builds the supporting evidence in a logical sequence,
+explains what the data means for strategy or decisions, and
+closes with a clear recommendation. The audience cares most
+about: [describe]
+3 years covering AI for business leaders daily | 
+SITUATION 8
+When you need to shift how the team operates, not just what it does.
+CULTURE AND CHANGE
+Prompt #75: Culture Assessment
+Help me assess the current state of our organisational
+culture. Based on the following context and data, identify:
+the two or three strongest cultural attributes that define how
+we operate at our best, the two or three cultural gaps between
+our stated values and daily reality, the specific behaviors
+reinforcing the gaps, and two concrete actions leadership
+could take to close the most important gap. Context: [describe
+your stated values, recent engagement data, and your
+observations]
+Pro tip: Culture is changed through behavior, not communication alone. For each
+gap, ask "What specific behavior from leadership is the biggest driver of this gap?"
+Pro tip: Data presentations that lead with methodology lose audiences. Always lead
+with the conclusion and use the data to support it, not the reverse.
+Also in this situation: Prompt #82 (Customer Feedback Synthesis), Prompt #83
+(Survey Design), Prompt #88 (Qualitative Interview Analysis), Prompt #90
+(Benchmarking Framework)
+
+
+12
+Prompt #81: Team Effectiveness Diagnosis
+My team is facing the following challenges: [describe the
+symptoms]. Help me diagnose the root cause by identifying:
+whether this looks more like a structural, interpersonal, or
+skills issue, the two or three questions I should ask to
+confirm my diagnosis, and the intervention that would have the
+highest impact if my diagnosis is correct. Team context:
+[describe size, structure, and how long these challenges have
+been present]
+3 years covering AI for business leaders daily | 
+Pro tip: Ask "Could this problem be solved by clarity on roles and decision rights,
+without any interpersonal intervention?" Team problems that look interpersonal are
+often structural.
+THE MANAGERS WHO GET THE MOST FROM AI ARE NOT THE
+ONES WHO USE IT FOR EVERYTHING.  
+They are the ones who have a clear answer to the question "what do I use AI
+for and when?"
+That is what this playbook gives you.
+37
+PROMPTS
+8
+MANAGEMENT
+SITUATIONS
+ALL COPY-
+PASTE READY.
+WHAT YOU HAVE NOW
+
+
+13
+The AI Leaders Launch Guide builds the implementation system
+that makes sure it keeps working across your whole organisation.
+16 lessons
+AI tools quick-start
+3 custom GPTs
+HubSpot AI playbooks
+THE NATURAL NEXT STEP
+The ROI framework tells you what is working.
+The AI-Era Interview | The AI Report |Trusted by 400,000+ business leaders | CEO Liam Lawson
+GET THE AI LEADER
+LAUNCH GUIDE
+GET THE AI LEADER
+LAUNCH GUIDE $27
+$27

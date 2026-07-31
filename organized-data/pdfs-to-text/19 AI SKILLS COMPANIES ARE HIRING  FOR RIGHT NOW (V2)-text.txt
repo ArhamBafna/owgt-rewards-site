@@ -1,0 +1,389 @@
+--- Page 1 ---
+THE
+AiREPORT
+19 AISKILLS
+COMPANIES
+AREHIRING
+FORRIGHTNOW
+The Non-Technical Professional's Guide
+to Future-Proofing Your Career in 2026
+Trusted by 400,000+ business leaders
+Q1 2026 I theaireport.ai.
+
+--- Page 2 ---
+TABLEOF
+CONTENTS
+Introduction
+Al Literacy and Prompt Engineering
+Al Workflow Automation
+Al Content and Communications
+12
+Al-Assisted Research and Analysis
+14
+Al in Sales and Revenue Operations
+15
+Al in Human Resources and Talent
+Three Skills That Apply Across Every
+17
+Category
+THEKiREPORT
+Q1 2026 I theaireport.ai.
+
+--- Page 3 ---
+INTRODUCTION
+HERE'S ANUMBERWORTH
+PAYING ATTENTION TO.
+Pay premium
+Extra per year (US)
+Postings requiring Al
+Al fluency demand
++28%
+5% → 9%
++$18,000
+7x a year
+Workers with Al skills earn 28% more than peers without them. That's roughly
+$18,000 more per year in the US. And job postings requiring Al skills have jumped
+What's different now is where those requirements are showing up. Linkedln data
+shows Al competencies are becoming standard expectations across marketing,
+HR, operations, and leadership, not just engineering.
+This isn'ta career guide for developers. It's for non-technical professionals who
+want to know which specific Al skills employers are paying a premium for, and
+where to start.
+19 skills. Beginner to advanced.
+THE AIEXECUTIVE PASSIS THENEXTLEVEL
+Get $14,000+ in Al perks and credits for just $199/year.
+Access premium tools, exclusive resources, and member
+benefits built for Al-driven leaders.
+Upgrade here:$i99/year
+https://www.theaireport.ai/ai-executive-pass
+THEKiREPORT
+Q1 2026 I theaireport.ai. 13
+
+--- Page 4 ---
+HOWTOUSETHIS GUIDE
+Prompt engineering
+What it is
+Writing clear instructions to get reliable, repeatable results from Al tools.
+Marketing
+HR
+Who's hiring
+Operations
+Beginner
+Advanced
+Level
+Start with
+ChatGPT or Claude
+EACH SKILL INCLUDES:
+What it is, Who is hiring for it, Beginner vs. Advanced level, and the tool to Start
+with. You don't need to build all 19. ldentify the two or three most relevant to your
+role and start there. Many of the fastest-growing requirements are accessible to
+non-technical professionals within weeks.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 14
+
+--- Page 5 ---
+AILITERACY AND
+PROMPTENGINEERING
+Why this category matters:
+Linkedln describes Al literacy and prompt engineering as "the new baseline."
+A growing share of job postings now expects professionals to be comfortable
+working with tools like ChatGPT, Claude, or Gemini, across all functions, not
+just technical roles.
+SKILL 1: AI LITERACY
+What it is: The ability to understand what Al tools can and cannot do, use
+them as part of a daily workflow, and explain their outputs to colleagues
+and stakeholders.
+Who is hiring: Virtually every employer. Linkedln's 2026 data shows Al
+capabilities moving from "nice-to-have" to standard expectations across
+marketing, HR, and operations.
+Beginner: Can use ChatGPT or Claude to complete basic tasks, drafting
+emails, summarising documents, researching questions.
+Advanced: Recommends the right Al tool for each job and critically
+assesses output reliability before acting on it.
+Tool to start: Claude or ChatGPT. Begin by replacing one manual task per
+day with an Al-assisted version.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 15
+
+--- Page 6 ---
+SKILL 2: PROMPT ENGINEERING
+What it is: Designing structured instructions that produce useful, specific
+Al outputs instead of just typing questions and hoping.
+Who is hiring: Marketing, HR, operations, and product roles. Average
+Beginner: Can write a prompt that includes role, context, and format
+instructions. Gets consistently better outputs than generic questions.
+Advanced: Designs prompt libraries and templates for team use. Evaluates
+best practices.
+Tool to start: The Al Report's Executive Prompt Library. Study the
+structure of each prompt, role, context, task, format, before writing
+your own.
+SKILL 3: AI OUTPUT VERIFICATION
+What it is: Critically evaluating Al output for accuracy, fabricated citations,
+and factual errors before acting on it.
+Who is hiring: Research, legal, finance, and communications functions.
+Beginner: Knows not to share Al output without reading it. Checks factual
+claims against primary sources.
+Advanced: Runs systematic
+Tool to start: Perplexity.
+verification processes, cross-
+Because every answer
+referencing across models, checking
+cites sources, it forces
+citations, testing outputs for internal
+source-checking as a habit.
+consistency before acting on them.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 16
+
+--- Page 7 ---
+AIWORKELOW
+AUTOMATION
+Why this category matters:
+No-code and low-code Al automation is the fastest-growing non-technical Al
+skill in the market. Employers want professionals who can build workflows, not
+just describe them.
+SKILL 4: NO-CODE AI WORKFLOW BUILDING
+What it is: Using tools like Zapier, Make, or Gumloop to connect
+applications and automate repetitive tasks without writing code.
+Who is hiring: Operations, marketing, HR, and sales functions.
+Beginner: Builds a basic Zapier workflow connecting two applications.
+Advanced: Designs multi-step automation sequences with conditional
+logic, error handling, and Al-processing nodes built in.
+Tool to start: Zapier. Begin with one automation connecting two
+tools you already use. ldentify a manual task that happens more
+than five times per week.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 17
+
+--- Page 8 ---
+SKILL 5: AI-POWERED PROCESSDOCUMENTATION
+What it is: Using Al to document and improve business processes faster
+and more consistently.
+Who is hiring: Operations managers, project leads, and business analysts
+Any role responsible for how work gets done.
+SOP. Saves documentation time significantly.
+and audits existing processes for automation candidates.
+Tool to start: Claude. The Executive Prompt Library Prompt #47
+(Workflow Redesign Brief) is the starting point.
+SKILL 6: AI AGENT COORDINATION
+What it is: Setting up and managing Al agents, autonomous tools that can
+perform tasks like web research, data collection, and content processing
+without continuous human input.
+Who is hiring: Operations, marketing, and technology functions.
+using existing tools.
+Advanced: Coordinates multi-agent workflows with human review at
+defined checkpoints.
+Tool to start: Gumloop or Make with Al nodes. Start with a single-
+agent research task before building multi-agent sequences.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 18
+
+--- Page 9 ---
+AICONTENT AND
+COMMUNICATIONS
+Why this category matters:
+Al has not replaced content professionals, but it has raised the baseline. Employers
+now expect content and communications roles to produce more output with the same
+headcount, which requires Al fluency at the creation stage
+SKILL 7: AI-ASSISTED CONTENT CREATION
+What it is: Using Al to produce first drafts, outlines, and content
+variations, and then editing and improving them using human judgment.
+Who is hiring: Marketing, content, and communications roles.
+Beginner: Uses Al to produce a first draft of a blog post, email, or social
+post. Edits to add voice and accuracy.
+Advanced: Builds Al-assisted content production workflows, from brief to
+draft to final, with consistent brand voice and quality checks at each stage.
+Tool to start: Claude for long-form. ChatGPT for structured content.
+Jasper for marketing-specific output with brand voice controls.
+SKILL 8: AIVIDEO AND VISUAL CONTENT
+What it is: Using Al tools to generate, edit, or enhance visual and video
+content, reducing production time without reducing output quality.
+Who is hiring: Marketing, creative, and social media teams.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 19
+
+--- Page 10 ---
+Beginner: Can use a text-to-image or image-editing Al tool to produce
+visual content for presentations or social media.
+Advanced: Manages an Al content production pipeline combining text,
+visual, and video tools at scale.
+Tool to start: Gemini for image generation. Gamma for Al presentations.
+SKILL 9: AIPRESENTATION
+ANDDOCUMENTPRODUCTION
+What it is: Using Al to convert research, data, or rough thinking into
+production.
+Who is hiring: Strategy, finance, and communications roles producing
+high-volume presentations.
+Beginner: Uses Gamma to generate a first-draft presentation from a
+prompt or document. Edits and refines.
+Advanced: Builds a full Al-assisted presentation workflow from research
+to final deck.
+Tool to start: Gamma. The learning curve is measured in minutes, not hours.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 1 10
+
+--- Page 11 ---
+AI-ASSISTEDRESEARCH
+AND ANALYSIS
+Why this category matters:
+Research and analysis roles are being redefined by Al. The baseline expectation
+sources, and synthesize faster.
+SKILL 1O: AI-POWERED MARKET RESEARCH
+What it is: Using Al tools to gather, synthesize, and interpret market data,
+competitive intelligence, and industry trends faster than traditional
+research methods.
+Who is hiring: Strategy, marketing, and competitive intelligence functions.
+Beginner: Uses Perplexity to build a sourced market briefing on a topic.
+Can cite the sources behind key findings.
+Advanced: Runs a weekly competitive intelligence system using
+Perplexity, Grok, and Claude.
+Tool to start: Perplexity. Start with a specific research question in your
+market and evaluate the output for source quality.
+THEiREPORT
+Q1 2026 I theaireport.ai. I 11
+
+--- Page 12 ---
+SKILL 11: AI DATA INTERPRETATION
+What it is: Using Al to make sense of data sets, reports, and survey
+results, identifying key patterns, outliers, and actionable implications
+without requiring data science expertise.
+Who is hiring: Operations, marketing, HR, and finance functions
+Beginner: Pastes a dataset or report into Claude and asks for the three
+most important findings. Verifies the interpretation before sharing.
+Advanced: Designs Al-
+Tool to start: Claude with
+assisted analysis workflows
+Prompt #84 (Research
+for recurring data reviews
+Synthesis) from the
+with standardised prompts.
+Executive Prompt Library.
+SKILL 12: AI COMPETITIVE INTELLIGENCE
+What it is: Using Al to monitor competitor moves, funding signals, hiring
+patterns, and market shifts on an ongoing basis, turning passive
+awareness into active intelligence.
+Who is hiring: Strategy, sales, and product functions.
+Beginner: Uses Grok or Perplexity to run a weekly competitor scan. Knows
+what to look for and where.
+Advanced: Runs a structured competitive intelligence system, scan, analyze,
+Tool to start: Grok for real-time signals. Perplexity for sourced research.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 1 12
+
+--- Page 13 ---
+AIIN SALES AND
+REVENUEOPERATIONS
+Why this category matters:
+Sales and revenue operations is one of the highest-ROl categories for Al
+adoption. Employers are actively hiring for professionals who can deploy Al tools
+to improve pipeline, reduce rep workload, and improve forecast accuracy
+SKILL 13: AI SALES OUTREACH AND SEQUENCING
+What it is: Using Al to personalise outreach at scale, researching
+prospects, drafting personalised emails and messages, and building
+sequenced follow-up workflows.
+Who is hiring: Sales development and revenue operations at
+B2B companies.
+Beginner: Uses Al to research a prospect and draft a personalised
+outreach email. Edits and sends.
+Advanced: Builds Al-powered outreach sequences with Al handling each
+stage, not just the first draft.
+Tool to start: Perplexity for prospect research. Claude for message
+drafting. The Executive Prompt Library for structured outreach prompts.
+SKILL 14: AI CRM AND PIPELINE MANAGEMENT
+What it is: Using Al tools embedded in or connected to CRM systems to
+update records, surface deal risks, forecast pipeline, and automate
+follow-up tasks.
+Who is hiring: Revenue operations and sales leadership.
+THEKiREPORT
+Q1 2026 I theaireport.ai. 1 13
+
+--- Page 14 ---
+Beginner: Uses Al to draft a meeting summary and update CRM fields
+after a call. Saves time on administrative tasks.
+Advanced: Manages an Al-enhanced pipeline review process surfacing
+deal risks and stalled opportunities.
+Tool to start: Fireflies for meeting capture and CRM sync. Gong for
+sales intelligence if at enterprise scale.
+AIINHUMAN
+RESOURCESANDTALENT
+Why this category matters:
+HR is one of the highest-adoption enterprise Al categories. Al is embedded in
+recruiting, onboarding, performance management, and learning systems. HR
+professionals who cannot work alongside these tools are at a disadvantage
+SKILL 15: AI-ASSISTED RECRUITING
+What it is: Using Al tools to screen applications, draft job descriptions,
+without compromising the quality of the hire.
+Who is hiring: Talent acquisition and people operations.
+Beginner: Uses Al to draft a job description and generate a set of
+interview questions for a specific role. Edits for accuracy.
+Advanced: Manages an Al-assisted recruiting workflow from job brief to
+structured interview, with humans making final decisions.
+Tool to start: Claude with the Executive Prompt Library HR section (Prompts
+#70-81). Hugging Face's experience: Al-assisted hiring grew their team
+from 50 to 220 employees with 2+ hours saved per recruiter per week.
+THEiREPORT
+Q1 2026 I theaireport.ai. I 14
+
+--- Page 15 ---
+SKILL 16: AI PERFORMANCE MANAGEMENT
+What it is: Using Al to structure performance reviews, prepare
+development conversations, and build leadership development plans,
+with more consistency and less preparation time.
+Who is hiring: HR business partners and people managers.
+Beginner: Uses Claude to structure a performance review conversation using
+the SBl feedback framework. Gets a consistent, useful structure in minutes.
+Advanced: Designs Al-assisted performance management systems any
+manager can use.
+Tool to start: Claude with Prompt #72 (Performance Review Preparation)
+from the Executive Prompt Library.
+SKILL 17: AI LEARNING AND DEVELOPMENT
+What it is: Using Al to design, personalise, and deliver training content,
+L&D methods.
+Who is hiring: L&D managers and HR leaders.
+Beginner: Uses Al to convert an existing training document into a
+structured learning module with clear objectives and check-in questions.
+Advanced: Builds Al-assisted L&D workflows from skills gap
+identification to content creation.
+Tool to start: Claude for content creation. Define the learning objective
+before prompting, the output quality depends entirely on input specificity
+THEAiREPORT
+Q1 2026 I theaireport.ai. 1 15
+
+--- Page 16 ---
+THREESKILLSTHATAPPLY
+ACROSSEVERY CATEGORY
+SKILL 18: AIETHICS AND
+GOVERNANCEAWARENESS
+What it is: Understanding where Al can be used appropriately, covering
+data privacy, bias, and regulatory compliance. This is a professional
+judgment skill, not a technical one.
+Beginner: Knows which data cannot enter external Al tools. Understands
+the basics of Al bias. Advanced: Assesses Al tool suitability, identifies
+compliance risks, and communicates governance requirements.
+Tool to start: The Al Report's Enterprise Al Policy Guide.
+SKILL 19:AITOOLEVALUATIONAND SELECTION
+What it is: Knowing which Al tool is right for a specific job and being able
+to justify that decision.
+Beginner: Compares two tools for a specific use case on quality, cost, and
+integration. Advanced: Runs formal Al tool evaluation processes with
+structured criteria and proof-of-concept testing.
+Tool to start: This guide. Use it as a framework for your next evaluation decision.
+WHATTHISMEANSFORYOURNEXTMOVE
+The professionals who will be most competitive are not the ones who know the most about Al.
+They are the ones with the most specific, demonstrable Al skills applied to real work. Pick two skills that apply
+to your current role. Build them. Document what changes. That is your competitive advantage.
+THEAiREPORT
+Q1 2026 I theaireport.ai. 1 16
+
+--- Page 17 ---
+THE
+AiREPORT
+THENATURALNEXT STEP
+The Al Executives Pass is the next level
+Get $14,000+ in Al perks and credits for just $199/year.
+Access premium tools, exclusive resources, and member
+benefits built for Al-driven leaders.
+XIEXECUTIVESPASS
+GETTHEAIEXECUTIVES
+PASS$199/YR
+The Al-Era Interview I The Al Report ITrusted by 40O,O0O+ business leaders I CEO Liam Lawson

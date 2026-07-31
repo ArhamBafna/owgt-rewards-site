@@ -1,0 +1,483 @@
+# Build $10,000 Websites with AI Opus 5
+
+## 1. Setup
+You need two things:
+
+AI Code running in the desktop app.
+
+Higgsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.
+
+### Connecting Higgsfield
+1. Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates
+2. Copy the MCP URL
+3. In AI Code: Connectors -> Add custom connector
+4. Paste the URL and name it Higgsfield
+5. Approve the authorization page
+
+Done. No API keys.
+
+### Confirm it worked
+Before starting a build prompt, run this:
+
+> List the Higgsfield MCP tools you have access to.
+
+If it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder.
+
+### Which model
+Use AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.
+
+---
+
+## 2. Build One: Luxury Real Estate
+The site: THE LEDGE, a $24M cantilevered concrete-and-glass house on the Big Sur cliffs.
+
+Copy the whole thing. Paste into AI Code in an empty folder.
+
+```text
+Build a fully animated marketing site for THE LEDGE: a $24,000,000 cantilevered
+concrete-and-glass house on the Big Sur cliffs, listed by MERIDIAN.
+
+Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
+them. No placeholder images anywhere. Generate the assets, confirm the media IDs,
+then wire everything in.
+
+Tone: modern, bold, architectural. Think a modern design magazine, not a heritage
+brokerage: oversized sans-serif, hard edges, asymmetric grid, off-white and raw
+concrete with one electric accent. Nothing ornate, nothing nostalgic, no serif type,
+no gold, no script.
+
+## Asset generation order (do this first)
+
+1. **The master exterior**: the house at golden hour, board-formed concrete,
+   full-height glass, a deep cantilever over the cliff edge, Pacific behind it.
+   Studio-grade architectural photography, wide lens, hard shadows. This is the main
+   asset, and everything else comes from it.
+
+2. **Six interiors**, generated image-to-image FROM the master so materials, light
+   temperature, and grade match exactly: living volume, kitchen, primary suite,
+   bathroom, stair core, pool deck. Same concrete, same glass, same sun angle.
+
+3. **Three detail shots**: concrete texture, a steel-and-glass junction, water on
+   stone. Tight, abstract, near-macro.
+
+4. **Two cutout elements** on clean backgrounds with background removal: an isolated
+   massing view of the house, and a section-cut diagram of the site.
+
+5. **The drone sequence**: four SEPARATE clips, Seedance 2.0, 4K, 4-5 seconds each,
+   colour- and identity-matched to the master. The sequence moves from outside to
+   inside, one space per clip:
+   - **Approach**: fast push along the cliff face, house entering frame late
+   - **Living volume**: hard drop past the cantilever and through the glass into the
+     main living space, concrete walls, ocean filling the far wall
+   - **Kitchen**: quick lateral sweep across the island, steel and stone
+   - **Primary suite**: rapid pull-back from the bed to reveal the full glass wall
+     and the drop beyond it
+
+   **Fast, decisive camera moves, not slow drifts.** Each clip should feel like a cut
+   in a trailer. Combine the four into one continuous file with hard cuts, no
+   crossfades. Note the exact timestamp where each clip begins in the final file.
+
+## Stack
+
+React + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation,
+Three.js (r128) for depth, Lenis for smooth scroll, Framer Motion for
+micro-interactions. Desktop-first, 1440px.
+
+## Sections in order
+
+Hero -> Figures -> The House (pinned image, scrolling text) -> **Drone reveal
+(mid-scroll)** -> Interiors gallery -> Site & plan -> Enquiry/footer.
+
+## Copy
+
+Write like a modern architecture listing, not a luxury brochure. Short declarative
+sentences. Every description carries one concrete detail nobody could guess: how the
+concrete was poured, what the glass is rated for, how far the cantilever reaches.
+Direct and clear. Avoid fluff.
+
+## Animation
+
+Scroll-triggered reveals throughout, pinned sections, smooth scroll. Custom cursor.
+Hero type and imagery respond subtly to the pointer: parallax offset plus light
+direction. Interior cards tilt in 3D on hover. Figures count up on enter. Everything
+snappy and decisive: short durations, slight overshoot. Nothing floats or drifts.
+
+## Drone reveal: the main feature
+
+Dedicated pinned section, roughly mid-page. Focus most effort here.
+
+As the user scrolls in, the video **snaps** from a small framed element
+to full-bleed (fast scale-up, not a gradual grow) then plays its full run of quick
+cuts at natural speed before scroll releases. Video loops, muted, autoplay,
+playsinline. **Never seek it, never tie playback to scroll position**: scroll
+controls the frame around it, never the footage inside it.
+
+**Each cut carries its own information.** Overlay a data card, bottom-left, that
+changes as the footage moves into each new space:
+
+| Cut | Label | Figure | Line |
+|---|---|---|---|
+| 01 | THE APPROACH | 1.4 ACRES | Private road, no through traffic. |
+| 02 | LIVING VOLUME | 24 FT CEILING | The cantilever hangs 40 feet over open air. |
+| 03 | KITCHEN | 19 FT ISLAND | Single slab, quarried and cut on site. |
+| 04 | PRIMARY SUITE | 900 SQ FT | The glass wall is structural. |
+
+Card layout: a small accent counter (`01 / 04`), the label in wide-tracked caps, the
+figure in oversized display type, one line beneath. Each card cuts out and the next
+cuts in: hard, fast, no crossfade, matching the energy of the edit.
+
+**Sync mechanism:** drive the card changes from the video's own
+`timeupdate` event, switching at the known clip start timestamps. Reading
+`currentTime` works well; never assign to it. Do not drive the cards from scroll
+progress, because scroll and playback run independently and the text will drift out of sync
+with the footage.
+
+Split the overlay headline cleanly above and below the video frame so type never
+collides with the footage. As the frame expands, the two halves push apart to the
+edges of the viewport. A thin accent line tracks the expansion. Subtle parallax on the
+surrounding page behind it.
+
+## Deliverable
+
+Production-ready code, all Higgsfield assets integrated, no placeholder images.
+Prioritize visual impact over everything.
+```
+
+### Why this prompt works
+- **Assets before code.** The site is designed around real images instead of AI guessing at layout and backfilling. This ordering decision improves overall build quality.
+- **One master asset, everything derived from it.** The six interiors are generated image-to-image from the exterior, not independently. This maintains consistent lighting and style.
+- **Detail is spent unevenly on purpose.** The drone reveal gets a full page of specific direction, while everything else stays concise. Be precise where the main mechanic lives.
+- **Never scrub video with scroll.** Scrubbing video with scroll often breaks these builds. Scroll should control the frame around a video, never the playback position inside it. Reading `currentTime` works fine, but writing to it stutters.
+
+---
+
+## 3. Iteration Prompts
+The first output is a starting point, and iterating makes the final result stand out.
+
+### Pass one: parallax
+```text
+Add a parallax scroll effect to the hero: background moving at a different rate
+to the foreground as you scroll down the page.
+```
+This single addition helps make the site look polished.
+
+### Pass two: the construction timelapse
+```text
+Add a timelapse section showing the estate being built: the structure rising out
+of the ground and the property taking shape.
+
+Generate the stills with Higgsfield first, each one derived from the previous so the
+camera position and lighting stay locked. Then build the transitions between them.
+Play it on scroll-into-view, not scroll-scrubbed.
+```
+Takes roughly four minutes end to end, creating a clean feature for the site.
+
+### Other iteration prompts worth keeping
+```text
+Make the hero type larger and tighter. Reduce the line height. Increase the
+contrast between the display and body sizes.
+```
+```text
+The section transitions are too soft. Make them hard cuts: no fades between
+background colours.
+```
+```text
+Add a custom cursor: a small ring that scales up over interactive elements.
+```
+```text
+Open the site at 1440px, check it yourself, and fix anything that's misaligned,
+overlapping, or trapped below the fold. Report what you found.
+```
+Running that last prompt helps ensure proper layout alignment across the page.
+
+---
+
+## 4. Build Two: Nacho Macho
+Same workflow, different aesthetic. This shows the workflow works across varied styles.
+
+### The flavour system
+| # | Name | Colour | Note |
+|---|---|---|---|
+| 01 | Nacho Classico | `#F5A623` | golden, the original |
+| 02 | Chili Lime Slap | `#8FD14F` | lime, sharp, acidic |
+| 03 | Blazing Habanero | `#E23E2F` | hot red, second-chip heat |
+| 04 | Blue Corn Crunch | `#2B5FD9` | electric blue, stone-ground blue corn |
+
+One colour per flavour. The main design system builds directly from this table.
+
+### The prompt
+```text
+Build a fully animated marketing site for NACHO MACHO: a small-batch tortilla chip
+brand. Tagline: *Loud snack. No apologies.*
+
+Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
+them. No placeholder images anywhere. Generate the assets, confirm the media IDs, then
+wire everything in.
+
+Tone: loud, colourful, high-energy. Chunky display type, hard colour blocking, halftone
+and paper texture, thick black outlines with hard offset shadows: no blur, no soft
+shadows, no gradients between sections. Direct, confident packaging design.
+
+**Important:** the boldness comes from graphic design (colour, type, texture,
+geometry). Do not use cultural caricature, sombreros, mustaches, or stereotype imagery
+of any kind. The brand focuses strictly on the chips.
+
+## The four flavours
+
+| # | Name | Colour | Note |
+|---|---|---|---|
+| 01 | Nacho Classico | `#F5A623` golden | the original |
+| 02 | Chili Lime Slap | `#8FD14F` lime | sharp, acidic |
+| 03 | Blazing Habanero | `#E23E2F` hot red | second-chip heat |
+| 04 | Blue Corn Crunch | `#2B5FD9` electric blue | stone-ground blue corn |
+
+## Asset generation order (do this first)
+
+1. **The master bag**: a standing foil chip bag, front-facing, studio lit, soft
+   shadow, plain background, Nacho Classico golden colourway. Run background removal.
+   This is the main asset, and everything else comes from it.
+
+2. **Three flavour variants**, generated image-to-image FROM the master bag so the
+   shape, lighting, shadow, and label position stay identical: only the colourway and
+   flavour name change. Lime, hot red, electric blue. Background removal on all three.
+   They should appear as one bag changing flavour.
+
+3. **The chip journey stills**: a single tortilla chip with consistent angle and
+   lighting across all four images. Generate each image-to-image from the first:
+   - plain, unseasoned, pale corn
+   - lightly dusted with seasoning
+   - fully seasoned, heavy red-gold coating
+   - fully seasoned, loaded with dip on one corner
+
+   Background removal on all four.
+
+4. **Seasoning particles**: loose seasoning specks and dust on a plain background,
+   background removed. Include individual chip cutouts at varied angles for
+   scatter elements.
+
+5. **Four ingredient cutouts**: jalapeño, lime half, corn cob, dried chilli. Same
+   lighting as the chip set, background removed.
+
+6. **A bowl of dip**: thick nacho cheese or salsa in a ceramic bowl, shot from a
+   slight three-quarter angle, background removed.
+
+7. **Two texture plates**: a flat-lay of crushed chips and seasoning from directly
+   above, and an abstract halftone-and-colour field with no objects.
+
+## Stack
+
+React + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation, Lenis for
+smooth scroll, Framer Motion for micro-interactions. Desktop-first, 1440px.
+
+**No Three.js and no 3D geometry**: every effect below uses CSS transforms and
+image swaps.
+
+## Sections in order
+
+Hero bag spin -> Chip journey (three linked sections) -> Flavour lineup -> Discount wheel
+-> Footer.
+
+## Copy
+
+Short and direct. Headlines are clear statements. Every flavour description carries one
+concrete detail: how it's fried, where the corn comes from, when the heat arrives.
+
+## Hero: the bag spin
+
+Pin the section for roughly 300vh. The bag sits centred and **rotates in place on its
+vertical axis** as the user scrolls without moving position.
+
+Mechanism: set up rotation in 2D. Drive `scaleX` from scroll progress so the bag
+squeezes to zero width at each quarter-turn, then expands back out. **Swap to the next
+flavour image at the exact frame `scaleX` hits zero** to keep the transition smooth.
+Three full rotations across four flavours. Tie everything to `ScrollTrigger` with `scrub`,
+so scrolling backward spins it back and cycles colours in reverse.
+
+As each flavour lands, the page background changes directly to that flavour's colour and the
+flavour name swaps beneath the bag. A counter reads `01 / 04`. Scattered chip and
+ingredient cutouts drift behind the bag with parallax depth.
+
+`NACHO MACHO` in large display type, split so the bag sits between the two words:
+`NACHO` behind, `MACHO` in front.
+
+## Chip journey: key section
+
+**One tortilla chip travels through three consecutive sections as a single persistent
+element.** The chip remains visible throughout. Build it as one fixed-position element
+living above all three sections, with its transform driven by a single continuous
+ScrollTrigger across the full range.
+
+The chip moves in an arc across the screen (right side, left, then centre)
+rotating slowly as it travels. Text content sits opposite the chip's current position.
+
+**Stage 1: Stone-ground.** Chip enters plain and unseasoned, upper right. Copy on
+the left about the corn.
+
+**Stage 2: Seasoned heavy.** As the chip crosses to the left, seasoning particles
+fall from the top of the viewport toward it, and the chip image transitions from
+plain to lightly dusted to fully seasoned in steps timed to the particles.
+Copy on the right.
+
+**Stage 3: Meet the dip.** The chip travels down to centre while a bowl of dip rises from
+the bottom of the viewport. The chip tilts, dips into it, and the image swaps to the
+loaded-with-dip version. Hold, then release the pin. Copy above.
+
+All motion uses `transform` and `opacity` only.
+
+## Flavour lineup
+
+Four cards in a row with black outlines, offset shadows, each angled slightly
+between -3 deg and 3 deg. Bag render, flavour name, one line of description, and
+a heat rating. Cards tilt toward the cursor on hover.
+
+## Discount wheel
+
+Pinned section. A rotating drum holds capsules in the four flavour colours. Scroll
+progress spins the drum, starting faster and slowing down as the pin ends.
+
+At the end of the pin, one capsule drops through a chute, lands, and opens to
+show a discount code in large display type. The page background changes to that
+capsule's flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`
+button compress to `scale(0.96)` on click and bounce back.
+
+Build the drum, capsules, and chute from CSS shapes and the generated cutouts without using
+canvas or physics engines. Scroll drives rotation, and the drop runs as a GSAP sequence
+when the pin completes.
+
+## Footer
+
+Slow marquee: `NACHO MACHO . LOUD SNACK . NO APOLOGIES .` on a dark background, rotated
+-2 deg. Wordmark, `(c) 2026 Nacho Macho Snack Co.`, three links with an underline effect
+on hover.
+
+## Deliverable
+
+Production-ready code, all Higgsfield assets integrated, no placeholder images.
+Prioritize visual impact over everything.
+```
+
+Check the four chip stills side by side before building. If the chip's shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.
+
+---
+
+## 5. The Live-Action Pass
+Run this second prompt after building the site to add real video content.
+
+```text
+Add one more section to the Nacho Macho site, between the discount wheel and the
+footer.
+
+This section uses live-action footage to contrast with the graphic style of the page.
+
+## Generate with the Higgsfield MCP
+
+**One hero video**, Seedance 2.0, 4K, 8 seconds, loop-friendly:
+Two friends on a couch sharing a bowl of tortilla chips: a hand reaching in, a chip
+dipped, and natural interaction. Warm indoor evening light, handheld feel,
+shallow depth of field. Documentary style with natural lighting and realistic textures.
+
+**Three realistic stills** with matching lighting: a hand reaching into the
+bowl, a close-up of a chip breaking, and a bag opening. Place these as side cards
+flanking the video.
+
+The Nacho Macho bag should remain visible and clear in the video and at least one still,
+matching the bag design on the site.
+
+## The section
+
+Full-bleed video, autoplay, muted, loop, playsinline. **Never seek it, never tie
+playback to scroll position**: scroll controls the frame around it, never the footage
+inside it.
+
+As the user scrolls in, the video expands from a framed element to full-bleed
+with a fast scale-up. The three stills sit alongside as small offset cards that
+slide in from the edges on a slight rotation, using black outlines and hard shadows to
+match the site style.
+
+One overlay headline placed cleanly above and below the video frame so text stays clear
+of the footage.
+
+Keep the surrounding background colour and texture consistent with the rest of the page.
+```
+
+---
+
+## 6. The Universal Template
+Swap the placeholders to adapt this layout for other brands.
+
+```text
+Build a fully animated marketing site for [BRAND NAME]: [ONE-LINE DESCRIPTION OF
+WHAT IT IS AND WHO IT'S FOR].
+
+Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
+them. No placeholder images anywhere. Generate the assets, confirm the media IDs, then
+wire everything in.
+
+Tone: [THREE ADJECTIVES]. Think [REFERENCE CATEGORY: e.g. "a modern design magazine",
+"packaging aisle", "an auction catalogue"], not [WHAT IT SHOULD NOT FEEL LIKE].
+[TYPOGRAPHY DIRECTION]. [COLOUR DIRECTION]. Explicitly avoid: [BANNED VISUAL CLICHES
+FOR THIS CATEGORY].
+
+## Asset generation order (do this first)
+
+1. **The master asset**: [THE MAIN IMAGE: product, building, or space. Describe lighting, angle, background, and mood clearly.]
+   This is the main asset, and everything else comes from it.
+
+2. **[N] variants**, generated image-to-image FROM the master so [WHAT STAYS
+   IDENTICAL: lighting, angle, shape, grade] match exactly: only [WHAT CHANGES]
+   changes. [LIST THEM].
+
+3. **[SUPPORTING STILLS]**: [WHAT THEY ARE AND HOW MANY]. Same lighting language
+   across the set.
+
+4. **[CUTOUT ELEMENTS]**: [WHAT THEY ARE], on clean backgrounds, with background
+   removal.
+
+5. **[VIDEO, IF ANY]**: Seedance 2.0, 4K, [N] clips of [DURATION] each,
+   colour-matched to the master. [DESCRIBE EACH CLIP IN ONE LINE.] [CAMERA ENERGY:
+   fast and decisive, or slow and floating.] Combine into one file.
+
+## Stack
+
+React + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation, Lenis
+for smooth scroll, Framer Motion for micro-interactions. Desktop-first, 1440px.
+[ADD Three.js r128 ONLY IF YOU NEED 3D.]
+
+## Sections in order
+
+[SECTION 1] -> [SECTION 2] -> **[SHOWPIECE SECTION]** -> [SECTION 4] -> [SECTION 5] ->
+footer.
+
+## Copy
+
+Write like [WHO THE VOICE BELONGS TO]. [SENTENCE STRUCTURE RULE: e.g. "short
+declarative sentences"]. Every description carries one concrete detail: [EXAMPLES OF DETAILS]. Avoid: [3-5 BANNED WORDS FOR THIS CATEGORY].
+
+## Animation
+
+Scroll-triggered reveals throughout, pinned sections, smooth scroll. Custom cursor.
+[HOW ELEMENTS RESPOND TO POINTER]. [HOVER BEHAVIOUR]. Everything [SNAPPY AND DECISIVE / SLOW AND FLOATING].
+
+## [SHOWPIECE NAME]: the main feature
+
+Dedicated pinned section, roughly [WHERE ON THE PAGE]. Focus most effort here.
+
+[DESCRIBE THE MECHANIC: specify what pins, what moves, what drives it, what changes, and initial/final states.]
+
+[IF IT INVOLVES VIDEO: Video loops, muted, autoplay, playsinline. Never seek it, never
+tie playback to scroll position: scroll controls the frame around it, never the
+footage inside it.]
+
+[IF TEXT SYNCS TO SOMETHING: state exactly what drives the sync.]
+
+## Deliverable
+
+Production-ready code, all Higgsfield assets integrated, no placeholder images.
+Prioritize visual impact over everything.
+```
+
+### Guidance
+- **The master asset is central.** Spend time refining it, as other images inherit its lighting and style.
+- **Pick one main feature.** Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.
+- **Banned words improve copy.** Setting clear negative constraints on overused words keeps the tone natural.
+- **Specify models directly.** Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.

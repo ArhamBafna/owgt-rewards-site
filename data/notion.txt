@@ -1,0 +1,51 @@
+Title: Antigravity IDE & Suite
+Description: AI-powered terminal and extension suite with autonomous agent pair-programming capabilities.
+Link: https://antigravity.google.com
+
+---
+
+Title: Claude Code CLI
+Description: Anthropic's command-line agent for codebase searching, editing, and execution.
+Link: https://docs.anthropic.com
+
+---
+
+Title: Copilot CLI
+Description: GitHub's terminal agent for command assistance, explanations, and git automation.
+Link: https://github.com/github/gh-copilot
+
+---
+
+Title: Cursor IDE
+Description: AI-native code editor (VS Code fork) with deep codebase context and agentic editing.
+Link: https://cursor.com
+
+---
+
+Title: Windsurf (Codeium)
+Description: Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.
+Link: https://codeium.com/windsurf
+
+---
+
+Title: Firecrawl CLI & API
+Description: Turn entire websites into LLM-ready clean markdown data for scraping and indexing.
+Link: https://firecrawl.dev
+
+---
+
+Title: Ollama
+Description: Local LLM runner for hosting Llama 3, DeepSeek, and Mistral models locally on your machine.
+Link: https://ollama.com
+
+---
+
+Title: Trae IDE
+Description: ByteDance's AI-powered IDE with native inline completion and agent tracking.
+Link: https://trae.ai
+
+---
+
+Title: Wispr Flow
+Description: Ultra-fast AI voice-to-text dictation tool optimized for developers and productivity.
+Link: https://wisprflow.ai

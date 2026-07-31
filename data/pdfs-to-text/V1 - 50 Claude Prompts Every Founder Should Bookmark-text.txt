@@ -1,0 +1,397 @@
+1
+Trusted by 400,000+ business leaders
+50 CLAUDE 
+PROMPTS
+Every Founder Should Bookmark
+3 years covering AI for business leaders daily
+By 
+LIAM LAWSON
+ CEO, The AI Report
+A Copy-and-Paste Prompt Library for Founders Who Want to Decide
+Faster, Hire Better, and Build Smarter
+
+
+TABLE OF
+CONTENTS
+3
+Introduction 
+Introduction 
+4
+How to Use This Guide
+How to Use This Guide
+4
+Category 1 – Vision & Strategy 
+Category 1 – Vision & Strategy 
+3 years covering AI for business leaders daily
+5
+Category 2 – Decision Making 
+Category 2 – Decision Making 
+7
+Category 3 – Hiring & Team
+Category 3 – Hiring & Team
+10
+Category 5 – Customers & Product 
+Category 5 – Customers & Product 
+11
+Category 6 – Operations 
+Category 6 – Operations 
+15
+The Natural Next Step 
+The Natural Next Step 
+8
+Category 4 – Sales & Growth 
+Category 4 – Sales & Growth 
+13
+Category 7 – Fundraising & Investor
+Communication 
+Category 7 – Fundraising & Investor
+Communication 
+
+
+See what’s inside: ($9/month)
+It's not which model they use. It's whether they have a specific prompt for the
+moment they're in.
+These 50 prompts are built for the actual work of founding and running a
+company. Seven categories. Copy, paste, replace the brackets, run.
+McKinsey's 2025 Global AI Survey found organisations achieve an average 
+5.8x return on AI investment within roughly 14 months of deployment. 
+The founders getting there fastest treat AI as a thinking partner, not a writing tool.
+INTRODUCTION
+HERE'S WHAT SEPARATES FOUNDERS WHO GET
+REAL LEVERAGE FROM AI VERSUS FOUNDERS
+WHO JUST USE IT OCCASIONALLY.
+HERE'S WHAT SEPARATES FOUNDERS WHO GET
+REAL LEVERAGE FROM AI VERSUS FOUNDERS
+WHO JUST USE IT OCCASIONALLY.
+3
+HAVE YOU UPGRADED YET? 
+THE AI LEADERS LAUNCH GUIDE UNLOCKS 
+THE FULL IMPLEMENTATION SYSTEM
+https://www.theaireport.ai/leaders-launch-guide
+3 years covering AI for business leaders daily | 
+5.8x
+average 5.8x return on AI investment
+(McKinsey's 2025 Global AI Survey)
+=14 
+months average time to value
+#7
+Categories covering the real work of
+founding and running a company
+#50 
+prompts are built for the actual work of
+founding and running a company. 
+
+
+1
+HOW TO USE THIS GUIDE
+4
+CATEGORY 1: VISION AND STRATEGY
+1. Pressure-Test Your Business Idea 
+"Act as a skeptical investor who has seen thousands of pitches.
+Here is my business idea: [describe]. What are the three biggest
+reasons this fails, and what specific evidence would change your
+mind on each?"
+3 years covering AI for business leaders daily | 
+2. Build Your 90-Day Roadmap
+"I'm the founder of [company at stage X]. Our 90-day goal is
+[goal]. Build a week-by-week roadmap with the three highest-
+leverage activities per week and the two biggest risks."
+FIND YOUR
+CATEGORY
+COPY THE
+PROMPT
+REPLACE THE
+BRACKETS
+RUN IN
+CLAUDE
+ONE RULE: 
+BE SPECIFIC
+2
+3
+4
+5
+3. Evaluate a New Opportunity
+"Here is an opportunity I'm considering: [describe]. Evaluate it
+against these three criteria: strategic fit, resource cost, and
+reversibility. Tell me the one question I need to answer before
+deciding."
+
+
+5
+3 years covering AI for business leaders daily | 
+6. Identify Your Biggest Blind Spot
+"Here is how I currently think about [topic, market, product, team,
+growth]: [describe your view]. Identify the assumption in this
+thinking that is most likely to be wrong, and why."
+7. Run a Competitor Analysis 
+"Analyze [competitor] as a board briefing. Cover: positioning,
+target customer, strengths, vulnerabilities, and their most likely
+move in the next 12 months."
+4. Define Your Unique Positioning 
+"My company does [describe]. Main competitors: [list]. Draft three
+genuinely differentiated positioning statements and the market
+assumption behind each."
+5. Prioritize Between Two Strategic Directions
+"I'm deciding between [Option A] and [Option B] at [stage]. Analyze
+both on: revenue potential, required capabilities, reversibility,
+and optionality. Recommend one and state your assumptions."
+CATEGORY 2: DECISION MAKING
+8. Challenge an Assumption 
+"I am operating under the assumption that [state assumption].
+Steelman this assumption, give me the strongest argument it is
+correct. Then tell me the single piece of evidence that would most
+quickly prove it wrong."
+
+
+6
+3 years covering AI for business leaders daily | 
+11. Get Devil's Advocate Feedback
+"I have decided to [decision]. Play devil's advocate. Give me the
+strongest possible argument against this decision, not a balanced
+view, just the case against. Then tell me what I should have in
+place before I commit."
+12. Analyze Second-Order Consequences
+"If [decision or event], what are the second and third-order
+consequences for my business? Go one level deeper than the obvious.
+Flag the consequence I'm least likely to have considered."
+9. Compare Two Real Options 
+"I need to decide between [Option A] and [Option B]. For each:
+best case, most likely case, worst case. Which will I regret more
+in 12 months if it goes wrong?"
+10. Build a Decision Framework
+"I regularly face decisions about [type of decision]. Build a
+simple decision framework I can reuse, no more than five criteria,
+with a brief explanation of how to weight each one."
+13. Identify the Root Cause 
+"Here's a recurring problem: [describe]. Run a five-whys analysis
+to find the root cause. Is this structural, skills, or
+prioritization?"
+14. Make the Decision You've Been Avoiding
+"I've been avoiding a decision about [topic]. What I know: [facts].
+What I'm uncertain about: [uncertainties]. What decision would you
+make, and what are you assuming?"
+
+
+7
+CATEGORY 3: HIRING AND TEAM
+15. Write a Job Description 
+"Write a job description for a [role] at a [stage] company in
+[industry]. Their most important first-90-days outcome: [describe].
+Write for someone who cares about impact over title."
+3 years covering AI for business leaders daily | 
+16. Build Interview Questions 
+"I'm interviewing for a [role]. The three things I need to know:
+[list]. Write five questions that reveal these, not ones
+candidates can prep generic answers for."
+17. Plan a Difficult Conversation
+"I need to have a conversation with [person in role] about [issue].
+Draft my opening statement, it should get to the point in two
+sentences, not hedge or warm up, and make clear what I need to
+discuss."
+18. Draft Performance Feedback
+"I need to give feedback to [role] about [behavior or performance
+issue]. Write it using the SBI framework: Situation, Behavior,
+Impact. Make it specific, not general, and end with one clear
+expectation going forward."
+19. Build an Onboarding Checklist 
+"I'm onboarding a new [role]. Key things to understand in the
+first 30 days: [list]. Build a 30-60-90 plan with three activities
+and one success measure per phase."
+
+
+8
+20. Diagnose a Team Problem
+"My team of [size] is experiencing [symptoms]. Is this structural,
+communication, or capability? Give me the one question to ask each
+team member to confirm."
+3 years covering AI for business leaders daily | 
+21. Write a Compensation Explanation
+"Explain [equity offer / salary structure] to a [senior / early-
+stage] hire. Cover: how we set the number, market comparison, and
+the upside if we hit our goals."
+22. Refine Your Value Proposition
+"My current value proposition is: [state it]. Test it against a
+skeptical [target customer]. What is the first objection they
+raise? Rewrite the value proposition to preempt that objection
+before it gets asked."
+23. Write a Cold Outreach Email
+"Write a cold outreach email to a [role] at a [type of company].
+My goal is [state goal]. The email should be under 100 words, lead
+with something specific about their business, and have one clear
+ask."
+CATEGORY 4: SALES AND GROWTH
+
+
+9
+3 years covering AI for business leaders daily | 
+27. Build a Competitive Battle Card 
+"Build a battle card for facing [competitor] in a sale. Cover:
+their pitch, their three strongest claims, our counters, and the
+question that exposes their weakness."
+28. Draft a Follow-Up After No Response
+"I sent [describe the original outreach] to [person/role] and have
+not heard back after [timeframe]. Write a follow-up that: takes a
+completely different angle than the first message, is under 60
+words, and gives them an easy out if they're not interested."
+25. Prepare for a Sales Call 
+"I have a [call type] with [prospect]. What I know: [describe].
+Prepare me with: their three likeliest questions, my best answers,
+and the one thing I should learn from this call."
+26. Write a Partnership Proposal
+"I want to propose a partnership with [company]. What we bring:
+[describe]. What they bring: [describe]. Write a two-paragraph
+partnership proposal that leads with their benefit, not ours."
+24. Analyze Why a Deal Was Lost 
+"Here's the deal I lost: [describe]. What are the three most
+likely real reasons, not what they told us, the underlying ones?
+What do we change next time?"
+
+
+10
+3 years covering AI for business leaders daily | 
+32. Write a Customer Re-Engagement Email
+"Write an email to [type of customer] who has not engaged with us
+in [timeframe]. Don't apologize for the silence. Lead with what has
+changed or improved since they last used us, and give them one
+specific reason to come back."
+33. Build a User Interview Question Set 
+"I'm interviewing [customer type] to understand [topic]. Write eight
+questions that avoid leading, surface real workflow over stated
+preferences, and end with what we haven't thought to ask."
+30. Generate Feature Ideas from Complaints 
+"Our most common customer complaints: [list]. For each, generate
+one change that resolves it and one question to ask before
+building."
+31. Prioritize a Product Backlog 
+"Here is our current product backlog: [list features or requests].
+Prioritize it using these three criteria: customer impact,
+technical effort, and strategic fit. Flag the one item I should do
+first and the one I should probably cut entirely."
+CATEGORY 5: CUSTOMERS
+AND PRODUCT
+29. Analyze Customer Feedback 
+"Here's customer feedback: [paste]. Identify the two or three most
+consistent themes, rank by retention impact, and flag what
+customers are saying that we're not hearing."
+
+
+11
+3 years covering AI for business leaders daily | 
+36. Build a SOP for a Repeatable Process 
+"Here's a process we run repeatedly: [describe]. Write an SOP that
+covers each step in order, names owners, and flags the most common
+failure point with a recovery action."
+37. Create a Meeting Agenda
+"I have a [type of meeting] coming up with [attendees]. The one
+decision that must come out of this meeting is [describe]. Build a
+45-minute agenda that ends with that decision made, and tell me
+what I need to prepare in advance."
+CATEGORY 6: OPERATIONS
+34. Draft a Product Announcement
+"We are launching [feature or product]. The customer problem it
+solves is [describe]. Write a product announcement for [email / in-
+app / LinkedIn]. Lead with the customer problem, not the feature
+name. Under 150 words."
+35. Improve Your Onboarding Flow
+"Our onboarding works like this: [describe]. Most users drop off
+at [describe]. Identify three changes that get more users to their
+first moment of value."
+
+
+12
+3 years covering AI for business leaders daily | 
+42. Write an Escalation Policy
+"Write a simple escalation policy for my team. It should define:
+which decisions they should make independently, which require my
+input but not my approval, and which require my sign-off. Use our
+current stage [describe] as context."
+40. Plan a Project Kickoff 
+"I'm kicking off [project] with [team]. Write a 30-minute agenda
+covering: what and why, how decisions get made, and 30-day
+success. Include the one question that surfaces hidden concerns."
+41. Design a Weekly Review Framework
+"Design a weekly review framework for a founder at a [stage]
+company. It should cover: what to review from last week, what to
+set for next week, and what to let go of. Cap the whole thing at 30
+minutes and tell me what to skip."
+39. Build a Project Risk Assessment
+"I am about to start [project]. Identify the five most likely
+risks across: scope, resources, timeline, dependencies, and
+stakeholder alignment. For each: rate it low/medium/high, and give
+me one specific mitigation action."
+38. Draft a Weekly Update to Your Team 
+"Draft a weekly update for my team at a [stage] company. This
+week: wins were [list], challenges were [list], next week's
+priorities are [list]. Write it in a format that takes under two
+minutes to read and leaves people clear on what matters."
+
+
+13
+3 years covering AI for business leaders daily | 
+46. Prepare for a Board Meeting 
+"I have a board meeting in [timeframe]. My key updates are: [list].
+The decision I need the board to make is [describe]. Build a 60-
+minute agenda and draft the framing for the key decision so the
+board has what they need to decide efficiently."
+47. Respond to a Critical Investor Question
+"An investor asked me: [question]. What I know: [describe]. What
+I'm uncertain about: [describe]. Write a response that leads with
+what we know and frames the uncertainty as a risk we're actively
+managing."
+44. Refine Your Pitch Narrative
+"Here is my current pitch narrative: [describe or paste]. Identify
+the moment in the narrative where an investor's attention is most
+likely to drift, and rewrite that section so the logic flows more
+compellingly from the problem to our solution."
+45. Draft an Executive Summary 
+"Write a one-page executive summary for [company]. Include:
+problem, solution, traction [describe], why now, why us, and the
+raise. Write for a reader deciding in 90 seconds whether to take
+a call."
+CATEGORY 7: FUNDRAISING
+AND INVESTOR COMMUNICATION
+43. Write an Investor Update 
+"Write a monthly investor update for a [stage] company. Metrics:
+[list]. Wins: [list]. Challenges: [list]. Help needed: [describe].
+Under three minutes to read, ending with one specific ask."
+
+
+14
+3 years covering AI for business leaders daily | 
+48. Craft an Ask for a Warm Introduction 
+"I want [person] to introduce me to [target]. Write a short message
+asking for the intro that: explains why I'm reaching out to them
+specifically, makes it easy to say yes or no, and includes a two-
+sentence version of what I do that they can forward."
+49. Write a Company Announcement
+"We need to announce [news] to [audience: team / customers /
+investors / public]. Write the announcement so it leads with what
+this means for them, not what happened to us. Include: what
+changed, why it matters, and what comes next."
+50. Handle a Difficult Investor Conversation 
+"I need to have a difficult conversation with [investor role]
+about [topic, missed milestone, pivot, cap table issue]. Prepare
+me with: my opening statement, the three most likely responses,
+and how I handle each one while preserving the relationship."
+WHAT YOU HAVE NOW
+50 prompts. Seven categories. All copy-paste ready.
+The founders getting the most from AI aren't the ones using the most tools. 
+They're the ones who've built a prompt for every high-stakes moment, so when
+it arrives, they already know what to run.
+That's what this library gives you.
+
+
+15
+The AI Decision Playbook | The AI Report | theaireport.com Trusted by 400,000+ business leaders | CEO Liam Lawson
+THE NATURAL NEXT STEP
+YOU HAVE THE DECISION FRAMEWORKS. 
+NOW GET THE TOOLS TO RUN THEM AT SCALE.
+16 lessons
+AI tools quick-start
+3 custom GPTs
+HubSpot AI playbooks
+GET THE AI LEADER
+LAUNCH GUIDE
+GET THE AI LEADER
+LAUNCH GUIDE $9/month
+$9/month

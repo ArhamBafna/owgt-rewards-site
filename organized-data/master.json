@@ -1,0 +1,40 @@
+{
+  "tools": [
+    {
+      "name": "Antigravity IDE & Suite",
+      "path": "Tools/antigravity.md"
+    },
+    {
+      "name": "Claude Code CLI",
+      "path": "Tools/claude-code-cli.md"
+    },
+    {
+      "name": "Copilot CLI",
+      "path": "Tools/copilot-cli.md"
+    },
+    {
+      "name": "Cursor IDE",
+      "path": "Tools/cursor-ide.md"
+    },
+    {
+      "name": "Firecrawl CLI & API",
+      "path": "Tools/firecrawl-cli.md"
+    },
+    {
+      "name": "Ollama",
+      "path": "Tools/ollama.md"
+    },
+    {
+      "name": "Trae IDE",
+      "path": "Tools/trae-ide.md"
+    },
+    {
+      "name": "Windsurf (Codeium)",
+      "path": "Tools/windsurf.md"
+    },
+    {
+      "name": "Wispr Flow",
+      "path": "Tools/wispr-flow.md"
+    }
+  ]
+}

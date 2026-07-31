@@ -1,0 +1,270 @@
+# Build 3 AI Agents in Base44 — Complete Prompt Pack
+
+## Before You Start
+
+- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)
+  *(Prompts below ready to use. Swap bracketed parts for your own details.)*
+- **Required Accounts:** Free/trial accounts for tools to connect:
+  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)
+  - **Publisher:** LinkedIn, X
+  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack
+
+> [!TIP]
+> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.
+
+### Standard Setup
+
+1. Name the agent
+2. Write the identity under "About the agent"
+3. Fill in Memory (your background details)
+4. Connect plugins
+5. Enter the job prompt
+6. Set permissions and select the model
+7. Configure automation
+
+---
+
+## Agent 1: Vesper (Inbox Triage)
+
+**Difficulty:** Beginner | **Build Time:** ~2 minutes
+
+### Step 1: Name
+`Vesper`
+
+### Step 2: About the Agent (Identity Box)
+```text
+You're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.
+
+You remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.
+
+Focus on being practical and direct.
+```
+
+### Step 3: Memory Tab
+- **My name:** `[Your first name]`
+- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`
+- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`
+- **What I'm working on right now:** `[current project].`
+- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`
+- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like "just circling back"].`
+- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`
+
+*(Leave "Things the agent has learned about you" alone: it updates automatically).*
+
+### Step 4: Plugins
+- Gmail
+- Google Calendar
+
+### Step 5: Job Prompt
+```text
+Here's your job.
+
+Read incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.
+
+Rules:
+- Save replies as drafts only. Do not send messages automatically.
+- Follow the communication style defined in Memory: short, direct, and concise.
+- If someone requests a meeting, check the calendar first and offer two or three open timeslots.
+- Group newsletters, receipts, and system notifications at the bottom of the summary as a total count.
+- When flagging an item, include one line explaining specifically why it needs my attention.
+
+Format your summary like this:
+NEEDS ATTENTION (with a one-line explanation for each)
+DRAFTED (subject line + recipient)
+FILTERED (total count by category)
+```
+
+### Step 6: Set Permissions
+> [!WARNING]
+> Go to **Settings -> Security -> Agent Permissions**:
+> - **Update data:** OFF
+> - **Delete data:** OFF
+> 
+> Check these settings before linking accounts.
+
+- Ensure **Auto-detect secrets** is ON to store API keys securely.
+
+### Step 7: Send to WhatsApp
+1. Go to **Customize -> Channels -> Connect**
+2. Scan the QR code and confirm the link.
+3. Add this instruction:
+   ```text
+   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.
+   ```
+
+### Step 8: Automate
+```text
+Run this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.
+```
+
+---
+
+## Agent 2: The Publisher (LinkedIn + X)
+
+**Difficulty:** Intermediate | **Build Time:** ~5 minutes
+
+### Step 1: Name
+`[Your name]'s Publisher`
+
+### Step 2: About the Agent (Identity Box)
+```text
+You write posts matching my personal style and voice.
+
+Use clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.
+
+Guidelines:
+- Avoid buzzwords, generic intros, or unnecessary filler phrases.
+- Avoid repetitive short lines created purely for emphasis.
+- Do not invent fictional stories, metrics, or client examples. Ask for details if an example is needed.
+- Focus on one key concept per post.
+
+Keep content clear, specific, and practical.
+```
+
+### Step 3: Memory Tab
+- **I post about:** `[your topics]`
+- **My audience:** `[who they are, their experience level, their main goals]`
+- **My voice:** `[3-4 lines describing your communication style]`
+- **Words and phrases I never use:** `[list specific words to avoid]`
+- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`
+
+> [!IMPORTANT]
+> Include actual past posts. This helps establish the writing style more accurately than general descriptions.
+
+### Step 4: Plugins
+- LinkedIn
+- X (Twitter)
+
+### Step 5: Job Prompt
+```text
+Here's your job.
+
+Take a single topic and prepare separate versions for LinkedIn and X.
+
+LinkedIn (longer version):
+- Place the core message in the opening line.
+- Use 150-300 words with short paragraphs.
+- Include one specific example or data point.
+- End with a practical key takeaway.
+
+X (short version):
+- Stay under 280 characters, or use a short thread if necessary.
+- Focus the message in the opening line.
+- Do not include hashtags.
+
+Show both versions for review before scheduling. Once approved, schedule the posts.
+```
+
+### Step 6: Memory Scope
+Go to **Sharing and Access -> Memory**:
+- **No memory:** Starts each chat with no saved context.
+- **Separated:** Retains context within individual conversations while keeping them isolated.
+- **Shared:** Shares learned details across all conversations.
+
+> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.
+
+### Step 7: Automate
+```text
+Every Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.
+```
+
+---
+
+## Agent 3: The Analyst
+
+**Difficulty:** Advanced | **Build Time:** ~10 minutes
+
+### Step 1: Name
+`The Analyst`
+
+### Step 2: About the Agent (Identity Box)
+```text
+You monitor site metrics and business data, reporting changes clearly.
+
+State metric drops or performance changes directly at the beginning of the report.
+
+Focus on significant shifts in data rather than routine numbers. If traffic dropped, state the percentage decrease and the underlying cause directly.
+
+Distinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.
+
+If metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.
+```
+
+### Step 3: Memory Tab
+- **My business:** `[your products or services, target market]`
+- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`
+- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`
+- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`
+- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`
+
+### Step 4: Plugins
+- Google Analytics
+- CRM (HubSpot, etc.)
+- Slack *(Setup: Custom -> Channels -> Select channel)*
+
+### Step 5: Job Prompt
+```text
+Here's your job.
+
+Check daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.
+
+Guidelines:
+- Compare performance against the same period last month and the same day last week.
+- Flag metric variations larger than 15%.
+- For CRM tracking: report lead counts by stage and flag items inactive for over 7 days.
+- If a traffic channel declines, identify the specific pages or campaigns driving the drop.
+- Clearly separate confirmed metrics from analytical estimates.
+
+Report structure:
+NOTABLE CHANGES (largest shifts listed first)
+TRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)
+PIPELINE STATUS (stage counts and inactive leads)
+ANALYSIS (clearly marked as hypothesis)
+```
+
+### Step 6: Model Configuration
+> [!IMPORTANT]
+> Go to **Settings -> General**:
+> - **Chat model:** Handles interactive sessions.
+> - **Automation model:** Handles scheduled background runs.
+>
+> Select a high-capability model for the **Automation model** to support automated data analysis.
+
+### Step 7: Automate
+```text
+Run this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.
+```
+
+---
+
+## Ship It: Share Your Agents
+
+- Go to **Sharing -> Public Template Link**.
+- Connected accounts and API keys do not transfer with template links.
+
+---
+
+## Quick Reference Table
+
+| Setting | Location | Recommendation |
+| :--- | :--- | :--- |
+| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |
+| **Auto-detect secrets** | Settings -> Security | `ON` |
+| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |
+| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |
+| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |
+| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |
+| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |
+
+---
+
+## Troubleshooting
+
+- **"My replies sound artificial."**
+  - Provide additional reference examples in Memory to better reflect your writing style.
+- **"The agent flags minor details."**
+  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`
+- **"The background task does not update data."**
+  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.
+- **"The agent reports estimated data as fact."**
+  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`

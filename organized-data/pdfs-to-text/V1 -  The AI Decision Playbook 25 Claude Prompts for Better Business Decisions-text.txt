@@ -1,0 +1,323 @@
+1
+25 CLAUDE
+PROMPTS
+Trusted by 400,000+ business leaders
+3 years covering AI for business leaders daily
+The AI Decision Playbook
+for Better Business Decisions
+By 
+LIAM LAWSON
+ CEO, The AI Report
+
+
+TABLE OF
+CONTENTS
+3
+Introduction 
+Introduction 
+4
+How to Use This Guide
+How to Use This Guide
+4
+Category 1: Strategic Decisions
+Category 1: Strategic Decisions
+3 years covering AI for business leaders daily
+5
+Category 2: Problem Solving
+Category 2: Problem Solving
+7
+Category 3: Decision Frameworks
+Category 3: Decision Frameworks
+8
+Category 4: Leadership Decisions
+Category 4: Leadership Decisions
+9
+Category 5: Growth Decisions
+Category 5: Growth Decisions
+11
+The Natural Next Step 
+The Natural Next Step 
+
+
+See what’s inside: ($9/month)
+60%
+Deloitte's 2026 Global Human Capital Trends
+survey of more than 9,000 business leaders
+found that 60% of executives now regularly
+use AI to support their decision-making.
+of executives 
+72%
+BCG's AI Radar 2026, surveying 2,360
+executives across 16 markets, found that
+72% of CEOs now identify themselves as the
+primary decision-maker on AI in their
+organisations, double from the prior year.
+of CEOs
+But there's a gap between using AI and using it well.
+Most professionals use AI for content. They draft documents, summarise
+reports, and generate ideas. The executives who are moving fastest are using it
+differently: as a structured thinking partner that pressure-tests their reasoning
+before they commit.
+The difference is the prompt.
+This guide gives you 25 of them, five for each of the five most important
+categories of business decisions. Each one is designed to improve the quality of
+your thinking, not replace it.
+INTRODUCTION
+EXECUTIVES MAKE BETTER DECISIONS 
+WITH AI. THE DATA ON THIS IS NOW CLEAR.
+EXECUTIVES MAKE BETTER DECISIONS 
+WITH AI. THE DATA ON THIS IS NOW CLEAR.
+3
+HAVE YOU UPGRADED YET? 
+THE AI LEADERS LAUNCH GUIDE UNLOCKS 
+THE FULL IMPLEMENTATION SYSTEM
+https://www.theaireport.ai/leaders-launch-guide
+3 years covering AI for business leaders daily | 
+
+
+HOW TO USE THIS GUIDE
+4
+CATEGORY 1
+Decisions with long time horizons, significant resource implications,
+and outcomes that are hard to reverse.
+1. Pressure-Test a Strategy
+"Act as a rigorous strategic critic. Here is my strategy or plan:
+[describe]. Identify every assumption embedded in it, stated and
+unstated. For each assumption, rate it on two dimensions: how
+confident we should be that it's true, and how much damage it would
+do to the strategy if it turned out to be wrong. Flag the two or
+three assumptions that pose the highest combined risk."
+STRATEGIC DECISIONS
+3 years covering AI for business leaders daily | 
+2. Evaluate a New Market Opportunity
+"Evaluate this market opportunity: [describe]. Assess it across
+five dimensions: market size and growth trajectory, competitive
+intensity, our right to win given current capabilities, capital
+required to compete, and strategic fit with our current direction.
+Give me a go/no-go recommendation with the key condition that
+would change your view."
+Before a significant decision, run the prompt that matches your decision type.
+Replace the brackets with your specifics. Read the output with the same critical
+eye you'd bring to advice from a trusted colleague, not as a verdict, but as
+structured input.
+The goal is better thinking before you commit. Not outsourcing the decision.
+CHOOSE YOUR
+DECISION
+SELECT THE
+RIGHT PROMPT
+REPLACE
+THE BRACKETS
+RUN IN
+CLAUDE
+REVIEW 
+AND DECIDE
+1
+2
+3
+4
+5
+
+
+5
+3 years covering AI for business leaders daily | 
+3. Decide Whether to Pivot or Stay the Course
+"I need to decide whether to pivot or stay the course on [describe
+current direction]. Here is what the data is telling me: [share
+what you know]. Here is what I'm uncertain about: [describe]. Build
+two scenarios: one where the current signals are a real problem
+requiring a change, and one where they are noise that will resolve.
+Tell me what I would need to see in the next 60 days to know which
+scenario is true."
+4. Assess an Acquisition or Partnership
+"I'm considering [acquisition/partnership] with [describe the
+opportunity]. Evaluate it across: strategic fit with our current
+direction, capabilities we gain, risks we absorb, integration
+complexity, and what it signals to the market. Give me the three
+questions I need to have answered in due diligence before I can
+make this decision."
+5. Prioritize Between Competing Initiatives
+"Here are the strategic initiatives I'm choosing between: [list].
+Prioritize them using these criteria: expected impact on revenue
+or competitive position, resource requirements, time to first
+results, and risk if we deprioritize. Give me a ranked order with
+the one condition that would cause you to reorder the top two."
+CATEGORY 2
+When something isn't working and you need to identify what's
+actually wrong before deciding how to fix it.
+6. Root Cause Analysis
+"Here is a problem I keep seeing: [describe]. Use a five-whys
+analysis to identify the most likely root cause. Then tell me: is
+this a structural problem, a skills problem, or a prioritization
+problem? And what is the one intervention that would have the
+highest impact if your diagnosis is correct?"
+PROBLEM SOLVING
+
+
+6
+3 years covering AI for business leaders daily | 
+7. Generate Alternatives When You're Stuck
+"I've been trying to solve [problem] by [current approach] and it's
+not working. Generate five genuinely different alternative
+approaches, specifically ones that challenge the assumption that
+[state your core assumption]. For each one, tell me what it
+requires that we don't currently have."
+8. Identify the Real Bottleneck
+"Here is the system or process I'm trying to improve: [describe].
+Identify the single bottleneck that, if removed, would most
+improve throughput. Then tell me why this bottleneck is often the
+last one people look at."
+9. Apply First Principles Thinking
+"Everyone in [industry/domain] assumes that [describe a common
+assumption]. Apply first principles thinking: break this
+assumption down into its component parts and tell me which parts
+are actually constraints and which parts are just habits. What
+would you do differently if you were starting from scratch with no
+inherited assumptions?"
+10. Diagnose Why Something Isn't Working
+"Here is what I was expecting to happen: [describe]. Here is what
+actually happened: [describe]. Diagnose the most likely reasons
+for the gap, not the obvious ones, but the ones that are hardest
+to see from inside the situation. Tell me whether this looks like
+a planning failure, an execution failure, or an assumption
+failure."
+
+
+7
+CATEGORY 3
+When you need structured thinking, not just analysis.
+11. Build a Decision Matrix
+"I need to decide between [list options] using these criteria:
+[list criteria]. Build a decision matrix that scores each
+option against each criterion on a scale of 1-5. Weight the
+criteria by importance to our current situation: [describe
+priorities]. Give me the result and tell me which criterion
+most influenced the outcome."
+DECISION FRAMEWORKS
+3 years covering AI for business leaders daily | 
+12. Run a Pre-Mortem
+"I am about to commit to [decision or project]. Imagine it is 12
+months from now and this has failed badly. Working backwards, what
+are the three most likely reasons it failed? For each one, what
+should I put in place now to reduce the probability?"
+13. Apply Devil's Advocate
+"My team has converged on the following decision: [describe]. Play
+devil's advocate as rigorously as possible. Make the strongest case
+against this decision, not a balanced view, the strongest possible
+critique. Don't soften it. Then tell me what evidence would be most
+likely to convince you the decision is actually right."
+14. Analyze Second-Order Consequences
+"If [decision], what happens next? Map the first-order consequences.
+Then, for the two most significant first-order consequences, map the
+second-order consequences, what happens as a result of those? Flag
+the second-order consequence I'm least likely to have considered."
+
+
+8
+CATEGORY 4
+Decisions about people, relationships, and organizational dynamics.
+16. Decide Whether to Promote or Let Go
+"I'm facing a decision about [role]: whether to promote/invest
+further or move on. Here is what I observe: [describe performance and
+behaviors]. Here is what I'm uncertain about: [describe]. Give me the
+question I should ask in a direct conversation with this person that
+would give me the clearest signal about the right decision."
+LEADERSHIP DECISIONS
+3 years covering AI for business leaders daily | 
+17. Navigate a Stakeholder Disagreement
+"Here is a disagreement I'm navigating between [stakeholder A] and
+[stakeholder B] about [issue]. Each party's position is: [describe].
+What is the underlying interest beneath each stated position? Where
+is there a potential zone of agreement they may not have seen? And
+what is the minimum viable outcome that both parties could live
+with?"
+15. Worst-Case Scenario Planning
+"I am considering [decision]. Walk me through the worst-case
+scenario in detail, not the unlikely catastrophic one, but the
+realistic bad outcome I should be prepared for. Tell me: how bad is
+it really? Is it recoverable? And what would I need to have in place
+to recover from it?"
+18. Decide on Organizational Structure
+"I'm considering reorganizing [describe current structure] to
+[describe proposed structure]. Evaluate the proposal on: what it
+optimizes for, what it sacrifices, who is likely to resist it and
+why, and what would need to be true for it to work. Tell me the one
+thing I'm most likely underestimating about this change."
+
+
+9
+3 years covering AI for business leaders daily | 
+19. Set Team Priorities
+"My team of [describe] has the following competing demands: [list].
+Our most important outcome in the next [timeframe] is [describe].
+Build a priority stack that clearly names what we're doing first,
+what we're doing second, and what we're explicitly not doing. Include
+one sentence of rationale for each that I can share with the team."
+"I need to communicate [difficult news] to [audience]. The news is:
+[describe]. Help me structure the communication so it: leads with
+the most important fact, explains the reasoning honestly,
+acknowledges the impact on the audience, and ends with what happens
+next. Give me the one thing I'm most tempted to soften that I should
+instead say directly."
+20. Decide How to Deliver Difficult News
+CATEGORY 5
+Decisions about how to allocate resources to grow faster or more efficiently.
+21. Hire vs. Outsource
+"I need [capability] for [purpose]. Evaluate three options: hiring
+someone internally, outsourcing to an agency or contractor, or using
+AI to partially or fully address the need. For each option, give me
+the realistic cost, the timeline to full capability, and the main
+risk."
+GROWTH DECISIONS
+22. Pricing Decision Framework
+"I'm considering [pricing change: increase/restructure/add tier]. My
+current pricing is [describe]. Walk me through: the most likely
+customer response, the impact on new customer acquisition versus
+retention, the message it sends about where we're positioned, and
+the one unintended consequence I'm least likely to have considered."
+
+
+23. Analyze Customer Feedback for Growth Signals
+"Here is customer feedback I've collected: [paste]. Analyze it for
+growth signals, not just the satisfaction data, but what it reveals
+about: the customer segments most likely to expand, the use cases
+we're underdeveloped in, and the competitor we're most often
+replacing or being compared to. Give me the one growth hypothesis
+this data most supports."
+"I'm considering investing [describe resource] in [describe
+opportunity]. Evaluate the investment on: expected return and time
+to see it, key assumptions that must hold for the return to
+materialize, what the minimum viable version of this investment
+looks like, and at what point I should cut my losses if it's not
+working."
+24. Investment Decision Analysis
+"I'm deciding whether to [enter/exit] [market or segment]. Here is
+what I know about it: [describe]. Here is our current position:
+[describe]. Evaluate the decision on: the strength of our right to
+win, the opportunity cost of the resources required, and the
+reversibility of the decision. Tell me the decision I'll regret more
+in three years: entering too late, or exiting too early."
+25. Enter or Exit a Market
+10
+3 years covering AI for business leaders daily | 
+WHAT THIS CHANGES
+60% of executives now use AI to support their decisions.
+The ones getting the most from it aren't using AI to generate content about their
+decisions. 
+They're using it to think more clearly before they make them.
+That's what these 25 prompts are for. Not writing. Thinking.
+
+
+11
+The AI Decision Playbook | The AI Report | theaireport.com Trusted by 400,000+ business leaders | CEO Liam Lawson
+THE NATURAL NEXT STEP
+YOU HAVE THE DECISION FRAMEWORKS. 
+NOW GET THE TOOLS TO RUN THEM AT SCALE.
+16 lessons
+AI tools quick-start
+3 custom GPTs
+HubSpot AI playbooks
+GET THE AI LEADER
+LAUNCH GUIDE
+GET THE AI LEADER
+LAUNCH GUIDE $9/month
+$9/month

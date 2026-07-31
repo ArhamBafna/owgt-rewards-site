@@ -1,0 +1,414 @@
+PT/01 — FIELD GUIDE
+2026
+Which model
+should I use?
+How to pick the right AI for the job, and how long to let it think
+about it.
+FREE — PROMPT TEARDOWN FIELD GUIDE
+prompt teardown
+PROMPTTEARDOWN.COM
+
+
+PT/01 · FIELD GUIDE
+Which model should I use?
+Written for people who want to get more done without
+watching their credits vanish by Tuesday afternoon.
+FIRST EDITION · 2026
+© PROMPT TEARDOWN · PROMPTTEARDOWN.COM
+
+
+Contents.
+01
+Do you actually need to worry about this?
+Whether you will ever touch the ceiling
+04
+02
+The 2 dials, which model and how long it thinks
+The two things you control on every job
+06
+03
+The 3 people you call to get the job done
+Staff, manager, outside consultant
+08
+04
+The effort dial, from a quick glance to a long stare
+How long you let the model think
+10
+05
+The work, job by job
+Errands, writing, decks, spreadsheets, builds
+12
+06
+The smartest model is also the wordiest
+The paragraph that pays for itself
+15
+07
+Every job on one page
+The page to keep
+17
+
+
+W
+CHAPTER 01
+WHETHER YOU WILL EVER TOUCH THE CEILING
+Do you actually need to
+worry about this?
+Every plan has a ceiling. Whether you ever touch it comes down to how you
+work as much as what plan you're on.
+hen you are working with AI, there are two meters running at the same time. A
+short one that refills the same day, and a weekly one that does not. There is also a
+third limit: how much one conversation can hold. Every company works this way now,
+and they will change the numbers every few months, so there is no point memorizing
+them.
+What matters is whether you will ever touch that ceiling. And that depends on the kind of
+work you do, and the plan you are on.
+If you mostly write. Copy, emails, articles, bouncing ideas around. Stick with the
+strong model. Writing burns through the meter slowest, but on a free plan you will still
+run out on a long day.
+If you build things. Decks, websites, spreadsheets, PDFs, code. Whatever plan you are
+on makes a big difference in how much you get done before you run out.
+Your plan
+What happens on a heavy week
+Free tier
+You hit the wall fast. Stay on the cheap model and save the
+expensive one for the one hard step.
+Standard paid tier
+You hit it on a busy week. Watch the meter before a big
+push.
+Top-tier plan
+You get the most room. You can still burn a week of it in a
+single day.
+PT/01 — WHICH MODEL SHOULD I USE?
+04
+
+
+Check yours before you assume you have room.
+Both numbers are visible in about two clicks. Worth checking before you assume you
+have room.
+CLAUDE CODE — STATUS BAR
+CLAUDE APP — PLAN USAGE LIMITS
+FIG. 1.0 — WHERE THE TWO CLOCKS LIVE
+Every message you send re-reads the whole conversation from the top. A chat that has
+been running all afternoon costs more per message than a fresh one, and a few PDFs
+sitting in the thread make it worse. When a chat gets long, start a new one and paste in a
+short summary of where you got to. That habit buys you more room than upgrading your
+plan does.
+You are not managing a budget. You are managing which jobs deserve
+the expensive answer.
+The people who never seem to run out are not on
+some better plan. They just know when to switch.
+Knowing when to turn the expensive model on, and when to turn it back down, is a skill
+in itself.
+PT/01 — WHICH MODEL SHOULD I USE?
+05
+
+
+CHAPTER 02
+THE TWO THINGS YOU CONTROL ON EVERY JOB
+The 2 dials, which model
+and how long it thinks.
+You control two things on every job. Which model you call, and how long you
+let that model think before it answers.
+The first dial is the model. Sonnet, Opus, Fable. Luna, Terra, Sol.
+The second dial is how long that model thinks before it answers. Every app names it
+differently: effort, thinking, reasoning. Same dial.
+Turn it down and the answer comes back faster. Turn it up and the model slows down,
+works the problem through, and checks itself.
+More thinking usually means a better answer. But only up to a point.
+Chess players have a saying for it.
+Think long, think wrong.
+PT/01 — WHICH MODEL SHOULD I USE?
+06
+
+
+Even Anthropic says so.
+Anthropic makes this model, and they say the same thing. Push the effort dial all the way
+up on ordinary work and the model starts overthinking it. Before you reach for a bigger
+model, try letting the smaller one think a little longer first.1
+The effort dial costs nothing extra to turn. The company selling the pricier model is
+telling you to try that dial before you pay for a bigger one.
+That advice is aimed at building things. If you mostly write, the dial barely changes the
+result.
+2
+You are picking which person to call, and how long to let them think.
+The rest of this guide is that one sentence, applied to the work you actually do.
+1
+Anthropic, “When to adjust the effort parameter” and “Choosing a model.”
+2
+R2-Write, arxiv.org/pdf/2604.03004.
+PT/01 — WHICH MODEL SHOULD I USE?
+07
+
+
+CHAPTER 03
+STAFF, MANAGER, OUTSIDE CONSULTANT
+The 3 people you call to get
+the job done.
+Every company stacks their models the same three ways. Different names,
+same three steps.
+The staff. Fast, cheap, and good at almost everything that fills a normal day. Start here
+and you will be right most of the time.
+The manager. You go to this one when the work actually matters. A serious document,
+a harder problem, a plan you are going to build on top of.
+The outside consultant. Brilliant, billed by the hour, and only in the building about
+half the week. You bring this one in for the hard part and then you let them go.
+THE THREE STEPS · AS OF 2026
+Who you call
+Claude
+ChatGPT
+Rough cost
+The staff
+Sonnet 5
+Luna
+2 coins
+The manager
+Opus 5
+Terra
+5 coins
+The consultant
+Fable 5
+Sol
+10 coins
+Google and xAI do it the same way.
+A landing page built by the consultant might run you $10 and look gorgeous. The staff
+builds that same page for $2 and it comes out plainer.
+If the page just takes bookings for a restaurant, plainer is fine, and plainer often converts
+better. Save the consultant for jobs where the polish is the actual product.
+PT/01 — WHICH MODEL SHOULD I USE?
+08
+
+
+One question, asked before every job.
+Almost every model can do almost every job now. Capability stopped being the question
+a while ago. So stop asking whether the cheap one is able to, and ask this instead.
+Can it? Yes. Is it worth it? Probably not.
+Run every job through that one and you will get most of these calls right.
+PT/01 — WHICH MODEL SHOULD I USE?
+09
+
+
+CHAPTER 04
+HOW LONG YOU LET THE MODEL THINK
+The effort dial, from a quick
+glance to a long stare.
+Every model has this dial. You will not touch it often, but knowing it is there
+already puts you ahead.
+Setting
+What it is for
+LOW
+Simple work in volume. Fast and cheap.
+MEDIUM
+The everyday setting. Good results without the wait.
+HIGH
+Real thinking. Hard problems, and the final check.
+XHIGH
+Long jobs with a lot of steps that run for a while.
+MAX
+The one decision everything else hangs on. Nothing smaller.
+Most of your day belongs in low and medium. And the newer the model, the more true
+that gets. This year's models do more with a quick glance than last year's did with a long
+stare, so start lower than feels right and climb only when the answer disappoints you.
+A bad habit is leaving it on high all the time. You never feel it on any
+single answer. You feel it on Tuesday.
+PT/01 — WHICH MODEL SHOULD I USE?
+10
+
+
+Switching models mid-chat takes skill.
+You do not have to pick one model and live with it for the whole job.
+Type /model in the middle of a conversation and change it. Nothing restarts, nothing is
+lost, and the chat keeps everything you already said.
+That one move gives you the pattern this entire guide runs on. Plan with the expensive
+one. Save the plan somewhere. Then drop down and let the cheap one do the work.
+By that point the hard decisions are already made. What is left is typing.
+Pay for deciding. Save on doing.
+PT/01 — WHICH MODEL SHOULD I USE?
+11
+
+
+CHAPTER 05
+ERRANDS, WRITING, DECKS, SPREADSHEETS, BUILDS
+Errands, the work where a
+smart model is wasted.
+Some jobs are just fetching and carrying. Every model presses the same button.
+The expensive model and the cheap one bring back the same answer, and the cheap one
+brings it back faster. When you are going back and forth on something, that speed is the
+whole benefit. Send these to the staff, on low.
+Web searches and lookups
+Pulling from your calendar, your drive, your other tools
+Quick edits, cleanups, and rewrites
+Summarizing something you already have in front of you
+Nobody rents a crane to hang a picture.
+PT/01 — WHICH MODEL SHOULD I USE?
+12
+
+
+Writing, decide with the manager and type with the
+staff.
+Writing feels like it deserves the best model. It mostly does not.
+A piece is settled before the first sentence gets written. Who it is for. What it has to say.
+The angle you are taking.
+Make those calls with the manager. Then hand it down.
+The drafting, the second version, the trim, the cleanup. All of that is typing, and typing is
+cheap.
+Documents work the same way. Plan it with the manager, save the plan, then tell the
+staff to take the plan and build it.
+Deep research is the odd one. It looks like the hardest job on your list, so people
+reach for the top model on the top setting. But research runs on finding good sources,
+not on thinking harder about them. A strong model on a low or medium setting is the
+best value here, and cranking the dial up mostly buys you second-guessing.
+A great piece is decided before it is written. Spend where the deciding
+happens.
+PT/01 — WHICH MODEL SHOULD I USE?
+13
+
+
+Decks, spreadsheets, and builds.
+Slide decks. Two jobs in one, what it says and how it looks. AI is good at the first and
+weak at the second. When researchers scored AI-built decks, design and layout were the
+worst part of every system they tested.3 So let the staff build every slide, then buy one
+pass from the consultant to make it look like a person with taste touched it.
+Spreadsheets. The exception to most of this guide. One sheet with light math is fine for
+anyone. Once formulas reach across several sheets, accuracy falls off a cliff. Simple
+lookups came back right about 89% of the time. Multi-step work across a whole
+workbook dropped under 20%.4 Light work to the staff. Real workbook work is worth the
+consultant, and worth checking yourself.
+Websites and apps. Ask one question first. If this goes wrong, does it cost me an
+afternoon or a week? An afternoon means stay cheap and redo it. A week means the plan
+is worth real money. Get the shape right with the consultant, build the routine parts with
+the staff, then one pass back up top to check the work.
+You do not need a consultant-built website to show
+a restaurant menu. But when the website is the
+product, buy the good tools.
+3
+Slide-generation benchmark, arxiv.org/html/2603.07244v1.
+4
+FinSheet-Bench, arxiv 2603.07316v1.
+PT/01 — WHICH MODEL SHOULD I USE?
+14
+
+
+A
+CHAPTER 06
+THE PARAGRAPH THAT PAYS FOR ITSELF
+The smartest model is also
+the wordiest.
+The better the model gets, the more it talks. You pay for every word of it.
+sk a yes-or-no question without telling it to answer yes or no, and you get four
+paragraphs. It repeats your question back to you. It tells you what it is about to do
+before it does it. Then it explains the thing it just did. Ask for a one-page summary and
+you get three pages, and the extra two are not wrong, they are just not what you asked
+for.
+It also checks its own work without being told to, which is good, and it will quietly do
+more than you asked, which is not.
+This is worst at the top of the stack. Opus 5 is the current example, and it is the chattiest
+model we have used.
+Turning the effort dial down does not fix it. Lower effort means it thinks less about the
+same long answer. The dial controls thinking, not talking.
+You cannot buy a shorter answer. You have to ask
+for one.
+One instruction, given up front, cuts the length of what comes back by about a fifth. That
+is a fifth of your ceiling, back, on every answer for the rest of the week.
+PT/01 — WHICH MODEL SHOULD I USE?
+15
+
+
+Make it a skill, not a one-time paste.
+Paste it at the top of a chat and it works, for a while. Ten turns later the answers creep
+back to full length. So keep it somewhere you can fire again in two seconds.
+STANDING ORDERS — PASTE AS IS
+Lead with the answer. Give me the outcome in the first
+sentence, then the reasoning underneath it, and stop there.
+Do not repeat my question back to me. Do not tell me what you
+are about to do. Do not summarize what you just did.
+Keep caveats to one line. Match the length to the ask, and
+when I ask for something short, short wins over complete.
+Do what I asked for and nothing next to it. If you think the
+ask is wrong, say so in one sentence and then do it anyway.
+Do not add a verification pass unless I ask for one. You
+already check your own work.
+If your tool has skills, use one. Claude does. Save the paragraph as a skill, give it a
+short name, and call it by name every ten turns or whenever the answers start growing.
+If it does not, use the settings. ChatGPT has no saved prompt library. Custom
+instructions are the closest thing, and they apply to every new chat, which suits this one.
+They still fade over a long conversation.
+The trick that works anywhere. Put it in a text expander. TextExpander, Raycast, or
+the text replacement built into your Mac and phone. Give it a trigger like ;short and re-
+firing costs six keystrokes in any tool.
+One paragraph, written once. A fifth of your ceiling back, every week,
+forever.
+PT/01 — WHICH MODEL SHOULD I USE?
+16
+
+
+CHAPTER 07
+THE PAGE TO KEEP
+Every job on one page.
+Keep this page and you have the guide.
+The job
+Who you call
+How hard they think
+Web search and lookups
+Staff
+LOW
+Pulling from your tools
+Staff
+LOW
+Quick edits and
+summaries
+Staff
+LOW
+Bouncing around ideas
+Manager
+LOW
+Copy and emails
+Manager decides, staff drafts
+MEDIUM
+Documents and PDFs
+Manager plans, staff builds
+MEDIUM, THEN LOW
+Deep research
+Manager
+LOW TO MEDIUM
+Slide decks
+Staff builds, consultant polishes
+MEDIUM, THEN HIGH
+Spreadsheets, one sheet
+Staff
+MEDIUM
+Spreadsheets, many
+sheets
+Consultant
+HIGH
+Websites and apps
+Consultant plans, staff builds
+HIGH, THEN LOW
+PT/01 — WHICH MODEL SHOULD I USE?
+17
+
+
+IN CLOSING
+THE ONE LINE WORTH KEEPING
+If you remember one line,
+make it this one.
+You are choosing which person to call, and how long to let them think.
+That is all of it.
+The staff handles your day. The manager makes the calls that matter. The consultant
+comes in to figure out the hard part, then should go home.
+Almost every model can do almost every job now. So the question stopped being what
+they are capable of a while ago.
+Can it? Yes. Is it worth it? Probably not.
+PT/01 — WHICH MODEL SHOULD I USE?
+18
+
+
+EVERY WEEK, ONE PROMPT TAKEN APART
+This guide is the long version of what
+we do every issue.
+Prompt Teardown pulls one real prompt apart each week. What it asks for,
+why it works, and the rebuild you can use the same day. Model-agnostic, free,
+no filler.
+PROMPTTEARDOWN.COM
+NEXT — PT/02 · THE TRAVEL PACK
+PT/01 — WHICH MODEL SHOULD I USE?
+19

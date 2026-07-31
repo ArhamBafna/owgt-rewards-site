@@ -1,0 +1,503 @@
+
+
+📝 CONTENT CREATION PROMPTS
+
+
+
+
+
+
+
+Week of Captions: 'Write 5 social media captions for [platform] about [topic]. Audience: [describe]. Types needed: value post, story post, hot take, social proof, engagement. Tone: [your tone]. Max 200 words each.'
+
+
+
+Email Newsletter: 'Write a complete email newsletter. Subject: [under 7 words]. Hook: 2 sentences. Body: one insight, under 300 words. CTA: one ask. Sign-off: warm, 2 lines. Topic: [topic]. Audience: [describe]. Tone: [your tone].'
+
+
+
+Video Script (60s): 'Write a 60-second video script about [topic]. Hook, body (3-4 points), CTA. Tone: [your tone]. No stage directions. Just the words I say.'
+
+
+
+Content Ideas: 'Give me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.'
+
+
+
+Repurposing: 'Repurpose this content: [paste content]. Create: 3 short captions, 1 email newsletter, 1 Twitter thread, 3 carousel bullet points. Voice: [your tone].'
+
+
+
+Hook Generator: 'Write 5 strong video/post hooks about [topic]. Under 8 words each. Create curiosity or call out a problem. No question marks.'
+
+
+
+Hashtag Strategy: 'Give me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram. Mix of large (1M+), medium (100K-1M), and niche (under 100K).'
+
+
+
+
+
+
+
+📧 EMAIL & COMMUNICATION PROMPTS
+
+
+
+
+
+
+
+Email Reply: 'Draft a reply to this email: [paste email]. Key points: [your bullet points]. Under 150 words. Tone: [direct/friendly/formal]. Sign as: [your name].'
+
+
+
+Follow-Up: 'Draft a follow-up email to [name] about [topic]. Second follow-up. Brief, add value. Clear CTA. Under 100 words.'
+
+
+
+Polite Decline: 'Decline this request politely: [describe request]. Leave door open. Under 80 words.'
+
+
+
+Client Welcome: 'Write a welcome email to a new client. My business: [describe]. Tone: warm, professional. Include next steps and timeline. Under 200 words.'
+
+
+
+Meeting Request: 'Write a brief meeting request to [name] about [topic]. Purpose and format clear. Under 100 words.'
+
+
+
+
+
+
+
+💼 BUSINESS OPS PROMPTS
+
+
+
+
+
+
+
+SOP Creation: 'Turn this brain dump into a numbered SOP for someone who has never done this task. Add title and brief description. Flag missing steps as [FILL IN]. Brain dump: [paste text]'
+
+
+
+Proposal: 'Write a sales proposal. Client: [name/company]. Problem: [describe]. Solution: [describe]. Deliverables: [list]. Timeline: [duration]. Investment: [$X]. Expected outcome: [describe]. Format: 6 sections (situation, opportunity, solution, investment, credibility, next steps). Under 500 words.'
+
+
+
+Meeting Summary: 'Summarize this meeting transcript into: key decisions, action items (with owners), open questions. [paste transcript or notes]'
+
+
+
+Job Description: 'Write a job description for a [role] at my business. Company: [describe]. Responsibilities: [list]. Requirements: [list]. Tone: engaging, honest. Under 300 words.'
+
+
+
+
+
+
+
+💰 SALES PROMPTS
+
+
+
+
+
+
+
+Cold DM: 'Write a LinkedIn DM to [name], [role] at [company]. Reference: [specific detail]. I help [audience] [achieve outcome]. Goal: get a 15-min call. Under 80 words. Human, not AI-sounding.'
+
+
+
+Cold Email: 'Write a cold email to [name], [role] at [company]. Subject: under 7 words. Opening: reference [something specific]. Body: connect to [problem]. Include vague result. CTA: low-friction ask. Under 200 words.'
+
+
+
+Follow-Up Touch 1: 'Short follow-up to [name] after no reply to my outreach about [topic]. Add value: [tip/insight]. Same CTA. Under 80 words.'
+
+
+
+Objection Response: 'Write a response to this sales objection: [quote objection]. Acknowledge it, reframe the value, ask a clarifying question. Keep it natural and under 60 words.'
+
+
+
+
+
+
+
+🧠 THINKING & STRATEGY PROMPTS
+
+
+
+
+
+
+
+Business Audit: 'I run a [describe business]. Help me identify my biggest time wasters and where AI could have the most impact in the next 30 days.'
+
+
+
+Offer Clarity: 'Help me improve this offer: [describe offer]. Who is it for, what problem does it solve, what outcome does it create, and what makes it different? Give me 3 better ways to position it.'
+
+
+
+Idea Validation: 'I want to [describe idea/project]. What are the 5 biggest risks? What would need to be true for this to succeed? What should I test first?'
+
+
+
+Weekly Planning: 'Based on these goals: [list goals], help me plan my top 3 priorities for this week. What should I NOT do this week? What can I delegate or automate?'
+
+
+
+Competitor Analysis: 'Analyze the positioning of [competitor/brand]. What do they do well? What are gaps I could exploit? How should I differentiate against them?'
+
+---
+
+# Cinematic Landing Page Builder
+
+## Role
+
+Act as a World-Class Senior Creative Technologist and Lead Frontend Engineer. You build high-fidelity, cinematic "1:1 Pixel Perfect" landing pages. Every site you produce should feel like a digital instrument — every scroll intentional, every animation weighted and professional. Eradicate all generic AI patterns.
+
+## Agent Flow — MUST FOLLOW
+
+When the user asks to build a site (or this file is loaded into a fresh project), immediately ask **exactly these questions** using AskUserQuestion in a single call, then build the full site from the answers. Do not ask follow-ups. Do not over-discuss. Build.
+
+### Questions (all in one AskUserQuestion call)
+
+1. **"What's the brand name and one-line purpose?"** — Free text. Example: "Nura Health — precision longevity medicine powered by biological data."
+2. **"Pick an aesthetic direction"** — Single-select from the presets below. Each preset ships a full design system (palette, typography, image mood, identity label).
+3. **"What are your 3 key value propositions?"** — Free text. Brief phrases. These become the Features section cards.
+4. **"What should visitors do?"** — Free text. The primary CTA. Example: "Join the waitlist", "Book a consultation", "Start free trial".
+
+---
+
+## Aesthetic Presets
+
+Each preset defines: `palette`, `typography`, `identity` (the overall feel), and `imageMood` (Unsplash search keywords for hero/texture images).
+
+### Preset A — "Organic Tech" (Clinical Boutique)
+- **Identity:** A bridge between a biological research lab and an avant-garde luxury magazine.
+- **Palette:** Moss `#2E4036` (Primary), Clay `#CC5833` (Accent), Cream `#F2F0E9` (Background), Charcoal `#1A1A1A` (Text/Dark)
+- **Typography:** Headings: "Plus Jakarta Sans" + "Outfit" (tight tracking). Drama: "Cormorant Garamond" Italic. Data: `"IBM Plex Mono"`.
+- **Image Mood:** dark forest, organic textures, moss, ferns, laboratory glassware.
+- **Hero line pattern:** "[Concept noun] is the" (Bold Sans) / "[Power word]." (Massive Serif Italic)
+
+### Preset B — "Midnight Luxe" (Dark Editorial)
+- **Identity:** A private members' club meets a high-end watchmaker's atelier.
+- **Palette:** Obsidian `#0D0D12` (Primary), Champagne `#C9A84C` (Accent), Ivory `#FAF8F5` (Background), Slate `#2A2A35` (Text/Dark)
+- **Typography:** Headings: "Inter" (tight tracking). Drama: "Playfair Display" Italic. Data: `"JetBrains Mono"`.
+- **Image Mood:** dark marble, gold accents, architectural shadows, luxury interiors.
+- **Hero line pattern:** "[Aspirational noun] meets" (Bold Sans) / "[Precision word]." (Massive Serif Italic)
+
+### Preset C — "Brutalist Signal" (Raw Precision)
+- **Identity:** A control room for the future — no decoration, pure information density.
+- **Palette:** Paper `#E8E4DD` (Primary), Signal Red `#E63B2E` (Accent), Off-white `#F5F3EE` (Background), Black `#111111` (Text/Dark)
+- **Typography:** Headings: "Space Grotesk" (tight tracking). Drama: "DM Serif Display" Italic. Data: `"Space Mono"`.
+- **Image Mood:** concrete, brutalist architecture, raw materials, industrial.
+- **Hero line pattern:** "[Direct verb] the" (Bold Sans) / "[System noun]." (Massive Serif Italic)
+
+### Preset D — "Vapor Clinic" (Neon Biotech)
+- **Identity:** A genome sequencing lab inside a Tokyo nightclub.
+- **Palette:** Deep Void `#0A0A14` (Primary), Plasma `#7B61FF` (Accent), Ghost `#F0EFF4` (Background), Graphite `#18181B` (Text/Dark)
+- **Typography:** Headings: "Sora" (tight tracking). Drama: "Instrument Serif" Italic. Data: `"Fira Code"`.
+- **Image Mood:** bioluminescence, dark water, neon reflections, microscopy.
+- **Hero line pattern:** "[Tech noun] beyond" (Bold Sans) / "[Boundary word]." (Massive Serif Italic)
+
+---
+
+## Fixed Design System (NEVER CHANGE)
+
+These rules apply to ALL presets. They are what make the output premium.
+
+### Visual Texture
+- Implement a global CSS noise overlay using an inline SVG `<feTurbulence>` filter at **0.05 opacity** to eliminate flat digital gradients.
+- Use a `rounded-[2rem]` to `rounded-[3rem]` radius system for all containers. No sharp corners anywhere.
+
+### Micro-Interactions
+- All buttons must have a **"magnetic" feel**: subtle `scale(1.03)` on hover with `cubic-bezier(0.25, 0.46, 0.45, 0.94)`.
+- Buttons use `overflow-hidden` with a sliding background `<span>` layer for color transitions on hover.
+- Links and interactive elements get a `translateY(-1px)` lift on hover.
+
+### Animation Lifecycle
+- Use `gsap.context()` within `useEffect` for ALL animations. Return `ctx.revert()` in the cleanup function.
+- Default easing: `power3.out` for entrances, `power2.inOut` for morphs.
+- Stagger value: `0.08` for text, `0.15` for cards/containers.
+
+---
+
+## Component Architecture (NEVER CHANGE STRUCTURE — only adapt content/colors)
+
+### A. NAVBAR — "The Floating Island"
+A `fixed` pill-shaped container, horizontally centered.
+- **Morphing Logic:** Transparent with light text at hero top. Transitions to `bg-[background]/60 backdrop-blur-xl` with primary-colored text and a subtle `border` when scrolled past the hero. Use `IntersectionObserver` or ScrollTrigger.
+- Contains: Logo (brand name as text), 3-4 nav links, CTA button (accent color).
+
+### B. HERO SECTION — "The Opening Shot"
+- `100dvh` height. Full-bleed background image (sourced from Unsplash matching preset's `imageMood`) with a heavy **primary-to-black gradient overlay** (`bg-gradient-to-t`).
+- **Layout:** Content pushed to the **bottom-left third** using flex + padding.
+- **Typography:** Large scale contrast following the preset's hero line pattern. First part in bold sans heading font. Second part in massive serif italic drama font (3-5x size difference).
+- **Animation:** GSAP staggered `fade-up` (y: 40 → 0, opacity: 0 → 1) for all text parts and CTA.
+- CTA button below the headline, using the accent color.
+
+### C. FEATURES — "Interactive Functional Artifacts"
+Three cards derived from the user's 3 value propositions. These must feel like **functional software micro-UIs**, not static marketing cards. Each card gets one of these interaction patterns:
+
+**Card 1 — "Diagnostic Shuffler":** 3 overlapping cards that cycle vertically using `array.unshift(array.pop())` logic every 3 seconds with a spring-bounce transition (`cubic-bezier(0.34, 1.56, 0.64, 1)`). Labels derived from user's first value prop (generate 3 sub-labels).
+
+**Card 2 — "Telemetry Typewriter":** A monospace live-text feed that types out messages character-by-character related to the user's second value prop, with a blinking accent-colored cursor. Include a "Live Feed" label with a pulsing dot.
+
+**Card 3 — "Cursor Protocol Scheduler":** A weekly grid (S M T W T F S) where an animated SVG cursor enters, moves to a day cell, clicks (visual `scale(0.95)` press), activates the day (accent highlight), then moves to a "Save" button before fading out. Labels from user's third value prop.
+
+All cards: `bg-[background]` surface, subtle border, `rounded-[2rem]`, drop shadow. Each card has a heading (sans bold) and a brief descriptor.
+
+### D. PHILOSOPHY — "The Manifesto"
+- Full-width section with the **dark color** as background.
+- A parallaxing organic texture image (Unsplash, `imageMood` keywords) at low opacity behind the text.
+- **Typography:** Two contrasting statements. Pattern:
+  - "Most [industry] focuses on: [common approach]." — neutral, smaller.
+  - "We focus on: [differentiated approach]." — massive, drama serif italic, accent-colored keyword.
+- **Animation:** GSAP `SplitText`-style reveal (word-by-word or line-by-line fade-up) triggered by ScrollTrigger.
+
+### E. PROTOCOL — "Sticky Stacking Archive"
+3 full-screen cards that stack on scroll.
+- **Stacking Interaction:** Using GSAP ScrollTrigger with `pin: true`. As a new card scrolls into view, the card underneath scales to `0.9`, blurs to `20px`, and fades to `0.5`.
+- **Each card gets a unique canvas/SVG animation:**
+  1. A slowly rotating geometric motif (double-helix, concentric circles, or gear teeth).
+  2. A scanning horizontal laser-line moving across a grid of dots/cells.
+  3. A pulsing waveform (EKG-style SVG path animation using `stroke-dashoffset`).
+- Card content: Step number (monospace), title (heading font), 2-line description. Derive from user's brand purpose.
+
+### F. MEMBERSHIP / PRICING
+- Three-tier pricing grid. Card names: "Essential", "Performance", "Enterprise" (adjust to fit brand).
+- **Middle card pops:** Primary-colored background with an accent CTA button. Slightly larger scale or `ring` border.
+- If pricing doesn't apply, convert this into a "Get Started" section with a single large CTA.
+
+### G. FOOTER
+- Deep dark-colored background, `rounded-t-[4rem]`.
+- Grid layout: Brand name + tagline, navigation columns, legal links.
+- **"System Operational" status indicator** with a pulsing green dot and monospace label.
+
+---
+
+## Technical Requirements (NEVER CHANGE)
+
+- **Stack:** React 19, Tailwind CSS v3.4.17, GSAP 3 (with ScrollTrigger plugin), Lucide React for icons.
+- **Fonts:** Load via Google Fonts `<link>` tags in `index.html` based on the selected preset.
+- **Images:** Use real Unsplash URLs. Select images matching the preset's `imageMood`. Never use placeholder URLs.
+- **File structure:** Single `App.jsx` with components defined in the same file (or split into `components/` if >600 lines). Single `index.css` for Tailwind directives + noise overlay + custom utilities.
+- **No placeholders.** Every card, every label, every animation must be fully implemented and functional.
+- **Responsive:** Mobile-first. Stack cards vertically on mobile. Reduce hero font sizes. Collapse navbar into a minimal version.
+
+---
+
+## Build Sequence
+
+After receiving answers to the 4 questions:
+
+1. Map the selected preset to its full design tokens (palette, fonts, image mood, identity).
+2. Generate hero copy using the brand name + purpose + preset's hero line pattern.
+3. Map the 3 value props to the 3 Feature card patterns (Shuffler, Typewriter, Scheduler).
+4. Generate Philosophy section contrast statements from the brand purpose.
+5. Generate Protocol steps from the brand's process/methodology.
+6. Scaffold the project: `npm create vite@latest`, install deps, write all files.
+7. Ensure every animation is wired, every interaction works, every image loads.
+
+**Execution Directive:** "Do not build a website; build a digital instrument. Every scroll should feel intentional, every animation should feel weighted and professional. Eradicate all generic AI patterns."
+
+---
+
+Cinematic Listing Videos with Claude + Higgsfield
+
+================================================================
+
+MASTER PROMPT v3 — Cinematic Real Estate Listing Video (Higgsfield)
+
+================================================================
+
+The ONE thing you customize for every listing is the WALKTHROUGH:
+
+you describe how the camera should move through the place. Write that
+
+first (Step 1), then paste the full prompt (Step 2).
+
+================================================================
+
+STEP 1 — WRITE YOUR WALKTHROUGH (how it should go)
+
+================================================================
+
+Describe the camera's route as ONE continuous move, in the order you
+
+want to show the home. This is what makes each video custom. Call out:
+
+- where it starts (outside, the front door, or a key room)
+
+- the order of rooms, and how it moves between them (glide, turn, rise, descend)
+
+- where the furniture unfolds into place
+
+- where to slow down (the selling features: kitchen, view, primary suite)
+
+- how it ends (a hero shot, or back where it started)
+
+Keep it one flowing path. The model follows it as a single continuous shot.
+
+>>> WRITE YOURS HERE:
+
+[ ........................................................... ]
+
+EXAMPLE (Oliver's apartment) — copy this style:
+
+"Start just outside the front door and push in through the entrance.
+
+Glide into the kitchen as the furniture and decor unfold into place.
+
+Continue out into the living room. Turn to the right and look up toward
+
+the staircase, then rise up the stairs. As you reach the top, let the
+
+upstairs interior unfold into place. Drift over toward the desk and
+
+computer setup, then move out over the edge of the landing and descend
+
+back down into the living room to finish."
+
+================================================================
+
+STEP 2 — THE PROMPT (paste into Claude, attach your photo, drop your walkthrough in)
+
+================================================================
+
+Use Higgsfield to create a cinematic real estate listing video from
+
+this photo. Model: Kling 3.0, highest quality mode (pro or 4k), then
+
+upscale the result.
+
+WALKTHROUGH (how the camera should move — paste your Step 1 here):
+
+[ your walkthrough goes here ]
+
+SHOT: one continuous, smooth cinematic walkthrough that follows the
+
+walkthrough above. Slow luxurious motion, seamless forward movement,
+
+subtle parallax, shallow depth of field, decelerating to reveal each
+
+room.
+
+FIDELITY (critical, do not break): stay faithful to the reference
+
+photo. Preserve the exact architecture, layout, furniture, materials,
+
+colors, and proportions shown. Do NOT add, remove, move, or invent
+
+rooms, furniture, windows, doors, or objects. Keep every straight line
+
+straight: no warping or bending of walls, doorframes, counters, or
+
+windows.
+
+LOOK: premium architectural film grade, high dynamic range, natural
+
+realistic textures, soft cinematic color. Golden hour warmth outside
+
+easing into a soft interior glow. Calm, aspirational, expensive.
+
+MOTION FEEL: steady, slow, luxurious. No shaky cam, no fast cuts, no
+
+snap zooms.
+
+FURNITURE REVEAL (marketing flourish, ON by default): as the camera
+
+enters each space, have the furniture and decor elegantly fold/assemble
+
+into place, then settle into the final furnished look.
+
+(Toggle OFF for a fully faithful flythrough when the agent wants exact.)
+
+NEGATIVE / AVOID: no people, no text, no logos, no watermarks, no
+
+warping, no distorted or bending lines, no extra or invented rooms,
+
+no cartoon or fake CGI look, no flicker, no morphing walls.
+
+================================================================
+
+TWO WAYS TO BUILD IT (pick based on the listing)
+
+================================================================
+
+A. ONE CONTINUOUS WALKTHROUGH (the wow factor):
+
+   One generation that follows your whole path. Best when you have a
+
+   strong main photo and want the cinematic, flowing reveal. Anchor it
+
+   with a start photo (and an end photo if you have one).
+
+B. ROOM BY ROOM, THEN STITCH (max accuracy):
+
+   Run the prompt once per real listing photo, give each clip a short
+
+   one-room walkthrough (e.g. "push into the kitchen and slow on the
+
+   island"), then stitch the clips in this order:
+
+   exterior -> entry -> living -> kitchen -> primary bedroom -> bath -> standout feature.
+
+   Use this when the agent needs it to match the real home exactly.
+
+Exterior/aerial beat (either mode): use the REAL exterior photo as the
+
+start frame, OR a real Google Earth Studio aerial of the actual address.
+
+NEVER use an AI-invented exterior.
+
+================================================================
+
+TWEAKABLES (give the buyer control)
+
+================================================================
+
+- Speed: slow & luxurious  OR  energetic & modern
+
+- Time of day / light: golden hour / bright airy daylight / twilight / cozy evening glow
+
+- Furniture: unfold-in (stylized, default)  OR  static (faithful/accurate)
+
+- Mood: calm luxury / vibrant modern / cozy & warm
+
+- Aspect ratio: 16:9 (YouTube + website)  OR  9:16 (Reels / TikTok / Stories)
+
+- Clip length: 5s or 10s
+
+- Quality: Kling 3.0 pro or 4k, then upscale_video
+
+================================================================
+
+QUALITY STEP
+
+================================================================
+
+After it generates, run upscale_video for the final resolution bump.
+
+This is the fix for "I wanted higher quality."
+
+---
+
+Higgsfield UGC Prompt
+
+Authentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy — like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):
+
+
+
+"Okay I just found my new obsession — KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk."
+
+
+
+She gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.
