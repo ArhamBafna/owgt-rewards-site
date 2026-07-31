@@ -29,3 +29,8 @@
   - Built a new, hyper-accurate Python script to parse prompts.txt, extracting 51 high-quality prompts (including massive, multi-line Master Prompts that the old script missed).
   - Reprocessed all 8 Skool Community Guides, injecting manually written, accurate descriptions into the metadata headers while keeping the original guide bodies verbatim.
   - Rebuilt master indices.
+
+- Processed AI Tools (Batch 7 Fixes):
+  - Discovered that the initial Python extraction of AI Tools from the PDF generated 55 scrambled and malformed files due to a complex 2-column layout.
+  - Wrote a smart heuristic parser to accurately parse the PDF column layout, correctly extracting 35 high-quality AI Tools.
+  - Validated the entire library with a strict metadata schema test ('Hard Test'). Achieved 0 failures across the library.

@@ -1,5 +1,5 @@
 ### Name
-Tool 4
+Lavender
 
 ### Description
 AI email coaching and personalisation tool that scores outbound emails and suggests improvements in real time.

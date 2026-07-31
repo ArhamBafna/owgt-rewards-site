@@ -1,5 +1,5 @@
 ### Name
-Tool 3
+HubSpot AI
 
 ### Description
 AI-powered CRM with content generation, email personalisation, and workflow automation built across the entire HubSpot platform.
