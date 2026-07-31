@@ -2,18 +2,16 @@
 Improve Your Onboarding Flow
 
 ### Description
-Our onboarding works like this: [describe].
+A strategic template to improve your onboarding flow.
 
-### Prompt
-```text
-Our onboarding works like this: [describe]. Most users drop off
-at [describe]. Identify three changes that get more users to their
-first moment of value.
+### Content
+```
+Our onboarding works like this: [describe]. Most users drop off at [describe]. Identify three changes that get more users to their first moment of value.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

@@ -1,19 +1,17 @@
 ### Name
-Write A Partnership Proposal
+Write a Partnership Proposal
 
 ### Description
-I want to propose a partnership with [company].
+A strategic template to write a partnership proposal.
 
-### Prompt
-```text
-I want to propose a partnership with [company]. What we bring:
-[describe]. What they bring: [describe]. Write a two-paragraph
-partnership proposal that leads with their benefit, not ours.
+### Content
+```
+I want to propose a partnership with [company]. What we bring: [describe]. What they bring: [describe]. Write a two-paragraph partnership proposal that leads with their benefit, not ours.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

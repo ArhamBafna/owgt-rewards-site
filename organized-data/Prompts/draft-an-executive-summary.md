@@ -1,20 +1,17 @@
 ### Name
-Draft An Executive Summary
+Draft an Executive Summary
 
 ### Description
-Write a one-page executive summary for [company].
+A strategic template to draft an executive summary.
 
-### Prompt
-```text
-Write a one-page executive summary for [company]. Include:
-problem, solution, traction [describe], why now, why us, and the
-raise. Write for a reader deciding in 90 seconds whether to take
-a call.
+### Content
+```
+Write a one-page executive summary for [company]. Include: problem, solution, traction [describe], why now, why us, and the raise. Write for a reader deciding in 90 seconds whether to take a call." CATEGORY 7: FUNDRAISING AND INVESTOR COMMUNICATION
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

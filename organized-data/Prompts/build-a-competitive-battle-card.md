@@ -1,19 +1,17 @@
 ### Name
-Build A Competitive Battle Card
+Build a Competitive Battle Card
 
 ### Description
-Build a battle card for facing [competitor] in a sale.
+A strategic template to build a competitive battle card.
 
-### Prompt
-```text
-Build a battle card for facing [competitor] in a sale. Cover:
-their pitch, their three strongest claims, our counters, and the
-question that exposes their weakness.
+### Content
+```
+Build a battle card for facing [competitor] in a sale. Cover: their pitch, their three strongest claims, our counters, and the question that exposes their weakness.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

@@ -1,19 +1,17 @@
 ### Name
-Build An Onboarding Checklist
+Build an Onboarding Checklist
 
 ### Description
-I'm onboarding a new [role].
+A strategic template to build an onboarding checklist.
 
-### Prompt
-```text
-I'm onboarding a new [role]. Key things to understand in the
-first 30 days: [list]. Build a 30-60-90 plan with three activities
-and one success measure per phase.
+### Content
+```
+I'm onboarding a new [role]. Key things to understand in the first 30 days: [list]. Build a 30-60-90 plan with three activities and one success measure per phase.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

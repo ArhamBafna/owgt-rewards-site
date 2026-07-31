@@ -2,17 +2,16 @@
 Define Your Unique Positioning
 
 ### Description
-Draft three genuinely differentiated positioning statements and the market assumptions behind them.
+A strategic template to define your unique positioning.
 
 ### Content
-"My company does [describe]. Main competitors: [list]. Draft three
-genuinely differentiated positioning statements and the market
-assumption behind each."
+```
+My company does [describe]. Main competitors: [list]. Draft three genuinely differentiated positioning statements and the market assumption behind each.
+```
 
 ### Category
 Prompts
 
 ### Tags
-- Vision and Strategy
-- Positioning
-- Marketing
+- Claude
+- Prompt

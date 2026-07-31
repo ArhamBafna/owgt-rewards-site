@@ -1,20 +1,17 @@
 ### Name
-Identify The Real Bottleneck
+Identify the Real Bottleneck
 
 ### Description
-Here is the system or process I'm trying to improve: [describe].
+A strategic template to identify the real bottleneck.
 
-### Prompt
-```text
-Here is the system or process I'm trying to improve: [describe].
-Identify the single bottleneck that, if removed, would most
-improve throughput. Then tell me why this bottleneck is often the
-last one people look at.
+### Content
+```
+Here is the system or process I'm trying to improve: [describe]. Identify the single bottleneck that, if removed, would most improve throughput. Then tell me why this bottleneck is often the last one people look at.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

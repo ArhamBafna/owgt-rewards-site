@@ -1,19 +1,17 @@
 ### Name
-Run A Competitor Analysis
+Run a Competitor Analysis
 
 ### Description
-Analyze [competitor] as a board briefing.
+A strategic template to run a competitor analysis.
 
-### Prompt
-```text
-Analyze [competitor] as a board briefing. Cover: positioning,
-target customer, strengths, vulnerabilities, and their most likely
-move in the next 12 months.
+### Content
+```
+Analyze [competitor] as a board briefing. Cover: positioning, target customer, strengths, vulnerabilities, and their most likely move in the next 12 months.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

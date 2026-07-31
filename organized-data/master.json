@@ -25,7 +25,7 @@
   ],
   "guides": [
     {
-      "name": "$1M Attention",
+      "name": "1M Attention",
       "path": "Guides/1m-attention.md"
     },
     {
@@ -61,6 +61,10 @@
       "path": "Guides/build-insane-animated-websites.md"
     },
     {
+      "name": "How to Access Multiple Free AI Models at Once",
+      "path": "Guides/how-to-access-multiple-free-ai-models-at-once.md"
+    },
+    {
       "name": "How to Build a $10k/Month App in 2026",
       "path": "Guides/how-to-build-a-10k-month-app-in-2026.md"
     },
@@ -77,23 +81,15 @@
       "path": "Guides/build-5k-month-ai-websites.md"
     },
     {
-      "name": "How to Spot $100M+ Product Ideas",
+      "name": "How to Spot 100M Product Ideas",
       "path": "Guides/how-to-spot-100m-product-ideas.md"
-    },
-    {
-      "name": "How To Use Cursor AI To Build Software",
-      "path": "Guides/how-to-use-cursor-ai-to-build-software.md"
-    },
-    {
-      "name": "Let AI Build Your First AI App",
-      "path": "Guides/let-ai-build-your-first-ai-app.md"
     },
     {
       "name": "Motion Graphics with AI \u2014 Full Setup & Workflow Guide",
       "path": "Guides/motion-graphics-in-ai.md"
     },
     {
-      "name": "Obsidian Is My AI's Second Brain",
+      "name": "Obsidian Is My AIs Second Brain",
       "path": "Guides/obsidian-is-my-ais-second-brain.md"
     },
     {
@@ -105,8 +101,12 @@
       "path": "Guides/raw-footage-to-finished-video-in-ai.md"
     },
     {
-      "name": "The $1M Solopreneur MVP",
+      "name": "The 1M Solopreneur MVP",
       "path": "Guides/the-1m-solopreneur-mvp.md"
+    },
+    {
+      "name": "The AI Agent Playbook",
+      "path": "Guides/the-ai-agent-playbook.md"
     },
     {
       "name": "The AI Research System: A Three-Phase Method",
@@ -119,6 +119,10 @@
     {
       "name": "Which Model Should I Use? (Field Guide)",
       "path": "Guides/which-model-should-i-use.md"
+    },
+    {
+      "name": "Zapier SDK Quickstart",
+      "path": "Guides/zapier-sdk-quickstart.md"
     }
   ],
   "learning": [
@@ -195,8 +199,16 @@
       "path": "Learning/ai-powered-process-documentation.md"
     },
     {
+      "name": "Cold Email: How to Write Like a Human",
+      "path": "Learning/cold-email-how-to-write-like-a-human.md"
+    },
+    {
       "name": "Developer Roadmaps (AI & Engineering)",
       "path": "Learning/developer-roadmaps.md"
+    },
+    {
+      "name": "How to Hire an AI Email Marketer",
+      "path": "Learning/how-to-hire-an-ai-email-marketer.md"
     },
     {
       "name": "LLM Zoomcamp",
@@ -217,6 +229,10 @@
     {
       "name": "PROMPT ENGINEERING",
       "path": "Learning/prompt-engineering.md"
+    },
+    {
+      "name": "What Is Vibe Coding",
+      "path": "Learning/what-is-vibe-coding.md"
     }
   ],
   "prompts": [
@@ -245,7 +261,7 @@
       "path": "Prompts/analyze-customer-feedback.md"
     },
     {
-      "name": "Analyze Customer Feedback For Growth Signals",
+      "name": "Analyze Customer Feedback for Growth Signals",
       "path": "Prompts/analyze-customer-feedback-for-growth-signals.md"
     },
     {
@@ -261,7 +277,7 @@
       "path": "Prompts/analyze-this-data-and-identify.md"
     },
     {
-      "name": "Analyze Why A Deal Was Lost",
+      "name": "Analyze Why a Deal Was Lost",
       "path": "Prompts/analyze-why-a-deal-was-lost.md"
     },
     {
@@ -269,11 +285,15 @@
       "path": "Prompts/apply-devil-s-advocate.md"
     },
     {
+      "name": "Apply Devil's Advocate",
+      "path": "Prompts/apply-devils-advocate.md"
+    },
+    {
       "name": "Apply First Principles Thinking",
       "path": "Prompts/apply-first-principles-thinking.md"
     },
     {
-      "name": "Assess An Acquisition Or Partnership",
+      "name": "Assess an Acquisition or Partnership",
       "path": "Prompts/assess-an-acquisition-or-partnership.md"
     },
     {
@@ -281,31 +301,35 @@
       "path": "Prompts/assumptions-stress-test.md"
     },
     {
-      "name": "Build A Competitive Battle Card",
+      "name": "Break this goal into a realistic 30-60-90 day plan with",
+      "path": "Prompts/break-this-goal-into-a-realistic-30-60-90-day-plan-with.md"
+    },
+    {
+      "name": "Build a Competitive Battle Card",
       "path": "Prompts/build-a-competitive-battle-card.md"
     },
     {
-      "name": "Build A Decision Framework",
+      "name": "Build a Decision Framework",
       "path": "Prompts/build-a-decision-framework.md"
     },
     {
-      "name": "Build A Decision Matrix",
+      "name": "Build a Decision Matrix",
       "path": "Prompts/build-a-decision-matrix.md"
     },
     {
-      "name": "Build A Project Risk Assessment",
+      "name": "Build a Project Risk Assessment",
       "path": "Prompts/build-a-project-risk-assessment.md"
     },
     {
-      "name": "Build A Sop For A Repeatable Process",
+      "name": "Build a SOP for a Repeatable Process",
       "path": "Prompts/build-a-sop-for-a-repeatable-process.md"
     },
     {
-      "name": "Build A User Interview Question Set",
+      "name": "Build a User Interview Question Set",
       "path": "Prompts/build-a-user-interview-question-set.md"
     },
     {
-      "name": "Build An Onboarding Checklist",
+      "name": "Build an Onboarding Checklist",
       "path": "Prompts/build-an-onboarding-checklist.md"
     },
     {
@@ -321,7 +345,7 @@
       "path": "Prompts/business-audit.md"
     },
     {
-      "name": "Challenge An Assumption",
+      "name": "Challenge an Assumption",
       "path": "Prompts/challenge-an-assumption.md"
     },
     {
@@ -357,11 +381,11 @@
       "path": "Prompts/content-ideas.md"
     },
     {
-      "name": "Craft An Ask For A Warm Introduction",
+      "name": "Craft an Ask for a Warm Introduction",
       "path": "Prompts/craft-an-ask-for-a-warm-introduction.md"
     },
     {
-      "name": "Create A Meeting Agenda",
+      "name": "Create a Meeting Agenda",
       "path": "Prompts/create-a-meeting-agenda.md"
     },
     {
@@ -385,15 +409,19 @@
       "path": "Prompts/data-story-narrative.md"
     },
     {
-      "name": "Decide On Organizational Structure",
+      "name": "Decide How to Deliver Difficult News\nCATEGORY 5",
+      "path": "Prompts/decide-how-to-deliver-difficult-news-category-5.md"
+    },
+    {
+      "name": "Decide on Organizational Structure",
       "path": "Prompts/decide-on-organizational-structure.md"
     },
     {
-      "name": "Decide Whether To Pivot Or Stay The Course",
+      "name": "Decide Whether to Pivot or Stay the Course",
       "path": "Prompts/decide-whether-to-pivot-or-stay-the-course.md"
     },
     {
-      "name": "Decide Whether To Promote Or Let Go",
+      "name": "Decide Whether to Promote or Let Go",
       "path": "Prompts/decide-whether-to-promote-or-let-go.md"
     },
     {
@@ -401,16 +429,20 @@
       "path": "Prompts/define-your-unique-positioning.md"
     },
     {
-      "name": "Design A Weekly Review Framework",
+      "name": "Design a Weekly Review Framework",
       "path": "Prompts/design-a-weekly-review-framework.md"
     },
     {
-      "name": "Diagnose A Team Problem",
+      "name": "Diagnose a Team Problem",
       "path": "Prompts/diagnose-a-team-problem.md"
     },
     {
       "name": "Diagnose Why Something Isn'T Working",
       "path": "Prompts/diagnose-why-something-isn-t-working.md"
+    },
+    {
+      "name": "Diagnose Why Something Isn't Working",
+      "path": "Prompts/diagnose-why-something-isnt-working.md"
     },
     {
       "name": "Difficult Employee Conversation",
@@ -421,7 +453,7 @@
       "path": "Prompts/draft-5-questions-i-should.md"
     },
     {
-      "name": "Draft A Follow-Up After No Response",
+      "name": "Draft a Follow-Up After No Response",
       "path": "Prompts/draft-a-follow-up-after-no-response.md"
     },
     {
@@ -429,7 +461,7 @@
       "path": "Prompts/draft-a-polite-but-firm.md"
     },
     {
-      "name": "Draft A Product Announcement",
+      "name": "Draft a Product Announcement",
       "path": "Prompts/draft-a-product-announcement.md"
     },
     {
@@ -437,11 +469,11 @@
       "path": "Prompts/draft-a-request-to-leadership.md"
     },
     {
-      "name": "Draft A Weekly Update To Your Team",
+      "name": "Draft a Weekly Update to Your Team",
       "path": "Prompts/draft-a-weekly-update-to-your-team.md"
     },
     {
-      "name": "Draft An Executive Summary",
+      "name": "Draft an Executive Summary",
       "path": "Prompts/draft-an-executive-summary.md"
     },
     {
@@ -465,12 +497,20 @@
       "path": "Prompts/employee-engagement-analysis.md"
     },
     {
-      "name": "Evaluate A New Market Opportunity",
+      "name": "Enter or Exit a Market\n10\nWHAT THIS CHANGES",
+      "path": "Prompts/enter-or-exit-a-market-10-what-this-changes.md"
+    },
+    {
+      "name": "Evaluate a New Market Opportunity",
       "path": "Prompts/evaluate-a-new-market-opportunity.md"
     },
     {
       "name": "Evaluate a New Opportunity",
       "path": "Prompts/evaluate-a-new-opportunity.md"
+    },
+    {
+      "name": "Explain these financial terms in plain language for a",
+      "path": "Prompts/explain-these-financial-terms-in-plain-language-for-a.md"
     },
     {
       "name": "Follow-Up",
@@ -493,12 +533,20 @@
       "path": "Prompts/generate-alternatives-when-you-re-stuck.md"
     },
     {
-      "name": "Generate Feature Ideas From Complaints",
+      "name": "Generate Alternatives When You're Stuck",
+      "path": "Prompts/generate-alternatives-when-youre-stuck.md"
+    },
+    {
+      "name": "Generate Feature Ideas from Complaints",
       "path": "Prompts/generate-feature-ideas-from-complaints.md"
     },
     {
       "name": "Get Devil'S Advocate Feedback",
       "path": "Prompts/get-devil-s-advocate-feedback.md"
+    },
+    {
+      "name": "Get Devil's Advocate Feedback",
+      "path": "Prompts/get-devils-advocate-feedback.md"
     },
     {
       "name": "Give Me 5 Options. 61",
@@ -513,7 +561,7 @@
       "path": "Prompts/give-me-the-tl-dr-of.md"
     },
     {
-      "name": "Handle A Difficult Investor Conversation",
+      "name": "Handle a Difficult Investor Conversation",
       "path": "Prompts/handle-a-difficult-investor-conversation.md"
     },
     {
@@ -545,11 +593,11 @@
       "path": "Prompts/identify-the-3-biggest-risks.md"
     },
     {
-      "name": "Identify The Real Bottleneck",
+      "name": "Identify the Real Bottleneck",
       "path": "Prompts/identify-the-real-bottleneck.md"
     },
     {
-      "name": "Identify The Root Cause",
+      "name": "Identify the Root Cause",
       "path": "Prompts/identify-the-root-cause.md"
     },
     {
@@ -581,6 +629,10 @@
       "path": "Prompts/make-the-decision-you-ve-been-avoiding.md"
     },
     {
+      "name": "Make the Decision You've Been Avoiding",
+      "path": "Prompts/make-the-decision-youve-been-avoiding.md"
+    },
+    {
       "name": "Meeting Effectiveness Audit",
       "path": "Prompts/meeting-effectiveness-audit.md"
     },
@@ -593,7 +645,7 @@
       "path": "Prompts/meeting-summary.md"
     },
     {
-      "name": "Navigate A Stakeholder Disagreement",
+      "name": "Navigate a Stakeholder Disagreement",
       "path": "Prompts/navigate-a-stakeholder-disagreement.md"
     },
     {
@@ -613,11 +665,11 @@
       "path": "Prompts/performance-review-preparation.md"
     },
     {
-      "name": "Plan A Difficult Conversation",
+      "name": "Plan a Difficult Conversation",
       "path": "Prompts/plan-a-difficult-conversation.md"
     },
     {
-      "name": "Plan A Project Kickoff",
+      "name": "Plan a Project Kickoff",
       "path": "Prompts/plan-a-project-kickoff.md"
     },
     {
@@ -629,15 +681,15 @@
       "path": "Prompts/post-mortem-framework.md"
     },
     {
-      "name": "Prepare For A Board Meeting",
+      "name": "Prepare for a Board Meeting",
       "path": "Prompts/prepare-for-a-board-meeting.md"
     },
     {
-      "name": "Prepare For A Sales Call",
+      "name": "Prepare for a Sales Call",
       "path": "Prompts/prepare-for-a-sales-call.md"
     },
     {
-      "name": "Pressure-Test A Strategy",
+      "name": "Pressure-Test a Strategy",
       "path": "Prompts/pressure-test-a-strategy.md"
     },
     {
@@ -649,7 +701,7 @@
       "path": "Prompts/pricing-decision-framework.md"
     },
     {
-      "name": "Prioritize A Product Backlog",
+      "name": "Prioritize a Product Backlog",
       "path": "Prompts/prioritize-a-product-backlog.md"
     },
     {
@@ -685,7 +737,7 @@
       "path": "Prompts/research-synthesis.md"
     },
     {
-      "name": "Respond To A Critical Investor Question",
+      "name": "Respond to a Critical Investor Question",
       "path": "Prompts/respond-to-a-critical-investor-question.md"
     },
     {
@@ -701,11 +753,11 @@
       "path": "Prompts/root-cause-analysis.md"
     },
     {
-      "name": "Run A Competitor Analysis",
+      "name": "Run a Competitor Analysis",
       "path": "Prompts/run-a-competitor-analysis.md"
     },
     {
-      "name": "Run A Pre-Mortem",
+      "name": "Run a Pre-Mortem",
       "path": "Prompts/run-a-pre-mortem.md"
     },
     {
@@ -785,19 +837,19 @@
       "path": "Prompts/write-a-clear-jargon-free-explanation.md"
     },
     {
-      "name": "Write A Cold Outreach Email",
+      "name": "Write a Cold Outreach Email",
       "path": "Prompts/write-a-cold-outreach-email.md"
     },
     {
-      "name": "Write A Company Announcement",
+      "name": "Write a Company Announcement",
       "path": "Prompts/write-a-company-announcement.md"
     },
     {
-      "name": "Write A Compensation Explanation",
+      "name": "Write a Compensation Explanation",
       "path": "Prompts/write-a-compensation-explanation.md"
     },
     {
-      "name": "Write A Customer Re-Engagement Email",
+      "name": "Write a Customer Re-Engagement Email",
       "path": "Prompts/write-a-customer-re-engagement-email.md"
     },
     {
@@ -805,11 +857,11 @@
       "path": "Prompts/write-a-diplomatic-response-to.md"
     },
     {
-      "name": "Write A Job Description",
+      "name": "Write a Job Description",
       "path": "Prompts/write-a-job-description.md"
     },
     {
-      "name": "Write A Partnership Proposal",
+      "name": "Write a Partnership Proposal",
       "path": "Prompts/write-a-partnership-proposal.md"
     },
     {
@@ -817,7 +869,7 @@
       "path": "Prompts/write-a-performance-review-for.md"
     },
     {
-      "name": "Write An Escalation Policy",
+      "name": "Write an Escalation Policy",
       "path": "Prompts/write-an-escalation-policy.md"
     },
     {
@@ -825,18 +877,38 @@
       "path": "Prompts/write-an-executive-summary-for.md"
     },
     {
-      "name": "Write An Investor Update",
+      "name": "Write an Investor Update",
       "path": "Prompts/write-an-investor-update.md"
     }
   ],
   "resources": [
     {
+      "name": "10015 Tools",
+      "path": "Resources/10015-tools.md"
+    },
+    {
       "name": "21st.dev",
       "path": "Resources/21stdev.md"
     },
     {
+      "name": "39 Claude Skills Examples",
+      "path": "Resources/39-claude-skills-examples.md"
+    },
+    {
+      "name": "AI Hackathons",
+      "path": "Resources/ai-hackathons.md"
+    },
+    {
+      "name": "AI Quests",
+      "path": "Resources/ai-quests.md"
+    },
+    {
       "name": "AI Tool Index",
       "path": "Resources/ai-tool-index.md"
+    },
+    {
+      "name": "AI Tools Directory AIxploria",
+      "path": "Resources/ai-tools-directory-aixploria.md"
     },
     {
       "name": "AnimeJS",
@@ -863,6 +935,18 @@
       "path": "Resources/awesome-mcp-servers.md"
     },
     {
+      "name": "awesome-design-md",
+      "path": "Resources/awesome-design-md.md"
+    },
+    {
+      "name": "Backgrounds Library",
+      "path": "Resources/backgrounds-library.md"
+    },
+    {
+      "name": "Banana Prompts",
+      "path": "Resources/banana-prompts.md"
+    },
+    {
       "name": "Bklit UI",
       "path": "Resources/bklit-ui.md"
     },
@@ -871,20 +955,100 @@
       "path": "Resources/claude-quickstarts.md"
     },
     {
+      "name": "Claude Skills",
+      "path": "Resources/claude-skills.md"
+    },
+    {
+      "name": "Claude STARTUP Skill",
+      "path": "Resources/claude-startup-skill.md"
+    },
+    {
+      "name": "Cloudflare Drop",
+      "path": "Resources/cloudflare-drop.md"
+    },
+    {
+      "name": "Corbin Skool",
+      "path": "Resources/corbin-skool.md"
+    },
+    {
+      "name": "Cuelume",
+      "path": "Resources/cuelume.md"
+    },
+    {
+      "name": "dotagents",
+      "path": "Resources/dotagents.md"
+    },
+    {
+      "name": "Dropbox Brand Guidelines",
+      "path": "Resources/dropbox-brand-guidelines.md"
+    },
+    {
+      "name": "emilkowalski skills",
+      "path": "Resources/emilkowalski-skills.md"
+    },
+    {
+      "name": "Every",
+      "path": "Resources/every.md"
+    },
+    {
+      "name": "Free Trial and Free Tier Services Google Cloud",
+      "path": "Resources/free-trial-and-free-tier-services-google-cloud.md"
+    },
+    {
+      "name": "frontend-textbooks",
+      "path": "Resources/frontend-textbooks.md"
+    },
+    {
+      "name": "GitHub Student Developer Pack",
+      "path": "Resources/github-student-developer-pack.md"
+    },
+    {
+      "name": "Hour of AI Activities",
+      "path": "Resources/hour-of-ai-activities.md"
+    },
+    {
       "name": "Hover.dev",
       "path": "Resources/hover-dev.md"
+    },
+    {
+      "name": "kolejain.com resources",
+      "path": "Resources/kolejaincom-resources.md"
     },
     {
       "name": "Landbook",
       "path": "Resources/landbook.md"
     },
     {
+      "name": "Lando Norris",
+      "path": "Resources/lando-norris.md"
+    },
+    {
+      "name": "List of free AI Models",
+      "path": "Resources/list-of-free-ai-models.md"
+    },
+    {
       "name": "Mobbin",
       "path": "Resources/mobbin.md"
     },
     {
+      "name": "Name.com Free Domain",
+      "path": "Resources/namecom-free-domain.md"
+    },
+    {
+      "name": "Namecheap Education Program",
+      "path": "Resources/namecheap-education-program.md"
+    },
+    {
+      "name": "OFF+BRAND",
+      "path": "Resources/offbrand.md"
+    },
+    {
       "name": "Official MCP Servers (Model Context Protocol)",
       "path": "Resources/official-mcp-servers.md"
+    },
+    {
+      "name": "OpenClaw after 50 days",
+      "path": "Resources/openclaw-after-50-days.md"
     },
     {
       "name": "Radiant Shaders",
@@ -899,6 +1063,14 @@
       "path": "Resources/system-prompts.md"
     },
     {
+      "name": "Reddit Communities to Promote Your App",
+      "path": "Resources/reddit-communities-to-promote-your-app.md"
+    },
+    {
+      "name": "Requests for Startups YC",
+      "path": "Resources/requests-for-startups-yc.md"
+    },
+    {
       "name": "Starter Story",
       "path": "Resources/starter-story.md"
     },
@@ -907,12 +1079,24 @@
       "path": "Resources/starter-story-data.md"
     },
     {
+      "name": "The Claude Skills That Finally Made AI Write Like Me",
+      "path": "Resources/the-claude-skills-that-finally-made-ai-write-like-me.md"
+    },
+    {
+      "name": "ToolFK Online Tools",
+      "path": "Resources/toolfk-online-tools.md"
+    },
+    {
       "name": "TrustMRR",
       "path": "Resources/trustmrr.md"
     },
     {
       "name": "Uiverse",
       "path": "Resources/uiverse.md"
+    },
+    {
+      "name": "What AI Can Do Today",
+      "path": "Resources/what-ai-can-do-today.md"
     }
   ],
   "templates": [
@@ -927,6 +1111,10 @@
   ],
   "tools": [
     {
+      "name": "Acrossmultipleroles",
+      "path": "Tools/acrossmultipleroles.md"
+    },
+    {
       "name": "Ada",
       "path": "Tools/ada.md"
     },
@@ -935,12 +1123,24 @@
       "path": "Tools/animejs.md"
     },
     {
+      "name": "Anthropic",
+      "path": "Tools/anthropic.md"
+    },
+    {
       "name": "Antigravity IDE & Suite",
       "path": "Tools/antigravity.md"
     },
     {
+      "name": "Anyfunctionproducinglong -",
+      "path": "Tools/anyfunctionproducinglong-.md"
+    },
+    {
       "name": "Apollo.Io",
       "path": "Tools/apollo-io.md"
+    },
+    {
+      "name": "Atlassian Rovo",
+      "path": "Tools/atlassian-rovo.md"
     },
     {
       "name": "Bytez",
@@ -951,12 +1151,20 @@
       "path": "Tools/chat-jimmy.md"
     },
     {
+      "name": "Chatgpt",
+      "path": "Tools/chatgpt.md"
+    },
+    {
       "name": "Chatgpt (Enterprise)",
       "path": "Tools/chatgpt-enterprise.md"
     },
     {
       "name": "Claude",
       "path": "Tools/claude.md"
+    },
+    {
+      "name": "Claude Api",
+      "path": "Tools/claude-api.md"
     },
     {
       "name": "Claude Code CLI",
@@ -979,6 +1187,10 @@
       "path": "Tools/copy-ai.md"
     },
     {
+      "name": "Cursor",
+      "path": "Tools/cursor.md"
+    },
+    {
       "name": "Cursor IDE",
       "path": "Tools/cursor-ide.md"
     },
@@ -995,6 +1207,10 @@
       "path": "Tools/eightfold.md"
     },
     {
+      "name": "Feedingdirectlyintoexisting",
+      "path": "Tools/feedingdirectlyintoexisting.md"
+    },
+    {
       "name": "Firecrawl CLI & API",
       "path": "Tools/firecrawl-cli.md"
     },
@@ -1003,12 +1219,56 @@
       "path": "Tools/fireflies-ai.md"
     },
     {
+      "name": "Fireflies.Ai",
+      "path": "Tools/firefliesai.md"
+    },
+    {
+      "name": "freedom.to",
+      "path": "Tools/freedomto.md"
+    },
+    {
       "name": "Gamma",
       "path": "Tools/gamma.md"
     },
     {
+      "name": "Gammacopy . Ai",
+      "path": "Tools/gammacopy-ai.md"
+    },
+    {
+      "name": "Github Copilot",
+      "path": "Tools/github-copilot.md"
+    },
+    {
+      "name": "Glean",
+      "path": "Tools/glean.md"
+    },
+    {
+      "name": "Glean Research",
+      "path": "Tools/glean-research.md"
+    },
+    {
+      "name": "Gong",
+      "path": "Tools/gong.md"
+    },
+    {
+      "name": "Google AI Flow",
+      "path": "Tools/google-ai-flow.md"
+    },
+    {
+      "name": "Googleconsensus",
+      "path": "Tools/googleconsensus.md"
+    },
+    {
+      "name": "Grainzoominfo",
+      "path": "Tools/grainzoominfo.md"
+    },
+    {
       "name": "Grok",
       "path": "Tools/grok.md"
+    },
+    {
+      "name": "Gumloop",
+      "path": "Tools/gumloop.md"
     },
     {
       "name": "Hallmark",
@@ -1027,12 +1287,20 @@
       "path": "Tools/hirevue.md"
     },
     {
+      "name": "Hirevueparadox",
+      "path": "Tools/hirevueparadox.md"
+    },
+    {
       "name": "Hover.dev",
       "path": "Tools/hoverdev.md"
     },
     {
       "name": "Hubert",
       "path": "Tools/hubert.md"
+    },
+    {
+      "name": "Hubspot",
+      "path": "Tools/hubspot.md"
     },
     {
       "name": "HubSpot AI",
@@ -1047,6 +1315,10 @@
       "path": "Tools/ideogram-40.md"
     },
     {
+      "name": "Igloo Inc.",
+      "path": "Tools/igloo-inc.md"
+    },
+    {
       "name": "Impeccable",
       "path": "Tools/impeccable.md"
     },
@@ -1059,12 +1331,20 @@
       "path": "Tools/jasper.md"
     },
     {
+      "name": "Jasperai",
+      "path": "Tools/jasperai.md"
+    },
+    {
       "name": "Kokonut UI",
       "path": "Tools/kokonut-ui.md"
     },
     {
       "name": "Lavender",
       "path": "Tools/lavender.md"
+    },
+    {
+      "name": "Lavenderadobe",
+      "path": "Tools/lavenderadobe.md"
     },
     {
       "name": "LLM CLI Tool (Simon Willison)",
@@ -1083,6 +1363,10 @@
       "path": "Tools/marketo-engage.md"
     },
     {
+      "name": "Microsoft 365 Copilot",
+      "path": "Tools/microsoft-365-copilot.md"
+    },
+    {
       "name": "Motion.dev",
       "path": "Tools/motiondev.md"
     },
@@ -1091,16 +1375,36 @@
       "path": "Tools/notebooklm.md"
     },
     {
+      "name": "Notion Ai",
+      "path": "Tools/notion-ai.md"
+    },
+    {
       "name": "Ollama",
       "path": "Tools/ollama.md"
+    },
+    {
+      "name": "Opal Experiment",
+      "path": "Tools/opal-experiment.md"
+    },
+    {
+      "name": "openai-oauth",
+      "path": "Tools/openai-oauth.md"
     },
     {
       "name": "OpenWhispr",
       "path": "Tools/openwhispr.md"
     },
     {
+      "name": "Organisationsrunninghigh -",
+      "path": "Tools/organisationsrunninghigh-.md"
+    },
+    {
       "name": "Otter.Ai",
       "path": "Tools/otter-ai.md"
+    },
+    {
+      "name": "Otter.Ai",
+      "path": "Tools/otterai.md"
     },
     {
       "name": "Paradox (Olivia)",
@@ -1131,6 +1435,10 @@
       "path": "Tools/rive.md"
     },
     {
+      "name": "RSS Post to Message",
+      "path": "Tools/rss-post-to-message.md"
+    },
+    {
       "name": "shadcn/ui",
       "path": "Tools/shadcn-ui.md"
     },
@@ -1147,6 +1455,10 @@
       "path": "Tools/tipalti.md"
     },
     {
+      "name": "Toremovetheformattinganddesign",
+      "path": "Tools/toremovetheformattinganddesign.md"
+    },
+    {
       "name": "Trae IDE",
       "path": "Tools/trae-ide.md"
     },
@@ -1157,6 +1469,18 @@
     {
       "name": "Vic.Ai",
       "path": "Tools/vic-ai.md"
+    },
+    {
+      "name": "Volumeofrepeatablesupport",
+      "path": "Tools/volumeofrepeatablesupport.md"
+    },
+    {
+      "name": "Volumesofpersonalisedoutbound",
+      "path": "Tools/volumesofpersonalisedoutbound.md"
+    },
+    {
+      "name": "Volumeswithmulti - Entityor",
+      "path": "Tools/volumeswithmulti-entityor.md"
     },
     {
       "name": "Willow Voice",
@@ -1179,12 +1503,20 @@
       "path": "Tools/workato.md"
     },
     {
+      "name": "Yupp",
+      "path": "Tools/yupp.md"
+    },
+    {
       "name": "Z-Image AI",
       "path": "Tools/z-image-ai.md"
     },
     {
       "name": "Zapier",
       "path": "Tools/zapier.md"
+    },
+    {
+      "name": "Zapier MCP",
+      "path": "Tools/zapier-mcp.md"
     },
     {
       "name": "Zendesk Ai",

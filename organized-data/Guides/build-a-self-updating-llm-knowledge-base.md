@@ -2,7 +2,7 @@
 Build a Self-Updating LLM Knowledge Base
 
 ### Description
-Tutorial on building an automated knowledge base.
+Blog post on building a self-updating LLM knowledge base
 
 ### URL
 https://bholmes.dev/blog/llm-knowledge-bases/

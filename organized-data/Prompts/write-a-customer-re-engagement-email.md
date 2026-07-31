@@ -1,21 +1,17 @@
 ### Name
-Write A Customer Re-Engagement Email
+Write a Customer Re-Engagement Email
 
 ### Description
-Write an email to [type of customer] who has not engaged with us
-in [timeframe].
+A strategic template to write a customer re-engagement email.
 
-### Prompt
-```text
-Write an email to [type of customer] who has not engaged with us
-in [timeframe]. Don't apologize for the silence. Lead with what has
-changed or improved since they last used us, and give them one
-specific reason to come back.
+### Content
+```
+Write an email to [type of customer] who has not engaged with us in [timeframe]. Don't apologize for the silence. Lead with what has changed or improved since they last used us, and give them one specific reason to come back.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

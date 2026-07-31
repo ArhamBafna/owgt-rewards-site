@@ -1,19 +1,17 @@
 ### Name
-Analyze Why A Deal Was Lost
+Analyze Why a Deal Was Lost
 
 ### Description
-Here's the deal I lost: [describe].
+A strategic template to analyze why a deal was lost.
 
-### Prompt
-```text
-Here's the deal I lost: [describe]. What are the three most
-likely real reasons, not what they told us, the underlying ones?
-What do we change next time?
+### Content
+```
+Here's the deal I lost: [describe]. What are the three most likely real reasons, not what they told us, the underlying ones? What do we change next time?
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

@@ -1,19 +1,17 @@
 ### Name
-Diagnose A Team Problem
+Diagnose a Team Problem
 
 ### Description
-My team of [size] is experiencing [symptoms].
+A strategic template to diagnose a team problem.
 
-### Prompt
-```text
-My team of [size] is experiencing [symptoms]. Is this structural,
-communication, or capability? Give me the one question to ask each
-team member to confirm.
+### Content
+```
+My team of [size] is experiencing [symptoms]. Is this structural, communication, or capability? Give me the one question to ask each team member to confirm.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

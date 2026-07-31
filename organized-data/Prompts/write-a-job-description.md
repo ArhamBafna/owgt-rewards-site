@@ -1,20 +1,17 @@
 ### Name
-Write A Job Description
+Write a Job Description
 
 ### Description
-Write a job description for a [role] at a [stage] company in
-[industry].
+A strategic template to write a job description.
 
-### Prompt
-```text
-Write a job description for a [role] at a [stage] company in
-[industry]. Their most important first-90-days outcome: [describe].
-Write for someone who cares about impact over title.
+### Content
+```
+Write a job description for a [role] at a [stage] company in [industry]. Their most important first-90-days outcome: [describe]. Write for someone who cares about impact over title.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

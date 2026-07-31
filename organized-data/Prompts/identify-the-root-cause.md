@@ -1,19 +1,17 @@
 ### Name
-Identify The Root Cause
+Identify the Root Cause
 
 ### Description
-Here's a recurring problem: [describe].
+A strategic template to identify the root cause.
 
-### Prompt
-```text
-Here's a recurring problem: [describe]. Run a five-whys analysis
-to find the root cause. Is this structural, skills, or
-prioritization?
+### Content
+```
+Here's a recurring problem: [describe]. Run a five-whys analysis to find the root cause. Is this structural, skills, or prioritization?
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

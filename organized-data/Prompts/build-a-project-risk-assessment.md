@@ -1,20 +1,17 @@
 ### Name
-Build A Project Risk Assessment
+Build a Project Risk Assessment
 
 ### Description
-I am about to start [project].
+A strategic template to build a project risk assessment.
 
-### Prompt
-```text
-I am about to start [project]. Identify the five most likely
-risks across: scope, resources, timeline, dependencies, and
-stakeholder alignment. For each: rate it low/medium/high, and give
-me one specific mitigation action.
+### Content
+```
+I am about to start [project]. Identify the five most likely risks across: scope, resources, timeline, dependencies, and stakeholder alignment. For each: rate it low/medium/high, and give me one specific mitigation action.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow

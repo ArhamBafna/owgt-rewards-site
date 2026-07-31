@@ -2,18 +2,16 @@
 Analyze Customer Feedback
 
 ### Description
-Here's customer feedback: [paste].
+A strategic template to analyze customer feedback.
 
-### Prompt
-```text
-Here's customer feedback: [paste]. Identify the two or three most
-consistent themes, rank by retention impact, and flag what
-customers are saying that we're not hearing.
+### Content
+```
+Here's customer feedback: [paste]. Identify the two or three most consistent themes, rank by retention impact, and flag what customers are saying that we're not hearing.
 ```
 
 ### Category
 Prompts
 
 ### Tags
+- Claude
 - Prompt
-- Workflow
