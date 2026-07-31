@@ -2,7 +2,7 @@
 Proposal
 
 ### Description
-A prompt for proposal tasks.
+A ready-to-use prompt that instructs the AI to: Write a sales proposal.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Follow-Up Touch 1
 
 ### Description
-A prompt for follow-up touch 1 tasks.
+A ready-to-use prompt that instructs the AI to: Short follow-up to [name] after no reply to my outreach about [topic].
 
 ### Prompt
 ```text

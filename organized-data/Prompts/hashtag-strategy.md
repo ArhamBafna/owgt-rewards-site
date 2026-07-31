@@ -2,7 +2,7 @@
 Hashtag Strategy
 
 ### Description
-A prompt for hashtag strategy tasks.
+A ready-to-use prompt that instructs the AI to: Give me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Content Ideas
 
 ### Description
-A prompt for content ideas tasks.
+A ready-to-use prompt that instructs the AI to: Give me 10 content topic ideas for [niche/audience].
 
 ### Prompt
 ```text

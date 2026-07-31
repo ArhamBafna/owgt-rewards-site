@@ -2,7 +2,7 @@
 Follow-Up
 
 ### Description
-A prompt for follow-up tasks.
+A ready-to-use prompt that instructs the AI to: Draft a follow-up email to [name] about [topic].
 
 ### Prompt
 ```text

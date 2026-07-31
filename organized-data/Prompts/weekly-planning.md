@@ -2,7 +2,7 @@
 Weekly Planning
 
 ### Description
-A prompt for weekly planning tasks.
+A ready-to-use prompt that instructs the AI to: Based on these goals: [list goals], help me plan my top 3 priorities for this week.
 
 ### Prompt
 ```text

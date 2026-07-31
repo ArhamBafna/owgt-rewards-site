@@ -34,3 +34,9 @@
   - Discovered that the initial Python extraction of AI Tools from the PDF generated 55 scrambled and malformed files due to a complex 2-column layout.
   - Wrote a smart heuristic parser to accurately parse the PDF column layout, correctly extracting 35 high-quality AI Tools.
   - Validated the entire library with a strict metadata schema test ('Hard Test'). Achieved 0 failures across the library.
+
+- Final Advanced Validation Pass (Batch 8):
+  - Ran advanced schema validation ensuring exact header count, structure, and string lengths.
+  - Dynamically extracted genuine summary descriptions for all Prompts directly from their text, removing the lazy 'A prompt for X tasks' placeholders.
+  - Identified and purged 3 hidden garbage website-architecture files masquerading as prompts.
+  - The repository now passes with absolutely zero formatting or metadata errors.

@@ -2,7 +2,7 @@
 Client Welcome
 
 ### Description
-A prompt for client welcome tasks.
+A ready-to-use prompt that instructs the AI to: Write a welcome email to a new client.
 
 ### Prompt
 ```text

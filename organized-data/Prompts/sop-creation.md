@@ -2,7 +2,7 @@
 SOP Creation
 
 ### Description
-A prompt for sop creation tasks.
+A ready-to-use prompt that instructs the AI to: Turn this brain dump into a numbered SOP for someone who has never done this task.
 
 ### Prompt
 ```text

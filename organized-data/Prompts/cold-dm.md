@@ -2,7 +2,7 @@
 Cold DM
 
 ### Description
-A prompt for cold dm tasks.
+A ready-to-use prompt that instructs the AI to: Write a LinkedIn DM to [name], [role] at [company].
 
 ### Prompt
 ```text

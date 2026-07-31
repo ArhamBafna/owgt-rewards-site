@@ -2,7 +2,7 @@
 Email Newsletter
 
 ### Description
-A prompt for email newsletter tasks.
+A ready-to-use prompt that instructs the AI to: Write a complete email newsletter.
 
 ### Prompt
 ```text

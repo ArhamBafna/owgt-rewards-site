@@ -2,7 +2,7 @@
 Repurposing
 
 ### Description
-A prompt for repurposing tasks.
+A ready-to-use prompt that instructs the AI to: Repurpose this content: [paste content].
 
 ### Prompt
 ```text

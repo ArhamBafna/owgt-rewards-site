@@ -2,7 +2,7 @@
 - Time of day / light
 
 ### Description
-A prompt for - time of day / light tasks.
+A ready-to-use prompt that instructs the AI to: golden hour / bright airy daylight / twilight / cozy evening glow
 
 ### Prompt
 ```text

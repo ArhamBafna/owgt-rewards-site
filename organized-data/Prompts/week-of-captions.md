@@ -2,7 +2,7 @@
 Week of Captions
 
 ### Description
-A prompt for week of captions tasks.
+A ready-to-use prompt that instructs the AI to: Write 5 social media captions for [platform] about [topic].
 
 ### Prompt
 ```text

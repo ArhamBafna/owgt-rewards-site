@@ -2,7 +2,7 @@
 **Execution Directive
 
 ### Description
-A prompt for **execution directive tasks.
+A ready-to-use prompt that instructs the AI to: ** "Do not build a website; build a digital instrument.
 
 ### Prompt
 ```text
