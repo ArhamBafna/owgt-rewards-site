@@ -1,44 +1,32 @@
 ### Name
-OTTER.AI
+Otter.Ai
 
 ### Description
-Real-time transcription, collaborative note-taking during meetings, and searchable archives across your meeting history. Why enterprises choose it: Otter leads the category for transcription accuracy in 2026 at approximately 95%. Its real-time collaboration feature allows multiple participants to take and edit notes simultaneously during the call. It is the most accessible price point in the category, making it the common starting point for teams new to meeting AI.
+Real-time transcription, collaborative note-taking during meetings, and searchable archives across meeting history.
 
 ### Content
 
-**What it does:** Real-time transcription, collaborative note-taking during
-meetings, and searchable archives across your meeting history.
-Why enterprises choose it: Otter leads the category for transcription
-accuracy in 2026 at approximately 95%. Its real-time collaboration feature
-allows multiple participants to take and edit notes simultaneously during the
-call. It is the most accessible price point in the category, making it the
-common starting point for teams new to meeting AI.
-Best for: Teams prioritising real-time collaboration and accuracy over deep
-CRM integration.
-OTTER
-CONVERSATION
-INSIGHTS 
-WHAT HAPPENS AFTER THE MEETING?
-GONG
-Sales Intelligence 
-FIREFLIES
-Cross-Functional
-Teams
-ACTION & DOCUMENTATION
-Revenue Intelligence
-Deal Risk Detection
-Sales Coaching
-Pipeline Forecasting
-Meeting Automation
-CRM Integration
-Workflow Routing
-6,000+ Integrations
-OTTER
-Collaborative Teams
-Meeting Documentation
-Real-Time Notes
-95% Accuracy
-Shared Collaboration
+**What it does:** Real-time
+transcription, collaborative
+note-taking during meetings,
+and searchable archives across
+meeting history.
+Workflow it replaces: Live
+note-taking during meetings.
+Otter transcribes in real time,
+allowing participants to be
+present rather than typing.
+Business outcome: Meeting
+participants focus on the
+conversation rather than
+documentation. Searchable
+archives replace manual
+meeting archives.
+Best for: Teams prioritising
+real-time collaboration and
+transcription accuracy.
+GONG 
+Gong
 
 ### Category
 Tools

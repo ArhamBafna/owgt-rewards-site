@@ -1,5 +1,5 @@
 ### Name
-form written output.
+Chatgpt (Enterprise)
 
 ### Description
 Conversational AI for drafting, analysing, summarising, and general writing across all business functions.

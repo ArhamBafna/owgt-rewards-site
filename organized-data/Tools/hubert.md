@@ -1,5 +1,5 @@
 ### Name
-simultaneously.
+Hubert
 
 ### Description
 AI-powered candidate screening through conversational interviews, candidates complete an AI-led interview before reaching a human recruiter.

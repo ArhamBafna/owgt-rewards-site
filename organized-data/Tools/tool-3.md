@@ -1,5 +1,5 @@
 ### Name
-HubSpot
+Tool 3
 
 ### Description
 AI-powered CRM with content generation, email personalisation, and workflow automation built across the entire HubSpot platform.
@@ -31,9 +31,7 @@ than data entry.
 Best for: SMB to mid-market
 teams running their entire go-
 to-market on HubSpot.
-
-
- | theaireport.ai. |18
+ | 18
 LAVENDER 
 MARKETO ENGAGE (ADOBE)
 Lavender 

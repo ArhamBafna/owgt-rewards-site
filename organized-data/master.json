@@ -213,18 +213,6 @@
   ],
   "prompts": [
     {
-      "name": "### Animation Lifecycle",
-      "path": "Prompts/animation-lifecycle-use-gsap-context-within-useeffect-for-al.md"
-    },
-    {
-      "name": "### D. PHILOSOPHY \u2014 \"The Manifesto\"",
-      "path": "Prompts/d-philosophy-the-manifesto-full-width-section-with-the-dark-.md"
-    },
-    {
-      "name": "### Micro-Interactions",
-      "path": "Prompts/micro-interactions-all-buttons-must-have-a-magnetic-feel.md"
-    },
-    {
       "name": "**Execution Directive",
       "path": "Prompts/execution-directive.md"
     },
@@ -747,56 +735,24 @@
   ],
   "tools": [
     {
-      "name": "across large document libraries.",
-      "path": "Tools/across-large-document-libraries.md"
-    },
-    {
-      "name": "Ada",
-      "path": "Tools/ada.md"
-    },
-    {
-      "name": "Adobe",
-      "path": "Tools/adobe.md"
-    },
-    {
-      "name": "and compliance functions.",
-      "path": "Tools/and-compliance-functions.md"
-    },
-    {
       "name": "AnimeJS",
       "path": "Tools/animejs.md"
-    },
-    {
-      "name": "Anthropic",
-      "path": "Tools/anthropic.md"
     },
     {
       "name": "Antigravity IDE & Suite",
       "path": "Tools/antigravity.md"
     },
     {
-      "name": "applicant volumes.",
-      "path": "Tools/applicant-volumes.md"
+      "name": "Apollo.Io",
+      "path": "Tools/apollo-io.md"
     },
     {
-      "name": "ATLASSIAN ROVO",
-      "path": "Tools/atlassian-rovo.md"
+      "name": "Chatgpt (Enterprise)",
+      "path": "Tools/chatgpt-enterprise.md"
     },
     {
-      "name": "candidate reached a human review.",
-      "path": "Tools/candidate-reached-a-human-review.md"
-    },
-    {
-      "name": "CHATGPT",
-      "path": "Tools/chatgpt.md"
-    },
-    {
-      "name": "CLAUDE",
+      "name": "Claude",
       "path": "Tools/claude.md"
-    },
-    {
-      "name": "CLAUDE API",
-      "path": "Tools/claude-api.md"
     },
     {
       "name": "Claude Code CLI",
@@ -807,80 +763,24 @@
       "path": "Tools/composio.md"
     },
     {
-      "name": "Consensus",
-      "path": "Tools/consensus.md"
-    },
-    {
       "name": "Copilot CLI",
       "path": "Tools/copilot-cli.md"
-    },
-    {
-      "name": "Copy.ai",
-      "path": "Tools/copy-ai.md"
-    },
-    {
-      "name": "CURSOR",
-      "path": "Tools/cursor.md"
     },
     {
       "name": "Cursor IDE",
       "path": "Tools/cursor-ide.md"
     },
     {
-      "name": "dedicated headcount to keep moving.",
-      "path": "Tools/dedicated-headcount-to-keep-moving.md"
-    },
-    {
-      "name": "Eightfold",
-      "path": "Tools/eightfold.md"
-    },
-    {
-      "name": "email.",
-      "path": "Tools/email.md"
-    },
-    {
       "name": "Firecrawl CLI & API",
       "path": "Tools/firecrawl-cli.md"
     },
     {
-      "name": "FIREFLIES.AI",
+      "name": "Fireflies.Ai",
       "path": "Tools/fireflies-ai.md"
     },
     {
-      "name": "form written output.",
-      "path": "Tools/form-written-output.md"
-    },
-    {
-      "name": "GAMMA",
-      "path": "Tools/gamma.md"
-    },
-    {
-      "name": "GITHUB COPILOT",
-      "path": "Tools/github-copilot.md"
-    },
-    {
-      "name": "GLEAN",
-      "path": "Tools/glean.md"
-    },
-    {
-      "name": "GLEAN RESEARCH",
-      "path": "Tools/glean-research.md"
-    },
-    {
-      "name": "global payment requirements.",
-      "path": "Tools/global-payment-requirements.md"
-    },
-    {
-      "name": "Gong",
-      "path": "Tools/gong.md"
-    },
-    {
-      "name": "GROK",
+      "name": "Grok",
       "path": "Tools/grok.md"
-    },
-    {
-      "name": "GUMLOOP",
-      "path": "Tools/gumloop.md"
     },
     {
       "name": "Hallmark",
@@ -899,8 +799,8 @@
       "path": "Tools/hoverdev.md"
     },
     {
-      "name": "HubSpot",
-      "path": "Tools/hubspot.md"
+      "name": "Hubert",
+      "path": "Tools/hubert.md"
     },
     {
       "name": "Hunyuan Video",
@@ -915,12 +815,8 @@
       "path": "Tools/impeccable.md"
     },
     {
-      "name": "JASPER",
-      "path": "Tools/jasper.md"
-    },
-    {
-      "name": "Jasper AI",
-      "path": "Tools/jasper-ai.md"
+      "name": "Intercom (Fin)",
+      "path": "Tools/intercom-fin.md"
     },
     {
       "name": "Kokonut UI",
@@ -935,84 +831,36 @@
       "path": "Tools/magicui.md"
     },
     {
-      "name": "MAKE",
-      "path": "Tools/make.md"
-    },
-    {
-      "name": "Make (formerly Integromat)",
-      "path": "Tools/make-formerly-integromat.md"
-    },
-    {
-      "name": "MICROSOFT 365 COPILOT",
-      "path": "Tools/microsoft-365-copilot.md"
-    },
-    {
-      "name": "MICROSOFT COPILOT IN POWERPOINT",
-      "path": "Tools/microsoft-copilot-in-powerpoint.md"
-    },
-    {
-      "name": "motion.",
-      "path": "Tools/motion.md"
-    },
-    {
       "name": "Motion.dev",
       "path": "Tools/motiondev.md"
-    },
-    {
-      "name": "NOTION AI",
-      "path": "Tools/notion-ai.md"
     },
     {
       "name": "Ollama",
       "path": "Tools/ollama.md"
     },
     {
-      "name": "OTTER.AI",
+      "name": "Otter.Ai",
       "path": "Tools/otter-ai.md"
-    },
-    {
-      "name": "overhead.",
-      "path": "Tools/overhead.md"
-    },
-    {
-      "name": "Paradox",
-      "path": "Tools/paradox.md"
     },
     {
       "name": "Parker",
       "path": "Tools/parker.md"
     },
     {
-      "name": "per briefing.",
-      "path": "Tools/per-briefing.md"
-    },
-    {
-      "name": "PERPLEXITY",
+      "name": "Perplexity",
       "path": "Tools/perplexity.md"
-    },
-    {
-      "name": "previous calls.",
-      "path": "Tools/previous-calls.md"
     },
     {
       "name": "Prism",
       "path": "Tools/prism.md"
     },
     {
-      "name": "processes.",
-      "path": "Tools/processes.md"
-    },
-    {
-      "name": "questions that consumed agent time without requiring human judgment.",
-      "path": "Tools/questions-that-consumed-agent-time-without-requiring-human-j.md"
-    },
-    {
       "name": "React Bits",
       "path": "Tools/react-bits.md"
     },
     {
-      "name": "requests.",
-      "path": "Tools/requests.md"
+      "name": "Reply.Io",
+      "path": "Tools/reply-io.md"
     },
     {
       "name": "Rive",
@@ -1023,36 +871,32 @@
       "path": "Tools/shadcn-ui.md"
     },
     {
-      "name": "Shared Collaboration",
-      "path": "Tools/shared-collaboration.md"
-    },
-    {
-      "name": "simultaneously.",
-      "path": "Tools/simultaneously.md"
-    },
-    {
       "name": "Stitch",
       "path": "Tools/stitch.md"
     },
     {
-      "name": "systems.",
-      "path": "Tools/systems.md"
+      "name": "Tipalti",
+      "path": "Tools/tipalti.md"
     },
     {
-      "name": "Tidio",
-      "path": "Tools/tidio.md"
+      "name": "Tool 3",
+      "path": "Tools/tool-3.md"
     },
     {
-      "name": "time per piece.",
-      "path": "Tools/time-per-piece.md"
+      "name": "Tool 4",
+      "path": "Tools/tool-4.md"
+    },
+    {
+      "name": "Tool 5",
+      "path": "Tools/tool-5.md"
     },
     {
       "name": "Trae IDE",
       "path": "Tools/trae-ide.md"
     },
     {
-      "name": "volume outbound prospecting.",
-      "path": "Tools/volume-outbound-prospecting.md"
+      "name": "Vic.Ai",
+      "path": "Tools/vic-ai.md"
     },
     {
       "name": "Windsurf (Codeium)",
@@ -1063,24 +907,16 @@
       "path": "Tools/wispr-flow.md"
     },
     {
-      "name": "with precision.",
-      "path": "Tools/with-precision.md"
-    },
-    {
-      "name": "without requiring senior judgment.",
-      "path": "Tools/without-requiring-senior-judgment.md"
-    },
-    {
-      "name": "Workato",
-      "path": "Tools/workato.md"
+      "name": "Workable",
+      "path": "Tools/workable.md"
     },
     {
       "name": "Z-Image AI",
       "path": "Tools/z-image-ai.md"
     },
     {
-      "name": "ZoomInfo",
-      "path": "Tools/zoominfo.md"
+      "name": "Zendesk Ai",
+      "path": "Tools/zendesk-ai.md"
     }
   ]
 }

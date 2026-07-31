@@ -1,22 +1,33 @@
 ### Name
-PERPLEXITY
+Perplexity
 
 ### Description
-AI-powered search that retrieves and synthesizes information from the web with citations for every claim. Why enterprises choose it: Perplexity does what generic AI models cannot: it searches the current web, retrieves live information, and cites its sources. For research tasks, competitive intelligence, regulatory monitoring, and market scanning, the citation requirement matters as much as the answer. It is the right tool when you need to know where the information came from.
+AI-powered search that retrieves and synthesises information from the web with citations for every claim.
 
 ### Content
 
-**What it does:** AI-powered search that retrieves and synthesizes information
-from the web with citations for every claim.
-Why enterprises choose it: Perplexity does what generic AI models cannot:
-it searches the current web, retrieves live information, and cites its sources.
-For research tasks, competitive intelligence, regulatory monitoring, and
-market scanning, the citation requirement matters as much as the answer. It
-is the right tool when you need to know where the information came from.
-Best for: Research, competitive intelligence, legal, and compliance functions
-where sourced, verifiable information is required.
-PERPLEXITY AI
-GROK
+**What it does:** AI-powered
+search that retrieves and
+synthesises information from
+the web with citations for
+every claim.
+Workflow it replaces: The
+manual research briefing.
+Instead of reading dozens of
+sources and writing a
+summary, you ask Perplexity
+a specific question and
+receive a sourced,
+synthesised answer in
+seconds.
+Business outcome: Research
+that previously took hours
+takes minutes. Every claim is
+cited and traceable. No
+fabricated sources.
+Best for: Research,
+competitive intelligence, legal,
+and compliance functions.
 
 ### Category
 Tools

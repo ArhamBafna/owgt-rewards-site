@@ -1,5 +1,5 @@
 ### Name
-requests.
+Zendesk Ai
 
 ### Description
 AI-powered ticket routing, response drafting, and resolution for customer support teams already using Zendesk.

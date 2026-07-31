@@ -1,5 +1,5 @@
 ### Name
-volume outbound prospecting.
+Apollo.Io
 
 ### Description
 Sales intelligence, lead identification, and outreach platform, finding contacts, verifying emails, and executing outbound sequences.

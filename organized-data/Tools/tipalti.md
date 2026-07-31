@@ -1,5 +1,5 @@
 ### Name
-dedicated headcount to keep moving.
+Tipalti
 
 ### Description
 AI-powered accounts payable automation, invoice processing, approval workflows, payment execution, and reconciliation.

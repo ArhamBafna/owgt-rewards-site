@@ -1,5 +1,5 @@
 ### Name
-global payment requirements.
+Vic.Ai
 
 ### Description
 AI accounting automation, autonomous invoice processing, coding, and approval with learning that improves accuracy over time.

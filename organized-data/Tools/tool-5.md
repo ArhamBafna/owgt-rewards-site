@@ -1,5 +1,5 @@
 ### Name
-email.
+Tool 5
 
 ### Description
 AI-powered marketing automation, lead nurturing, email campaigns, scoring, and multi-channel campaign management at enterprise scale.
@@ -45,9 +45,7 @@ spend more time on
 conversations and
 less time on
 administration.
-
-
- | theaireport.ai. |
+ | 
 WHAT THIS MEANS
 FOR YOUR TEAM?
     The pattern across all seven categories is the same.
@@ -66,8 +64,6 @@ Meetings
 Sales & Marketing
 Support
 Recruiting
-
-
 20
 The AI Leaders Launch Guide builds the implementation system
 that makes sure it keeps working across your whole organisation.

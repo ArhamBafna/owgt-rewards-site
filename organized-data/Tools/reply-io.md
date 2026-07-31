@@ -1,5 +1,5 @@
 ### Name
-without requiring senior judgment.
+Reply.Io
 
 ### Description
 AI-powered sales engagement platform, personalised outreach sequences, automated follow- ups, and meeting booking across email, LinkedIn, and phone.

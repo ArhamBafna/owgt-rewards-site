@@ -1,26 +1,32 @@
 ### Name
-CLAUDE
+Claude
 
 ### Description
-Long-form content generation, editing, document analysis, and nuanced written communication. Why enterprises choose it: Claude handles context across very long documents, the kind of length that matters in enterprise work. Legal contracts, board reports, strategic memos, policy documents. It also  matches voice and tone more accurately than most models, which matters when writing's going out under a leader's name.
+Long-form content generation, editing, and nuanced written communication that matches voice and tone.
 
 ### Content
 
-**What it does:** Long-form content generation, editing, document analysis, and
-nuanced written communication.
-Why enterprises choose it: Claude handles context across very long
-documents, the kind of length that matters in enterprise work. Legal
-contracts, board reports, strategic memos, policy documents. It also 
-matches voice and tone more accurately than most models, which matters
-when writing's going out under a leader's name.
-Best for: Communications teams, legal, executive offices, any function
-producing long-form written output.
-ANTHROPIC
-
-
-5
- for business leaders daily | 
-CHATGPT
+**What it does:** Long-form
+content generation, editing,
+and nuanced written
+communication that matches
+voice and tone.
+Workflow it replaces: First-
+draft creation and editing for
+long-form content, reports,
+executive communications,
+strategy memos, board
+updates.
+Business outcome: First
+drafts that previously took
+hours are produced in minutes.
+Writers and communicators
+shift from generating to editing
+and refining.
+Best for: Communications
+teams, legal, executive offices,
+any function producing long-
+form written output.
 
 ### Category
 Tools

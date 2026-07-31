@@ -1,5 +1,5 @@
 ### Name
-questions that consumed agent time without requiring human judgment.
+Intercom (Fin)
 
 ### Description
 AI customer support agent that handles customer enquiries across chat, email, and messaging with context from your help centre and previous conversations.
