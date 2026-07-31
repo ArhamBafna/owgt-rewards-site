@@ -83,6 +83,208 @@
       "path": "Learning/nanogpt.md"
     }
   ],
+  "prompts": [
+    {
+      "name": "All Cards",
+      "path": "Prompts/all-cards.md"
+    },
+    {
+      "name": "Animation",
+      "path": "Prompts/animation.md"
+    },
+    {
+      "name": "Business Audit",
+      "path": "Prompts/business-audit.md"
+    },
+    {
+      "name": "Card 1 Diagnostic Shuffler",
+      "path": "Prompts/card-1-diagnostic-shuffler.md"
+    },
+    {
+      "name": "Card 2 Telemetry Typewriter",
+      "path": "Prompts/card-2-telemetry-typewriter.md"
+    },
+    {
+      "name": "Card 3 Cursor Protocol Scheduler",
+      "path": "Prompts/card-3-cursor-protocol-scheduler.md"
+    },
+    {
+      "name": "Card Content",
+      "path": "Prompts/card-content.md"
+    },
+    {
+      "name": "Client Welcome",
+      "path": "Prompts/client-welcome.md"
+    },
+    {
+      "name": "Cold Dm",
+      "path": "Prompts/cold-dm.md"
+    },
+    {
+      "name": "Cold Email",
+      "path": "Prompts/cold-email.md"
+    },
+    {
+      "name": "Competitor Analysis",
+      "path": "Prompts/competitor-analysis.md"
+    },
+    {
+      "name": "Contains",
+      "path": "Prompts/contains.md"
+    },
+    {
+      "name": "Content Ideas",
+      "path": "Prompts/content-ideas.md"
+    },
+    {
+      "name": "Each Preset Defines",
+      "path": "Prompts/each-preset-defines.md"
+    },
+    {
+      "name": "Email Newsletter",
+      "path": "Prompts/email-newsletter.md"
+    },
+    {
+      "name": "Email Reply",
+      "path": "Prompts/email-reply.md"
+    },
+    {
+      "name": "Execution Directive",
+      "path": "Prompts/execution-directive.md"
+    },
+    {
+      "name": "File Structure",
+      "path": "Prompts/file-structure.md"
+    },
+    {
+      "name": "Follow Up",
+      "path": "Prompts/follow-up.md"
+    },
+    {
+      "name": "Follow Up Touch 1",
+      "path": "Prompts/follow-up-touch-1.md"
+    },
+    {
+      "name": "Fonts",
+      "path": "Prompts/fonts.md"
+    },
+    {
+      "name": "Hashtag Strategy",
+      "path": "Prompts/hashtag-strategy.md"
+    },
+    {
+      "name": "Hero Line Pattern",
+      "path": "Prompts/hero-line-pattern.md"
+    },
+    {
+      "name": "Hook Generator",
+      "path": "Prompts/hook-generator.md"
+    },
+    {
+      "name": "Idea Validation",
+      "path": "Prompts/idea-validation.md"
+    },
+    {
+      "name": "Identity",
+      "path": "Prompts/identity.md"
+    },
+    {
+      "name": "Images",
+      "path": "Prompts/images.md"
+    },
+    {
+      "name": "Job Description",
+      "path": "Prompts/job-description.md"
+    },
+    {
+      "name": "Meeting Request",
+      "path": "Prompts/meeting-request.md"
+    },
+    {
+      "name": "Meeting Summary",
+      "path": "Prompts/meeting-summary.md"
+    },
+    {
+      "name": "Middle Card Pops",
+      "path": "Prompts/middle-card-pops.md"
+    },
+    {
+      "name": "Morphing Logic",
+      "path": "Prompts/morphing-logic.md"
+    },
+    {
+      "name": "Most Industry Focuses On",
+      "path": "Prompts/most-industry-focuses-on.md"
+    },
+    {
+      "name": "Objection Response",
+      "path": "Prompts/objection-response.md"
+    },
+    {
+      "name": "Offer Clarity",
+      "path": "Prompts/offer-clarity.md"
+    },
+    {
+      "name": "Palette",
+      "path": "Prompts/palette.md"
+    },
+    {
+      "name": "Polite Decline",
+      "path": "Prompts/polite-decline.md"
+    },
+    {
+      "name": "Proposal",
+      "path": "Prompts/proposal.md"
+    },
+    {
+      "name": "Repurposing",
+      "path": "Prompts/repurposing.md"
+    },
+    {
+      "name": "Responsive",
+      "path": "Prompts/responsive.md"
+    },
+    {
+      "name": "Sop Creation",
+      "path": "Prompts/sop-creation.md"
+    },
+    {
+      "name": "Stack",
+      "path": "Prompts/stack.md"
+    },
+    {
+      "name": "Stacking Interaction",
+      "path": "Prompts/stacking-interaction.md"
+    },
+    {
+      "name": "Time Of Day Light",
+      "path": "Prompts/time-of-day-light.md"
+    },
+    {
+      "name": "Typography",
+      "path": "Prompts/typography.md"
+    },
+    {
+      "name": "Video Script (60S)",
+      "path": "Prompts/video-script-(60s).md"
+    },
+    {
+      "name": "Video Script 60S",
+      "path": "Prompts/video-script-60s.md"
+    },
+    {
+      "name": "We Focus On",
+      "path": "Prompts/we-focus-on.md"
+    },
+    {
+      "name": "Week Of Captions",
+      "path": "Prompts/week-of-captions.md"
+    },
+    {
+      "name": "Weekly Planning",
+      "path": "Prompts/weekly-planning.md"
+    }
+  ],
   "resources": [
     {
       "name": "21st.dev",

@@ -5,8 +5,11 @@
 - Created new categories: `Frameworks`, `Guides`, `Learning`, `Resources`. Created `README.md` for each.
 - Extracted 19 knowledge objects from `github.txt` into appropriate categories.
 - Processed `bookmarks.txt` (Batch 3): Evaluated ~90 bookmarks. Extracted 36 high-quality tools, guides, cheat sheets, and templates.
-- Created `Templates` and `Cheat Sheets` categories for bookmarks that naturally fit those structures.
 - Skipped personal links, dashboards, and ChatGPT sessions as per the rule to delete personal resources.
 - Skipped Google Drive PDFs from bookmarks because they are already present as raw files in the repo to be processed later.
-- Removed `notion.txt`, `github.txt`, and `bookmarks.txt` because extraction captured all meaningful knowledge.
+- Created `Templates` and `Cheat Sheets` categories for bookmarks that naturally fit those structures.
+- Processed `prompts.txt` (Batch 4): Evaluated 104 raw prompts. Extracted 60 high-quality standalone prompts using automated regex extraction.
+- Skipped 44 low-quality prompts that were either generic one-liners or too short to provide standalone value.
+- Categorized all prompts intelligently based on their original group headers.
+- Removed `notion.txt`, `github.txt`, `bookmarks.txt`, and `prompts.txt` because extraction captured all meaningful knowledge.
 - Automated `master.md` and `master.json` generation to ensure indices are always up to date with the folder structure.
