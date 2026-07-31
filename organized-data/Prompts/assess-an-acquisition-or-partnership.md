@@ -1,0 +1,22 @@
+### Name
+Assess an Acquisition or Partnership
+
+### Description
+Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+
+### Prompt
+```text
+I'm considering [acquisition/partnership] with [describe the
+opportunity]. Evaluate it across: strategic fit with our current
+direction, capabilities we gain, risks we absorb, integration
+complexity, and what it signals to the market. Give me the three
+questions I need to have answered in due diligence before I can
+make this decision.
+```
+
+### Category
+Prompts
+
+### Tags
+- Prompt
+- Workflow
