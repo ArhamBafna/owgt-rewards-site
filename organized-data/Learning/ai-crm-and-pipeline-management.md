@@ -2,7 +2,7 @@
 AI CRM AND PIPELINE MANAGEMENT
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al tools embedded in or connected to CRM systems to update records, surface deal risks, forecast pipeline, and automate follow-up tasks.
 
 ### Content
 

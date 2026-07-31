@@ -2,7 +2,7 @@
 Draft a Weekly Update to Your Team
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to draft a weekly update to your team.
 
 ### Prompt
 ```text

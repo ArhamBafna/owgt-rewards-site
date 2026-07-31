@@ -2,7 +2,7 @@
 Handle a Difficult Investor Conversation
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to handle a difficult investor conversation.
 
 ### Prompt
 ```text

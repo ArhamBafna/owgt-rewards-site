@@ -2,7 +2,7 @@
 Prepare for a Board Meeting
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to prepare for a board meeting.
 
 ### Prompt
 ```text

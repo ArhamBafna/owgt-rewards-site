@@ -2,7 +2,7 @@
 Diagnose Why Something Isn't Working
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to diagnose why something isn't working.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Prioritize Between Two Strategic Directions
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to prioritize between two strategic directions.
 
 ### Prompt
 ```text

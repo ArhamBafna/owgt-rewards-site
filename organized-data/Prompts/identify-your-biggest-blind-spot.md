@@ -2,7 +2,7 @@
 Identify Your Biggest Blind Spot
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to identify your biggest blind spot.
 
 ### Prompt
 ```text

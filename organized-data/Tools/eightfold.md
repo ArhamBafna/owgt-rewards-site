@@ -2,7 +2,7 @@
 Eightfold
 
 ### Description
-Extracted from V1_41 AI TOOLS REPLACING ENTIRE WORKFLOWS IN 2026 The Business Leader's Guide to Which AI Tools Cut the Most Time From Your Team's Workflows, and What the Work Looks Like After-text.txt
+AI talent intelligence platform that matches candidates to roles, identifies internal mobility opportunities, and predicts hiring outcomes.
 
 ### Content
 

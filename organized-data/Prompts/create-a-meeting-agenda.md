@@ -2,7 +2,7 @@
 Create a Meeting Agenda
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to create a meeting agenda.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Prioritize Between Competing Initiatives
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to prioritize between competing initiatives.
 
 ### Prompt
 ```text

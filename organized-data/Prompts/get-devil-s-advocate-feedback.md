@@ -2,7 +2,7 @@
 Get Devil's Advocate Feedback
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to get devil's advocate feedback.
 
 ### Prompt
 ```text

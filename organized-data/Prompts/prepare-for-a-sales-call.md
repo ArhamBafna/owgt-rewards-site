@@ -2,7 +2,7 @@
 Prepare for a Sales Call
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to prepare for a sales call.
 
 ### Prompt
 ```text

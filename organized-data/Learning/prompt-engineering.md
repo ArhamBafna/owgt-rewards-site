@@ -2,7 +2,7 @@
 PROMPT ENGINEERING
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Designing structured instructions that produce useful, specific Al outputs instead of just typing questions and hoping.
 
 ### Content
 

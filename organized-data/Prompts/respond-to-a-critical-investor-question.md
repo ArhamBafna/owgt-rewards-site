@@ -2,7 +2,7 @@
 Respond to a Critical Investor Question
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to respond to a critical investor question.
 
 ### Prompt
 ```text

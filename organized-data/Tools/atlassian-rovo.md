@@ -2,7 +2,7 @@
 ATLASSIAN ROVO
 
 ### Description
-Extracted from (V1)21 AI TOOLS MOST FORTUNE 500 TEAMS ARE TESTING IN 2026  ## What Large Organisations Are Deploying, Why, and Which Function Each One Serves-text.txt
+AI-powered knowledge management and search for organisations that run on Confluence and Jira, with agent capabilities for taking action on what it finds. Why enterprises choose it: For Atlassian-first organisations, Rovo provides deep native integration that generic enterprise search tools cannot match. It understands the structure of Jira tickets, Confluence pages, and the relationships between them.
 
 ### Content
 

@@ -2,7 +2,7 @@
 Build a SOP for a Repeatable Process
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build a sop for a repeatable process.
 
 ### Prompt
 ```text

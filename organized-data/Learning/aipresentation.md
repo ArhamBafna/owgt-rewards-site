@@ -2,7 +2,7 @@
 AIPRESENTATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to convert research, data, or rough thinking into production.
 
 ### Content
 

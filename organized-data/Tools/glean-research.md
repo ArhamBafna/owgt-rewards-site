@@ -2,7 +2,7 @@
 GLEAN RESEARCH
 
 ### Description
-Extracted from (V1)21 AI TOOLS MOST FORTUNE 500 TEAMS ARE TESTING IN 2026  ## What Large Organisations Are Deploying, Why, and Which Function Each One Serves-text.txt
+Internal knowledge search with AI synthesis, finding, retrieving, and summarising information across the organisation's own data. Why enterprises choose it: For large organisations where institutional knowledge is scattered across dozens of systems, Glean's research capability means the answer to a complex question can be drawn from internal documents, past decisions, and archived conversations, with citations and access controls intact.
 
 ### Content
 

@@ -2,7 +2,7 @@
 Build an Onboarding Checklist
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build an onboarding checklist.
 
 ### Prompt
 ```text

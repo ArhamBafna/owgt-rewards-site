@@ -2,7 +2,7 @@
 Build a Project Risk Assessment
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build a project risk assessment.
 
 ### Prompt
 ```text

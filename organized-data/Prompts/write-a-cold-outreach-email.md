@@ -2,7 +2,7 @@
 Write a Cold Outreach Email
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to write a cold outreach email.
 
 ### Prompt
 ```text

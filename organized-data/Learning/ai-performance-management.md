@@ -2,7 +2,7 @@
 AI PERFORMANCE MANAGEMENT
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to structure performance reviews, prepare development conversations, and build leadership development plans, with more consistency and less preparation time.
 
 ### Content
 

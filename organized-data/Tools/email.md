@@ -2,7 +2,7 @@
 email.
 
 ### Description
-Extracted from V1_41 AI TOOLS REPLACING ENTIRE WORKFLOWS IN 2026 The Business Leader's Guide to Which AI Tools Cut the Most Time From Your Team's Workflows, and What the Work Looks Like After-text.txt
+AI-powered marketing automation, lead nurturing, email campaigns, scoring, and multi-channel campaign management at enterprise scale.
 
 ### Content
 

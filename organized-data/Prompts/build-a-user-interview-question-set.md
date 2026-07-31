@@ -2,7 +2,7 @@
 Build a User Interview Question Set
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build a user interview question set.
 
 ### Prompt
 ```text

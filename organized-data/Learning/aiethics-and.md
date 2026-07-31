@@ -2,7 +2,7 @@
 AIETHICS AND
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Understanding where Al can be used appropriately, covering data privacy, bias, and regulatory compliance. This is a professional judgment skill, not a technical one. Beginner: Knows which data cannot enter external Al tools. Understands the basics of Al bias.
 
 ### Content
 

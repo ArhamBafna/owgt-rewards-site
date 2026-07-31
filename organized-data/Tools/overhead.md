@@ -2,7 +2,7 @@
 overhead.
 
 ### Description
-Extracted from V1_41 AI TOOLS REPLACING ENTIRE WORKFLOWS IN 2026 The Business Leader's Guide to Which AI Tools Cut the Most Time From Your Team's Workflows, and What the Work Looks Like After-text.txt
+AI content workflows for go-to-market teams, outbound sequences, sales copy, product marketing, and content at scale.
 
 ### Content
 

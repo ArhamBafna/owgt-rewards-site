@@ -2,7 +2,7 @@
 Decide Whether to Pivot or Stay the Course
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to decide whether to pivot or stay the course.
 
 ### Prompt
 ```text

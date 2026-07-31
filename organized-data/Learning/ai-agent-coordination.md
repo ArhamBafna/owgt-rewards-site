@@ -2,7 +2,7 @@
 AI AGENT COORDINATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Setting up and managing Al agents, autonomous tools that can perform tasks like web research, data collection, and content processing without continuous human input.
 
 ### Content
 

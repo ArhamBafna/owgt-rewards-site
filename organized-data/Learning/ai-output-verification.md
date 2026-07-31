@@ -2,7 +2,7 @@
 AI OUTPUT VERIFICATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Critically evaluating Al output for accuracy, fabricated citations, and factual errors before acting on it.
 
 ### Content
 

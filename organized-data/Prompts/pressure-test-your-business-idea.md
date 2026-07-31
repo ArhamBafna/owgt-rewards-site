@@ -2,7 +2,7 @@
 Pressure-Test Your Business Idea
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to pressure-test your business idea.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Analyze Customer Feedback for Growth Signals
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to analyze customer feedback for growth signals.
 
 ### Prompt
 ```text

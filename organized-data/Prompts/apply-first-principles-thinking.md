@@ -2,7 +2,7 @@
 Apply First Principles Thinking
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to apply first principles thinking.
 
 ### Prompt
 ```text

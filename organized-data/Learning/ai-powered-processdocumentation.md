@@ -2,7 +2,7 @@
 AI-POWERED PROCESSDOCUMENTATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to document and improve business processes faster and more consistently.
 
 ### Content
 

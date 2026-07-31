@@ -2,7 +2,7 @@
 Craft an Ask for a Warm Introduction
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to craft an ask for a warm introduction.
 
 ### Prompt
 ```text

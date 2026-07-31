@@ -2,7 +2,7 @@
 Define Your Unique Positioning
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to define your unique positioning.
 
 ### Prompt
 ```text

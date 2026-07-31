@@ -2,7 +2,7 @@
 AI-ASSISTED CONTENT CREATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to produce first drafts, outlines, and content variations, and then editing and improving them using human judgment.
 
 ### Content
 

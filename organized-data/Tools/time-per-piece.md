@@ -2,7 +2,7 @@
 time per piece.
 
 ### Description
-Extracted from V1_41 AI TOOLS REPLACING ENTIRE WORKFLOWS IN 2026 The Business Leader's Guide to Which AI Tools Cut the Most Time From Your Team's Workflows, and What the Work Looks Like After-text.txt
+Long-form content generation, editing, and nuanced written communication that matches voice and tone.
 
 ### Content
 

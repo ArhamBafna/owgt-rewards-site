@@ -2,7 +2,7 @@
 Refine Your Value Proposition
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to refine your value proposition.
 
 ### Prompt
 ```text

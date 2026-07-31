@@ -2,7 +2,7 @@
 NO-CODE AI WORKFLOW BUILDING
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using tools like Zapier, Make, or Gumloop to connect applications and automate repetitive tasks without writing code.
 
 ### Content
 

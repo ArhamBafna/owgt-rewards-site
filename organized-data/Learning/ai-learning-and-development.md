@@ -2,7 +2,7 @@
 AI LEARNING AND DEVELOPMENT
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to design, personalise, and deliver training content, L&D methods.
 
 ### Content
 

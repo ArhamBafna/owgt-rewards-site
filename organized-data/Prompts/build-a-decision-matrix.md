@@ -2,7 +2,7 @@
 Build a Decision Matrix
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to build a decision matrix.
 
 ### Prompt
 ```text

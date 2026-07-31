@@ -2,7 +2,7 @@
 Make the Decision You've Been Avoiding
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to make the decision you've been avoiding.
 
 ### Prompt
 ```text

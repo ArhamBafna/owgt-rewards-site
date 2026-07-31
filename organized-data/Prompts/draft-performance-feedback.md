@@ -2,7 +2,7 @@
 Draft Performance Feedback
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to draft performance feedback.
 
 ### Prompt
 ```text

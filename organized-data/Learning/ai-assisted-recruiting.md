@@ -2,7 +2,7 @@
 AI-ASSISTED RECRUITING
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al tools to screen applications, draft job descriptions, without compromising the quality of the hire.
 
 ### Content
 

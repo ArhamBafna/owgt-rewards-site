@@ -2,7 +2,7 @@
 Design a Weekly Review Framework
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to design a weekly review framework.
 
 ### Prompt
 ```text

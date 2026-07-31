@@ -2,7 +2,7 @@
 Draft an Executive Summary
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to draft an executive summary.
 
 ### Prompt
 ```text

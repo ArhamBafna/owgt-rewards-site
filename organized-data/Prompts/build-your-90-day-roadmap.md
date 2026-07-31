@@ -2,7 +2,7 @@
 Build Your 90-Day Roadmap
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build your 90-day roadmap.
 
 ### Prompt
 ```text

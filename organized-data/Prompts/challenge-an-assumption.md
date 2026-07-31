@@ -2,7 +2,7 @@
 Challenge an Assumption
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to challenge an assumption.
 
 ### Prompt
 ```text

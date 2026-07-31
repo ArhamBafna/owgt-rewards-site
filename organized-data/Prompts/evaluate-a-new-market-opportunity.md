@@ -2,7 +2,7 @@
 Evaluate a New Market Opportunity
 
 ### Description
-Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+A powerful prompt to evaluate a new market opportunity.
 
 ### Prompt
 ```text

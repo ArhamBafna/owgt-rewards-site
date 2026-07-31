@@ -2,7 +2,7 @@
 Write a Customer Re-Engagement Email
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to write a customer re-engagement email.
 
 ### Prompt
 ```text

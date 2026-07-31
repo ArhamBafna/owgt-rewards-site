@@ -2,7 +2,7 @@
 Write a Compensation Explanation
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to write a compensation explanation.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Culture Assessment
 
 ### Description
-Extracted from (V1) 37 CLAUDE PROMPTS THAT SAVE MANAGERS 10+ HOURS PER WEEK Organised by the 8 Situations Every Manager Faces-text.txt
+A powerful prompt to culture assessment.
 
 ### Prompt
 ```text

@@ -2,7 +2,7 @@
 Build Interview Questions
 
 ### Description
-Extracted from V1 - 50 Claude Prompts Every Founder Should Bookmark-text.txt
+A powerful prompt to build interview questions.
 
 ### Prompt
 ```text

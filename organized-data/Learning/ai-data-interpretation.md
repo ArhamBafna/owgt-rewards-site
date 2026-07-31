@@ -2,7 +2,7 @@
 AI DATA INTERPRETATION
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to make sense of data sets, reports, and survey results, identifying key patterns, outliers, and actionable implications without requiring data science expertise.
 
 ### Content
 

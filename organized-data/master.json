@@ -97,7 +97,7 @@
       "path": "Guides/obsidian-is-my-ais-second-brain.md"
     },
     {
-      "name": "Prompt Engineering",
+      "name": "Prompt Engineering Guide",
       "path": "Guides/prompt-engineering.md"
     },
     {
@@ -213,64 +213,16 @@
   ],
   "prompts": [
     {
-      "name": "### A. NAVBAR \u2014 \"The Floating Island\"",
-      "path": "Prompts/a-navbar-the-floating-island-a-fixed-pill-shaped-container-h.md"
-    },
-    {
       "name": "### Animation Lifecycle",
       "path": "Prompts/animation-lifecycle-use-gsap-context-within-useeffect-for-al.md"
-    },
-    {
-      "name": "### B. HERO SECTION \u2014 \"The Opening Shot\"",
-      "path": "Prompts/b-hero-section-the-opening-shot-100dvh-height-full-bleed-bac.md"
     },
     {
       "name": "### D. PHILOSOPHY \u2014 \"The Manifesto\"",
       "path": "Prompts/d-philosophy-the-manifesto-full-width-section-with-the-dark-.md"
     },
     {
-      "name": "### E. PROTOCOL \u2014 \"Sticky Stacking Archive\"",
-      "path": "Prompts/e-protocol-sticky-stacking-archive-3-full-screen-cards-that-.md"
-    },
-    {
-      "name": "### F. MEMBERSHIP / PRICING",
-      "path": "Prompts/f-membership-pricing-three-tier-pricing-grid-card-names.md"
-    },
-    {
-      "name": "### G. FOOTER",
-      "path": "Prompts/g-footer-deep-dark-colored-background-rounded-t-4rem-grid-la.md"
-    },
-    {
       "name": "### Micro-Interactions",
       "path": "Prompts/micro-interactions-all-buttons-must-have-a-magnetic-feel.md"
-    },
-    {
-      "name": "### Preset A \u2014 \"Organic Tech\" (Clinical Boutique)",
-      "path": "Prompts/preset-a-organic-tech-clinical-boutique-identity.md"
-    },
-    {
-      "name": "### Preset B \u2014 \"Midnight Luxe\" (Dark Editorial)",
-      "path": "Prompts/preset-b-midnight-luxe-dark-editorial-identity.md"
-    },
-    {
-      "name": "### Preset C \u2014 \"Brutalist Signal\" (Raw Precision)",
-      "path": "Prompts/preset-c-brutalist-signal-raw-precision-identity.md"
-    },
-    {
-      "name": "### Preset D \u2014 \"Vapor Clinic\" (Neon Biotech)",
-      "path": "Prompts/preset-d-vapor-clinic-neon-biotech-identity.md"
-    },
-    {
-      "name": "**Card 1 \u2014 \"Diagnostic Shuffler\"",
-      "path": "Prompts/card-1-diagnostic-shuffler.md"
-    },
-    {
-      "name": "**Card 2 \u2014 \"Telemetry Typewriter\"",
-      "path": "Prompts/card-2-telemetry-typewriter.md"
-    },
-    {
-      "name": "**Card 3 \u2014 \"Cursor Protocol Scheduler\"",
-      "path": "Prompts/card-3-cursor-protocol-scheduler.md"
     },
     {
       "name": "**Execution Directive",
@@ -287,10 +239,6 @@
     {
       "name": "1. **\"What's the brand name and one-line purpose?\"** \u2014 Free text. Example",
       "path": "Prompts/1-what-s-the-brand-name-and-one-line-purpose-free-text-examp.md"
-    },
-    {
-      "name": "1. Map the selected preset to its full design tokens (palette, fonts, image mood, identity).",
-      "path": "Prompts/1-map-the-selected-preset-to-its-full-design-tokens-palette-.md"
     },
     {
       "name": "Act as a World-Class Senior Creative Technologist and Lead Frontend Engineer. You build high-fidelity, cinematic \"1",
@@ -471,10 +419,6 @@
     {
       "name": "Draft Performance Feedback",
       "path": "Prompts/draft-performance-feedback.md"
-    },
-    {
-      "name": "Each preset defines",
-      "path": "Prompts/each-preset-defines.md"
     },
     {
       "name": "Email Newsletter",

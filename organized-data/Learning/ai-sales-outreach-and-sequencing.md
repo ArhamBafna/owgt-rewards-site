@@ -2,7 +2,7 @@
 AI SALES OUTREACH AND SEQUENCING
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+Using Al to personalise outreach at scale, researching prospects, drafting personalised emails and messages, and building sequenced follow-up workflows.
 
 ### Content
 

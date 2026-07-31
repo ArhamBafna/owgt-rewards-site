@@ -2,7 +2,7 @@
 AI LITERACY
 
 ### Description
-Extracted from 19 AI SKILLS COMPANIES ARE HIRING FOR RIGHT NOW
+The ability to understand what Al tools can and cannot do, use them as part of a daily workflow, and explain their outputs to colleagues and stakeholders.
 
 ### Content
 
