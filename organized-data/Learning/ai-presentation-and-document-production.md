@@ -1,5 +1,5 @@
 ### Name
-AIPRESENTATION
+AI Presentation and Document Production
 
 ### Description
 Using Al to convert research, data, or rough thinking into production.

@@ -2,18 +2,17 @@
 Define Your Unique Positioning
 
 ### Description
-My company does [describe].
+Draft three genuinely differentiated positioning statements and the market assumptions behind them.
 
-### Prompt
-```text
-My company does [describe]. Main competitors: [list]. Draft three
+### Content
+"My company does [describe]. Main competitors: [list]. Draft three
 genuinely differentiated positioning statements and the market
-assumption behind each.
-```
+assumption behind each."
 
 ### Category
 Prompts
 
 ### Tags
-- Prompt
-- Workflow
+- Vision and Strategy
+- Positioning
+- Marketing

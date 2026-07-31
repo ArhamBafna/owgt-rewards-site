@@ -4,13 +4,13 @@ Z-Image AI
 ### Description
 Free, Fast, Photorealistic AI Image Generator.
 
-### URL
-https://z-image.app/
+### Content
+Link: https://z-image.app/
 
 ### Category
 Tools
 
 ### Tags
-- AI
-- Images
-- Generation
+- Image Generation
+- Photorealistic
+- Free

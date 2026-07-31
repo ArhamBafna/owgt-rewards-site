@@ -1,44 +1,43 @@
-# Rewards Website Plan (Refined)
+# Goal Description
 
-> [!NOTE]
-> All work, scripts, database, and website files will be located inside the `rewards/` directory.
+The objective is to manually correct the massive data extraction flaws and inconsistencies found in `organized-data`, strictly **without using Python scripts**. This includes fixing file naming conventions, recovering skipped bookmarks, extracting missing tools and prompts from PDFs, and fixing mangled AI skill files.
 
-## Goal
-Build a plain HTML/CSS/JS website full of AI tools, prompts, guides, and links that looks premium and high-quality. Give this website as a "reward" to people who sign up for your newsletter. More rewards = more signups. 
+## User Review Required
 
-## Where Me Get Data (Raw Material)
-1. **Local Files & Local Code**: PDFs and text files in `rewards/` folder, local downloads folder, and system prompts/config files from local projects.
-2. **Personal Accounts (Notion, YouTube, Browser, GitHub)**: Use Composio MCP to connect. 
-   - **YouTube**: Saved AI videos from "AI/Tech" playlist + transcripts.
-   - **Notion**: Page "system AI stack" (IDEs, CLIs, tools) + saved bookmarks.
-   - **Browser Bookmarks**: Exported Chrome/Brave/Arc bookmark HTML files.
-   - **GitHub Stars**: Starred repos related to AI tools, LLM frameworks, and awesome lists.
-   - **AI Chat Histories / System Prompts**: Exported custom instructions or past prompts from ChatGPT/Claude/Cursor.
-3. **Public Web & AI Aggregators**: Use Exa and Firecrawl to find tools on Futurepedia, Product Hunt, GitHub, and Hugging Face.
-4. **Other Newsletters/Skool Communities**: Me search web for newsletters/Skool communities offering free resources. Me list them and ask you to sign up. Once you get resource, you give to me and me add to database.
-5. **Autonomous AI Discovery Source**: Me pick one other separate source on my own and search there, or ask you if I cannot do it and source required human to find material.
+> [!WARNING]
+> This is a massive data entry and extraction task. Since Python scripts are forbidden, I will be manually extracting over 100 knowledge objects (tools, prompts, guides) by reading the raw files and using file-writing tools to create each Markdown file individually. This will take time and may require multiple sequential operations. Please confirm this is exactly how you want me to proceed.
 
-## How Me Build Website (The Process & Suggested Models)
+## Open Questions
 
-### Step 1: Data Hoarding & Resource Discovery (COMPLETED)
-- **Local Files**: Converted 6 raw PDFs in `rewards/raw-pdfs` and moved them to `rewards/data/pdfs-to-text`.
-- **YouTube Transcripts**: Fetched 21 items from "AI/Tech" playlist via Composio YouTube integration. Extracted full transcripts via `youtube-transcript-api` and saved individual `.txt` files in `rewards/data/youtube/`.
-- **Notion AI Stack**: Extracted "System AI Stack" markdown page via Composio Notion integration and saved to `rewards/data/notion/`. (Note: Skipped sub-pages to maintain focus on the top-level list).
-- **GitHub Repositories**: Searched web and curated top AI agent frameworks (CrewAI, AutoGen, LangChain, OpenManus, OpenClaw), production starter kits (awesome-llm-apps, llm-zoomcamp, composio), UI libraries (shadcn/ui), and awesome lists into `rewards/data/github.txt`.
-- **Bookmarks**: Moved `bookmarks_7_31_26.html` to `rewards/data/bookmarks.html` and parsed 139 developer bookmarks (excluding personal projects) into `rewards/data/bookmarks/bookmarks_summary.txt`.
-- **Newsletter & Skool Discovery**: Discovered top AI communities/newsletters (AI Launchpad, AI Builders Club, The AI Edge, AI Essentials, Ainsider) via Exa web search. Saved details to `rewards/data/communities/`. (Note: Skipped deep scraping because these require manual human signup/login).
-- **Database Output**: Replaced single JSON file with a deep, human-readable subfolder structure in `rewards/data/`.
+> [!IMPORTANT]
+> 1. Do you want me to extract **all** 50+ missing tools from the PDFs, or just the most valuable ones? 
+> 2. For the 40+ skipped bookmarks, should I process every single valid tool (e.g. Willow, DictaFlow) and create a full Markdown page for each?
+> 3. Are PowerShell commands acceptable for simple file renaming (e.g., removing the `-md.md` suffix from the Skool guides), or do you want me to do that completely manually via IDE tools?
 
+## Proposed Changes
 
-### Step 2: The UI Bake-Off (3 Landing Pages) (COMPLETED)
-- You have 3 UI design skills.
-- **STOP POINT**: Me ask you which 3 skills to use. Me NO PROCEED BEFORE ASKING.
-- Once you tell me the 3 skills, me build **3 different landing pages** inside `rewards/skill-test-landing-page/` (using plain HTML/CSS/JS).
-- You look. You pick the best one.
-- **Suggested Model**: **Claude 3.5 Sonnet** or **Gemini 3.1 Pro** (best for high-aesthetic UI/UX and web layout design).
+### Skool Guides
+- Fix the redundant `-md.md` suffix on all 8 files in `organized-data/Guides`.
 
-### Step 3: Build Full Website & Deploy
-- Using the winning UI skill, me build the whole website inside `rewards/site/` (Plain HTML/CSS/JS with modern dynamic design).
-- Add categories, search bar, tags, filter by source, and dynamic rendering of `rewards_db.json`.
-- Me deploy it to Vercel so it is live on the internet.
-- **Suggested Model**: **Claude 3.5 Sonnet** (for clean, bug-free frontend code) and **Gemini 3.6 Flash** (for rapid execution/deployment).
+### AI Skills
+- Rename `aiethics-and.md` to `ai-ethics-and-governance.md`
+- Rename `aipresentation.md` to `ai-presentation.md`
+- Rename `aivideo-and-visual-content.md` to `ai-video-and-visual-content.md`
+- Rename `ai-powered-processdocumentation.md` to `ai-powered-process-documentation.md`
+- Extract the 2 missing AI skills from the "19 AI Skills" PDF (`ai-tool-evaluation-and-selection.md`, etc.).
+
+### Missing Bookmarks
+- Create new Tool/Guide files for missing items: Willow, DictaFlow, OpenWhispr, Bytez, Z-Image AI, Uncensored AI, Hunyuan Video, Radiant Shaders, AnimeJS, Uiverse, Hover.dev, React Bits, Bklit UI, TrustMRR, Starter Story, Namecheap/GitHub Education offers, etc.
+
+### Missing PDF Tools & Prompts
+- Read "41 AI Tools", "21 AI Tools", and "Tool Stack" PDFs. Create the missing ~50 tool files manually.
+- Read the Claude Prompts PDFs. Create the missing ~21 prompt files manually.
+
+## Verification Plan
+
+### Automated Tests
+- Run `hard_test.py` (already existing) to ensure no structural headers or lazy descriptions were introduced during the manual creation process.
+
+### Manual Verification
+- Verify that `master.md` and `master.json` are regenerated after all files are created to ensure the new objects are indexed.
+- Verify total counts in `Tools`, `Prompts`, and `Learning` directories meet the expected numbers from the raw data.

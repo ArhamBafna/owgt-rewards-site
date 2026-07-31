@@ -1,5 +1,5 @@
 ### Name
-AIVIDEO AND VISUAL CONTENT
+AI Video and Visual Content
 
 ### Description
 Using Al tools to generate, edit, or enhance visual and video content, reducing production time without reducing output quality.

@@ -1,5 +1,5 @@
 ### Name
-AIETHICS AND
+AI Ethics and Governance Awareness
 
 ### Description
 Understanding where Al can be used appropriately, covering data privacy, bias, and regulatory compliance. This is a professional judgment skill, not a technical one. Beginner: Knows which data cannot enter external Al tools. Understands the basics of Al bias.

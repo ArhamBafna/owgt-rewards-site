@@ -1,5 +1,5 @@
 ### Name
-AI-POWERED PROCESSDOCUMENTATION
+AI-Powered Process Documentation
 
 ### Description
 Using Al to document and improve business processes faster and more consistently.

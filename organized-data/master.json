@@ -38,15 +38,15 @@
     },
     {
       "name": "Avoid Chat Limits",
-      "path": "Guides/avoid-chat-limits-md.md"
+      "path": "Guides/avoid-chat-limits.md"
     },
     {
       "name": "Build $10,000 Websites with AI Opus 5",
-      "path": "Guides/build-10-000-websites-with-ai-md.md"
+      "path": "Guides/build-10-000-websites-with-ai.md"
     },
     {
       "name": "Build 3 AI Agents in Base44 \u2014 Complete Prompt Pack",
-      "path": "Guides/build-3-ai-agents-in-base44-md.md"
+      "path": "Guides/build-3-ai-agents-in-base44.md"
     },
     {
       "name": "Build a Self-Updating LLM Knowledge Base",
@@ -54,11 +54,11 @@
     },
     {
       "name": "Build an Award-Worthy F1 Landing Page",
-      "path": "Guides/build-an-award-worthy-f1-landing-page-md.md"
+      "path": "Guides/build-an-award-worthy-f1-landing-page.md"
     },
     {
       "name": "Build Insane Animated Websites \u2014 Full Setup Guide",
-      "path": "Guides/build-insane-animated-websites-md.md"
+      "path": "Guides/build-insane-animated-websites.md"
     },
     {
       "name": "How to Build a $10k/Month App in 2026",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Motion Graphics with AI \u2014 Full Setup & Workflow Guide",
-      "path": "Guides/motion-graphics-in-ai-md.md"
+      "path": "Guides/motion-graphics-in-ai.md"
     },
     {
       "name": "Obsidian Is My AI's Second Brain",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Raw Footage to Finished Video \u2014 AI Setup & Workflow Guide",
-      "path": "Guides/raw-footage-to-finished-video-in-ai-md.md"
+      "path": "Guides/raw-footage-to-finished-video-in-ai.md"
     },
     {
       "name": "The $1M Solopreneur MVP",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Top AI Courses for Beginners",
-      "path": "Guides/top-ai-courses-for-beginners-md.md"
+      "path": "Guides/top-ai-courses-for-beginners.md"
     },
     {
       "name": "Which Model Should I Use? (Field Guide)",
@@ -139,6 +139,10 @@
       "path": "Learning/ai-data-interpretation.md"
     },
     {
+      "name": "AI Ethics and Governance Awareness",
+      "path": "Learning/ai-ethics-and-governance-awareness.md"
+    },
+    {
       "name": "AI for Beginners (Microsoft)",
       "path": "Learning/ai-for-beginners.md"
     },
@@ -159,8 +163,20 @@
       "path": "Learning/ai-performance-management.md"
     },
     {
+      "name": "AI Presentation and Document Production",
+      "path": "Learning/ai-presentation-and-document-production.md"
+    },
+    {
       "name": "AI SALES OUTREACH AND SEQUENCING",
       "path": "Learning/ai-sales-outreach-and-sequencing.md"
+    },
+    {
+      "name": "AI Tool Evaluation and Selection",
+      "path": "Learning/ai-tool-evaluation-and-selection.md"
+    },
+    {
+      "name": "AI Video and Visual Content",
+      "path": "Learning/ai-video-and-visual-content.md"
     },
     {
       "name": "AI-ASSISTED CONTENT CREATION",
@@ -171,20 +187,12 @@
       "path": "Learning/ai-assisted-recruiting.md"
     },
     {
-      "name": "AI-POWERED PROCESSDOCUMENTATION",
-      "path": "Learning/ai-powered-processdocumentation.md"
+      "name": "AI-Powered Market Research",
+      "path": "Learning/ai-powered-market-research.md"
     },
     {
-      "name": "AIETHICS AND",
-      "path": "Learning/aiethics-and.md"
-    },
-    {
-      "name": "AIPRESENTATION",
-      "path": "Learning/aipresentation.md"
-    },
-    {
-      "name": "AIVIDEO AND VISUAL CONTENT",
-      "path": "Learning/aivideo-and-visual-content.md"
+      "name": "AI-Powered Process Documentation",
+      "path": "Learning/ai-powered-process-documentation.md"
     },
     {
       "name": "Developer Roadmaps (AI & Engineering)",
@@ -461,7 +469,7 @@
       "path": "Prompts/evaluate-a-new-market-opportunity.md"
     },
     {
-      "name": "Evaluate A New Opportunity",
+      "name": "Evaluate a New Opportunity",
       "path": "Prompts/evaluate-a-new-opportunity.md"
     },
     {
@@ -831,6 +839,10 @@
       "path": "Resources/ai-tool-index.md"
     },
     {
+      "name": "AnimeJS",
+      "path": "Resources/animejs.md"
+    },
+    {
       "name": "App Ideas",
       "path": "Resources/app-ideas.md"
     },
@@ -851,8 +863,16 @@
       "path": "Resources/awesome-mcp-servers.md"
     },
     {
+      "name": "Bklit UI",
+      "path": "Resources/bklit-ui.md"
+    },
+    {
       "name": "Claude Quickstarts & Prompt Cookbook (Anthropic)",
       "path": "Resources/claude-quickstarts.md"
+    },
+    {
+      "name": "Hover.dev",
+      "path": "Resources/hover-dev.md"
     },
     {
       "name": "Landbook",
@@ -867,12 +887,28 @@
       "path": "Resources/official-mcp-servers.md"
     },
     {
+      "name": "Radiant Shaders",
+      "path": "Resources/radiant-shaders.md"
+    },
+    {
+      "name": "React Bits",
+      "path": "Resources/react-bits.md"
+    },
+    {
       "name": "Real AI System Prompts Collection",
       "path": "Resources/system-prompts.md"
     },
     {
+      "name": "Starter Story",
+      "path": "Resources/starter-story.md"
+    },
+    {
       "name": "Starter Story Data",
       "path": "Resources/starter-story-data.md"
+    },
+    {
+      "name": "TrustMRR",
+      "path": "Resources/trustmrr.md"
     },
     {
       "name": "Uiverse",
@@ -891,6 +927,10 @@
   ],
   "tools": [
     {
+      "name": "Ada",
+      "path": "Tools/ada.md"
+    },
+    {
       "name": "AnimeJS",
       "path": "Tools/animejs.md"
     },
@@ -901,6 +941,14 @@
     {
       "name": "Apollo.Io",
       "path": "Tools/apollo-io.md"
+    },
+    {
+      "name": "Bytez",
+      "path": "Tools/bytez.md"
+    },
+    {
+      "name": "Chat Jimmy",
+      "path": "Tools/chat-jimmy.md"
     },
     {
       "name": "Chatgpt (Enterprise)",
@@ -919,12 +967,32 @@
       "path": "Tools/composio.md"
     },
     {
+      "name": "Consensus",
+      "path": "Tools/consensus.md"
+    },
+    {
       "name": "Copilot CLI",
       "path": "Tools/copilot-cli.md"
     },
     {
+      "name": "Copy.ai",
+      "path": "Tools/copy-ai.md"
+    },
+    {
       "name": "Cursor IDE",
       "path": "Tools/cursor-ide.md"
+    },
+    {
+      "name": "DictaFlow",
+      "path": "Tools/dictaflow.md"
+    },
+    {
+      "name": "Drift",
+      "path": "Tools/drift.md"
+    },
+    {
+      "name": "Eightfold",
+      "path": "Tools/eightfold.md"
     },
     {
       "name": "Firecrawl CLI & API",
@@ -933,6 +1001,10 @@
     {
       "name": "Fireflies.Ai",
       "path": "Tools/fireflies-ai.md"
+    },
+    {
+      "name": "Gamma",
+      "path": "Tools/gamma.md"
     },
     {
       "name": "Grok",
@@ -949,6 +1021,10 @@
     {
       "name": "Hexta UI",
       "path": "Tools/hexta-ui.md"
+    },
+    {
+      "name": "HireVue",
+      "path": "Tools/hirevue.md"
     },
     {
       "name": "Hover.dev",
@@ -979,6 +1055,10 @@
       "path": "Tools/intercom-fin.md"
     },
     {
+      "name": "Jasper",
+      "path": "Tools/jasper.md"
+    },
+    {
       "name": "Kokonut UI",
       "path": "Tools/kokonut-ui.md"
     },
@@ -995,6 +1075,10 @@
       "path": "Tools/magicui.md"
     },
     {
+      "name": "Make",
+      "path": "Tools/make.md"
+    },
+    {
       "name": "Marketo Engage",
       "path": "Tools/marketo-engage.md"
     },
@@ -1003,12 +1087,24 @@
       "path": "Tools/motiondev.md"
     },
     {
+      "name": "NotebookLM",
+      "path": "Tools/notebooklm.md"
+    },
+    {
       "name": "Ollama",
       "path": "Tools/ollama.md"
     },
     {
+      "name": "OpenWhispr",
+      "path": "Tools/openwhispr.md"
+    },
+    {
       "name": "Otter.Ai",
       "path": "Tools/otter-ai.md"
+    },
+    {
+      "name": "Paradox (Olivia)",
+      "path": "Tools/paradox-olivia.md"
     },
     {
       "name": "Parker",
@@ -1043,6 +1139,10 @@
       "path": "Tools/stitch.md"
     },
     {
+      "name": "Tidio",
+      "path": "Tools/tidio.md"
+    },
+    {
       "name": "Tipalti",
       "path": "Tools/tipalti.md"
     },
@@ -1051,8 +1151,16 @@
       "path": "Tools/trae-ide.md"
     },
     {
+      "name": "Uncensored AI",
+      "path": "Tools/uncensored-ai.md"
+    },
+    {
       "name": "Vic.Ai",
       "path": "Tools/vic-ai.md"
+    },
+    {
+      "name": "Willow Voice",
+      "path": "Tools/willow.md"
     },
     {
       "name": "Windsurf (Codeium)",
@@ -1067,8 +1175,16 @@
       "path": "Tools/workable.md"
     },
     {
+      "name": "Workato",
+      "path": "Tools/workato.md"
+    },
+    {
       "name": "Z-Image AI",
       "path": "Tools/z-image-ai.md"
+    },
+    {
+      "name": "Zapier",
+      "path": "Tools/zapier.md"
     },
     {
       "name": "Zendesk Ai",
