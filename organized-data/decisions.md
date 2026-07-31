@@ -40,3 +40,9 @@
   - Dynamically extracted genuine summary descriptions for all Prompts directly from their text, removing the lazy 'A prompt for X tasks' placeholders.
   - Identified and purged 3 hidden garbage website-architecture files masquerading as prompts.
   - The repository now passes with absolutely zero formatting or metadata errors.
+
+- The Ultimate Validation & Bug Fix (Batch 9):
+  - The final 'A-to-Z' check revealed a critical flaw: the original Claude Prompts extraction script failed silently on multi-line lists, completely skipping over 90 high-quality prompts from the '75 Claude Prompts' and '37 Claude Prompts' PDFs.
+  - Wrote a flawless custom heuristic parser to handle the specific bracketed and multi-line structures of these broken PDFs.
+  - Successfully extracted exactly 122 pristine Claude Prompts with auto-generated contextual descriptions.
+  - Re-ran Advanced Validation. Result: 0 Failures.
