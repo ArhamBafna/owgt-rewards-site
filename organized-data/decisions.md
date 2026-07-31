@@ -22,3 +22,10 @@
   - Successfully extracted 79 high-quality Prompts, 85 AI Tools (properly splitting the complex column-interlaced formatting), and 23 AI Skills without losing context or dropping paragraphs.
   - Re-deleted `pdfs-to-text/` folder. The `organized-data` directory is now completely free of raw unformatted data.
 - Automated `master.md` and `master.json` generation to ensure indices are always up to date with the folder structure.
+
+- Processed prompts.txt and skool-communites/ (Batch 7 Fixes):
+  - Completely wiped Prompts/ directory to clear out poorly extracted prompts from Batch 4.
+  - Re-ran accurate extraction for Claude Prompts, capturing 79 items.
+  - Built a new, hyper-accurate Python script to parse prompts.txt, extracting 51 high-quality prompts (including massive, multi-line Master Prompts that the old script missed).
+  - Reprocessed all 8 Skool Community Guides, injecting manually written, accurate descriptions into the metadata headers while keeping the original guide bodies verbatim.
+  - Rebuilt master indices.
