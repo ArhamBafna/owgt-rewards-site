@@ -1,52 +1,8 @@
 {
-  "tools": [
+  "cheat sheets": [
     {
-      "name": "Antigravity IDE & Suite",
-      "path": "Tools/antigravity.md"
-    },
-    {
-      "name": "Claude Code CLI",
-      "path": "Tools/claude-code-cli.md"
-    },
-    {
-      "name": "Composio",
-      "path": "Tools/composio.md"
-    },
-    {
-      "name": "Copilot CLI",
-      "path": "Tools/copilot-cli.md"
-    },
-    {
-      "name": "Cursor IDE",
-      "path": "Tools/cursor-ide.md"
-    },
-    {
-      "name": "Firecrawl CLI & API",
-      "path": "Tools/firecrawl-cli.md"
-    },
-    {
-      "name": "LLM CLI Tool",
-      "path": "Tools/llm-cli.md"
-    },
-    {
-      "name": "Ollama",
-      "path": "Tools/ollama.md"
-    },
-    {
-      "name": "shadcn/ui",
-      "path": "Tools/shadcn-ui.md"
-    },
-    {
-      "name": "Trae IDE",
-      "path": "Tools/trae-ide.md"
-    },
-    {
-      "name": "Windsurf (Codeium)",
-      "path": "Tools/windsurf.md"
-    },
-    {
-      "name": "Wispr Flow",
-      "path": "Tools/wispr-flow.md"
+      "name": "Mobile App Growth Cheat Sheet",
+      "path": "Cheat Sheets/mobile-app-growth-cheat-sheet.md"
     }
   ],
   "frameworks": [
@@ -57,12 +13,52 @@
     {
       "name": "llm-wiki (Karpathy Gist)",
       "path": "Frameworks/llm-wiki.md"
+    },
+    {
+      "name": "Taste Skill",
+      "path": "Frameworks/taste-skill.md"
     }
   ],
   "guides": [
     {
-      "name": "Prompt Engineering Guide",
+      "name": "$1M Attention",
+      "path": "Guides/1m-attention.md"
+    },
+    {
+      "name": "39 Claude Skills Examples",
+      "path": "Guides/39-claude-skills-examples.md"
+    },
+    {
+      "name": "Build a Self-Updating LLM Knowledge Base",
+      "path": "Guides/build-a-self-updating-llm-knowledge-base.md"
+    },
+    {
+      "name": "How to Create a Cold Email Generator Using AI",
+      "path": "Guides/how-to-create-a-cold-email-generator-using-ai.md"
+    },
+    {
+      "name": "How to Spot $100M+ Product Ideas",
+      "path": "Guides/how-to-spot-100m-product-ideas.md"
+    },
+    {
+      "name": "How To Use Cursor AI To Build Software",
+      "path": "Guides/how-to-use-cursor-ai-to-build-software.md"
+    },
+    {
+      "name": "Let AI Build Your First AI App",
+      "path": "Guides/let-ai-build-your-first-ai-app.md"
+    },
+    {
+      "name": "Obsidian Is My AI's Second Brain",
+      "path": "Guides/obsidian-is-my-ais-second-brain.md"
+    },
+    {
+      "name": "Prompt Engineering",
       "path": "Guides/prompt-engineering.md"
+    },
+    {
+      "name": "The $1M Solopreneur MVP",
+      "path": "Guides/the-1m-solopreneur-mvp.md"
     }
   ],
   "learning": [
@@ -89,6 +85,14 @@
   ],
   "resources": [
     {
+      "name": "21st.dev",
+      "path": "Resources/21stdev.md"
+    },
+    {
+      "name": "AI Tool Index",
+      "path": "Resources/ai-tool-index.md"
+    },
+    {
       "name": "App Ideas",
       "path": "Resources/app-ideas.md"
     },
@@ -97,28 +101,172 @@
       "path": "Resources/awesome-chatgpt-prompts.md"
     },
     {
-      "name": "Awesome DESIGN.md",
+      "name": "Awesome DESIGN.md (VoltAgent)",
       "path": "Resources/awesome-design.md"
     },
     {
-      "name": "Awesome LLM Apps",
+      "name": "Awesome LLM Apps (Shubham Saboo)",
       "path": "Resources/awesome-llm-apps.md"
     },
     {
-      "name": "Awesome MCP Servers",
+      "name": "Awesome MCP Servers (Free MCP List)",
       "path": "Resources/awesome-mcp-servers.md"
     },
     {
-      "name": "Claude Quickstarts & Prompt Cookbook",
+      "name": "Claude Quickstarts & Prompt Cookbook (Anthropic)",
       "path": "Resources/claude-quickstarts.md"
     },
     {
-      "name": "Official MCP Servers",
+      "name": "Landbook",
+      "path": "Resources/landbook.md"
+    },
+    {
+      "name": "Mobbin",
+      "path": "Resources/mobbin.md"
+    },
+    {
+      "name": "Official MCP Servers (Model Context Protocol)",
       "path": "Resources/official-mcp-servers.md"
     },
     {
       "name": "Real AI System Prompts Collection",
       "path": "Resources/system-prompts.md"
+    },
+    {
+      "name": "Starter Story Data",
+      "path": "Resources/starter-story-data.md"
+    },
+    {
+      "name": "Uiverse",
+      "path": "Resources/uiverse.md"
+    }
+  ],
+  "templates": [
+    {
+      "name": "HubSpot Full-Stack AI Marketing Toolkit",
+      "path": "Templates/hubspot-full-stack-ai-marketing-toolkit.md"
+    },
+    {
+      "name": "Marketing Against the Grain Newsletter Template",
+      "path": "Templates/marketing-against-the-grain-newsletter-template.md"
+    }
+  ],
+  "tools": [
+    {
+      "name": "AnimeJS",
+      "path": "Tools/animejs.md"
+    },
+    {
+      "name": "Antigravity IDE & Suite",
+      "path": "Tools/antigravity.md"
+    },
+    {
+      "name": "Claude Code CLI",
+      "path": "Tools/claude-code-cli.md"
+    },
+    {
+      "name": "Composio",
+      "path": "Tools/composio.md"
+    },
+    {
+      "name": "Copilot CLI",
+      "path": "Tools/copilot-cli.md"
+    },
+    {
+      "name": "Cursor IDE",
+      "path": "Tools/cursor-ide.md"
+    },
+    {
+      "name": "Firecrawl CLI & API",
+      "path": "Tools/firecrawl-cli.md"
+    },
+    {
+      "name": "Hallmark",
+      "path": "Tools/hallmark.md"
+    },
+    {
+      "name": "here.now",
+      "path": "Tools/herenow.md"
+    },
+    {
+      "name": "Hexta UI",
+      "path": "Tools/hexta-ui.md"
+    },
+    {
+      "name": "Hover.dev",
+      "path": "Tools/hoverdev.md"
+    },
+    {
+      "name": "Hunyuan Video",
+      "path": "Tools/hunyuan-video.md"
+    },
+    {
+      "name": "Ideogram 4.0",
+      "path": "Tools/ideogram-40.md"
+    },
+    {
+      "name": "Impeccable",
+      "path": "Tools/impeccable.md"
+    },
+    {
+      "name": "Kokonut UI",
+      "path": "Tools/kokonut-ui.md"
+    },
+    {
+      "name": "LLM CLI Tool (Simon Willison)",
+      "path": "Tools/llm-cli.md"
+    },
+    {
+      "name": "MagicUI",
+      "path": "Tools/magicui.md"
+    },
+    {
+      "name": "Motion.dev",
+      "path": "Tools/motiondev.md"
+    },
+    {
+      "name": "Ollama",
+      "path": "Tools/ollama.md"
+    },
+    {
+      "name": "Parker",
+      "path": "Tools/parker.md"
+    },
+    {
+      "name": "Prism",
+      "path": "Tools/prism.md"
+    },
+    {
+      "name": "React Bits",
+      "path": "Tools/react-bits.md"
+    },
+    {
+      "name": "Rive",
+      "path": "Tools/rive.md"
+    },
+    {
+      "name": "shadcn/ui",
+      "path": "Tools/shadcn-ui.md"
+    },
+    {
+      "name": "Stitch",
+      "path": "Tools/stitch.md"
+    },
+    {
+      "name": "Trae IDE",
+      "path": "Tools/trae-ide.md"
+    },
+    {
+      "name": "Windsurf (Codeium)",
+      "path": "Tools/windsurf.md"
+    },
+    {
+      "name": "Wispr Flow",
+      "path": "Tools/wispr-flow.md"
+    },
+    {
+      "name": "Z-Image AI",
+      "path": "Tools/z-image-ai.md"
     }
   ]
 }
