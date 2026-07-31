@@ -1111,10 +1111,6 @@
   ],
   "tools": [
     {
-      "name": "Acrossmultipleroles",
-      "path": "Tools/acrossmultipleroles.md"
-    },
-    {
       "name": "Ada",
       "path": "Tools/ada.md"
     },
@@ -1123,16 +1119,8 @@
       "path": "Tools/animejs.md"
     },
     {
-      "name": "Anthropic",
-      "path": "Tools/anthropic.md"
-    },
-    {
       "name": "Antigravity IDE & Suite",
       "path": "Tools/antigravity.md"
-    },
-    {
-      "name": "Anyfunctionproducinglong -",
-      "path": "Tools/anyfunctionproducinglong-.md"
     },
     {
       "name": "Apollo.Io",
@@ -1207,10 +1195,6 @@
       "path": "Tools/eightfold.md"
     },
     {
-      "name": "Feedingdirectlyintoexisting",
-      "path": "Tools/feedingdirectlyintoexisting.md"
-    },
-    {
       "name": "Firecrawl CLI & API",
       "path": "Tools/firecrawl-cli.md"
     },
@@ -1231,10 +1215,6 @@
       "path": "Tools/gamma.md"
     },
     {
-      "name": "Gammacopy . Ai",
-      "path": "Tools/gammacopy-ai.md"
-    },
-    {
       "name": "Github Copilot",
       "path": "Tools/github-copilot.md"
     },
@@ -1243,24 +1223,12 @@
       "path": "Tools/glean.md"
     },
     {
-      "name": "Glean Research",
-      "path": "Tools/glean-research.md"
-    },
-    {
       "name": "Gong",
       "path": "Tools/gong.md"
     },
     {
       "name": "Google AI Flow",
       "path": "Tools/google-ai-flow.md"
-    },
-    {
-      "name": "Googleconsensus",
-      "path": "Tools/googleconsensus.md"
-    },
-    {
-      "name": "Grainzoominfo",
-      "path": "Tools/grainzoominfo.md"
     },
     {
       "name": "Grok",
@@ -1287,20 +1255,12 @@
       "path": "Tools/hirevue.md"
     },
     {
-      "name": "Hirevueparadox",
-      "path": "Tools/hirevueparadox.md"
-    },
-    {
       "name": "Hover.dev",
       "path": "Tools/hoverdev.md"
     },
     {
       "name": "Hubert",
       "path": "Tools/hubert.md"
-    },
-    {
-      "name": "Hubspot",
-      "path": "Tools/hubspot.md"
     },
     {
       "name": "HubSpot AI",
@@ -1331,20 +1291,12 @@
       "path": "Tools/jasper.md"
     },
     {
-      "name": "Jasperai",
-      "path": "Tools/jasperai.md"
-    },
-    {
       "name": "Kokonut UI",
       "path": "Tools/kokonut-ui.md"
     },
     {
       "name": "Lavender",
       "path": "Tools/lavender.md"
-    },
-    {
-      "name": "Lavenderadobe",
-      "path": "Tools/lavenderadobe.md"
     },
     {
       "name": "LLM CLI Tool (Simon Willison)",
@@ -1393,14 +1345,6 @@
     {
       "name": "OpenWhispr",
       "path": "Tools/openwhispr.md"
-    },
-    {
-      "name": "Organisationsrunninghigh -",
-      "path": "Tools/organisationsrunninghigh-.md"
-    },
-    {
-      "name": "Otter.Ai",
-      "path": "Tools/otter-ai.md"
     },
     {
       "name": "Otter.Ai",
@@ -1455,10 +1399,6 @@
       "path": "Tools/tipalti.md"
     },
     {
-      "name": "Toremovetheformattinganddesign",
-      "path": "Tools/toremovetheformattinganddesign.md"
-    },
-    {
       "name": "Trae IDE",
       "path": "Tools/trae-ide.md"
     },
@@ -1469,18 +1409,6 @@
     {
       "name": "Vic.Ai",
       "path": "Tools/vic-ai.md"
-    },
-    {
-      "name": "Volumeofrepeatablesupport",
-      "path": "Tools/volumeofrepeatablesupport.md"
-    },
-    {
-      "name": "Volumesofpersonalisedoutbound",
-      "path": "Tools/volumesofpersonalisedoutbound.md"
-    },
-    {
-      "name": "Volumeswithmulti - Entityor",
-      "path": "Tools/volumeswithmulti-entityor.md"
     },
     {
       "name": "Willow Voice",
