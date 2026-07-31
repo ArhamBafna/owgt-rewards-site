@@ -803,6 +803,10 @@
       "path": "Tools/hubert.md"
     },
     {
+      "name": "HubSpot AI",
+      "path": "Tools/hubspot-ai.md"
+    },
+    {
       "name": "Hunyuan Video",
       "path": "Tools/hunyuan-video.md"
     },
@@ -823,12 +827,20 @@
       "path": "Tools/kokonut-ui.md"
     },
     {
+      "name": "Lavender",
+      "path": "Tools/lavender.md"
+    },
+    {
       "name": "LLM CLI Tool (Simon Willison)",
       "path": "Tools/llm-cli.md"
     },
     {
       "name": "MagicUI",
       "path": "Tools/magicui.md"
+    },
+    {
+      "name": "Marketo Engage",
+      "path": "Tools/marketo-engage.md"
     },
     {
       "name": "Motion.dev",
@@ -877,18 +889,6 @@
     {
       "name": "Tipalti",
       "path": "Tools/tipalti.md"
-    },
-    {
-      "name": "Tool 3",
-      "path": "Tools/tool-3.md"
-    },
-    {
-      "name": "Tool 4",
-      "path": "Tools/tool-4.md"
-    },
-    {
-      "name": "Tool 5",
-      "path": "Tools/tool-5.md"
     },
     {
       "name": "Trae IDE",
