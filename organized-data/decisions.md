@@ -15,4 +15,10 @@
 - Processed `youtube/` (Batch 5): Converted 4 raw YouTube transcripts into highly polished, standalone instructional Guides. 
 - Processed `skool-communites/` (Batch 5): Formatted 8 Skool community `.md` files to ensure they follow the standard Guide Schema, then moved them to the `Guides` directory.
 - Deleted `youtube/` and `skool-communites/` raw folders as they have been fully processed.
+- Processed `pdfs-to-text/` (Batch 6 Revision 2):
+  - Reverted original generic extraction attempt that mangled formatting.
+  - Manually read and structured the theory/methodology files into comprehensive `Guides` and `Cheat Sheets` (`the-ai-research-system`, `which-model-should-i-use`, `chatgpt-and-ai-cheatsheet`).
+  - Wrote highly specific, targeted Python parser scripts for the remaining list-based documents (`extract_claude_prompts.py`, `extract_ai_tools.py`, `extract_ai_skills.py`).
+  - Successfully extracted 79 high-quality Prompts, 85 AI Tools (properly splitting the complex column-interlaced formatting), and 23 AI Skills without losing context or dropping paragraphs.
+  - Re-deleted `pdfs-to-text/` folder. The `organized-data` directory is now completely free of raw unformatted data.
 - Automated `master.md` and `master.json` generation to ensure indices are always up to date with the folder structure.

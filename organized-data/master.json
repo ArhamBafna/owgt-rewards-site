@@ -1,6 +1,10 @@
 {
   "cheat sheets": [
     {
+      "name": "ChatGPT & AI Cheatsheet",
+      "path": "Cheat Sheets/chatgpt-and-ai-cheatsheet.md"
+    },
+    {
       "name": "Mobile App Growth Cheat Sheet",
       "path": "Cheat Sheets/mobile-app-growth-cheat-sheet.md"
     }
@@ -105,14 +109,82 @@
       "path": "Guides/the-1m-solopreneur-mvp.md"
     },
     {
+      "name": "The AI Research System: A Three-Phase Method",
+      "path": "Guides/the-ai-research-system.md"
+    },
+    {
       "name": "Top Ai Courses For Beginners",
       "path": "Guides/Top-AI-Courses-for-Beginners.md"
+    },
+    {
+      "name": "Which Model Should I Use? (Field Guide)",
+      "path": "Guides/which-model-should-i-use.md"
     }
   ],
   "learning": [
     {
+      "name": "AI AGENT COORDINATION",
+      "path": "Learning/ai-agent-coordination.md"
+    },
+    {
+      "name": "AI COMPETITIVE INTELLIGENCE",
+      "path": "Learning/ai-competitive-intelligence.md"
+    },
+    {
+      "name": "AI CRM AND PIPELINE MANAGEMENT",
+      "path": "Learning/ai-crm-and-pipeline-management.md"
+    },
+    {
+      "name": "AI DATA INTERPRETATION",
+      "path": "Learning/ai-data-interpretation.md"
+    },
+    {
       "name": "AI for Beginners (Microsoft)",
       "path": "Learning/ai-for-beginners.md"
+    },
+    {
+      "name": "AI LEARNING AND DEVELOPMENT",
+      "path": "Learning/ai-learning-and-development.md"
+    },
+    {
+      "name": "AI LITERACY",
+      "path": "Learning/ai-literacy.md"
+    },
+    {
+      "name": "AI OUTPUT VERIFICATION",
+      "path": "Learning/ai-output-verification.md"
+    },
+    {
+      "name": "AI PERFORMANCE MANAGEMENT",
+      "path": "Learning/ai-performance-management.md"
+    },
+    {
+      "name": "AI SALES OUTREACH AND SEQUENCING",
+      "path": "Learning/ai-sales-outreach-and-sequencing.md"
+    },
+    {
+      "name": "AI-ASSISTED CONTENT CREATION",
+      "path": "Learning/ai-assisted-content-creation.md"
+    },
+    {
+      "name": "AI-ASSISTED RECRUITING",
+      "path": "Learning/ai-assisted-recruiting.md"
+    },
+    {
+      "name": "AI-POWERED PROCESSDOCUMENTATION",
+      "path": "Learning/ai-powered-processdocumentation.md"
+    },
+    {
+      "name": "AIETHICS AND",
+      "path": "Learning/aiethics-and.md"
+    },
+    {
+      "name": "AIPRESENTATION",
+      "path": "Learning/aipresentation.md"
+    },
+    {
+      "name": "AIVIDEO AND VISUAL CONTENT",
+      "path": "Learning/aivideo-and-visual-content.md"
     },
     {
       "name": "Developer Roadmaps (AI & Engineering)",
@@ -129,208 +201,332 @@
     {
       "name": "nanoGPT (Karpathy)",
       "path": "Learning/nanogpt.md"
+    },
+    {
+      "name": "NO-CODE AI WORKFLOW BUILDING",
+      "path": "Learning/no-code-ai-workflow-building.md"
+    },
+    {
+      "name": "PROMPT ENGINEERING",
+      "path": "Learning/prompt-engineering.md"
     }
   ],
   "prompts": [
     {
-      "name": "All Cards",
-      "path": "Prompts/all-cards.md"
+      "name": "All-Hands Talking Points",
+      "path": "Prompts/all-hands-talking-points.md"
     },
     {
-      "name": "Animation",
-      "path": "Prompts/animation.md"
+      "name": "Analyze Customer Feedback",
+      "path": "Prompts/analyze-customer-feedback.md"
     },
     {
-      "name": "Business Audit",
-      "path": "Prompts/business-audit.md"
+      "name": "Analyze Customer Feedback for Growth Signals",
+      "path": "Prompts/analyze-customer-feedback-for-growth-signals.md"
     },
     {
-      "name": "Card 1 Diagnostic Shuffler",
-      "path": "Prompts/card-1-diagnostic-shuffler.md"
+      "name": "Analyze Second-Order Consequences",
+      "path": "Prompts/analyze-second-order-consequences.md"
     },
     {
-      "name": "Card 2 Telemetry Typewriter",
-      "path": "Prompts/card-2-telemetry-typewriter.md"
+      "name": "Analyze Why a Deal Was Lost",
+      "path": "Prompts/analyze-why-a-deal-was-lost.md"
     },
     {
-      "name": "Card 3 Cursor Protocol Scheduler",
-      "path": "Prompts/card-3-cursor-protocol-scheduler.md"
+      "name": "Apply Devil's Advocate",
+      "path": "Prompts/apply-devil-s-advocate.md"
     },
     {
-      "name": "Card Content",
-      "path": "Prompts/card-content.md"
+      "name": "Apply First Principles Thinking",
+      "path": "Prompts/apply-first-principles-thinking.md"
     },
     {
-      "name": "Client Welcome",
-      "path": "Prompts/client-welcome.md"
+      "name": "Assess an Acquisition or Partnership",
+      "path": "Prompts/assess-an-acquisition-or-partnership.md"
     },
     {
-      "name": "Cold Dm",
-      "path": "Prompts/cold-dm.md"
+      "name": "Assumptions Stress Test",
+      "path": "Prompts/assumptions-stress-test.md"
     },
     {
-      "name": "Cold Email",
-      "path": "Prompts/cold-email.md"
+      "name": "Build a Competitive Battle Card",
+      "path": "Prompts/build-a-competitive-battle-card.md"
     },
     {
-      "name": "Competitor Analysis",
-      "path": "Prompts/competitor-analysis.md"
+      "name": "Build a Decision Framework",
+      "path": "Prompts/build-a-decision-framework.md"
     },
     {
-      "name": "Contains",
-      "path": "Prompts/contains.md"
+      "name": "Build a Decision Matrix",
+      "path": "Prompts/build-a-decision-matrix.md"
     },
     {
-      "name": "Content Ideas",
-      "path": "Prompts/content-ideas.md"
+      "name": "Build a Project Risk Assessment",
+      "path": "Prompts/build-a-project-risk-assessment.md"
     },
     {
-      "name": "Each Preset Defines",
-      "path": "Prompts/each-preset-defines.md"
+      "name": "Build a SOP for a Repeatable Process",
+      "path": "Prompts/build-a-sop-for-a-repeatable-process.md"
     },
     {
-      "name": "Email Newsletter",
-      "path": "Prompts/email-newsletter.md"
+      "name": "Build a User Interview Question Set",
+      "path": "Prompts/build-a-user-interview-question-set.md"
     },
     {
-      "name": "Email Reply",
-      "path": "Prompts/email-reply.md"
+      "name": "Build an Onboarding Checklist",
+      "path": "Prompts/build-an-onboarding-checklist.md"
     },
     {
-      "name": "Execution Directive",
-      "path": "Prompts/execution-directive.md"
+      "name": "Build Interview Questions",
+      "path": "Prompts/build-interview-questions.md"
     },
     {
-      "name": "File Structure",
-      "path": "Prompts/file-structure.md"
+      "name": "Build Your 90-Day Roadmap",
+      "path": "Prompts/build-your-90-day-roadmap.md"
     },
     {
-      "name": "Follow Up",
-      "path": "Prompts/follow-up.md"
+      "name": "Challenge an Assumption",
+      "path": "Prompts/challenge-an-assumption.md"
     },
     {
-      "name": "Follow Up Touch 1",
-      "path": "Prompts/follow-up-touch-1.md"
+      "name": "Compare Two Real Options",
+      "path": "Prompts/compare-two-real-options.md"
     },
     {
-      "name": "Fonts",
-      "path": "Prompts/fonts.md"
+      "name": "Craft an Ask for a Warm Introduction",
+      "path": "Prompts/craft-an-ask-for-a-warm-introduction.md"
     },
     {
-      "name": "Hashtag Strategy",
-      "path": "Prompts/hashtag-strategy.md"
+      "name": "Create a Meeting Agenda",
+      "path": "Prompts/create-a-meeting-agenda.md"
     },
     {
-      "name": "Hero Line Pattern",
-      "path": "Prompts/hero-line-pattern.md"
+      "name": "Culture Assessment",
+      "path": "Prompts/culture-assessment.md"
     },
     {
-      "name": "Hook Generator",
-      "path": "Prompts/hook-generator.md"
+      "name": "Decide on Organizational Structure",
+      "path": "Prompts/decide-on-organizational-structure.md"
     },
     {
-      "name": "Idea Validation",
-      "path": "Prompts/idea-validation.md"
+      "name": "Decide Whether to Pivot or Stay the Course",
+      "path": "Prompts/decide-whether-to-pivot-or-stay-the-course.md"
     },
     {
-      "name": "Identity",
-      "path": "Prompts/identity.md"
+      "name": "Decide Whether to Promote or Let Go",
+      "path": "Prompts/decide-whether-to-promote-or-let-go.md"
     },
     {
-      "name": "Images",
-      "path": "Prompts/images.md"
+      "name": "Define Your Unique Positioning",
+      "path": "Prompts/define-your-unique-positioning.md"
     },
     {
-      "name": "Job Description",
-      "path": "Prompts/job-description.md"
+      "name": "Design a Weekly Review Framework",
+      "path": "Prompts/design-a-weekly-review-framework.md"
     },
     {
-      "name": "Meeting Request",
-      "path": "Prompts/meeting-request.md"
+      "name": "Diagnose a Team Problem",
+      "path": "Prompts/diagnose-a-team-problem.md"
     },
     {
-      "name": "Meeting Summary",
-      "path": "Prompts/meeting-summary.md"
+      "name": "Diagnose Why Something Isn't Working",
+      "path": "Prompts/diagnose-why-something-isn-t-working.md"
     },
     {
-      "name": "Middle Card Pops",
-      "path": "Prompts/middle-card-pops.md"
+      "name": "Draft a Follow-Up After No Response",
+      "path": "Prompts/draft-a-follow-up-after-no-response.md"
     },
     {
-      "name": "Morphing Logic",
-      "path": "Prompts/morphing-logic.md"
+      "name": "Draft a Product Announcement",
+      "path": "Prompts/draft-a-product-announcement.md"
     },
     {
-      "name": "Most Industry Focuses On",
-      "path": "Prompts/most-industry-focuses-on.md"
+      "name": "Draft a Weekly Update to Your Team",
+      "path": "Prompts/draft-a-weekly-update-to-your-team.md"
     },
     {
-      "name": "Objection Response",
-      "path": "Prompts/objection-response.md"
+      "name": "Draft an Executive Summary",
+      "path": "Prompts/draft-an-executive-summary.md"
     },
     {
-      "name": "Offer Clarity",
-      "path": "Prompts/offer-clarity.md"
+      "name": "Draft Performance Feedback",
+      "path": "Prompts/draft-performance-feedback.md"
     },
     {
-      "name": "Palette",
-      "path": "Prompts/palette.md"
+      "name": "Evaluate a New Market Opportunity",
+      "path": "Prompts/evaluate-a-new-market-opportunity.md"
     },
     {
-      "name": "Polite Decline",
-      "path": "Prompts/polite-decline.md"
+      "name": "Evaluate a New Opportunity",
+      "path": "Prompts/evaluate-a-new-opportunity.md"
     },
     {
-      "name": "Proposal",
-      "path": "Prompts/proposal.md"
+      "name": "Generate Alternatives When You're Stuck",
+      "path": "Prompts/generate-alternatives-when-you-re-stuck.md"
     },
     {
-      "name": "Repurposing",
-      "path": "Prompts/repurposing.md"
+      "name": "Generate Feature Ideas from Complaints",
+      "path": "Prompts/generate-feature-ideas-from-complaints.md"
     },
     {
-      "name": "Responsive",
-      "path": "Prompts/responsive.md"
+      "name": "Get Devil's Advocate Feedback",
+      "path": "Prompts/get-devil-s-advocate-feedback.md"
     },
     {
-      "name": "Sop Creation",
-      "path": "Prompts/sop-creation.md"
+      "name": "Handle a Difficult Investor Conversation",
+      "path": "Prompts/handle-a-difficult-investor-conversation.md"
     },
     {
-      "name": "Stack",
-      "path": "Prompts/stack.md"
+      "name": "Hire vs. Outsource",
+      "path": "Prompts/hire-vs-outsource.md"
     },
     {
-      "name": "Stacking Interaction",
-      "path": "Prompts/stacking-interaction.md"
+      "name": "Identify the Real Bottleneck",
+      "path": "Prompts/identify-the-real-bottleneck.md"
     },
     {
-      "name": "Time Of Day Light",
-      "path": "Prompts/time-of-day-light.md"
+      "name": "Identify the Root Cause",
+      "path": "Prompts/identify-the-root-cause.md"
     },
     {
-      "name": "Typography",
-      "path": "Prompts/typography.md"
+      "name": "Identify Your Biggest Blind Spot",
+      "path": "Prompts/identify-your-biggest-blind-spot.md"
     },
     {
-      "name": "Video Script (60S)",
-      "path": "Prompts/video-script-(60s).md"
+      "name": "Improve Your Onboarding Flow",
+      "path": "Prompts/improve-your-onboarding-flow.md"
     },
     {
-      "name": "Video Script 60S",
-      "path": "Prompts/video-script-60s.md"
+      "name": "Investment Decision Analysis",
+      "path": "Prompts/investment-decision-analysis.md"
     },
     {
-      "name": "We Focus On",
-      "path": "Prompts/we-focus-on.md"
+      "name": "Make the Decision You've Been Avoiding",
+      "path": "Prompts/make-the-decision-you-ve-been-avoiding.md"
     },
     {
-      "name": "Week Of Captions",
-      "path": "Prompts/week-of-captions.md"
+      "name": "Navigate a Stakeholder Disagreement",
+      "path": "Prompts/navigate-a-stakeholder-disagreement.md"
     },
     {
-      "name": "Weekly Planning",
-      "path": "Prompts/weekly-planning.md"
+      "name": "Onboarding Program Design",
+      "path": "Prompts/onboarding-program-design.md"
+    },
+    {
+      "name": "Plan a Difficult Conversation",
+      "path": "Prompts/plan-a-difficult-conversation.md"
+    },
+    {
+      "name": "Plan a Project Kickoff",
+      "path": "Prompts/plan-a-project-kickoff.md"
+    },
+    {
+      "name": "Prepare for a Board Meeting",
+      "path": "Prompts/prepare-for-a-board-meeting.md"
+    },
+    {
+      "name": "Prepare for a Sales Call",
+      "path": "Prompts/prepare-for-a-sales-call.md"
+    },
+    {
+      "name": "Pressure-Test a Strategy",
+      "path": "Prompts/pressure-test-a-strategy.md"
+    },
+    {
+      "name": "Pressure-Test Your Business Idea",
+      "path": "Prompts/pressure-test-your-business-idea.md"
+    },
+    {
+      "name": "Pricing Decision Framework",
+      "path": "Prompts/pricing-decision-framework.md"
+    },
+    {
+      "name": "Prioritize a Product Backlog",
+      "path": "Prompts/prioritize-a-product-backlog.md"
+    },
+    {
+      "name": "Prioritize Between Competing Initiatives",
+      "path": "Prompts/prioritize-between-competing-initiatives.md"
+    },
+    {
+      "name": "Prioritize Between Two Strategic Directions",
+      "path": "Prompts/prioritize-between-two-strategic-directions.md"
+    },
+    {
+      "name": "Project Risk Assessment",
+      "path": "Prompts/project-risk-assessment.md"
+    },
+    {
+      "name": "Refine Your Pitch Narrative",
+      "path": "Prompts/refine-your-pitch-narrative.md"
+    },
+    {
+      "name": "Refine Your Value Proposition",
+      "path": "Prompts/refine-your-value-proposition.md"
+    },
+    {
+      "name": "Research Synthesis",
+      "path": "Prompts/research-synthesis.md"
+    },
+    {
+      "name": "Respond to a Critical Investor Question",
+      "path": "Prompts/respond-to-a-critical-investor-question.md"
+    },
+    {
+      "name": "Root Cause Analysis",
+      "path": "Prompts/root-cause-analysis.md"
+    },
+    {
+      "name": "Run a Competitor Analysis",
+      "path": "Prompts/run-a-competitor-analysis.md"
+    },
+    {
+      "name": "Run a Pre-Mortem",
+      "path": "Prompts/run-a-pre-mortem.md"
+    },
+    {
+      "name": "Set Team Priorities",
+      "path": "Prompts/set-team-priorities.md"
+    },
+    {
+      "name": "Team Effectiveness Diagnosis",
+      "path": "Prompts/team-effectiveness-diagnosis.md"
+    },
+    {
+      "name": "Worst-Case Scenario Planning",
+      "path": "Prompts/worst-case-scenario-planning.md"
+    },
+    {
+      "name": "Write a Cold Outreach Email",
+      "path": "Prompts/write-a-cold-outreach-email.md"
+    },
+    {
+      "name": "Write a Company Announcement",
+      "path": "Prompts/write-a-company-announcement.md"
+    },
+    {
+      "name": "Write a Compensation Explanation",
+      "path": "Prompts/write-a-compensation-explanation.md"
+    },
+    {
+      "name": "Write a Customer Re-Engagement Email",
+      "path": "Prompts/write-a-customer-re-engagement-email.md"
+    },
+    {
+      "name": "Write a Job Description",
+      "path": "Prompts/write-a-job-description.md"
+    },
+    {
+      "name": "Write a Partnership Proposal",
+      "path": "Prompts/write-a-partnership-proposal.md"
+    },
+    {
+      "name": "Write an Escalation Policy",
+      "path": "Prompts/write-an-escalation-policy.md"
+    },
+    {
+      "name": "Write an Investor Update",
+      "path": "Prompts/write-an-investor-update.md"
     }
   ],
   "resources": [
@@ -403,12 +599,56 @@
   ],
   "tools": [
     {
+      "name": "across large document libraries.",
+      "path": "Tools/across-large-document-libraries.md"
+    },
+    {
+      "name": "Ada",
+      "path": "Tools/ada.md"
+    },
+    {
+      "name": "Adobe",
+      "path": "Tools/adobe.md"
+    },
+    {
+      "name": "and compliance functions.",
+      "path": "Tools/and-compliance-functions.md"
+    },
+    {
       "name": "AnimeJS",
       "path": "Tools/animejs.md"
     },
     {
+      "name": "Anthropic",
+      "path": "Tools/anthropic.md"
+    },
+    {
       "name": "Antigravity IDE & Suite",
       "path": "Tools/antigravity.md"
+    },
+    {
+      "name": "applicant volumes.",
+      "path": "Tools/applicant-volumes.md"
+    },
+    {
+      "name": "ATLASSIAN ROVO",
+      "path": "Tools/atlassian-rovo.md"
+    },
+    {
+      "name": "candidate reached a human review.",
+      "path": "Tools/candidate-reached-a-human-review.md"
+    },
+    {
+      "name": "CHATGPT",
+      "path": "Tools/chatgpt.md"
+    },
+    {
+      "name": "CLAUDE",
+      "path": "Tools/claude.md"
+    },
+    {
+      "name": "CLAUDE API",
+      "path": "Tools/claude-api.md"
     },
     {
       "name": "Claude Code CLI",
@@ -419,16 +659,80 @@
       "path": "Tools/composio.md"
     },
     {
+      "name": "Consensus",
+      "path": "Tools/consensus.md"
+    },
+    {
       "name": "Copilot CLI",
       "path": "Tools/copilot-cli.md"
+    },
+    {
+      "name": "Copy.ai",
+      "path": "Tools/copy-ai.md"
+    },
+    {
+      "name": "CURSOR",
+      "path": "Tools/cursor.md"
     },
     {
       "name": "Cursor IDE",
       "path": "Tools/cursor-ide.md"
     },
     {
+      "name": "dedicated headcount to keep moving.",
+      "path": "Tools/dedicated-headcount-to-keep-moving.md"
+    },
+    {
+      "name": "Eightfold",
+      "path": "Tools/eightfold.md"
+    },
+    {
+      "name": "email.",
+      "path": "Tools/email.md"
+    },
+    {
       "name": "Firecrawl CLI & API",
       "path": "Tools/firecrawl-cli.md"
+    },
+    {
+      "name": "FIREFLIES.AI",
+      "path": "Tools/fireflies-ai.md"
+    },
+    {
+      "name": "form written output.",
+      "path": "Tools/form-written-output.md"
+    },
+    {
+      "name": "GAMMA",
+      "path": "Tools/gamma.md"
+    },
+    {
+      "name": "GITHUB COPILOT",
+      "path": "Tools/github-copilot.md"
+    },
+    {
+      "name": "GLEAN",
+      "path": "Tools/glean.md"
+    },
+    {
+      "name": "GLEAN RESEARCH",
+      "path": "Tools/glean-research.md"
+    },
+    {
+      "name": "global payment requirements.",
+      "path": "Tools/global-payment-requirements.md"
+    },
+    {
+      "name": "Gong",
+      "path": "Tools/gong.md"
+    },
+    {
+      "name": "GROK",
+      "path": "Tools/grok.md"
+    },
+    {
+      "name": "GUMLOOP",
+      "path": "Tools/gumloop.md"
     },
     {
       "name": "Hallmark",
@@ -447,6 +751,10 @@
       "path": "Tools/hoverdev.md"
     },
     {
+      "name": "HubSpot",
+      "path": "Tools/hubspot.md"
+    },
+    {
       "name": "Hunyuan Video",
       "path": "Tools/hunyuan-video.md"
     },
@@ -457,6 +765,14 @@
     {
       "name": "Impeccable",
       "path": "Tools/impeccable.md"
+    },
+    {
+      "name": "JASPER",
+      "path": "Tools/jasper.md"
+    },
+    {
+      "name": "Jasper AI",
+      "path": "Tools/jasper-ai.md"
     },
     {
       "name": "Kokonut UI",
@@ -471,24 +787,84 @@
       "path": "Tools/magicui.md"
     },
     {
+      "name": "MAKE",
+      "path": "Tools/make.md"
+    },
+    {
+      "name": "Make (formerly Integromat)",
+      "path": "Tools/make-formerly-integromat.md"
+    },
+    {
+      "name": "MICROSOFT 365 COPILOT",
+      "path": "Tools/microsoft-365-copilot.md"
+    },
+    {
+      "name": "MICROSOFT COPILOT IN POWERPOINT",
+      "path": "Tools/microsoft-copilot-in-powerpoint.md"
+    },
+    {
+      "name": "motion.",
+      "path": "Tools/motion.md"
+    },
+    {
       "name": "Motion.dev",
       "path": "Tools/motiondev.md"
+    },
+    {
+      "name": "NOTION AI",
+      "path": "Tools/notion-ai.md"
     },
     {
       "name": "Ollama",
       "path": "Tools/ollama.md"
     },
     {
+      "name": "OTTER.AI",
+      "path": "Tools/otter-ai.md"
+    },
+    {
+      "name": "overhead.",
+      "path": "Tools/overhead.md"
+    },
+    {
+      "name": "Paradox",
+      "path": "Tools/paradox.md"
+    },
+    {
       "name": "Parker",
       "path": "Tools/parker.md"
+    },
+    {
+      "name": "per briefing.",
+      "path": "Tools/per-briefing.md"
+    },
+    {
+      "name": "PERPLEXITY",
+      "path": "Tools/perplexity.md"
+    },
+    {
+      "name": "previous calls.",
+      "path": "Tools/previous-calls.md"
     },
     {
       "name": "Prism",
       "path": "Tools/prism.md"
     },
     {
+      "name": "processes.",
+      "path": "Tools/processes.md"
+    },
+    {
+      "name": "questions that consumed agent time without requiring human judgment.",
+      "path": "Tools/questions-that-consumed-agent-time-without-requiring-human-j.md"
+    },
+    {
       "name": "React Bits",
       "path": "Tools/react-bits.md"
+    },
+    {
+      "name": "requests.",
+      "path": "Tools/requests.md"
     },
     {
       "name": "Rive",
@@ -499,12 +875,36 @@
       "path": "Tools/shadcn-ui.md"
     },
     {
+      "name": "Shared Collaboration",
+      "path": "Tools/shared-collaboration.md"
+    },
+    {
+      "name": "simultaneously.",
+      "path": "Tools/simultaneously.md"
+    },
+    {
       "name": "Stitch",
       "path": "Tools/stitch.md"
     },
     {
+      "name": "systems.",
+      "path": "Tools/systems.md"
+    },
+    {
+      "name": "Tidio",
+      "path": "Tools/tidio.md"
+    },
+    {
+      "name": "time per piece.",
+      "path": "Tools/time-per-piece.md"
+    },
+    {
       "name": "Trae IDE",
       "path": "Tools/trae-ide.md"
+    },
+    {
+      "name": "volume outbound prospecting.",
+      "path": "Tools/volume-outbound-prospecting.md"
     },
     {
       "name": "Windsurf (Codeium)",
@@ -515,8 +915,24 @@
       "path": "Tools/wispr-flow.md"
     },
     {
+      "name": "with precision.",
+      "path": "Tools/with-precision.md"
+    },
+    {
+      "name": "without requiring senior judgment.",
+      "path": "Tools/without-requiring-senior-judgment.md"
+    },
+    {
+      "name": "Workato",
+      "path": "Tools/workato.md"
+    },
+    {
       "name": "Z-Image AI",
       "path": "Tools/z-image-ai.md"
+    },
+    {
+      "name": "ZoomInfo",
+      "path": "Tools/zoominfo.md"
     }
   ]
 }

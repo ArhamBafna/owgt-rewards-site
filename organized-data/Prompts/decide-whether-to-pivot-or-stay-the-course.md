@@ -1,0 +1,23 @@
+### Name
+Decide Whether to Pivot or Stay the Course
+
+### Description
+Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+
+### Prompt
+```text
+I need to decide whether to pivot or stay the course on [describe
+current direction]. Here is what the data is telling me: [share
+what you know]. Here is what I'm uncertain about: [describe]. Build
+two scenarios: one where the current signals are a real problem
+requiring a change, and one where they are noise that will resolve.
+Tell me what I would need to see in the next 60 days to know which
+scenario is true.
+```
+
+### Category
+Prompts
+
+### Tags
+- Prompt
+- Workflow

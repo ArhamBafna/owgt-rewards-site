@@ -1,0 +1,21 @@
+### Name
+Decide Whether to Promote or Let Go
+
+### Description
+Extracted from V1 -  The AI Decision Playbook 25 Claude Prompts for Better Business Decisions-text.txt
+
+### Prompt
+```text
+I'm facing a decision about [role]: whether to promote/invest
+further or move on. Here is what I observe: [describe performance and
+behaviors]. Here is what I'm uncertain about: [describe]. Give me the
+question I should ask in a direct conversation with this person that
+would give me the clearest signal about the right decision.
+```
+
+### Category
+Prompts
+
+### Tags
+- Prompt
+- Workflow
