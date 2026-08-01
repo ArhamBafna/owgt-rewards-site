@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompts - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  
+  <style>
+    /* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival (Drop 06 · Pressroom) */
+    
+    /* Nav - N6 Newspaper Masthead */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    /* Category Header */
+    .category-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-paper-2);
+      border-bottom: 2px solid var(--color-ink);
+    }
+    
+    /* Subcategory Tabs */
+    .subcat-tabs {
+      display: flex;
+      gap: var(--space-sm);
+      overflow-x: auto;
+      padding: var(--space-md) var(--page-gutter);
+      border-bottom: 2px solid var(--color-ink);
+      background: var(--color-paper);
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .subcat-tabs::-webkit-scrollbar { display: none; }
+    .subcat-tab {
+      padding: var(--space-xs) var(--space-md);
+      border: 2px solid var(--color-ink);
+      background: var(--color-paper-2);
+      font-family: var(--font-outlier);
+      font-size: var(--text-xs);
+      letter-spacing: var(--ls-label);
+      text-transform: uppercase;
+      white-space: nowrap;
+      cursor: pointer;
+      box-shadow: 2px 2px 0 var(--color-ink);
+      transition: all var(--duration-fast) var(--ease-out);
+    }
+    .subcat-tab:hover, .subcat-tab.is-active {
+      background: var(--color-cat-prompts);
+      color: var(--color-ink);
+      transform: translate(-1px, -1px);
+      box-shadow: 3px 3px 0 var(--color-ink);
+    }
+    
+    /* Filters Bar */
+    .filters-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      padding: var(--space-md) var(--page-gutter);
+      background: var(--color-paper-2);
+      border-bottom: 2px solid var(--color-ink);
+      align-items: center;
+      justify-content: space-between;
+    }
+    .search-input {
+      flex: 1;
+      min-width: 250px;
+      padding: var(--space-sm) var(--space-md);
+      border: 2px solid var(--color-ink);
+      background: var(--color-paper);
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+    }
+    .search-input:focus {
+      outline: var(--focus-ring);
+      outline-offset: var(--focus-offset);
+    }
+    
+    /* Footer */
+    .foot-mast {
+      padding: var(--space-3xl) var(--page-gutter);
+      text-align: center;
+      border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .wordmark { font-family: var(--font-display); font-size: var(--text-2xl); font-variation-settings: "wdth" 110, "wght" 800; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+
+  <!-- N6 Newspaper Masthead -->
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html" class="active">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="index.html#spotlight">Spotlight</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    
+    <!-- Category Header -->
+    <header class="category-header">
+      <div class="container container--narrow">
+        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">PROMPTS</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          142 curated prompt templates spanning writing, coding, marketing, and business strategy.
+        </p>
+      </div>
+    </header>
+
+    <!-- Subcategory Tabs -->
+    <nav class="subcat-tabs" aria-label="Subcategories">
+      <button class="subcat-tab is-active">All Prompts</button>
+      <button class="subcat-tab">Writing & Content</button>
+      <button class="subcat-tab">Marketing & Sales</button>
+      <button class="subcat-tab">Coding & Dev</button>
+      <button class="subcat-tab">Business & Strategy</button>
+      <button class="subcat-tab">Design & Creative</button>
+      <button class="subcat-tab">Personal Productivity</button>
+      <button class="subcat-tab">Data & Analysis</button>
+    </nav>
+
+    <!-- Filters Bar -->
+    <div class="filters-bar">
+      <input type="text" class="search-input" placeholder="Search prompts... (Press '/' to focus)">
+      
+      <div style="display: flex; gap: var(--space-sm); align-items: center;">
+        <select class="search-input" style="min-width: auto; padding-right: var(--space-lg);">
+          <option>All Tags</option>
+          <option>#copywriting</option>
+          <option>#seo</option>
+          <option>#research</option>
+        </select>
+        
+        <label style="font-family: var(--font-outlier); font-size: var(--text-xs); text-transform: uppercase;">
+          <input type="checkbox" style="margin-right: 4px;"> Long Form Only
+        </label>
+      </div>
+    </div>
+
+    <!-- Product Card Grid -->
+    <section class="section">
+      <div class="container container--wide">
+        
+        <div class="card-grid card-grid--4">
+          
+          <!-- Deep Item Card -->
+          <a href="deep-prompt.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+              <span class="tag" style="font-size: 9px; padding: 2px 6px;">Marketing & Sales</span>
+              <button class="btn--ghost" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Customer Persona Generator</h3>
+              <p class="card__desc">Deeply detailed market research persona based on target demographic.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">#research #marketing</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <!-- Shallow/Inline Expandable Card -->
+          <div class="card card--expandable" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+              <span class="tag" style="font-size: 9px; padding: 2px 6px;">Writing & Content</span>
+              <button class="btn--ghost" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Grammar Polish (Quick)</h3>
+              <p class="card__desc">Fix grammar and flow without changing the core tone.</p>
+            </div>
+            <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+              <span>View Prompt</span>
+              <span class="card__expand-arrow">↓</span>
+            </button>
+            <div class="card__expand-content">
+              <p style="font-family: var(--font-outlier); font-size: var(--text-sm); white-space: pre-wrap; background: var(--color-paper); padding: var(--space-sm); border: 1px solid var(--color-ink);">"Please review the following text for grammar, punctuation, and flow. Do not rewrite it entirely or change the tone. Just fix the errors: [TEXT]"</p>
+              <button class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;" onclick="alert('Copied!')">Copy Prompt</button>
+            </div>
+          </div>
+          
+          <!-- Deep Item Card -->
+          <a href="deep-prompt.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+              <span class="tag" style="font-size: 9px; padding: 2px 6px;">Coding & Dev</span>
+              <button class="btn--ghost" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Regex Explainer</h3>
+              <p class="card__desc">Break down any complex regular expression into plain English.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">#coding #regex</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+
+          <!-- Shallow/Inline Expandable Card -->
+          <div class="card card--expandable" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+              <span class="tag" style="font-size: 9px; padding: 2px 6px;">Business & Strategy</span>
+              <button class="btn--ghost" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">SWOT Analysis Generator</h3>
+              <p class="card__desc">Generate a complete SWOT matrix for a given business concept.</p>
+            </div>
+            <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+              <span>View Prompt</span>
+              <span class="card__expand-arrow">↓</span>
+            </button>
+            <div class="card__expand-content">
+              <p style="font-family: var(--font-outlier); font-size: var(--text-sm); white-space: pre-wrap; background: var(--color-paper); padding: var(--space-sm); border: 1px solid var(--color-ink);">"Act as a business strategist. Generate a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) for the following business concept: [CONCEPT]"</p>
+              <button class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;" onclick="alert('Copied!')">Copy Prompt</button>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div style="margin-top: var(--space-2xl); text-align: center;">
+          <button class="btn btn--secondary">Load More Items</button>
+        </div>
+        
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+      <p class="links muted">© 2026 OWGT · Curated by Ben's Bites & The Rundown</p>
+      
+      <div style="margin-top: var(--space-xl); text-align: center;">
+        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
