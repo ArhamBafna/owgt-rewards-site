@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning - OWGT Rewards Library</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+    .category-header { padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }
+    .foot-mast { padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }
+    .foot-mast .wordmark { font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="tags.html">Tags</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="category-header">
+      <div class="container container--narrow">
+        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">LEARNING</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">25 curated entries.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          
+            <a href="ai-agent-coordination.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-agent-coordination" data-title="AI AGENT COORDINATION" data-path="ai-agent-coordination" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI AGENT COORDINATION</h3>
+                <p class="card__desc">Setting up and managing Al agents, autonomous tools that can perform tasks like web research, data collection, and content processing without continuous human input.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-assisted-content-creation.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-assisted-content-creation" data-title="AI-ASSISTED CONTENT CREATION" data-path="ai-assisted-content-creation" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI-ASSISTED CONTENT CREATION</h3>
+                <p class="card__desc">Using Al to produce first drafts, outlines, and content variations, and then editing and improving them using human judgment.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-assisted-recruiting.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-assisted-recruiting" data-title="AI-ASSISTED RECRUITING" data-path="ai-assisted-recruiting" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI-ASSISTED RECRUITING</h3>
+                <p class="card__desc">Using Al tools to screen applications, draft job descriptions, without compromising the quality of the hire.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-competitive-intelligence.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-competitive-intelligence" data-title="AI COMPETITIVE INTELLIGENCE" data-path="ai-competitive-intelligence" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI COMPETITIVE INTELLIGENCE</h3>
+                <p class="card__desc">Using Al to monitor competitor moves, funding signals, hiring patterns, and market shifts on an ongoing basis, turning passive awareness into active intelligence.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-crm-and-pipeline-management.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-crm-and-pipeline-management" data-title="AI CRM AND PIPELINE MANAGEMENT" data-path="ai-crm-and-pipeline-management" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI CRM AND PIPELINE MANAGEMENT</h3>
+                <p class="card__desc">Using Al tools embedded in or connected to CRM systems to update records, surface deal risks, forecast pipeline, and automate follow-up tasks.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-data-interpretation.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-data-interpretation" data-title="AI DATA INTERPRETATION" data-path="ai-data-interpretation" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI DATA INTERPRETATION</h3>
+                <p class="card__desc">Using Al to make sense of data sets, reports, and survey results, identifying key patterns, outliers, and actionable implications without requiring data science expertise.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-ethics-and-governance-awareness.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-ethics-and-governance-awareness" data-title="AI Ethics and Governance Awareness" data-path="ai-ethics-and-governance-awareness" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI Ethics and Governance Awareness</h3>
+                <p class="card__desc">Understanding where Al can be used appropriately, covering data privacy, bias, and regulatory compliance. This is a professional judgment skill, not a technical one. Beginner: Knows which data cannot enter external Al tools. Understands the basics of Al bias.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-learning-and-development.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-learning-and-development" data-title="AI LEARNING AND DEVELOPMENT" data-path="ai-learning-and-development" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI LEARNING AND DEVELOPMENT</h3>
+                <p class="card__desc">Using Al to design, personalise, and deliver training content, L&D methods.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-literacy.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-literacy" data-title="AI LITERACY" data-path="ai-literacy" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI LITERACY</h3>
+                <p class="card__desc">The ability to understand what Al tools can and cannot do, use them as part of a daily workflow, and explain their outputs to colleagues and stakeholders.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-output-verification.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-output-verification" data-title="AI OUTPUT VERIFICATION" data-path="ai-output-verification" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI OUTPUT VERIFICATION</h3>
+                <p class="card__desc">Critically evaluating Al output for accuracy, fabricated citations, and factual errors before acting on it.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-performance-management.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-performance-management" data-title="AI PERFORMANCE MANAGEMENT" data-path="ai-performance-management" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI PERFORMANCE MANAGEMENT</h3>
+                <p class="card__desc">Using Al to structure performance reviews, prepare development conversations, and build leadership development plans, with more consistency and less preparation time.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-powered-market-research.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-powered-market-research" data-title="AI-Powered Market Research" data-path="ai-powered-market-research" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI-Powered Market Research</h3>
+                <p class="card__desc">Using AI tools to gather, synthesize, and interpret market data, competitive intelligence, and industry trends faster than traditional research methods.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Skills #Market Research #Strategy</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-powered-process-documentation.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-powered-process-documentation" data-title="AI-Powered Process Documentation" data-path="ai-powered-process-documentation" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI-Powered Process Documentation</h3>
+                <p class="card__desc">Using Al to document and improve business processes faster and more consistently.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-presentation-and-document-production.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-presentation-and-document-production" data-title="AI Presentation and Document Production" data-path="ai-presentation-and-document-production" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI Presentation and Document Production</h3>
+                <p class="card__desc">Using Al to convert research, data, or rough thinking into production.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-prompt-engineering.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-prompt-engineering" data-title="AI PROMPT ENGINEERING" data-path="ai-prompt-engineering" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI PROMPT ENGINEERING</h3>
+                <p class="card__desc">Designing structured instructions that produce useful, specific Al outputs instead of just typing questions and hoping.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-sales-outreach-and-sequencing.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-sales-outreach-and-sequencing" data-title="AI SALES OUTREACH AND SEQUENCING" data-path="ai-sales-outreach-and-sequencing" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI SALES OUTREACH AND SEQUENCING</h3>
+                <p class="card__desc">Using Al to personalise outreach at scale, researching prospects, drafting personalised emails and messages, and building sequenced follow-up workflows.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-tool-evaluation-and-selection.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-tool-evaluation-and-selection" data-title="AI Tool Evaluation and Selection" data-path="ai-tool-evaluation-and-selection" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI Tool Evaluation and Selection</h3>
+                <p class="card__desc">Knowing which AI tool is right for a specific job and being able to justify that decision.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Skills #Tool Evaluation #Procurement</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-video-and-visual-content.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-video-and-visual-content" data-title="AI Video and Visual Content" data-path="ai-video-and-visual-content" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI Video and Visual Content</h3>
+                <p class="card__desc">Using Al tools to generate, edit, or enhance visual and video content, reducing production time without reducing output quality.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="ai-workflow-building-no-code.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-workflow-building-no-code" data-title="AI WORKFLOW BUILDING NO-CODE" data-path="ai-workflow-building-no-code" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI WORKFLOW BUILDING NO-CODE</h3>
+                <p class="card__desc">Using tools like Zapier, Make, or Gumloop to connect applications and automate repetitive tasks without writing code.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-ai-for-beginners" data-title="AI for Beginners (Microsoft)" data-path="lesson-ai-for-beginners" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI for Beginners (Microsoft)</h3>
+                <p class="card__desc">12-week, 24-lesson curriculum exploring Artificial Intelligence.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">12-week, 24-lesson curriculum exploring Artificial Intelligence.</p>
+                <a href="https://github.com/microsoft/ai-for-beginners" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-cold-email-how-to-write-like-a-human" data-title="Cold Email: How to Write Like a Human" data-path="lesson-cold-email-how-to-write-like-a-human" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Cold Email: How to Write Like a Human</h3>
+                <p class="card__desc">Maven course on writing human-like cold emails</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Maven course on writing human-like cold emails</p>
+                <a href="https://maven.com/p/8a65ef/cold-email-how-to-write-like-a-human" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-how-to-hire-an-ai-email-marketer" data-title="How to Hire an AI Email Marketer" data-path="lesson-how-to-hire-an-ai-email-marketer" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">How to Hire an AI Email Marketer</h3>
+                <p class="card__desc">Maven course on hiring an AI email marketer</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Maven course on hiring an AI email marketer</p>
+                <a href="https://maven.com/p/9763a4/how-to-hire-an-ai-email-marketer" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-llm-zoomcamp" data-title="LLM Zoomcamp" data-path="lesson-llm-zoomcamp" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">LLM Zoomcamp</h3>
+                <p class="card__desc">Free online course and starter code for building RAG systems and Q&A AI over custom knowledge bases.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Free online course and starter code for building RAG systems and Q&A AI over custom knowledge bases.</p>
+                <a href="https://github.com/DataTalksClub/llm-zoomcamp" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-made-with-ml" data-title="Made With ML" data-path="lesson-made-with-ml" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Made With ML</h3>
+                <p class="card__desc">Learn how to build, deploy, and scale ML applications in production.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Learn how to build, deploy, and scale ML applications in production.</p>
+                <a href="https://github.com/GokuMohandas/Made-With-ML" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="lesson-nanochat" data-title="nanochat (Karpathy)" data-path="lesson-nanochat" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">nanochat (Karpathy)</h3>
+                <p class="card__desc">The simplest, cleanest beginner code template for training and understanding GPT LLM architectures.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">The simplest, cleanest beginner code template for training and understanding GPT LLM architectures.</p>
+                <a href="https://github.com/karpathy/nanochat" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

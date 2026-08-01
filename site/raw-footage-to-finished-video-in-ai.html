@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raw Footage to Finished Video — AI Setup & Workflow Guide - OWGT Rewards</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .deep-header { padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }
+    .prompt-box { background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }
+    .prompt-text { font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }
+    .copy-bar { display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-paper-3); }
+    .item-nav { display: flex; justify-content: space-between; max-width: 800px; margin: var(--space-2xl) auto; gap: var(--space-md); }
+    .item-nav-btn { flex: 1; padding: var(--space-md); border: 2px solid var(--color-ink); background: var(--color-paper-2); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; }
+    .item-nav-btn.next { text-align: right; }
+    .item-nav-btn.disabled { opacity: 0.5; border-style: dashed; }
+    .foot-mast { padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Raw Footage to Finished Video — AI Setup & Workflow Guide</h1>
+        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">An AI setup guide utilizing open-source tools and HyperFrames to automatically edit, score, and caption raw video footage without Premiere.</p>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="prompt-box">
+          <div class="prompt-text">Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.
+
+---
+
+## Overview
+
+#### What You Are Building
+A single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.
+
+#### How It Works
+- `video-use`: Free open-source skill that reads transcript, finds cut points, and runs the main edit.
+- `HyperFrames`: Code-based graphic generator called by `video-use` when visual elements are needed. You only talk to `video-use`.
+
+---
+
+## Setup (One-Time)
+
+1. Copy the `video-use` link from community files.
+2. Paste link into AI Code tab and prompt:
+   "Read install file first, install repo, set up FFmpeg, register skill, and prompt me for my key when needed."
+3. Paste ElevenLabs API key when prompted during first edit run.
+
+---
+
+## Workflow
+
+#### 1. Rough Cut
+Put raw video into project folder and prompt:
+"Start new project for raw clip and make rough cut."
+
+AI uses Scribe for word-level timestamps, flags filler words and pauses, shows cut plan, and waits for approval.
+
+Fix-it prompts:
+- "Add a bit more padding before that sentence."
+- "Remove the word 'basically' at start of line."
+
+> [!IMPORTANT]
+> Lock rough cut before adding graphics to avoid timing misalignment later.
+
+---
+
+#### 2. Graphics
+Open new chat for graphics phase and prompt:
+"Plan motion graphic for each segment, then build."
+
+Refinement prompts:
+- "Use primary brand orange instead of default blue."
+- "Place logo PNG on intro graphic."
+- "Slow down entrance animation speed."
+
+Each tweak only re-renders affected section.
+
+---
+
+#### 3. Captions
+Prompt:
+"Add captions using existing transcript."
+
+Generated using existing Scribe timestamps.
+
+---
+
+#### 4. Music
+Point AI to audio file and set volume level (recommended **-22 to -23 dB** for background voice balance):
+"Add background music using this track at -22 dB."
+
+---
+
+#### 5. Export
+Prompt:
+"Export final video."
+
+Final file saves to downloads directory; source project folder remains intact.
+
+---
+
+## Summary Prompt Reference
+
+| Phase | Command / Prompt |
+| :--- | :--- |
+| **Setup** | `"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for key when needed."` |
+| **Rough Cut** | `"Start new project for raw clip and make rough cut."` |
+| **Graphics** | `"Plan motion graphic for each segment, then build."` |
+| **Captions** | `"Add captions using existing transcript."` |
+| **Export** | `"Export final video."` |
+
+---
+
+## Key Notes
+
+- Word-level Scribe timestamps give accurate cut placement.
+- Use natural language prompts for edits instead of manual timeline trimming.</div>
+          <div class="copy-bar">
+            <span class="meta">Press 'C' to copy</span>
+            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(this.previousElementSibling.parentElement.previousElementSibling.innerText, this)">Copy Content</button>
+          </div>
+        </div>
+
+        <nav class="item-nav">
+          <a href="prompt-engineering.html" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Prompt Engineering Guide</span></a>
+          <a href="the-1m-solopreneur-mvp.html" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">The 1M Solopreneur MVP</span></a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

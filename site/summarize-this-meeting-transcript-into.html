@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summarize This Meeting Transcript Into - OWGT Rewards</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .deep-header { padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }
+    .prompt-box { background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }
+    .prompt-text { font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }
+    .copy-bar { display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-paper-3); }
+    .item-nav { display: flex; justify-content: space-between; max-width: 800px; margin: var(--space-2xl) auto; gap: var(--space-md); }
+    .item-nav-btn { flex: 1; padding: var(--space-md); border: 2px solid var(--color-ink); background: var(--color-paper-2); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; }
+    .item-nav-btn.next { text-align: right; }
+    .item-nav-btn.disabled { opacity: 0.5; border-style: dashed; }
+    .foot-mast { padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ PROMPTS</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Summarize This Meeting Transcript Into</h1>
+        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">Summarize this meeting transcript into key decisions, open questions, and next steps with owners: [p...</p>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Prompt</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Workflow</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="prompt-box">
+          <div class="prompt-text">```text
+Summarize this meeting transcript into key decisions, open questions, and next steps with owners: [paste 19. 11. Summarize the key arguments, evidence, and conclusions from this article in 5 bullet points: [paste article]
+```</div>
+          <div class="copy-bar">
+            <span class="meta">Press 'C' to copy</span>
+            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(this.previousElementSibling.parentElement.previousElementSibling.innerText, this)">Copy Content</button>
+          </div>
+        </div>
+
+        <nav class="item-nav">
+          <a href="summarize-this-email-thread-into.html" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Summarize This Email Thread Into</span></a>
+          <a href="team-alignment-message.html" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Team Alignment Message</span></a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

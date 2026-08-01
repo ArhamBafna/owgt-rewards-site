@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Model Should I Use? (Field Guide) - OWGT Rewards</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .deep-header { padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }
+    .prompt-box { background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }
+    .prompt-text { font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }
+    .copy-bar { display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-paper-3); }
+    .item-nav { display: flex; justify-content: space-between; max-width: 800px; margin: var(--space-2xl) auto; gap: var(--space-md); }
+    .item-nav-btn { flex: 1; padding: var(--space-md); border: 2px solid var(--color-ink); background: var(--color-paper-2); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; }
+    .item-nav-btn.next { text-align: right; }
+    .item-nav-btn.disabled { opacity: 0.5; border-style: dashed; }
+    .foot-mast { padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Which Model Should I Use? (Field Guide)</h1>
+        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A strategic framework for choosing the right AI model for the job and deciding how much "effort" or "thinking time" to give it, maximizing productivity while saving costs and credits.</p>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Workflow</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Strategy</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Best Practices</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Models</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="prompt-box">
+          <div class="prompt-text">When working with AI, you are essentially choosing which person to call and how long to let them think. Every company stacks their models the same three ways:
+
+#### The Three Personas of AI Models
+1. **The Staff (e.g., Claude Sonnet, ChatGPT Luna)**: Fast, cheap, and good at almost everything that fills a normal day. Start here, and you will be right most of the time. (Cost: ~2 coins)
+2. **The Manager (e.g., Claude Opus, ChatGPT Terra)**: You go to this one when the work actually matters. A serious document, a harder problem, a plan you are going to build on top of. (Cost: ~5 coins)
+3. **The Consultant (e.g., Claude Fable, ChatGPT Sol)**: Brilliant, expensive, and slow. You bring this one in for the hard part, and then you let them go. (Cost: ~10 coins)
+
+**Rule of Thumb**: Can the staff do it? Yes. Is it worth paying the consultant? Probably not.
+
+#### The Effort Dial (Thinking Time)
+Every model has a dial controlling how long it thinks before answering.
+- **LOW**: Simple work in volume. Fast and cheap.
+- **MEDIUM**: The everyday setting. Good results without the wait.
+- **HIGH**: Real thinking. Hard problems and the final check.
+- **MAX**: The one decision everything else hangs on.
+
+*Note*: Pushing the dial all the way up for ordinary work causes the AI to overthink. Start lower than feels right and climb only when the answer disappoints you. The dial controls thinking, not talking.
+
+#### Workflows by Task Type
+
+- **Errands (Web searches, lookups, quick edits, summaries)**
+  - *Who*: Staff
+  - *Setting*: LOW
+  - *Why*: The expensive model and the cheap one bring back the same answer, but the cheap one is faster. 
+- **Writing (Copy and Emails)**
+  - *Who*: Manager decides, Staff drafts
+  - *Setting*: MEDIUM
+  - *Why*: A piece is settled before the first sentence is written. Plan with the manager, let the staff type.
+- **Documents & PDFs**
+  - *Who*: Manager plans, Staff builds
+  - *Setting*: MEDIUM, THEN LOW
+- **Deep Research**
+  - *Who*: Manager
+  - *Setting*: LOW TO MEDIUM
+  - *Why*: Research runs on finding good sources, not overthinking them.
+- **Slide Decks**
+  - *Who*: Staff builds, Consultant polishes
+  - *Setting*: MEDIUM, THEN HIGH
+- **Spreadsheets**
+  - *Who*: Staff (one sheet) or Consultant (many sheets)
+  - *Setting*: MEDIUM or HIGH
+- **Websites and Apps**
+  - *Who*: Consultant plans, Staff builds
+  - *Setting*: HIGH, THEN LOW
+
+#### The Paragraph That Pays For Itself
+The smartest models are incredibly wordy. You pay for every word. Use this standing order (as a Custom Instruction, Skill, or Text Expander snippet) to cut costs and save time:
+
+> Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.</div>
+          <div class="copy-bar">
+            <span class="meta">Press 'C' to copy</span>
+            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(this.previousElementSibling.parentElement.previousElementSibling.innerText, this)">Copy Content</button>
+          </div>
+        </div>
+
+        <nav class="item-nav">
+          <a href="top-ai-courses-for-beginners.html" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Top AI Courses for Beginners</span></a>
+          <a href="zapier-sdk-quickstart.html" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Zapier SDK Quickstart</span></a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

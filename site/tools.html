@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools - OWGT Rewards Library</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+    .category-header { padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }
+    .foot-mast { padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }
+    .foot-mast .wordmark { font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="tags.html">Tags</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="category-header">
+      <div class="container container--narrow">
+        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">TOOLS</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">74 curated entries.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          
+            <a href="ada.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="ada" data-title="Ada" data-path="ada" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Ada</h3>
+                <p class="card__desc">AI customer service automation that resolves customer issues across every channel.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Customer Support #Multi-Channel</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="animejs" data-title="AnimeJS" data-path="animejs" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AnimeJS</h3>
+                <p class="card__desc">Lightweight JavaScript animation library.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Lightweight JavaScript animation library.</p>
+                <a href="https://animejs.com/documentation/getting-started/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="apollo-io.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="apollo-io" data-title="Apollo.Io" data-path="apollo-io" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Apollo.Io</h3>
+                <p class="card__desc">Sales intelligence, lead identification, and outreach platform, finding contacts, verifying emails, and executing outbound sequences.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="atlassian-rovo.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="atlassian-rovo" data-title="Atlassian Rovo" data-path="atlassian-rovo" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Atlassian Rovo</h3>
+                <p class="card__desc">AI-powered knowledge management and search for organisations that run on Confluence and Jira, with agent capabilities for taking action on what it finds. Why enterprises choose it: For Atlassian-first organisations, Rovo provides deep native integration that generic enterprise search tools cannot match. It understands the structure of Jira tickets, Confluence pages, and the relationships between them.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="bytez.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="bytez" data-title="Bytez" data-path="bytez" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Bytez</h3>
+                <p class="card__desc">Open source AI tools and APIs.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Open Source #API #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="chat-jimmy.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="chat-jimmy" data-title="Chat Jimmy" data-path="chat-jimmy" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Chat Jimmy</h3>
+                <p class="card__desc">Holy fast AI chat interface.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Chat Interface #Fast #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="chatgpt-enterprise.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="chatgpt-enterprise" data-title="Chatgpt (Enterprise)" data-path="chatgpt-enterprise" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Chatgpt (Enterprise)</h3>
+                <p class="card__desc">Conversational AI for drafting, analysing, summarising, and general writing across all business functions.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="chatgpt.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="chatgpt" data-title="Chatgpt" data-path="chatgpt" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Chatgpt</h3>
+                <p class="card__desc">Conversational AI for analysis, drafting, summarising, and cross-function general use. Why enterprises choose it: OpenAI's APIs are the most widely adopted generative AI infrastructure in enterprise organisations. ChatGPT Enterprise offers data privacy controls, higher context windows, and admin controls for team deployment.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="claude-api.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="claude-api" data-title="Claude Api" data-path="claude-api" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Claude Api</h3>
+                <p class="card__desc">Foundation model API for building AI-native features and internal tools, document processing, code review, analysis pipelines, and custom AI applications. Why enterprises choose it: OpenAI and Anthropic APIs are the two most widely adopted generative AI APIs in enterprise organisations. The Claude API is chosen specifically for applications requiring long-context processing, nuanced reasoning, and high-quality written output.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="claude.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="claude" data-title="Claude" data-path="claude" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Claude</h3>
+                <p class="card__desc">Long-form content generation, editing, and nuanced written communication that matches voice and tone.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="composio" data-title="Composio" data-path="composio" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Composio</h3>
+                <p class="card__desc">Powers 1000+ free toolkits, tool search, context management, and sandboxed execution for production AI agents.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Powers 1000+ free toolkits, tool search, context management, and sandboxed execution for production AI agents.</p>
+                <a href="https://github.com/ComposioHQ/composio" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="consensus.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="consensus" data-title="Consensus" data-path="consensus" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Consensus</h3>
+                <p class="card__desc">AI-powered search across peer-reviewed scientific literature, with summaries and consensus indicators for each claim.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Research #Scientific Literature</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="copy-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="copy-ai" data-title="Copy.ai" data-path="copy-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Copy.ai</h3>
+                <p class="card__desc">AI content workflows for go-to-market teams, outbound sequences, sales copy, product marketing.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Copywriting #Marketing</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="cursor.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="cursor" data-title="Cursor" data-path="cursor" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Cursor</h3>
+                <p class="card__desc">An AI-first code editor built around multi-file code understanding, with the ability to reference entire codebases when generating or editing code. Why enterprises choose it: Cursor operates at a higher level than Copilot. Where Copilot completes lines and functions, Cursor can understand the architecture of a full codebase and make changes across multiple files simultaneously. Developers working on complex systems report it as qualitatively different from autocomplete-based tools.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="dictaflow.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="dictaflow" data-title="DictaFlow" data-path="dictaflow" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">DictaFlow</h3>
+                <p class="card__desc">AI Dictation for Windows, Mac, iPhone & Android.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Speech to Text #Dictation #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="drift.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="drift" data-title="Drift" data-path="drift" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Drift</h3>
+                <p class="card__desc">AI-powered conversational marketing and sales qualification through chat.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Conversational Marketing #Sales Qualification</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="eightfold.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="eightfold" data-title="Eightfold" data-path="eightfold" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Eightfold</h3>
+                <p class="card__desc">AI talent intelligence platform that matches candidates to roles, identifies internal mobility opportunities.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Recruiting #Talent Intelligence</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="fireflies-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="fireflies-ai" data-title="Fireflies.Ai" data-path="fireflies-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Fireflies.Ai</h3>
+                <p class="card__desc">Meeting transcription and AI notes across Zoom, Google Meet, Teams, and Webex, with 6,000+ integrations for distributing meeting data to downstream systems.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="freedomto" data-title="freedom.to" data-path="freedomto" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">freedom.to</h3>
+                <p class="card__desc">Block Websites, Apps, and the Internet</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Block Websites, Apps, and the Internet</p>
+                <a href="https://freedom.to/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="gamma.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="gamma" data-title="Gamma" data-path="gamma" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Gamma</h3>
+                <p class="card__desc">AI-generated presentations, documents, and web pages from a prompt or document input, with design built in.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Presentations #Design</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="github-copilot.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="github-copilot" data-title="Github Copilot" data-path="github-copilot" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Github Copilot</h3>
+                <p class="card__desc">AI code completion, generation, and review integrated directly into the developer's IDE, VS Code, JetBrains, Vim, and others. Why enterprises choose it: GitHub Copilot is the most widely deployed AI coding tool in enterprise environments. It writes code suggestions as developers type, generates functions from comments, explains existing code, and reviews pull requests. It integrates into the existing development workflow without changing how engineers work.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="gong.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="gong" data-title="Gong" data-path="gong" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Gong</h3>
+                <p class="card__desc">Revenue intelligence platform with meeting recording, transcript analysis, deal scoring, and sales coaching built in. Why enterprises choose it: Gong is the market leader for sales conversation intelligence. It turns every customer call into searchable, analyzable data, surfacing deal risks, coaching opportunities, and pipeline signals that would otherwise stay in a rep's head.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="google-ai-flow" data-title="Google AI Flow" data-path="google-ai-flow" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Google AI Flow</h3>
+                <p class="card__desc">Google Labs FX Tools Flow</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Google Labs FX Tools Flow</p>
+                <a href="https://labs.google/fx/tools/flow" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="grok.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="grok" data-title="Grok" data-path="grok" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Grok</h3>
+                <p class="card__desc">AI model with real-time access to X data, surfacing breaking news, market signals, and live conversation before they reach traditional media.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="gumloop.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="gumloop" data-title="Gumloop" data-path="gumloop" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Gumloop</h3>
+                <p class="card__desc">AI-first workflow builder with GPT-4 nodes built in, loops, branches, and web scraping combined with AI-native processing. Why enterprises choose it: Gumloop is built for workflows that require AI reasoning, not just data passing. Where Zapier and Make move data between systems, Gumloop can process that data intelligently at each step using built-in AI nodes. It is the newest of the three, with an AI-native architecture rather than AI added to a legacy automation tool.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hallmark" data-title="Hallmark" data-path="hallmark" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Hallmark</h3>
+                <p class="card__desc">A design skill that refuses to look AI-generated.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">A design skill that refuses to look AI-generated.</p>
+                <a href="https://www.usehallmark.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="herenow" data-title="here.now" data-path="herenow" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">here.now</h3>
+                <p class="card__desc">Instant web hosting for AI agents.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Instant web hosting for AI agents.</p>
+                <a href="https://here.now/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hexta-ui" data-title="Hexta UI" data-path="hexta-ui" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Hexta UI</h3>
+                <p class="card__desc">Extended Components & Blocks for shadcn/ui.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Extended Components & Blocks for shadcn/ui.</p>
+                <a href="https://www.hextaui.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="hirevue.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hirevue" data-title="HireVue" data-path="hirevue" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">HireVue</h3>
+                <p class="card__desc">AI video interview platform that conducts, scores, and ranks candidate video responses.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Recruiting #Video Interview</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hoverdev" data-title="Hover.dev" data-path="hoverdev" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Hover.dev</h3>
+                <p class="card__desc">Prebuilt UI animations and interactions for React, Tailwind CSS, Framer Motion.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Prebuilt UI animations and interactions for React, Tailwind CSS, Framer Motion.</p>
+                <a href="https://www.hover.dev/components" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="hubert.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hubert" data-title="Hubert" data-path="hubert" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Hubert</h3>
+                <p class="card__desc">AI-powered candidate screening through conversational interviews, candidates complete an AI-led interview before reaching a human recruiter.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="hubspot-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hubspot-ai" data-title="HubSpot AI" data-path="hubspot-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">HubSpot AI</h3>
+                <p class="card__desc">AI-powered CRM with content generation, email personalisation, and workflow automation built across the entire HubSpot platform.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="hunyuan-video.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="hunyuan-video" data-title="Hunyuan Video" data-path="hunyuan-video" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Hunyuan Video</h3>
+                <p class="card__desc">Free Online AI Video Generation Tool.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Video Generation #Free #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="ideogram-40" data-title="Ideogram 4.0" data-path="ideogram-40" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Ideogram 4.0</h3>
+                <p class="card__desc">Advanced AI image generation model.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Advanced AI image generation model.</p>
+                <a href="https://ideogram.ai/models/4.0/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="igloo-inc" data-title="Igloo Inc." data-path="igloo-inc" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Igloo Inc.</h3>
+                <p class="card__desc">Web3 and NFT community building tools</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Web3 and NFT community building tools</p>
+                <a href="https://www.igloo.inc/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="impeccable" data-title="Impeccable" data-path="impeccable" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Impeccable</h3>
+                <p class="card__desc">The missing upgrade to Anthropic's impeccable skill.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">The missing upgrade to Anthropic's impeccable skill.</p>
+                <a href="https://impeccable.style/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="intercom-fin.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="intercom-fin" data-title="Intercom (Fin)" data-path="intercom-fin" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Intercom (Fin)</h3>
+                <p class="card__desc">AI customer support agent that handles customer enquiries across chat, email, and messaging with context from your help centre and previous conversations.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="jasper.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="jasper" data-title="Jasper" data-path="jasper" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Jasper</h3>
+                <p class="card__desc">AI content generation trained specifically on high-performing marketing content, with brand voice controls.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Content Generation #Marketing</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="kokonut-ui" data-title="Kokonut UI" data-path="kokonut-ui" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Kokonut UI</h3>
+                <p class="card__desc">Open Source UI Components.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Open Source UI Components.</p>
+                <a href="https://kokonutui.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="lavender.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="lavender" data-title="Lavender" data-path="lavender" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Lavender</h3>
+                <p class="card__desc">AI email coaching and personalisation tool that scores outbound emails and suggests improvements in real time.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="llm-cli" data-title="LLM CLI Tool (Simon Willison)" data-path="llm-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">LLM CLI Tool (Simon Willison)</h3>
+                <p class="card__desc">Free CLI tool to run, prompt, and stream LLM outputs locally or via APIs directly inside your terminal.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Free CLI tool to run, prompt, and stream LLM outputs locally or via APIs directly inside your terminal.</p>
+                <a href="https://github.com/simonw/llm" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="magicui" data-title="MagicUI" data-path="magicui" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">MagicUI</h3>
+                <p class="card__desc">React Components & Templates for beautiful web apps.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">React Components & Templates for beautiful web apps.</p>
+                <a href="https://magicui.design/docs/components" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="make.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="make" data-title="Make" data-path="make" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Make</h3>
+                <p class="card__desc">Visual workflow automation with complex logic, branching, and data transformation.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Automation #Complex Logic</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="marketo-engage.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="marketo-engage" data-title="Marketo Engage" data-path="marketo-engage" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Marketo Engage</h3>
+                <p class="card__desc">AI-powered marketing automation, lead nurturing, email campaigns, scoring, and multi-channel campaign management at enterprise scale.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="microsoft-365-copilot.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="microsoft-365-copilot" data-title="Microsoft 365 Copilot" data-path="microsoft-365-copilot" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Microsoft 365 Copilot</h3>
+                <p class="card__desc">AI embedded across the Microsoft 365 suite, Outlook, Teams, Word, Excel, SharePoint, with access to the Microsoft Graph data layer. Why enterprises choose it: 90% of Fortune 500 companies already use Microsoft Cloud services. Copilot integrates AI into the tools employees already live in, with no new interface to learn and permission-correct access to the Microsoft stack. For Microsoft-first organisations, it is the lowest- friction enterprise AI deployment available.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="motiondev" data-title="Motion.dev" data-path="motiondev" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Motion.dev</h3>
+                <p class="card__desc">JavaScript & React animation library.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">JavaScript & React animation library.</p>
+                <a href="https://motion.dev/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="notebooklm.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="notebooklm" data-title="NotebookLM" data-path="notebooklm" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">NotebookLM</h3>
+                <p class="card__desc">AI research assistant that allows you to upload your own documents and ask questions across all of them simultaneously.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Research #Internal Knowledge</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="notion-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="notion-ai" data-title="Notion Ai" data-path="notion-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Notion Ai</h3>
+                <p class="card__desc">AI writing, summarisation, and Q&A capabilities embedded inside the Notion workspace, for teams already using Notion for documentation. Why enterprises choose it: For Notion-centric teams, Notion AI requires no new platform, no new login, and no new interface. It lives where the documents already live. It can summarize pages, answer questions about a knowledge base, draft new content, and reorganise existing documents.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="opal-experiment" data-title="Opal Experiment" data-path="opal-experiment" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Opal Experiment</h3>
+                <p class="card__desc">Google Opal Experiment landing page</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Google Opal Experiment landing page</p>
+                <a href="https://opal.google/landing/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="openai-oauth" data-title="openai-oauth" data-path="openai-oauth" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">openai-oauth</h3>
+                <p class="card__desc">Free AI with your ChatGPT account</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Free AI with your ChatGPT account</p>
+                <a href="https://github.com/EvanZhouDev/openai-oauth" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="openwhispr.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="openwhispr" data-title="OpenWhispr" data-path="openwhispr" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">OpenWhispr</h3>
+                <p class="card__desc">Open Source Voice to Text & Dictation App.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Open Source #Speech to Text #Dictation</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="otterai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="otterai" data-title="Otter.Ai" data-path="otterai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Otter.Ai</h3>
+                <p class="card__desc">Real-time transcription, collaborative note-taking during meetings, and searchable archives across your meeting history. Why enterprises choose it: Otter leads the category for transcription accuracy in 2026 at approximately 95%. Its real-time collaboration feature allows multiple participants to take and edit notes simultaneously during the call. It is the most accessible price point in the category, making it the common starting point for teams new to meeting AI.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="paradox-olivia.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="paradox-olivia" data-title="Paradox (Olivia)" data-path="paradox-olivia" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Paradox (Olivia)</h3>
+                <p class="card__desc">AI recruiting assistant that automates candidate conversations, scheduling, screening.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Recruiting #Candidate Coordination</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="parker" data-title="Parker" data-path="parker" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Parker</h3>
+                <p class="card__desc">AI tool for automation and productivity.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">AI tool for automation and productivity.</p>
+                <a href="https://heyparker.ai/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="perplexity.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="perplexity" data-title="Perplexity" data-path="perplexity" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Perplexity</h3>
+                <p class="card__desc">AI-powered search that retrieves and synthesises information from the web with citations for every claim.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="prism" data-title="Prism" data-path="prism" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Prism</h3>
+                <p class="card__desc">AI LaTeX Editor by OpenAI.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">AI LaTeX Editor by OpenAI.</p>
+                <a href="https://prism.openai.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="react-bits" data-title="React Bits" data-path="react-bits" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">React Bits</h3>
+                <p class="card__desc">Animated UI Components For React.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Animated UI Components For React.</p>
+                <a href="https://reactbits.dev/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="reply-io.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="reply-io" data-title="Reply.Io" data-path="reply-io" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Reply.Io</h3>
+                <p class="card__desc">AI-powered sales engagement platform, personalised outreach sequences, automated follow- ups, and meeting booking across email, LinkedIn, and phone.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="rive" data-title="Rive" data-path="rive" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Rive</h3>
+                <p class="card__desc">The interactive experience engine for fast, animated graphics.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">The interactive experience engine for fast, animated graphics.</p>
+                <a href="https://rive.app/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="rss-post-to-message" data-title="RSS Post to Message" data-path="rss-post-to-message" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">RSS Post to Message</h3>
+                <p class="card__desc">Relay.app template for posting RSS to a message</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Relay.app template for posting RSS to a message</p>
+                <a href="https://run.relay.app/shared/rss-post-to-message-CxdkjGBKGCJF" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="shadcn-ui" data-title="shadcn/ui" data-path="shadcn-ui" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">shadcn/ui</h3>
+                <p class="card__desc">Reusable, copy-paste UI components built with Tailwind CSS for modern web applications.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Reusable, copy-paste UI components built with Tailwind CSS for modern web applications.</p>
+                <a href="https://github.com/shadcn-ui/ui" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="stitch" data-title="Stitch" data-path="stitch" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Stitch</h3>
+                <p class="card__desc">Design with AI by Google.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Design with AI by Google.</p>
+                <a href="https://stitch.withgoogle.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="tidio.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="tidio" data-title="Tidio" data-path="tidio" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Tidio</h3>
+                <p class="card__desc">AI customer support and live chat platform that handles customer queries automatically.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Customer Support #Live Chat</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="tipalti.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="tipalti" data-title="Tipalti" data-path="tipalti" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Tipalti</h3>
+                <p class="card__desc">AI-powered accounts payable automation, invoice processing, approval workflows, payment execution, and reconciliation.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="uncensored-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="uncensored-ai" data-title="Uncensored AI" data-path="uncensored-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Uncensored AI</h3>
+                <p class="card__desc">Uncensored AI App Official.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Uncensored #App #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="vic-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="vic-ai" data-title="Vic.Ai" data-path="vic-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Vic.Ai</h3>
+                <p class="card__desc">AI accounting automation, autonomous invoice processing, coding, and approval with learning that improves accuracy over time.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="willow.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="willow" data-title="Willow Voice" data-path="willow" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Willow Voice</h3>
+                <p class="card__desc">AI Speech to Text Mac, Windows and iPhone Dictation Software.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Speech to Text #Dictation #AI Tools</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="workable.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="workable" data-title="Workable" data-path="workable" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Workable</h3>
+                <p class="card__desc">AI-powered applicant tracking with automated screening, interview scheduling, and candidate communication.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="workato.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="workato" data-title="Workato" data-path="workato" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Workato</h3>
+                <p class="card__desc">Enterprise automation platform connecting business systems with AI-powered workflows.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Automation #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="yupp" data-title="Yupp" data-path="yupp" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Yupp</h3>
+                <p class="card__desc">AI-powered creative legacy and tools</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">AI-powered creative legacy and tools</p>
+                <a href="https://yupp.ai/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="z-image-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="z-image-ai" data-title="Z-Image AI" data-path="z-image-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Z-Image AI</h3>
+                <p class="card__desc">Free, Fast, Photorealistic AI Image Generator.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Image Generation #Photorealistic #Free</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="zapier-mcp" data-title="Zapier MCP" data-path="zapier-mcp" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Zapier MCP</h3>
+                <p class="card__desc">Model Context Protocol servers for Zapier</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Model Context Protocol servers for Zapier</p>
+                <a href="https://mcp.zapier.com/mcp/servers/720c0233-782a-415b-ac2c-f2384b689acc/config" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <a href="zapier.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="zapier" data-title="Zapier" data-path="zapier" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Zapier</h3>
+                <p class="card__desc">No-code automation connecting 7,000+ applications with AI-native workflow capabilities.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Automation #No-Code</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+            <a href="zendesk-ai.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="zendesk-ai" data-title="Zendesk Ai" data-path="zendesk-ai" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Zendesk Ai</h3>
+                <p class="card__desc">AI-powered ticket routing, response drafting, and resolution for customer support teams already using Zendesk.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Tool #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
