@@ -64,6 +64,8 @@
       font-family: var(--font-outlier);
       transition: all var(--duration-fast) var(--ease-out);
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
     }
     .tag:hover {
       transform: translate(-1px, -1px);
@@ -76,16 +78,26 @@
     .foot-mast {
       padding: var(--space-3xl) var(--page-gutter);
       text-align: center;
+      display: flex;
+      justify-content: center;
       border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
     }
     .foot-mast .wordmark {
       font-family: var(--font-display);
       font-size: var(--text-2xl);
       font-variation-settings: "wdth" 110, "wght" 800;
       text-transform: uppercase;
+      text-align: center;
     }
-    .foot-mast .tagline { margin-top: var(--space-xs); font-family: var(--font-body); }
-    .foot-mast .links { margin-top: var(--space-lg); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs); letter-spacing: 0.05em; }
+    .foot-mast .tagline { margin-top: var(--space-xs); font-family: var(--font-body); text-align: center; }
+    .foot-mast .links { margin-top: var(--space-xs); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs); letter-spacing: 0.05em; text-align: center; }
   </style>
 </head>
 <body>
@@ -303,16 +315,16 @@
           <h2 style="color: var(--color-accent-2-ink);">Popular Tags</h2>
         </div>
         <div class="tag-cloud" style="justify-content: center; max-width: 800px; margin: 0 auto;">
-          <span class="tag">#marketing</span>
-          <span class="tag">#sales</span>
-          <span class="tag">#automation</span>
-          <span class="tag">#chatgpt</span>
-          <span class="tag">#midjourney</span>
-          <span class="tag">#copywriting</span>
-          <span class="tag">#sops</span>
-          <span class="tag">#seo</span>
-          <span class="tag">#research</span>
-          <span class="tag">#design</span>
+          <a href="tag-detail.html" class="tag">#marketing</a>
+          <a href="tags.html" class="tag">#sales</a>
+          <a href="tags.html" class="tag">#automation</a>
+          <a href="tags.html" class="tag">#chatgpt</a>
+          <a href="tags.html" class="tag">#midjourney</a>
+          <a href="tags.html" class="tag">#copywriting</a>
+          <a href="tags.html" class="tag">#sops</a>
+          <a href="tags.html" class="tag">#seo</a>
+          <a href="tags.html" class="tag">#research</a>
+          <a href="tags.html" class="tag">#design</a>
         </div>
       </div>
     </section>
@@ -322,7 +334,7 @@
   <footer class="foot-mast">
     <div class="container">
       <p class="wordmark">OWGT Rewards</p>
-      <p class="links muted" style="text-align: center; margin-top: var(--space-xs);">© 2026 OWGT</p>
+      <p class="links muted">© 2026 OWGT</p>
       
       <div style="margin-top: var(--space-xl); text-align: center;">
         <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
