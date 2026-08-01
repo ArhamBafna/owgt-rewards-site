@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-01)
 
 ## Corpus Check
-- 373 files · ~303,639 words
+- 375 files · ~276,601 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2627 nodes · 2592 edges · 391 communities (380 shown, 11 thin omitted)
+- 2634 nodes · 2597 edges · 393 communities (380 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7b0f3d31`
+- Built from commit: `761550c5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -400,6 +400,8 @@
 - [[_COMMUNITY_Community 384|Community 384]]
 - [[_COMMUNITY_Community 385|Community 385]]
 - [[_COMMUNITY_Community 390|Community 390]]
+- [[_COMMUNITY_Community 391|Community 391]]
+- [[_COMMUNITY_Community 392|Community 392]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -419,7 +421,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (391 total, 11 thin omitted)
+## Communities (393 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1918,15 +1920,17 @@ Cohesion: 0.67
 Nodes (3): Guide Rules, GUIDES, Missing Information
 
 ## Knowledge Gaps
-- **2130 isolated node(s):** `Steps`, `Rules & Memory`, `Connecting Higgsfield`, `Confirm it worked`, `Which model` (+2125 more)
+- **2131 isolated node(s):** `cleanUrls`, `Steps`, `Rules & Memory`, `Connecting Higgsfield`, `Confirm it worked` (+2126 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `Steps`, `Rules & Memory`, `Connecting Higgsfield` to the rest of the system?**
-  _2130 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Academic & Comprehensive Courses` connect `Community 26` to `Community 25`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **What connects `cleanUrls`, `Steps`, `Rules & Memory` to the rest of the system?**
+  _2131 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
@@ -1937,5 +1941,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Community 5` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

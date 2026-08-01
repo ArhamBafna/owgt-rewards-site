@@ -109,7 +109,7 @@ def generate_category_page(category, cat_items):
             """
         cards_html.append(card)
 
-    with open(os.path.join(SITE_DIR, 'templates', 'category.html'), 'r', encoding='utf-8') as tf:
+    with open(os.path.join(SITE_DIR, '_templates', 'category.html'), 'r', encoding='utf-8') as tf:
         template = tf.read()
 
     html = template.replace('{category}', category) \
@@ -135,7 +135,7 @@ def generate_deep_item_pages(items):
         
         tags_html = ''.join([f'<span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#{t}</span>' for t in item['tags']])
         
-        with open(os.path.join(SITE_DIR, 'templates', 'deep-item.html'), 'r', encoding='utf-8') as tf:
+        with open(os.path.join(SITE_DIR, '_templates', 'deep-item.html'), 'r', encoding='utf-8') as tf:
             template = tf.read()
 
         html = template.replace('{item_name}', str(item['name'])) \

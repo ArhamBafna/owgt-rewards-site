@@ -10,9 +10,10 @@ class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
     def do_GET(self):
-        path = self.translate_path(self.path)
-        if not os.path.exists(path) and os.path.exists(path + '.html'):
-            self.path = self.path + '.html'
+        req_path = self.path.split('?')[0].rstrip('/')
+        path = self.translate_path(req_path)
+        if os.path.exists(path + '.html') and os.path.isfile(path + '.html'):
+            self.path = req_path + '.html'
         elif os.path.isdir(path) and os.path.exists(os.path.join(path, 'index.html')):
             if not self.path.endswith('/'):
                 self.send_response(301)
