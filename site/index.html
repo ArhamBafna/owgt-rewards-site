@@ -219,14 +219,15 @@
             </div>
             
             <div class="card" style="background: var(--color-paper-2); color: var(--color-ink); padding: var(--space-xl); box-shadow: 6px 6px 0 var(--color-ink);">
-              <h3 style="font-size: var(--text-3xl);">Customer Persona Generator</h3>
-              <p class="meta" style="margin-top: var(--space-xs); color: var(--color-muted);">Category: Prompts</p>
-              <p style="margin-top: var(--space-md); font-size: var(--text-lg); line-height: 1.4;">
-                "Act as a senior market researcher. Generate a deeply detailed customer persona based on the target demographic..."
+              <h3 id="spotlight-title" style="font-size: var(--text-3xl);">Loading Spotlight...</h3>
+              <p id="spotlight-category" class="meta" style="margin-top: var(--space-xs); color: var(--color-muted);">Category: Resource</p>
+              <p id="spotlight-desc" style="margin-top: var(--space-md); font-size: var(--text-lg); line-height: 1.4;">
+                "Loading curated AI resource..."
               </p>
               <div class="cluster" style="margin-top: var(--space-xl);">
-                <button class="btn btn--secondary" onclick="alert('Copied to clipboard!')">Copy Prompt</button>
-                <button class="btn btn--ghost" style="border: 2px solid var(--color-ink);">Shuffle ↻</button>
+                <button id="spotlight-copy-btn" class="btn btn--secondary">Copy Prompt</button>
+                <a id="spotlight-link-btn" href="#" class="btn btn--secondary" style="display: inline-block;">View Details →</a>
+                <button id="spotlight-shuffle-btn" class="btn btn--ghost" style="border: 2px solid var(--color-ink);">Shuffle ↻</button>
               </div>
             </div>
           </div>

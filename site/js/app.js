@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBookmarks();
   initShortcuts();
   initCopyEngine();
+  initSpotlight();
 });
 
 /* ==========================================================================
@@ -254,4 +255,69 @@ function showToast(message) {
   setTimeout(() => {
     toast.style.opacity = '0';
   }, 3000);
+}
+
+/* ==========================================================================
+   SPOTLIGHT RESOURCE SYSTEM
+   ========================================================================== */
+function initSpotlight() {
+  const titleEl = document.getElementById('spotlight-title');
+  const catEl = document.getElementById('spotlight-category');
+  const descEl = document.getElementById('spotlight-desc');
+  const copyBtn = document.getElementById('spotlight-copy-btn');
+  const shuffleBtn = document.getElementById('spotlight-shuffle-btn');
+  const linkBtn = document.getElementById('spotlight-link-btn');
+
+  if (!titleEl || !copyBtn || !shuffleBtn) return;
+
+  let allData = [];
+  let currentItem = null;
+
+  const updateSpotlight = (item) => {
+    currentItem = item;
+    titleEl.textContent = item.name;
+    catEl.textContent = `Category: ${item.category}`;
+    descEl.textContent = item.description ? `"${item.description}"` : `"Curated AI resource from the vault."`;
+    if (linkBtn && item.path) {
+      linkBtn.href = `${item.path}.html`;
+      linkBtn.style.display = 'inline-block';
+    }
+  };
+
+  const getRandomItem = () => {
+    if (!allData || allData.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * allData.length);
+    updateSpotlight(allData[randomIndex]);
+  };
+
+  fetch('search-index.json')
+    .then(res => res.json())
+    .then(data => {
+      allData = data;
+      getRandomItem();
+    })
+    .catch(err => console.error('Error loading spotlight data:', err));
+
+  shuffleBtn.addEventListener('click', () => {
+    getRandomItem();
+  });
+
+  copyBtn.addEventListener('click', () => {
+    if (!currentItem) return;
+    const textToCopy = currentItem.description || currentItem.name;
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const origText = copyBtn.innerText;
+      copyBtn.innerText = "✔ COPIED!";
+      copyBtn.style.background = "var(--color-ink)";
+      copyBtn.style.color = "var(--color-paper)";
+      
+      showToast("Copied to clipboard!");
+      
+      setTimeout(() => {
+        copyBtn.innerText = origText;
+        copyBtn.style.background = "";
+        copyBtn.style.color = "";
+      }, 2000);
+    });
+  });
 }
