@@ -2,7 +2,7 @@
 Assumptions Stress Test
 
 ### Description
-I am going to share a strategy or plan.
+Identify strategy/plan assumption.
 
 ### Prompt
 ```text

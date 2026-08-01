@@ -1,5 +1,5 @@
 ### Name
-PROMPT ENGINEERING
+AI PROMPT ENGINEERING
 
 ### Description
 Designing structured instructions that produce useful, specific Al outputs instead of just typing questions and hoping.

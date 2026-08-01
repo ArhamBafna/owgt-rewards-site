@@ -2,7 +2,7 @@
 Apply Devil'S Advocate
 
 ### Description
-My team has converged on the following decision: [describe].
+Be a devil's advocate for a decision. Go against it.
 
 ### Prompt
 ```text

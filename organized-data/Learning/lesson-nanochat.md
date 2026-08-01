@@ -1,11 +1,11 @@
 ### Name
-nanoGPT (Karpathy)
+nanochat (Karpathy)
 
 ### Description
 The simplest, cleanest beginner code template for training and understanding GPT LLM architectures.
 
 ### URL
-https://github.com/karpathy/nanoGPT
+https://github.com/karpathy/nanochat
 
 ### Category
 Learning
