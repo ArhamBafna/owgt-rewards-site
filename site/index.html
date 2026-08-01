@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OWGT Rewards Library</title>
+  
+  <meta name="description" content="A curated library of AI prompts, tools, guides, and resources.">
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  
+  <style>
+    /* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival (Drop 06 · Pressroom)
+     * nav: N6 Masthead · footer: Ft1 Mast-headed
+     * E5 custom illustration · HP1 vertical rail
+     */
+     
+    /* Page specific overrides and additions */
+    
+    /* Nav - N6 Newspaper Masthead */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    /* Hero - H1 Marquee */
+    .hero-marquee { min-height: 50dvh; display: grid; align-content: center; padding: var(--space-3xl) var(--page-gutter); text-align: center; }
+    .display-xxl { font-size: clamp(4rem, 10vw, 10rem); line-height: 0.82; letter-spacing: -0.005em; }
+
+    /* Horizontal Scroller (Use Case Bundles) */
+    .horizontal-scroll {
+      display: flex;
+      gap: var(--space-md);
+      overflow-x: auto;
+      padding-bottom: var(--space-md);
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .horizontal-scroll::-webkit-scrollbar { display: none; }
+    .scroll-card {
+      min-width: 280px;
+      scroll-snap-align: start;
+    }
+
+    /* Tag Cloud */
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    .tag {
+      padding: var(--space-2xs) var(--space-sm);
+      border: var(--card-border);
+      border-radius: var(--pill-radius);
+      box-shadow: 2px 2px 0 var(--color-ink);
+      background: var(--color-paper-2);
+      transition: all var(--duration-fast) var(--ease-out);
+      cursor: pointer;
+    }
+    .tag:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 3px 3px 0 var(--color-ink);
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+    }
+    
+    /* Footer - Ft1 Mast-headed */
+    .foot-mast {
+      padding: var(--space-3xl) var(--page-gutter);
+      text-align: center;
+      border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .wordmark {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-variation-settings: "wdth" 110, "wght" 800;
+      text-transform: uppercase;
+    }
+    .foot-mast .tagline { margin-top: var(--space-xs); font-family: var(--font-body); }
+    .foot-mast .links { margin-top: var(--space-lg); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs); letter-spacing: 0.05em; }
+  </style>
+</head>
+<body>
+
+  <!-- N6 Newspaper Masthead -->
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <h1 class="mast-name">OWGT REWARDS</h1>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#categories">Browse</a></li>
+        <li><a href="#spotlight">Spotlight</a></li>
+        <li><a href="#bundles">Use Cases</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    
+    <!-- Hero Section (Landing Page Top) -->
+    <section class="hero-marquee">
+      <h1 class="display-xxl">THE VAULT.</h1>
+      <p class="mast-line" style="margin-top: var(--space-md); color: var(--color-ink);">A curated library of AI resources. Select an entry below.</p>
+    </section>
+
+    <!-- Browse by Category Grid -->
+    <section id="categories" class="section section--paper-2">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-2xs);">◆ 01</p>
+          <h2>Browse By Category</h2>
+        </div>
+        
+        <div class="card-grid card-grid--4">
+          <a href="prompts.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Prompts</h3>
+              <p class="card__desc">Ready-to-use prompt templates for daily workflows.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">12 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="tools.html" class="card" style="--cat-color: var(--color-cat-tools);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Tools</h3>
+              <p class="card__desc">Curated AI tools for automation and productivity.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">8 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+
+          <a href="guides.html" class="card" style="--cat-color: var(--color-cat-guides);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Guides</h3>
+              <p class="card__desc">Step-by-step documentation for complex tasks.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">5 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="resources.html" class="card" style="--cat-color: var(--color-cat-resources);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Resources</h3>
+              <p class="card__desc">General resources and knowledge bases.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">14 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="learning.html" class="card" style="--cat-color: var(--color-cat-learning);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Learning</h3>
+              <p class="card__desc">Courses and educational material on AI.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">4 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="frameworks.html" class="card" style="--cat-color: var(--color-cat-frameworks);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Frameworks</h3>
+              <p class="card__desc">Strategic mental models for using AI effectively.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">7 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="cheatsheets.html" class="card" style="--cat-color: var(--color-cat-cheatsheets);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Cheatsheets</h3>
+              <p class="card__desc">Quick reference sheets for fast execution.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">3 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="templates.html" class="card" style="--cat-color: var(--color-cat-templates);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Templates</h3>
+              <p class="card__desc">Starting structures for Notion, docs, and more.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">9 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotlight Section (Random per load) -->
+    <section id="spotlight" class="section section--accent-1">
+      <div class="container">
+        <div class="split split--60-40">
+          <div class="stack stack--lg">
+            <div>
+              <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-2xs);">◆ 02</p>
+              <h2>Spotlight Resource</h2>
+            </div>
+            
+            <div class="card" style="background: var(--color-paper-2); color: var(--color-ink); padding: var(--space-xl); box-shadow: 6px 6px 0 var(--color-ink);">
+              <h3 style="font-size: var(--text-3xl);">Customer Persona Generator</h3>
+              <p class="meta" style="margin-top: var(--space-xs); color: var(--color-muted);">Category: Prompts</p>
+              <p style="margin-top: var(--space-md); font-size: var(--text-lg); line-height: 1.4;">
+                "Act as a senior market researcher. Generate a deeply detailed customer persona based on the target demographic..."
+              </p>
+              <div class="cluster" style="margin-top: var(--space-xl);">
+                <button class="btn btn--secondary" onclick="alert('Copied to clipboard!')">Copy Prompt</button>
+                <button class="btn btn--ghost" style="border: 2px solid var(--color-ink);">Shuffle ↻</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="halftone" style="width: 100%; height: 100%; min-height: 300px; border: 2px solid var(--color-ink);"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case Bundles Row -->
+    <section id="bundles" class="section">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <p class="eyebrow" style="color: var(--color-accent-2); margin-bottom: var(--space-2xs);">◆ 03</p>
+          <h2>Curated Bundles</h2>
+          <p style="margin-top: var(--space-xs);">Select a stack to view all related resources in one place.</p>
+        </div>
+        
+        <div class="horizontal-scroll colour-block">
+          <div class="card scroll-card" style="background: var(--color-paper-3);">
+            <div class="card__body">
+              <h3 class="card__title">Cold Outreach Stack</h3>
+              <p class="card__desc">Everything you need to automate lead gen and emails.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">4 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </div>
+          
+          <div class="card scroll-card" style="background: var(--color-paper-2);">
+            <div class="card__body">
+              <h3 class="card__title">Content Machine</h3>
+              <p class="card__desc">Systematize your social media and blog posting.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">6 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </div>
+          
+          <div class="card scroll-card" style="background: var(--color-paper-3);">
+            <div class="card__body">
+              <h3 class="card__title">Agency Operations</h3>
+              <p class="card__desc">SOPs, prompt chains, and tools to run your agency.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">7 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </div>
+          
+          <div class="card scroll-card" style="background: var(--color-paper-2);">
+            <div class="card__body">
+              <h3 class="card__title">Productivity Booster</h3>
+              <p class="card__desc">Time-saving automations for everyday work.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">5 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Popular Tag Cloud -->
+    <section class="section section--accent-2">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl); text-align: center;">
+          <h2 style="color: var(--color-accent-2-ink);">Popular Tags</h2>
+        </div>
+        <div class="tag-cloud" style="justify-content: center; max-width: 800px; margin: 0 auto;">
+          <span class="tag">#marketing</span>
+          <span class="tag">#sales</span>
+          <span class="tag">#automation</span>
+          <span class="tag">#chatgpt</span>
+          <span class="tag">#midjourney</span>
+          <span class="tag">#copywriting</span>
+          <span class="tag">#sops</span>
+          <span class="tag">#seo</span>
+          <span class="tag">#research</span>
+          <span class="tag">#design</span>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+      <p class="links muted">© 2026 OWGT · Curated by Ben's Bites & The Rundown</p>
+      
+      <div style="margin-top: var(--space-xl); text-align: center;">
+        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
