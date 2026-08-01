@@ -1661,3 +1661,136 @@ hr,
     transition-duration: 0.01ms !important;
   }
 }
+
+/* =============================================================
+   NEWSPAPER MASTHEAD & CATEGORY / DEEP PAGE HEADERS
+   ============================================================= */
+
+.nav-mast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  padding: var(--space-md) var(--page-gutter) 0;
+  text-align: center;
+  width: 100%;
+}
+
+.mast-name {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  letter-spacing: -0.01em;
+  line-height: 0.95;
+  margin: 0;
+  color: var(--color-ink);
+  text-align: center;
+}
+
+.mast-line {
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  font-family: var(--font-outlier);
+  text-align: center;
+}
+
+.mast-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mast-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+  list-style: none;
+  padding: 0;
+  margin: var(--space-2xs) 0 0;
+  text-align: center;
+}
+
+.mast-nav li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mast-nav a {
+  font-family: var(--font-outlier);
+  text-transform: uppercase;
+  font-size: var(--text-sm);
+  letter-spacing: var(--ls-label);
+  color: var(--color-ink-2);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.mast-nav a:hover,
+.mast-nav a.active {
+  color: var(--color-accent);
+}
+
+.mast-rule.double {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid var(--color-ink);
+  border-bottom: 1px solid var(--color-ink);
+  height: 4px;
+  margin: var(--space-sm) 0 0;
+}
+
+.category-header,
+.deep-header,
+.tag-header {
+  padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+  text-align: center;
+  background: var(--color-paper-2);
+  border-bottom: 2px solid var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.category-header .container,
+.deep-header .container,
+.tag-header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.category-header h1,
+.deep-header h1,
+.tag-header h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.category-header p,
+.deep-header p,
+.tag-header p {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.foot-mast {
+  padding: var(--space-3xl) var(--page-gutter);
+  text-align: center;
+  border-top: 2px solid var(--color-ink);
+}
+
+.foot-mast .wordmark {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  text-transform: uppercase;
+  text-align: center;
+}
+

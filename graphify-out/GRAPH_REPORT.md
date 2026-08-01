@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-01)
 
 ## Corpus Check
-- 369 files · ~103,761 words
+- 373 files · ~303,639 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2624 nodes · 2585 edges · 390 communities (379 shown, 11 thin omitted)
+- 2627 nodes · 2592 edges · 391 communities (380 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a200e771`
+- Built from commit: `7b0f3d31`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,7 +45,6 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
 - [[_COMMUNITY_Community 33|Community 33]]
@@ -400,6 +399,7 @@
 - [[_COMMUNITY_Community 383|Community 383]]
 - [[_COMMUNITY_Community 384|Community 384]]
 - [[_COMMUNITY_Community 385|Community 385]]
+- [[_COMMUNITY_Community 390|Community 390]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -419,7 +419,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (390 total, 11 thin omitted)
+## Communities (391 total, 11 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -486,8 +486,8 @@ Cohesion: 0.15
 Nodes (12): 1. Edit Instead of Following Up, 2. Batch Requests Into One Prompt, 3. Start a Fresh Chat Often, 4. Turn Off Extended Thinking, 5. Convert Files to Markdown, 6. The Session Reset Trick, 7. Work Off-Peak, Category (+4 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.17
-Nodes (11): AI Skills, Automated Tests, Goal Description, Manual Verification, Missing Bookmarks, Missing PDF Tools & Prompts, Open Questions, Proposed Changes (+3 more)
+Cohesion: 0.20
+Nodes (10): Category, Description, Prerequisites, Prompt, Prompt Quality Filter, Prompt Schema, PROMPTS, Relationships (+2 more)
 
 ### Community 17 - "Community 17"
 Cohesion: 0.17
@@ -514,8 +514,8 @@ Cohesion: 0.20
 Nodes (9): Category, Content, Description, Name, Tags, The Effort Dial (Thinking Time), The Paragraph That Pays For Itself, The Three Personas of AI Models (+1 more)
 
 ### Community 23 - "Community 23"
-Cohesion: 0.20
-Nodes (10): Category, Description, Prerequisites, Prompt, Prompt Quality Filter, Prompt Schema, PROMPTS, Relationships (+2 more)
+Cohesion: 0.25
+Nodes (8): Category, Description, Name, Pricing, Tags, Tool Schema, TOOLS, URL
 
 ### Community 24 - "Community 24"
 Cohesion: 0.22
@@ -540,10 +540,6 @@ Nodes (8): 13.1 Breakpoints, 13.2 Mobile-Specific Behavior, 13. RESPONSIVE DESIG
 ### Community 29 - "Community 29"
 Cohesion: 0.25
 Nodes (7): 1. Edit Instead of Following Up, 2. Batch Requests Into One Prompt, 3. Start a Fresh Chat Often, 4. Turn Off Extended Thinking, 5. Convert Files to Markdown, 6. The Session Reset Trick, 7. Work Off-Peak
-
-### Community 30 - "Community 30"
-Cohesion: 0.25
-Nodes (8): Category, Description, Name, Pricing, Tags, Tool Schema, TOOLS, URL
 
 ### Community 31 - "Community 31"
 Cohesion: 0.29
@@ -1850,20 +1846,20 @@ Cohesion: 0.33
 Nodes (5): Category, Content, Description, Name, Tags
 
 ### Community 357 - "Community 357"
-Cohesion: 0.33
-Nodes (6): 1. Preserve the original data, 2. Create a working copy, 3. Optimize for quality over quantity, 4. Optimize for humans, 5. The suggested structure is NOT fixed, NON-NEGOTIABLE RULES
+Cohesion: 0.52
+Nodes (6): cat_to_filename(), determine_subcategory(), generate_category_page(), generate_deep_item_pages(), main(), parse_markdown()
 
 ### Community 358 - "Community 358"
 Cohesion: 0.33
 Nodes (6): 1.1 Duplicate Files, 1.2 PDF Extraction Artifacts, 1.3 Misclassified Items, 1.4 Tag Inconsistencies, 1.5 Missing/Broken Content, 1. DATA QUALITY ISSUES (Clean Before Build)
 
 ### Community 359 - "Community 359"
-Cohesion: 0.40
-Nodes (5): Cheat Sheets, Mixed PDFs, PDF RULES, Prompt Collections, Tool Lists
+Cohesion: 0.33
+Nodes (6): 1. Preserve the original data, 2. Create a working copy, 3. Optimize for quality over quantity, 4. Optimize for humans, 5. The suggested structure is NOT fixed, NON-NEGOTIABLE RULES
 
 ### Community 360 - "Community 360"
 Cohesion: 0.40
-Nodes (5): Does extracting it reduce the value of the original resource?, Does it provide standalone value?, If extracting everything leaves no meaningful educational value..., Is it duplicated elsewhere?, STEP 3 — EVALUATE EACH OBJECT
+Nodes (5): Cheat Sheets, Mixed PDFs, PDF RULES, Prompt Collections, Tool Lists
 
 ### Community 361 - "Community 361"
 Cohesion: 0.70
@@ -1878,12 +1874,12 @@ Cohesion: 0.40
 Nodes (5): 6.1 Tag Architecture, 6.2 Tag Pages, 6.3 Tag Index Page, 6.4 Tag Visibility Threshold, 6. TAG SYSTEM
 
 ### Community 364 - "Community 364"
-Cohesion: 0.50
-Nodes (4): BOOKMARKS, Dead Links, Delete Personal Resources, Useful Resources
+Cohesion: 0.40
+Nodes (5): Does extracting it reduce the value of the original resource?, Does it provide standalone value?, If extracting everything leaves no meaningful educational value..., Is it duplicated elsewhere?, STEP 3 — EVALUATE EACH OBJECT
 
 ### Community 365 - "Community 365"
 Cohesion: 0.50
-Nodes (4): Educational Videos, Prompt Videos, Tool Showcase Videos, YOUTUBE TRANSCRIPTS
+Nodes (4): BOOKMARKS, Dead Links, Delete Personal Resources, Useful Resources
 
 ### Community 366 - "Community 366"
 Cohesion: 0.50
@@ -1902,8 +1898,8 @@ Cohesion: 0.50
 Nodes (4): 7.1 Search Behavior, 7.2 Search Result Card, 7.3 Search Keyboard Shortcuts, 7. SEARCH DESIGN
 
 ### Community 371 - "Community 371"
-Cohesion: 0.67
-Nodes (3): Guide Rules, GUIDES, Missing Information
+Cohesion: 0.50
+Nodes (4): Educational Videos, Prompt Videos, Tool Showcase Videos, YOUTUBE TRANSCRIPTS
 
 ### Community 373 - "Community 373"
 Cohesion: 0.67
@@ -1917,8 +1913,12 @@ Nodes (3): 5.1 Use Case Bundle Logic, 5.2 Use Case Page Layout, 5. USE CASE BUND
 Cohesion: 0.67
 Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model, 8. FILTERING SYSTEM
 
+### Community 385 - "Community 385"
+Cohesion: 0.67
+Nodes (3): Guide Rules, GUIDES, Missing Information
+
 ## Knowledge Gaps
-- **2138 isolated node(s):** `Steps`, `Rules & Memory`, `Connecting Higgsfield`, `Confirm it worked`, `Which model` (+2133 more)
+- **2130 isolated node(s):** `Steps`, `Rules & Memory`, `Connecting Higgsfield`, `Confirm it worked`, `Which model` (+2125 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1926,7 +1926,7 @@ Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `Steps`, `Rules & Memory`, `Connecting Higgsfield` to the rest of the system?**
-  _2138 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2130 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

@@ -164,6 +164,156 @@
       "norm_label": "generate_indices()"
     },
     {
+      "label": "build.py",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_build",
+      "community": 357,
+      "norm_label": "build.py"
+    },
+    {
+      "label": "determine_subcategory()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "site_build_determine_subcategory",
+      "community": 357,
+      "norm_label": "determine_subcategory()"
+    },
+    {
+      "label": "parse_markdown()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "site_build_parse_markdown",
+      "community": 357,
+      "norm_label": "parse_markdown()"
+    },
+    {
+      "label": "cat_to_filename()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "site_build_cat_to_filename",
+      "community": 357,
+      "norm_label": "cat_to_filename()"
+    },
+    {
+      "label": "generate_category_page()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "site_build_generate_category_page",
+      "community": 357,
+      "norm_label": "generate_category_page()"
+    },
+    {
+      "label": "generate_deep_item_pages()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "site_build_generate_deep_item_pages",
+      "community": 357,
+      "norm_label": "generate_deep_item_pages()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "site/build.py",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "site_build_main",
+      "community": 357,
+      "norm_label": "main()"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_js_app",
+      "community": 30,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "initSearchSystem()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "site_js_app_initsearchsystem",
+      "community": 30,
+      "norm_label": "initsearchsystem()"
+    },
+    {
+      "label": "initBookmarks()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "site_js_app_initbookmarks",
+      "community": 30,
+      "norm_label": "initbookmarks()"
+    },
+    {
+      "label": "updateBookmarkUI()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "site_js_app_updatebookmarkui",
+      "community": 30,
+      "norm_label": "updatebookmarkui()"
+    },
+    {
+      "label": "initShortcuts()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L169",
+      "_origin": "ast",
+      "id": "site_js_app_initshortcuts",
+      "community": 30,
+      "norm_label": "initshortcuts()"
+    },
+    {
+      "label": "loadRandomResource()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L200",
+      "_origin": "ast",
+      "id": "site_js_app_loadrandomresource",
+      "community": 30,
+      "norm_label": "loadrandomresource()"
+    },
+    {
+      "label": "initCopyEngine()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L214",
+      "_origin": "ast",
+      "id": "site_js_app_initcopyengine",
+      "community": 30,
+      "norm_label": "initcopyengine()"
+    },
+    {
+      "label": "showToast()",
+      "file_type": "code",
+      "source_file": "site/js/app.js",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "site_js_app_showtoast",
+      "community": 30,
+      "norm_label": "showtoast()"
+    },
+    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".agents/skool-guide-to-md/SKILL.md",
@@ -1774,124 +1924,1214 @@
       "norm_label": "step 6 \u2014 deploy with github + netlify"
     },
     {
-      "label": "implementation_plan.md",
+      "label": "organization-prompt.md",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
+      "source_file": "organization-prompt.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "implementation_plan",
-      "community": 16,
-      "norm_label": "implementation_plan.md"
+      "id": "organization_prompt",
+      "community": 0,
+      "norm_label": "organization-prompt.md"
     },
     {
-      "label": "Goal Description",
+      "label": "Knowledge Library Organizer Specification",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
+      "source_file": "organization-prompt.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "implementation_plan_goal_description",
-      "community": 16,
-      "norm_label": "goal description"
+      "id": "organization_prompt_knowledge_library_organizer_specification",
+      "community": 390,
+      "norm_label": "knowledge library organizer specification"
     },
     {
-      "label": "User Review Required",
+      "label": "Objective",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L5",
+      "source_file": "organization-prompt.md",
+      "source_location": "L3",
       "_origin": "ast",
-      "id": "implementation_plan_user_review_required",
-      "community": 16,
-      "norm_label": "user review required"
+      "id": "organization_prompt_objective",
+      "community": 390,
+      "norm_label": "objective"
     },
     {
-      "label": "Open Questions",
+      "label": "NON-NEGOTIABLE RULES",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L10",
+      "source_file": "organization-prompt.md",
+      "source_location": "L39",
       "_origin": "ast",
-      "id": "implementation_plan_open_questions",
-      "community": 16,
-      "norm_label": "open questions"
+      "id": "organization_prompt_non_negotiable_rules",
+      "community": 359,
+      "norm_label": "non-negotiable rules"
     },
     {
-      "label": "Proposed Changes",
+      "label": "1. Preserve the original data",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L17",
+      "source_file": "organization-prompt.md",
+      "source_location": "L43",
       "_origin": "ast",
-      "id": "implementation_plan_proposed_changes",
-      "community": 16,
-      "norm_label": "proposed changes"
+      "id": "organization_prompt_1_preserve_the_original_data",
+      "community": 359,
+      "norm_label": "1. preserve the original data"
     },
     {
-      "label": "Skool Guides",
+      "label": "2. Create a working copy",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L19",
+      "source_file": "organization-prompt.md",
+      "source_location": "L53",
       "_origin": "ast",
-      "id": "implementation_plan_skool_guides",
-      "community": 16,
-      "norm_label": "skool guides"
+      "id": "organization_prompt_2_create_a_working_copy",
+      "community": 359,
+      "norm_label": "2. create a working copy"
     },
     {
-      "label": "AI Skills",
+      "label": "3. Optimize for quality over quantity",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L22",
+      "source_file": "organization-prompt.md",
+      "source_location": "L73",
       "_origin": "ast",
-      "id": "implementation_plan_ai_skills",
-      "community": 16,
-      "norm_label": "ai skills"
+      "id": "organization_prompt_3_optimize_for_quality_over_quantity",
+      "community": 359,
+      "norm_label": "3. optimize for quality over quantity"
     },
     {
-      "label": "Missing Bookmarks",
+      "label": "4. Optimize for humans",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L29",
+      "source_file": "organization-prompt.md",
+      "source_location": "L89",
       "_origin": "ast",
-      "id": "implementation_plan_missing_bookmarks",
-      "community": 16,
-      "norm_label": "missing bookmarks"
+      "id": "organization_prompt_4_optimize_for_humans",
+      "community": 359,
+      "norm_label": "4. optimize for humans"
     },
     {
-      "label": "Missing PDF Tools & Prompts",
+      "label": "5. The suggested structure is NOT fixed",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L32",
+      "source_file": "organization-prompt.md",
+      "source_location": "L103",
       "_origin": "ast",
-      "id": "implementation_plan_missing_pdf_tools_prompts",
-      "community": 16,
-      "norm_label": "missing pdf tools & prompts"
+      "id": "organization_prompt_5_the_suggested_structure_is_not_fixed",
+      "community": 359,
+      "norm_label": "5. the suggested structure is not fixed"
     },
     {
-      "label": "Verification Plan",
+      "label": "PRIORITY ORDER",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L36",
+      "source_file": "organization-prompt.md",
+      "source_location": "L126",
       "_origin": "ast",
-      "id": "implementation_plan_verification_plan",
-      "community": 16,
-      "norm_label": "verification plan"
+      "id": "organization_prompt_priority_order",
+      "community": 0,
+      "norm_label": "priority order"
     },
     {
-      "label": "Automated Tests",
+      "label": "GENERAL PHILOSOPHY",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L38",
+      "source_file": "organization-prompt.md",
+      "source_location": "L141",
       "_origin": "ast",
-      "id": "implementation_plan_automated_tests",
-      "community": 16,
-      "norm_label": "automated tests"
+      "id": "organization_prompt_general_philosophy",
+      "community": 0,
+      "norm_label": "general philosophy"
     },
     {
-      "label": "Manual Verification",
+      "label": "KNOWLEDGE EXTRACTION",
       "file_type": "document",
-      "source_file": "implementation_plan.md",
-      "source_location": "L41",
+      "source_file": "organization-prompt.md",
+      "source_location": "L157",
       "_origin": "ast",
-      "id": "implementation_plan_manual_verification",
+      "id": "organization_prompt_knowledge_extraction",
+      "community": 0,
+      "norm_label": "knowledge extraction"
+    },
+    {
+      "label": "CREATE NEW KNOWLEDGE TYPES WHEN APPROPRIATE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "organization_prompt_create_new_knowledge_types_when_appropriate",
+      "community": 0,
+      "norm_label": "create new knowledge types when appropriate"
+    },
+    {
+      "label": "DUPLICATES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "organization_prompt_duplicates",
+      "community": 0,
+      "norm_label": "duplicates"
+    },
+    {
+      "label": "DUPLICATE PROMPTS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L217",
+      "_origin": "ast",
+      "id": "organization_prompt_duplicate_prompts",
+      "community": 0,
+      "norm_label": "duplicate prompts"
+    },
+    {
+      "label": "DUPLICATE TOOLS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L235",
+      "_origin": "ast",
+      "id": "organization_prompt_duplicate_tools",
+      "community": 0,
+      "norm_label": "duplicate tools"
+    },
+    {
+      "label": "DUPLICATE GUIDES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L253",
+      "_origin": "ast",
+      "id": "organization_prompt_duplicate_guides",
+      "community": 0,
+      "norm_label": "duplicate guides"
+    },
+    {
+      "label": "SOURCE ATTRIBUTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L263",
+      "_origin": "ast",
+      "id": "organization_prompt_source_attribution",
+      "community": 0,
+      "norm_label": "source attribution"
+    },
+    {
+      "label": "WEB RESEARCH",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L279",
+      "_origin": "ast",
+      "id": "organization_prompt_web_research",
+      "community": 0,
+      "norm_label": "web research"
+    },
+    {
+      "label": "MARKDOWN",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L297",
+      "_origin": "ast",
+      "id": "organization_prompt_markdown",
+      "community": 0,
+      "norm_label": "markdown"
+    },
+    {
+      "label": "FILE NAMES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "organization_prompt_file_names",
+      "community": 0,
+      "norm_label": "file names"
+    },
+    {
+      "label": "README FILES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L331",
+      "_origin": "ast",
+      "id": "organization_prompt_readme_files",
+      "community": 0,
+      "norm_label": "readme files"
+    },
+    {
+      "label": "MASTER INDEX",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L345",
+      "_origin": "ast",
+      "id": "organization_prompt_master_index",
+      "community": 0,
+      "norm_label": "master index"
+    },
+    {
+      "label": "RELATIONSHIPS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L369",
+      "_origin": "ast",
+      "id": "organization_prompt_relationships",
+      "community": 0,
+      "norm_label": "relationships"
+    },
+    {
+      "label": "CATEGORIES VS TAGS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L389",
+      "_origin": "ast",
+      "id": "organization_prompt_categories_vs_tags",
+      "community": 0,
+      "norm_label": "categories vs tags"
+    },
+    {
+      "label": "KNOWLEDGE OBJECT SCHEMAS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L409",
+      "_origin": "ast",
+      "id": "organization_prompt_knowledge_object_schemas",
+      "community": 0,
+      "norm_label": "knowledge object schemas"
+    },
+    {
+      "label": "PROMPTS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L417",
+      "_origin": "ast",
+      "id": "organization_prompt_prompts",
       "community": 16,
-      "norm_label": "manual verification"
+      "norm_label": "prompts"
+    },
+    {
+      "label": "Prompt Quality Filter",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L436",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_quality_filter",
+      "community": 16,
+      "norm_label": "prompt quality filter"
+    },
+    {
+      "label": "Prompt Schema",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L457",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_schema",
+      "community": 16,
+      "norm_label": "prompt schema"
+    },
+    {
+      "label": "Title",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L461",
+      "_origin": "ast",
+      "id": "organization_prompt_title",
+      "community": 16,
+      "norm_label": "title"
+    },
+    {
+      "label": "Description",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L471",
+      "_origin": "ast",
+      "id": "organization_prompt_description",
+      "community": 16,
+      "norm_label": "description"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L489",
+      "_origin": "ast",
+      "id": "organization_prompt_prerequisites",
+      "community": 16,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Prompt",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L506",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt",
+      "community": 16,
+      "norm_label": "prompt"
+    },
+    {
+      "label": "Category",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L523",
+      "_origin": "ast",
+      "id": "organization_prompt_category",
+      "community": 16,
+      "norm_label": "category"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L544",
+      "_origin": "ast",
+      "id": "organization_prompt_tags",
+      "community": 16,
+      "norm_label": "tags"
+    },
+    {
+      "label": "Relationships",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L561",
+      "_origin": "ast",
+      "id": "organization_prompt_relationships_561",
+      "community": 16,
+      "norm_label": "relationships"
+    },
+    {
+      "label": "TOOLS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L576",
+      "_origin": "ast",
+      "id": "organization_prompt_tools",
+      "community": 23,
+      "norm_label": "tools"
+    },
+    {
+      "label": "Tool Schema",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L588",
+      "_origin": "ast",
+      "id": "organization_prompt_tool_schema",
+      "community": 23,
+      "norm_label": "tool schema"
+    },
+    {
+      "label": "Name",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L590",
+      "_origin": "ast",
+      "id": "organization_prompt_name",
+      "community": 23,
+      "norm_label": "name"
+    },
+    {
+      "label": "Description",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L596",
+      "_origin": "ast",
+      "id": "organization_prompt_description_596",
+      "community": 23,
+      "norm_label": "description"
+    },
+    {
+      "label": "URL",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L610",
+      "_origin": "ast",
+      "id": "organization_prompt_url",
+      "community": 23,
+      "norm_label": "url"
+    },
+    {
+      "label": "Pricing",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L632",
+      "_origin": "ast",
+      "id": "organization_prompt_pricing",
+      "community": 23,
+      "norm_label": "pricing"
+    },
+    {
+      "label": "Category",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L650",
+      "_origin": "ast",
+      "id": "organization_prompt_category_650",
+      "community": 23,
+      "norm_label": "category"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L656",
+      "_origin": "ast",
+      "id": "organization_prompt_tags_656",
+      "community": 23,
+      "norm_label": "tags"
+    },
+    {
+      "label": "GUIDES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L674",
+      "_origin": "ast",
+      "id": "organization_prompt_guides",
+      "community": 385,
+      "norm_label": "guides"
+    },
+    {
+      "label": "Guide Rules",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L690",
+      "_origin": "ast",
+      "id": "organization_prompt_guide_rules",
+      "community": 385,
+      "norm_label": "guide rules"
+    },
+    {
+      "label": "Missing Information",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L716",
+      "_origin": "ast",
+      "id": "organization_prompt_missing_information",
+      "community": 385,
+      "norm_label": "missing information"
+    },
+    {
+      "label": "FRAMEWORKS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L731",
+      "_origin": "ast",
+      "id": "organization_prompt_frameworks",
+      "community": 0,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "WORKFLOWS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L752",
+      "_origin": "ast",
+      "id": "organization_prompt_workflows",
+      "community": 0,
+      "norm_label": "workflows"
+    },
+    {
+      "label": "PLAYBOOKS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L766",
+      "_origin": "ast",
+      "id": "organization_prompt_playbooks",
+      "community": 0,
+      "norm_label": "playbooks"
+    },
+    {
+      "label": "CHECKLISTS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L778",
+      "_origin": "ast",
+      "id": "organization_prompt_checklists",
+      "community": 0,
+      "norm_label": "checklists"
+    },
+    {
+      "label": "COMPARISONS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L786",
+      "_origin": "ast",
+      "id": "organization_prompt_comparisons",
+      "community": 0,
+      "norm_label": "comparisons"
+    },
+    {
+      "label": "CHEAT SHEETS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L810",
+      "_origin": "ast",
+      "id": "organization_prompt_cheat_sheets",
+      "community": 0,
+      "norm_label": "cheat sheets"
+    },
+    {
+      "label": "REFERENCE MATERIAL",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L822",
+      "_origin": "ast",
+      "id": "organization_prompt_reference_material",
+      "community": 0,
+      "norm_label": "reference material"
+    },
+    {
+      "label": "MISCELLANEOUS KNOWLEDGE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L839",
+      "_origin": "ast",
+      "id": "organization_prompt_miscellaneous_knowledge",
+      "community": 0,
+      "norm_label": "miscellaneous knowledge"
+    },
+    {
+      "label": "DECISION PRINCIPLE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L867",
+      "_origin": "ast",
+      "id": "organization_prompt_decision_principle",
+      "community": 0,
+      "norm_label": "decision principle"
+    },
+    {
+      "label": "EXTRACTION ALGORITHM",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L881",
+      "_origin": "ast",
+      "id": "organization_prompt_extraction_algorithm",
+      "community": 0,
+      "norm_label": "extraction algorithm"
+    },
+    {
+      "label": "STEP 1 \u2014 UNDERSTAND THE FILE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L891",
+      "_origin": "ast",
+      "id": "organization_prompt_step_1_understand_the_file",
+      "community": 0,
+      "norm_label": "step 1 \u2014 understand the file"
+    },
+    {
+      "label": "STEP 2 \u2014 IDENTIFY KNOWLEDGE OBJECTS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L907",
+      "_origin": "ast",
+      "id": "organization_prompt_step_2_identify_knowledge_objects",
+      "community": 0,
+      "norm_label": "step 2 \u2014 identify knowledge objects"
+    },
+    {
+      "label": "STEP 3 \u2014 EVALUATE EACH OBJECT",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L931",
+      "_origin": "ast",
+      "id": "organization_prompt_step_3_evaluate_each_object",
+      "community": 364,
+      "norm_label": "step 3 \u2014 evaluate each object"
+    },
+    {
+      "label": "Does it provide standalone value?",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L935",
+      "_origin": "ast",
+      "id": "organization_prompt_does_it_provide_standalone_value",
+      "community": 364,
+      "norm_label": "does it provide standalone value?"
+    },
+    {
+      "label": "Is it duplicated elsewhere?",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L945",
+      "_origin": "ast",
+      "id": "organization_prompt_is_it_duplicated_elsewhere",
+      "community": 364,
+      "norm_label": "is it duplicated elsewhere?"
+    },
+    {
+      "label": "Does extracting it reduce the value of the original resource?",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L955",
+      "_origin": "ast",
+      "id": "organization_prompt_does_extracting_it_reduce_the_value_of_the_original_resource",
+      "community": 364,
+      "norm_label": "does extracting it reduce the value of the original resource?"
+    },
+    {
+      "label": "If extracting everything leaves no meaningful educational value...",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L981",
+      "_origin": "ast",
+      "id": "organization_prompt_if_extracting_everything_leaves_no_meaningful_educational_value",
+      "community": 364,
+      "norm_label": "if extracting everything leaves no meaningful educational value..."
+    },
+    {
+      "label": "STEP 4 \u2014 IMPROVE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L997",
+      "_origin": "ast",
+      "id": "organization_prompt_step_4_improve",
+      "community": 0,
+      "norm_label": "step 4 \u2014 improve"
+    },
+    {
+      "label": "STEP 5 \u2014 PLACE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1016",
+      "_origin": "ast",
+      "id": "organization_prompt_step_5_place",
+      "community": 0,
+      "norm_label": "step 5 \u2014 place"
+    },
+    {
+      "label": "PDF RULES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1030",
+      "_origin": "ast",
+      "id": "organization_prompt_pdf_rules",
+      "community": 360,
+      "norm_label": "pdf rules"
+    },
+    {
+      "label": "Mixed PDFs",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1050",
+      "_origin": "ast",
+      "id": "organization_prompt_mixed_pdfs",
+      "community": 360,
+      "norm_label": "mixed pdfs"
+    },
+    {
+      "label": "Tool Lists",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1074",
+      "_origin": "ast",
+      "id": "organization_prompt_tool_lists",
+      "community": 360,
+      "norm_label": "tool lists"
+    },
+    {
+      "label": "Prompt Collections",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1098",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_collections",
+      "community": 360,
+      "norm_label": "prompt collections"
+    },
+    {
+      "label": "Cheat Sheets",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1108",
+      "_origin": "ast",
+      "id": "organization_prompt_cheat_sheets_1108",
+      "community": 360,
+      "norm_label": "cheat sheets"
+    },
+    {
+      "label": "SCHOOL GUIDES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1116",
+      "_origin": "ast",
+      "id": "organization_prompt_school_guides",
+      "community": 0,
+      "norm_label": "school guides"
+    },
+    {
+      "label": "YOUTUBE TRANSCRIPTS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1133",
+      "_origin": "ast",
+      "id": "organization_prompt_youtube_transcripts",
+      "community": 371,
+      "norm_label": "youtube transcripts"
+    },
+    {
+      "label": "Educational Videos",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1141",
+      "_origin": "ast",
+      "id": "organization_prompt_educational_videos",
+      "community": 371,
+      "norm_label": "educational videos"
+    },
+    {
+      "label": "Tool Showcase Videos",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1169",
+      "_origin": "ast",
+      "id": "organization_prompt_tool_showcase_videos",
+      "community": 371,
+      "norm_label": "tool showcase videos"
+    },
+    {
+      "label": "Prompt Videos",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1185",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_videos",
+      "community": 371,
+      "norm_label": "prompt videos"
+    },
+    {
+      "label": "BOOKMARKS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1195",
+      "_origin": "ast",
+      "id": "organization_prompt_bookmarks",
+      "community": 365,
+      "norm_label": "bookmarks"
+    },
+    {
+      "label": "Delete Personal Resources",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1203",
+      "_origin": "ast",
+      "id": "organization_prompt_delete_personal_resources",
+      "community": 365,
+      "norm_label": "delete personal resources"
+    },
+    {
+      "label": "Dead Links",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1227",
+      "_origin": "ast",
+      "id": "organization_prompt_dead_links",
+      "community": 365,
+      "norm_label": "dead links"
+    },
+    {
+      "label": "Useful Resources",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1245",
+      "_origin": "ast",
+      "id": "organization_prompt_useful_resources",
+      "community": 365,
+      "norm_label": "useful resources"
+    },
+    {
+      "label": "GITHUB",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1277",
+      "_origin": "ast",
+      "id": "organization_prompt_github",
+      "community": 0,
+      "norm_label": "github"
+    },
+    {
+      "label": "SKILLS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1289",
+      "_origin": "ast",
+      "id": "organization_prompt_skills",
+      "community": 0,
+      "norm_label": "skills"
+    },
+    {
+      "label": "NOTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1301",
+      "_origin": "ast",
+      "id": "organization_prompt_notion",
+      "community": 0,
+      "norm_label": "notion"
+    },
+    {
+      "label": "PROMPT FOLDER",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1316",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_folder",
+      "community": 0,
+      "norm_label": "prompt folder"
+    },
+    {
+      "label": "TOOL DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1330",
+      "_origin": "ast",
+      "id": "organization_prompt_tool_detection",
+      "community": 0,
+      "norm_label": "tool detection"
+    },
+    {
+      "label": "PROMPT DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1342",
+      "_origin": "ast",
+      "id": "organization_prompt_prompt_detection",
+      "community": 0,
+      "norm_label": "prompt detection"
+    },
+    {
+      "label": "GUIDE DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1356",
+      "_origin": "ast",
+      "id": "organization_prompt_guide_detection",
+      "community": 0,
+      "norm_label": "guide detection"
+    },
+    {
+      "label": "FRAMEWORK DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1372",
+      "_origin": "ast",
+      "id": "organization_prompt_framework_detection",
+      "community": 0,
+      "norm_label": "framework detection"
+    },
+    {
+      "label": "WORKFLOW DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1390",
+      "_origin": "ast",
+      "id": "organization_prompt_workflow_detection",
+      "community": 0,
+      "norm_label": "workflow detection"
+    },
+    {
+      "label": "COMPARISON DETECTION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1408",
+      "_origin": "ast",
+      "id": "organization_prompt_comparison_detection",
+      "community": 0,
+      "norm_label": "comparison detection"
+    },
+    {
+      "label": "REVIEW FOLDER",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1416",
+      "_origin": "ast",
+      "id": "organization_prompt_review_folder",
+      "community": 0,
+      "norm_label": "review folder"
+    },
+    {
+      "label": "HUMAN-FIRST TEST",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1438",
+      "_origin": "ast",
+      "id": "organization_prompt_human_first_test",
+      "community": 0,
+      "norm_label": "human-first test"
+    },
+    {
+      "label": "FINAL QUALITY TEST",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1458",
+      "_origin": "ast",
+      "id": "organization_prompt_final_quality_test",
+      "community": 0,
+      "norm_label": "final quality test"
+    },
+    {
+      "label": "FOLDER ARCHITECTURE & ORGANIZATION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1468",
+      "_origin": "ast",
+      "id": "organization_prompt_folder_architecture_organization",
+      "community": 0,
+      "norm_label": "folder architecture & organization"
+    },
+    {
+      "label": "DESIGN PRINCIPLES",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1482",
+      "_origin": "ast",
+      "id": "organization_prompt_design_principles",
+      "community": 0,
+      "norm_label": "design principles"
+    },
+    {
+      "label": "PREFERRED STRUCTURE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1500",
+      "_origin": "ast",
+      "id": "organization_prompt_preferred_structure",
+      "community": 0,
+      "norm_label": "preferred structure"
+    },
+    {
+      "label": "ARCHIVE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1536",
+      "_origin": "ast",
+      "id": "organization_prompt_archive",
+      "community": 0,
+      "norm_label": "archive"
+    },
+    {
+      "label": "MISCELLANEOUS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1552",
+      "_origin": "ast",
+      "id": "organization_prompt_miscellaneous",
+      "community": 0,
+      "norm_label": "miscellaneous"
+    },
+    {
+      "label": "FOLDER READMEs",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1562",
+      "_origin": "ast",
+      "id": "organization_prompt_folder_readmes",
+      "community": 0,
+      "norm_label": "folder readmes"
+    },
+    {
+      "label": "FILE ORGANIZATION",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1578",
+      "_origin": "ast",
+      "id": "organization_prompt_file_organization",
+      "community": 0,
+      "norm_label": "file organization"
+    },
+    {
+      "label": "FILE NAMING",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1608",
+      "_origin": "ast",
+      "id": "organization_prompt_file_naming",
+      "community": 0,
+      "norm_label": "file naming"
+    },
+    {
+      "label": "TITLE QUALITY",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1643",
+      "_origin": "ast",
+      "id": "organization_prompt_title_quality",
+      "community": 0,
+      "norm_label": "title quality"
+    },
+    {
+      "label": "DESCRIPTION QUALITY",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1665",
+      "_origin": "ast",
+      "id": "organization_prompt_description_quality",
+      "community": 0,
+      "norm_label": "description quality"
+    },
+    {
+      "label": "CATEGORY QUALITY",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1685",
+      "_origin": "ast",
+      "id": "organization_prompt_category_quality",
+      "community": 0,
+      "norm_label": "category quality"
+    },
+    {
+      "label": "TAG QUALITY",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1715",
+      "_origin": "ast",
+      "id": "organization_prompt_tag_quality",
+      "community": 0,
+      "norm_label": "tag quality"
+    },
+    {
+      "label": "RELATIONSHIPS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1747",
+      "_origin": "ast",
+      "id": "organization_prompt_relationships_1747",
+      "community": 0,
+      "norm_label": "relationships"
+    },
+    {
+      "label": "CONTENT CONSISTENCY",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1779",
+      "_origin": "ast",
+      "id": "organization_prompt_content_consistency",
+      "community": 0,
+      "norm_label": "content consistency"
+    },
+    {
+      "label": "MARKDOWN STANDARDS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1797",
+      "_origin": "ast",
+      "id": "organization_prompt_markdown_standards",
+      "community": 0,
+      "norm_label": "markdown standards"
+    },
+    {
+      "label": "WRITING STYLE",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1827",
+      "_origin": "ast",
+      "id": "organization_prompt_writing_style",
+      "community": 0,
+      "norm_label": "writing style"
+    },
+    {
+      "label": "WHAT NOT TO DO",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1855",
+      "_origin": "ast",
+      "id": "organization_prompt_what_not_to_do",
+      "community": 0,
+      "norm_label": "what not to do"
+    },
+    {
+      "label": "DECISION FRAMEWORK",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1873",
+      "_origin": "ast",
+      "id": "organization_prompt_decision_framework",
+      "community": 0,
+      "norm_label": "decision framework"
+    },
+    {
+      "label": "FINAL LIBRARY TEST",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1945",
+      "_origin": "ast",
+      "id": "organization_prompt_final_library_test",
+      "community": 0,
+      "norm_label": "final library test"
+    },
+    {
+      "label": "SUCCESS CRITERIA",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1973",
+      "_origin": "ast",
+      "id": "organization_prompt_success_criteria",
+      "community": 0,
+      "norm_label": "success criteria"
+    },
+    {
+      "label": "FINAL VALIDATION & DECISION LOG",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2013",
+      "_origin": "ast",
+      "id": "organization_prompt_final_validation_decision_log",
+      "community": 0,
+      "norm_label": "final validation & decision log"
+    },
+    {
+      "label": "GLOBAL REVIEW",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2025",
+      "_origin": "ast",
+      "id": "organization_prompt_global_review",
+      "community": 0,
+      "norm_label": "global review"
+    },
+    {
+      "label": "LIBRARY CONSISTENCY PASS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2046",
+      "_origin": "ast",
+      "id": "organization_prompt_library_consistency_pass",
+      "community": 0,
+      "norm_label": "library consistency pass"
+    },
+    {
+      "label": "DUPLICATE PASS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2064",
+      "_origin": "ast",
+      "id": "organization_prompt_duplicate_pass",
+      "community": 0,
+      "norm_label": "duplicate pass"
+    },
+    {
+      "label": "QUALITY PASS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2074",
+      "_origin": "ast",
+      "id": "organization_prompt_quality_pass",
+      "community": 0,
+      "norm_label": "quality pass"
+    },
+    {
+      "label": "NAVIGATION PASS",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2084",
+      "_origin": "ast",
+      "id": "organization_prompt_navigation_pass",
+      "community": 0,
+      "norm_label": "navigation pass"
+    },
+    {
+      "label": "DECISION LOG",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2099",
+      "_origin": "ast",
+      "id": "organization_prompt_decision_log",
+      "community": 0,
+      "norm_label": "decision log"
+    },
+    {
+      "label": "FINAL SUCCESS TEST",
+      "file_type": "document",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2139",
+      "_origin": "ast",
+      "id": "organization_prompt_final_success_test",
+      "community": 0,
+      "norm_label": "final success test"
     },
     {
       "label": "README.md",
@@ -24344,1216 +25584,6 @@
       "norm_label": "tools"
     },
     {
-      "label": "organizer-spec.md",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "organizer_spec",
-      "community": 0,
-      "norm_label": "organizer-spec.md"
-    },
-    {
-      "label": "Knowledge Library Organizer Specification",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "organizer_spec_knowledge_library_organizer_specification",
-      "community": 385,
-      "norm_label": "knowledge library organizer specification"
-    },
-    {
-      "label": "Objective",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "organizer_spec_objective",
-      "community": 385,
-      "norm_label": "objective"
-    },
-    {
-      "label": "NON-NEGOTIABLE RULES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "organizer_spec_non_negotiable_rules",
-      "community": 357,
-      "norm_label": "non-negotiable rules"
-    },
-    {
-      "label": "1. Preserve the original data",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "organizer_spec_1_preserve_the_original_data",
-      "community": 357,
-      "norm_label": "1. preserve the original data"
-    },
-    {
-      "label": "2. Create a working copy",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "organizer_spec_2_create_a_working_copy",
-      "community": 357,
-      "norm_label": "2. create a working copy"
-    },
-    {
-      "label": "3. Optimize for quality over quantity",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "organizer_spec_3_optimize_for_quality_over_quantity",
-      "community": 357,
-      "norm_label": "3. optimize for quality over quantity"
-    },
-    {
-      "label": "4. Optimize for humans",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L89",
-      "_origin": "ast",
-      "id": "organizer_spec_4_optimize_for_humans",
-      "community": 357,
-      "norm_label": "4. optimize for humans"
-    },
-    {
-      "label": "5. The suggested structure is NOT fixed",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L103",
-      "_origin": "ast",
-      "id": "organizer_spec_5_the_suggested_structure_is_not_fixed",
-      "community": 357,
-      "norm_label": "5. the suggested structure is not fixed"
-    },
-    {
-      "label": "PRIORITY ORDER",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L126",
-      "_origin": "ast",
-      "id": "organizer_spec_priority_order",
-      "community": 0,
-      "norm_label": "priority order"
-    },
-    {
-      "label": "GENERAL PHILOSOPHY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L141",
-      "_origin": "ast",
-      "id": "organizer_spec_general_philosophy",
-      "community": 0,
-      "norm_label": "general philosophy"
-    },
-    {
-      "label": "KNOWLEDGE EXTRACTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L157",
-      "_origin": "ast",
-      "id": "organizer_spec_knowledge_extraction",
-      "community": 0,
-      "norm_label": "knowledge extraction"
-    },
-    {
-      "label": "CREATE NEW KNOWLEDGE TYPES WHEN APPROPRIATE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L184",
-      "_origin": "ast",
-      "id": "organizer_spec_create_new_knowledge_types_when_appropriate",
-      "community": 0,
-      "norm_label": "create new knowledge types when appropriate"
-    },
-    {
-      "label": "DUPLICATES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L207",
-      "_origin": "ast",
-      "id": "organizer_spec_duplicates",
-      "community": 0,
-      "norm_label": "duplicates"
-    },
-    {
-      "label": "DUPLICATE PROMPTS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L217",
-      "_origin": "ast",
-      "id": "organizer_spec_duplicate_prompts",
-      "community": 0,
-      "norm_label": "duplicate prompts"
-    },
-    {
-      "label": "DUPLICATE TOOLS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L235",
-      "_origin": "ast",
-      "id": "organizer_spec_duplicate_tools",
-      "community": 0,
-      "norm_label": "duplicate tools"
-    },
-    {
-      "label": "DUPLICATE GUIDES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L253",
-      "_origin": "ast",
-      "id": "organizer_spec_duplicate_guides",
-      "community": 0,
-      "norm_label": "duplicate guides"
-    },
-    {
-      "label": "SOURCE ATTRIBUTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L263",
-      "_origin": "ast",
-      "id": "organizer_spec_source_attribution",
-      "community": 0,
-      "norm_label": "source attribution"
-    },
-    {
-      "label": "WEB RESEARCH",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L279",
-      "_origin": "ast",
-      "id": "organizer_spec_web_research",
-      "community": 0,
-      "norm_label": "web research"
-    },
-    {
-      "label": "MARKDOWN",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L297",
-      "_origin": "ast",
-      "id": "organizer_spec_markdown",
-      "community": 0,
-      "norm_label": "markdown"
-    },
-    {
-      "label": "FILE NAMES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L315",
-      "_origin": "ast",
-      "id": "organizer_spec_file_names",
-      "community": 0,
-      "norm_label": "file names"
-    },
-    {
-      "label": "README FILES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L331",
-      "_origin": "ast",
-      "id": "organizer_spec_readme_files",
-      "community": 0,
-      "norm_label": "readme files"
-    },
-    {
-      "label": "MASTER INDEX",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L345",
-      "_origin": "ast",
-      "id": "organizer_spec_master_index",
-      "community": 0,
-      "norm_label": "master index"
-    },
-    {
-      "label": "RELATIONSHIPS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L369",
-      "_origin": "ast",
-      "id": "organizer_spec_relationships",
-      "community": 0,
-      "norm_label": "relationships"
-    },
-    {
-      "label": "CATEGORIES VS TAGS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L389",
-      "_origin": "ast",
-      "id": "organizer_spec_categories_vs_tags",
-      "community": 0,
-      "norm_label": "categories vs tags"
-    },
-    {
-      "label": "KNOWLEDGE OBJECT SCHEMAS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L409",
-      "_origin": "ast",
-      "id": "organizer_spec_knowledge_object_schemas",
-      "community": 0,
-      "norm_label": "knowledge object schemas"
-    },
-    {
-      "label": "PROMPTS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L417",
-      "_origin": "ast",
-      "id": "organizer_spec_prompts",
-      "community": 23,
-      "norm_label": "prompts"
-    },
-    {
-      "label": "Prompt Quality Filter",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L436",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_quality_filter",
-      "community": 23,
-      "norm_label": "prompt quality filter"
-    },
-    {
-      "label": "Prompt Schema",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L457",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_schema",
-      "community": 23,
-      "norm_label": "prompt schema"
-    },
-    {
-      "label": "Title",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L461",
-      "_origin": "ast",
-      "id": "organizer_spec_title",
-      "community": 23,
-      "norm_label": "title"
-    },
-    {
-      "label": "Description",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L471",
-      "_origin": "ast",
-      "id": "organizer_spec_description",
-      "community": 23,
-      "norm_label": "description"
-    },
-    {
-      "label": "Prerequisites",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L489",
-      "_origin": "ast",
-      "id": "organizer_spec_prerequisites",
-      "community": 23,
-      "norm_label": "prerequisites"
-    },
-    {
-      "label": "Prompt",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L506",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt",
-      "community": 23,
-      "norm_label": "prompt"
-    },
-    {
-      "label": "Category",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L523",
-      "_origin": "ast",
-      "id": "organizer_spec_category",
-      "community": 23,
-      "norm_label": "category"
-    },
-    {
-      "label": "Tags",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L544",
-      "_origin": "ast",
-      "id": "organizer_spec_tags",
-      "community": 23,
-      "norm_label": "tags"
-    },
-    {
-      "label": "Relationships",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L561",
-      "_origin": "ast",
-      "id": "organizer_spec_relationships_561",
-      "community": 23,
-      "norm_label": "relationships"
-    },
-    {
-      "label": "TOOLS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L576",
-      "_origin": "ast",
-      "id": "organizer_spec_tools",
-      "community": 30,
-      "norm_label": "tools"
-    },
-    {
-      "label": "Tool Schema",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L588",
-      "_origin": "ast",
-      "id": "organizer_spec_tool_schema",
-      "community": 30,
-      "norm_label": "tool schema"
-    },
-    {
-      "label": "Name",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L590",
-      "_origin": "ast",
-      "id": "organizer_spec_name",
-      "community": 30,
-      "norm_label": "name"
-    },
-    {
-      "label": "Description",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L596",
-      "_origin": "ast",
-      "id": "organizer_spec_description_596",
-      "community": 30,
-      "norm_label": "description"
-    },
-    {
-      "label": "URL",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L610",
-      "_origin": "ast",
-      "id": "organizer_spec_url",
-      "community": 30,
-      "norm_label": "url"
-    },
-    {
-      "label": "Pricing",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L632",
-      "_origin": "ast",
-      "id": "organizer_spec_pricing",
-      "community": 30,
-      "norm_label": "pricing"
-    },
-    {
-      "label": "Category",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L650",
-      "_origin": "ast",
-      "id": "organizer_spec_category_650",
-      "community": 30,
-      "norm_label": "category"
-    },
-    {
-      "label": "Tags",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L656",
-      "_origin": "ast",
-      "id": "organizer_spec_tags_656",
-      "community": 30,
-      "norm_label": "tags"
-    },
-    {
-      "label": "GUIDES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L674",
-      "_origin": "ast",
-      "id": "organizer_spec_guides",
-      "community": 371,
-      "norm_label": "guides"
-    },
-    {
-      "label": "Guide Rules",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L690",
-      "_origin": "ast",
-      "id": "organizer_spec_guide_rules",
-      "community": 371,
-      "norm_label": "guide rules"
-    },
-    {
-      "label": "Missing Information",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L716",
-      "_origin": "ast",
-      "id": "organizer_spec_missing_information",
-      "community": 371,
-      "norm_label": "missing information"
-    },
-    {
-      "label": "FRAMEWORKS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L731",
-      "_origin": "ast",
-      "id": "organizer_spec_frameworks",
-      "community": 0,
-      "norm_label": "frameworks"
-    },
-    {
-      "label": "WORKFLOWS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L752",
-      "_origin": "ast",
-      "id": "organizer_spec_workflows",
-      "community": 0,
-      "norm_label": "workflows"
-    },
-    {
-      "label": "PLAYBOOKS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L766",
-      "_origin": "ast",
-      "id": "organizer_spec_playbooks",
-      "community": 0,
-      "norm_label": "playbooks"
-    },
-    {
-      "label": "CHECKLISTS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L778",
-      "_origin": "ast",
-      "id": "organizer_spec_checklists",
-      "community": 0,
-      "norm_label": "checklists"
-    },
-    {
-      "label": "COMPARISONS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L786",
-      "_origin": "ast",
-      "id": "organizer_spec_comparisons",
-      "community": 0,
-      "norm_label": "comparisons"
-    },
-    {
-      "label": "CHEAT SHEETS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L810",
-      "_origin": "ast",
-      "id": "organizer_spec_cheat_sheets",
-      "community": 0,
-      "norm_label": "cheat sheets"
-    },
-    {
-      "label": "REFERENCE MATERIAL",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L822",
-      "_origin": "ast",
-      "id": "organizer_spec_reference_material",
-      "community": 0,
-      "norm_label": "reference material"
-    },
-    {
-      "label": "MISCELLANEOUS KNOWLEDGE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L839",
-      "_origin": "ast",
-      "id": "organizer_spec_miscellaneous_knowledge",
-      "community": 0,
-      "norm_label": "miscellaneous knowledge"
-    },
-    {
-      "label": "DECISION PRINCIPLE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L867",
-      "_origin": "ast",
-      "id": "organizer_spec_decision_principle",
-      "community": 0,
-      "norm_label": "decision principle"
-    },
-    {
-      "label": "EXTRACTION ALGORITHM",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L881",
-      "_origin": "ast",
-      "id": "organizer_spec_extraction_algorithm",
-      "community": 0,
-      "norm_label": "extraction algorithm"
-    },
-    {
-      "label": "STEP 1 \u2014 UNDERSTAND THE FILE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L891",
-      "_origin": "ast",
-      "id": "organizer_spec_step_1_understand_the_file",
-      "community": 0,
-      "norm_label": "step 1 \u2014 understand the file"
-    },
-    {
-      "label": "STEP 2 \u2014 IDENTIFY KNOWLEDGE OBJECTS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L907",
-      "_origin": "ast",
-      "id": "organizer_spec_step_2_identify_knowledge_objects",
-      "community": 0,
-      "norm_label": "step 2 \u2014 identify knowledge objects"
-    },
-    {
-      "label": "STEP 3 \u2014 EVALUATE EACH OBJECT",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L931",
-      "_origin": "ast",
-      "id": "organizer_spec_step_3_evaluate_each_object",
-      "community": 360,
-      "norm_label": "step 3 \u2014 evaluate each object"
-    },
-    {
-      "label": "Does it provide standalone value?",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L935",
-      "_origin": "ast",
-      "id": "organizer_spec_does_it_provide_standalone_value",
-      "community": 360,
-      "norm_label": "does it provide standalone value?"
-    },
-    {
-      "label": "Is it duplicated elsewhere?",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L945",
-      "_origin": "ast",
-      "id": "organizer_spec_is_it_duplicated_elsewhere",
-      "community": 360,
-      "norm_label": "is it duplicated elsewhere?"
-    },
-    {
-      "label": "Does extracting it reduce the value of the original resource?",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L955",
-      "_origin": "ast",
-      "id": "organizer_spec_does_extracting_it_reduce_the_value_of_the_original_resource",
-      "community": 360,
-      "norm_label": "does extracting it reduce the value of the original resource?"
-    },
-    {
-      "label": "If extracting everything leaves no meaningful educational value...",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L981",
-      "_origin": "ast",
-      "id": "organizer_spec_if_extracting_everything_leaves_no_meaningful_educational_value",
-      "community": 360,
-      "norm_label": "if extracting everything leaves no meaningful educational value..."
-    },
-    {
-      "label": "STEP 4 \u2014 IMPROVE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L997",
-      "_origin": "ast",
-      "id": "organizer_spec_step_4_improve",
-      "community": 0,
-      "norm_label": "step 4 \u2014 improve"
-    },
-    {
-      "label": "STEP 5 \u2014 PLACE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1016",
-      "_origin": "ast",
-      "id": "organizer_spec_step_5_place",
-      "community": 0,
-      "norm_label": "step 5 \u2014 place"
-    },
-    {
-      "label": "PDF RULES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1030",
-      "_origin": "ast",
-      "id": "organizer_spec_pdf_rules",
-      "community": 359,
-      "norm_label": "pdf rules"
-    },
-    {
-      "label": "Mixed PDFs",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1050",
-      "_origin": "ast",
-      "id": "organizer_spec_mixed_pdfs",
-      "community": 359,
-      "norm_label": "mixed pdfs"
-    },
-    {
-      "label": "Tool Lists",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1074",
-      "_origin": "ast",
-      "id": "organizer_spec_tool_lists",
-      "community": 359,
-      "norm_label": "tool lists"
-    },
-    {
-      "label": "Prompt Collections",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1098",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_collections",
-      "community": 359,
-      "norm_label": "prompt collections"
-    },
-    {
-      "label": "Cheat Sheets",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1108",
-      "_origin": "ast",
-      "id": "organizer_spec_cheat_sheets_1108",
-      "community": 359,
-      "norm_label": "cheat sheets"
-    },
-    {
-      "label": "SCHOOL GUIDES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1116",
-      "_origin": "ast",
-      "id": "organizer_spec_school_guides",
-      "community": 0,
-      "norm_label": "school guides"
-    },
-    {
-      "label": "YOUTUBE TRANSCRIPTS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1133",
-      "_origin": "ast",
-      "id": "organizer_spec_youtube_transcripts",
-      "community": 365,
-      "norm_label": "youtube transcripts"
-    },
-    {
-      "label": "Educational Videos",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1141",
-      "_origin": "ast",
-      "id": "organizer_spec_educational_videos",
-      "community": 365,
-      "norm_label": "educational videos"
-    },
-    {
-      "label": "Tool Showcase Videos",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1169",
-      "_origin": "ast",
-      "id": "organizer_spec_tool_showcase_videos",
-      "community": 365,
-      "norm_label": "tool showcase videos"
-    },
-    {
-      "label": "Prompt Videos",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1185",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_videos",
-      "community": 365,
-      "norm_label": "prompt videos"
-    },
-    {
-      "label": "BOOKMARKS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1195",
-      "_origin": "ast",
-      "id": "organizer_spec_bookmarks",
-      "community": 364,
-      "norm_label": "bookmarks"
-    },
-    {
-      "label": "Delete Personal Resources",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1203",
-      "_origin": "ast",
-      "id": "organizer_spec_delete_personal_resources",
-      "community": 364,
-      "norm_label": "delete personal resources"
-    },
-    {
-      "label": "Dead Links",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1227",
-      "_origin": "ast",
-      "id": "organizer_spec_dead_links",
-      "community": 364,
-      "norm_label": "dead links"
-    },
-    {
-      "label": "Useful Resources",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1245",
-      "_origin": "ast",
-      "id": "organizer_spec_useful_resources",
-      "community": 364,
-      "norm_label": "useful resources"
-    },
-    {
-      "label": "GITHUB",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1277",
-      "_origin": "ast",
-      "id": "organizer_spec_github",
-      "community": 0,
-      "norm_label": "github"
-    },
-    {
-      "label": "SKILLS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1289",
-      "_origin": "ast",
-      "id": "organizer_spec_skills",
-      "community": 0,
-      "norm_label": "skills"
-    },
-    {
-      "label": "NOTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1301",
-      "_origin": "ast",
-      "id": "organizer_spec_notion",
-      "community": 0,
-      "norm_label": "notion"
-    },
-    {
-      "label": "PROMPT FOLDER",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1316",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_folder",
-      "community": 0,
-      "norm_label": "prompt folder"
-    },
-    {
-      "label": "TOOL DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1330",
-      "_origin": "ast",
-      "id": "organizer_spec_tool_detection",
-      "community": 0,
-      "norm_label": "tool detection"
-    },
-    {
-      "label": "PROMPT DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1342",
-      "_origin": "ast",
-      "id": "organizer_spec_prompt_detection",
-      "community": 0,
-      "norm_label": "prompt detection"
-    },
-    {
-      "label": "GUIDE DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1356",
-      "_origin": "ast",
-      "id": "organizer_spec_guide_detection",
-      "community": 0,
-      "norm_label": "guide detection"
-    },
-    {
-      "label": "FRAMEWORK DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1372",
-      "_origin": "ast",
-      "id": "organizer_spec_framework_detection",
-      "community": 0,
-      "norm_label": "framework detection"
-    },
-    {
-      "label": "WORKFLOW DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1390",
-      "_origin": "ast",
-      "id": "organizer_spec_workflow_detection",
-      "community": 0,
-      "norm_label": "workflow detection"
-    },
-    {
-      "label": "COMPARISON DETECTION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1408",
-      "_origin": "ast",
-      "id": "organizer_spec_comparison_detection",
-      "community": 0,
-      "norm_label": "comparison detection"
-    },
-    {
-      "label": "REVIEW FOLDER",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1416",
-      "_origin": "ast",
-      "id": "organizer_spec_review_folder",
-      "community": 0,
-      "norm_label": "review folder"
-    },
-    {
-      "label": "HUMAN-FIRST TEST",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1438",
-      "_origin": "ast",
-      "id": "organizer_spec_human_first_test",
-      "community": 0,
-      "norm_label": "human-first test"
-    },
-    {
-      "label": "FINAL QUALITY TEST",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1458",
-      "_origin": "ast",
-      "id": "organizer_spec_final_quality_test",
-      "community": 0,
-      "norm_label": "final quality test"
-    },
-    {
-      "label": "FOLDER ARCHITECTURE & ORGANIZATION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1468",
-      "_origin": "ast",
-      "id": "organizer_spec_folder_architecture_organization",
-      "community": 0,
-      "norm_label": "folder architecture & organization"
-    },
-    {
-      "label": "DESIGN PRINCIPLES",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1482",
-      "_origin": "ast",
-      "id": "organizer_spec_design_principles",
-      "community": 0,
-      "norm_label": "design principles"
-    },
-    {
-      "label": "PREFERRED STRUCTURE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1500",
-      "_origin": "ast",
-      "id": "organizer_spec_preferred_structure",
-      "community": 0,
-      "norm_label": "preferred structure"
-    },
-    {
-      "label": "ARCHIVE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1536",
-      "_origin": "ast",
-      "id": "organizer_spec_archive",
-      "community": 0,
-      "norm_label": "archive"
-    },
-    {
-      "label": "MISCELLANEOUS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1552",
-      "_origin": "ast",
-      "id": "organizer_spec_miscellaneous",
-      "community": 0,
-      "norm_label": "miscellaneous"
-    },
-    {
-      "label": "FOLDER READMEs",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1562",
-      "_origin": "ast",
-      "id": "organizer_spec_folder_readmes",
-      "community": 0,
-      "norm_label": "folder readmes"
-    },
-    {
-      "label": "FILE ORGANIZATION",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1578",
-      "_origin": "ast",
-      "id": "organizer_spec_file_organization",
-      "community": 0,
-      "norm_label": "file organization"
-    },
-    {
-      "label": "FILE NAMING",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1608",
-      "_origin": "ast",
-      "id": "organizer_spec_file_naming",
-      "community": 0,
-      "norm_label": "file naming"
-    },
-    {
-      "label": "TITLE QUALITY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1643",
-      "_origin": "ast",
-      "id": "organizer_spec_title_quality",
-      "community": 0,
-      "norm_label": "title quality"
-    },
-    {
-      "label": "DESCRIPTION QUALITY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1665",
-      "_origin": "ast",
-      "id": "organizer_spec_description_quality",
-      "community": 0,
-      "norm_label": "description quality"
-    },
-    {
-      "label": "CATEGORY QUALITY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1685",
-      "_origin": "ast",
-      "id": "organizer_spec_category_quality",
-      "community": 0,
-      "norm_label": "category quality"
-    },
-    {
-      "label": "TAG QUALITY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1715",
-      "_origin": "ast",
-      "id": "organizer_spec_tag_quality",
-      "community": 0,
-      "norm_label": "tag quality"
-    },
-    {
-      "label": "RELATIONSHIPS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1747",
-      "_origin": "ast",
-      "id": "organizer_spec_relationships_1747",
-      "community": 0,
-      "norm_label": "relationships"
-    },
-    {
-      "label": "CONTENT CONSISTENCY",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1779",
-      "_origin": "ast",
-      "id": "organizer_spec_content_consistency",
-      "community": 0,
-      "norm_label": "content consistency"
-    },
-    {
-      "label": "MARKDOWN STANDARDS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1797",
-      "_origin": "ast",
-      "id": "organizer_spec_markdown_standards",
-      "community": 0,
-      "norm_label": "markdown standards"
-    },
-    {
-      "label": "WRITING STYLE",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1827",
-      "_origin": "ast",
-      "id": "organizer_spec_writing_style",
-      "community": 0,
-      "norm_label": "writing style"
-    },
-    {
-      "label": "WHAT NOT TO DO",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1855",
-      "_origin": "ast",
-      "id": "organizer_spec_what_not_to_do",
-      "community": 0,
-      "norm_label": "what not to do"
-    },
-    {
-      "label": "DECISION FRAMEWORK",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1873",
-      "_origin": "ast",
-      "id": "organizer_spec_decision_framework",
-      "community": 0,
-      "norm_label": "decision framework"
-    },
-    {
-      "label": "FINAL LIBRARY TEST",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1945",
-      "_origin": "ast",
-      "id": "organizer_spec_final_library_test",
-      "community": 0,
-      "norm_label": "final library test"
-    },
-    {
-      "label": "SUCCESS CRITERIA",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1973",
-      "_origin": "ast",
-      "id": "organizer_spec_success_criteria",
-      "community": 0,
-      "norm_label": "success criteria"
-    },
-    {
-      "label": "FINAL VALIDATION & DECISION LOG",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2013",
-      "_origin": "ast",
-      "id": "organizer_spec_final_validation_decision_log",
-      "community": 0,
-      "norm_label": "final validation & decision log"
-    },
-    {
-      "label": "GLOBAL REVIEW",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2025",
-      "_origin": "ast",
-      "id": "organizer_spec_global_review",
-      "community": 0,
-      "norm_label": "global review"
-    },
-    {
-      "label": "LIBRARY CONSISTENCY PASS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2046",
-      "_origin": "ast",
-      "id": "organizer_spec_library_consistency_pass",
-      "community": 0,
-      "norm_label": "library consistency pass"
-    },
-    {
-      "label": "DUPLICATE PASS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2064",
-      "_origin": "ast",
-      "id": "organizer_spec_duplicate_pass",
-      "community": 0,
-      "norm_label": "duplicate pass"
-    },
-    {
-      "label": "QUALITY PASS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2074",
-      "_origin": "ast",
-      "id": "organizer_spec_quality_pass",
-      "community": 0,
-      "norm_label": "quality pass"
-    },
-    {
-      "label": "NAVIGATION PASS",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2084",
-      "_origin": "ast",
-      "id": "organizer_spec_navigation_pass",
-      "community": 0,
-      "norm_label": "navigation pass"
-    },
-    {
-      "label": "DECISION LOG",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2099",
-      "_origin": "ast",
-      "id": "organizer_spec_decision_log",
-      "community": 0,
-      "norm_label": "decision log"
-    },
-    {
-      "label": "FINAL SUCCESS TEST",
-      "file_type": "document",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2139",
-      "_origin": "ast",
-      "id": "organizer_spec_final_success_test",
-      "community": 0,
-      "norm_label": "final success test"
-    },
-    {
       "label": "DESIGN_PLAN.md",
       "file_type": "document",
       "source_file": "site/DESIGN_PLAN.md",
@@ -26376,6 +26406,191 @@
       "weight": 1.0,
       "source": "scripts_generate_indices",
       "target": "scripts_generate_indices_generate_indices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_cat_to_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_determine_subcategory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_generate_category_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_generate_deep_item_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "site_build",
+      "target": "site_build_parse_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "site_build_main",
+      "target": "site_build_determine_subcategory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "site_build_main",
+      "target": "site_build_parse_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "site_build_generate_category_page",
+      "target": "site_build_cat_to_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "site_build_main",
+      "target": "site_build_generate_category_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "site/build.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "site_build_main",
+      "target": "site_build_generate_deep_item_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_initbookmarks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_initcopyengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_initsearchsystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_initshortcuts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_loadrandomresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_showtoast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/js/app.js",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "site_js_app",
+      "target": "site_js_app_updatebookmarkui",
       "confidence_score": 1.0
     },
     {
@@ -27891,111 +28106,1201 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1536",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_archive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1195",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_bookmarks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L389",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_categories_vs_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1685",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_category_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L810",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_cheat_sheets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L778",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_checklists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1408",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_comparison_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L786",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_comparisons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1779",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_content_consistency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_create_new_knowledge_types_when_appropriate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1873",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_decision_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2099",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_decision_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L867",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_decision_principle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1665",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_description_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1482",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_design_principles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_duplicate_guides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2064",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_duplicate_pass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_duplicate_prompts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_duplicate_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_duplicates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L881",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_extraction_algorithm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_file_names",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1608",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_file_naming",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1578",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_file_organization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1945",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_final_library_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1458",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_final_quality_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2139",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_final_success_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2013",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_final_validation_decision_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1468",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_folder_architecture_organization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1562",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_folder_readmes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1372",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_framework_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L731",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_frameworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_general_philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1277",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2025",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_global_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1356",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_guide_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L674",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_guides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1438",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_human_first_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_knowledge_extraction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "implementation_plan",
-      "target": "implementation_plan_goal_description",
+      "source": "organization_prompt",
+      "target": "organization_prompt_knowledge_library_organizer_specification",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L10",
+      "source_file": "organization-prompt.md",
+      "source_location": "L409",
       "weight": 1.0,
-      "source": "implementation_plan_goal_description",
-      "target": "implementation_plan_open_questions",
+      "source": "organization_prompt",
+      "target": "organization_prompt_knowledge_object_schemas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L17",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2046",
       "weight": 1.0,
-      "source": "implementation_plan_goal_description",
-      "target": "implementation_plan_proposed_changes",
+      "source": "organization_prompt",
+      "target": "organization_prompt_library_consistency_pass",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L5",
+      "source_file": "organization-prompt.md",
+      "source_location": "L297",
       "weight": 1.0,
-      "source": "implementation_plan_goal_description",
-      "target": "implementation_plan_user_review_required",
+      "source": "organization_prompt",
+      "target": "organization_prompt_markdown",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L36",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1797",
       "weight": 1.0,
-      "source": "implementation_plan_goal_description",
-      "target": "implementation_plan_verification_plan",
+      "source": "organization_prompt",
+      "target": "organization_prompt_markdown_standards",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L22",
+      "source_file": "organization-prompt.md",
+      "source_location": "L345",
       "weight": 1.0,
-      "source": "implementation_plan_proposed_changes",
-      "target": "implementation_plan_ai_skills",
+      "source": "organization_prompt",
+      "target": "organization_prompt_master_index",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L29",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1552",
       "weight": 1.0,
-      "source": "implementation_plan_proposed_changes",
-      "target": "implementation_plan_missing_bookmarks",
+      "source": "organization_prompt",
+      "target": "organization_prompt_miscellaneous",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L32",
+      "source_file": "organization-prompt.md",
+      "source_location": "L839",
       "weight": 1.0,
-      "source": "implementation_plan_proposed_changes",
-      "target": "implementation_plan_missing_pdf_tools_prompts",
+      "source": "organization_prompt",
+      "target": "organization_prompt_miscellaneous_knowledge",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L19",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2084",
       "weight": 1.0,
-      "source": "implementation_plan_proposed_changes",
-      "target": "implementation_plan_skool_guides",
+      "source": "organization_prompt",
+      "target": "organization_prompt_navigation_pass",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L38",
+      "source_file": "organization-prompt.md",
+      "source_location": "L39",
       "weight": 1.0,
-      "source": "implementation_plan_verification_plan",
-      "target": "implementation_plan_automated_tests",
+      "source": "organization_prompt",
+      "target": "organization_prompt_non_negotiable_rules",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "implementation_plan.md",
-      "source_location": "L41",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1301",
       "weight": 1.0,
-      "source": "implementation_plan_verification_plan",
-      "target": "implementation_plan_manual_verification",
+      "source": "organization_prompt",
+      "target": "organization_prompt_notion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1030",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_pdf_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L766",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_playbooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1500",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_preferred_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_priority_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1342",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_prompt_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1316",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_prompt_folder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L417",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_prompts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L2074",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_quality_pass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L331",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_readme_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L822",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_reference_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L369",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_relationships",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1747",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_relationships_1747",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1416",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_review_folder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1116",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_school_guides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1289",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_source_attribution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L891",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_step_1_understand_the_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L907",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_step_2_identify_knowledge_objects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L931",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_step_3_evaluate_each_object",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L997",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_step_4_improve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1016",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_step_5_place",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1973",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_success_criteria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1715",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_tag_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1643",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_title_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1330",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_tool_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L576",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_web_research",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1855",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_what_not_to_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1390",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_workflow_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L752",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_workflows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1827",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_writing_style",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1133",
+      "weight": 1.0,
+      "source": "organization_prompt",
+      "target": "organization_prompt_youtube_transcripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "organization_prompt_knowledge_library_organizer_specification",
+      "target": "organization_prompt_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "organization_prompt_non_negotiable_rules",
+      "target": "organization_prompt_1_preserve_the_original_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "organization_prompt_non_negotiable_rules",
+      "target": "organization_prompt_2_create_a_working_copy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "organization_prompt_non_negotiable_rules",
+      "target": "organization_prompt_3_optimize_for_quality_over_quantity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "organization_prompt_non_negotiable_rules",
+      "target": "organization_prompt_4_optimize_for_humans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "organization_prompt_non_negotiable_rules",
+      "target": "organization_prompt_5_the_suggested_structure_is_not_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L436",
+      "weight": 1.0,
+      "source": "organization_prompt_prompts",
+      "target": "organization_prompt_prompt_quality_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L457",
+      "weight": 1.0,
+      "source": "organization_prompt_prompts",
+      "target": "organization_prompt_prompt_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L523",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_category",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L471",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L489",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L506",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L561",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_relationships_561",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L544",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L461",
+      "weight": 1.0,
+      "source": "organization_prompt_prompt_schema",
+      "target": "organization_prompt_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L588",
+      "weight": 1.0,
+      "source": "organization_prompt_tools",
+      "target": "organization_prompt_tool_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L650",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_category_650",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L596",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_description_596",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L590",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L632",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_pricing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L656",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_tags_656",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L610",
+      "weight": 1.0,
+      "source": "organization_prompt_tool_schema",
+      "target": "organization_prompt_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L690",
+      "weight": 1.0,
+      "source": "organization_prompt_guides",
+      "target": "organization_prompt_guide_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L716",
+      "weight": 1.0,
+      "source": "organization_prompt_guides",
+      "target": "organization_prompt_missing_information",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L955",
+      "weight": 1.0,
+      "source": "organization_prompt_step_3_evaluate_each_object",
+      "target": "organization_prompt_does_extracting_it_reduce_the_value_of_the_original_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L935",
+      "weight": 1.0,
+      "source": "organization_prompt_step_3_evaluate_each_object",
+      "target": "organization_prompt_does_it_provide_standalone_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L981",
+      "weight": 1.0,
+      "source": "organization_prompt_step_3_evaluate_each_object",
+      "target": "organization_prompt_if_extracting_everything_leaves_no_meaningful_educational_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L945",
+      "weight": 1.0,
+      "source": "organization_prompt_step_3_evaluate_each_object",
+      "target": "organization_prompt_is_it_duplicated_elsewhere",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1108",
+      "weight": 1.0,
+      "source": "organization_prompt_pdf_rules",
+      "target": "organization_prompt_cheat_sheets_1108",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1050",
+      "weight": 1.0,
+      "source": "organization_prompt_pdf_rules",
+      "target": "organization_prompt_mixed_pdfs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1098",
+      "weight": 1.0,
+      "source": "organization_prompt_pdf_rules",
+      "target": "organization_prompt_prompt_collections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1074",
+      "weight": 1.0,
+      "source": "organization_prompt_pdf_rules",
+      "target": "organization_prompt_tool_lists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1141",
+      "weight": 1.0,
+      "source": "organization_prompt_youtube_transcripts",
+      "target": "organization_prompt_educational_videos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1185",
+      "weight": 1.0,
+      "source": "organization_prompt_youtube_transcripts",
+      "target": "organization_prompt_prompt_videos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1169",
+      "weight": 1.0,
+      "source": "organization_prompt_youtube_transcripts",
+      "target": "organization_prompt_tool_showcase_videos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1227",
+      "weight": 1.0,
+      "source": "organization_prompt_bookmarks",
+      "target": "organization_prompt_dead_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1203",
+      "weight": 1.0,
+      "source": "organization_prompt_bookmarks",
+      "target": "organization_prompt_delete_personal_resources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organization-prompt.md",
+      "source_location": "L1245",
+      "weight": 1.0,
+      "source": "organization_prompt_bookmarks",
+      "target": "organization_prompt_useful_resources",
       "confidence_score": 1.0
     },
     {
@@ -50221,1206 +51526,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1536",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_archive",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1195",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_bookmarks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L389",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_categories_vs_tags",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1685",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_category_quality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L810",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_cheat_sheets",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L778",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_checklists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1408",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_comparison_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L786",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_comparisons",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1779",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_content_consistency",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L184",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_create_new_knowledge_types_when_appropriate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1873",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_decision_framework",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2099",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_decision_log",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L867",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_decision_principle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1665",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_description_quality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1482",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_design_principles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L253",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_duplicate_guides",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2064",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_duplicate_pass",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L217",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_duplicate_prompts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L235",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_duplicate_tools",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L207",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_duplicates",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L881",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_extraction_algorithm",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L315",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_file_names",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1608",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_file_naming",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1578",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_file_organization",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1945",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_final_library_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1458",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_final_quality_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2139",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_final_success_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2013",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_final_validation_decision_log",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1468",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_folder_architecture_organization",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1562",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_folder_readmes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1372",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_framework_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L731",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_frameworks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L141",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_general_philosophy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1277",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_github",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2025",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_global_review",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1356",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_guide_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L674",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_guides",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1438",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_human_first_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L157",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_knowledge_extraction",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_knowledge_library_organizer_specification",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L409",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_knowledge_object_schemas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2046",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_library_consistency_pass",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L297",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_markdown",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1797",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_markdown_standards",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L345",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_master_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1552",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_miscellaneous",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L839",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_miscellaneous_knowledge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2084",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_navigation_pass",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_non_negotiable_rules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1301",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_notion",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1030",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_pdf_rules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L766",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_playbooks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1500",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_preferred_structure",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L126",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_priority_order",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1342",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_prompt_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1316",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_prompt_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L417",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_prompts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L2074",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_quality_pass",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L331",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_readme_files",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L822",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_reference_material",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L369",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_relationships",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1747",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_relationships_1747",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1416",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_review_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1116",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_school_guides",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1289",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_skills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L263",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_source_attribution",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L891",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_step_1_understand_the_file",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L907",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_step_2_identify_knowledge_objects",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L931",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_step_3_evaluate_each_object",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L997",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_step_4_improve",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1016",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_step_5_place",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1973",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_success_criteria",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1715",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_tag_quality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1643",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_title_quality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1330",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_tool_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L576",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_tools",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L279",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_web_research",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1855",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_what_not_to_do",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1390",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_workflow_detection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L752",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_workflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1827",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_writing_style",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1133",
-      "weight": 1.0,
-      "source": "organizer_spec",
-      "target": "organizer_spec_youtube_transcripts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "organizer_spec_knowledge_library_organizer_specification",
-      "target": "organizer_spec_objective",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "organizer_spec_non_negotiable_rules",
-      "target": "organizer_spec_1_preserve_the_original_data",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "organizer_spec_non_negotiable_rules",
-      "target": "organizer_spec_2_create_a_working_copy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "organizer_spec_non_negotiable_rules",
-      "target": "organizer_spec_3_optimize_for_quality_over_quantity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L89",
-      "weight": 1.0,
-      "source": "organizer_spec_non_negotiable_rules",
-      "target": "organizer_spec_4_optimize_for_humans",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L103",
-      "weight": 1.0,
-      "source": "organizer_spec_non_negotiable_rules",
-      "target": "organizer_spec_5_the_suggested_structure_is_not_fixed",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L436",
-      "weight": 1.0,
-      "source": "organizer_spec_prompts",
-      "target": "organizer_spec_prompt_quality_filter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L457",
-      "weight": 1.0,
-      "source": "organizer_spec_prompts",
-      "target": "organizer_spec_prompt_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L523",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_category",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L471",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_description",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L489",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_prerequisites",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L506",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_prompt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L561",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_relationships_561",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L544",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_tags",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L461",
-      "weight": 1.0,
-      "source": "organizer_spec_prompt_schema",
-      "target": "organizer_spec_title",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L588",
-      "weight": 1.0,
-      "source": "organizer_spec_tools",
-      "target": "organizer_spec_tool_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L650",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_category_650",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L596",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_description_596",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L590",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_name",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L632",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_pricing",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L656",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_tags_656",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L610",
-      "weight": 1.0,
-      "source": "organizer_spec_tool_schema",
-      "target": "organizer_spec_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L690",
-      "weight": 1.0,
-      "source": "organizer_spec_guides",
-      "target": "organizer_spec_guide_rules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L716",
-      "weight": 1.0,
-      "source": "organizer_spec_guides",
-      "target": "organizer_spec_missing_information",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L955",
-      "weight": 1.0,
-      "source": "organizer_spec_step_3_evaluate_each_object",
-      "target": "organizer_spec_does_extracting_it_reduce_the_value_of_the_original_resource",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L935",
-      "weight": 1.0,
-      "source": "organizer_spec_step_3_evaluate_each_object",
-      "target": "organizer_spec_does_it_provide_standalone_value",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L981",
-      "weight": 1.0,
-      "source": "organizer_spec_step_3_evaluate_each_object",
-      "target": "organizer_spec_if_extracting_everything_leaves_no_meaningful_educational_value",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L945",
-      "weight": 1.0,
-      "source": "organizer_spec_step_3_evaluate_each_object",
-      "target": "organizer_spec_is_it_duplicated_elsewhere",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1108",
-      "weight": 1.0,
-      "source": "organizer_spec_pdf_rules",
-      "target": "organizer_spec_cheat_sheets_1108",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1050",
-      "weight": 1.0,
-      "source": "organizer_spec_pdf_rules",
-      "target": "organizer_spec_mixed_pdfs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1098",
-      "weight": 1.0,
-      "source": "organizer_spec_pdf_rules",
-      "target": "organizer_spec_prompt_collections",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1074",
-      "weight": 1.0,
-      "source": "organizer_spec_pdf_rules",
-      "target": "organizer_spec_tool_lists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1141",
-      "weight": 1.0,
-      "source": "organizer_spec_youtube_transcripts",
-      "target": "organizer_spec_educational_videos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1185",
-      "weight": 1.0,
-      "source": "organizer_spec_youtube_transcripts",
-      "target": "organizer_spec_prompt_videos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1169",
-      "weight": 1.0,
-      "source": "organizer_spec_youtube_transcripts",
-      "target": "organizer_spec_tool_showcase_videos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1227",
-      "weight": 1.0,
-      "source": "organizer_spec_bookmarks",
-      "target": "organizer_spec_dead_links",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1203",
-      "weight": 1.0,
-      "source": "organizer_spec_bookmarks",
-      "target": "organizer_spec_delete_personal_resources",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "organizer-spec.md",
-      "source_location": "L1245",
-      "weight": 1.0,
-      "source": "organizer_spec_bookmarks",
-      "target": "organizer_spec_useful_resources",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "site/DESIGN_PLAN.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -52100,5 +52205,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a200e771d6c0fe32808b92e10641647f06bde53d"
+  "built_at_commit": "7b0f3d31910bd2b0e28dc6bc5adffd9c597fbf4a"
 }
