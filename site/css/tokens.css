@@ -1,0 +1,191 @@
+/* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival (Drop 06 · Pressroom)
+ * nav: N7 Brutal slab · footer: Ft8 Marquee scroll
+ * drop: pressroom · paper-band: light (L 89%) · display-style: display-heavy · accent-hue: warm (amber 75°) + cool (slate-blue 240°)
+ * audience: OWGT newsletter subscribers · use: browse/discover AI resources · tone: playful, loud, premium
+ * pre-emit critique: P5 H5 E5 S5 R5 V5
+ */
+
+/* =============================================================
+   CARNIVAL — DROP 06 · PRESSROOM
+   Warm amber-gold + slate-blue. 1950s journalism. Print shop.
+   ============================================================= */
+
+[data-theme="carnival"],
+:root {
+
+  /* ── Paper (light, warm slate-cream) ────────────────────── */
+  --color-paper:    oklch(89% 0.025 65);
+  --color-paper-2:  oklch(85% 0.030 62);
+  --color-paper-3:  oklch(79% 0.035 58);
+
+  /* ── Ink ────────────────────────────────────────────────── */
+  --color-ink:      oklch(16% 0.020 60);
+  --color-ink-2:    oklch(28% 0.025 58);
+  --color-muted:    oklch(45% 0.025 55);
+
+  /* ── Rules (decorative) — slate-blue ────────────────────── */
+  --color-rule:     oklch(34% 0.10 240);
+
+  /* ── Accents: amber-gold + slate-blue ───────────────────── */
+  --color-accent:       oklch(78% 0.18 75);   /* amber-gold — primary */
+  --color-accent-2:     oklch(34% 0.10 240);  /* slate-blue — secondary */
+  --color-accent-ink:   oklch(16% 0.020 60);  /* ink on accent backgrounds */
+  --color-accent-2-ink: oklch(89% 0.025 65);  /* paper on accent-2 backgrounds */
+
+  /* ── Focus ring ─────────────────────────────────────────── */
+  --color-focus:    oklch(34% 0.10 240);
+
+  /* ── Category accent tints (8 categories) ───────────────── */
+  --color-cat-prompts:     oklch(78% 0.18 75);   /* amber — primary accent */
+  --color-cat-tools:       oklch(58% 0.15 225);  /* teal-blue */
+  --color-cat-guides:      oklch(52% 0.14 148);  /* forest green */
+  --color-cat-resources:   oklch(55% 0.16 295);  /* indigo-purple */
+  --color-cat-learning:    oklch(68% 0.17 50);   /* warm orange */
+  --color-cat-frameworks:  oklch(48% 0.14 20);   /* deep terracotta */
+  --color-cat-cheatsheets: oklch(62% 0.18 340);  /* rose-magenta */
+  --color-cat-templates:   oklch(58% 0.15 195);  /* cyan */
+
+  /* Category accent inks (on coloured backgrounds) */
+  --color-cat-ink: oklch(16% 0.020 60);
+}
+
+
+/* =============================================================
+   TYPOGRAPHY TOKENS
+   Display: Big Shoulders Display (variable width axis, 800wt)
+   Body: Source Serif 4 (editorial body — matches print shop brief)
+   Outlier: Geist Mono (labels, code, small caps moments)
+   ============================================================= */
+
+:root {
+  --font-display:  "Big Shoulders Display", "Big Shoulders Display Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-body:     "Source Serif 4", "Georgia", ui-serif, serif;
+  --font-outlier:  "Geist Mono", "Courier New", ui-monospace, monospace;
+
+  /* Type scale — major third (×1.25) from 16px base */
+  --text-xs:      0.640rem;   /*  10.2px  */
+  --text-sm:      0.800rem;   /*  12.8px  */
+  --text-base:    1.000rem;   /*  16px    */
+  --text-md:      1.250rem;   /*  20px    */
+  --text-lg:      1.563rem;   /*  25px    */
+  --text-xl:      1.953rem;   /*  31.25px */
+  --text-2xl:     2.441rem;   /*  39px    */
+  --text-3xl:     3.052rem;   /*  48.8px  */
+  --text-4xl:     3.815rem;   /*  61px    */
+
+  /* Display — clamped, responsive */
+  --text-display-s: clamp(2.25rem, 4vw + 1rem, 3.8rem);
+  --text-display:   clamp(3rem, 6vw + 1rem, 5.5rem);
+
+  /* Line heights */
+  --lh-display:  0.92;   /* all-caps display heads */
+  --lh-tight:    1.10;
+  --lh-snug:     1.25;
+  --lh-body:     1.60;
+
+  /* Letter spacing */
+  --ls-display:  -0.005em;  /* hero single word */
+  --ls-head:      0.020em;  /* section heads */
+  --ls-label:     0.080em;  /* uppercase labels */
+  --ls-marquee:   0.040em;  /* marquee banner spread */
+}
+
+
+/* =============================================================
+   SPACING — 4pt base, 9 named steps
+   ============================================================= */
+
+:root {
+  --space-3xs: 0.125rem;   /*  2px  */
+  --space-2xs: 0.250rem;   /*  4px  */
+  --space-xs:  0.500rem;   /*  8px  */
+  --space-sm:  0.750rem;   /* 12px  */
+  --space-md:  1.000rem;   /* 16px  */
+  --space-lg:  1.500rem;   /* 24px  */
+  --space-xl:  2.500rem;   /* 40px  */
+  --space-2xl: 4.000rem;   /* 64px  */
+  --space-3xl: 6.000rem;   /* 96px  */
+  --space-4xl: 9.000rem;   /* 144px */
+}
+
+
+/* =============================================================
+   LAYOUT TOKENS
+   ============================================================= */
+
+:root {
+  --page-max:     1280px;
+  --page-gutter:  clamp(1rem, 4vw, 3rem);
+  --nav-height:   4rem;
+
+  /* Grid col counts by viewport */
+  --grid-cols-lg: 4;
+  --grid-cols-md: 3;
+  --grid-cols-sm: 2;
+
+  /* Card */
+  --card-radius:  0px;           /* Carnival: no radius — hard corners */
+  --card-border:  2px solid var(--color-ink);
+  --card-shadow:  4px 4px 0 var(--color-ink);  /* Carnival signature: hard-offset */
+  --card-shadow-accent: 4px 4px 0 var(--color-accent-2);
+}
+
+
+/* =============================================================
+   Z-INDEX SCALE — six named levels
+   ============================================================= */
+
+:root {
+  --z-base:     1;
+  --z-raised:   10;
+  --z-dropdown: 100;
+  --z-sticky:   200;
+  --z-modal:    400;
+  --z-toast:    500;
+  --z-tooltip:  600;
+}
+
+
+/* =============================================================
+   MOTION TOKENS
+   ============================================================= */
+
+:root {
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:    cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-inout: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* mild spring — playful genre */
+
+  --duration-fast:   120ms;
+  --duration-base:   220ms;
+  --duration-slow:   380ms;
+  --duration-reveal: 550ms;
+}
+
+
+/* =============================================================
+   COMPONENT TOKENS
+   ============================================================= */
+
+:root {
+  /* Ornaments (Carnival signature) */
+  --ornament-section:  "✱ ✱ ✱ ✱";
+  --ornament-bullet:   "❋";
+  --ornament-head-pre: "◆";
+
+  /* Nav */
+  --nav-bg:       var(--color-paper-2);
+  --nav-border:   2px solid var(--color-ink);
+
+  /* Tag pills */
+  --pill-radius:   999px;
+  --pill-padding:  0.25em 0.75em;
+  --pill-border:   1px solid var(--color-ink);
+
+  /* Focus ring */
+  --focus-ring:   2px solid var(--color-focus);
+  --focus-offset: 2px;
+
+  /* Marquee */
+  --marquee-speed: 35s;
+}
