@@ -15,7 +15,7 @@
     .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
     .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
     .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
-    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
     .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
 
     .tag-grid {
@@ -68,12 +68,14 @@
 </head>
 <body>
   <header class="nav-mast">
-    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <a href="/home" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
     <nav class="mast-nav" aria-label="Primary">
       <ul>
         <li><a href="prompts">Prompts</a></li>
         <li><a href="tools">Tools</a></li>
-        <li><a href="tags" class="active">Tags</a></li>
+        <li><a href="guides">Guides</a></li>
+        <li><a href="resources">Resources</a></li>
+        <li><a href="tags">Tags</a></li>
         <li><a href="bookmarks">Bookmarks</a></li>
       </ul>
     </nav>
@@ -85,40 +87,59 @@
       <h1 class="display-hero" style="text-align: center;">TAG DIRECTORY</h1>
       <p style="text-align: center; margin-top: var(--space-md); font-family: var(--font-outlier); text-transform: uppercase;">Browse all topics across the vault.</p>
       
-      <div class="letter-group">
-        <h2>M</h2>
-        <div class="tag-grid">
-          <a href="tag-detail" class="tag-card">
-            <span class="tag-name">#marketing</span>
-            <span class="tag-count">42</span>
-          </a>
-          <a href="#" class="tag-card">
-            <span class="tag-name">#midjourney</span>
-            <span class="tag-count">18</span>
-          </a>
-        </div>
-      </div>
-      
-      <div class="letter-group">
-        <h2>S</h2>
-        <div class="tag-grid">
-          <a href="#" class="tag-card">
-            <span class="tag-name">#sales</span>
-            <span class="tag-count">35</span>
-          </a>
-          <a href="#" class="tag-card">
-            <span class="tag-name">#seo</span>
-            <span class="tag-count">12</span>
-          </a>
-          <a href="#" class="tag-card">
-            <span class="tag-name">#sops</span>
-            <span class="tag-count">9</span>
-          </a>
-        </div>
+      <div id="tags-container">
+        <p style="text-align: center; margin-top: var(--space-xl); font-family: var(--font-outlier);">Loading tags...</p>
       </div>
     </div>
   </main>
   
+  <footer class="foot-mast" style="padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink);">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+      <p class="wordmark" style="font-family: var(--font-display); font-size: var(--text-2xl); font-variation-settings: 'wdth' 110, 'wght' 800; text-transform: uppercase;">OWGT Rewards</p>
+      <p class="links muted" style="margin-top: var(--space-xs); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs);">© 2026 OWGT</p>
+      <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
+    </div>
+  </footer>
+
   <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('data.json')
+        .then(res => res.json())
+        .then(data => {
+          const tags = data.tags || {};
+          const container = document.getElementById('tags-container');
+          
+          // Sort tags alphabetically
+          const sorted = Object.entries(tags).sort((a, b) => a[0].localeCompare(b[0]));
+          
+          // Group by first letter
+          const groups = {};
+          sorted.forEach(([tag, count]) => {
+            const letter = tag.charAt(0).toUpperCase();
+            if (!groups[letter]) groups[letter] = [];
+            groups[letter].push({ tag, count });
+          });
+          
+          let html = '';
+          Object.keys(groups).sort().forEach(letter => {
+            html += `<div class="letter-group"><h2>${letter}</h2><div class="tag-grid">`;
+            groups[letter].forEach(({ tag, count }) => {
+              html += `<a href="tag-detail?tag=${encodeURIComponent(tag)}" class="tag-card">
+                <span class="tag-name">#${tag}</span>
+                <span class="tag-count">${count}</span>
+              </a>`;
+            });
+            html += `</div></div>`;
+          });
+          
+          container.innerHTML = html;
+        })
+        .catch(err => {
+          document.getElementById('tags-container').innerHTML = '<p style="text-align:center; color: var(--color-muted);">Could not load tags.</p>';
+          console.error('Error loading tags:', err);
+        });
+    });
+  </script>
 </body>
 </html>

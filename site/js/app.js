@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initShortcuts();
   initCopyEngine();
   initSpotlight();
+  initExpandableCards();
+  highlightActiveNav();
 });
 
 /* ==========================================================================
@@ -153,8 +155,8 @@ function updateBookmarkUI(id, isBookmarked) {
     if (isBookmarked) {
       btn.innerHTML = '♥ Saved';
       btn.classList.add('is-saved');
-      btn.style.background = 'var(--color-ink)';
-      btn.style.color = 'var(--color-paper)';
+      btn.style.background = '#ef4444';
+      btn.style.color = '#fff';
     } else {
       btn.innerHTML = '♡ Save';
       btn.classList.remove('is-saved');
@@ -216,11 +218,9 @@ function initCopyEngine() {
   window.copyToClipboard = (textToCopy, btnElement) => {
     navigator.clipboard.writeText(textToCopy).then(() => {
       const originalText = btnElement.innerText;
-      btnElement.innerText = "COPIED!";
-      btnElement.style.background = "var(--color-ink)";
-      btnElement.style.color = "var(--color-paper)";
-      
-      showToast("Copied to clipboard");
+      btnElement.innerText = "✔ COPIED!";
+      btnElement.style.background = "#22c55e";
+      btnElement.style.color = "#fff";
       
       setTimeout(() => {
         btnElement.innerText = originalText;
@@ -278,9 +278,13 @@ function initSpotlight() {
     titleEl.textContent = item.name;
     catEl.textContent = `Category: ${item.category}`;
     descEl.textContent = item.description ? `"${item.description}"` : `"Curated AI resource from the vault."`;
-    if (linkBtn && item.path) {
-      linkBtn.href = `${item.path}`;
-      linkBtn.style.display = 'inline-block';
+    if (linkBtn) {
+      if (item.is_shallow) {
+        linkBtn.style.display = 'none';
+      } else if (item.path) {
+        linkBtn.href = `${item.path}`;
+        linkBtn.style.display = 'inline-block';
+      }
     }
   };
 
@@ -308,10 +312,8 @@ function initSpotlight() {
     navigator.clipboard.writeText(textToCopy).then(() => {
       const origText = copyBtn.innerText;
       copyBtn.innerText = "✔ COPIED!";
-      copyBtn.style.background = "var(--color-ink)";
-      copyBtn.style.color = "var(--color-paper)";
-      
-      showToast("Copied to clipboard!");
+      copyBtn.style.background = "#22c55e";
+      copyBtn.style.color = "#fff";
       
       setTimeout(() => {
         copyBtn.innerText = origText;
@@ -319,5 +321,34 @@ function initSpotlight() {
         copyBtn.style.color = "";
       }, 2000);
     });
+  });
+}
+
+/* ==========================================================================
+   EXPANDABLE CARD FULL-CLICK (Fix #8)
+   ========================================================================== */
+function initExpandableCards() {
+  document.querySelectorAll('.card--expandable').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', (e) => {
+      // Don't trigger if clicking a button, link, or bookmark
+      if (e.target.closest('button, a, [data-bookmark-id]')) return;
+      const expandBtn = card.querySelector('.card__expand-btn');
+      if (expandBtn) expandBtn.click();
+    });
+  });
+}
+
+/* ==========================================================================
+   ACTIVE NAV HIGHLIGHT (Fix #10)
+   ========================================================================== */
+function highlightActiveNav() {
+  const path = window.location.pathname.replace(/^\//, '').replace(/\.html$/, '');
+  document.querySelectorAll('.mast-nav a').forEach(link => {
+    const href = link.getAttribute('href').replace(/^\//, '').replace(/\.html$/, '');
+    if (href === path) {
+      link.classList.add('active');
+      link.style.color = 'var(--color-accent)';
+    }
   });
 }

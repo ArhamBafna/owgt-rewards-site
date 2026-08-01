@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>#marketing - OWGT Rewards Library</title>
+  <title>Tag - OWGT Rewards Library</title>
   
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
@@ -27,12 +27,15 @@
 </head>
 <body>
   <header class="nav-mast">
-    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <a href="/home" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
     <nav class="mast-nav" aria-label="Primary">
       <ul>
         <li><a href="prompts">Prompts</a></li>
         <li><a href="tools">Tools</a></li>
-        <li><a href="tags" class="active">Tags</a></li>
+        <li><a href="guides">Guides</a></li>
+        <li><a href="resources">Resources</a></li>
+        <li><a href="tags">Tags</a></li>
+        <li><a href="bookmarks">Bookmarks</a></li>
       </ul>
     </nav>
     <hr class="mast-rule double" aria-hidden="true">
@@ -42,32 +45,108 @@
     <header class="tag-header">
       <div class="container container--narrow">
         <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ TAG DIRECTORY</p>
-        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem); text-transform: lowercase;">#marketing</h1>
-        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
-          42 resources found matching this tag.
-        </p>
+        <h1 id="tag-title" class="display-hero" style="font-size: clamp(2rem, 5vw, 4rem); text-transform: lowercase;">Loading...</h1>
+        <p id="tag-count-text" style="margin: var(--space-md) auto 0; font-size: var(--text-lg);"></p>
       </div>
     </header>
 
     <section class="section">
       <div class="container container--wide">
-        <div class="card-grid card-grid--4">
-          <!-- Item -->
-          <a href="#" class="card" style="--cat-color: var(--color-cat-prompts);">
-            <div class="card__accent-strip"></div>
-            <div class="card__body">
-              <h3 class="card__title">Customer Persona Generator</h3>
-            </div>
-            <div class="card__footer">
-              <span class="meta">Prompts</span>
-              <span class="card__expand-arrow">→</span>
-            </div>
-          </a>
+        <div id="tag-results" class="card-grid card-grid--4">
+          <p style="font-family: var(--font-outlier); text-align: center;">Loading resources...</p>
         </div>
       </div>
     </section>
   </main>
   
+  <footer class="foot-mast" style="padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink);">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+      <p class="wordmark" style="font-family: var(--font-display); font-size: var(--text-2xl); font-variation-settings: 'wdth' 110, 'wght' 800; text-transform: uppercase;">OWGT Rewards</p>
+      <p class="links muted" style="margin-top: var(--space-xs); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs);">© 2026 OWGT</p>
+      <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
+    </div>
+  </footer>
+
   <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const tagName = params.get('tag');
+      
+      if (!tagName) {
+        document.getElementById('tag-title').textContent = 'No tag specified';
+        document.getElementById('tag-results').innerHTML = '<p style="text-align:center;">Please select a tag from the <a href="tags" style="text-decoration: underline;">tag directory</a>.</p>';
+        return;
+      }
+      
+      document.title = `#${tagName} - OWGT Rewards Library`;
+      document.getElementById('tag-title').textContent = `#${tagName}`;
+      
+      fetch('data.json')
+        .then(res => res.json())
+        .then(data => {
+          const items = data.items.filter(item => 
+            item.tags && item.tags.some(t => t.toLowerCase() === tagName.toLowerCase())
+          );
+          
+          document.getElementById('tag-count-text').textContent = `${items.length} resources found matching this tag.`;
+          
+          const grid = document.getElementById('tag-results');
+          
+          if (items.length === 0) {
+            grid.innerHTML = '<p style="text-align:center; font-family: var(--font-outlier);">No resources found for this tag.</p>';
+            return;
+          }
+          
+          const escapeHTML = str => {
+            if (!str) return '';
+            return String(str).replace(/[&<>'"]/g, tag => ({
+              '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+            }[tag]));
+          };
+          
+          grid.innerHTML = items.map(item => {
+            if (item.is_shallow) {
+              return `
+                <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+                  <div class="card__accent-strip"></div>
+                  <div class="card__body">
+                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                    <p class="card__desc">${escapeHTML(item.description)}</p>
+                  </div>
+                  <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                    <span>Quick View</span>
+                    <span class="card__expand-arrow">↓</span>
+                  </button>
+                  <div class="card__expand-content">
+                    <p style="font-size: var(--text-sm);">${escapeHTML(item.description)}</p>
+                    ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
+                  </div>
+                </div>`;
+            } else {
+              return `
+                <a href="${escapeHTML(item.path)}" class="card" style="--cat-color: var(--color-cat-prompts);">
+                  <div class="card__accent-strip"></div>
+                  <div class="card__body">
+                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                    <p class="card__desc">${escapeHTML(item.description)}</p>
+                  </div>
+                  <div class="card__footer">
+                    <span class="meta">${escapeHTML(item.category)}</span>
+                    <span class="card__expand-arrow">→</span>
+                  </div>
+                </a>`;
+            }
+          }).join('');
+          
+          // Re-init expandable cards for dynamically added ones
+          if (typeof initExpandableCards === 'function') initExpandableCards();
+        })
+        .catch(err => {
+          console.error('Error loading tag data:', err);
+          document.getElementById('tag-results').innerHTML = '<p style="text-align:center;">Error loading data.</p>';
+        });
+    });
+  </script>
 </body>
 </html>
