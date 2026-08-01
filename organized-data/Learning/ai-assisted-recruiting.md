@@ -16,7 +16,6 @@ structured interview, with humans making final decisions.
 Tool to start: Claude with the Executive Prompt Library HR section (Prompts
 #70-81). Hugging Face's experience: Al-assisted hiring grew their team
 from 50 to 220 employees with 2+ hours saved per recruiter per week.
-THEiREPORT
 
 ### Category
 Learning

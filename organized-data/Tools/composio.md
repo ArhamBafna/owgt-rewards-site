@@ -11,7 +11,7 @@ https://github.com/ComposioHQ/composio
 Tools
 
 ### Tags
-- Agents
+- Agent
 - Toolkits
 - API
 - Integration

@@ -11,5 +11,5 @@ https://www.toolfk.com/
 Resources
 
 ### Tags
-- Tools
+- Tool
 - Directory

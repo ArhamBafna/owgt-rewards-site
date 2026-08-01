@@ -51,7 +51,7 @@ Guides
 
 ### Tags
 - Research
-- Workflows
+- Workflow
 - Perplexity
 - Claude
 - ChatGPT

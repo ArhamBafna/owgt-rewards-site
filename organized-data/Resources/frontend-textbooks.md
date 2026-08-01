@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - Frontend
-- AI Agents
+- Agent
 - Skills

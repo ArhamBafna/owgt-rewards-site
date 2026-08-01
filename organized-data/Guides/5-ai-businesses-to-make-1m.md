@@ -42,5 +42,5 @@ Guides
 
 ### Tags
 - Business
-- AI Agents
+- Agent
 - Entrepreneurship

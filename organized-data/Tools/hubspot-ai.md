@@ -31,11 +31,6 @@ than data entry.
 Best for: SMB to mid-market
 teams running their entire go-
 to-market on HubSpot.
- | 18
-LAVENDER 
-MARKETO ENGAGE (ADOBE)
-Lavender 
-Adobe
 
 ### Category
 Tools

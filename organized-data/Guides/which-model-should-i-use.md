@@ -60,7 +60,7 @@ The smartest models are incredibly wordy. You pay for every word. Use this stand
 Guides
 
 ### Tags
-- Workflows
+- Workflow
 - Strategy
 - Best Practices
 - Models

@@ -13,4 +13,4 @@ Tools
 ### Tags
 - Hosting
 - AI
-- Agents
+- Agent

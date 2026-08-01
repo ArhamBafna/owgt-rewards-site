@@ -11,7 +11,7 @@ https://github.com/f/awesome-chatgpt-prompts
 Resources
 
 ### Tags
-- Prompts
+- Prompt
 - ChatGPT
 - Collection
 - Roleplay

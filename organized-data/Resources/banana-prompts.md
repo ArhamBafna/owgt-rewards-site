@@ -11,6 +11,6 @@ https://www.bananaprompts.xyz/
 Resources
 
 ### Tags
-- Prompts
+- Prompt
 - Image Generation
 - Video Generation

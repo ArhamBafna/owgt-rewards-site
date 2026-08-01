@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - Design
-- AI Agents
+- Agent
 - GitHub

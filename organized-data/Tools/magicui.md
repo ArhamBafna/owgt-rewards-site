@@ -13,4 +13,4 @@ Tools
 ### Tags
 - UI
 - React
-- Templates
+- Template

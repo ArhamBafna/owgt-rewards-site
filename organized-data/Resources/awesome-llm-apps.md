@@ -11,6 +11,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 Resources
 
 ### Tags
-- Templates
+- Template
 - RAG
-- Agents
+- Agent

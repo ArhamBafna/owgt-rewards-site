@@ -1,8 +1,8 @@
 ### Name
-Break this goal into a realistic 30-60-90 day plan with
+Break this goal into a realistic 30-60-90 day plan.
 
 ### Description
-A strategic template to break this goal into a realistic 30-60-90 day plan with.
+A strategic template to break a goal into a realistic plan.
 
 ### Content
 ```

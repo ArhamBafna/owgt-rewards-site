@@ -87,4 +87,4 @@ Cheat Sheets
 ### Tags
 - ChatGPT
 - Prompting
-- Workflows
+- Workflow

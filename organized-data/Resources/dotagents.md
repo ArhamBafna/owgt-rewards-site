@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - GitHub
-- Agents
+- Agent
 - Skills

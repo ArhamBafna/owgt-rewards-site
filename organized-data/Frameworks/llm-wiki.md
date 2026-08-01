@@ -13,4 +13,4 @@ Frameworks
 ### Tags
 - Knowledge Base
 - LLM
-- Prompts
+- Prompt

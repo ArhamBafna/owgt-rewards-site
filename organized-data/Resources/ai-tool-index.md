@@ -13,4 +13,4 @@ Resources
 ### Tags
 - AI
 - Directory
-- Tools
+- Tool

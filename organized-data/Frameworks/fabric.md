@@ -11,7 +11,7 @@ https://github.com/danielmiessler/fabric
 Frameworks
 
 ### Tags
-- Workflows
-- Prompts
+- Workflow
+- Prompt
 - CLI
 - Automation

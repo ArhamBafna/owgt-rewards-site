@@ -12,6 +12,6 @@ Resources
 
 ### Tags
 - Claude
-- Prompts
-- Templates
+- Prompt
+- Template
 - Anthropic

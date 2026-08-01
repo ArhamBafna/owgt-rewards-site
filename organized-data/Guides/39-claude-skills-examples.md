@@ -13,4 +13,4 @@ Guides
 ### Tags
 - Claude
 - Skills
-- Workflows
+- Workflow

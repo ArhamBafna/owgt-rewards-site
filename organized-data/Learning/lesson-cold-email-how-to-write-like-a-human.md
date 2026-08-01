@@ -11,6 +11,6 @@ https://maven.com/p/8a65ef/cold-email-how-to-write-like-a-human
 Learning
 
 ### Tags
-- Cold Email
+- Cold
 - Course
 - Writing

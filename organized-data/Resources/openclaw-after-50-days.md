@@ -11,6 +11,6 @@ https://gist.github.com/velvet-shark/b4c6724c391f612c4de4e9a07b0a74b6
 Resources
 
 ### Tags
-- Prompts
-- Workflows
+- Prompt
+- Workflow
 - GitHub Gist

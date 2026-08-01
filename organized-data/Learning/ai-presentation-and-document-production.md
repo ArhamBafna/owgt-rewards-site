@@ -36,7 +36,6 @@ Advanced: Runs a weekly competitive intelligence system using
 Perplexity, Grok, and Claude.
 Tool to start: Perplexity. Start with a specific research question in your
 market and evaluate the output for source quality.
-THEiREPORT
 
 ### Category
 Learning

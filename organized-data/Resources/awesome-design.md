@@ -14,4 +14,4 @@ Resources
 - Design
 - UI
 - Agent
-- Templates
+- Template

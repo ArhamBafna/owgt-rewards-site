@@ -11,5 +11,5 @@ https://drive.google.com/file/d/1oLaezBP36RA7X0vG9y3T8nuuDHf4qvbE/view
 Guides
 
 ### Tags
-- AI Agents
+- Agent
 - Playbook
