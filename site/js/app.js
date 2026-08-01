@@ -52,7 +52,7 @@ function initSearchSystem() {
   let searchData = [];
   
   // Load index asynchronously
-  fetch('/search-index.json')
+  fetch('search-index.json')
     .then(res => res.json())
     .then(data => { searchData = data; })
     .catch(err => console.error('Could not load search index', err));
