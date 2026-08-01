@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  
+  <style>
+    /* Tags Directory Styles */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    .tag-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: var(--space-md);
+      margin-top: var(--space-xl);
+    }
+    
+    .tag-card {
+      padding: var(--space-md);
+      background: var(--color-paper-2);
+      border: 2px solid var(--color-ink);
+      text-decoration: none;
+      color: var(--color-ink);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all var(--duration-fast) var(--ease-out);
+    }
+    
+    .tag-card:hover {
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 var(--color-ink);
+    }
+    
+    .tag-name {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      text-transform: uppercase;
+    }
+    
+    .tag-count {
+      font-family: var(--font-outlier);
+      font-size: var(--text-xs);
+      background: var(--color-ink);
+      color: var(--color-paper);
+      padding: 2px 6px;
+    }
+    
+    .letter-group h2 {
+      font-size: var(--text-2xl);
+      margin-top: var(--space-2xl);
+      margin-bottom: var(--space-sm);
+      color: var(--color-accent-2);
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="tags.html" class="active">Tags</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap section">
+    <div class="container container--narrow">
+      <h1 class="display-hero" style="text-align: center;">TAG DIRECTORY</h1>
+      <p style="text-align: center; margin-top: var(--space-md); font-family: var(--font-outlier); text-transform: uppercase;">Browse all topics across the vault.</p>
+      
+      <div class="letter-group">
+        <h2>M</h2>
+        <div class="tag-grid">
+          <a href="tag-detail.html" class="tag-card">
+            <span class="tag-name">#marketing</span>
+            <span class="tag-count">42</span>
+          </a>
+          <a href="#" class="tag-card">
+            <span class="tag-name">#midjourney</span>
+            <span class="tag-count">18</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="letter-group">
+        <h2>S</h2>
+        <div class="tag-grid">
+          <a href="#" class="tag-card">
+            <span class="tag-name">#sales</span>
+            <span class="tag-count">35</span>
+          </a>
+          <a href="#" class="tag-card">
+            <span class="tag-name">#seo</span>
+            <span class="tag-count">12</span>
+          </a>
+          <a href="#" class="tag-card">
+            <span class="tag-name">#sops</span>
+            <span class="tag-count">9</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>

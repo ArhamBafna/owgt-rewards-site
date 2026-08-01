@@ -1,0 +1,246 @@
+/**
+ * OWGT Rewards - Core Application Logic
+ * Phase 6: Search, Bundles, Bookmarks & Utilities
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+  initSearchSystem();
+  initBookmarks();
+  initShortcuts();
+  initCopyEngine();
+});
+
+/* ==========================================================================
+   SEARCH SYSTEM
+   ========================================================================== */
+function initSearchSystem() {
+  // Inject Search Overlay into DOM
+  const overlayHtml = `
+    <div id="search-overlay" class="search-overlay" style="display: none;">
+      <div class="search-modal">
+        <div class="search-header">
+          <input type="text" id="search-input-main" placeholder="Search the vault... (Esc to close)" autocomplete="off">
+        </div>
+        <div id="search-results" class="search-results">
+          <!-- Results populated here -->
+        </div>
+      </div>
+    </div>
+  `;
+  document.body.insertAdjacentHTML('beforeend', overlayHtml);
+  
+  // Inject minimal CSS for search overlay
+  const style = document.createElement('style');
+  style.textContent = `
+    .search-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 9999; display: flex; justify-content: center; padding-top: 10vh; backdrop-filter: blur(4px); }
+    .search-modal { background: var(--color-paper); width: 100%; max-width: 600px; border: 2px solid var(--color-ink); box-shadow: 8px 8px 0 var(--color-ink); max-height: 80vh; display: flex; flex-direction: column; }
+    .search-header { border-bottom: 2px solid var(--color-ink); padding: var(--space-sm); }
+    #search-input-main { width: 100%; padding: var(--space-md); font-family: var(--font-display); font-size: var(--text-2xl); border: none; background: transparent; outline: none; }
+    .search-results { padding: var(--space-md); overflow-y: auto; display: flex; flex-direction: column; gap: var(--space-sm); }
+    .search-result-item { padding: var(--space-sm); border: 1px solid var(--color-ink); text-decoration: none; color: var(--color-ink); display: block; transition: all 0.1s; }
+    .search-result-item:hover, .search-result-item.active { background: var(--color-accent); color: var(--color-accent-ink); transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--color-ink); }
+    .search-result-title { font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase; }
+    .search-result-meta { font-family: var(--font-outlier); font-size: var(--text-xs); margin-top: 4px; opacity: 0.8; }
+  `;
+  document.head.appendChild(style);
+
+  const overlay = document.getElementById('search-overlay');
+  const input = document.getElementById('search-input-main');
+  const resultsContainer = document.getElementById('search-results');
+  
+  let searchData = [];
+  
+  // Load index asynchronously
+  fetch('/search-index.json')
+    .then(res => res.json())
+    .then(data => { searchData = data; })
+    .catch(err => console.error('Could not load search index', err));
+
+  // Toggle Search
+  window.toggleSearch = () => {
+    if (overlay.style.display === 'none') {
+      overlay.style.display = 'flex';
+      input.focus();
+    } else {
+      overlay.style.display = 'none';
+      input.value = '';
+      resultsContainer.innerHTML = '';
+    }
+  };
+
+  // Close on background click
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) toggleSearch();
+  });
+
+  // Search Logic (As you type)
+  input.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase();
+    if (!query) {
+      resultsContainer.innerHTML = '';
+      return;
+    }
+    
+    const results = searchData.filter(item => {
+      return item.name.toLowerCase().includes(query) || 
+             (item.description && item.description.toLowerCase().includes(query)) ||
+             (item.tags && item.tags.some(tag => tag.toLowerCase().includes(query)));
+    }).slice(0, 8); // Top 8 results
+    
+    if (results.length === 0) {
+      resultsContainer.innerHTML = '<p style="font-family: var(--font-outlier); padding: 1rem;">No results found.</p>';
+      return;
+    }
+
+    resultsContainer.innerHTML = results.map(item => `
+      <a href="/${item.path}.html" class="search-result-item">
+        <div class="search-result-title">${item.name}</div>
+        <div class="search-result-meta">${item.category} ${item.tags.length ? '· ' + item.tags.map(t=>'#'+t).join(' ') : ''}</div>
+      </a>
+    `).join('');
+  });
+}
+
+/* ==========================================================================
+   BOOKMARKS
+   ========================================================================== */
+function initBookmarks() {
+  window.toggleBookmark = (id, title, path, category) => {
+    let bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+    const exists = bookmarks.find(b => b.id === id);
+    
+    if (exists) {
+      bookmarks = bookmarks.filter(b => b.id !== id);
+      showToast('Removed from Vault');
+    } else {
+      bookmarks.push({ id, title, path, category, date: new Date().toISOString() });
+      showToast('Saved to Vault');
+    }
+    
+    localStorage.setItem('owgt_bookmarks', JSON.stringify(bookmarks));
+    updateBookmarkUI(id, !exists);
+  };
+  
+  // Initialize UI state on page load
+  const bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+  document.querySelectorAll('[data-bookmark-id]').forEach(btn => {
+    const id = btn.getAttribute('data-bookmark-id');
+    const isBookmarked = bookmarks.some(b => b.id === id);
+    updateBookmarkUI(id, isBookmarked);
+    
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleBookmark(id, btn.getAttribute('data-title'), btn.getAttribute('data-path'), btn.getAttribute('data-category'));
+    });
+  });
+}
+
+function updateBookmarkUI(id, isBookmarked) {
+  document.querySelectorAll(`[data-bookmark-id="${id}"]`).forEach(btn => {
+    if (isBookmarked) {
+      btn.innerHTML = '♥ Saved';
+      btn.classList.add('is-saved');
+      btn.style.background = 'var(--color-ink)';
+      btn.style.color = 'var(--color-paper)';
+    } else {
+      btn.innerHTML = '♡ Save';
+      btn.classList.remove('is-saved');
+      btn.style.background = 'transparent';
+      btn.style.color = 'inherit';
+    }
+  });
+}
+
+/* ==========================================================================
+   GLOBAL KEYBOARD SHORTCUTS
+   ========================================================================== */
+function initShortcuts() {
+  document.addEventListener('keydown', (e) => {
+    // Don't trigger if user is typing in an input
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      if (e.key === 'Escape') toggleSearch();
+      return;
+    }
+
+    switch(e.key.toLowerCase()) {
+      case '/':
+        e.preventDefault();
+        toggleSearch();
+        break;
+      case 'b':
+        // Try to bookmark the current page if it's a deep page
+        const bBtn = document.querySelector('.bookmark-main-btn');
+        if (bBtn) bBtn.click();
+        break;
+      case 'c':
+        // Copy the main prompt if it exists
+        const copyBtn = document.querySelector('.copy-main-btn');
+        if (copyBtn) copyBtn.click();
+        break;
+      case 'r':
+        // Randomizer
+        loadRandomResource();
+        break;
+    }
+  });
+}
+
+function loadRandomResource() {
+  fetch('/search-index.json')
+    .then(res => res.json())
+    .then(data => {
+      if (data.length > 0) {
+        const randomItem = data[Math.floor(Math.random() * data.length)];
+        window.location.href = `/${randomItem.path}.html`;
+      }
+    });
+}
+
+/* ==========================================================================
+   COPY ENGINE
+   ========================================================================== */
+function initCopyEngine() {
+  window.copyToClipboard = (textToCopy, btnElement) => {
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const originalText = btnElement.innerText;
+      btnElement.innerText = "COPIED!";
+      btnElement.style.background = "var(--color-ink)";
+      btnElement.style.color = "var(--color-paper)";
+      
+      showToast("Copied to clipboard");
+      
+      setTimeout(() => {
+        btnElement.innerText = originalText;
+        btnElement.style.background = "";
+        btnElement.style.color = "";
+      }, 2000);
+    });
+  };
+}
+
+/* ==========================================================================
+   TOAST NOTIFICATION
+   ========================================================================== */
+function showToast(message) {
+  let toast = document.getElementById('owgt-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'owgt-toast';
+    Object.assign(toast.style, {
+      position: 'fixed', bottom: '2rem', left: '50%', transform: 'translateX(-50%)',
+      background: 'var(--color-ink)', color: 'var(--color-paper)',
+      padding: '0.75rem 1.5rem', fontFamily: 'var(--font-outlier)', textTransform: 'uppercase',
+      fontSize: 'var(--text-xs)', zIndex: '9999', boxShadow: '4px 4px 0 var(--color-accent)',
+      transition: 'opacity 0.3s', opacity: '0'
+    });
+    document.body.appendChild(toast);
+  }
+  
+  toast.innerText = message;
+  toast.style.opacity = '1';
+  
+  setTimeout(() => {
+    toast.style.opacity = '0';
+  }, 3000);
+}

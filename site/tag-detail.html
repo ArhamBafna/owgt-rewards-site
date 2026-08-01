@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#marketing - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+    
+    .tag-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-paper-2);
+      border-bottom: 2px solid var(--color-ink);
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="tags.html" class="active">Tags</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="tag-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ TAG DIRECTORY</p>
+        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem); text-transform: lowercase;">#marketing</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          42 resources found matching this tag.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          <!-- Item -->
+          <a href="#" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Customer Persona Generator</h3>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Prompts</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
