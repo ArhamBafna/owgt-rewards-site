@@ -92,10 +92,21 @@ function initSearchSystem() {
       return;
     }
 
+    const escapeHTML = str => {
+      if (!str) return '';
+      return String(str).replace(/[&<>'"]/g, tag => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        "'": '&#39;',
+        '"': '&quot;'
+      }[tag]));
+    };
+
     resultsContainer.innerHTML = results.map(item => `
-      <a href="/${item.path}.html" class="search-result-item">
-        <div class="search-result-title">${item.name}</div>
-        <div class="search-result-meta">${item.category} ${item.tags.length ? '· ' + item.tags.map(t=>'#'+t).join(' ') : ''}</div>
+      <a href="/${escapeHTML(item.path)}.html" class="search-result-item">
+        <div class="search-result-title">${escapeHTML(item.name)}</div>
+        <div class="search-result-meta">${escapeHTML(item.category)} ${item.tags.length ? '· ' + item.tags.map(t=>'#'+escapeHTML(t)).join(' ') : ''}</div>
       </a>
     `).join('');
   });

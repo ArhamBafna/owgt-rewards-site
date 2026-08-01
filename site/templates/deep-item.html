@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tidio - OWGT Rewards</title>
+  <title>{item_name} - OWGT Rewards</title>
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
   <style>
@@ -41,11 +41,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ TOOLS</p>
-        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Tidio</h1>
-        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">AI customer support and live chat platform that handles customer queries automatically.</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ {category_upper}</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">{item_name}</h1>
+        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">{item_desc}</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#AI Tools</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Customer Support</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Live Chat</span>
+          {tags_html}
         </div>
       </div>
     </header>
@@ -53,9 +53,7 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text">Workflow it replaces: Live chat support monitoring.
-Business outcome: E-commerce and small business support runs around the clock without a dedicated support team.
-Best for: E-commerce businesses and small-to-mid businesses with customer-facing support needs.</div>
+          <div class="prompt-text">{item_content}</div>
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
             <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(this.previousElementSibling.parentElement.previousElementSibling.innerText, this)">Copy Content</button>
@@ -63,8 +61,8 @@ Best for: E-commerce businesses and small-to-mid businesses with customer-facing
         </div>
 
         <nav class="item-nav">
-          <a href="stitch.html" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Stitch</span></a>
-          <a href="tipalti.html" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Tipalti</span></a>
+          {prev_html}
+          {next_html}
         </nav>
       </div>
     </section>

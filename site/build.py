@@ -109,70 +109,13 @@ def generate_category_page(category, cat_items):
             """
         cards_html.append(card)
 
-    html = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{category} - OWGT Rewards Library</title>
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/base.css">
-  <style>
-    .nav-mast {{ display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }}
-    .mast-name {{ font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }}
-    .mast-line {{ font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }}
-    .mast-nav ul {{ display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }}
-    .mast-nav a {{ font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }}
-    .mast-nav a:hover, .mast-nav a.active {{ color: var(--color-accent); }}
-    .mast-rule.double {{ border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }}
-    .category-header {{ padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }}
-    .foot-mast {{ padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }}
-    .foot-mast .wordmark {{ font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; }}
-  </style>
-</head>
-<body>
-  <header class="nav-mast">
-    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
-    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
-    <nav class="mast-nav" aria-label="Primary">
-      <ul>
-        <li><a href="prompts.html">Prompts</a></li>
-        <li><a href="tools.html">Tools</a></li>
-        <li><a href="guides.html">Guides</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="tags.html">Tags</a></li>
-        <li><a href="bookmarks.html">Bookmarks</a></li>
-      </ul>
-    </nav>
-    <hr class="mast-rule double" aria-hidden="true">
-  </header>
+    with open(os.path.join(SITE_DIR, 'templates', 'category.html'), 'r', encoding='utf-8') as tf:
+        template = tf.read()
 
-  <main class="page-wrap">
-    <header class="category-header">
-      <div class="container container--narrow">
-        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">{category.upper()}</h1>
-        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">{len(cat_items)} curated entries.</p>
-      </div>
-    </header>
-
-    <section class="section">
-      <div class="container container--wide">
-        <div class="card-grid card-grid--4">
-          {''.join(cards_html)}
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="foot-mast">
-    <div class="container">
-      <p class="wordmark">OWGT Rewards</p>
-      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
-    </div>
-  </footer>
-  <script src="js/app.js"></script>
-</body>
-</html>"""
+    html = template.replace('{category}', category) \
+                   .replace('{category_upper}', category.upper()) \
+                   .replace('{item_count}', str(len(cat_items))) \
+                   .replace('{cards_html}', ''.join(cards_html))
     
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html)
@@ -192,84 +135,16 @@ def generate_deep_item_pages(items):
         
         tags_html = ''.join([f'<span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#{t}</span>' for t in item['tags']])
         
-        html = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{item['name']} - OWGT Rewards</title>
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/base.css">
-  <style>
-    .nav-mast {{ display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }}
-    .mast-name {{ font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }}
-    .mast-line {{ font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }}
-    .mast-nav ul {{ display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }}
-    .mast-nav a {{ font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }}
-    .deep-header {{ padding: var(--space-3xl) var(--page-gutter) var(--space-xl); text-align: center; background: var(--color-paper-2); border-bottom: 2px solid var(--color-ink); }}
-    .prompt-box {{ background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }}
-    .prompt-text {{ font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }}
-    .copy-bar {{ display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-paper-3); }}
-    .item-nav {{ display: flex; justify-content: space-between; max-width: 800px; margin: var(--space-2xl) auto; gap: var(--space-md); }}
-    .item-nav-btn {{ flex: 1; padding: var(--space-md); border: 2px solid var(--color-ink); background: var(--color-paper-2); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; }}
-    .item-nav-btn.next {{ text-align: right; }}
-    .item-nav-btn.disabled {{ opacity: 0.5; border-style: dashed; }}
-    .foot-mast {{ padding: var(--space-3xl) var(--page-gutter); text-align: center; border-top: 2px solid var(--color-ink); }}
-  </style>
-</head>
-<body>
-  <header class="nav-mast">
-    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
-    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
-    <nav class="mast-nav" aria-label="Primary">
-      <ul>
-        <li><a href="prompts.html">Prompts</a></li>
-        <li><a href="tools.html">Tools</a></li>
-        <li><a href="guides.html">Guides</a></li>
-        <li><a href="resources.html">Resources</a></li>
-      </ul>
-    </nav>
-    <hr class="mast-rule double" aria-hidden="true">
-  </header>
+        with open(os.path.join(SITE_DIR, 'templates', 'deep-item.html'), 'r', encoding='utf-8') as tf:
+            template = tf.read()
 
-  <main class="page-wrap">
-    <header class="deep-header">
-      <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ {item['category'].upper()}</p>
-        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">{item['name']}</h1>
-        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">{item['description']}</p>
-        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          {tags_html}
-        </div>
-      </div>
-    </header>
-
-    <section class="section">
-      <div class="container">
-        <div class="prompt-box">
-          <div class="prompt-text">{item['content'] or item['description']}</div>
-          <div class="copy-bar">
-            <span class="meta">Press 'C' to copy</span>
-            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(this.previousElementSibling.parentElement.previousElementSibling.innerText, this)">Copy Content</button>
-          </div>
-        </div>
-
-        <nav class="item-nav">
-          {prev_html}
-          {next_html}
-        </nav>
-      </div>
-    </section>
-  </main>
-
-  <footer class="foot-mast">
-    <div class="container">
-      <p class="wordmark">OWGT Rewards</p>
-    </div>
-  </footer>
-  <script src="js/app.js"></script>
-</body>
-</html>"""
+        html = template.replace('{item_name}', str(item['name'])) \
+                       .replace('{category_upper}', str(item['category']).upper()) \
+                       .replace('{item_desc}', str(item['description'])) \
+                       .replace('{tags_html}', tags_html) \
+                       .replace('{item_content}', str(item['content'] or item['description'])) \
+                       .replace('{prev_html}', prev_html) \
+                       .replace('{next_html}', next_html)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html)
 

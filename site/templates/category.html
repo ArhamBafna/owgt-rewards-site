@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI - OWGT Rewards Library</title>
+  <title>{category} - OWGT Rewards Library</title>
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
   <style>
@@ -39,35 +39,15 @@
   <main class="page-wrap">
     <header class="category-header">
       <div class="container container--narrow">
-        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">AI</h1>
-        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">1 curated entries.</p>
+        <h1 class="display-hero" style="font-size: clamp(3rem, 8vw, 8rem);">{category_upper}</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">{item_count} curated entries.</p>
       </div>
     </header>
 
     <section class="section">
       <div class="container container--wide">
         <div class="card-grid card-grid--4">
-          
-            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">AI</span>
-                <button class="btn--ghost" data-bookmark-id="ollama" data-title="Ollama" data-path="ollama" data-category="AI" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">Ollama</h3>
-                <p class="card__desc">Local LLM runner for hosting Llama 3, DeepSeek, and Mistral models locally on your machine.</p>
-              </div>
-              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
-                <span>Quick View</span>
-                <span class="card__expand-arrow">↓</span>
-              </button>
-              <div class="card__expand-content">
-                <p style="font-size: var(--text-sm);">Local LLM runner for hosting Llama 3, DeepSeek, and Mistral models locally on your machine.</p>
-                <a href="https://ollama.com" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
-              </div>
-            </div>
-            
+          {cards_html}
         </div>
       </div>
     </section>
