@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Persona Generator - OWGT Rewards</title>
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  
+  <style>
+    /* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival */
+    
+    /* Nav - N6 Newspaper Masthead */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    /* Deep Page Header */
+    .deep-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-paper-2);
+      border-bottom: 2px solid var(--color-ink);
+    }
+    
+    /* Prompt Container */
+    .prompt-box {
+      background: var(--color-paper);
+      border: 2px solid var(--color-ink);
+      box-shadow: var(--card-shadow);
+      padding: var(--space-xl);
+      margin: var(--space-2xl) auto;
+      max-width: 800px;
+      position: relative;
+    }
+    
+    .prompt-text {
+      font-family: var(--font-outlier);
+      font-size: var(--text-base);
+      line-height: var(--lh-body);
+      white-space: pre-wrap;
+    }
+    
+    .copy-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: var(--space-xl);
+      padding-top: var(--space-md);
+      border-top: 1px solid var(--color-paper-3);
+    }
+    
+    /* Prev/Next Navigation */
+    .item-nav {
+      display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: var(--space-2xl) auto;
+      gap: var(--space-md);
+    }
+    
+    .item-nav-btn {
+      flex: 1;
+      padding: var(--space-md);
+      border: 2px solid var(--color-ink);
+      background: var(--color-paper-2);
+      text-align: left;
+      transition: all var(--duration-fast) var(--ease-out);
+      text-decoration: none;
+      color: var(--color-ink);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2xs);
+    }
+    
+    .item-nav-btn.next { text-align: right; }
+    
+    .item-nav-btn:not(.disabled):hover {
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 var(--color-ink);
+    }
+    
+    .item-nav-btn.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      border-style: dashed;
+    }
+    
+    /* Related Items (Cross-linking) */
+    .related-section {
+      padding: var(--space-3xl) var(--page-gutter);
+      background: var(--color-paper-2);
+      border-top: 2px solid var(--color-ink);
+    }
+    
+    /* Footer */
+    .foot-mast {
+      padding: var(--space-3xl) var(--page-gutter);
+      text-align: center;
+      border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .wordmark { font-family: var(--font-display); font-size: var(--text-2xl); font-variation-settings: "wdth" 110, "wght" 800; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ PROMPTS / MARKETING & SALES</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Customer Persona Generator</h1>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#marketing</span>
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#research</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        
+        <div class="prompt-box">
+          <p class="meta" style="margin-bottom: var(--space-md); color: var(--color-muted);">PROMPT TEMPLATE</p>
+          
+          <div class="prompt-text">Act as a senior market researcher. Generate a deeply detailed customer persona based on the target demographic: [DEMOGRAPHIC].
+
+Include:
+1. Demographics and Psychographics
+2. Core pain points and daily frustrations
+3. Information diet (where they consume content)
+4. Objections they might have to a [PRODUCT/SERVICE]
+
+Format the output as a structured dossier.</div>
+          
+          <div class="copy-bar">
+            <span class="meta" style="color: var(--color-muted);">Press 'C' to copy</span>
+            <button class="btn btn--primary" onclick="alert('Copied to clipboard!')">Copy Prompt</button>
+          </div>
+        </div>
+        
+        <!-- Prev/Next Navigation -->
+        <nav class="item-nav">
+          <!-- Disabled state example (stop at boundaries) -->
+          <a class="item-nav-btn disabled" aria-disabled="true">
+            <span class="meta">← Previous</span>
+            <span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">None (First Item)</span>
+          </a>
+          
+          <a href="#" class="item-nav-btn next">
+            <span class="meta">Next →</span>
+            <span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">SWOT Analysis Generator</span>
+          </a>
+        </nav>
+        
+      </div>
+    </section>
+
+    <!-- Cross-linking Widget -->
+    <section class="related-section">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <h2 style="font-size: var(--text-2xl);">Related Items</h2>
+        </div>
+        
+        <div class="card-grid card-grid--3">
+          
+          <a href="#" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Analyze Customer Feedback</h3>
+              <p class="card__desc">A strategic template to analyze customer feedback for growth signals.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Prompts</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="#" class="card" style="--cat-color: var(--color-cat-guides);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">AI-Powered Market Research</h3>
+              <p class="card__desc">Using AI tools to gather and interpret market data.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Guides</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="#" class="card" style="--cat-color: var(--color-cat-tools);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Perplexity AI</h3>
+              <p class="card__desc">AI-powered search engine for deep research.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Tools</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+      <div style="margin-top: var(--space-xl); text-align: center;">
+        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

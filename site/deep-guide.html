@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build $10,000 Websites with AI Opus 5 - OWGT Rewards</title>
+  
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  
+  <style>
+    /* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival */
+    
+    /* Nav - N6 Newspaper Masthead */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    /* Deep Page Header */
+    .deep-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      background: var(--color-paper-2);
+      border-bottom: 2px solid var(--color-ink);
+    }
+    
+    /* Guide Layout: Sidebar + Content */
+    .guide-layout {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: var(--space-3xl);
+      align-items: start;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    @media (max-width: 768px) {
+      .guide-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* Table of Contents */
+    .toc {
+      position: sticky;
+      top: calc(var(--nav-height) + var(--space-xl));
+      padding: var(--space-md);
+      background: var(--color-paper-2);
+      border: 2px solid var(--color-ink);
+      box-shadow: 4px 4px 0 var(--color-ink);
+    }
+    
+    .toc h4 {
+      font-size: var(--text-lg);
+      margin-bottom: var(--space-sm);
+    }
+    
+    .toc ul {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+    }
+    
+    .toc a {
+      font-family: var(--font-outlier);
+      font-size: var(--text-xs);
+      color: var(--color-ink-2);
+      transition: color var(--duration-fast) var(--ease-out);
+    }
+    
+    .toc a:hover, .toc a.active {
+      color: var(--color-accent-2);
+      text-decoration: underline;
+    }
+    
+    /* Markdown Body (Prose) */
+    .prose {
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      line-height: var(--lh-body);
+      color: var(--color-ink);
+    }
+    
+    .prose h2 {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      text-transform: uppercase;
+      margin: var(--space-xl) 0 var(--space-sm);
+      color: var(--color-ink);
+    }
+    
+    .prose h2::before {
+      content: var(--ornament-head-pre);
+      color: var(--color-accent-2);
+      margin-right: var(--space-xs);
+    }
+    
+    .prose p {
+      margin-bottom: var(--space-md);
+    }
+    
+    .prose ul, .prose ol {
+      margin: 0 0 var(--space-md) var(--space-lg);
+    }
+    
+    .prose li {
+      margin-bottom: var(--space-xs);
+    }
+    
+    .prose li::marker {
+      color: var(--color-accent-2);
+    }
+    
+    .prose blockquote {
+      border-left: 4px solid var(--color-accent-2);
+      padding-left: var(--space-md);
+      margin: var(--space-lg) 0;
+      font-style: italic;
+      color: var(--color-ink-2);
+      background: var(--color-paper-2);
+      padding: var(--space-md);
+    }
+    
+    /* Prev/Next Navigation */
+    .item-nav {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: var(--space-2xl) auto;
+      gap: var(--space-md);
+    }
+    
+    .item-nav-btn {
+      flex: 1;
+      padding: var(--space-md);
+      border: 2px solid var(--color-ink);
+      background: var(--color-paper-2);
+      text-align: left;
+      transition: all var(--duration-fast) var(--ease-out);
+      text-decoration: none;
+      color: var(--color-ink);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2xs);
+    }
+    
+    .item-nav-btn.next { text-align: right; }
+    
+    .item-nav-btn:not(.disabled):hover {
+      background: var(--color-accent-2);
+      color: var(--color-accent-2-ink);
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 var(--color-ink);
+    }
+    
+    /* Related Items (Cross-linking) */
+    .related-section {
+      padding: var(--space-3xl) var(--page-gutter);
+      background: var(--color-paper-2);
+      border-top: 2px solid var(--color-ink);
+    }
+    
+    /* Footer */
+    .foot-mast {
+      padding: var(--space-3xl) var(--page-gutter);
+      text-align: center;
+      border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .wordmark { font-family: var(--font-display); font-size: var(--text-2xl); font-variation-settings: "wdth" 110, "wght" 800; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+
+  <header class="nav-mast">
+    <p class="mast-line">No 01 · Curated AI Library · OWGT Rewards</p>
+    <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="prompts.html">Prompts</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent-2); margin-bottom: var(--space-sm); text-align: center;">◆ GUIDES</p>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); text-align: center;">Build $10,000 Websites with AI Opus 5</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg); text-align: center; color: var(--color-ink-2);">
+          Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.
+        </p>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#guide</span>
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#mcp</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="guide-layout">
+          
+          <!-- Table of Contents -->
+          <aside>
+            <nav class="toc">
+              <h4>Contents</h4>
+              <ul>
+                <li><a href="#setup" class="active">1. Setup</a></li>
+                <li><a href="#build-one">2. Build One: Luxury Real Estate</a></li>
+                <li><a href="#assets">3. Adding Assets</a></li>
+                <li><a href="#deployment">4. Deployment</a></li>
+              </ul>
+            </nav>
+          </aside>
+          
+          <!-- Markdown Body -->
+          <article class="prose">
+            <h2 id="setup">1. Setup</h2>
+            <p>You need two things:</p>
+            <ul>
+              <li>AI Code running in the desktop app.</li>
+              <li>Higgsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.</li>
+            </ul>
+            
+            <p><strong>Connecting Higgsfield</strong></p>
+            <ol>
+              <li>Open Higgsfield dashboard.</li>
+              <li>Copy the MCP URL.</li>
+              <li>In AI Code: Connectors -> Add custom connector.</li>
+              <li>Paste the URL and name it Higgsfield.</li>
+              <li>Approve the authorization page.</li>
+            </ol>
+            
+            <blockquote>
+              "If it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder."
+            </blockquote>
+            
+            <h2 id="build-one">2. Build One: Luxury Real Estate</h2>
+            <p>The site: THE LEDGE, a $24M cantilevered concrete-and-glass house on the Big Sur cliffs.</p>
+            <p>Copy the whole thing. Paste into AI Code in an empty folder. Let it run. It takes about 2 minutes to scaffold the whole project.</p>
+          </article>
+          
+        </div>
+        
+        <!-- Prev/Next Navigation -->
+        <nav class="item-nav">
+          <a href="#" class="item-nav-btn">
+            <span class="meta">← Previous</span>
+            <span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Avoid Chat Limits</span>
+          </a>
+          
+          <a href="#" class="item-nav-btn next">
+            <span class="meta">Next →</span>
+            <span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Build 3 AI Agents</span>
+          </a>
+        </nav>
+        
+      </div>
+    </section>
+
+    <!-- Cross-linking Widget -->
+    <section class="related-section">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <h2 style="font-size: var(--text-2xl);">Related Items</h2>
+        </div>
+        
+        <div class="card-grid card-grid--3">
+          
+          <a href="#" class="card" style="--cat-color: var(--color-cat-guides);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Build Insane Animated Websites</h3>
+              <p class="card__desc">A full setup guide for connecting Higgsfield MCP to your AI.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Guides</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="#" class="card" style="--cat-color: var(--color-cat-tools);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Higgsfield AI</h3>
+              <p class="card__desc">AI video generation and image models.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">Tools</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="tagline muted">The world's best digital knowledge library for AI.</p>
+      <div style="margin-top: var(--space-xl); text-align: center;">
+        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
