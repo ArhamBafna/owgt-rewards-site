@@ -23,7 +23,9 @@
     .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
     .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
     .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
-    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav li { display: inline-flex; align-items: center; }
+    .mast-nav li:not(:last-child) { border-right: 2px solid var(--color-ink); padding-right: var(--space-md); margin-right: var(--space-md); }
     .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
     .mast-nav a:hover { color: var(--color-accent); }
     .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
