@@ -39,10 +39,10 @@
     <a href="index.html" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
     <nav class="mast-nav" aria-label="Primary">
       <ul>
-        <li><a href="prompts.html">Prompts</a></li>
-        <li><a href="tools.html">Tools</a></li>
-        <li><a href="tags.html">Tags</a></li>
-        <li><a href="bookmarks.html" class="active">Bookmarks</a></li>
+        <li><a href="prompts">Prompts</a></li>
+        <li><a href="tools">Tools</a></li>
+        <li><a href="tags">Tags</a></li>
+        <li><a href="bookmarks" class="active">Bookmarks</a></li>
       </ul>
     </nav>
     <hr class="mast-rule double" aria-hidden="true">
@@ -87,7 +87,7 @@
       empty.style.display = 'none';
       
       grid.innerHTML = bookmarks.map(b => `
-        <a href="${b.path}.html" class="card" style="--cat-color: var(--color-accent-2);">
+        <a href="${b.path}" class="card" style="--cat-color: var(--color-accent-2);">
           <div class="card__accent-strip"></div>
           <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
             <span class="tag" style="font-size: 9px; padding: 2px 6px;">${b.category || 'Item'}</span>

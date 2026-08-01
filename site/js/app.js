@@ -105,7 +105,7 @@ function initSearchSystem() {
     };
 
     resultsContainer.innerHTML = results.map(item => `
-      <a href="/${escapeHTML(item.path)}.html" class="search-result-item">
+      <a href="${escapeHTML(item.path)}" class="search-result-item">
         <div class="search-result-title">${escapeHTML(item.name)}</div>
         <div class="search-result-meta">${escapeHTML(item.category)} ${item.tags.length ? '· ' + item.tags.map(t=>'#'+escapeHTML(t)).join(' ') : ''}</div>
       </a>
@@ -204,7 +204,7 @@ function loadRandomResource() {
     .then(data => {
       if (data.length > 0) {
         const randomItem = data[Math.floor(Math.random() * data.length)];
-        window.location.href = `/${randomItem.path}.html`;
+        window.location.href = `${randomItem.path}`;
       }
     });
 }
@@ -279,7 +279,7 @@ function initSpotlight() {
     catEl.textContent = `Category: ${item.category}`;
     descEl.textContent = item.description ? `"${item.description}"` : `"Curated AI resource from the vault."`;
     if (linkBtn && item.path) {
-      linkBtn.href = `${item.path}.html`;
+      linkBtn.href = `${item.path}`;
       linkBtn.style.display = 'inline-block';
     }
   };

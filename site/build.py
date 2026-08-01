@@ -91,7 +91,7 @@ def generate_category_page(category, cat_items):
             """
         else:
             card = f"""
-            <a href="{item['id']}.html" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="{item['id']}" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
                 <span class="tag" style="font-size: 9px; padding: 2px 6px;">{item['subcategory'] or item['category']}</span>
@@ -130,8 +130,8 @@ def generate_deep_item_pages(items):
         prev_item = items[idx - 1] if idx > 0 else None
         next_item = items[idx + 1] if idx < len(items) - 1 else None
         
-        prev_html = f'<a href="{prev_item["id"]}.html" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{prev_item["name"]}</span></a>' if prev_item else '<a class="item-nav-btn disabled"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Start of Library</span></a>'
-        next_html = f'<a href="{next_item["id"]}.html" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{next_item["name"]}</span></a>' if next_item else '<a class="item-nav-btn next disabled"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">End of Library</span></a>'
+        prev_html = f'<a href="{prev_item["id"]}" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{prev_item["name"]}</span></a>' if prev_item else '<a class="item-nav-btn disabled"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Start of Library</span></a>'
+        next_html = f'<a href="{next_item["id"]}" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{next_item["name"]}</span></a>' if next_item else '<a class="item-nav-btn next disabled"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">End of Library</span></a>'
         
         tags_html = ''.join([f'<span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#{t}</span>' for t in item['tags']])
         
