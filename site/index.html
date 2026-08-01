@@ -34,19 +34,18 @@
     .hero-marquee { min-height: 50dvh; display: grid; align-content: center; padding: var(--space-3xl) var(--page-gutter); text-align: center; }
     .display-xxl { font-size: clamp(4rem, 10vw, 10rem); line-height: 0.82; letter-spacing: -0.005em; }
 
-    /* Horizontal Scroller (Use Case Bundles) */
+    /* Horizontal Scroller / Bundles Container */
     .horizontal-scroll {
       display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
       gap: var(--space-md);
-      overflow-x: auto;
       padding-bottom: var(--space-md);
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
     }
     .horizontal-scroll::-webkit-scrollbar { display: none; }
     .scroll-card {
-      min-width: 280px;
-      scroll-snap-align: start;
+      flex: 1 1 260px;
+      max-width: 320px;
     }
 
     /* Tag Cloud */
