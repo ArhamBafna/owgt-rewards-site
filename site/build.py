@@ -8,6 +8,13 @@ SITE_DIR = os.path.abspath(os.path.dirname(__file__))
 DATA_JSON_PATH = os.path.join(SITE_DIR, 'data.json')
 SEARCH_INDEX_PATH = os.path.join(SITE_DIR, 'search-index.json')
 
+HEADER_TEMPLATE_PATH = os.path.join(SITE_DIR, '_templates', 'header.html')
+try:
+    with open(HEADER_TEMPLATE_PATH, 'r', encoding='utf-8') as f:
+        HEADER_HTML = f.read()
+except:
+    HEADER_HTML = ''
+
 SUBCAT_RULES = {
     "Sales & Outreach": ["sales", "cold email", "outreach", "proposal", "cold dm", "investor", "pitch"],
     "Writing & Communication": ["writing", "communication", "email", "newsletter", "summary", "draft", "message", "explanation"],
@@ -115,7 +122,8 @@ def generate_category_page(category, cat_items):
     html = template.replace('{category}', category) \
                    .replace('{category_upper}', category.upper()) \
                    .replace('{item_count}', str(len(cat_items))) \
-                   .replace('{cards_html}', ''.join(cards_html))
+                   .replace('{cards_html}', ''.join(cards_html)) \
+                   .replace('{header}', HEADER_HTML)
     
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html)
@@ -180,7 +188,8 @@ def generate_bundle_page(bundle_id, bundle_data):
     html = template.replace('{category}', bundle_name) \
                    .replace('{category_upper}', bundle_name.upper()) \
                    .replace('{item_count}', str(len(bundle_data.get('items', [])))) \
-                   .replace('{cards_html}', ''.join(cards_html))
+                   .replace('{cards_html}', ''.join(cards_html)) \
+                   .replace('{header}', HEADER_HTML)
     
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html)
@@ -212,7 +221,8 @@ def generate_deep_item_pages(items):
                        .replace('{item_content}', str(item['content'] or item['description'])) \
                        .replace('{item_url_html}', url_html) \
                        .replace('{prev_html}', prev_html) \
-                       .replace('{next_html}', next_html)
+                       .replace('{next_html}', next_html) \
+                       .replace('{header}', HEADER_HTML)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html)
 
@@ -329,7 +339,28 @@ def main():
         
     with open(SEARCH_INDEX_PATH, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, separators=(',', ':'))
-
+    
+    generate_category_page("Bookmarks", [])
+    
+    # Process static standalone pages to inject header
+    standalone_pages = ['index.html', 'tags.html', 'bookmarks.html', 'templates.html', 'tag-detail.html']
+    import re
+    old_header_regex = re.compile(r'<header class="new-global-header"[^>]*>[\s\S]*?</header>')
+    
+    for page in standalone_pages:
+        page_path = os.path.join(SITE_DIR, page)
+        if os.path.exists(page_path):
+            with open(page_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            if '{header}' in content:
+                content = content.replace('{header}', HEADER_HTML)
+            else:
+                content = old_header_regex.sub(HEADER_HTML, content)
+                
+            with open(page_path, 'w', encoding='utf-8') as f:
+                f.write(content)
+                
     print(f"Successfully built {len(items)} items and category pages!")
 
 if __name__ == "__main__":
