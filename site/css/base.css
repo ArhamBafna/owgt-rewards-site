@@ -2014,3 +2014,79 @@ hr,
   text-transform: uppercase;
   text-align: center;
 }
+/* New Global Header */
+.new-global-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--color-ink);
+  color: var(--color-paper-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) var(--page-gutter);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.new-global-header.hidden-on-home {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
+}
+.new-global-header.visible-on-home {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.new-header-left {
+  display: flex;
+  align-items: center;
+}
+.new-logo-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  text-decoration: none;
+  color: var(--color-paper-2);
+}
+.new-header-logo {
+  height: 28px;
+  width: auto;
+}
+.new-header-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+.new-header-nav ul {
+  display: flex;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.new-header-nav a {
+  color: var(--color-paper-2);
+  font-family: var(--font-outlier);
+  text-transform: uppercase;
+  font-size: var(--text-xs);
+  letter-spacing: var(--ls-label);
+  text-decoration: none;
+}
+.new-header-nav a:hover {
+  color: var(--color-accent);
+}
+.new-header-nav li:not(:last-child) {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+body {
+  padding-top: 60px; /* Space for the fixed header */
+}
+body.is-home {
+  padding-top: 0; /* No space needed initially on home */
+}

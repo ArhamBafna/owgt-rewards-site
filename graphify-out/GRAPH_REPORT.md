@@ -1,16 +1,16 @@
-# Graph Report - rewards  (2026-08-01)
+# Graph Report - rewards  (2026-08-02)
 
 ## Corpus Check
-- 375 files · ~276,601 words
+- 378 files · ~422,854 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2634 nodes · 2597 edges · 393 communities (380 shown, 13 thin omitted)
+- 2661 nodes · 2624 edges · 394 communities (381 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `761550c5`
+- Built from commit: `5292e667`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -402,18 +402,19 @@
 - [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
+- [[_COMMUNITY_Community 393|Community 393]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
-2. `Content` - 12 edges
-3. `Agent 1: Vesper (Inbox Triage)` - 9 edges
-4. `Build 1 — RISE Hydration Drink` - 9 edges
-5. `Motion Graphics with AI — Full Setup & Workflow Guide` - 9 edges
-6. `Agent 1: Vesper (Inbox Triage)` - 9 edges
-7. `Step 2 — Generate Premium Visuals in AI Media Generator` - 9 edges
-8. `Build 1 — RISE Hydration Drink` - 9 edges
-9. `Academic & Comprehensive Courses` - 9 edges
-10. `Master Index` - 9 edges
+2. `Concrete Technical Changes` - 17 edges
+3. `Content` - 12 edges
+4. `Agent 1: Vesper (Inbox Triage)` - 9 edges
+5. `Build 1 — RISE Hydration Drink` - 9 edges
+6. `Motion Graphics with AI — Full Setup & Workflow Guide` - 9 edges
+7. `Agent 1: Vesper (Inbox Triage)` - 9 edges
+8. `Step 2 — Generate Premium Visuals in AI Media Generator` - 9 edges
+9. `Build 1 — RISE Hydration Drink` - 9 edges
+10. `Academic & Comprehensive Courses` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -421,7 +422,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (393 total, 13 thin omitted)
+## Communities (394 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1848,8 +1849,8 @@ Cohesion: 0.33
 Nodes (5): Category, Content, Description, Name, Tags
 
 ### Community 357 - "Community 357"
-Cohesion: 0.52
-Nodes (6): cat_to_filename(), determine_subcategory(), generate_category_page(), generate_deep_item_pages(), main(), parse_markdown()
+Cohesion: 0.46
+Nodes (7): cat_to_filename(), determine_subcategory(), generate_bundle_page(), generate_category_page(), generate_deep_item_pages(), main(), parse_markdown()
 
 ### Community 358 - "Community 358"
 Cohesion: 0.33
@@ -1919,18 +1920,20 @@ Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model
 Cohesion: 0.67
 Nodes (3): Guide Rules, GUIDES, Missing Information
 
+### Community 393 - "Community 393"
+Cohesion: 0.09
+Nodes (22): 10. Navigation Bar Link Consistency & Active Highlight, 11. Header Logo URL Update, 12. Homepage Header Text Update, 13. Curated Bundles Implementation, 14. Full Markdown Parser & Syntax Highlighting, 15. Data & Ingestion Script Audit, 16. Save Button Visual Color State, 1. Homepage Navigation Alignment (+14 more)
+
 ## Knowledge Gaps
-- **2131 isolated node(s):** `cleanUrls`, `Steps`, `Rules & Memory`, `Connecting Higgsfield`, `Confirm it worked` (+2126 more)
+- **2151 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rules & Memory`, `Connecting Higgsfield` (+2146 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Academic & Comprehensive Courses` connect `Community 26` to `Community 25`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `cleanUrls`, `Steps`, `Rules & Memory` to the rest of the system?**
-  _2131 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
+  _2151 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
@@ -1941,3 +1944,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Community 5` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

@@ -352,3 +352,30 @@ function highlightActiveNav() {
     }
   });
 }
+
+// Global Header Scroll Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const header = document.getElementById('globalHeader');
+  if (!header) return;
+  
+  if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '/home') {
+    document.body.classList.add('is-home');
+    header.classList.add('hidden-on-home');
+    
+    const target = document.querySelector('.hero-marquee'); // Using hero section
+    if (target) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) {
+            header.classList.remove('hidden-on-home');
+            header.classList.add('visible-on-home');
+          } else {
+            header.classList.add('hidden-on-home');
+            header.classList.remove('visible-on-home');
+          }
+        });
+      }, { threshold: 0.1 });
+      observer.observe(target);
+    }
+  }
+});
