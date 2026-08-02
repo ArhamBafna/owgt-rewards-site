@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The AI Research System: A Three-Phase Method - OWGT Rewards</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <style>
+    .prompt-box { background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }
+    .prompt-text { font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }
+    .prompt-text.markdown-rendered { white-space: normal; font-family: var(--font-body); }
+    .prompt-text.markdown-rendered h1,
+    .prompt-text.markdown-rendered h2,
+    .prompt-text.markdown-rendered h3,
+    .prompt-text.markdown-rendered h4 { margin-top: 1.5em; margin-bottom: 0.5em; }
+    .prompt-text.markdown-rendered p { margin-bottom: 0.75em; max-width: none; }
+    .prompt-text.markdown-rendered ul,
+    .prompt-text.markdown-rendered ol { margin-left: 1.5em; margin-bottom: 0.75em; list-style: disc; }
+    .prompt-text.markdown-rendered ol { list-style: decimal; }
+    .prompt-text.markdown-rendered code { font-family: var(--font-outlier); background: var(--color-paper-2); padding: 0.15em 0.4em; font-size: 0.9em; border: 1px solid var(--color-paper-3); }
+    .prompt-text.markdown-rendered pre { background: var(--color-ink); color: var(--color-paper); padding: var(--space-md); overflow-x: auto; margin-bottom: 1em; border: 2px solid var(--color-ink); }
+    .prompt-text.markdown-rendered pre code { background: none; border: none; padding: 0; color: inherit; }
+    .prompt-text.markdown-rendered blockquote { border-left: 4px solid var(--color-accent); padding-left: var(--space-md); margin-left: 0; margin-bottom: 0.75em; color: var(--color-ink-2); font-style: italic; }
+    .prompt-text.markdown-rendered table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
+    .prompt-text.markdown-rendered th,
+    .prompt-text.markdown-rendered td { border: 1px solid var(--color-ink); padding: var(--space-xs) var(--space-sm); text-align: left; }
+    .prompt-text.markdown-rendered th { background: var(--color-paper-2); font-family: var(--font-display); text-transform: uppercase; font-size: var(--text-sm); }
+    .copy-bar { display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-paper-3); }
+    .item-nav { display: flex; justify-content: space-between; max-width: 800px; margin: var(--space-2xl) auto; gap: var(--space-md); }
+    .item-nav-btn { flex: 1; padding: var(--space-md); border: 2px solid var(--color-ink); background: var(--color-paper-2); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; }
+    .item-nav-btn.next { text-align: right; }
+    .item-nav-btn.disabled { opacity: 0.5; border-style: dashed; }
+  </style>
+</head>
+<body>
+  <header class="new-global-header" id="globalHeader">
+  <div class="new-header-left">
+    <a href="/home" class="new-logo-link">
+      <img src="/owgt-rewards-logo.png" alt="OWGT Rewards Logo" class="new-header-logo">
+      <span class="new-header-title">OWGT Rewards</span>
+    </a>
+  </div>
+  <nav class="mast-nav new-header-nav" aria-label="Primary">
+    <ul>
+      <li><a href="/prompts">Prompts</a></li>
+      <li><a href="/tools">Tools</a></li>
+      <li><a href="/guides">Guides</a></li>
+      <li><a href="/resources">Resources</a></li>
+      <li><a href="/tags">Tags</a></li>
+      <li><a href="/bookmarks">Bookmarks</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main class="page-wrap section">
+    <header class="deep-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">The AI Research System: A Three-Phase Method</h1>
+        <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A systematic three-phase methodology for conducting high-quality, verifiable research using multiple AI models (Perplexity, Grok, Claude, ChatGPT) to avoid hallucinations and generate actionable insights.</p>
+        <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
+          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Research</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Workflow</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Perplexity</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Claude</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#ChatGPT</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="prompt-box">
+          <div class="prompt-text" id="prompt-content">The output quality of AI research is not determined by which model you use, but by whether you have a process at all. Using one model as your only source is using a single, fallible voice as your entire evidence base. 
+
+A better approach is a three-phase process where each phase uses a different tool for a specific job: Gather, Analyze, and Output.
+
+#### Phase 1: Gather
+*The goal is source discovery, web research, market data, and current events. You are looking for sourced, traceable starting material, not AI opinions.*
+
+- **Perplexity**: Search-first AI that always cites sources. It links every answer to the original source material.
+  - *Best Practice*: Ask specific questions. Instead of "Tell me about competitor X", ask: "What has competitor X announced in the last 90 days? What do their recent job postings suggest about their strategic direction? Cite all sources."
+- **Grok**: For real-time intelligence. Connected directly to X data. Use this to track fast-moving markets, competitor announcements, or regulatory developments that haven't been indexed by search engines yet.
+
+*Phase 1 Output*: A set of raw, sourced notes, links, and data points ready for synthesis.
+
+#### Phase 2: Analyze
+*The goal is summarizing findings, identifying patterns, synthesizing across sources, extracting key points, and pressure-testing interpretations.*
+
+- **Claude**: Built for long-form thinking, identifying patterns, and synthesizing across multiple sources.
+
+**Key Synthesis Prompts for Claude:**
+- **Research Synthesis**:
+  > I have gathered the following research on [topic]. Synthesize it into a briefing of no more than one page covering: the three most important findings, what these findings mean for our business specifically, the key areas of uncertainty or conflicting evidence, and the one or two questions that still need to be answered before we can act with confidence. Research: [paste in your phase one notes]
+- **Competitive Intelligence**:
+  > Build me a competitive intelligence brief on [competitor]. Based on the following sources and what you know, cover: their current product positioning and how it has changed recently, pricing strategy and packaging, go-to-market approach and primary channels, known strengths and vulnerabilities, recent signals about their strategic direction, and one or two things they are likely to do next. Sources: [paste in your phase one notes]
+- **Industry Trend Analysis**:
+  > Analyze the following trends affecting [your industry]: [list what you found]. For each trend: how material it is likely to be in the next two to three years, whether it represents a threat or an opportunity for our business specifically, what leading companies in our space are doing in response, and what we should be doing now to either capitalize on or protect against it.
+
+**Common Mistakes to Avoid:**
+1. **Trusting first outputs**: Always ask Claude to identify the weakest assumption in its own analysis.
+2. **Weak prompting**: Specificity separates useful synthesis from generic summaries.
+3. **Shallow sourcing**: Phase two cannot fix poor data from phase one. Always verify factual claims against primary sources.
+
+#### Phase 3: Output
+*The goal is turning synthesized insights into a tailored deliverable (reports, memos, briefings).*
+
+- **Claude**: Best for reports, memos, strategy documents, written briefs, and anything requiring voice and judgment.
+- **ChatGPT**: Best for structured formats, data-heavy summaries, and content where pattern/completeness matters more than prose quality.
+
+**The Output Prompt:**
+> I have the following research that I need to present to [audience, leadership, board, client, team]: [describe or paste in your phase two synthesis]. Help me turn this into a narrative that: opens with the single most important finding, builds the supporting evidence in a logical sequence, explains what the data means for our strategy or decisions, and closes with a clear recommendation or call to action. The audience cares most about: [describe what matters to them]</div>
+          
+          <div class="copy-bar">
+            <span class="meta">Press 'C' to copy</span>
+            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)">Copy Content</button>
+          </div>
+        </div>
+
+        <nav class="item-nav">
+          <a href="/items/guides/the-ai-agent-playbook" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">The AI Agent Playbook</span></a>
+          <a href="/items/guides/top-ai-courses-for-beginners" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Top AI Courses for Beginners</span></a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="links muted">© 2026 OWGT</p>
+      <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const el = document.getElementById('prompt-content');
+      if (el) {
+        const raw = el.textContent;
+        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
+        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
+          marked.setOptions({
+            breaks: true,
+            gfm: true,
+            highlight: function(code, lang) {
+              if (lang && hljs.getLanguage(lang)) {
+                return hljs.highlight(code, { language: lang }).value;
+              }
+              return hljs.highlightAuto(code).value;
+            }
+          });
+          el.innerHTML = marked.parse(raw);
+          el.classList.add('markdown-rendered');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
+

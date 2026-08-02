@@ -61,6 +61,23 @@ def parse_markdown(filepath):
 
     return sections, tags
 
+CAT_SLUGS = {
+    "Prompts": "prompts",
+    "Tools": "tools",
+    "Guides": "guides",
+    "Resources": "resources",
+    "Learning": "learning",
+    "Cheat Sheets": "cheatsheets",
+    "Cheatsheets": "cheatsheets",
+    "Templates": "templates",
+    "Frameworks": "frameworks",
+}
+
+def get_cat_slug(category):
+    if not category:
+        return "general"
+    return CAT_SLUGS.get(category, category.lower().replace(' ', '-'))
+
 def cat_to_filename(category):
     c = category.lower().replace(' ', '')
     if c == 'cheatsheets': return 'cheatsheets.html'
@@ -98,7 +115,7 @@ def generate_category_page(category, cat_items):
             """
         else:
             card = f"""
-            <a href="{item['id']}" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="{item['path']}" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
                 <span class="tag" style="font-size: 9px; padding: 2px 6px;">{item['subcategory'] or item['category']}</span>
@@ -129,10 +146,11 @@ def generate_category_page(category, cat_items):
         f.write(html)
 
 def generate_bundle_page(bundle_id, bundle_data):
-    filepath = os.path.join(SITE_DIR, f"bundle-{bundle_id}.html")
+    bundle_dir = os.path.join(SITE_DIR, 'items', 'bundles')
+    os.makedirs(bundle_dir, exist_ok=True)
+    filepath = os.path.join(bundle_dir, f"bundle-{bundle_id}.html")
     
     cards_html = []
-    # Currently items might be empty, but loop through just in case
     for item in bundle_data.get('items', []):
         tags_str = ' '.join([f"#{t}" for t in item['tags'][:3]])
         
@@ -160,7 +178,7 @@ def generate_bundle_page(bundle_id, bundle_data):
             """
         else:
             card = f"""
-            <a href="{item['id']}" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="{item['path']}" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
                 <span class="tag" style="font-size: 9px; padding: 2px 6px;">{item.get('subcategory') or item['category']}</span>
@@ -199,13 +217,16 @@ def generate_deep_item_pages(items):
         if item['is_shallow']:
             continue
             
-        filepath = os.path.join(SITE_DIR, f"{item['id']}.html")
+        cat_folder = get_cat_slug(item['category'])
+        item_dir = os.path.join(SITE_DIR, 'items', cat_folder)
+        os.makedirs(item_dir, exist_ok=True)
+        filepath = os.path.join(item_dir, f"{item['id']}.html")
         
         prev_item = items[idx - 1] if idx > 0 else None
         next_item = items[idx + 1] if idx < len(items) - 1 else None
         
-        prev_html = f'<a href="{prev_item["id"]}" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{prev_item["name"]}</span></a>' if prev_item else '<a class="item-nav-btn disabled"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Start of Library</span></a>'
-        next_html = f'<a href="{next_item["id"]}" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{next_item["name"]}</span></a>' if next_item else '<a class="item-nav-btn next disabled"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">End of Library</span></a>'
+        prev_html = f'<a href="{prev_item["path"]}" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{prev_item["name"]}</span></a>' if prev_item else '<a class="item-nav-btn disabled"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Start of Library</span></a>'
+        next_html = f'<a href="{next_item["path"]}" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{next_item["name"]}</span></a>' if next_item else '<a class="item-nav-btn next disabled"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">End of Library</span></a>'
         
         tags_html = ''.join([f'<span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#{t}</span>' for t in item['tags']])
         
@@ -263,6 +284,9 @@ def main():
         if category == "Prompts":
             subcategory = determine_subcategory(name, desc, tags)
             
+        cat_folder = get_cat_slug(category)
+        item_path = f"/items/{cat_folder}/{slug}"
+        
         item = {
             "id": slug,
             "name": name,
@@ -273,7 +297,7 @@ def main():
             "url": url,
             "content": body,
             "is_shallow": is_shallow,
-            "path": f"{slug}"
+            "path": item_path
         }
         items.append(item)
         
@@ -322,6 +346,23 @@ def main():
         for t in item["tags"]:
             tag_counts[t] = tag_counts.get(t, 0) + 1
 
+    # Clean loose item & bundle files from site root
+    PRESERVED_ROOT_FILES = {
+        'index.html', 'prompts.html', 'tools.html', 'guides.html', 
+        'resources.html', 'learning.html', 'cheatsheets.html', 
+        'templates.html', 'frameworks.html', 'tags.html', 
+        'tag-detail.html', 'bookmarks.html', 'deep-guide.html', 
+        'deep-prompt.html', 'use-case.html'
+    }
+    for f in os.listdir(SITE_DIR):
+        if f.endswith('.html') and f not in PRESERVED_ROOT_FILES:
+            file_path = os.path.join(SITE_DIR, f)
+            if os.path.isfile(file_path):
+                try:
+                    os.remove(file_path)
+                except Exception as e:
+                    pass
+
     # Generate Category HTML files
     for cat, cat_items in categories_dict.items():
         if cat:
@@ -361,7 +402,7 @@ def main():
             with open(page_path, 'w', encoding='utf-8') as f:
                 f.write(content)
                 
-    print(f"Successfully built {len(items)} items and category pages!")
+    print(f"Successfully built {len(items)} items and category pages into organized subdirectories!")
 
 if __name__ == "__main__":
     main()

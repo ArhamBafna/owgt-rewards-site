@@ -18,9 +18,11 @@ class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
             return
             
         req_path = req_path.rstrip('/')
-        if req_path == '/home':
+        if req_path == '' or req_path == '/home':
             req_path = '/index'
+
         path = self.translate_path(req_path)
+
         if os.path.exists(path + '.html') and os.path.isfile(path + '.html'):
             self.path = req_path + '.html'
         elif os.path.isdir(path) and os.path.exists(os.path.join(path, 'index.html')):
@@ -29,6 +31,21 @@ class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Location', self.path + '/')
                 self.end_headers()
                 return
+        else:
+            # Fallback check inside site/items/ for short clean URLs
+            target_name = os.path.basename(req_path) + '.html'
+            items_dir = os.path.join(DIRECTORY, 'items')
+            if os.path.exists(items_dir):
+                found_rel = None
+                for root, dirs, files in os.walk(items_dir):
+                    if target_name in files:
+                        full_found = os.path.join(root, target_name)
+                        rel_from_dir = os.path.relpath(full_found, DIRECTORY).replace('\\', '/')
+                        found_rel = '/' + rel_from_dir
+                        break
+                if found_rel:
+                    self.path = found_rel
+
         super().do_GET()
 
 class ThreadingServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
