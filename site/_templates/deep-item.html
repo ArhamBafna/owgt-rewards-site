@@ -66,6 +66,7 @@
       <div class="container">
         <div class="prompt-box">
           <div class="prompt-text" id="prompt-content">{item_content}</div>
+          {item_url_html}
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
             <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)">Copy Content</button>

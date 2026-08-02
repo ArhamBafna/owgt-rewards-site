@@ -5292,23 +5292,1029 @@
   "use_cases": {
     "cold-outreach-stack": {
       "name": "Cold Outreach Stack",
-      "items": []
+      "items": [
+        {
+          "id": "how-to-create-a-cold-email-generator-using-ai",
+          "name": "How to Create a Cold Email Generator Using AI",
+          "description": "Creating personalized cold emails using AI.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "Email",
+            "AI",
+            "Sales"
+          ],
+          "url": "https://offers.hubspot.com/cold-email-using-ai",
+          "content": "",
+          "is_shallow": false,
+          "path": "how-to-create-a-cold-email-generator-using-ai"
+        },
+        {
+          "id": "ai-sales-outreach-and-sequencing",
+          "name": "AI SALES OUTREACH AND SEQUENCING",
+          "description": "Using Al to personalise outreach at scale, researching prospects, drafting personalised emails and messages, and building sequenced follow-up workflows.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Skill",
+            "Career"
+          ],
+          "url": "",
+          "content": "What it is: Using Al to personalise outreach at scale, researching\nprospects, drafting personalised emails and messages, and building\nsequenced follow-up workflows.\nWho is hiring: Sales development and revenue operations at\nB2B companies.\nBeginner: Uses Al to research a prospect and draft a personalised\noutreach email. Edits and sends.\nAdvanced: Builds Al-powered outreach sequences with Al handling each\nstage, not just the first draft.\nTool to start: Perplexity for prospect research. Claude for message\ndrafting. The Executive Prompt Library for structured outreach prompts.",
+          "is_shallow": false,
+          "path": "ai-sales-outreach-and-sequencing"
+        },
+        {
+          "id": "lesson-cold-email-how-to-write-like-a-human",
+          "name": "Cold Email: How to Write Like a Human",
+          "description": "Maven course on writing human-like cold emails",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Cold",
+            "Course",
+            "Writing"
+          ],
+          "url": "https://maven.com/p/8a65ef/cold-email-how-to-write-like-a-human",
+          "content": "",
+          "is_shallow": true,
+          "path": "lesson-cold-email-how-to-write-like-a-human"
+        },
+        {
+          "id": "lesson-how-to-hire-an-ai-email-marketer",
+          "name": "How to Hire an AI Email Marketer",
+          "description": "Maven course on hiring an AI email marketer",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Email Marketing",
+            "Course",
+            "Hiring"
+          ],
+          "url": "https://maven.com/p/9763a4/how-to-hire-an-ai-email-marketer",
+          "content": "",
+          "is_shallow": true,
+          "path": "lesson-how-to-hire-an-ai-email-marketer"
+        },
+        {
+          "id": "cold-dm",
+          "name": "Cold DM",
+          "description": "Write a LinkedIn DM to [name], [role] at [company].",
+          "category": "Sales",
+          "subcategory": "",
+          "tags": [
+            "Sales",
+            "Prompt",
+            "Cold"
+          ],
+          "url": "",
+          "content": "```text\nWrite a LinkedIn DM to [name], [role] at [company]. Reference: [specific detail]. I help [audience] [achieve outcome]. Goal: get a 15-min call. Under 80 words. Human, not AI-sounding.\n```",
+          "is_shallow": false,
+          "path": "cold-dm"
+        },
+        {
+          "id": "cold-email",
+          "name": "Cold Email",
+          "description": "Write a cold email to [name], [role] at [company].",
+          "category": "Sales",
+          "subcategory": "",
+          "tags": [
+            "Sales",
+            "Prompt",
+            "Cold"
+          ],
+          "url": "",
+          "content": "```text\nWrite a cold email to [name], [role] at [company]. Subject: under 7 words. Opening: reference [something specific]. Body: connect to [problem]. Include vague result. CTA: low-friction ask. Under 200 words.\n```",
+          "is_shallow": false,
+          "path": "cold-email"
+        },
+        {
+          "id": "email-newsletter",
+          "name": "Email Newsletter",
+          "description": "Write a complete email newsletter.",
+          "category": "Marketing",
+          "subcategory": "",
+          "tags": [
+            "Marketing",
+            "Prompt",
+            "Email"
+          ],
+          "url": "",
+          "content": "```text\nWrite a complete email newsletter. Subject: [under 7 words]. Hook: 2 sentences. Body: one insight, under 300 words. CTA: one ask. Sign-off: warm, 2 lines. Topic: [topic]. Audience: [describe]. Tone: [your tone].\n```",
+          "is_shallow": false,
+          "path": "email-newsletter"
+        },
+        {
+          "id": "email-reply",
+          "name": "Email Reply",
+          "description": "Draft a reply to this email: [paste email].",
+          "category": "Communication",
+          "subcategory": "",
+          "tags": [
+            "Communication",
+            "Prompt",
+            "Email"
+          ],
+          "url": "",
+          "content": "```text\nDraft a reply to this email: [paste email]. Key points: [your bullet points]. Under 150 words. Tone: [direct/friendly/formal]. Sign as: [your name].\n```",
+          "is_shallow": false,
+          "path": "email-reply"
+        },
+        {
+          "id": "summarize-this-email-thread-into",
+          "name": "Summarize This Email Thread Into",
+          "description": "Summarize this email thread into 3 bullet points: what was decided, what's pending, and who owns eac...",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nSummarize this email thread into 3 bullet points: what was decided, what's pending, and who owns each action item: [paste thread]\n```",
+          "is_shallow": false,
+          "path": "summarize-this-email-thread-into"
+        },
+        {
+          "id": "write-a-cold-outreach-email",
+          "name": "Write a Cold Outreach Email",
+          "description": "A strategic template to write a cold outreach email.",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite a cold outreach email to a [role] at a [type of company]. My goal is [state goal]. The email should be under 100 words, lead with something specific about their business, and have one clear ask.\" CATEGORY 4: SALES AND GROWTH\n```",
+          "is_shallow": false,
+          "path": "write-a-cold-outreach-email"
+        },
+        {
+          "id": "write-a-customer-re-engagement-email",
+          "name": "Write a Customer Re-Engagement Email",
+          "description": "A strategic template to write a customer re-engagement email.",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite an email to [type of customer] who has not engaged with us in [timeframe]. Don't apologize for the silence. Lead with what has changed or improved since they last used us, and give them one specific reason to come back.\n```",
+          "is_shallow": false,
+          "path": "write-a-customer-re-engagement-email"
+        }
+      ]
     },
     "content-creation": {
       "name": "Content Creation",
-      "items": []
+      "items": [
+        {
+          "id": "ai-assisted-content-creation",
+          "name": "AI-ASSISTED CONTENT CREATION",
+          "description": "Using Al to produce first drafts, outlines, and content variations, and then editing and improving them using human judgment.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Skill",
+            "Career"
+          ],
+          "url": "",
+          "content": "What it is: Using Al to produce first drafts, outlines, and content\nvariations, and then editing and improving them using human judgment.\nWho is hiring: Marketing, content, and communications roles.\nBeginner: Uses Al to produce a first draft of a blog post, email, or social\npost. Edits to add voice and accuracy.\nAdvanced: Builds Al-assisted content production workflows, from brief to\ndraft to final, with consistent brand voice and quality checks at each stage.\nTool to start: Claude for long-form. ChatGPT for structured content.\nJasper for marketing-specific output with brand voice controls.",
+          "is_shallow": false,
+          "path": "ai-assisted-content-creation"
+        },
+        {
+          "id": "ai-video-and-visual-content",
+          "name": "AI Video and Visual Content",
+          "description": "Using Al tools to generate, edit, or enhance visual and video content, reducing production time without reducing output quality.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Skill",
+            "Career"
+          ],
+          "url": "",
+          "content": "What it is: Using Al tools to generate, edit, or enhance visual and video\ncontent, reducing production time without reducing output quality.\nWho is hiring: Marketing, creative, and social media teams.\n\n\n\n\nBeginner: Can use a text-to-image or image-editing Al tool to produce\nvisual content for presentations or social media.\nAdvanced: Manages an Al content production pipeline combining text,\nvisual, and video tools at scale.\nTool to start: Gemini for image generation. Gamma for Al presentations.",
+          "is_shallow": false,
+          "path": "ai-video-and-visual-content"
+        },
+        {
+          "id": "lesson-cold-email-how-to-write-like-a-human",
+          "name": "Cold Email: How to Write Like a Human",
+          "description": "Maven course on writing human-like cold emails",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Cold",
+            "Course",
+            "Writing"
+          ],
+          "url": "https://maven.com/p/8a65ef/cold-email-how-to-write-like-a-human",
+          "content": "",
+          "is_shallow": true,
+          "path": "lesson-cold-email-how-to-write-like-a-human"
+        },
+        {
+          "id": "content-ideas",
+          "name": "Content Ideas",
+          "description": "Give me 10 content topic ideas for [niche/audience].",
+          "category": "Marketing",
+          "subcategory": "",
+          "tags": [
+            "Marketing",
+            "Prompt",
+            "Content"
+          ],
+          "url": "",
+          "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
+          "is_shallow": false,
+          "path": "content-ideas"
+        },
+        {
+          "id": "rewrite-this-in-half-the",
+          "name": "Rewrite This In Half The",
+          "description": "Rewrite this in half the words without losing any meaning: [paste text]",
+          "category": "Prompts",
+          "subcategory": "Business Operations",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nRewrite this in half the words without losing any meaning: [paste text]\n```",
+          "is_shallow": false,
+          "path": "rewrite-this-in-half-the"
+        },
+        {
+          "id": "rewrite-this-section-to-be",
+          "name": "Rewrite This Section To Be",
+          "description": "Rewrite this section to be more persuasive.",
+          "category": "Prompts",
+          "subcategory": "Business Operations",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nRewrite this section to be more persuasive. Use concrete evidence and active voice: [paste text]\n```",
+          "is_shallow": false,
+          "path": "rewrite-this-section-to-be"
+        },
+        {
+          "id": "write-5-sharp-talking-points",
+          "name": "Write 5 Sharp Talking Points",
+          "description": "Write 5 sharp talking points I can use to persuade stakeholders on this proposal: [describe proposal...",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nWrite 5 sharp talking points I can use to persuade stakeholders on this proposal: [describe proposal]\n```",
+          "is_shallow": false,
+          "path": "write-5-sharp-talking-points"
+        },
+        {
+          "id": "write-a-clear-jargon-free-explanation",
+          "name": "Write A Clear, Jargon-Free Explanation",
+          "description": "Write a clear, jargon-free explanation of these metrics for a non-technical executive audience: [pas...",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nWrite a clear, jargon-free explanation of these metrics for a non-technical executive audience: [paste metrics]\n```",
+          "is_shallow": false,
+          "path": "write-a-clear-jargon-free-explanation"
+        },
+        {
+          "id": "write-a-cold-outreach-email",
+          "name": "Write a Cold Outreach Email",
+          "description": "A strategic template to write a cold outreach email.",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite a cold outreach email to a [role] at a [type of company]. My goal is [state goal]. The email should be under 100 words, lead with something specific about their business, and have one clear ask.\" CATEGORY 4: SALES AND GROWTH\n```",
+          "is_shallow": false,
+          "path": "write-a-cold-outreach-email"
+        },
+        {
+          "id": "write-a-company-announcement",
+          "name": "Write a Company Announcement",
+          "description": "A strategic template to write a company announcement.",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWe need to announce [news] to [audience: team / customers / investors / public]. Write the announcement so it leads with what this means for them, not what happened to us. Include: what changed, why it matters, and what comes next.\n```",
+          "is_shallow": false,
+          "path": "write-a-company-announcement"
+        },
+        {
+          "id": "write-a-compensation-explanation",
+          "name": "Write a Compensation Explanation",
+          "description": "A strategic template to write a compensation explanation.",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nExplain [equity offer / salary structure] to a [senior / early- stage] hire. Cover: how we set the number, market comparison, and the upside if we hit our goals.\n```",
+          "is_shallow": false,
+          "path": "write-a-compensation-explanation"
+        },
+        {
+          "id": "write-a-customer-re-engagement-email",
+          "name": "Write a Customer Re-Engagement Email",
+          "description": "A strategic template to write a customer re-engagement email.",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite an email to [type of customer] who has not engaged with us in [timeframe]. Don't apologize for the silence. Lead with what has changed or improved since they last used us, and give them one specific reason to come back.\n```",
+          "is_shallow": false,
+          "path": "write-a-customer-re-engagement-email"
+        },
+        {
+          "id": "write-a-diplomatic-response-to",
+          "name": "Write A Diplomatic Response To",
+          "description": "Write a diplomatic response to this difficult email without being defensive or agreeable to things I...",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nWrite a diplomatic response to this difficult email without being defensive or agreeable to things I can't commit to: [paste email]\n```",
+          "is_shallow": false,
+          "path": "write-a-diplomatic-response-to"
+        },
+        {
+          "id": "write-a-job-description",
+          "name": "Write a Job Description",
+          "description": "A strategic template to write a job description.",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite a job description for a [role] at a [stage] company in [industry]. Their most important first-90-days outcome: [describe]. Write for someone who cares about impact over title.\n```",
+          "is_shallow": false,
+          "path": "write-a-job-description"
+        },
+        {
+          "id": "write-a-partnership-proposal",
+          "name": "Write a Partnership Proposal",
+          "description": "A strategic template to write a partnership proposal.",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nI want to propose a partnership with [company]. What we bring: [describe]. What they bring: [describe]. Write a two-paragraph partnership proposal that leads with their benefit, not ours.\n```",
+          "is_shallow": false,
+          "path": "write-a-partnership-proposal"
+        },
+        {
+          "id": "write-a-performance-review-for",
+          "name": "Write A Performance Review For",
+          "description": "Write a performance review for an employee who excels at [strength]",
+          "category": "Prompts",
+          "subcategory": "Leadership & Management",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nWrite a performance review for an employee who excels at [strength]\n```",
+          "is_shallow": false,
+          "path": "write-a-performance-review-for"
+        },
+        {
+          "id": "write-an-escalation-policy",
+          "name": "Write an Escalation Policy",
+          "description": "A strategic template to write an escalation policy.",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite a simple escalation policy for my team. It should define: which decisions they should make independently, which require my input but not my approval, and which require my sign-off. Use our current stage [describe] as context.\n```",
+          "is_shallow": false,
+          "path": "write-an-escalation-policy"
+        },
+        {
+          "id": "write-an-executive-summary-for",
+          "name": "Write An Executive Summary For",
+          "description": "Write an executive summary for this document in 150 words or less.",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nWrite an executive summary for this document in 150 words or less. Lead with the key takeaway: [paste doc]\n```",
+          "is_shallow": false,
+          "path": "write-an-executive-summary-for"
+        },
+        {
+          "id": "write-an-investor-update",
+          "name": "Write an Investor Update",
+          "description": "A strategic template to write an investor update.",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nWrite a monthly investor update for a [stage] company. Metrics: [list]. Wins: [list]. Challenges: [list]. Help needed: [describe]. Under three minutes to read, ending with one specific ask.\n```",
+          "is_shallow": false,
+          "path": "write-an-investor-update"
+        },
+        {
+          "id": "the-claude-skills-that-finally-made-ai-write-like-me",
+          "name": "The Claude Skills That Finally Made AI Write Like Me",
+          "description": "How to Build Yours by Substack creator",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Writing",
+            "Skills"
+          ],
+          "url": "https://aiblewmymind.substack.com/p/claude-skills-ai-write-like-you",
+          "content": "",
+          "is_shallow": true,
+          "path": "the-claude-skills-that-finally-made-ai-write-like-me"
+        }
+      ]
     },
     "ai-research": {
       "name": "AI Research",
-      "items": []
+      "items": [
+        {
+          "id": "the-ai-research-system",
+          "name": "The AI Research System: A Three-Phase Method",
+          "description": "A systematic three-phase methodology for conducting high-quality, verifiable research using multiple AI models (Perplexity, Grok, Claude, ChatGPT) to avoid hallucinations and generate actionable insights.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "Research",
+            "Workflow",
+            "Perplexity",
+            "Claude",
+            "ChatGPT"
+          ],
+          "url": "",
+          "content": "The output quality of AI research is not determined by which model you use, but by whether you have a process at all. Using one model as your only source is using a single, fallible voice as your entire evidence base. \n\nA better approach is a three-phase process where each phase uses a different tool for a specific job: Gather, Analyze, and Output.\n\n#### Phase 1: Gather\n*The goal is source discovery, web research, market data, and current events. You are looking for sourced, traceable starting material, not AI opinions.*\n\n- **Perplexity**: Search-first AI that always cites sources. It links every answer to the original source material.\n  - *Best Practice*: Ask specific questions. Instead of \"Tell me about competitor X\", ask: \"What has competitor X announced in the last 90 days? What do their recent job postings suggest about their strategic direction? Cite all sources.\"\n- **Grok**: For real-time intelligence. Connected directly to X data. Use this to track fast-moving markets, competitor announcements, or regulatory developments that haven't been indexed by search engines yet.\n\n*Phase 1 Output*: A set of raw, sourced notes, links, and data points ready for synthesis.\n\n#### Phase 2: Analyze\n*The goal is summarizing findings, identifying patterns, synthesizing across sources, extracting key points, and pressure-testing interpretations.*\n\n- **Claude**: Built for long-form thinking, identifying patterns, and synthesizing across multiple sources.\n\n**Key Synthesis Prompts for Claude:**\n- **Research Synthesis**:\n  > I have gathered the following research on [topic]. Synthesize it into a briefing of no more than one page covering: the three most important findings, what these findings mean for our business specifically, the key areas of uncertainty or conflicting evidence, and the one or two questions that still need to be answered before we can act with confidence. Research: [paste in your phase one notes]\n- **Competitive Intelligence**:\n  > Build me a competitive intelligence brief on [competitor]. Based on the following sources and what you know, cover: their current product positioning and how it has changed recently, pricing strategy and packaging, go-to-market approach and primary channels, known strengths and vulnerabilities, recent signals about their strategic direction, and one or two things they are likely to do next. Sources: [paste in your phase one notes]\n- **Industry Trend Analysis**:\n  > Analyze the following trends affecting [your industry]: [list what you found]. For each trend: how material it is likely to be in the next two to three years, whether it represents a threat or an opportunity for our business specifically, what leading companies in our space are doing in response, and what we should be doing now to either capitalize on or protect against it.\n\n**Common Mistakes to Avoid:**\n1. **Trusting first outputs**: Always ask Claude to identify the weakest assumption in its own analysis.\n2. **Weak prompting**: Specificity separates useful synthesis from generic summaries.\n3. **Shallow sourcing**: Phase two cannot fix poor data from phase one. Always verify factual claims against primary sources.\n\n#### Phase 3: Output\n*The goal is turning synthesized insights into a tailored deliverable (reports, memos, briefings).*\n\n- **Claude**: Best for reports, memos, strategy documents, written briefs, and anything requiring voice and judgment.\n- **ChatGPT**: Best for structured formats, data-heavy summaries, and content where pattern/completeness matters more than prose quality.\n\n**The Output Prompt:**\n> I have the following research that I need to present to [audience, leadership, board, client, team]: [describe or paste in your phase two synthesis]. Help me turn this into a narrative that: opens with the single most important finding, builds the supporting evidence in a logical sequence, explains what the data means for our strategy or decisions, and closes with a clear recommendation or call to action. The audience cares most about: [describe what matters to them]",
+          "is_shallow": false,
+          "path": "the-ai-research-system"
+        },
+        {
+          "id": "ai-powered-market-research",
+          "name": "AI-Powered Market Research",
+          "description": "Using AI tools to gather, synthesize, and interpret market data, competitive intelligence, and industry trends faster than traditional research methods.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "AI Skills",
+            "Market Research",
+            "Strategy",
+            "Perplexity"
+          ],
+          "url": "",
+          "content": "What it is: Using AI tools to gather, synthesize, and interpret market data, competitive intelligence, and industry trends faster than traditional research methods.\nWho is hiring: Strategy, marketing, and competitive intelligence functions.\nBeginner: Uses Perplexity to build a sourced market briefing on a topic. Can cite the sources behind key findings.\nAdvanced: Runs a weekly competitive intelligence system using Perplexity, Grok, and Claude.\nTool to start: Perplexity. Start with a specific research question in your market and evaluate the output for source quality.",
+          "is_shallow": false,
+          "path": "ai-powered-market-research"
+        },
+        {
+          "id": "analyze-customer-feedback-for-growth-signals",
+          "name": "Analyze Customer Feedback for Growth Signals",
+          "description": "A strategic template to analyze customer feedback for growth signals.",
+          "category": "Prompts",
+          "subcategory": "Analysis & Research",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nHere is customer feedback I've collected: [paste]. Analyze it for growth signals, not just the satisfaction data, but what it reveals about: the customer segments most likely to expand, the use cases we're underdeveloped in, and the competitor we're most often replacing or being compared to. Give me the one growth hypothesis this data most supports.\" \"I'm considering investing [describe resource] in [describe opportunity]. Evaluate the investment on: expected return and time to see it, key assumptions that must hold for the return to materialize, what the minimum viable version of this investment looks like, and at what point I should cut my losses if it's not working.\n```",
+          "is_shallow": false,
+          "path": "analyze-customer-feedback-for-growth-signals"
+        },
+        {
+          "id": "analyze-this-data-and-identify",
+          "name": "Analyze This Data And Identify",
+          "description": "Analyzing data.",
+          "category": "Prompts",
+          "subcategory": "Analysis & Research",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nAnalyze this data and identify the top 3 trends, 2 anomalies, and 1 key recommendation: [paste data]\n```",
+          "is_shallow": false,
+          "path": "analyze-this-data-and-identify"
+        },
+        {
+          "id": "analyze-why-a-deal-was-lost",
+          "name": "Analyze Why a Deal Was Lost",
+          "description": "A strategic template to analyze why a deal was lost.",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nHere's the deal I lost: [describe]. What are the three most likely real reasons, not what they told us, the underlying ones? What do we change next time?\n```",
+          "is_shallow": false,
+          "path": "analyze-why-a-deal-was-lost"
+        },
+        {
+          "id": "research-synthesis",
+          "name": "Research Synthesis",
+          "description": "I have gathered the following research or data on [topic].",
+          "category": "Prompts",
+          "subcategory": "Analysis & Research",
+          "tags": [
+            "Prompt",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "```text\nI have gathered the following research or data on [topic].\nSynthesize it into a briefing of no more than one page\ncovering: the three most important findings, what these\nfindings mean for our business specifically, the key areas of\nuncertainty or conflicting evidence, and the one or two\nquestions that still need to be answered before we can act.\nResearch: [paste in your data or notes]\n```",
+          "is_shallow": false,
+          "path": "research-synthesis"
+        }
+      ]
     },
     "build-ai-apps": {
       "name": "Build AI Apps",
-      "items": []
+      "items": [
+        {
+          "id": "mobile-app-growth-cheat-sheet",
+          "name": "Mobile App Growth Cheat Sheet",
+          "description": "Cheat sheet for mobile app marketing and growth.",
+          "category": "Cheat Sheets",
+          "subcategory": "",
+          "tags": [
+            "Mobile",
+            "App",
+            "Growth",
+            "Marketing"
+          ],
+          "url": "https://offers.hubspot.com/view/mobile-app-growth",
+          "content": "",
+          "is_shallow": true,
+          "path": "mobile-app-growth-cheat-sheet"
+        },
+        {
+          "id": "how-to-build-a-10k-month-app-in-2026",
+          "name": "How to Build a $10k/Month App in 2026",
+          "description": "A 60-second blueprint on building and launching a profitable app, from idea generation to deployment and marketing.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "App Development",
+            "Business",
+            "Software"
+          ],
+          "url": "",
+          "content": "#### 1. Idea Generation\n- Stop obsessing over a completely unique idea.\n- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.\n- Find ways to tweak or improve them to create your own version.\n\n#### 2. Choose Your Stack\n- **Web App**: Use **Next.js** for seamless front-end and back-end development.\n- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.\n\n#### 3. Leverage AI Tools\n- Familiarize yourself with AI coding assistants.\n- **Claude Coder**: Best for front-end design and user experience.\n- **Codex**: Best for complex backend architecture.\n\n#### 4. Backend & Payments\n- **Database / Backend**: Supabase or Firebase.\n- **Payments**: Stripe (Web) or RevenueCat (Mobile).\n\n#### 5. Launch & Distribute\n- Release early to get user feedback immediately.\n- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).\n- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.\n- **Scale**: Once organic works, turn the winning formulas into paid ads.",
+          "is_shallow": false,
+          "path": "how-to-build-a-10k-month-app-in-2026"
+        },
+        {
+          "id": "ai-workflow-building-no-code",
+          "name": "AI WORKFLOW BUILDING NO-CODE",
+          "description": "Using tools like Zapier, Make, or Gumloop to connect applications and automate repetitive tasks without writing code.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Skill",
+            "Career"
+          ],
+          "url": "",
+          "content": "What it is: Using tools like Zapier, Make, or Gumloop to connect\napplications and automate repetitive tasks without writing code.\nWho is hiring: Operations, marketing, HR, and sales functions.\nBeginner: Builds a basic Zapier workflow connecting two applications.\nAdvanced: Designs multi-step automation sequences with conditional\nlogic, error handling, and Al-processing nodes built in.\nTool to start: Zapier. Begin with one automation connecting two\ntools you already use. ldentify a manual task that happens more\nthan five times per week.",
+          "is_shallow": false,
+          "path": "ai-workflow-building-no-code"
+        },
+        {
+          "id": "apply-first-principles-thinking",
+          "name": "Apply First Principles Thinking",
+          "description": "A strategic template to apply first principles thinking.",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
+          "tags": [
+            "Claude",
+            "Prompt"
+          ],
+          "url": "",
+          "content": "```\nEveryone in [industry/domain] assumes that [describe a common assumption]. Apply first principles thinking: break this assumption down into its component parts and tell me which parts are actually constraints and which parts are just habits. What would you do differently if you were starting from scratch with no inherited assumptions?\n```",
+          "is_shallow": false,
+          "path": "apply-first-principles-thinking"
+        },
+        {
+          "id": "app-ideas",
+          "name": "App Ideas",
+          "description": "A collection of application ideas to improve your coding skills.",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Ideas",
+            "Coding",
+            "Projects"
+          ],
+          "url": "https://github.com/florinpop17/app-ideas",
+          "content": "",
+          "is_shallow": true,
+          "path": "app-ideas"
+        },
+        {
+          "id": "awesome-llm-apps",
+          "name": "Awesome LLM Apps (Shubham Saboo)",
+          "description": "Library of ready-to-use, beginner-friendly starter templates for AI agents, RAG, and multi-agent systems.",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Template",
+            "RAG",
+            "Agent"
+          ],
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "content": "",
+          "is_shallow": true,
+          "path": "awesome-llm-apps"
+        },
+        {
+          "id": "reddit-communities-to-promote-your-app",
+          "name": "Reddit Communities to Promote Your App",
+          "description": "Google Docs list of Reddit communities to promote your app for free",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Reddit",
+            "Marketing",
+            "Promotion"
+          ],
+          "url": "https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/edit",
+          "content": "",
+          "is_shallow": true,
+          "path": "reddit-communities-to-promote-your-app"
+        },
+        {
+          "id": "claude-code-cli",
+          "name": "Claude Code CLI",
+          "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
+          "category": "Coding",
+          "subcategory": "",
+          "tags": [
+            "CLI",
+            "Agent",
+            "Anthropic",
+            "AI"
+          ],
+          "url": "https://docs.anthropic.com",
+          "content": "",
+          "is_shallow": true,
+          "path": "claude-code-cli"
+        },
+        {
+          "id": "windsurf",
+          "name": "Windsurf (Codeium)",
+          "description": "Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.",
+          "category": "Coding",
+          "subcategory": "",
+          "tags": [
+            "IDE",
+            "AI",
+            "Codeium",
+            "Agent"
+          ],
+          "url": "https://codeium.com/windsurf",
+          "content": "",
+          "is_shallow": true,
+          "path": "windsurf"
+        }
+      ]
     },
     "prompt-engineering": {
       "name": "Prompt Engineering",
-      "items": []
+      "items": [
+        {
+          "id": "chatgpt-and-ai-cheatsheet",
+          "name": "ChatGPT & AI Cheatsheet",
+          "description": "A complete, dense reference guide for AI prompting, covering universal formulas, techniques, writing styles, and common workflows.",
+          "category": "Cheat Sheets",
+          "subcategory": "",
+          "tags": [
+            "ChatGPT",
+            "Prompting",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "#### The Universal Prompt Formula\n> Act as **[ROLE]**, perform **[TASK]**, in **[FORMAT]**\n> *Example:* \"Act as a senior copywriter, write 5 cold-email subject lines for a SaaS launch, in a numbered list with hooks bolded.\"\n\n#### 1. Roles\nWho should the AI pretend to be?\nMarketer, Copywriter, SEO specialist, Consultant, Coder, Editor, Analyst, Recruiter, Teacher, Translator, Interviewer, Trainer, CFO, Designer. Or specific people: *\"Act like Hormozi / Bezos / Naval\"*\n\n#### 2. Tasks\nWhat do you want it to do?\nWrite caption, Blog post, Email sequence, Sales copy, Product desc, Video script, SEO keywords, Summarize, Translate, Outline, Analyze, Brainstorm, Critique, Refactor.\n\n#### 3. Output Formats\nHow should the answer look?\nBullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, Step-by-step, Pros vs Cons, Tweet thread, Script, Email.\n\n#### Prompting Techniques\n- **Zero-shot**: Just ask. No examples. Use for simple, well-known tasks.\n- **One-shot**: Give one example before the ask. Sets tone fast.\n- **Few-shot**: 3\u20135 examples. Best for matching a specific style or pattern.\n- **Chain-of-Thought**: Add \"think step by step.\" Forces reasoning before the answer.\n- **Tree-of-Thought**: \"Brainstorm 5 approaches, evaluate each, then pick the best.\"\n- **Role-play**: \"You are X.\" Locks tone, vocabulary, and POV.\n- **Chained prompts**: Output of prompt 1 becomes input to prompt 2. Compounds quality.\n- **Instructional**: Explicit steps. \"First do A, then B, then return C.\"\n\n#### Clone Your Voice Workflow\n1. Paste 2\u20133 samples of your writing.\n2. Ask: *\"Analyze the tone and style. Output a bullet-pointed style guide.\"*\n3. Save that style guide as a reusable system prompt.\n4. Use it: *\"Rewrite [text] using the style guide above.\"*\n\n#### Chained Workflow (SEO Blog Post)\n1. Generate an SEO outline for keyword [topic].\n2. Write 10 persuasive headlines from that outline.\n3. Draft subheadings for each section.\n4. Surface 30 keywords to weave in naturally.\n5. Write 15 CTAs.\n6. Combine winners into a full draft.\n7. Rewrite in the voice of [role / brand].\n\n#### Midjourney Prompt Builder\n1. **Prep**: *\"I'll give you formatting examples for Midjourney.\"*\n2. **Format**: Paste the Midjourney structure (subject, style, lighting, camera, params).\n3. **Samples**: Drop in 2\u20133 high-quality MJ prompts.\n4. **Context**: *\"Now generate 5 prompts for [scene].\"*\n5. **Ship**: Copy \u2192 paste into Midjourney.\n\n#### Pro Tips Most People Miss\n- Ask for output as CSV or JSON to paste straight into Sheets or code.\n- Ingredients > recipes. Feed it your raw data and let it cook.\n- Make it argue with itself: *\"Now critique that answer harshly.\"*\n- Always fact-check with a second engine (Perplexity, Claude, Gemini).\n- *\"Ask me 5 questions before answering\"* dramatically improves output.\n- Save your best prompts as reusable templates.\n- For long tasks, ask for a plan first, then approve before execution.\n\n#### AI Glossary\n- **Prompt**: The instructions you give the AI.\n- **Input**: Text, image, or file you provide.\n- **Output**: What the AI gives back.\n- **Token**: A chunk of text (~4 chars). Models bill by token.\n- **Context**: Everything the model can \"see\" right now.\n- **LLM**: Large Language Model (e.g., GPT-4, Claude, Gemini).\n- **Temperature**: Creativity dial. Low = safe, high = wild.\n- **Hallucination**: When the AI invents facts confidently.\n- **RAG**: Retrieval-Augmented Generation \u2014 pulls in real data.\n\n#### When to Use What\n- **ChatGPT**: Drafts, brainstorming\n- **Claude**: Long docs, analysis, code\n- **Perplexity**: Facts + sources\n- **Midjourney**: Images\n- **Runway / Kling**: Video",
+          "is_shallow": false,
+          "path": "chatgpt-and-ai-cheatsheet"
+        },
+        {
+          "id": "39-claude-skills-examples",
+          "name": "39 Claude Skills Examples",
+          "description": "Examples of Claude skills to transform workflows.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Skills",
+            "Workflow"
+          ],
+          "url": "https://aiblewmymind.substack.com/p/claude-skills-36-examples",
+          "content": "",
+          "is_shallow": false,
+          "path": "39-claude-skills-examples"
+        },
+        {
+          "id": "build-3-ai-agents-in-base44",
+          "name": "Build 3 AI Agents in Base44 \u2014 Complete Prompt Pack",
+          "description": "A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "Skool",
+            "Community",
+            "Guide"
+          ],
+          "url": "",
+          "content": "## Before You Start\n\n- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)\n  *(Prompts below ready to use. Swap bracketed parts for your own details.)*\n- **Required Accounts:** Free/trial accounts for tools to connect:\n  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)\n  - **Publisher:** LinkedIn, X\n  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack\n\n> [!TIP]\n> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.\n\n#### Standard Setup\n\n1. Name the agent\n2. Write the identity under \"About the agent\"\n3. Fill in Memory (your background details)\n4. Connect plugins\n5. Enter the job prompt\n6. Set permissions and select the model\n7. Configure automation\n\n---\n\n## Agent 1: Vesper (Inbox Triage)\n\n**Difficulty:** Beginner | **Build Time:** ~2 minutes\n\n#### Step 1: Name\n`Vesper`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.\n\nYou remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.\n\nFocus on being practical and direct.\n```\n\n#### Step 3: Memory Tab\n- **My name:** `[Your first name]`\n- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`\n- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`\n- **What I'm working on right now:** `[current project].`\n- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`\n- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like \"just circling back\"].`\n- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`\n\n*(Leave \"Things the agent has learned about you\" alone: it updates automatically).*\n\n#### Step 4: Plugins\n- Gmail\n- Google Calendar\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nRead incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.\n\nRules:\n- Save replies as drafts only. Do not send messages automatically.\n- Follow the communication style defined in Memory: short, direct, and concise.\n- If someone requests a meeting, check the calendar first and offer two or three open timeslots.\n- Group newsletters, receipts, and system notifications at the bottom of the summary as a total count.\n- When flagging an item, include one line explaining specifically why it needs my attention.\n\nFormat your summary like this:\nNEEDS ATTENTION (with a one-line explanation for each)\nDRAFTED (subject line + recipient)\nFILTERED (total count by category)\n```\n\n#### Step 6: Set Permissions\n> [!WARNING]\n> Go to **Settings -> Security -> Agent Permissions**:\n> - **Update data:** OFF\n> - **Delete data:** OFF\n> \n> Check these settings before linking accounts.\n\n- Ensure **Auto-detect secrets** is ON to store API keys securely.\n\n#### Step 7: Send to WhatsApp\n1. Go to **Customize -> Channels -> Connect**\n2. Scan the QR code and confirm the link.\n3. Add this instruction:\n   ```text\n   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.\n   ```\n\n#### Step 8: Automate\n```text\nRun this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.\n```\n\n---\n\n## Agent 2: The Publisher (LinkedIn + X)\n\n**Difficulty:** Intermediate | **Build Time:** ~5 minutes\n\n#### Step 1: Name\n`[Your name]'s Publisher`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou write posts matching my personal style and voice.\n\nUse clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.\n\nGuidelines:\n- Avoid buzzwords, generic intros, or unnecessary filler phrases.\n- Avoid repetitive short lines created purely for emphasis.\n- Do not invent fictional stories, metrics, or client examples. Ask for details if an example is needed.\n- Focus on one key concept per post.\n\nKeep content clear, specific, and practical.\n```\n\n#### Step 3: Memory Tab\n- **I post about:** `[your topics]`\n- **My audience:** `[who they are, their experience level, their main goals]`\n- **My voice:** `[3-4 lines describing your communication style]`\n- **Words and phrases I never use:** `[list specific words to avoid]`\n- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`\n\n> [!IMPORTANT]\n> Include actual past posts. This helps establish the writing style more accurately than general descriptions.\n\n#### Step 4: Plugins\n- LinkedIn\n- X (Twitter)\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nTake a single topic and prepare separate versions for LinkedIn and X.\n\nLinkedIn (longer version):\n- Place the core message in the opening line.\n- Use 150-300 words with short paragraphs.\n- Include one specific example or data point.\n- End with a practical key takeaway.\n\nX (short version):\n- Stay under 280 characters, or use a short thread if necessary.\n- Focus the message in the opening line.\n- Do not include hashtags.\n\nShow both versions for review before scheduling. Once approved, schedule the posts.\n```\n\n#### Step 6: Memory Scope\nGo to **Sharing and Access -> Memory**:\n- **No memory:** Starts each chat with no saved context.\n- **Separated:** Retains context within individual conversations while keeping them isolated.\n- **Shared:** Shares learned details across all conversations.\n\n> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.\n\n#### Step 7: Automate\n```text\nEvery Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.\n```\n\n---\n\n## Agent 3: The Analyst\n\n**Difficulty:** Advanced | **Build Time:** ~10 minutes\n\n#### Step 1: Name\n`The Analyst`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou monitor site metrics and business data, reporting changes clearly.\n\nState metric drops or performance changes directly at the beginning of the report.\n\nFocus on significant shifts in data rather than routine numbers. If traffic dropped, state the percentage decrease and the underlying cause directly.\n\nDistinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.\n\nIf metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.\n```\n\n#### Step 3: Memory Tab\n- **My business:** `[your products or services, target market]`\n- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`\n- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`\n- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`\n- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`\n\n#### Step 4: Plugins\n- Google Analytics\n- CRM (HubSpot, etc.)\n- Slack *(Setup: Custom -> Channels -> Select channel)*\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nCheck daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.\n\nGuidelines:\n- Compare performance against the same period last month and the same day last week.\n- Flag metric variations larger than 15%.\n- For CRM tracking: report lead counts by stage and flag items inactive for over 7 days.\n- If a traffic channel declines, identify the specific pages or campaigns driving the drop.\n- Clearly separate confirmed metrics from analytical estimates.\n\nReport structure:\nNOTABLE CHANGES (largest shifts listed first)\nTRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)\nPIPELINE STATUS (stage counts and inactive leads)\nANALYSIS (clearly marked as hypothesis)\n```\n\n#### Step 6: Model Configuration\n> [!IMPORTANT]\n> Go to **Settings -> General**:\n> - **Chat model:** Handles interactive sessions.\n> - **Automation model:** Handles scheduled background runs.\n>\n> Select a high-capability model for the **Automation model** to support automated data analysis.\n\n#### Step 7: Automate\n```text\nRun this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.\n```\n\n---\n\n## Ship It: Share Your Agents\n\n- Go to **Sharing -> Public Template Link**.\n- Connected accounts and API keys do not transfer with template links.\n\n---\n\n## Quick Reference Table\n\n| Setting | Location | Recommendation |\n| :--- | :--- | :--- |\n| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |\n| **Auto-detect secrets** | Settings -> Security | `ON` |\n| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |\n| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |\n| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |\n| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |\n| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |\n\n---\n\n## Troubleshooting\n\n- **\"My replies sound artificial.\"**\n  - Provide additional reference examples in Memory to better reflect your writing style.\n- **\"The agent flags minor details.\"**\n  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`\n- **\"The background task does not update data.\"**\n  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.\n- **\"The agent reports estimated data as fact.\"**\n  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`",
+          "is_shallow": false,
+          "path": "build-3-ai-agents-in-base44"
+        },
+        {
+          "id": "prompt-engineering",
+          "name": "Prompt Engineering Guide",
+          "description": "Complete beginner-to-advanced guide, system prompt templates, and best practices for prompting LLMs by DAIR.AI.",
+          "category": "Guides",
+          "subcategory": "",
+          "tags": [
+            "Prompting",
+            "Best Practices",
+            "LLM"
+          ],
+          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+          "content": "",
+          "is_shallow": false,
+          "path": "prompt-engineering"
+        },
+        {
+          "id": "ai-prompt-engineering",
+          "name": "AI PROMPT ENGINEERING",
+          "description": "Designing structured instructions that produce useful, specific Al outputs instead of just typing questions and hoping.",
+          "category": "Learning",
+          "subcategory": "",
+          "tags": [
+            "Skill",
+            "Career"
+          ],
+          "url": "",
+          "content": "What it is: Designing structured instructions that produce useful, specific\nAl outputs instead of just typing questions and hoping.\nWho is hiring: Marketing, HR, operations, and product roles. Average\nBeginner: Can write a prompt that includes role, context, and format\ninstructions. Gets consistently better outputs than generic questions.\nAdvanced: Designs prompt libraries and templates for team use. Evaluates\nbest practices.\nTool to start: The Al Report's Executive Prompt Library. Study the\nstructure of each prompt, role, context, task, format, before writing\nyour own.",
+          "is_shallow": false,
+          "path": "ai-prompt-engineering"
+        },
+        {
+          "id": "higgsfield-ugc-prompt",
+          "name": "Higgsfield UGC Prompt",
+          "description": "A detailed prompt for creating an authentic UGC selfie video using Higgsfield.",
+          "category": "Video",
+          "subcategory": "",
+          "tags": [
+            "Video",
+            "Prompt",
+            "UGC"
+          ],
+          "url": "",
+          "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
+          "is_shallow": false,
+          "path": "higgsfield-ugc-prompt"
+        },
+        {
+          "id": "awesome-chatgpt-prompts",
+          "name": "Awesome ChatGPT Prompts",
+          "description": "Massively popular open library of copy-paste ChatGPT/Claude prompt templates for roleplaying and task automation.",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Prompt",
+            "ChatGPT",
+            "Collection",
+            "Roleplay"
+          ],
+          "url": "https://github.com/f/awesome-chatgpt-prompts",
+          "content": "",
+          "is_shallow": true,
+          "path": "awesome-chatgpt-prompts"
+        },
+        {
+          "id": "banana-prompts",
+          "name": "Banana Prompts",
+          "description": "AI Image & Video Prompts directory",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Prompt",
+            "Image Generation",
+            "Video Generation"
+          ],
+          "url": "https://www.bananaprompts.xyz/",
+          "content": "",
+          "is_shallow": true,
+          "path": "banana-prompts"
+        },
+        {
+          "id": "claude-quickstarts",
+          "name": "Claude Quickstarts & Prompt Cookbook (Anthropic)",
+          "description": "Ready-to-clone starter projects, prompt templates, and code cookbooks directly from Anthropic.",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Prompt",
+            "Template",
+            "Anthropic"
+          ],
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "content": "",
+          "is_shallow": true,
+          "path": "claude-quickstarts"
+        },
+        {
+          "id": "claude-skills",
+          "name": "Claude Skills",
+          "description": "Google Drive folder with Claude Skills",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Skills",
+            "Google Drive"
+          ],
+          "url": "https://drive.google.com/drive/folders/1lhFm0v6ppm04daPMI3a5vrIcpBMo5uKP",
+          "content": "",
+          "is_shallow": true,
+          "path": "claude-skills"
+        },
+        {
+          "id": "claude-startup-skill",
+          "name": "Claude STARTUP Skill",
+          "description": "Claude STARTUP skill on GitHub",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Skills",
+            "GitHub"
+          ],
+          "url": "https://github.com/ferdinandobons/startup-skill",
+          "content": "",
+          "is_shallow": true,
+          "path": "claude-startup-skill"
+        },
+        {
+          "id": "system-prompts",
+          "name": "Real AI System Prompts Collection",
+          "description": "Collection of actual system prompts used by ChatGPT, Claude, Cursor, Midjourney, and top AI agents.",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "System Prompts",
+            "Agent",
+            "Collection"
+          ],
+          "url": "https://github.com/linehk/system-prompts",
+          "content": "",
+          "is_shallow": true,
+          "path": "system-prompts"
+        },
+        {
+          "id": "the-claude-skills-that-finally-made-ai-write-like-me",
+          "name": "The Claude Skills That Finally Made AI Write Like Me",
+          "description": "How to Build Yours by Substack creator",
+          "category": "Resources",
+          "subcategory": "",
+          "tags": [
+            "Claude",
+            "Writing",
+            "Skills"
+          ],
+          "url": "https://aiblewmymind.substack.com/p/claude-skills-ai-write-like-you",
+          "content": "",
+          "is_shallow": true,
+          "path": "the-claude-skills-that-finally-made-ai-write-like-me"
+        },
+        {
+          "id": "chatgpt-enterprise",
+          "name": "Chatgpt (Enterprise)",
+          "description": "Conversational AI for drafting, analysing, summarising, and general writing across all business functions.",
+          "category": "Tools",
+          "subcategory": "",
+          "tags": [
+            "Tool",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "**What it does:** Conversational\nAI for drafting, analysing,\nsummarising, and general\nwriting across all business\nfunctions.\nWorkflow it replaces:\nGeneral business writing,\nemails, summaries, meeting\nfollow-ups, documentation,\nstatus updates.\nBusiness outcome: Writing\ntasks that accumulated in\nqueues are handled in real\ntime. Employees stop treating\nwriting as a bottleneck.\nBest for: Organisations\nwanting a general-purpose\nwriting AI across all functions,\nwith enterprise-grade\nsecurity controls.\nJASPER \n Jasper AI",
+          "is_shallow": false,
+          "path": "chatgpt-enterprise"
+        },
+        {
+          "id": "chatgpt",
+          "name": "Chatgpt",
+          "description": "Conversational AI for analysis, drafting, summarising, and cross-function general use. Why enterprises choose it: OpenAI's APIs are the most widely adopted generative AI infrastructure in enterprise organisations. ChatGPT Enterprise offers data privacy controls, higher context windows, and admin controls for team deployment.",
+          "category": "Tools",
+          "subcategory": "",
+          "tags": [
+            "AI Tools",
+            "Enterprise"
+          ],
+          "url": "",
+          "content": "A valuable enterprise tool for AI workflows.",
+          "is_shallow": false,
+          "path": "chatgpt"
+        },
+        {
+          "id": "claude-api",
+          "name": "Claude Api",
+          "description": "Foundation model API for building AI-native features and internal tools, document processing, code review, analysis pipelines, and custom AI applications. Why enterprises choose it: OpenAI and Anthropic APIs are the two most widely adopted generative AI APIs in enterprise organisations. The Claude API is chosen specifically for applications requiring long-context processing, nuanced reasoning, and high-quality written output.",
+          "category": "Tools",
+          "subcategory": "",
+          "tags": [
+            "AI Tools",
+            "Enterprise"
+          ],
+          "url": "",
+          "content": "A valuable enterprise tool for AI workflows.",
+          "is_shallow": false,
+          "path": "claude-api"
+        },
+        {
+          "id": "claude-code-cli",
+          "name": "Claude Code CLI",
+          "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
+          "category": "Coding",
+          "subcategory": "",
+          "tags": [
+            "CLI",
+            "Agent",
+            "Anthropic",
+            "AI"
+          ],
+          "url": "https://docs.anthropic.com",
+          "content": "",
+          "is_shallow": true,
+          "path": "claude-code-cli"
+        },
+        {
+          "id": "claude",
+          "name": "Claude",
+          "description": "Long-form content generation, editing, and nuanced written communication that matches voice and tone.",
+          "category": "Tools",
+          "subcategory": "",
+          "tags": [
+            "Tool",
+            "Workflow"
+          ],
+          "url": "",
+          "content": "**What it does:** Long-form\ncontent generation, editing,\nand nuanced written\ncommunication that matches\nvoice and tone.\nWorkflow it replaces: First-\ndraft creation and editing for\nlong-form content, reports,\nexecutive communications,\nstrategy memos, board\nupdates.\nBusiness outcome: First\ndrafts that previously took\nhours are produced in minutes.\nWriters and communicators\nshift from generating to editing\nand refining.\nBest for: Communications\nteams, legal, executive offices,\nany function producing long-\nform written output.",
+          "is_shallow": false,
+          "path": "claude"
+        }
+      ]
     },
     "video-and-motion": {
       "name": "Video & Motion",

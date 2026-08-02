@@ -120,6 +120,71 @@ def generate_category_page(category, cat_items):
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html)
 
+def generate_bundle_page(bundle_id, bundle_data):
+    filepath = os.path.join(SITE_DIR, f"bundle-{bundle_id}.html")
+    
+    cards_html = []
+    # Currently items might be empty, but loop through just in case
+    for item in bundle_data.get('items', []):
+        tags_str = ' '.join([f"#{t}" for t in item['tags'][:3]])
+        
+        if item['is_shallow']:
+            card = f"""
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">{item['category']}</span>
+                <button class="btn--ghost" data-bookmark-id="{item['id']}" data-title="{item['name']}" data-path="{item['path']}" data-category="{item['category']}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">{item['name']}</h3>
+                <p class="card__desc">{item['description']}</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">{item['description']}</p>
+                {f'<a href="{item["url"]}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>' if item.get('url') else ''}
+              </div>
+            </div>
+            """
+        else:
+            card = f"""
+            <a href="{item['id']}" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">{item.get('subcategory') or item['category']}</span>
+                <button class="btn--ghost" data-bookmark-id="{item['id']}" data-title="{item['name']}" data-path="{item['path']}" data-category="{item['category']}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">{item['name']}</h3>
+                <p class="card__desc">{item['description']}</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">{tags_str}</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            """
+        cards_html.append(card)
+
+    if not cards_html:
+        cards_html.append('<p style="grid-column: 1 / -1; text-align: center; font-family: var(--font-outlier); color: var(--color-muted);">No items in this bundle yet.</p>')
+
+    with open(os.path.join(SITE_DIR, '_templates', 'category.html'), 'r', encoding='utf-8') as tf:
+        template = tf.read()
+
+    bundle_name = bundle_data['name']
+    html = template.replace('{category}', bundle_name) \
+                   .replace('{category_upper}', bundle_name.upper()) \
+                   .replace('{item_count}', str(len(bundle_data.get('items', [])))) \
+                   .replace('{cards_html}', ''.join(cards_html))
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(html)
+
 def generate_deep_item_pages(items):
     for idx, item in enumerate(items):
         if item['is_shallow']:
@@ -138,11 +203,14 @@ def generate_deep_item_pages(items):
         with open(os.path.join(SITE_DIR, '_templates', 'deep-item.html'), 'r', encoding='utf-8') as tf:
             template = tf.read()
 
+        url_html = f'<div style="margin-top: var(--space-xl); text-align: center;"><a href="{item["url"]}" target="_blank" class="btn btn--secondary">Visit Resource ↗</a></div>' if item.get('url') else ''
+        
         html = template.replace('{item_name}', str(item['name'])) \
                        .replace('{category_upper}', str(item['category']).upper()) \
                        .replace('{item_desc}', str(item['description'])) \
                        .replace('{tags_html}', tags_html) \
                        .replace('{item_content}', str(item['content'] or item['description'])) \
+                       .replace('{item_url_html}', url_html) \
                        .replace('{prev_html}', prev_html) \
                        .replace('{next_html}', next_html)
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -222,6 +290,15 @@ def main():
         "developer-toolkit": {"name": "Developer Toolkit", "items": []},
         "no-code-automation": {"name": "No-Code Automation", "items": []}
     }
+    
+    mapping_path = os.path.join(SITE_DIR, 'bundle_mapping.json')
+    if os.path.exists(mapping_path):
+        with open(mapping_path, 'r', encoding='utf-8') as mf:
+            mapping = json.load(mf)
+            for item in items:
+                for bundle_id, mapped_ids in mapping.items():
+                    if item['id'] in mapped_ids and bundle_id in use_cases:
+                        use_cases[bundle_id]['items'].append(item)
 
     tag_counts = {}
     categories_dict = {}
@@ -242,6 +319,10 @@ def main():
 
     # Generate Deep Item HTML files
     generate_deep_item_pages(items)
+
+    # Generate Bundle HTML files
+    for bundle_id, bundle_data in use_cases.items():
+        generate_bundle_page(bundle_id, bundle_data)
 
     with open(DATA_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump({"items": items, "use_cases": use_cases, "tags": tag_counts}, f, indent=2)
