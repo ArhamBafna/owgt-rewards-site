@@ -31,7 +31,10 @@ class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
                 return
         super().do_GET()
 
+class ThreadingServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
+
 if __name__ == '__main__':
-    with socketserver.TCPServer(("", PORT), CleanURLHandler) as httpd:
+    with ThreadingServer(("", PORT), CleanURLHandler) as httpd:
         print(f"Serving HTTP on 0.0.0.0 port {PORT} (http://localhost:{PORT}/)...")
         httpd.serve_forever()
