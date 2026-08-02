@@ -18,6 +18,8 @@ class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
             return
             
         req_path = req_path.rstrip('/')
+        if req_path == '/home':
+            req_path = '/index'
         path = self.translate_path(req_path)
         if os.path.exists(path + '.html') and os.path.isfile(path + '.html'):
             self.path = req_path + '.html'
