@@ -24,9 +24,9 @@
     .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
     .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
     .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
-    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
-    .mast-nav li { display: inline-flex; align-items: center; }
-    .mast-nav li:not(:last-child) { border-right: 2px solid var(--color-ink); padding-right: var(--space-xl); margin-right: var(--space-xl); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 0; gap: var(--space-xl); }
+    .mast-nav li { display: inline-flex; align-items: center; gap: var(--space-xl); }
+    .mast-nav li:not(:last-child)::after { content: ""; display: inline-block; width: 2px; height: 1em; background-color: var(--color-ink); }
     .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
     .mast-nav a:hover { color: var(--color-accent); }
     .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
@@ -106,11 +106,11 @@
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
     <a href="/home" class="new-logo-link">
-      <img src="/owgt-rewards-logo.png" alt="OWGT Rewards Logo" class="new-header-logo">
+      <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
   </div>
-  <nav class="mast-nav new-header-nav" aria-label="Primary">
+  <nav class="new-header-nav" aria-label="Primary">
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
@@ -123,6 +123,18 @@
 </header>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   <main class="page-wrap">
     
     <!-- Hero Section (Landing Page Top) -->
@@ -132,7 +144,7 @@
         <ul>
           <li><a href="#categories">Browse</a></li>
           <li><a href="#spotlight">Spotlight</a></li>
-          <li><a href="#bundles">Use Cases</a></li>
+          <li><a href="#bundles">Bundles</a></li>
         </ul>
       </nav>
       <hr class="mast-rule double" style="margin-top: var(--space-xl);" aria-hidden="true">
