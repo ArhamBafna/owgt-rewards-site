@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSpotlight();
   initExpandableCards();
   highlightActiveNav();
+  if (typeof initFilterSystem === 'function') initFilterSystem();
 });
 
 /* ==========================================================================
@@ -73,6 +74,7 @@ function initSearchSystem() {
 
   triggerBtn.addEventListener('click', () => {
     const isCategoryPage = !!pageCategory;
+    if (globalHeader) globalHeader.classList.add('search-active');
     if (!isCategoryPage) {
       // Direct open Global "All Rewards" search on homepage/global pages
       currentScope = 'global';
@@ -81,7 +83,6 @@ function initSearchSystem() {
       scopeSelect.style.display = 'none';
       triggerBtn.style.display = 'none';
       inputWrapper.style.display = 'flex';
-      if (globalHeader) globalHeader.classList.add('search-active');
       searchInput.focus();
     } else {
       // Show scope options on category pages (e.g. Prompts, Tools, Guides, etc.)
@@ -314,31 +315,12 @@ function initSearchSystem() {
       });
       html += `</div>`;
     }
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
-                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                <p class="card__desc">${escapeHTML(item.description || '')}</p>
-                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
-              </div>
-              <div class="card__footer">
-                <span class="meta">${escapeHTML(tagsStr)}</span>
-                <span class="card__expand-arrow">→</span>
-              </div>
-            </a>
-          `;
-        }
-      });
-      html += `</div>`;
-    }
     html += `</div>`;
     
     mainContentArea.innerHTML = html;
     initBookmarks();
     initExpandableCards();
+    if (window.applyCurrentFilters) window.applyCurrentFilters();
   }
 }
 
@@ -575,7 +557,6 @@ function highlightActiveNav() {
     const href = link.getAttribute('href').replace(/^\//, '').replace(/\.html$/, '');
     if (href === path) {
       link.classList.add('active');
-      link.style.color = 'var(--color-accent)';
     }
   });
 }
@@ -606,3 +587,248 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+
+/* ==========================================================================
+   FILTER SYSTEM
+   ========================================================================== */
+function initFilterSystem() {
+  const mainContentArea = document.querySelector('main');
+  if (!mainContentArea) return;
+
+  let activeFilters = {
+    category: '',
+    subcategory: '',
+    tags: []
+  };
+  
+  const drawerHTML = `
+    <div class="filter-backdrop" id="filterBackdrop"></div>
+    <div class="filter-drawer" id="filterDrawer">
+      <div class="filter-drawer__header">
+        <h3>Filters</h3>
+        <button class="filter-drawer__close" id="closeFilterDrawer">✕</button>
+      </div>
+      <div class="filter-drawer__body">
+        <div class="filter-group" id="categoryFilterGroup" style="display:none;">
+          <label>Category</label>
+          <select class="filter-select" id="filterCategorySelect">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+        <div class="filter-group" id="subcategoryFilterGroup" style="display:none;">
+          <label>Subcategory</label>
+          <select class="filter-select" id="filterSubcategorySelect">
+            <option value="">All Subcategories</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Tags</label>
+          <div class="filter-tags-cloud" id="filterTagsCloud"></div>
+        </div>
+      </div>
+      <div class="filter-drawer__footer">
+        <button class="btn-reset-filters" id="resetFiltersBtn">Reset</button>
+        <button class="btn-apply-filters" id="applyFiltersBtn">Apply Filters</button>
+      </div>
+    </div>
+  `;
+  document.body.insertAdjacentHTML('beforeend', drawerHTML);
+
+  const filterBackdrop = document.getElementById('filterBackdrop');
+  const filterDrawer = document.getElementById('filterDrawer');
+  const closeFilterDrawer = document.getElementById('closeFilterDrawer');
+  const categoryFilterGroup = document.getElementById('categoryFilterGroup');
+  const filterCategorySelect = document.getElementById('filterCategorySelect');
+  const subcategoryFilterGroup = document.getElementById('subcategoryFilterGroup');
+  const filterSubcategorySelect = document.getElementById('filterSubcategorySelect');
+  const filterTagsCloud = document.getElementById('filterTagsCloud');
+  const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+  const applyFiltersBtn = document.getElementById('applyFiltersBtn');
+  
+  const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+  const parts = cleanPath.split('/').filter(Boolean);
+  const lastSegment = parts.length > 0 ? parts[parts.length - 1] : '';
+  const isHomePage = parts.length === 0 || lastSegment === 'home' || lastSegment === 'home.html' || lastSegment === 'index.html' || lastSegment === 'site';
+
+  const headerContent = document.querySelector('.header-content') || document.querySelector('header');
+  if (headerContent && !isHomePage) {
+    const triggerBtn = document.createElement('button');
+    triggerBtn.className = 'filter-trigger-btn';
+    triggerBtn.id = 'openFilterDrawerBtn';
+    triggerBtn.setAttribute('aria-label', 'Open Filters');
+    triggerBtn.innerHTML = `
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+      <span class="filter-badge" id="filterActiveBadge">0</span>
+    `;
+    const searchContainer = document.getElementById('headerSearchContainer');
+    if (searchContainer) {
+       searchContainer.parentNode.insertBefore(triggerBtn, searchContainer.nextSibling);
+    } else {
+       headerContent.appendChild(triggerBtn);
+    }
+    
+    triggerBtn.addEventListener('click', openDrawer);
+  }
+
+  let allItems = [];
+  fetch('/search-index.json').then(r => r.json()).then(data => {
+    allItems = data;
+    populateDrawer();
+  }).catch(err => console.error('Filter load error', err));
+
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  let catSlug = pathParts.length > 0 ? pathParts[0] : '';
+  if (catSlug === 'items' && pathParts.length > 1) {
+    catSlug = pathParts[1];
+  }
+  const catMap = {
+    'prompts': 'Prompts', 'tools': 'Tools', 'guides': 'Guides',
+    'resources': 'Resources', 'tags': 'Tags', 'bookmarks': 'Bookmarks',
+    'learning': 'Learning', 'cheatsheets': 'Cheat Sheets',
+    'templates': 'Templates', 'frameworks': 'Frameworks'
+  };
+  const pageCategory = catMap[catSlug] || '';
+  const isGlobal = !pageCategory;
+
+  function updateSubcategories() {
+    const currentCat = isGlobal ? activeFilters.category : pageCategory;
+    let pool = allItems;
+    if (currentCat) {
+      pool = allItems.filter(i => (i.category || '').toLowerCase() === currentCat.toLowerCase());
+    }
+    const subcats = [...new Set(pool.map(i => i.subcategory).filter(Boolean))].sort();
+
+    filterSubcategorySelect.innerHTML = '<option value="">All Subcategories</option>';
+    if (subcats.length > 0) {
+      subcats.forEach(s => {
+        filterSubcategorySelect.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`);
+      });
+      if (subcategoryFilterGroup) subcategoryFilterGroup.style.display = 'block';
+    } else {
+      if (subcategoryFilterGroup) subcategoryFilterGroup.style.display = 'none';
+      activeFilters.subcategory = '';
+    }
+  }
+
+  function populateDrawer() {
+    let itemsToProcess = allItems;
+    if (!isGlobal) {
+      itemsToProcess = allItems.filter(i => (i.category || '').toLowerCase() === pageCategory.toLowerCase());
+      categoryFilterGroup.style.display = 'none';
+    } else {
+      categoryFilterGroup.style.display = 'block';
+      filterCategorySelect.innerHTML = '<option value="">All Categories</option>';
+      const categories = [...new Set(allItems.map(i => i.category).filter(Boolean))].sort();
+      categories.forEach(c => {
+        filterCategorySelect.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`);
+      });
+    }
+
+    updateSubcategories();
+
+    const tags = new Set();
+    itemsToProcess.forEach(item => {
+      if (item.tags) item.tags.forEach(t => tags.add(t));
+    });
+    const sortedTags = [...tags].sort();
+    
+    filterTagsCloud.innerHTML = '';
+    sortedTags.forEach(tag => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-tag-pill';
+      btn.dataset.tag = tag;
+      btn.textContent = tag;
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('is-active');
+        const isActive = btn.classList.contains('is-active');
+        if (isActive) activeFilters.tags.push(tag);
+        else activeFilters.tags = activeFilters.tags.filter(t => t !== tag);
+      });
+      filterTagsCloud.appendChild(btn);
+    });
+  }
+
+  function openDrawer() {
+    filterBackdrop.classList.add('is-active');
+    filterDrawer.classList.add('is-open');
+  }
+
+  function closeDrawer() {
+    filterBackdrop.classList.remove('is-active');
+    filterDrawer.classList.remove('is-open');
+  }
+
+  closeFilterDrawer.addEventListener('click', closeDrawer);
+  filterBackdrop.addEventListener('click', closeDrawer);
+
+  filterCategorySelect.addEventListener('change', (e) => {
+    activeFilters.category = e.target.value;
+    activeFilters.subcategory = '';
+    updateSubcategories();
+  });
+  filterSubcategorySelect.addEventListener('change', (e) => activeFilters.subcategory = e.target.value);
+
+  resetFiltersBtn.addEventListener('click', () => {
+    activeFilters.category = '';
+    activeFilters.subcategory = '';
+    activeFilters.tags = [];
+    filterCategorySelect.value = '';
+    filterSubcategorySelect.value = '';
+    document.querySelectorAll('.filter-tag-pill').forEach(btn => btn.classList.remove('is-active'));
+    updateSubcategories();
+    applyFilters();
+  });
+
+  applyFiltersBtn.addEventListener('click', () => {
+    applyFilters();
+    closeDrawer();
+  });
+
+  function applyFilters() {
+    let count = activeFilters.tags.length;
+    if (activeFilters.category) count++;
+    if (activeFilters.subcategory) count++;
+    
+    const badge = document.getElementById('filterActiveBadge');
+    if (badge) {
+      badge.textContent = count;
+      if (count > 0) badge.classList.add('has-count');
+      else badge.classList.remove('has-count');
+    }
+
+    const evt = new CustomEvent('owgtFiltersApplied', { detail: activeFilters });
+    document.dispatchEvent(evt);
+    
+    filterPageCards();
+  }
+
+  window.applyCurrentFilters = filterPageCards;
+  function filterPageCards() {
+    const cards = document.querySelectorAll('.card-grid .card');
+    if (!cards.length) return;
+    
+    cards.forEach(card => {
+       const headerTag = card.querySelector('.tag');
+       const metaTags = card.querySelector('.meta');
+       
+       const cardSubcat = headerTag ? headerTag.textContent.trim().toLowerCase() : '';
+       const cardTagsStr = metaTags ? metaTags.textContent.toLowerCase() : '';
+       
+       let show = true;
+       if (activeFilters.subcategory && cardSubcat !== activeFilters.subcategory.toLowerCase()) {
+         show = false;
+       }
+       if (show && activeFilters.tags.length > 0) {
+          const hasAllTags = activeFilters.tags.every(tag => cardTagsStr.includes('#' + tag.toLowerCase()));
+          if (!hasAllTags) show = false;
+       }
+       
+       if (show) {
+         card.style.display = 'flex';
+       } else {
+         card.style.display = 'none';
+       }
+    });
+  }
+}
