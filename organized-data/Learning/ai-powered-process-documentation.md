@@ -19,5 +19,5 @@ Tool to start: Claude. The Executive Prompt Library Prompt #47
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

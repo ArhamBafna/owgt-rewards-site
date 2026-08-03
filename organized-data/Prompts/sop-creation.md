@@ -13,6 +13,6 @@ Turn this brain dump into a numbered SOP for someone who has never done this tas
 Prompts
 
 ### Tags
-- Business Ops
+- Business
 - Prompt
 - Sop

@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-03)
 
 ## Corpus Check
-- 383 files · ~428,017 words
+- 385 files · ~489,366 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2646 nodes · 2607 edges · 399 communities (386 shown, 13 thin omitted)
+- 2650 nodes · 2610 edges · 401 communities (387 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `04b761b9`
+- Built from commit: `d1ba6f4a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -402,6 +402,7 @@
 - [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
+- [[_COMMUNITY_Community 400|Community 400]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -421,7 +422,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (399 total, 13 thin omitted)
+## Communities (401 total, 14 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1922,7 +1923,7 @@ Nodes (3): Guide Rules, GUIDES, Missing Information
 ## Knowledge Gaps
 - **2132 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2127 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

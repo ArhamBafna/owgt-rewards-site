@@ -35,5 +35,5 @@ simultaneously.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

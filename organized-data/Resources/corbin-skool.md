@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Community
 - Skool
-- Business AI
+- Business

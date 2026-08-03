@@ -11,6 +11,6 @@ https://github.com/linehk/system-prompts
 Resources
 
 ### Tags
-- System Prompts
+- Prompt
 - Agent
 - Collection

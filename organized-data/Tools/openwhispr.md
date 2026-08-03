@@ -13,4 +13,4 @@ Tools
 ### Tags
 - Open Source
 - Speech to Text
-- Dictation
+- Speech to Text

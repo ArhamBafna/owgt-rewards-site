@@ -11,5 +11,5 @@ https://whataicandotoday.com/
 Resources
 
 ### Tags
-- AI Capabilities
+- AI
 - Directory

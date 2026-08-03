@@ -33,5 +33,5 @@ global payment requirements.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

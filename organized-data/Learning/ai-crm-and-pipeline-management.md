@@ -31,5 +31,5 @@ professionals who cannot work alongside these tools are at a disadvantage
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

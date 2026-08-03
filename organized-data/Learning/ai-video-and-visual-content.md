@@ -23,5 +23,5 @@ Tool to start: Gemini for image generation. Gamma for Al presentations.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

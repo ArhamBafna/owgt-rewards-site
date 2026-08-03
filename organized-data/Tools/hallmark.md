@@ -13,4 +13,4 @@ Tools
 ### Tags
 - Design
 - AI
-- Skill
+- Skills

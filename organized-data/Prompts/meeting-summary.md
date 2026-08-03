@@ -13,6 +13,6 @@ Summarize this meeting transcript into: key decisions, action items (with owners
 Prompts
 
 ### Tags
-- Business Ops
+- Business
 - Prompt
 - Meeting

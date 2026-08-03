@@ -86,5 +86,5 @@ Learning
 
 ### Tags
 - ChatGPT
-- Prompting
+- Prompt
 - Workflow

@@ -25,5 +25,5 @@ ACROSSEVERY CATEGORY
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

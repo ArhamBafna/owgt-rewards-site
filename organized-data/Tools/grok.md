@@ -35,5 +35,5 @@ Anthropic
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

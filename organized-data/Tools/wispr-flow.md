@@ -11,7 +11,7 @@ https://wisprflow.ai
 Tools
 
 ### Tags
-- Dictation
-- Voice
+- Speech to Text
+- Speech to Text
 - AI
-- Tool
+- AI Tools

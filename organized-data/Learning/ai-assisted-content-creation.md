@@ -20,5 +20,5 @@ Jasper for marketing-specific output with brand voice controls.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

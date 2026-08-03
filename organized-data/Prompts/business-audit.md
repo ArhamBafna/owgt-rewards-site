@@ -13,6 +13,6 @@ I run a [describe business]. Help me identify my biggest time wasters and where 
 Prompts
 
 ### Tags
-- Thinking & Strategy
+- Strategy
 - Prompt
 - Business

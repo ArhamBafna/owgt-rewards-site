@@ -34,5 +34,5 @@ volume outbound prospecting.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

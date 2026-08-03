@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Prompt
 - Image Generation
-- Video Generation
+- Video

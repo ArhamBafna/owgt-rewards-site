@@ -21,5 +21,5 @@ from 50 to 220 employees with 2+ hours saved per recruiter per week.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

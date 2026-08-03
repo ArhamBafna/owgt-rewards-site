@@ -33,5 +33,5 @@ and compliance functions.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

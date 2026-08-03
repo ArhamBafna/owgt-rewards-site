@@ -12,6 +12,6 @@ Tools
 
 ### Tags
 - UI
-- Tailwind
+- Tailwind CSS
 - React
 - Components

@@ -22,5 +22,5 @@ drafting. The Executive Prompt Library for structured outreach prompts.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

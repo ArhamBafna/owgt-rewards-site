@@ -13,4 +13,4 @@ Tools
 ### Tags
 - Design
 - Anthropic
-- Skill
+- Skills

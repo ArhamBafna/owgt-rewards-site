@@ -15,7 +15,7 @@ Tool to start: Perplexity. Start with a specific research question in your marke
 Learning
 
 ### Tags
-- AI Skills
+- AI
 - Market Research
 - Strategy
 - Perplexity

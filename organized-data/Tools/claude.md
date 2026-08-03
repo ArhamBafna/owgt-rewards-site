@@ -32,5 +32,5 @@ form written output.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

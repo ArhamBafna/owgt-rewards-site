@@ -12,5 +12,5 @@ Tools
 
 ### Tags
 - AI
-- Images
+- Image Generation
 - Generation

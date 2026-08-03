@@ -14,6 +14,6 @@ Tool to start: This guide. Use it as a framework for your next evaluation decisi
 Learning
 
 ### Tags
-- AI Skills
+- AI
 - Tool Evaluation
 - Procurement

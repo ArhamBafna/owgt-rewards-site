@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Marketing
 - AI
-- Toolkit
+- Toolkits

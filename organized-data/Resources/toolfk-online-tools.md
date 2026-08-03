@@ -11,5 +11,5 @@ https://www.toolfk.com/
 Resources
 
 ### Tags
-- Tool
+- AI Tools
 - Directory

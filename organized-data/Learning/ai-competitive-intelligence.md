@@ -29,5 +29,5 @@ to improve pipeline, reduce rep workload, and improve forecast accuracy
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

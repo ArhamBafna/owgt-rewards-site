@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - GitHub
-- Student
+- Students
 - Developer Tools

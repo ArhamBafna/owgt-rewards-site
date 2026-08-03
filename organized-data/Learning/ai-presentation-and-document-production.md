@@ -41,5 +41,5 @@ market and evaluate the output for source quality.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

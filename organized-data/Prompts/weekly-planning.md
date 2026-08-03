@@ -13,6 +13,6 @@ Based on these goals: [list goals], help me plan my top 3 priorities for this we
 Prompts
 
 ### Tags
-- Thinking & Strategy
+- Strategy
 - Prompt
 - Weekly

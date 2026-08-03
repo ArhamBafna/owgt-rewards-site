@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - Education
-- AI Literacy
+- AI
 - Activities

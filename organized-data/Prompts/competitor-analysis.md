@@ -13,6 +13,6 @@ Analyze the positioning of [competitor/brand]. What do they do well? What are ga
 Prompts
 
 ### Tags
-- Thinking & Strategy
+- Strategy
 - Prompt
 - Competitor

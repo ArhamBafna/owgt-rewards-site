@@ -63,4 +63,4 @@ Learning
 - Workflow
 - Strategy
 - Best Practices
-- Models
+- AI Models

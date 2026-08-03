@@ -13,4 +13,4 @@ Learning
 ### Tags
 - LLM
 - Knowledge Base
-- Tutorial
+- Guide

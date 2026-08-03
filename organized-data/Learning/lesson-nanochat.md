@@ -14,4 +14,4 @@ Learning
 - Architecture
 - GPT
 - Training
-- Code
+- Coding

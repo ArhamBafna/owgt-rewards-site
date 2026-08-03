@@ -13,4 +13,4 @@ Learning
 ### Tags
 - Email Marketing
 - Course
-- Hiring
+- Recruiting

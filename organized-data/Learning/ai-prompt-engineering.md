@@ -21,5 +21,5 @@ your own.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

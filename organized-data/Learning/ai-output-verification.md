@@ -35,5 +35,5 @@ just describe them.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

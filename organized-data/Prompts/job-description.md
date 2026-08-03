@@ -13,6 +13,6 @@ Write a job description for a [role] at my business. Company: [describe]. Respon
 Prompts
 
 ### Tags
-- Business Ops
+- Business
 - Prompt
 - Job

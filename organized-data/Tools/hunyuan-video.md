@@ -11,6 +11,6 @@ Link: https://www.hunyuanvideo.org/
 Tools
 
 ### Tags
-- Video Generation
+- Video
 - Free
 - AI Tools

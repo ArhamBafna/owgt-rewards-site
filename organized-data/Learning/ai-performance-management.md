@@ -21,5 +21,5 @@ from the Executive Prompt Library.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

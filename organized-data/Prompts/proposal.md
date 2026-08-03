@@ -13,6 +13,6 @@ Write a sales proposal. Client: [name/company]. Problem: [describe]. Solution: [
 Prompts
 
 ### Tags
-- Business Ops
+- Business
 - Prompt
 - Proposal

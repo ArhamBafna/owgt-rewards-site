@@ -11,6 +11,6 @@ https://github.com/dair-ai/Prompt-Engineering-Guide
 Learning
 
 ### Tags
-- Prompting
+- Prompt
 - Best Practices
 - LLM

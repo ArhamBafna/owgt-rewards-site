@@ -13,6 +13,6 @@ I want to [describe idea/project]. What are the 5 biggest risks? What would need
 Prompts
 
 ### Tags
-- Thinking & Strategy
+- Strategy
 - Prompt
-- Idea
+- Ideas

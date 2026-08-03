@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Marketing
 - Prompt
-- Week
+- Weekly

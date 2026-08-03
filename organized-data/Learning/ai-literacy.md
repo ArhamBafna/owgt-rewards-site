@@ -23,5 +23,5 @@ day with an Al-assisted version.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

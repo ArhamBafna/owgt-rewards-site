@@ -12,5 +12,5 @@ Tools
 
 ### Tags
 - Speech to Text
-- Dictation
+- Speech to Text
 - AI Tools

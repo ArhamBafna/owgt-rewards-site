@@ -8,7 +8,7 @@
       "subcategory": "",
       "tags": [
         "ChatGPT",
-        "Prompting",
+        "Prompt",
         "Workflow"
       ],
       "url": "",
@@ -204,7 +204,7 @@
       "tags": [
         "LLM",
         "Knowledge Base",
-        "Tutorial"
+        "Guide"
       ],
       "url": "https://bholmes.dev/blog/llm-knowledge-bases/",
       "content": "",
@@ -299,7 +299,7 @@
       "subcategory": "",
       "tags": [
         "Career",
-        "Software Engineering",
+        "Coding",
         "Job Search"
       ],
       "url": "",
@@ -363,7 +363,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Prompting",
+        "Prompt",
         "Best Practices",
         "LLM"
       ],
@@ -463,7 +463,7 @@
         "Workflow",
         "Strategy",
         "Best Practices",
-        "Models"
+        "AI Models"
       ],
       "url": "",
       "content": "When working with AI, you are essentially choosing which person to call and how long to let them think. Every company stacks their models the same three ways:\n\n#### The Three Personas of AI Models\n1. **The Staff (e.g., Claude Sonnet, ChatGPT Luna)**: Fast, cheap, and good at almost everything that fills a normal day. Start here, and you will be right most of the time. (Cost: ~2 coins)\n2. **The Manager (e.g., Claude Opus, ChatGPT Terra)**: You go to this one when the work actually matters. A serious document, a harder problem, a plan you are going to build on top of. (Cost: ~5 coins)\n3. **The Consultant (e.g., Claude Fable, ChatGPT Sol)**: Brilliant, expensive, and slow. You bring this one in for the hard part, and then you let them go. (Cost: ~10 coins)\n\n**Rule of Thumb**: Can the staff do it? Yes. Is it worth paying the consultant? Probably not.\n\n#### The Effort Dial (Thinking Time)\nEvery model has a dial controlling how long it thinks before answering.\n- **LOW**: Simple work in volume. Fast and cheap.\n- **MEDIUM**: The everyday setting. Good results without the wait.\n- **HIGH**: Real thinking. Hard problems and the final check.\n- **MAX**: The one decision everything else hangs on.\n\n*Note*: Pushing the dial all the way up for ordinary work causes the AI to overthink. Start lower than feels right and climb only when the answer disappoints you. The dial controls thinking, not talking.\n\n#### Workflows by Task Type\n\n- **Errands (Web searches, lookups, quick edits, summaries)**\n  - *Who*: Staff\n  - *Setting*: LOW\n  - *Why*: The expensive model and the cheap one bring back the same answer, but the cheap one is faster. \n- **Writing (Copy and Emails)**\n  - *Who*: Manager decides, Staff drafts\n  - *Setting*: MEDIUM\n  - *Why*: A piece is settled before the first sentence is written. Plan with the manager, let the staff type.\n- **Documents & PDFs**\n  - *Who*: Manager plans, Staff builds\n  - *Setting*: MEDIUM, THEN LOW\n- **Deep Research**\n  - *Who*: Manager\n  - *Setting*: LOW TO MEDIUM\n  - *Why*: Research runs on finding good sources, not overthinking them.\n- **Slide Decks**\n  - *Who*: Staff builds, Consultant polishes\n  - *Setting*: MEDIUM, THEN HIGH\n- **Spreadsheets**\n  - *Who*: Staff (one sheet) or Consultant (many sheets)\n  - *Setting*: MEDIUM or HIGH\n- **Websites and Apps**\n  - *Who*: Consultant plans, Staff builds\n  - *Setting*: HIGH, THEN LOW\n\n#### The Paragraph That Pays For Itself\nThe smartest models are incredibly wordy. You pay for every word. Use this standing order (as a Custom Instruction, Skill, or Text Expander snippet) to cut costs and save time:\n\n> Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.",
@@ -493,7 +493,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -508,7 +508,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -523,7 +523,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -538,7 +538,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -553,7 +553,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -568,7 +568,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -583,7 +583,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -598,7 +598,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -613,7 +613,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -628,7 +628,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -643,7 +643,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -658,7 +658,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "AI Skills",
+        "AI",
         "Market Research",
         "Strategy",
         "Perplexity"
@@ -675,7 +675,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -690,7 +690,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -705,7 +705,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -720,7 +720,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -735,7 +735,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "AI Skills",
+        "AI",
         "Tool Evaluation",
         "Procurement"
       ],
@@ -751,7 +751,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -766,7 +766,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Skill",
+        "learn skill",
         "Career"
       ],
       "url": "",
@@ -816,7 +816,7 @@
       "tags": [
         "Email Marketing",
         "Course",
-        "Hiring"
+        "Recruiting"
       ],
       "url": "https://maven.com/p/9763a4/how-to-hire-an-ai-email-marketer",
       "content": "",
@@ -867,7 +867,7 @@
         "Architecture",
         "GPT",
         "Training",
-        "Code"
+        "Coding"
       ],
       "url": "https://github.com/karpathy/nanochat",
       "content": "",
@@ -1151,7 +1151,7 @@
       "category": "Prompts",
       "subcategory": "Analysis & Research",
       "tags": [
-        "Thinking & Strategy",
+        "Strategy",
         "Prompt",
         "Business"
       ],
@@ -1276,7 +1276,7 @@
       "category": "Prompts",
       "subcategory": "Analysis & Research",
       "tags": [
-        "Thinking & Strategy",
+        "Strategy",
         "Prompt",
         "Competitor"
       ],
@@ -1294,7 +1294,7 @@
       "tags": [
         "Marketing",
         "Prompt",
-        "Content"
+        "Content Generation"
       ],
       "url": "",
       "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
@@ -2037,9 +2037,9 @@
       "category": "Prompts",
       "subcategory": "AI & Technical",
       "tags": [
-        "Thinking & Strategy",
+        "Strategy",
         "Prompt",
-        "Idea"
+        "Ideas"
       ],
       "url": "",
       "content": "```text\nI want to [describe idea/project]. What are the 5 biggest risks? What would need to be true for this to succeed? What should I test first?\n```",
@@ -2173,7 +2173,7 @@
       "category": "Prompts",
       "subcategory": "Business Operations",
       "tags": [
-        "Business Ops",
+        "Business",
         "Prompt",
         "Job"
       ],
@@ -2250,7 +2250,7 @@
       "category": "Prompts",
       "subcategory": "Writing & Communication",
       "tags": [
-        "Business Ops",
+        "Business",
         "Prompt",
         "Meeting"
       ],
@@ -2297,7 +2297,7 @@
       "category": "Prompts",
       "subcategory": "AI & Technical",
       "tags": [
-        "Thinking & Strategy",
+        "Strategy",
         "Prompt",
         "Offer"
       ],
@@ -2539,7 +2539,7 @@
       "category": "Prompts",
       "subcategory": "Sales & Outreach",
       "tags": [
-        "Business Ops",
+        "Business",
         "Prompt",
         "Proposal"
       ],
@@ -2721,7 +2721,7 @@
       "category": "Prompts",
       "subcategory": "Business Operations",
       "tags": [
-        "Business Ops",
+        "Business",
         "Prompt",
         "Sop"
       ],
@@ -2905,7 +2905,7 @@
       "tags": [
         "Marketing",
         "Prompt",
-        "Week"
+        "Weekly"
       ],
       "url": "",
       "content": "```text\nWrite 5 social media captions for [platform] about [topic]. Audience: [describe]. Types needed: value post, story post, hot take, social proof, engagement. Tone: [your tone]. Max 200 words each.\n```",
@@ -2919,7 +2919,7 @@
       "category": "Prompts",
       "subcategory": "AI & Technical",
       "tags": [
-        "Thinking & Strategy",
+        "Strategy",
         "Prompt",
         "Weekly"
       ],
@@ -3160,7 +3160,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Directory"
       ],
       "url": "https://10015.io/",
@@ -3223,7 +3223,7 @@
       "tags": [
         "AI",
         "Directory",
-        "Tool"
+        "AI Tools"
       ],
       "url": "https://www.theaireport.ai/tools",
       "content": "",
@@ -3369,7 +3369,7 @@
       "tags": [
         "Prompt",
         "Image Generation",
-        "Video Generation"
+        "Video"
       ],
       "url": "https://www.bananaprompts.xyz/",
       "content": "",
@@ -3464,7 +3464,7 @@
       "tags": [
         "Community",
         "Skool",
-        "Business AI"
+        "Business"
       ],
       "url": "https://www.skool.com/ai-for-your-business",
       "content": "",
@@ -3559,7 +3559,7 @@
       "subcategory": "",
       "tags": [
         "Google Cloud",
-        "Free Tier",
+        "Free",
         "Hosting"
       ],
       "url": "https://cloud.google.com/free",
@@ -3591,7 +3591,7 @@
       "subcategory": "",
       "tags": [
         "GitHub",
-        "Student",
+        "Students",
         "Developer Tools"
       ],
       "url": "https://education.github.com/pack",
@@ -3607,7 +3607,7 @@
       "subcategory": "",
       "tags": [
         "Education",
-        "AI Literacy",
+        "AI",
         "Activities"
       ],
       "url": "https://csforall.org/en-US/activities/hour-of-ai",
@@ -3877,7 +3877,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "System Prompts",
+        "Prompt",
         "Agent",
         "Collection"
       ],
@@ -3909,7 +3909,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Directory"
       ],
       "url": "https://www.toolfk.com/",
@@ -3956,7 +3956,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "AI Capabilities",
+        "AI",
         "Directory"
       ],
       "url": "https://whataicandotoday.com/",
@@ -3973,7 +3973,7 @@
       "tags": [
         "Marketing",
         "AI",
-        "Toolkit"
+        "Toolkits"
       ],
       "url": "https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit",
       "content": "",
@@ -4052,7 +4052,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4114,7 +4114,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4176,7 +4176,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4273,7 +4273,7 @@
       "subcategory": "",
       "tags": [
         "Speech to Text",
-        "Dictation",
+        "Speech to Text",
         "AI Tools"
       ],
       "url": "",
@@ -4306,7 +4306,7 @@
       "tags": [
         "AI Tools",
         "Recruiting",
-        "Talent Intelligence"
+        "Recruiting"
       ],
       "url": "",
       "content": "Workflow it replaces: Manual candidate matching and sourcing.\nBusiness outcome: Time-to-shortlist decreases. Internal mobility opportunities surface.\nBest for: Enterprise organisations with large existing talent databases and complex role requirements.",
@@ -4337,7 +4337,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4430,7 +4430,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4462,7 +4462,7 @@
       "tags": [
         "Design",
         "AI",
-        "Skill"
+        "Skills"
       ],
       "url": "https://www.usehallmark.com/",
       "content": "",
@@ -4540,7 +4540,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4555,7 +4555,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4570,7 +4570,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Video Generation",
+        "Video",
         "Free",
         "AI Tools"
       ],
@@ -4587,7 +4587,7 @@
       "subcategory": "",
       "tags": [
         "AI",
-        "Images",
+        "Image Generation",
         "Generation"
       ],
       "url": "https://ideogram.ai/models/4.0/",
@@ -4619,7 +4619,7 @@
       "tags": [
         "Design",
         "Anthropic",
-        "Skill"
+        "Skills"
       ],
       "url": "https://impeccable.style/",
       "content": "",
@@ -4633,7 +4633,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4680,7 +4680,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4743,7 +4743,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4870,7 +4870,7 @@
       "tags": [
         "Open Source",
         "Speech to Text",
-        "Dictation"
+        "Speech to Text"
       ],
       "url": "",
       "content": "Link: https://openwhispr.com/",
@@ -4901,7 +4901,7 @@
       "tags": [
         "AI Tools",
         "Recruiting",
-        "Candidate Coordination"
+        "Recruiting"
       ],
       "url": "",
       "content": "Workflow it replaces: High-volume recruiting coordination.\nBusiness outcome: Recruiting coordination that required a dedicated team member runs automatically.\nBest for: Retail, hospitality, and high-volume hiring environments.",
@@ -4930,7 +4930,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -4977,7 +4977,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -5025,7 +5025,7 @@
       "subcategory": "",
       "tags": [
         "UI",
-        "Tailwind",
+        "Tailwind CSS",
         "React",
         "Components"
       ],
@@ -5073,7 +5073,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -5121,7 +5121,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -5137,7 +5137,7 @@
       "subcategory": "",
       "tags": [
         "Speech to Text",
-        "Dictation",
+        "Speech to Text",
         "AI Tools"
       ],
       "url": "",
@@ -5169,10 +5169,10 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Dictation",
-        "Voice",
+        "Speech to Text",
+        "Speech to Text",
         "AI",
-        "Tool"
+        "AI Tools"
       ],
       "url": "https://wisprflow.ai",
       "content": "",
@@ -5186,7 +5186,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -5280,7 +5280,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Tool",
+        "AI Tools",
         "Workflow"
       ],
       "url": "",
@@ -5316,7 +5316,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -5349,7 +5349,7 @@
           "tags": [
             "Email Marketing",
             "Course",
-            "Hiring"
+            "Recruiting"
           ],
           "url": "https://maven.com/p/9763a4/how-to-hire-an-ai-email-marketer",
           "content": "",
@@ -5477,7 +5477,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -5492,7 +5492,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -5525,7 +5525,7 @@
           "tags": [
             "Marketing",
             "Prompt",
-            "Content"
+            "Content Generation"
           ],
           "url": "",
           "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
@@ -5803,7 +5803,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "AI Skills",
+            "AI",
             "Market Research",
             "Strategy",
             "Perplexity"
@@ -5918,7 +5918,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -6036,7 +6036,7 @@
           "subcategory": "",
           "tags": [
             "ChatGPT",
-            "Prompting",
+            "Prompt",
             "Workflow"
           ],
           "url": "",
@@ -6083,7 +6083,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Prompting",
+            "Prompt",
             "Best Practices",
             "LLM"
           ],
@@ -6099,7 +6099,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -6149,7 +6149,7 @@
           "tags": [
             "Prompt",
             "Image Generation",
-            "Video Generation"
+            "Video"
           ],
           "url": "https://www.bananaprompts.xyz/",
           "content": "",
@@ -6212,7 +6212,7 @@
           "category": "Resources",
           "subcategory": "",
           "tags": [
-            "System Prompts",
+            "Prompt",
             "Agent",
             "Collection"
           ],
@@ -6244,7 +6244,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Tool",
+            "AI Tools",
             "Workflow"
           ],
           "url": "",
@@ -6306,7 +6306,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Tool",
+            "AI Tools",
             "Workflow"
           ],
           "url": "",
@@ -6358,7 +6358,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -6437,7 +6437,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Video Generation",
+            "Video",
             "Free",
             "AI Tools"
           ],
@@ -6491,7 +6491,7 @@
           "subcategory": "",
           "tags": [
             "Career",
-            "Software Engineering",
+            "Coding",
             "Job Search"
           ],
           "url": "",
@@ -6506,7 +6506,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -6521,7 +6521,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -6581,7 +6581,7 @@
           "category": "Prompts",
           "subcategory": "Business Operations",
           "tags": [
-            "Business Ops",
+            "Business",
             "Prompt",
             "Job"
           ],
@@ -6614,7 +6614,7 @@
           "tags": [
             "AI Tools",
             "Recruiting",
-            "Talent Intelligence"
+            "Recruiting"
           ],
           "url": "",
           "content": "Workflow it replaces: Manual candidate matching and sourcing.\nBusiness outcome: Time-to-shortlist decreases. Internal mobility opportunities surface.\nBest for: Enterprise organisations with large existing talent databases and complex role requirements.",
@@ -6646,7 +6646,7 @@
           "tags": [
             "AI Tools",
             "Recruiting",
-            "Candidate Coordination"
+            "Recruiting"
           ],
           "url": "",
           "content": "Workflow it replaces: High-volume recruiting coordination.\nBusiness outcome: Recruiting coordination that required a dedicated team member runs automatically.\nBest for: Retail, hospitality, and high-volume hiring environments.",
@@ -6660,7 +6660,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Tool",
+            "AI Tools",
             "Workflow"
           ],
           "url": "",
@@ -6715,7 +6715,7 @@
           "tags": [
             "Marketing",
             "Prompt",
-            "Content"
+            "Content Generation"
           ],
           "url": "",
           "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
@@ -6811,7 +6811,7 @@
           "tags": [
             "Marketing",
             "AI",
-            "Toolkit"
+            "Toolkits"
           ],
           "url": "https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit",
           "content": "",
@@ -6857,7 +6857,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Tool",
+            "AI Tools",
             "Workflow"
           ],
           "url": "",
@@ -6888,7 +6888,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Tool",
+            "AI Tools",
             "Workflow"
           ],
           "url": "",
@@ -7142,7 +7142,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Skill",
+            "learn skill",
             "Career"
           ],
           "url": "",
@@ -7284,25 +7284,24 @@
   },
   "tags": {
     "ChatGPT": 3,
-    "Prompting": 2,
+    "Prompt": 159,
     "Workflow": 74,
     "Mobile": 1,
     "App": 2,
     "Growth": 2,
     "Marketing": 13,
-    "Prompt": 156,
     "CLI": 5,
     "Automation": 6,
     "Knowledge Base": 2,
     "LLM": 6,
     "Frontend": 2,
-    "AI": 19,
+    "AI": 23,
     "Design": 11,
     "Attention": 1,
-    "Guide": 10,
+    "Guide": 11,
     "Claude": 79,
-    "Skills": 7,
-    "Business": 8,
+    "Skills": 9,
+    "Business": 13,
     "Agent": 13,
     "Entrepreneurship": 1,
     "Skool": 9,
@@ -7311,14 +7310,13 @@
     "GoHighLevel": 1,
     "Agency": 1,
     "Sales": 6,
-    "Tutorial": 1,
-    "AI Models": 2,
+    "AI Models": 3,
     "Make": 1,
     "App Development": 1,
     "Software": 1,
     "Email": 4,
     "Career": 18,
-    "Software Engineering": 1,
+    "Coding": 3,
     "Job Search": 1,
     "Product Ideas": 1,
     "Playbook": 2,
@@ -7330,13 +7328,11 @@
     "MVP": 1,
     "Research": 3,
     "Perplexity": 2,
-    "Strategy": 2,
-    "Models": 1,
+    "Strategy": 7,
     "Zapier": 2,
     "SDK": 1,
     "Developer Docs": 1,
-    "Skill": 19,
-    "AI Skills": 2,
+    "learn skill": 17,
     "Market Research": 1,
     "Tool Evaluation": 1,
     "Procurement": 1,
@@ -7346,7 +7342,7 @@
     "Cold": 3,
     "Writing": 2,
     "Email Marketing": 1,
-    "Hiring": 1,
+    "Recruiting": 6,
     "RAG": 2,
     "Q&A": 1,
     "ML": 1,
@@ -7355,21 +7351,18 @@
     "Architecture": 1,
     "GPT": 1,
     "Training": 1,
-    "Code": 1,
-    "Thinking & Strategy": 5,
-    "Video": 3,
+    "Video": 5,
     "Real Estate": 1,
     "Communication": 6,
     "Client": 1,
     "Competitor": 1,
-    "Content": 1,
+    "Content Generation": 2,
     "Leadership": 1,
     "Follow-Up": 2,
     "Hashtag": 1,
     "UGC": 1,
     "Hook": 1,
-    "Idea": 1,
-    "Business Ops": 4,
+    "Ideas": 3,
     "Job": 1,
     "Meeting": 2,
     "Objection": 1,
@@ -7378,18 +7371,14 @@
     "Proposal": 1,
     "Repurposing": 1,
     "Sop": 1,
-    "Week": 1,
-    "Weekly": 1,
-    "Tool": 20,
+    "Weekly": 2,
+    "AI Tools": 54,
     "Directory": 5,
     "UI": 13,
     "Hackathons": 1,
     "Events": 1,
     "AI Research": 1,
     "Quests": 1,
-    "AI Tools": 34,
-    "Ideas": 2,
-    "Coding": 1,
     "Projects": 1,
     "Collection": 3,
     "Roleplay": 1,
@@ -7401,14 +7390,12 @@
     "Servers": 2,
     "Figma": 1,
     "Backgrounds": 1,
-    "Image Generation": 2,
-    "Video Generation": 2,
+    "Image Generation": 3,
     "Components": 4,
     "Anthropic": 3,
     "Google Drive": 1,
     "Cloudflare": 1,
     "Infrastructure": 1,
-    "Business AI": 1,
     "UI Sounds": 1,
     "Web Audio": 1,
     "Interactions": 1,
@@ -7417,23 +7404,20 @@
     "Design Engineering": 1,
     "Newsletter": 2,
     "Google Cloud": 1,
-    "Free Tier": 1,
+    "Free": 4,
     "Hosting": 2,
-    "Student": 1,
+    "Students": 3,
     "Developer Tools": 1,
     "Education": 3,
-    "AI Literacy": 1,
     "Activities": 1,
     "React": 6,
     "Framer Motion": 1,
-    "Tailwind CSS": 1,
+    "Tailwind CSS": 2,
     "Resources": 1,
     "Web": 1,
     "UI Inspiration": 2,
-    "Free": 3,
     "DEV Community": 1,
     "Domains": 2,
-    "Students": 2,
     "Studio": 1,
     "Official": 1,
     "GitHub Gist": 1,
@@ -7444,13 +7428,11 @@
     "Y Combinator": 1,
     "Startups": 4,
     "Success Stories": 1,
-    "System Prompts": 1,
     "Revenue": 1,
     "Database": 1,
     "Animation": 6,
     "Open Source": 5,
-    "AI Capabilities": 1,
-    "Toolkit": 1,
+    "Toolkits": 2,
     "Customer Support": 2,
     "Multi-Channel": 1,
     "JavaScript": 2,
@@ -7461,17 +7443,13 @@
     "API": 3,
     "Chat Interface": 1,
     "Fast": 1,
-    "Toolkits": 1,
     "Integration": 1,
     "Scientific Literature": 1,
     "Git": 1,
     "Copywriting": 1,
-    "Speech to Text": 3,
-    "Dictation": 4,
+    "Speech to Text": 8,
     "Conversational Marketing": 1,
     "Sales Qualification": 1,
-    "Recruiting": 3,
-    "Talent Intelligence": 1,
     "Scraping": 1,
     "Data": 1,
     "Focus": 1,
@@ -7481,10 +7459,8 @@
     "Google Labs": 1,
     "shadcn": 1,
     "Video Interview": 1,
-    "Images": 1,
     "Generation": 1,
     "Web3": 1,
-    "Content Generation": 1,
     "Local": 2,
     "Complex Logic": 1,
     "Internal Knowledge": 1,
@@ -7492,19 +7468,16 @@
     "Experiment": 1,
     "OpenAI": 1,
     "OAuth": 1,
-    "Candidate Coordination": 1,
     "LaTeX": 1,
     "Editor": 2,
     "Interactive": 1,
     "Graphics": 1,
     "RSS": 1,
     "Relay.app": 1,
-    "Tailwind": 1,
     "Live Chat": 1,
     "ByteDance": 1,
     "Uncensored": 1,
     "Codeium": 1,
-    "Voice": 1,
     "Creative": 1,
     "Photorealistic": 1,
     "No-Code": 1

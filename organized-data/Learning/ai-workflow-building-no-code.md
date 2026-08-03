@@ -20,5 +20,5 @@ than five times per week.
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

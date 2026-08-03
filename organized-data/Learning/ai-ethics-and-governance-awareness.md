@@ -32,5 +32,5 @@ to your current role. Build them. Document what changes. That is your competitiv
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

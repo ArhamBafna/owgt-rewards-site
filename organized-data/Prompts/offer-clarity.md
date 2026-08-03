@@ -13,6 +13,6 @@ Help me improve this offer: [describe offer]. Who is it for, what problem does i
 Prompts
 
 ### Tags
-- Thinking & Strategy
+- Strategy
 - Prompt
 - Offer

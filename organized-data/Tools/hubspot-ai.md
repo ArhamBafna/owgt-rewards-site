@@ -36,5 +36,5 @@ to-market on HubSpot.
 Tools
 
 ### Tags
-- Tool
+- AI Tools
 - Workflow

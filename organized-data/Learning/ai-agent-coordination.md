@@ -30,5 +30,5 @@ headcount, which requires Al fluency at the creation stage
 Learning
 
 ### Tags
-- Skill
+- learn skill
 - Career

@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - Google Cloud
-- Free Tier
+- Free
 - Hosting
