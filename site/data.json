@@ -775,6 +775,40 @@
       "path": "/items/learning/ai-workflow-building-no-code"
     },
     {
+      "id": "github-certification-exams",
+      "name": "GitHub Certification Exams",
+      "description": "Official certification programs offered by GitHub to validate skills in GitHub Actions, Security, and administration.",
+      "category": "Learning",
+      "subcategory": "",
+      "tags": [
+        "GitHub",
+        "Certification",
+        "Developer Tools",
+        "Education"
+      ],
+      "url": "https://certifications.github.com",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/learning/github-certification-exams"
+    },
+    {
+      "id": "kaggle-5-day-agents-guide",
+      "name": "Kaggle 5-Day Agents Guide",
+      "description": "Practical 5-day course and hands-on guide by Kaggle for designing, evaluating, and deploying autonomous AI agents.",
+      "category": "Learning",
+      "subcategory": "",
+      "tags": [
+        "Agent",
+        "Course",
+        "Guide",
+        "Kaggle"
+      ],
+      "url": "https://www.kaggle.com/learn",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/learning/kaggle-5-day-agents-guide"
+    },
+    {
       "id": "lesson-ai-for-beginners",
       "name": "AI for Beginners (Microsoft)",
       "description": "12-week, 24-lesson curriculum exploring Artificial Intelligence.",
@@ -1831,6 +1865,23 @@
       "content": "```text\nDraft a follow-up email to [name] about [topic]. Second follow-up. Brief, add value. Clear CTA. Under 100 words.\n```",
       "is_shallow": false,
       "path": "/items/prompts/follow-up"
+    },
+    {
+      "id": "full-ai-system-self-audit-prompt",
+      "name": "Full AI System Self-Audit Prompt",
+      "description": "A comprehensive self-audit prompt designed to evaluate your current AI stack, tool efficiency, prompt usage, and agent setup.",
+      "category": "Prompts",
+      "subcategory": "Analysis & Research",
+      "tags": [
+        "Audit",
+        "Prompt",
+        "Workflow",
+        "System"
+      ],
+      "url": "",
+      "content": "```text\nConduct a complete diagnostic audit of my current AI ecosystem, workflows, and tool stack. \nEvaluate:\n1. Tool redundancy and missing CLI/API equivalents.\n2. Skill efficiency and recurring task automation opportunities.\n3. Model routing strategy based on task complexity vs cost.\n4. Gaps in context management and persistent memory systems.\nProvide an actionable 5-step optimization roadmap.\n```",
+      "is_shallow": false,
+      "path": "/items/prompts/full-ai-system-self-audit-prompt"
     },
     {
       "id": "generate-10-creative-solutions-to",
@@ -4013,6 +4064,23 @@
       "path": "/items/tools/ada"
     },
     {
+      "id": "alt",
+      "name": "Alt",
+      "description": "Audio-first meeting and voice notes assistant built for effortless capturing and AI summarization.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Meeting",
+        "Voice",
+        "Summarizer",
+        "Productivity"
+      ],
+      "url": "https://altalt.io",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/alt"
+    },
+    {
       "id": "animejs",
       "name": "AnimeJS",
       "description": "Lightweight JavaScript animation library.",
@@ -4044,6 +4112,23 @@
       "content": "",
       "is_shallow": true,
       "path": "/items/tools/antigravity"
+    },
+    {
+      "id": "apify-cli",
+      "name": "Apify CLI",
+      "description": "Command-line interface to build, deploy, and manage web scraping actors and data extraction pipelines on Apify.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Scraping",
+        "CLI",
+        "Data",
+        "Automation"
+      ],
+      "url": "https://apify.com",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/apify-cli"
     },
     {
       "id": "apollo-io",
@@ -4273,7 +4358,6 @@
       "subcategory": "",
       "tags": [
         "Speech to Text",
-        "Speech to Text",
         "AI Tools"
       ],
       "url": "",
@@ -4305,13 +4389,29 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Recruiting",
         "Recruiting"
       ],
       "url": "",
       "content": "Workflow it replaces: Manual candidate matching and sourcing.\nBusiness outcome: Time-to-shortlist decreases. Internal mobility opportunities surface.\nBest for: Enterprise organisations with large existing talent databases and complex role requirements.",
       "is_shallow": false,
       "path": "/items/tools/eightfold"
+    },
+    {
+      "id": "fathom-ai",
+      "name": "Fathom AI",
+      "description": "Free AI meeting assistant that records, transcribes, and highlights key insights from video calls.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Meeting",
+        "Summarizer",
+        "Productivity",
+        "Free"
+      ],
+      "url": "https://fathom.video",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/fathom-ai"
     },
     {
       "id": "firecrawl-cli",
@@ -4346,6 +4446,23 @@
       "path": "/items/tools/fireflies-ai"
     },
     {
+      "id": "free-llm-api",
+      "name": "Free LLM API",
+      "description": "Open-source OpenAI-compatible proxy aggregating free-tier LLM providers into a single endpoint with automatic failover and load balancing.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "LLM",
+        "Proxy",
+        "API",
+        "Free"
+      ],
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/free-llm-api"
+    },
+    {
       "id": "freedomto",
       "name": "freedom.to",
       "description": "Block Websites, Apps, and the Internet",
@@ -4360,6 +4477,23 @@
       "content": "",
       "is_shallow": true,
       "path": "/items/tools/freedomto"
+    },
+    {
+      "id": "fritz-ai",
+      "name": "fritz.ai",
+      "description": "AI audio meeting note generator providing automated summaries and speech-to-text transcriptions.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Meeting",
+        "Audio",
+        "Transcription",
+        "Productivity"
+      ],
+      "url": "https://fritz.ai",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/fritz-ai"
     },
     {
       "id": "gamma",
@@ -4613,7 +4747,7 @@
     {
       "id": "impeccable",
       "name": "Impeccable",
-      "description": "The missing upgrade to Anthropic's impeccable skill.",
+      "description": "The missing design vocabulary for agents.",
       "category": "Tools",
       "subcategory": "",
       "tags": [
@@ -4687,6 +4821,23 @@
       "content": "**What it does:** AI email coaching and\npersonalisation tool that scores\noutbound emails and suggests\nimprovements in real time.\nWorkflow it replaces: The manual\nediting and review pass on outbound\nsales emails. Instead of managers\nreviewing rep emails or reps second-\nguessing their own writing, Lavender\nscores and improves each email\nbefore it sends.\nBusiness outcome: Reply rates\nimprove. Email quality becomes\nconsistent across the team rather\nthan varying by rep.\nBest for: Sales teams sending high\nvolumes of personalised outbound\nemail.",
       "is_shallow": false,
       "path": "/items/tools/lavender"
+    },
+    {
+      "id": "layers",
+      "name": "Layers",
+      "description": "AI marketing department platform for developers and app teams to automate user acquisition, content strategy, and multi-channel publishing.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Marketing",
+        "Automation",
+        "Agent",
+        "Growth"
+      ],
+      "url": "https://app.layers.com",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/layers"
     },
     {
       "id": "llm-cli",
@@ -4862,6 +5013,23 @@
       "path": "/items/tools/openai-oauth"
     },
     {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "description": "Open-source multi-agent framework for building, orchestrating, and hosting autonomous self-hosted AI agents with long-term memory and tool integrations.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Agent",
+        "Multi-Agent",
+        "Framework",
+        "Automation"
+      ],
+      "url": "https://github.com/openclaw/openclaw.ai",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/openclaw"
+    },
+    {
       "id": "openwhispr",
       "name": "OpenWhispr",
       "description": "Open Source Voice to Text & Dictation App.",
@@ -4869,7 +5037,6 @@
       "subcategory": "",
       "tags": [
         "Open Source",
-        "Speech to Text",
         "Speech to Text"
       ],
       "url": "",
@@ -4900,7 +5067,6 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Recruiting",
         "Recruiting"
       ],
       "url": "",
@@ -5035,6 +5201,23 @@
       "path": "/items/tools/shadcn-ui"
     },
     {
+      "id": "skills-sh",
+      "name": "Skills.sh",
+      "description": "Registry and directory for storing, discovering, and sharing agent skills across coding assistants and IDEs.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Agent",
+        "Skills",
+        "Developer Tools",
+        "Directory"
+      ],
+      "url": "https://skills.sh",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/skills-sh"
+    },
+    {
       "id": "stitch",
       "name": "Stitch",
       "description": "Design with AI by Google.",
@@ -5049,6 +5232,23 @@
       "content": "",
       "is_shallow": true,
       "path": "/items/tools/stitch"
+    },
+    {
+      "id": "tactiq",
+      "name": "Tactiq",
+      "description": "Real-time Chrome extension meeting transcriptions for Google Meet, Zoom, and Teams without an AI bot joining the call.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Meeting",
+        "Chrome Extension",
+        "Transcription",
+        "Productivity"
+      ],
+      "url": "https://tactiq.io",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/tactiq"
     },
     {
       "id": "tidio",
@@ -5080,6 +5280,23 @@
       "content": "**What it does:** AI-powered\naccounts payable automation,\ninvoice processing, approval\nworkflows, payment\nexecution, and reconciliation.\nWorkflow it replaces: Manual\nAP processing. Instead of\nfinance teams processing\ninvoices by hand, chasing\napprovals, and managing\npayment runs, Tipalti handles\nthe entire workflow.\nBusiness outcome: Mail Shark\nreduced AP workload by 75%,\nsaved 3,000+ hours annually,\nand reached zero late\npayments after deploying\nTipalti.\nBest for: Finance teams\nprocessing high invoice\nvolumes with multi-entity or\nglobal payment requirements.",
       "is_shallow": false,
       "path": "/items/tools/tipalti"
+    },
+    {
+      "id": "tldv-io",
+      "name": "tldv.io",
+      "description": "AI meeting recorder and video summarizer for Zoom, Google Meet, and Microsoft Teams.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "Meeting",
+        "Summarizer",
+        "Productivity",
+        "Video"
+      ],
+      "url": "https://tldv.io",
+      "content": "",
+      "is_shallow": true,
+      "path": "/items/tools/tldv-io"
     },
     {
       "id": "trae-ide",
@@ -5137,7 +5354,6 @@
       "subcategory": "",
       "tags": [
         "Speech to Text",
-        "Speech to Text",
         "AI Tools"
       ],
       "url": "",
@@ -5169,7 +5385,6 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Speech to Text",
         "Speech to Text",
         "AI",
         "AI Tools"
@@ -6613,7 +6828,6 @@
           "subcategory": "",
           "tags": [
             "AI Tools",
-            "Recruiting",
             "Recruiting"
           ],
           "url": "",
@@ -6645,7 +6859,6 @@
           "subcategory": "",
           "tags": [
             "AI Tools",
-            "Recruiting",
             "Recruiting"
           ],
           "url": "",
@@ -7284,25 +7497,25 @@
   },
   "tags": {
     "ChatGPT": 3,
-    "Prompt": 159,
-    "Workflow": 74,
+    "Prompt": 160,
+    "Workflow": 75,
     "Mobile": 1,
     "App": 2,
-    "Growth": 2,
-    "Marketing": 13,
-    "CLI": 5,
-    "Automation": 6,
+    "Growth": 3,
+    "Marketing": 14,
+    "CLI": 6,
+    "Automation": 9,
     "Knowledge Base": 2,
-    "LLM": 6,
+    "LLM": 7,
     "Frontend": 2,
     "AI": 23,
     "Design": 11,
     "Attention": 1,
-    "Guide": 11,
+    "Guide": 12,
     "Claude": 79,
-    "Skills": 9,
+    "Skills": 10,
     "Business": 13,
-    "Agent": 13,
+    "Agent": 17,
     "Entrepreneurship": 1,
     "Skool": 9,
     "Community": 11,
@@ -7336,13 +7549,18 @@
     "Market Research": 1,
     "Tool Evaluation": 1,
     "Procurement": 1,
-    "Course": 5,
+    "GitHub": 8,
+    "Certification": 1,
+    "Developer Tools": 3,
+    "Education": 4,
+    "Course": 6,
+    "Kaggle": 1,
     "Microsoft": 1,
     "Beginners": 1,
     "Cold": 3,
     "Writing": 2,
     "Email Marketing": 1,
-    "Recruiting": 6,
+    "Recruiting": 4,
     "RAG": 2,
     "Q&A": 1,
     "ML": 1,
@@ -7351,7 +7569,7 @@
     "Architecture": 1,
     "GPT": 1,
     "Training": 1,
-    "Video": 5,
+    "Video": 6,
     "Real Estate": 1,
     "Communication": 6,
     "Client": 1,
@@ -7359,12 +7577,14 @@
     "Content Generation": 2,
     "Leadership": 1,
     "Follow-Up": 2,
+    "Audit": 1,
+    "System": 1,
     "Hashtag": 1,
     "UGC": 1,
     "Hook": 1,
     "Ideas": 3,
     "Job": 1,
-    "Meeting": 2,
+    "Meeting": 7,
     "Objection": 1,
     "Offer": 1,
     "Polite": 1,
@@ -7373,7 +7593,7 @@
     "Sop": 1,
     "Weekly": 2,
     "AI Tools": 54,
-    "Directory": 5,
+    "Directory": 6,
     "UI": 13,
     "Hackathons": 1,
     "Events": 1,
@@ -7382,7 +7602,6 @@
     "Projects": 1,
     "Collection": 3,
     "Roleplay": 1,
-    "GitHub": 7,
     "Template": 5,
     "MCP": 3,
     "List": 1,
@@ -7404,11 +7623,9 @@
     "Design Engineering": 1,
     "Newsletter": 2,
     "Google Cloud": 1,
-    "Free": 4,
+    "Free": 6,
     "Hosting": 2,
     "Students": 3,
-    "Developer Tools": 1,
-    "Education": 3,
     "Activities": 1,
     "React": 6,
     "Framer Motion": 1,
@@ -7435,26 +7652,31 @@
     "Toolkits": 2,
     "Customer Support": 2,
     "Multi-Channel": 1,
+    "Voice": 1,
+    "Summarizer": 3,
+    "Productivity": 7,
     "JavaScript": 2,
     "Library": 1,
     "IDE": 3,
     "Terminal": 1,
+    "Scraping": 2,
+    "Data": 2,
     "Enterprise": 11,
-    "API": 3,
+    "API": 4,
     "Chat Interface": 1,
     "Fast": 1,
     "Integration": 1,
     "Scientific Literature": 1,
     "Git": 1,
     "Copywriting": 1,
-    "Speech to Text": 8,
+    "Speech to Text": 4,
     "Conversational Marketing": 1,
     "Sales Qualification": 1,
-    "Scraping": 1,
-    "Data": 1,
+    "Proxy": 1,
     "Focus": 1,
-    "Productivity": 2,
     "App Blocker": 1,
+    "Audio": 1,
+    "Transcription": 2,
     "Presentations": 1,
     "Google Labs": 1,
     "shadcn": 1,
@@ -7468,12 +7690,15 @@
     "Experiment": 1,
     "OpenAI": 1,
     "OAuth": 1,
+    "Multi-Agent": 1,
+    "Framework": 1,
     "LaTeX": 1,
     "Editor": 2,
     "Interactive": 1,
     "Graphics": 1,
     "RSS": 1,
     "Relay.app": 1,
+    "Chrome Extension": 1,
     "Live Chat": 1,
     "ByteDance": 1,
     "Uncensored": 1,

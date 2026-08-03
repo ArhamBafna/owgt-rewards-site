@@ -15,4 +15,3 @@ Tools
 ### Tags
 - AI Tools
 - Recruiting
-- Recruiting

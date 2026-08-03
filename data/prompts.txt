@@ -501,3 +501,7 @@ Authentic UGC selfie video, single continuous shot, vertical 9:16. The blonde wo
 
 
 She gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.
+
+---
+
+Full AI System Self-Audit Prompt: 'Conduct a complete diagnostic audit of my current AI ecosystem, workflows, and tool stack. Evaluate: 1. Tool redundancy and missing CLI/API equivalents. 2. Skill efficiency and recurring task automation opportunities. 3. Model routing strategy based on task complexity vs cost. 4. Gaps in context management and persistent memory systems. Provide an actionable 5-step optimization roadmap.'

@@ -406,3 +406,9 @@ Link: https://github.com/settings/billing
 Title: Mobile App Growth / Marketing Cheat Sheet
 Link: https://offers.hubspot.com/view/mobile-app-growth?hubs_signup-url=offers.hubspot.com/mobile-app-growth&hubs_signup-cta=submit
 
+Title: Kaggle 5-Day Agents Guide
+Link: https://www.kaggle.com/learn
+
+Title: GitHub Certification Exams
+Link: https://certifications.github.com
+

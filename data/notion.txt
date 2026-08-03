@@ -49,3 +49,64 @@ Link: https://trae.ai
 Title: Wispr Flow
 Description: Ultra-fast AI voice-to-text dictation tool optimized for developers and productivity.
 Link: https://wisprflow.ai
+
+---
+
+Title: OpenClaw
+Description: Open-source multi-agent framework for building, orchestrating, and hosting autonomous self-hosted AI agents with long-term memory and tool integrations.
+Link: https://github.com/openclaw/openclaw.ai
+
+---
+
+Title: Free LLM API
+Description: Open-source OpenAI-compatible proxy aggregating free-tier LLM providers into a single endpoint with automatic failover and load balancing.
+Link: https://github.com/tashfeenahmed/freellmapi
+
+---
+
+Title: Skills.sh
+Description: Registry and directory for storing, discovering, and sharing agent skills across coding assistants and IDEs.
+Link: https://skills.sh
+
+---
+
+Title: Apify CLI
+Description: Command-line interface to build, deploy, and manage web scraping actors and data extraction pipelines on Apify.
+Link: https://apify.com
+
+---
+
+Title: Layers
+Description: AI marketing department platform for developers and app teams to automate user acquisition, content strategy, and multi-channel publishing.
+Link: https://app.layers.com
+
+---
+
+Title: tldv.io
+Description: AI meeting recorder and video summarizer for Zoom, Google Meet, and Microsoft Teams.
+Link: https://tldv.io
+
+---
+
+Title: Alt
+Description: Audio-first meeting and voice notes assistant built for effortless capturing and AI summarization.
+Link: https://altalt.io
+
+---
+
+Title: Fathom AI
+Description: Free AI meeting assistant that records, transcribes, and highlights key insights from video calls.
+Link: https://fathom.video
+
+---
+
+Title: Tactiq
+Description: Real-time Chrome extension meeting transcriptions for Google Meet, Zoom, and Teams without an AI bot joining the call.
+Link: https://tactiq.io
+
+---
+
+Title: fritz.ai
+Description: AI audio meeting note generator providing automated summaries and speech-to-text transcriptions.
+Link: https://fritz.ai
+

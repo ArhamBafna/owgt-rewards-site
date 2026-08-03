@@ -148,7 +148,7 @@
     },
     {
       "name": "AI for Beginners (Microsoft)",
-      "path": "Learning/ai-for-beginners.md"
+      "path": "Learning/lesson-ai-for-beginners.md"
     },
     {
       "name": "AI LEARNING AND DEVELOPMENT",
@@ -171,6 +171,10 @@
       "path": "Learning/ai-presentation-and-document-production.md"
     },
     {
+      "name": "AI PROMPT ENGINEERING",
+      "path": "Learning/ai-prompt-engineering.md"
+    },
+    {
       "name": "AI SALES OUTREACH AND SEQUENCING",
       "path": "Learning/ai-sales-outreach-and-sequencing.md"
     },
@@ -181,6 +185,10 @@
     {
       "name": "AI Video and Visual Content",
       "path": "Learning/ai-video-and-visual-content.md"
+    },
+    {
+      "name": "AI WORKFLOW BUILDING NO-CODE",
+      "path": "Learning/ai-workflow-building-no-code.md"
     },
     {
       "name": "AI-ASSISTED CONTENT CREATION",
@@ -200,54 +208,34 @@
     },
     {
       "name": "Cold Email: How to Write Like a Human",
-      "path": "Learning/cold-email-how-to-write-like-a-human.md"
+      "path": "Learning/lesson-cold-email-how-to-write-like-a-human.md"
     },
     {
-      "name": "Developer Roadmaps (AI & Engineering)",
-      "path": "Learning/developer-roadmaps.md"
+      "name": "GitHub Certification Exams",
+      "path": "Learning/github-certification-exams.md"
     },
     {
       "name": "How to Hire an AI Email Marketer",
-      "path": "Learning/how-to-hire-an-ai-email-marketer.md"
+      "path": "Learning/lesson-how-to-hire-an-ai-email-marketer.md"
+    },
+    {
+      "name": "Kaggle 5-Day Agents Guide",
+      "path": "Learning/kaggle-5-day-agents-guide.md"
     },
     {
       "name": "LLM Zoomcamp",
-      "path": "Learning/llm-zoomcamp.md"
+      "path": "Learning/lesson-llm-zoomcamp.md"
     },
     {
       "name": "Made With ML",
-      "path": "Learning/made-with-ml.md"
+      "path": "Learning/lesson-made-with-ml.md"
     },
     {
-      "name": "nanoGPT (Karpathy)",
-      "path": "Learning/nanogpt.md"
-    },
-    {
-      "name": "NO-CODE AI WORKFLOW BUILDING",
-      "path": "Learning/no-code-ai-workflow-building.md"
-    },
-    {
-      "name": "PROMPT ENGINEERING",
-      "path": "Learning/prompt-engineering.md"
-    },
-    {
-      "name": "What Is Vibe Coding",
-      "path": "Learning/what-is-vibe-coding.md"
+      "name": "nanochat (Karpathy)",
+      "path": "Learning/lesson-nanochat.md"
     }
   ],
   "prompts": [
-    {
-      "name": "**Execution Directive",
-      "path": "Prompts/execution-directive.md"
-    },
-    {
-      "name": "- **Stack",
-      "path": "Prompts/stack.md"
-    },
-    {
-      "name": "- Time of day / light",
-      "path": "Prompts/time-of-day-light.md"
-    },
     {
       "name": "Act As A Skeptical Senior",
       "path": "Prompts/act-as-a-skeptical-senior.md"
@@ -257,20 +245,8 @@
       "path": "Prompts/all-hands-talking-points.md"
     },
     {
-      "name": "Analyze Customer Feedback",
-      "path": "Prompts/analyze-customer-feedback.md"
-    },
-    {
       "name": "Analyze Customer Feedback for Growth Signals",
       "path": "Prompts/analyze-customer-feedback-for-growth-signals.md"
-    },
-    {
-      "name": "Analyze Second-Order Consequences",
-      "path": "Prompts/analyze-second-order-consequences.md"
-    },
-    {
-      "name": "Analyze Second-Order Consequences",
-      "path": "Prompts/claude-analyze-second-order-consequences.md"
     },
     {
       "name": "Analyze This Data And Identify",
@@ -279,14 +255,6 @@
     {
       "name": "Analyze Why a Deal Was Lost",
       "path": "Prompts/analyze-why-a-deal-was-lost.md"
-    },
-    {
-      "name": "Apply Devil'S Advocate",
-      "path": "Prompts/apply-devil-s-advocate.md"
-    },
-    {
-      "name": "Apply Devil's Advocate",
-      "path": "Prompts/apply-devils-advocate.md"
     },
     {
       "name": "Apply First Principles Thinking",
@@ -301,8 +269,8 @@
       "path": "Prompts/assumptions-stress-test.md"
     },
     {
-      "name": "Break this goal into a realistic 30-60-90 day plan with",
-      "path": "Prompts/break-this-goal-into-a-realistic-30-60-90-day-plan-with.md"
+      "name": "Break this goal into a realistic 30-60-90 day plan.",
+      "path": "Prompts/break-this-goal-into-a-realistic-30-60-90-day-plan.md"
     },
     {
       "name": "Build a Competitive Battle Card",
@@ -429,16 +397,16 @@
       "path": "Prompts/define-your-unique-positioning.md"
     },
     {
+      "name": "Deliver Difficult News",
+      "path": "Prompts/deliver-difficult-news.md"
+    },
+    {
       "name": "Design a Weekly Review Framework",
       "path": "Prompts/design-a-weekly-review-framework.md"
     },
     {
       "name": "Diagnose a Team Problem",
       "path": "Prompts/diagnose-a-team-problem.md"
-    },
-    {
-      "name": "Diagnose Why Something Isn'T Working",
-      "path": "Prompts/diagnose-why-something-isn-t-working.md"
     },
     {
       "name": "Diagnose Why Something Isn't Working",
@@ -521,6 +489,10 @@
       "path": "Prompts/follow-up-touch-1.md"
     },
     {
+      "name": "Full AI System Self-Audit Prompt",
+      "path": "Prompts/full-ai-system-self-audit-prompt.md"
+    },
+    {
       "name": "Generate 10 Creative Solutions To",
       "path": "Prompts/generate-10-creative-solutions-to.md"
     },
@@ -529,20 +501,12 @@
       "path": "Prompts/generate-5-different-ways-to.md"
     },
     {
-      "name": "Generate Alternatives When You'Re Stuck",
-      "path": "Prompts/generate-alternatives-when-you-re-stuck.md"
-    },
-    {
       "name": "Generate Alternatives When You're Stuck",
       "path": "Prompts/generate-alternatives-when-youre-stuck.md"
     },
     {
       "name": "Generate Feature Ideas from Complaints",
       "path": "Prompts/generate-feature-ideas-from-complaints.md"
-    },
-    {
-      "name": "Get Devil'S Advocate Feedback",
-      "path": "Prompts/get-devil-s-advocate-feedback.md"
     },
     {
       "name": "Get Devil's Advocate Feedback",
@@ -623,10 +587,6 @@
     {
       "name": "Kpi Framework Design",
       "path": "Prompts/kpi-framework-design.md"
-    },
-    {
-      "name": "Make The Decision You'Ve Been Avoiding",
-      "path": "Prompts/make-the-decision-you-ve-been-avoiding.md"
     },
     {
       "name": "Make the Decision You've Been Avoiding",
@@ -891,10 +851,6 @@
       "path": "Resources/21stdev.md"
     },
     {
-      "name": "39 Claude Skills Examples",
-      "path": "Resources/39-claude-skills-examples.md"
-    },
-    {
       "name": "AI Hackathons",
       "path": "Resources/ai-hackathons.md"
     },
@@ -909,10 +865,6 @@
     {
       "name": "AI Tools Directory AIxploria",
       "path": "Resources/ai-tools-directory-aixploria.md"
-    },
-    {
-      "name": "AnimeJS",
-      "path": "Resources/animejs.md"
     },
     {
       "name": "App Ideas",
@@ -1055,10 +1007,6 @@
       "path": "Resources/radiant-shaders.md"
     },
     {
-      "name": "React Bits",
-      "path": "Resources/react-bits.md"
-    },
-    {
       "name": "Real AI System Prompts Collection",
       "path": "Resources/system-prompts.md"
     },
@@ -1115,12 +1063,20 @@
       "path": "Tools/ada.md"
     },
     {
+      "name": "Alt",
+      "path": "Tools/alt.md"
+    },
+    {
       "name": "AnimeJS",
       "path": "Tools/animejs.md"
     },
     {
       "name": "Antigravity IDE & Suite",
       "path": "Tools/antigravity.md"
+    },
+    {
+      "name": "Apify CLI",
+      "path": "Tools/apify-cli.md"
     },
     {
       "name": "Apollo.Io",
@@ -1179,10 +1135,6 @@
       "path": "Tools/cursor.md"
     },
     {
-      "name": "Cursor IDE",
-      "path": "Tools/cursor-ide.md"
-    },
-    {
       "name": "DictaFlow",
       "path": "Tools/dictaflow.md"
     },
@@ -1195,6 +1147,10 @@
       "path": "Tools/eightfold.md"
     },
     {
+      "name": "Fathom AI",
+      "path": "Tools/fathom-ai.md"
+    },
+    {
       "name": "Firecrawl CLI & API",
       "path": "Tools/firecrawl-cli.md"
     },
@@ -1203,12 +1159,16 @@
       "path": "Tools/fireflies-ai.md"
     },
     {
-      "name": "Fireflies.Ai",
-      "path": "Tools/firefliesai.md"
+      "name": "Free LLM API",
+      "path": "Tools/free-llm-api.md"
     },
     {
       "name": "freedom.to",
       "path": "Tools/freedomto.md"
+    },
+    {
+      "name": "fritz.ai",
+      "path": "Tools/fritz-ai.md"
     },
     {
       "name": "Gamma",
@@ -1217,10 +1177,6 @@
     {
       "name": "Github Copilot",
       "path": "Tools/github-copilot.md"
-    },
-    {
-      "name": "Glean",
-      "path": "Tools/glean.md"
     },
     {
       "name": "Gong",
@@ -1299,6 +1255,10 @@
       "path": "Tools/lavender.md"
     },
     {
+      "name": "Layers",
+      "path": "Tools/layers.md"
+    },
+    {
       "name": "LLM CLI Tool (Simon Willison)",
       "path": "Tools/llm-cli.md"
     },
@@ -1341,6 +1301,10 @@
     {
       "name": "openai-oauth",
       "path": "Tools/openai-oauth.md"
+    },
+    {
+      "name": "OpenClaw",
+      "path": "Tools/openclaw.md"
     },
     {
       "name": "OpenWhispr",
@@ -1387,8 +1351,16 @@
       "path": "Tools/shadcn-ui.md"
     },
     {
+      "name": "Skills.sh",
+      "path": "Tools/skills-sh.md"
+    },
+    {
       "name": "Stitch",
       "path": "Tools/stitch.md"
+    },
+    {
+      "name": "Tactiq",
+      "path": "Tools/tactiq.md"
     },
     {
       "name": "Tidio",
@@ -1397,6 +1369,10 @@
     {
       "name": "Tipalti",
       "path": "Tools/tipalti.md"
+    },
+    {
+      "name": "tldv.io",
+      "path": "Tools/tldv-io.md"
     },
     {
       "name": "Trae IDE",

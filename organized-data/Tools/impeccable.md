@@ -2,7 +2,7 @@
 Impeccable
 
 ### Description
-The missing upgrade to Anthropic's impeccable skill.
+The missing design vocabulary for agents.
 
 ### URL
 https://impeccable.style/

@@ -12,5 +12,4 @@ Tools
 
 ### Tags
 - Speech to Text
-- Speech to Text
 - AI Tools
