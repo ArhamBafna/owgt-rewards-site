@@ -2111,13 +2111,14 @@ hr,
   white-space: nowrap;
   padding: 4px 10px;
   border-radius: 999px;
-  transition: all var(--duration-fast) var(--ease-out);
+  border: 1px solid transparent;
+  transition: background-color var(--duration-fast) var(--ease-out), color var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
 }
 .new-header-nav a:hover,
 .new-header-nav a.active {
   background-color: var(--color-accent);
   color: var(--color-accent-ink);
-  border: 1px solid var(--color-ink);
+  border-color: var(--color-ink);
 }
 body {
   padding-top: 52px; /* Space for the fixed header */
@@ -2316,3 +2317,32 @@ body.is-home {
 .filter-badge.has-count {
   display: inline-flex;
 }
+
+/* Prompt pre & code multiline formatting (remove black block & line scroll) */
+.prompt-text pre,
+.prompt-text.markdown-rendered pre,
+pre {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0 !important;
+  margin-bottom: 1em !important;
+  border: none !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.prompt-text pre code,
+.prompt-text.markdown-rendered pre code,
+pre code {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+}
+
