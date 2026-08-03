@@ -61,7 +61,7 @@ Usage windows start at your very first message of the day.
 Peak hours bring server congestion and faster session burn. Shift heavy workloads to early mornings, late nights, or weekends.
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Skool

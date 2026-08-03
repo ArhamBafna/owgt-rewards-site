@@ -8,7 +8,7 @@ Ultra-fast AI voice-to-text dictation tool optimized for developers and producti
 https://wisprflow.ai
 
 ### Category
-Productivity
+Tools
 
 ### Tags
 - Dictation

@@ -8,7 +8,7 @@ ByteDance's AI-powered IDE with native inline completion and agent tracking.
 https://trae.ai
 
 ### Category
-Coding
+Tools
 
 ### Tags
 - IDE

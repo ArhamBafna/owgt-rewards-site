@@ -25,7 +25,7 @@ A concise blueprint for breaking into tech and landing a software engineering jo
 - Message your connections directly when applying for jobs; referrals are the easiest way to get an interview.
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Career

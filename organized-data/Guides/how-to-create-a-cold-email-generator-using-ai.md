@@ -8,7 +8,7 @@ Creating personalized cold emails using AI.
 https://offers.hubspot.com/cold-email-using-ai
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Email

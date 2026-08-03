@@ -8,7 +8,7 @@ Open-source framework of modular prompt patterns and AI workflows to augment dai
 https://github.com/danielmiessler/fabric
 
 ### Category
-Frameworks
+Resources
 
 ### Tags
 - Workflow

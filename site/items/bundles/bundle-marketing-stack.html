@@ -20,7 +20,7 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
       <li><a href="/bookmarks">Bookmarks</a></li>
@@ -68,8 +68,8 @@
             <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Cheat Sheets</span>
-                <button class="btn--ghost" data-bookmark-id="mobile-app-growth-cheat-sheet" data-title="Mobile App Growth Cheat Sheet" data-path="/items/cheatsheets/mobile-app-growth-cheat-sheet" data-category="Cheat Sheets" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="mobile-app-growth-cheat-sheet" data-title="Mobile App Growth Cheat Sheet" data-path="/items/learning/mobile-app-growth-cheat-sheet" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Mobile App Growth Cheat Sheet</h3>
@@ -85,21 +85,25 @@
               </div>
             </div>
             
-            <a href="/items/guides/1m-attention" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
-                <button class="btn--ghost" data-bookmark-id="1m-attention" data-title="1M Attention" data-path="/items/guides/1m-attention" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="1m-attention" data-title="1M Attention" data-path="/items/learning/1m-attention" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">1M Attention</h3>
                 <p class="card__desc">A blueprint for getting attention and marketing successfully</p>
               </div>
-              <div class="card__footer">
-                <span class="meta">#Marketing #Attention #Guide</span>
-                <span class="card__expand-arrow">→</span>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">A blueprint for getting attention and marketing successfully</p>
+                <a href="https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
               </div>
-            </a>
+            </div>
             
             <a href="/items/marketing/content-ideas" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
@@ -208,8 +212,8 @@
             <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Templates</span>
-                <button class="btn--ghost" data-bookmark-id="hubspot-full-stack-ai-marketing-toolkit" data-title="HubSpot Full-Stack AI Marketing Toolkit" data-path="/items/templates/hubspot-full-stack-ai-marketing-toolkit" data-category="Templates" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="hubspot-full-stack-ai-marketing-toolkit" data-title="HubSpot Full-Stack AI Marketing Toolkit" data-path="/items/resources/hubspot-full-stack-ai-marketing-toolkit" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">HubSpot Full-Stack AI Marketing Toolkit</h3>
@@ -228,8 +232,8 @@
             <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Templates</span>
-                <button class="btn--ghost" data-bookmark-id="marketing-against-the-grain-newsletter-template" data-title="Marketing Against the Grain Newsletter Template" data-path="/items/templates/marketing-against-the-grain-newsletter-template" data-category="Templates" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="marketing-against-the-grain-newsletter-template" data-title="Marketing Against the Grain Newsletter Template" data-path="/items/resources/marketing-against-the-grain-newsletter-template" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Marketing Against the Grain Newsletter Template</h3>

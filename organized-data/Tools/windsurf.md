@@ -8,7 +8,7 @@ Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.
 https://codeium.com/windsurf
 
 ### Category
-Coding
+Tools
 
 ### Tags
 - IDE

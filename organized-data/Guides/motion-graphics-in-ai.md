@@ -213,7 +213,7 @@ No AI Coding Assistant? Use Web App:
 3. Paste prompt and pick preset (Pixel Art, Claymotion, Papercraft, Cartoon, Whiteboard, Flat Vector).
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Skool

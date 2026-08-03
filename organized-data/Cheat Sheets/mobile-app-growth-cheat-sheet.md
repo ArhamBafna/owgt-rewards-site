@@ -8,7 +8,7 @@ Cheat sheet for mobile app marketing and growth.
 https://offers.hubspot.com/view/mobile-app-growth
 
 ### Category
-Cheat Sheets
+Learning
 
 ### Tags
 - Mobile

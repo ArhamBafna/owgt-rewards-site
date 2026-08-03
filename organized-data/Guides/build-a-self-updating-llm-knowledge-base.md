@@ -8,7 +8,7 @@ Blog post on building a self-updating LLM knowledge base
 https://bholmes.dev/blog/llm-knowledge-bases/
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - LLM

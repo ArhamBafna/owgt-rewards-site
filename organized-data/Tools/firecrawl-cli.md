@@ -8,7 +8,7 @@ Turn entire websites into LLM-ready clean markdown data for scraping and indexin
 https://firecrawl.dev
 
 ### Category
-Automation
+Tools
 
 ### Tags
 - Scraping

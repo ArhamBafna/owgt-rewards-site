@@ -27,8 +27,8 @@
     .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 0; gap: var(--space-xl); }
     .mast-nav li { display: inline-flex; align-items: center; gap: var(--space-xl); }
     .mast-nav li:not(:last-child)::after { content: ""; display: inline-block; width: 2px; height: 1em; background-color: var(--color-ink); }
-    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
-    .mast-nav a:hover { color: var(--color-accent); }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); padding: 4px 10px; border-radius: 999px; text-decoration: none; color: var(--color-ink); border: 1px solid transparent; transition: all var(--duration-fast) var(--ease-out); }
+    .mast-nav a:hover, .mast-nav a.active { background-color: var(--color-accent); color: var(--color-accent-ink); border: 1px solid var(--color-ink); }
     .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
 
     /* Hero - H1 Marquee */
@@ -114,7 +114,7 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
       <li><a href="/bookmarks">Bookmarks</a></li>
@@ -165,6 +165,11 @@
 
 
 
+
+
+
+
+
   <main class="page-wrap">
     
     <!-- Hero Section (Landing Page Top) -->
@@ -195,7 +200,7 @@
               <p class="card__desc">Ready-to-use prompt templates for daily workflows.</p>
             </div>
             <div class="card__footer">
-              <span class="meta">150 Items</span>
+              <span class="meta">122 Items</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>
@@ -204,7 +209,7 @@
             <div class="card__accent-strip"></div>
             <div class="card__body">
               <h3 class="card__title">Tools</h3>
-              <p class="card__desc">Curated AI tools for automation and productivity.</p>
+              <p class="card__desc">Curated AI tools for automation, coding, and productivity.</p>
             </div>
             <div class="card__footer">
               <span class="meta">82 Items</span>
@@ -212,14 +217,14 @@
             </div>
           </a>
 
-          <a href="guides" class="card" style="--cat-color: var(--color-cat-guides);">
+          <a href="learning" class="card" style="--cat-color: var(--color-cat-learning);">
             <div class="card__accent-strip"></div>
             <div class="card__body">
-              <h3 class="card__title">Guides</h3>
-              <p class="card__desc">Step-by-step documentation for complex tasks.</p>
+              <h3 class="card__title">Learning</h3>
+              <p class="card__desc">Guides, courses, video tutorials, and cheat sheets.</p>
             </div>
             <div class="card__footer">
-              <span class="meta">25 Items</span>
+              <span class="meta">54 Items</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>
@@ -228,58 +233,10 @@
             <div class="card__accent-strip"></div>
             <div class="card__body">
               <h3 class="card__title">Resources</h3>
-              <p class="card__desc">General resources and knowledge bases.</p>
+              <p class="card__desc">Knowledge bases, frameworks, and templates.</p>
             </div>
             <div class="card__footer">
-              <span class="meta">51 Items</span>
-              <span class="card__expand-arrow">→</span>
-            </div>
-          </a>
-          
-          <a href="learning" class="card" style="--cat-color: var(--color-cat-learning);">
-            <div class="card__accent-strip"></div>
-            <div class="card__body">
-              <h3 class="card__title">Learning</h3>
-              <p class="card__desc">Courses and educational material on AI.</p>
-            </div>
-            <div class="card__footer">
-              <span class="meta">25 Items</span>
-              <span class="card__expand-arrow">→</span>
-            </div>
-          </a>
-          
-          <a href="frameworks" class="card" style="--cat-color: var(--color-cat-frameworks);">
-            <div class="card__accent-strip"></div>
-            <div class="card__body">
-              <h3 class="card__title">Frameworks</h3>
-              <p class="card__desc">Strategic mental models for using AI effectively.</p>
-            </div>
-            <div class="card__footer">
-              <span class="meta">3 Items</span>
-              <span class="card__expand-arrow">→</span>
-            </div>
-          </a>
-          
-          <a href="cheatsheets" class="card" style="--cat-color: var(--color-cat-cheatsheets);">
-            <div class="card__accent-strip"></div>
-            <div class="card__body">
-              <h3 class="card__title">Cheatsheets</h3>
-              <p class="card__desc">Quick reference sheets for fast execution.</p>
-            </div>
-            <div class="card__footer">
-              <span class="meta">2 Items</span>
-              <span class="card__expand-arrow">→</span>
-            </div>
-          </a>
-          
-          <a href="templates" class="card" style="--cat-color: var(--color-cat-templates);">
-            <div class="card__accent-strip"></div>
-            <div class="card__body">
-              <h3 class="card__title">Templates</h3>
-              <p class="card__desc">Starting structures for Notion, docs, and more.</p>
-            </div>
-            <div class="card__footer">
-              <span class="meta">2 Items</span>
+              <span class="meta">56 Items</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>

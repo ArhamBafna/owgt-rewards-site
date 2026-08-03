@@ -38,7 +38,7 @@ A breakdown of 5 high-leverage AI service businesses you can start today, includ
 - **Income Potential**: $500 - $1,000 / day.
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Business

@@ -8,7 +8,7 @@ GitHub's terminal agent for command assistance, explanations, and git automation
 https://github.com/github/gh-copilot
 
 ### Category
-Coding
+Tools
 
 ### Tags
 - CLI

@@ -8,7 +8,7 @@ Comprehensive marketing toolkit template on Google Sheets.
 https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit
 
 ### Category
-Templates
+Resources
 
 ### Tags
 - Marketing

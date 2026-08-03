@@ -57,7 +57,7 @@ The smartest models are incredibly wordy. You pay for every word. Use this stand
 > Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Workflow

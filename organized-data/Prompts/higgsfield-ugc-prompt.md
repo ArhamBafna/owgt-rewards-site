@@ -18,7 +18,7 @@ She gestures naturally with the can while talking, gives it a tiny shake near 'o
 ```
 
 ### Category
-Video
+Learning
 
 ### Tags
 - Video

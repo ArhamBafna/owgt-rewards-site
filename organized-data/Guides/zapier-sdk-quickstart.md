@@ -8,7 +8,7 @@ Quickstart documentation for the Zapier SDK
 https://docs.zapier.com/sdk/quickstart
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Zapier

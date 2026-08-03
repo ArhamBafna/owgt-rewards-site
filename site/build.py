@@ -313,6 +313,7 @@ def main():
             "subcategory": subcategory,
             "tags": tags,
             "path": item["path"],
+            "url": url,
             "is_shallow": is_shallow,
             "content": clean_content.strip()
         })

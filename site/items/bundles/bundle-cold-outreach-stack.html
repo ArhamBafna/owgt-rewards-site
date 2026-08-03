@@ -20,7 +20,7 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
       <li><a href="/bookmarks">Bookmarks</a></li>
@@ -65,21 +65,25 @@
       <div class="container container--wide">
         <div class="card-grid card-grid--4">
           
-            <a href="/items/guides/how-to-create-a-cold-email-generator-using-ai" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
-                <button class="btn--ghost" data-bookmark-id="how-to-create-a-cold-email-generator-using-ai" data-title="How to Create a Cold Email Generator Using AI" data-path="/items/guides/how-to-create-a-cold-email-generator-using-ai" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="how-to-create-a-cold-email-generator-using-ai" data-title="How to Create a Cold Email Generator Using AI" data-path="/items/learning/how-to-create-a-cold-email-generator-using-ai" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">How to Create a Cold Email Generator Using AI</h3>
                 <p class="card__desc">Creating personalized cold emails using AI.</p>
               </div>
-              <div class="card__footer">
-                <span class="meta">#Email #AI #Sales</span>
-                <span class="card__expand-arrow">→</span>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Creating personalized cold emails using AI.</p>
+                <a href="https://offers.hubspot.com/cold-email-using-ai" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
               </div>
-            </a>
+            </div>
             
             <a href="/items/learning/ai-sales-outreach-and-sequencing" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>

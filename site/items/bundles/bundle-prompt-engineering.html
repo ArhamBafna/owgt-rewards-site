@@ -20,7 +20,7 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
       <li><a href="/bookmarks">Bookmarks</a></li>
@@ -65,11 +65,11 @@
       <div class="container container--wide">
         <div class="card-grid card-grid--4">
           
-            <a href="/items/cheatsheets/chatgpt-and-ai-cheatsheet" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="/items/learning/chatgpt-and-ai-cheatsheet" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Cheat Sheets</span>
-                <button class="btn--ghost" data-bookmark-id="chatgpt-and-ai-cheatsheet" data-title="ChatGPT & AI Cheatsheet" data-path="/items/cheatsheets/chatgpt-and-ai-cheatsheet" data-category="Cheat Sheets" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="chatgpt-and-ai-cheatsheet" data-title="ChatGPT & AI Cheatsheet" data-path="/items/learning/chatgpt-and-ai-cheatsheet" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">ChatGPT & AI Cheatsheet</h3>
@@ -81,27 +81,31 @@
               </div>
             </a>
             
-            <a href="/items/guides/39-claude-skills-examples" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
-                <button class="btn--ghost" data-bookmark-id="39-claude-skills-examples" data-title="39 Claude Skills Examples" data-path="/items/guides/39-claude-skills-examples" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="39-claude-skills-examples" data-title="39 Claude Skills Examples" data-path="/items/learning/39-claude-skills-examples" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">39 Claude Skills Examples</h3>
                 <p class="card__desc">Examples of Claude skills to transform workflows.</p>
               </div>
-              <div class="card__footer">
-                <span class="meta">#Claude #Skills #Workflow</span>
-                <span class="card__expand-arrow">→</span>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Examples of Claude skills to transform workflows.</p>
+                <a href="https://aiblewmymind.substack.com/p/claude-skills-36-examples" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
               </div>
-            </a>
+            </div>
             
-            <a href="/items/guides/build-3-ai-agents-in-base44" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="/items/learning/build-3-ai-agents-in-base44" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
-                <button class="btn--ghost" data-bookmark-id="build-3-ai-agents-in-base44" data-title="Build 3 AI Agents in Base44 — Complete Prompt Pack" data-path="/items/guides/build-3-ai-agents-in-base44" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="build-3-ai-agents-in-base44" data-title="Build 3 AI Agents in Base44 — Complete Prompt Pack" data-path="/items/learning/build-3-ai-agents-in-base44" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Build 3 AI Agents in Base44 — Complete Prompt Pack</h3>
@@ -113,21 +117,25 @@
               </div>
             </a>
             
-            <a href="/items/guides/prompt-engineering" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
-                <button class="btn--ghost" data-bookmark-id="prompt-engineering" data-title="Prompt Engineering Guide" data-path="/items/guides/prompt-engineering" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="prompt-engineering" data-title="Prompt Engineering Guide" data-path="/items/learning/prompt-engineering" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Prompt Engineering Guide</h3>
                 <p class="card__desc">Complete beginner-to-advanced guide, system prompt templates, and best practices for prompting LLMs by DAIR.AI.</p>
               </div>
-              <div class="card__footer">
-                <span class="meta">#Prompting #Best Practices #LLM</span>
-                <span class="card__expand-arrow">→</span>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Complete beginner-to-advanced guide, system prompt templates, and best practices for prompting LLMs by DAIR.AI.</p>
+                <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
               </div>
-            </a>
+            </div>
             
             <a href="/items/learning/ai-prompt-engineering" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
@@ -145,11 +153,11 @@
               </div>
             </a>
             
-            <a href="/items/video/higgsfield-ugc-prompt" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <a href="/items/learning/higgsfield-ugc-prompt" class="card" style="--cat-color: var(--color-cat-prompts);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Video</span>
-                <button class="btn--ghost" data-bookmark-id="higgsfield-ugc-prompt" data-title="Higgsfield UGC Prompt" data-path="/items/video/higgsfield-ugc-prompt" data-category="Video" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="higgsfield-ugc-prompt" data-title="Higgsfield UGC Prompt" data-path="/items/learning/higgsfield-ugc-prompt" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Higgsfield UGC Prompt</h3>
@@ -352,8 +360,8 @@
             <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Coding</span>
-                <button class="btn--ghost" data-bookmark-id="claude-code-cli" data-title="Claude Code CLI" data-path="/items/coding/claude-code-cli" data-category="Coding" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="claude-code-cli" data-title="Claude Code CLI" data-path="/items/tools/claude-code-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
               </div>
               <div class="card__body">
                 <h3 class="card__title">Claude Code CLI</h3>

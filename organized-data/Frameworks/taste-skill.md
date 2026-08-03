@@ -8,7 +8,7 @@ The Anti-Slop Frontend Framework for AI Agents.
 https://www.tasteskill.dev/
 
 ### Category
-Frameworks
+Resources
 
 ### Tags
 - Frontend

@@ -1,16 +1,16 @@
-# Graph Report - rewards  (2026-08-02)
+# Graph Report - rewards  (2026-08-03)
 
 ## Corpus Check
-- 382 files · ~360,997 words
+- 383 files · ~428,017 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2661 nodes · 2623 edges · 398 communities (385 shown, 13 thin omitted)
+- 2646 nodes · 2607 edges · 399 communities (386 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `28072e36`
+- Built from commit: `04b761b9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -402,7 +402,6 @@
 - [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
-- [[_COMMUNITY_Community 393|Community 393]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -422,7 +421,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (398 total, 13 thin omitted)
+## Communities (399 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1920,20 +1919,18 @@ Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model
 Cohesion: 0.67
 Nodes (3): Guide Rules, GUIDES, Missing Information
 
-### Community 393 - "Community 393"
-Cohesion: 0.12
-Nodes (16): Architecture Overview, Automated Build Verification, Build System (`build.py`), [DELETE] Loose object HTML files in root `site/`, Frontend Application Logic (`app.js`), Local Server (`serve.py`), [MODIFY] [app.js](file:///c:/Users/bafna/Desktop/Projects/OWGT-Newsletter-Automation/rewards/site/js/app.js), [MODIFY] [build.py](file:///c:/Users/bafna/Desktop/Projects/OWGT-Newsletter-Automation/rewards/site/build.py) (+8 more)
-
 ## Knowledge Gaps
-- **2140 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rules & Memory`, `Connecting Higgsfield` (+2135 more)
+- **2132 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2127 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Master Index` connect `Community 27` to `Community 25`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
-  _2140 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2132 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
@@ -1944,5 +1941,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Community 5` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

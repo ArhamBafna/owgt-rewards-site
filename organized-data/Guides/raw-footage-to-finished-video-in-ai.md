@@ -100,7 +100,7 @@ Final file saves to downloads directory; source project folder remains intact.
 - Use natural language prompts for edits instead of manual timeline trimming.
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Skool

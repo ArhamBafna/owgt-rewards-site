@@ -8,7 +8,7 @@ Email newsletter setup template on Google Sheets.
 https://docs.google.com/spreadsheets/d/12cw8R1Ef45SkHLKp4ypKZLk5a3vi9hTtn1PqRdPztgw/edit
 
 ### Category
-Templates
+Resources
 
 ### Tags
 - Newsletter

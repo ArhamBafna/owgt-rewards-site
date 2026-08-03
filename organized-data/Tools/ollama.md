@@ -8,7 +8,7 @@ Local LLM runner for hosting Llama 3, DeepSeek, and Mistral models locally on yo
 https://ollama.com
 
 ### Category
-AI
+Tools
 
 ### Tags
 - Local

@@ -20,7 +20,7 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
       <li><a href="/bookmarks">Bookmarks</a></li>
@@ -57,7 +57,7 @@
     <header class="category-header">
       <div class="container container--narrow">
         <h1 class="display-hero" style="font-size: clamp(2rem, 5vw, 4rem);">RESOURCES</h1>
-        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">51 curated entries.</p>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">56 curated entries.</p>
       </div>
     </header>
 
@@ -65,6 +65,66 @@
       <div class="container container--wide">
         <div class="card-grid card-grid--4">
           
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="fabric" data-title="Fabric (Daniel Miessler)" data-path="/items/resources/fabric" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Fabric (Daniel Miessler)</h3>
+                <p class="card__desc">Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.</p>
+                <a href="https://github.com/danielmiessler/fabric" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="llm-wiki" data-title="llm-wiki (Karpathy Gist)" data-path="/items/resources/llm-wiki" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">llm-wiki (Karpathy Gist)</h3>
+                <p class="card__desc">Minimalist pattern and prompt template for building personal knowledge bases using LLMs.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Minimalist pattern and prompt template for building personal knowledge bases using LLMs.</p>
+                <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="taste-skill" data-title="Taste Skill" data-path="/items/resources/taste-skill" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Taste Skill</h3>
+                <p class="card__desc">The Anti-Slop Frontend Framework for AI Agents.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">The Anti-Slop Frontend Framework for AI Agents.</p>
+                <a href="https://www.tasteskill.dev/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
             <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
@@ -1058,6 +1118,46 @@
               <div class="card__expand-content">
                 <p style="font-size: var(--text-sm);">Directory of what AI can do today</p>
                 <a href="https://whataicandotoday.com/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="hubspot-full-stack-ai-marketing-toolkit" data-title="HubSpot Full-Stack AI Marketing Toolkit" data-path="/items/resources/hubspot-full-stack-ai-marketing-toolkit" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">HubSpot Full-Stack AI Marketing Toolkit</h3>
+                <p class="card__desc">Comprehensive marketing toolkit template on Google Sheets.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Comprehensive marketing toolkit template on Google Sheets.</p>
+                <a href="https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+            </div>
+            
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="marketing-against-the-grain-newsletter-template" data-title="Marketing Against the Grain Newsletter Template" data-path="/items/resources/marketing-against-the-grain-newsletter-template" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Marketing Against the Grain Newsletter Template</h3>
+                <p class="card__desc">Email newsletter setup template on Google Sheets.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm);">Email newsletter setup template on Google Sheets.</p>
+                <a href="https://docs.google.com/spreadsheets/d/12cw8R1Ef45SkHLKp4ypKZLk5a3vi9hTtn1PqRdPztgw/edit" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
               </div>
             </div>
             

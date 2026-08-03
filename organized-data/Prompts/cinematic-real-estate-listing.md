@@ -178,7 +178,7 @@ This is the fix for "I wanted higher quality."
 ```
 
 ### Category
-Video
+Learning
 
 ### Tags
 - Video

@@ -8,7 +8,7 @@ AI-powered terminal and extension suite with autonomous agent pair-programming c
 https://antigravity.google.com
 
 ### Category
-Coding
+Tools
 
 ### Tags
 - IDE

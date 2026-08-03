@@ -8,7 +8,7 @@ Anthropic's command-line agent for codebase searching, editing, and execution.
 https://docs.anthropic.com
 
 ### Category
-Coding
+Tools
 
 ### Tags
 - CLI

@@ -4,7 +4,7 @@
       "id": "chatgpt-and-ai-cheatsheet",
       "name": "ChatGPT & AI Cheatsheet",
       "description": "A complete, dense reference guide for AI prompting, covering universal formulas, techniques, writing styles, and common workflows.",
-      "category": "Cheat Sheets",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "ChatGPT",
@@ -14,13 +14,13 @@
       "url": "",
       "content": "#### The Universal Prompt Formula\n> Act as **[ROLE]**, perform **[TASK]**, in **[FORMAT]**\n> *Example:* \"Act as a senior copywriter, write 5 cold-email subject lines for a SaaS launch, in a numbered list with hooks bolded.\"\n\n#### 1. Roles\nWho should the AI pretend to be?\nMarketer, Copywriter, SEO specialist, Consultant, Coder, Editor, Analyst, Recruiter, Teacher, Translator, Interviewer, Trainer, CFO, Designer. Or specific people: *\"Act like Hormozi / Bezos / Naval\"*\n\n#### 2. Tasks\nWhat do you want it to do?\nWrite caption, Blog post, Email sequence, Sales copy, Product desc, Video script, SEO keywords, Summarize, Translate, Outline, Analyze, Brainstorm, Critique, Refactor.\n\n#### 3. Output Formats\nHow should the answer look?\nBullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, Step-by-step, Pros vs Cons, Tweet thread, Script, Email.\n\n#### Prompting Techniques\n- **Zero-shot**: Just ask. No examples. Use for simple, well-known tasks.\n- **One-shot**: Give one example before the ask. Sets tone fast.\n- **Few-shot**: 3\u20135 examples. Best for matching a specific style or pattern.\n- **Chain-of-Thought**: Add \"think step by step.\" Forces reasoning before the answer.\n- **Tree-of-Thought**: \"Brainstorm 5 approaches, evaluate each, then pick the best.\"\n- **Role-play**: \"You are X.\" Locks tone, vocabulary, and POV.\n- **Chained prompts**: Output of prompt 1 becomes input to prompt 2. Compounds quality.\n- **Instructional**: Explicit steps. \"First do A, then B, then return C.\"\n\n#### Clone Your Voice Workflow\n1. Paste 2\u20133 samples of your writing.\n2. Ask: *\"Analyze the tone and style. Output a bullet-pointed style guide.\"*\n3. Save that style guide as a reusable system prompt.\n4. Use it: *\"Rewrite [text] using the style guide above.\"*\n\n#### Chained Workflow (SEO Blog Post)\n1. Generate an SEO outline for keyword [topic].\n2. Write 10 persuasive headlines from that outline.\n3. Draft subheadings for each section.\n4. Surface 30 keywords to weave in naturally.\n5. Write 15 CTAs.\n6. Combine winners into a full draft.\n7. Rewrite in the voice of [role / brand].\n\n#### Midjourney Prompt Builder\n1. **Prep**: *\"I'll give you formatting examples for Midjourney.\"*\n2. **Format**: Paste the Midjourney structure (subject, style, lighting, camera, params).\n3. **Samples**: Drop in 2\u20133 high-quality MJ prompts.\n4. **Context**: *\"Now generate 5 prompts for [scene].\"*\n5. **Ship**: Copy \u2192 paste into Midjourney.\n\n#### Pro Tips Most People Miss\n- Ask for output as CSV or JSON to paste straight into Sheets or code.\n- Ingredients > recipes. Feed it your raw data and let it cook.\n- Make it argue with itself: *\"Now critique that answer harshly.\"*\n- Always fact-check with a second engine (Perplexity, Claude, Gemini).\n- *\"Ask me 5 questions before answering\"* dramatically improves output.\n- Save your best prompts as reusable templates.\n- For long tasks, ask for a plan first, then approve before execution.\n\n#### AI Glossary\n- **Prompt**: The instructions you give the AI.\n- **Input**: Text, image, or file you provide.\n- **Output**: What the AI gives back.\n- **Token**: A chunk of text (~4 chars). Models bill by token.\n- **Context**: Everything the model can \"see\" right now.\n- **LLM**: Large Language Model (e.g., GPT-4, Claude, Gemini).\n- **Temperature**: Creativity dial. Low = safe, high = wild.\n- **Hallucination**: When the AI invents facts confidently.\n- **RAG**: Retrieval-Augmented Generation \u2014 pulls in real data.\n\n#### When to Use What\n- **ChatGPT**: Drafts, brainstorming\n- **Claude**: Long docs, analysis, code\n- **Perplexity**: Facts + sources\n- **Midjourney**: Images\n- **Runway / Kling**: Video",
       "is_shallow": false,
-      "path": "/items/cheatsheets/chatgpt-and-ai-cheatsheet"
+      "path": "/items/learning/chatgpt-and-ai-cheatsheet"
     },
     {
       "id": "mobile-app-growth-cheat-sheet",
       "name": "Mobile App Growth Cheat Sheet",
       "description": "Cheat sheet for mobile app marketing and growth.",
-      "category": "Cheat Sheets",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Mobile",
@@ -31,13 +31,13 @@
       "url": "https://offers.hubspot.com/view/mobile-app-growth",
       "content": "",
       "is_shallow": true,
-      "path": "/items/cheatsheets/mobile-app-growth-cheat-sheet"
+      "path": "/items/learning/mobile-app-growth-cheat-sheet"
     },
     {
       "id": "fabric",
       "name": "Fabric (Daniel Miessler)",
       "description": "Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.",
-      "category": "Frameworks",
+      "category": "Resources",
       "subcategory": "",
       "tags": [
         "Workflow",
@@ -48,13 +48,13 @@
       "url": "https://github.com/danielmiessler/fabric",
       "content": "",
       "is_shallow": true,
-      "path": "/items/frameworks/fabric"
+      "path": "/items/resources/fabric"
     },
     {
       "id": "llm-wiki",
       "name": "llm-wiki (Karpathy Gist)",
       "description": "Minimalist pattern and prompt template for building personal knowledge bases using LLMs.",
-      "category": "Frameworks",
+      "category": "Resources",
       "subcategory": "",
       "tags": [
         "Knowledge Base",
@@ -64,13 +64,13 @@
       "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
       "content": "",
       "is_shallow": true,
-      "path": "/items/frameworks/llm-wiki"
+      "path": "/items/resources/llm-wiki"
     },
     {
       "id": "taste-skill",
       "name": "Taste Skill",
       "description": "The Anti-Slop Frontend Framework for AI Agents.",
-      "category": "Frameworks",
+      "category": "Resources",
       "subcategory": "",
       "tags": [
         "Frontend",
@@ -80,13 +80,13 @@
       "url": "https://www.tasteskill.dev/",
       "content": "",
       "is_shallow": true,
-      "path": "/items/frameworks/taste-skill"
+      "path": "/items/resources/taste-skill"
     },
     {
       "id": "1m-attention",
       "name": "1M Attention",
       "description": "A blueprint for getting attention and marketing successfully",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Marketing",
@@ -95,14 +95,14 @@
       ],
       "url": "https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/1m-attention"
+      "is_shallow": true,
+      "path": "/items/learning/1m-attention"
     },
     {
       "id": "39-claude-skills-examples",
       "name": "39 Claude Skills Examples",
       "description": "Examples of Claude skills to transform workflows.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Claude",
@@ -111,14 +111,14 @@
       ],
       "url": "https://aiblewmymind.substack.com/p/claude-skills-36-examples",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/39-claude-skills-examples"
+      "is_shallow": true,
+      "path": "/items/learning/39-claude-skills-examples"
     },
     {
       "id": "5-ai-businesses-to-make-1m",
       "name": "5 AI Businesses to Make $1M (With Zero Employees)",
       "description": "A breakdown of 5 high-leverage AI service businesses you can start today, including a 4-step framework for launching.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Business",
@@ -128,13 +128,13 @@
       "url": "",
       "content": "#### The AI Startup Ladder (4-Step Process)\n1. **Validate**: Pick a niche (e.g., med spas, agencies) and do outreach to prove demand.\n2. **Pre-sell**: Sell the service and collect cash before building. Use a simple document with a Stripe checkout link.\n3. **Deliver**: Once paid, drop everything to manually deliver the result within 48 hours. This builds your reputation and earns referrals.\n4. **Build & Automate**: Productize the service to scale deployment.\n\n#### 1. AI Inbox & Calendar Manager (Highest Potential)\n- **What it is**: Building an AI executive assistant to manage emails and meetings for busy CEOs.\n- **Why it works**: Entrepreneurs desperately want to buy back their time.\n- **Income Potential**: $3,000 - $5,000 / day.\n\n#### 2. AI Data Cleanup Agency\n- **What it is**: Organizing a company's messy internal data (emails, CRMs, spreadsheets), vectorizing it, and putting an AI search layer on top.\n- **Why it works**: Businesses need to make better decisions based on their own data.\n- **Income Potential**: $1,500 - $3,000 / day.\n\n#### 3. AI Sales Chatbot\n- **What it is**: Creating a chatbot that converts social media chats, texts, and emails into leads and sales.\n- **Why it works**: Business owners get massive inbound engagement but lack time to reply.\n- **Income Potential**: $1,000 - $1,500 / day.\n\n#### 4. AI Content Repurposing Service\n- **What it is**: Turning long-form content (podcasts, webinars) into short-form clips for TikTok/Reels using AI tools.\n- **Why it works**: Algorithms favor niche short-form content.\n- **Income Potential**: $750 - $1,000 / day.\n\n#### 5. AI Appointment Setter\n- **What it is**: Replacing human inbound phone agents with AI voice agents to book sales calls.\n- **Why it works**: Cheaper than a human, available 24/7, and performs incredibly well.\n- **Income Potential**: $500 - $1,000 / day.",
       "is_shallow": false,
-      "path": "/items/guides/5-ai-businesses-to-make-1m"
+      "path": "/items/learning/5-ai-businesses-to-make-1m"
     },
     {
       "id": "avoid-chat-limits",
       "name": "Avoid Chat Limits",
       "description": "Learn how to avoid context rot and chat limits by editing messages, batching requests, and starting fresh chats often.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -144,13 +144,13 @@
       "url": "",
       "content": "Every message resends your entire chat history. Message one is tiny. Message 30 is massive. That is why limits hit fast and quality tanks (context rot). \n\nFix the weight. Stop wasting tokens. \n\n---\n\n## 1. Edit Instead of Following Up \nCorrecting a mistake with a new message saves the bad reply, your correction, and the new reply into history. Every future message reprocesses all of that junk.\n\n* **Action:** Edit your original message directly. The bad exchange disappears completely. \n\n---\n\n## 2. Batch Requests Into One Prompt \nThree messages equal three full context reloads. One message with three asks equals one reload. \n\n* **Template:**\n  > Do all of the following in one response:\n  > 1. A 3-sentence summary\n  > 2. The 5 key points as bullets\n  > 3. A 10-word headline\n\n---\n\n## 3. Start a Fresh Chat Often \nLong chats burn millions of tokens reading old history. Reset every 15 to 20 messages.\n\n* **Handoff Prompt:**\n  > Summarize this chat as a handoff document: what we are working on, what is done, what is open, and key constraints. Make it short so I can paste it into a new chat.\n\n---\n\n## 4. Turn Off Extended Thinking \nExtended thinking creates massive output tokens before answering. Output tokens cost way more. Keep it off unless you need heavy reasoning.\n\n---\n\n## 5. Convert Files to Markdown \nPDFs and HTML carry dead weight like fonts, layouts, and images that drain tokens. \n\n* **Action:** Convert files to clean Markdown before uploading. It cuts token weight by up to 90% \ud83d\udcc9.\n\n---\n\n## 6. The Session Reset Trick \nUsage windows start at your very first message of the day.\n\n* **Action:** Send a dummy message early in the morning. Come back hours later for real work. You get two solid sessions instead of getting blocked midday.\n\n---\n\n## 7. Work Off-Peak\nPeak hours bring server congestion and faster session burn. Shift heavy workloads to early mornings, late nights, or weekends.",
       "is_shallow": false,
-      "path": "/items/guides/avoid-chat-limits"
+      "path": "/items/learning/avoid-chat-limits"
     },
     {
       "id": "build-10-000-websites-with-ai",
       "name": "Build $10,000 Websites with AI Opus 5",
       "description": "Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -160,13 +160,13 @@
       "url": "",
       "content": "## 1. Setup\nYou need two things:\n\nAI Code running in the desktop app.\n\nHiggsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.\n\n#### Connecting Higgsfield\n1. Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates\n2. Copy the MCP URL\n3. In AI Code: Connectors -> Add custom connector\n4. Paste the URL and name it Higgsfield\n5. Approve the authorization page\n\nDone. No API keys.\n\n#### Confirm it worked\nBefore starting a build prompt, run this:\n\n> List the Higgsfield MCP tools you have access to.\n\nIf it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder.\n\n#### Which model\nUse AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.\n\n---\n\n## 2. Build One: Luxury Real Estate\nThe site: THE LEDGE, a $24M cantilevered concrete-and-glass house on the Big Sur cliffs.\n\nCopy the whole thing. Paste into AI Code in an empty folder.\n\n```text\nBuild a fully animated marketing site for THE LEDGE: a $24,000,000 cantilevered\nconcrete-and-glass house on the Big Sur cliffs, listed by MERIDIAN.\n\nGenerate ALL visual assets with the Higgsfield MCP FIRST, then build the site around\nthem. No placeholder images anywhere. Generate the assets, confirm the media IDs,\nthen wire everything in.\n\nTone: modern, bold, architectural. Think a modern design magazine, not a heritage\nbrokerage: oversized sans-serif, hard edges, asymmetric grid, off-white and raw\nconcrete with one electric accent. Nothing ornate, nothing nostalgic, no serif type,\nno gold, no script.\n\n## Asset generation order (do this first)\n\n1. **The master exterior**: the house at golden hour, board-formed concrete,\n   full-height glass, a deep cantilever over the cliff edge, Pacific behind it.\n   Studio-grade architectural photography, wide lens, hard shadows. This is the main\n   asset, and everything else comes from it.\n\n2. **Six interiors**, generated image-to-image FROM the master so materials, light\n   temperature, and grade match exactly: living volume, kitchen, primary suite,\n   bathroom, stair core, pool deck. Same concrete, same glass, same sun angle.\n\n3. **Three detail shots**: concrete texture, a steel-and-glass junction, water on\n   stone. Tight, abstract, near-macro.\n\n4. **Two cutout elements** on clean backgrounds with background removal: an isolated\n   massing view of the house, and a section-cut diagram of the site.\n\n5. **The drone sequence**: four SEPARATE clips, Seedance 2.0, 4K, 4-5 seconds each,\n   colour- and identity-matched to the master. The sequence moves from outside to\n   inside, one space per clip:\n   - **Approach**: fast push along the cliff face, house entering frame late\n   - **Living volume**: hard drop past the cantilever and through the glass into the\n     main living space, concrete walls, ocean filling the far wall\n   - **Kitchen**: quick lateral sweep across the island, steel and stone\n   - **Primary suite**: rapid pull-back from the bed to reveal the full glass wall\n     and the drop beyond it\n\n   **Fast, decisive camera moves, not slow drifts.** Each clip should feel like a cut\n   in a trailer. Combine the four into one continuous file with hard cuts, no\n   crossfades. Note the exact timestamp where each clip begins in the final file.\n\n## Stack\n\nReact + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation,\nThree.js (r128) for depth, Lenis for smooth scroll, Framer Motion for\nmicro-interactions. Desktop-first, 1440px.\n\n## Sections in order\n\nHero -> Figures -> The House (pinned image, scrolling text) -> **Drone reveal\n(mid-scroll)** -> Interiors gallery -> Site & plan -> Enquiry/footer.\n\n## Copy\n\nWrite like a modern architecture listing, not a luxury brochure. Short declarative\nsentences. Every description carries one concrete detail nobody could guess: how the\nconcrete was poured, what the glass is rated for, how far the cantilever reaches.\nDirect and clear. Avoid fluff.\n\n## Animation\n\nScroll-triggered reveals throughout, pinned sections, smooth scroll. Custom cursor.\nHero type and imagery respond subtly to the pointer: parallax offset plus light\ndirection. Interior cards tilt in 3D on hover. Figures count up on enter. Everything\nsnappy and decisive: short durations, slight overshoot. Nothing floats or drifts.\n\n## Drone reveal: the main feature\n\nDedicated pinned section, roughly mid-page. Focus most effort here.\n\nAs the user scrolls in, the video **snaps** from a small framed element\nto full-bleed (fast scale-up, not a gradual grow) then plays its full run of quick\ncuts at natural speed before scroll releases. Video loops, muted, autoplay,\nplaysinline. **Never seek it, never tie playback to scroll position**: scroll\ncontrols the frame around it, never the footage inside it.\n\n**Each cut carries its own information.** Overlay a data card, bottom-left, that\nchanges as the footage moves into each new space:\n\n| Cut | Label | Figure | Line |\n|---|---|---|---|\n| 01 | THE APPROACH | 1.4 ACRES | Private road, no through traffic. |\n| 02 | LIVING VOLUME | 24 FT CEILING | The cantilever hangs 40 feet over open air. |\n| 03 | KITCHEN | 19 FT ISLAND | Single slab, quarried and cut on site. |\n| 04 | PRIMARY SUITE | 900 SQ FT | The glass wall is structural. |\n\nCard layout: a small accent counter (`01 / 04`), the label in wide-tracked caps, the\nfigure in oversized display type, one line beneath. Each card cuts out and the next\ncuts in: hard, fast, no crossfade, matching the energy of the edit.\n\n**Sync mechanism:** drive the card changes from the video's own\n`timeupdate` event, switching at the known clip start timestamps. Reading\n`currentTime` works well; never assign to it. Do not drive the cards from scroll\nprogress, because scroll and playback run independently and the text will drift out of sync\nwith the footage.\n\nSplit the overlay headline cleanly above and below the video frame so type never\ncollides with the footage. As the frame expands, the two halves push apart to the\nedges of the viewport. A thin accent line tracks the expansion. Subtle parallax on the\nsurrounding page behind it.\n\n## Deliverable\n\nProduction-ready code, all Higgsfield assets integrated, no placeholder images.\nPrioritize visual impact over everything.\n```\n\n#### Why this prompt works\n- **Assets before code.** The site is designed around real images instead of AI guessing at layout and backfilling. This ordering decision improves overall build quality.\n- **One master asset, everything derived from it.** The six interiors are generated image-to-image from the exterior, not independently. This maintains consistent lighting and style.\n- **Detail is spent unevenly on purpose.** The drone reveal gets a full page of specific direction, while everything else stays concise. Be precise where the main mechanic lives.\n- **Never scrub video with scroll.** Scrubbing video with scroll often breaks these builds. Scroll should control the frame around a video, never the playback position inside it. Reading `currentTime` works fine, but writing to it stutters.\n\n---\n\n## 3. Iteration Prompts\nThe first output is a starting point, and iterating makes the final result stand out.\n\n#### Pass one: parallax\n```text\nAdd a parallax scroll effect to the hero: background moving at a different rate\nto the foreground as you scroll down the page.\n```\nThis single addition helps make the site look polished.\n\n#### Pass two: the construction timelapse\n```text\nAdd a timelapse section showing the estate being built: the structure rising out\nof the ground and the property taking shape.\n\nGenerate the stills with Higgsfield first, each one derived from the previous so the\ncamera position and lighting stay locked. Then build the transitions between them.\nPlay it on scroll-into-view, not scroll-scrubbed.\n```\nTakes roughly four minutes end to end, creating a clean feature for the site.\n\n#### Other iteration prompts worth keeping\n```text\nMake the hero type larger and tighter. Reduce the line height. Increase the\ncontrast between the display and body sizes.\n```\n```text\nThe section transitions are too soft. Make them hard cuts: no fades between\nbackground colours.\n```\n```text\nAdd a custom cursor: a small ring that scales up over interactive elements.\n```\n```text\nOpen the site at 1440px, check it yourself, and fix anything that's misaligned,\noverlapping, or trapped below the fold. Report what you found.\n```\nRunning that last prompt helps ensure proper layout alignment across the page.\n\n---\n\n## 4. Build Two: Nacho Macho\nSame workflow, different aesthetic. This shows the workflow works across varied styles.\n\n#### The flavour system\n| # | Name | Colour | Note |\n|---|---|---|---|\n| 01 | Nacho Classico | `#F5A623` | golden, the original |\n| 02 | Chili Lime Slap | `#8FD14F` | lime, sharp, acidic |\n| 03 | Blazing Habanero | `#E23E2F` | hot red, second-chip heat |\n| 04 | Blue Corn Crunch | `#2B5FD9` | electric blue, stone-ground blue corn |\n\nOne colour per flavour. The main design system builds directly from this table.\n\n#### The prompt\n```text\nBuild a fully animated marketing site for NACHO MACHO: a small-batch tortilla chip\nbrand. Tagline: *Loud snack. No apologies.*\n\nGenerate ALL visual assets with the Higgsfield MCP FIRST, then build the site around\nthem. No placeholder images anywhere. Generate the assets, confirm the media IDs, then\nwire everything in.\n\nTone: loud, colourful, high-energy. Chunky display type, hard colour blocking, halftone\nand paper texture, thick black outlines with hard offset shadows: no blur, no soft\nshadows, no gradients between sections. Direct, confident packaging design.\n\n**Important:** the boldness comes from graphic design (colour, type, texture,\ngeometry). Do not use cultural caricature, sombreros, mustaches, or stereotype imagery\nof any kind. The brand focuses strictly on the chips.\n\n## The four flavours\n\n| # | Name | Colour | Note |\n|---|---|---|---|\n| 01 | Nacho Classico | `#F5A623` golden | the original |\n| 02 | Chili Lime Slap | `#8FD14F` lime | sharp, acidic |\n| 03 | Blazing Habanero | `#E23E2F` hot red | second-chip heat |\n| 04 | Blue Corn Crunch | `#2B5FD9` electric blue | stone-ground blue corn |\n\n## Asset generation order (do this first)\n\n1. **The master bag**: a standing foil chip bag, front-facing, studio lit, soft\n   shadow, plain background, Nacho Classico golden colourway. Run background removal.\n   This is the main asset, and everything else comes from it.\n\n2. **Three flavour variants**, generated image-to-image FROM the master bag so the\n   shape, lighting, shadow, and label position stay identical: only the colourway and\n   flavour name change. Lime, hot red, electric blue. Background removal on all three.\n   They should appear as one bag changing flavour.\n\n3. **The chip journey stills**: a single tortilla chip with consistent angle and\n   lighting across all four images. Generate each image-to-image from the first:\n   - plain, unseasoned, pale corn\n   - lightly dusted with seasoning\n   - fully seasoned, heavy red-gold coating\n   - fully seasoned, loaded with dip on one corner\n\n   Background removal on all four.\n\n4. **Seasoning particles**: loose seasoning specks and dust on a plain background,\n   background removed. Include individual chip cutouts at varied angles for\n   scatter elements.\n\n5. **Four ingredient cutouts**: jalape\u00f1o, lime half, corn cob, dried chilli. Same\n   lighting as the chip set, background removed.\n\n6. **A bowl of dip**: thick nacho cheese or salsa in a ceramic bowl, shot from a\n   slight three-quarter angle, background removed.\n\n7. **Two texture plates**: a flat-lay of crushed chips and seasoning from directly\n   above, and an abstract halftone-and-colour field with no objects.\n\n## Stack\n\nReact + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation, Lenis for\nsmooth scroll, Framer Motion for micro-interactions. Desktop-first, 1440px.\n\n**No Three.js and no 3D geometry**: every effect below uses CSS transforms and\nimage swaps.\n\n## Sections in order\n\nHero bag spin -> Chip journey (three linked sections) -> Flavour lineup -> Discount wheel\n-> Footer.\n\n## Copy\n\nShort and direct. Headlines are clear statements. Every flavour description carries one\nconcrete detail: how it's fried, where the corn comes from, when the heat arrives.\n\n## Hero: the bag spin\n\nPin the section for roughly 300vh. The bag sits centred and **rotates in place on its\nvertical axis** as the user scrolls without moving position.\n\nMechanism: set up rotation in 2D. Drive `scaleX` from scroll progress so the bag\nsqueezes to zero width at each quarter-turn, then expands back out. **Swap to the next\nflavour image at the exact frame `scaleX` hits zero** to keep the transition smooth.\nThree full rotations across four flavours. Tie everything to `ScrollTrigger` with `scrub`,\nso scrolling backward spins it back and cycles colours in reverse.\n\nAs each flavour lands, the page background changes directly to that flavour's colour and the\nflavour name swaps beneath the bag. A counter reads `01 / 04`. Scattered chip and\ningredient cutouts drift behind the bag with parallax depth.\n\n`NACHO MACHO` in large display type, split so the bag sits between the two words:\n`NACHO` behind, `MACHO` in front.\n\n## Chip journey: key section\n\n**One tortilla chip travels through three consecutive sections as a single persistent\nelement.** The chip remains visible throughout. Build it as one fixed-position element\nliving above all three sections, with its transform driven by a single continuous\nScrollTrigger across the full range.\n\nThe chip moves in an arc across the screen (right side, left, then centre)\nrotating slowly as it travels. Text content sits opposite the chip's current position.\n\n**Stage 1: Stone-ground.** Chip enters plain and unseasoned, upper right. Copy on\nthe left about the corn.\n\n**Stage 2: Seasoned heavy.** As the chip crosses to the left, seasoning particles\nfall from the top of the viewport toward it, and the chip image transitions from\nplain to lightly dusted to fully seasoned in steps timed to the particles.\nCopy on the right.\n\n**Stage 3: Meet the dip.** The chip travels down to centre while a bowl of dip rises from\nthe bottom of the viewport. The chip tilts, dips into it, and the image swaps to the\nloaded-with-dip version. Hold, then release the pin. Copy above.\n\nAll motion uses `transform` and `opacity` only.\n\n## Flavour lineup\n\nFour cards in a row with black outlines, offset shadows, each angled slightly\nbetween -3 deg and 3 deg. Bag render, flavour name, one line of description, and\na heat rating. Cards tilt toward the cursor on hover.\n\n## Discount wheel\n\nPinned section. A rotating drum holds capsules in the four flavour colours. Scroll\nprogress spins the drum, starting faster and slowing down as the pin ends.\n\nAt the end of the pin, one capsule drops through a chute, lands, and opens to\nshow a discount code in large display type. The page background changes to that\ncapsule's flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`\nbutton compress to `scale(0.96)` on click and bounce back.\n\nBuild the drum, capsules, and chute from CSS shapes and the generated cutouts without using\ncanvas or physics engines. Scroll drives rotation, and the drop runs as a GSAP sequence\nwhen the pin completes.\n\n## Footer\n\nSlow marquee: `NACHO MACHO . LOUD SNACK . NO APOLOGIES .` on a dark background, rotated\n-2 deg. Wordmark, `(c) 2026 Nacho Macho Snack Co.`, three links with an underline effect\non hover.\n\n## Deliverable\n\nProduction-ready code, all Higgsfield assets integrated, no placeholder images.\nPrioritize visual impact over everything.\n```\n\nCheck the four chip stills side by side before building. If the chip's shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.\n\n---\n\n## 5. The Live-Action Pass\nRun this second prompt after building the site to add real video content.\n\n```text\nAdd one more section to the Nacho Macho site, between the discount wheel and the\nfooter.\n\nThis section uses live-action footage to contrast with the graphic style of the page.\n\n## Generate with the Higgsfield MCP\n\n**One hero video**, Seedance 2.0, 4K, 8 seconds, loop-friendly:\nTwo friends on a couch sharing a bowl of tortilla chips: a hand reaching in, a chip\ndipped, and natural interaction. Warm indoor evening light, handheld feel,\nshallow depth of field. Documentary style with natural lighting and realistic textures.\n\n**Three realistic stills** with matching lighting: a hand reaching into the\nbowl, a close-up of a chip breaking, and a bag opening. Place these as side cards\nflanking the video.\n\nThe Nacho Macho bag should remain visible and clear in the video and at least one still,\nmatching the bag design on the site.\n\n## The section\n\nFull-bleed video, autoplay, muted, loop, playsinline. **Never seek it, never tie\nplayback to scroll position**: scroll controls the frame around it, never the footage\ninside it.\n\nAs the user scrolls in, the video expands from a framed element to full-bleed\nwith a fast scale-up. The three stills sit alongside as small offset cards that\nslide in from the edges on a slight rotation, using black outlines and hard shadows to\nmatch the site style.\n\nOne overlay headline placed cleanly above and below the video frame so text stays clear\nof the footage.\n\nKeep the surrounding background colour and texture consistent with the rest of the page.\n```\n\n---\n\n## 6. The Universal Template\nSwap the placeholders to adapt this layout for other brands.\n\n```text\nBuild a fully animated marketing site for [BRAND NAME]: [ONE-LINE DESCRIPTION OF\nWHAT IT IS AND WHO IT'S FOR].\n\nGenerate ALL visual assets with the Higgsfield MCP FIRST, then build the site around\nthem. No placeholder images anywhere. Generate the assets, confirm the media IDs, then\nwire everything in.\n\nTone: [THREE ADJECTIVES]. Think [REFERENCE CATEGORY: e.g. \"a modern design magazine\",\n\"packaging aisle\", \"an auction catalogue\"], not [WHAT IT SHOULD NOT FEEL LIKE].\n[TYPOGRAPHY DIRECTION]. [COLOUR DIRECTION]. Explicitly avoid: [BANNED VISUAL CLICHES\nFOR THIS CATEGORY].\n\n## Asset generation order (do this first)\n\n1. **The master asset**: [THE MAIN IMAGE: product, building, or space. Describe lighting, angle, background, and mood clearly.]\n   This is the main asset, and everything else comes from it.\n\n2. **[N] variants**, generated image-to-image FROM the master so [WHAT STAYS\n   IDENTICAL: lighting, angle, shape, grade] match exactly: only [WHAT CHANGES]\n   changes. [LIST THEM].\n\n3. **[SUPPORTING STILLS]**: [WHAT THEY ARE AND HOW MANY]. Same lighting language\n   across the set.\n\n4. **[CUTOUT ELEMENTS]**: [WHAT THEY ARE], on clean backgrounds, with background\n   removal.\n\n5. **[VIDEO, IF ANY]**: Seedance 2.0, 4K, [N] clips of [DURATION] each,\n   colour-matched to the master. [DESCRIBE EACH CLIP IN ONE LINE.] [CAMERA ENERGY:\n   fast and decisive, or slow and floating.] Combine into one file.\n\n## Stack\n\nReact + Vite, Tailwind for layout, GSAP + ScrollTrigger for scroll animation, Lenis\nfor smooth scroll, Framer Motion for micro-interactions. Desktop-first, 1440px.\n[ADD Three.js r128 ONLY IF YOU NEED 3D.]\n\n## Sections in order\n\n[SECTION 1] -> [SECTION 2] -> **[SHOWPIECE SECTION]** -> [SECTION 4] -> [SECTION 5] ->\nfooter.\n\n## Copy\n\nWrite like [WHO THE VOICE BELONGS TO]. [SENTENCE STRUCTURE RULE: e.g. \"short\ndeclarative sentences\"]. Every description carries one concrete detail: [EXAMPLES OF DETAILS]. Avoid: [3-5 BANNED WORDS FOR THIS CATEGORY].\n\n## Animation\n\nScroll-triggered reveals throughout, pinned sections, smooth scroll. Custom cursor.\n[HOW ELEMENTS RESPOND TO POINTER]. [HOVER BEHAVIOUR]. Everything [SNAPPY AND DECISIVE / SLOW AND FLOATING].\n\n## [SHOWPIECE NAME]: the main feature\n\nDedicated pinned section, roughly [WHERE ON THE PAGE]. Focus most effort here.\n\n[DESCRIBE THE MECHANIC: specify what pins, what moves, what drives it, what changes, and initial/final states.]\n\n[IF IT INVOLVES VIDEO: Video loops, muted, autoplay, playsinline. Never seek it, never\ntie playback to scroll position: scroll controls the frame around it, never the\nfootage inside it.]\n\n[IF TEXT SYNCS TO SOMETHING: state exactly what drives the sync.]\n\n## Deliverable\n\nProduction-ready code, all Higgsfield assets integrated, no placeholder images.\nPrioritize visual impact over everything.\n```\n\n#### Guidance\n- **The master asset is central.** Spend time refining it, as other images inherit its lighting and style.\n- **Pick one main feature.** Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.\n- **Banned words improve copy.** Setting clear negative constraints on overused words keeps the tone natural.\n- **Specify models directly.** Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.",
       "is_shallow": false,
-      "path": "/items/guides/build-10-000-websites-with-ai"
+      "path": "/items/learning/build-10-000-websites-with-ai"
     },
     {
       "id": "build-3-ai-agents-in-base44",
       "name": "Build 3 AI Agents in Base44 \u2014 Complete Prompt Pack",
       "description": "A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -176,13 +176,13 @@
       "url": "",
       "content": "## Before You Start\n\n- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)\n  *(Prompts below ready to use. Swap bracketed parts for your own details.)*\n- **Required Accounts:** Free/trial accounts for tools to connect:\n  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)\n  - **Publisher:** LinkedIn, X\n  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack\n\n> [!TIP]\n> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.\n\n#### Standard Setup\n\n1. Name the agent\n2. Write the identity under \"About the agent\"\n3. Fill in Memory (your background details)\n4. Connect plugins\n5. Enter the job prompt\n6. Set permissions and select the model\n7. Configure automation\n\n---\n\n## Agent 1: Vesper (Inbox Triage)\n\n**Difficulty:** Beginner | **Build Time:** ~2 minutes\n\n#### Step 1: Name\n`Vesper`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.\n\nYou remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.\n\nFocus on being practical and direct.\n```\n\n#### Step 3: Memory Tab\n- **My name:** `[Your first name]`\n- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`\n- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`\n- **What I'm working on right now:** `[current project].`\n- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`\n- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like \"just circling back\"].`\n- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`\n\n*(Leave \"Things the agent has learned about you\" alone: it updates automatically).*\n\n#### Step 4: Plugins\n- Gmail\n- Google Calendar\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nRead incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.\n\nRules:\n- Save replies as drafts only. Do not send messages automatically.\n- Follow the communication style defined in Memory: short, direct, and concise.\n- If someone requests a meeting, check the calendar first and offer two or three open timeslots.\n- Group newsletters, receipts, and system notifications at the bottom of the summary as a total count.\n- When flagging an item, include one line explaining specifically why it needs my attention.\n\nFormat your summary like this:\nNEEDS ATTENTION (with a one-line explanation for each)\nDRAFTED (subject line + recipient)\nFILTERED (total count by category)\n```\n\n#### Step 6: Set Permissions\n> [!WARNING]\n> Go to **Settings -> Security -> Agent Permissions**:\n> - **Update data:** OFF\n> - **Delete data:** OFF\n> \n> Check these settings before linking accounts.\n\n- Ensure **Auto-detect secrets** is ON to store API keys securely.\n\n#### Step 7: Send to WhatsApp\n1. Go to **Customize -> Channels -> Connect**\n2. Scan the QR code and confirm the link.\n3. Add this instruction:\n   ```text\n   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.\n   ```\n\n#### Step 8: Automate\n```text\nRun this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.\n```\n\n---\n\n## Agent 2: The Publisher (LinkedIn + X)\n\n**Difficulty:** Intermediate | **Build Time:** ~5 minutes\n\n#### Step 1: Name\n`[Your name]'s Publisher`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou write posts matching my personal style and voice.\n\nUse clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.\n\nGuidelines:\n- Avoid buzzwords, generic intros, or unnecessary filler phrases.\n- Avoid repetitive short lines created purely for emphasis.\n- Do not invent fictional stories, metrics, or client examples. Ask for details if an example is needed.\n- Focus on one key concept per post.\n\nKeep content clear, specific, and practical.\n```\n\n#### Step 3: Memory Tab\n- **I post about:** `[your topics]`\n- **My audience:** `[who they are, their experience level, their main goals]`\n- **My voice:** `[3-4 lines describing your communication style]`\n- **Words and phrases I never use:** `[list specific words to avoid]`\n- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`\n\n> [!IMPORTANT]\n> Include actual past posts. This helps establish the writing style more accurately than general descriptions.\n\n#### Step 4: Plugins\n- LinkedIn\n- X (Twitter)\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nTake a single topic and prepare separate versions for LinkedIn and X.\n\nLinkedIn (longer version):\n- Place the core message in the opening line.\n- Use 150-300 words with short paragraphs.\n- Include one specific example or data point.\n- End with a practical key takeaway.\n\nX (short version):\n- Stay under 280 characters, or use a short thread if necessary.\n- Focus the message in the opening line.\n- Do not include hashtags.\n\nShow both versions for review before scheduling. Once approved, schedule the posts.\n```\n\n#### Step 6: Memory Scope\nGo to **Sharing and Access -> Memory**:\n- **No memory:** Starts each chat with no saved context.\n- **Separated:** Retains context within individual conversations while keeping them isolated.\n- **Shared:** Shares learned details across all conversations.\n\n> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.\n\n#### Step 7: Automate\n```text\nEvery Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.\n```\n\n---\n\n## Agent 3: The Analyst\n\n**Difficulty:** Advanced | **Build Time:** ~10 minutes\n\n#### Step 1: Name\n`The Analyst`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou monitor site metrics and business data, reporting changes clearly.\n\nState metric drops or performance changes directly at the beginning of the report.\n\nFocus on significant shifts in data rather than routine numbers. If traffic dropped, state the percentage decrease and the underlying cause directly.\n\nDistinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.\n\nIf metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.\n```\n\n#### Step 3: Memory Tab\n- **My business:** `[your products or services, target market]`\n- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`\n- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`\n- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`\n- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`\n\n#### Step 4: Plugins\n- Google Analytics\n- CRM (HubSpot, etc.)\n- Slack *(Setup: Custom -> Channels -> Select channel)*\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nCheck daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.\n\nGuidelines:\n- Compare performance against the same period last month and the same day last week.\n- Flag metric variations larger than 15%.\n- For CRM tracking: report lead counts by stage and flag items inactive for over 7 days.\n- If a traffic channel declines, identify the specific pages or campaigns driving the drop.\n- Clearly separate confirmed metrics from analytical estimates.\n\nReport structure:\nNOTABLE CHANGES (largest shifts listed first)\nTRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)\nPIPELINE STATUS (stage counts and inactive leads)\nANALYSIS (clearly marked as hypothesis)\n```\n\n#### Step 6: Model Configuration\n> [!IMPORTANT]\n> Go to **Settings -> General**:\n> - **Chat model:** Handles interactive sessions.\n> - **Automation model:** Handles scheduled background runs.\n>\n> Select a high-capability model for the **Automation model** to support automated data analysis.\n\n#### Step 7: Automate\n```text\nRun this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.\n```\n\n---\n\n## Ship It: Share Your Agents\n\n- Go to **Sharing -> Public Template Link**.\n- Connected accounts and API keys do not transfer with template links.\n\n---\n\n## Quick Reference Table\n\n| Setting | Location | Recommendation |\n| :--- | :--- | :--- |\n| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |\n| **Auto-detect secrets** | Settings -> Security | `ON` |\n| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |\n| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |\n| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |\n| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |\n| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |\n\n---\n\n## Troubleshooting\n\n- **\"My replies sound artificial.\"**\n  - Provide additional reference examples in Memory to better reflect your writing style.\n- **\"The agent flags minor details.\"**\n  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`\n- **\"The background task does not update data.\"**\n  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.\n- **\"The agent reports estimated data as fact.\"**\n  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`",
       "is_shallow": false,
-      "path": "/items/guides/build-3-ai-agents-in-base44"
+      "path": "/items/learning/build-3-ai-agents-in-base44"
     },
     {
       "id": "build-5k-month-ai-websites",
       "name": "How to Sell $5,000/Month AI Websites",
       "description": "A complete workflow for building high-ticket, automated AI websites for local businesses using GoHighLevel and AI tools.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Web Design",
@@ -193,13 +193,13 @@
       "url": "",
       "content": "Stop selling basic $300 websites generated by ChatGPT. To charge high-ticket retainers ($3k-$5k/month), you must sell **systems**, not just sites. This means integrating CRMs, automated follow-ups, and AI booking tools.\n\n#### Step 1: Scrape Competitor Formats\n- Go to the **Facebook Ad Library** and find competitors in your niche (e.g., bathroom remodeling) that are running ads.\n- If they are running ads, their website converts.\n- Copy their URL and use **Firecrawl** to scrape the site for its `markdown` (structure) and `branding` (colors).\n\n#### Step 2: Generate the Foundation\n- Find your target client's existing (outdated) website and scrape their logo/branding.\n- Paste the competitor's markdown + your client's branding into **Claude AI** or the **GoHighLevel AI Studio**.\n- Prompt: *\"Make me a website similar to this structure, optimized for cold traffic conversions, using this new branding.\"*\n\n#### Step 3: Create Authentic UGC Images with AI\n- Don't use obvious AI-generated images or stock photos.\n- Go to **Pinterest**, search for organic UGC (User Generated Content) style photos in the niche.\n- Use tools like **Hixfield**, **Nano Banana Pro**, or **Midjourney** as an image-to-image generator.\n- Prompt: *\"Generate an image of a modern bathroom, UGC iPhone style picture, using the layout of the reference photo.\"*\n- You can even generate perfect \"Before & After\" split-screen photos using AI.\n\n#### Step 4: Add Backend Automation (The $5k Value)\n- Build the site inside **GoHighLevel** so it natively connects to a CRM.\n- **Automated Follow-ups**: When a lead fills a form, immediately trigger an SMS (\"Hey, got your request, calling in 5 mins!\").\n- **Reactivation Campaigns**: If a lead goes cold, automate an email/SMS 60 days later to revive them.\n- **Booking & Payments**: Allow customers to book calendar slots and pay directly on the site.\n\n#### Step 5: Sales\n- Cold call, DM, or SMS local businesses.\n- Send them a preview link of the completed AI website (built in 10 minutes) before they even pay. \n- Upsell them on the backend automation and ad-management.",
       "is_shallow": false,
-      "path": "/items/guides/build-5k-month-ai-websites"
+      "path": "/items/learning/build-5k-month-ai-websites"
     },
     {
       "id": "build-a-self-updating-llm-knowledge-base",
       "name": "Build a Self-Updating LLM Knowledge Base",
       "description": "Blog post on building a self-updating LLM knowledge base",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "LLM",
@@ -208,14 +208,14 @@
       ],
       "url": "https://bholmes.dev/blog/llm-knowledge-bases/",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/build-a-self-updating-llm-knowledge-base"
+      "is_shallow": true,
+      "path": "/items/learning/build-a-self-updating-llm-knowledge-base"
     },
     {
       "id": "build-an-award-worthy-f1-landing-page",
       "name": "Build an Award-Worthy F1 Landing Page",
       "description": "Step-by-step instructions for using AI Web Builder and AI Media Generator to scaffold a premium Formula 1 landing page with cinematic visuals.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -225,13 +225,13 @@
       "url": "",
       "content": "## Step 1 \u2014 Build the Landing Page in AI Web Builder\n\nOpen your AI Web Builder and paste the prompt below. It will scaffold the entire site \u2014 hero section, gallery, animations, responsive design \u2014 all in about two minutes.\n\n#### Prompt #1 \u2014 Initial Landing Page Build:\n> Create a premium landing page for Formula 1 driver Lewis Hamilton. Include a full-screen hero section with space for a background video element and bold headline text overlay. Add a gallery/showcase section, a stats section with career highlights, a quote section, and a call-to-action section. Use a dark color scheme with racing-inspired accents. Typography should be clean and modern. All sections should have smooth scroll-triggered animations. Make it fully responsive.\n\nPreview the result. The layout will be solid, but the visuals will still look generic. That's what we fix next.\n\n---\n\n## Step 2 \u2014 Generate Premium Visuals in AI Media Generator\n\nThis is what separates a template from a professional site. AI Media Generator has two tools we'll use:\n* **Cinema Studio** \u2014 for 360\u00b0 camera movements (like a car reveal)\n* **Road Rush model** \u2014 trained specifically on racing footage\n\n#### Cinema Studio \u2014 Hero Shot\n#### Prompt #2 \u2014 360\u00b0 Car Shot:\n> Dramatic 360-degree rotation around a Formula 1 car, studio lighting, dark background, cinematic, high detail\n\n#### Gallery Images\n#### Prompt #3 \u2014 Helmet Close-Up:\n> Close-up of an F1 racing helmet, dramatic studio lighting, dark background, sharp detail, cinematic\n\n#### Prompt #4 \u2014 Steering Wheel POV:\n> F1 steering wheel from driver's POV, cockpit view, carbon fiber detail, professional lighting\n\n#### Prompt #5 \u2014 Wide Track Shot:\n> Wide shot of a Formula 1 car on track, motion blur background, golden hour lighting, cinematic composition\n\n#### Road Rush \u2014 Dynamic Racing Video\n#### Prompt #6 \u2014 Racing Video:\n> Dynamic footage of a Formula 1 car at high speed, low camera angle, aggressive motion blur, camera tracking the car, broadcast-quality racing shot\n\n---\n\n## Step 3 \u2014 Convert Video to Frames\n\nAI Web Builder can't process video directly, so we convert it to image frames:\n1. Go to an online video converter (e.g., ezgif.com)\n2. Select **Video to JPG**\n3. Upload your hero video\n4. Download the folder of sequential JPG frames\n\n---\n\n## Step 4 \u2014 Add Visuals to the Website\n\nUpload your generated AI assets into the AI Web Builder (create a folder called `\"assets\"`), then use this prompt:\n\n#### Prompt #7 \u2014 Integrating Visuals:\n> Integrate the uploaded assets into the website. Use the hero-frames folder as a background video sequence in the hero section with text overlay. Place the gallery images in a three-column grid layout with hover effects. Ensure the hero text has enough contrast to be readable over the video.\n\n---\n\n## Step 5 \u2014 Iterate and Polish\n\nThis is where you go from \"good enough\" to award-worthy. Use these prompts one at a time:\n\n#### Prompt #8 \u2014 Typography Change:\n> Change the headline fonts to a bolder, more angular typeface that communicates speed and aggression. Think racing brand typography \u2014 punchy, not safe.\n\n#### Prompt #9 \u2014 Hover Effects:\n> Update the gallery card hover effects. Instead of a basic scale-up, add a smooth lift animation where the card rises with a soft drop shadow, like it's accelerating off the page. Make the transition smooth and premium-feeling.\n\n#### Prompt #10 \u2014 Dark/Light Mode Toggle:\n> Add a dark and light mode toggle to the website. Dark mode should feel edgy and sporty with deep blacks, fitting the F1 aesthetic. Light mode should use a cream background for a softer but still sporty look. The transition between modes should be fluid, not abrupt. Include a toggle button in the header.\n\n#### Prompt #11 \u2014 CTA Button Glow:\n> Add a subtle glow effect to the main call-to-action button and make the hover transition faster. It should feel urgent, like you're about to hit the throttle.\n\n---\n\n## Step 6 \u2014 Deploy with GitHub + Netlify\n\n1. In your AI Web Builder, click **Publish to GitHub** \u2014 it creates a repo and pushes your code.\n2. Go to **Netlify** \u2192 connect your GitHub account.\n3. Select the repository \u2192 click **Deploy**.\n4. Netlify builds, optimizes, sets up CDN + SSL (~40 seconds).\n5. Your site is live with a URL.\n\nTo update: make changes in AI Web Builder \u2192 push to GitHub \u2192 Netlify auto-redeploys. No FTP, no cPanel.\n\n> **Note:** This workflow works for any niche \u2014 luxury brands, fitness, tech startups. Swap the visuals and prompts for your niche and follow the same framework.",
       "is_shallow": false,
-      "path": "/items/guides/build-an-award-worthy-f1-landing-page"
+      "path": "/items/learning/build-an-award-worthy-f1-landing-page"
     },
     {
       "id": "build-insane-animated-websites",
       "name": "Build Insane Animated Websites \u2014 Full Setup Guide",
       "description": "A full setup guide for connecting Higgsfield MCP to your AI to generate custom visual assets and iterative feedback for animated websites.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -241,13 +241,13 @@
       "url": "",
       "content": "## Setup \u2014 Connect Higgsfield MCP to AI\n\n1. Sign up at Higgsfield AI (`https://higgsfield.ai/mcp`).\n2. Copy MCP URL.\n3. In settings, add custom connector and paste URL.\n4. Complete quick auth flow.\n5. All image/video models accessible directly (Nano Banana Pro for images, Seedance 2.0 for 4K video).\n\n## Core Principle\n\n**Generate visual assets first. Build site around them.**\nAvoid placeholder images. Generating real assets first establishes exact dimensions, color palette, and visual weight.\n\n## Iterative Feedback Loop\n\nFirst render rarely final. Give specific, sequential feedback:\n- Logo on two lines -> Make logo single line.\n- Can angle wrong -> Face can directly to camera.\n- Color transitions rough -> Improve flavor scroll transition.\n\n---\n\n## Build 1 \u2014 RISE Hydration Drink\n\n#### Overview\nAnimated marketing site for premium hydration drink brand.\n\n#### Tech Stack\n- Single-page site: React, Vite, Tailwind CSS\n- GSAP + ScrollTrigger (scroll animation)\n- Three.js (r128 for 3D elements)\n- Lenis (smooth scroll)\n- Framer Motion (micro-interactions)\n\n#### Section Layout\n1. Hero\n2. Product Showcase\n3. Seedance Video Reveal (Mid-scroll)\n4. Ingredients / Benefits\n5. Hydration Science\n6. Flavor Spin Section\n7. CTA / Footer\n\n#### Flavor Variants\n- Berry (Red)\n- Lime / Citrus (Green)\n- Mango / Citrus (Orange)\n- Blue Raspberry / Electrolyte (Blue)\n\n#### Asset Generation Workflow\n1. Berry cluster hero image.\n2. Master hero can: sleek look, condensation, studio lighting, gradient backdrop.\n3. 4 flavor variants: image-to-image from master can (identical lighting/framing, distinct color identity).\n4. Ingredient/particle imagery (electrolytes, fruit, water splashes) with background removed.\n5. Abstract liquid and gradient background textures.\n6. Cinematic hero video (Seedance 2.0 at 4K): slow-motion can with water burst, color-matched, loopable.\n\n#### Key Animations\n- **3D Scroll:** Can rotates, tilts, and translates through scene on scroll with parallax background layers.\n- **Mouse Tracking:** Hero elements and 3D can subtly track cursor position; custom animated cursor.\n- **Interactive Particles:** Water droplets and ingredient particles react to cursor hover/proximity.\n- **Flavor Spin Section:** Pinned section where scrolling spins can on vertical axis and morphs flavor color sequentially (Red -> Green -> Orange -> Blue). Can color crossfades at each turn, syncing background accent and text labels.\n- **Mid-Scroll Video Reveal:** Video framed element scales/fades to full-bleed on scroll entry, plays splash animation, then releases scroll. Headline text split cleanly above and below video frame.\n\n#### Product Ad & Pre-Flight Check\n1. Generate video of person drinking product, holding product toward camera with locked flavor identity.\n2. Run clip through Virality Predictor to evaluate hook strength, attention curve, and retention risk.\n3. Place video near page end, immediately before final CTA.\n\n#### Deployment\nDeploy to production via Vercel.\n\n---\n\n## Build 2 \u2014 Zinho Automates\n\n#### Overview\nScrollytelling interactive narrative covering the origin story of an AI automation YouTube creator (@zinhoautomates).\n\n#### Tech Stack\n- React, Vite, Tailwind CSS\n- GSAP + ScrollTrigger (scrubbed, pinned scenes)\n- Lenis (smooth scroll)\n- Framer Motion (micro-interactions)\n- Three.js (r128) for depth elements\n\n#### Rules for Personal Assets\n- User photo stored locally in `public/` directory, used as static asset.\n- Never run personal photo through generative image/video models.\n- Generative tools build surrounding background, node convergence, particle halo, and world context.\n\n#### Story Scenes\n1. **Cold Open:** Dark screen, single pulsing glowing node, typing terminal text. Cursor tracking adds micro-motion.\n2. **The Spark:** Node branches into connected automation graph on scroll.\n3. **Building in Public:** Graph morphs into YouTube play button shape composed of nodes. Stat counters increment on scroll (45K+ subscribers, 16K+ community members). Topic tags fly into view.\n4. **The Stack:** Horizontal conveyor displaying core tool/theme cards lighting up sequentially.\n5. **The Community:** Nodes multiply into interactive constellation representing community members; points react to cursor proximity.\n6. **The Reveal (The Mission):** Abstract avatar dissolves into actual user photo. Surrounding nodes and energy lines converge toward photo, forming ambient halo. Seedance 4K video plays full-bleed in background.\n7. **Invitation / CTA:** Animated logo mark resolves with ambient particle backdrop. Links to YouTube channel and community.\n\n#### Design Language\n- Dark background with glowing neon accents.\n- Scrubbed, reversible scroll progress tied to GSAP ScrollTrigger.\n- Custom animated cursor and interactive ambient particle node system.\n\n---\n\n## Generic Template System\n\n#### Universal Workflow Rules\n- Build fully animated site around pre-generated visual assets.\n- Stack: React, Vite, Tailwind CSS, GSAP + ScrollTrigger, Three.js (r128), Lenis, Framer Motion.\n- Real personal photos kept intact without generative modifications; environment built around photo.\n\n#### Variant Structure\n- **Product / Brand Site:** Hero -> Product Showcase -> Video Reveal -> Features -> Story/Science -> Interactive Product Spin/Morph -> CTA.\n- **Personal / Portfolio / Story Site:** Guided interactive documentary scroll through sequential pinned scenes (Cold Open -> Origin -> Stats -> Work/Stack -> Community -> Photo Reveal -> CTA).",
       "is_shallow": false,
-      "path": "/items/guides/build-insane-animated-websites"
+      "path": "/items/learning/build-insane-animated-websites"
     },
     {
       "id": "how-to-access-multiple-free-ai-models-at-once",
       "name": "How to Access Multiple Free AI Models at Once",
       "description": "Make Community walkthrough of accessing multiple free AI models",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "AI Models",
@@ -256,14 +256,14 @@
       ],
       "url": "https://community.make.com/t/how-to-access-multiple-free-ai-models-at-once/40751",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/how-to-access-multiple-free-ai-models-at-once"
+      "is_shallow": true,
+      "path": "/items/learning/how-to-access-multiple-free-ai-models-at-once"
     },
     {
       "id": "how-to-build-a-10k-month-app-in-2026",
       "name": "How to Build a $10k/Month App in 2026",
       "description": "A 60-second blueprint on building and launching a profitable app, from idea generation to deployment and marketing.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "App Development",
@@ -273,13 +273,13 @@
       "url": "",
       "content": "#### 1. Idea Generation\n- Stop obsessing over a completely unique idea.\n- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.\n- Find ways to tweak or improve them to create your own version.\n\n#### 2. Choose Your Stack\n- **Web App**: Use **Next.js** for seamless front-end and back-end development.\n- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.\n\n#### 3. Leverage AI Tools\n- Familiarize yourself with AI coding assistants.\n- **Claude Coder**: Best for front-end design and user experience.\n- **Codex**: Best for complex backend architecture.\n\n#### 4. Backend & Payments\n- **Database / Backend**: Supabase or Firebase.\n- **Payments**: Stripe (Web) or RevenueCat (Mobile).\n\n#### 5. Launch & Distribute\n- Release early to get user feedback immediately.\n- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).\n- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.\n- **Scale**: Once organic works, turn the winning formulas into paid ads.",
       "is_shallow": false,
-      "path": "/items/guides/how-to-build-a-10k-month-app-in-2026"
+      "path": "/items/learning/how-to-build-a-10k-month-app-in-2026"
     },
     {
       "id": "how-to-create-a-cold-email-generator-using-ai",
       "name": "How to Create a Cold Email Generator Using AI",
       "description": "Creating personalized cold emails using AI.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Email",
@@ -288,14 +288,14 @@
       ],
       "url": "https://offers.hubspot.com/cold-email-using-ai",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/how-to-create-a-cold-email-generator-using-ai"
+      "is_shallow": true,
+      "path": "/items/learning/how-to-create-a-cold-email-generator-using-ai"
     },
     {
       "id": "how-to-find-a-tech-job-in-2026",
       "name": "How to Find a Tech Job in 2026",
       "description": "A concise blueprint for breaking into tech and landing a software engineering job in a competitive market.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Career",
@@ -305,13 +305,13 @@
       "url": "",
       "content": "#### 1. Master LeetCode\n- Start practicing daily well before the recruiting cycle begins.\n- If you don't know where to start, focus on the **Blind 75** list on LeetCode.\n\n#### 2. Learn a High-Demand Skill\n- If your resume isn't getting bites, you need new skills.\n- Dive deep into **AWS** (via AWS Skill Builder) or **Spring Boot**.\n- Recommended resource: *Amigoscode* on YouTube.\n\n#### 3. Build Something Valuable\n- Classes and degrees are no longer enough.\n- Build a significant project that takes at least 3-6 weeks to complete to showcase on your resume.\n\n#### 4. Network Relentlessly\n- \"It's not what you know, it's who you know.\"\n- Attend career fairs and hackathons.\n- Message your connections directly when applying for jobs; referrals are the easiest way to get an interview.",
       "is_shallow": false,
-      "path": "/items/guides/how-to-find-a-tech-job-in-2026"
+      "path": "/items/learning/how-to-find-a-tech-job-in-2026"
     },
     {
       "id": "how-to-spot-100m-product-ideas",
       "name": "How to Spot 100M Product Ideas",
       "description": "The Eric Ryan Playbook on spotting 100M+ product ideas",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Product Ideas",
@@ -320,14 +320,14 @@
       ],
       "url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/The%20Eric%20Ryan%20Playbook_%20How%20to%20Spot%20$100M+%20Product%20Ideas.pdf",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/how-to-spot-100m-product-ideas"
+      "is_shallow": true,
+      "path": "/items/learning/how-to-spot-100m-product-ideas"
     },
     {
       "id": "motion-graphics-in-ai",
       "name": "Motion Graphics with AI \u2014 Full Setup & Workflow Guide",
       "description": "A 3-step workflow for creating custom, high-quality motion graphics directly inside your AI workspace using an MCP connector.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -337,13 +337,13 @@
       "url": "",
       "content": "Create custom, high-quality motion graphics directly inside your AI workspace using an MCP connector and structured prompt templates.\n\n---\n\n## Quick Start\n\n#### What You Need\n- **Higgsfield AI Account:** Sign up on their site.\n- **AI Tool / Coding Assistant:** Fitted with custom Higgsfield MCP connector.\n\n#### 3-Step Workflow\n1. **Generate Prompt:** Describe style and topic to main AI Chat.\n2. **Build with AI Coding Assistant:** Paste prompt into AI Coding Assistant. Tell it \"Build it\".\n3. **Save Output:** Get final video folder.\n\n---\n\n## Part 1: One-Time Setup\n\n1. Make account on Higgsfield.\n2. Copy custom MCP URL inside Higgsfield.\n3. Open AI Settings $\\rightarrow$ Customize $\\rightarrow$ Add Custom Connector $\\rightarrow$ paste MCP URL.\n4. Finish simple auth flow.\n\nMCP setup done. Image and video models now ready inside AI Coding Assistant.\n\n---\n\n## Part 2: Prompt Generator (AI Chat Template)\n\nUse template inside main AI Chat. Fill in brackets to make prompt for AI Coding Assistant.\n\n#### Master Prompt Generator\n\n```text\nYou are writing a single, self-contained build prompt that I will paste into my AI Coding Assistant, which has the Higgsfield MCP connected. The AI will use that prompt to generate a complete narrated motion-graphics video end to end.\n\nTOPIC: [your topic]\nTARGET LENGTH: [e.g. 90 seconds]\nVISUAL STYLE: [describe the look in concrete nouns \u2014 materials, textures, palette, line quality, camera behavior]\n\nWrite the build prompt so it contains all of the following, explicitly:\n\n1. STYLE BIBLE\n   - A locked style description written so that shot 40 looks identical to shot 1\n   - Color palette with specific hex values\n   - Texture and material rules\n   - Typography rules for on-screen text\n   - Camera and motion rules (what moves, what never moves)\n   - An explicit \"never do this\" list to prevent style drift\n\n2. SCRIPT\n   - A complete voiceover script, written to be spoken, at the target length\n   - Broken into numbered beats\n   - Every factual claim marked with [FACT] so I can verify before render\n\n3. SHOT LIST\n   - One entry per beat: shot number, duration, what's on screen, what the VO says over it\n   - Each shot's image/video generation prompt written out in full\n   - The style bible referenced or restated in every single shot prompt\n\n4. ON-SCREEN TEXT\n   - Exact wording for every label, number, arrow annotation, and caption\n   - Placement notes\n\n5. AUDIO\n   - Voiceover generation instructions including tone, pace, and voice character\n   - Timing notes so VO and visuals land together\n\n6. ASSEMBLY\n   - Instructions to write all assets and the final video to a clearly named local folder\n\nOutput the build prompt only. No preamble, no explanation, no commentary. I am pasting it directly into the AI Coding Assistant.\n```\n\n---\n\n## Part 3: Style Recipes\n\nDrop recipes into `VISUAL STYLE:` field in generator.\n\n#### Vox-Style Paper Cutout\nPaper-cutout collage. Old photos with coarse halftone dots, rough paper edges, soft drop shadow. Elements look like real layers. Hand-drawn arrows in one accent color. Flat muted background, warm paper texture. Data shown as cut-paper bar charts and dotted maps. Text: bold condensed sans, lowercase. Camera: slow 2D pushes and slides. Elements snap in on beat. No 3D, no gradients, no lens flares, no glow.\n\n#### Bright Cartoon\nBright cartoon. Thick outlines, flat colors, high saturation: orange, teal, pink, yellow on clean light background. Round friendly characters, exaggerated shapes. Bouncy motion with squash, stretch, overshoot. Text: chunky round sans. Camera: fast whip transitions, pop-in reveals, bounce on settle. No realistic textures, no dark colors, no slow moves.\n\n#### Whiteboard Doodle\nWhiteboard doodle. Clean white board, black dry-erase marker with wobble and variable line weight, drawn on live. One or two accent marker colors for arrows. Simple stick figures and box diagrams. Text: hand-written marker style. Camera: slow pans across wide board, pushes on details. No extra color fills, no photos, no gradients.\n\n#### Pixel Art\nPixel art, 16-bit style. Fixed pixel grid, zero sub-pixel movement. 16 color limit. Dithering for shading. Readable sprites. Text: bitmap font, pixel-perfect, no anti-aliasing. Motion: low frame rate step animation. Camera: hard cuts, grid scrolls. No smooth motion, no modern effects.\n\n#### Isometric Flat Vector\nIsometric flat vector. 30-degree isometric view across all shots. Flat colors with soft shadows, no gradients. Muted palette: dusty blue, soft coral, warm grey, one main accent color. Buildings, devices built as blocks. Text: clean geometric sans. Camera: slow isometric drift. No perspective distortion, no complex lighting.\n\n---\n\n#### Custom Style Interrogator Prompt\n\nNot sure about visual style? Run prompt in main AI Chat first:\n\n```text\nI want to develop a signature motion-graphics style for my channel. I'm going to describe what I have in mind loosely, and I want you to interrogate it into something precise and reproducible.\n\nHere's the vague version: [describe it however it comes out \u2014 references, vibes, half-formed ideas]\n\nAsk me the questions you need to pin down: materials and textures, exact palette, line quality, how things enter and exit frame, camera behavior, typography, and what the style must never do.\n\nThen output a single VISUAL STYLE paragraph, written in concrete physical nouns rather than adjectives, specific enough that a generation model produces the same look on shot 1 and shot 40. Include an explicit \"never\" list.\n```\n\n---\n\n## Part 4: AI Coding Assistant Command\n\nAfter making prompt in AI Chat, run command in AI Coding Assistant:\n\n```bash\nTake that prompt and build it.\n```\n\n#### Advanced Command (More Control)\n```bash\nTake that prompt and build it. Before generating anything, show me the shot list and wait for my approval. Then generate all shots, lock the style reference across every one, generate the voiceover, time the blocks so audio and visuals land together, and write the finished project plus every individual asset to ./[project-name]/\n```\n\n---\n\n## Part 5: Extra Workflows\n\n#### Language Translation\n```text\nMake a version of this video in Spanish. Regenerate the voiceover with a native-sounding delivery in the same tone and pace as the original, retime the blocks to fit the new audio length, translate all on-screen text and re-render the affected shots, and keep the visual style byte-for-byte identical. Write it to ./[project-name]-es/\n```\n\n#### Motion Graphic Overlays\n```text\nI need individual motion-graphic elements to composite over footage I already recorded. Not a full video.\n\nVISUAL STYLE: [paste a style recipe]\n\nGenerate these as standalone assets with transparent backgrounds where possible:\n1. [e.g. an animated arrow pointing down-left, drawing on over 0.6s, holding, then drawing off]\n2. [e.g. a bar chart building from zero to three bars labeled 2019, 2022, 2025]\n3. [e.g. a lower-third name plate that slides in from frame left]\n\nFor each: specify duration, output at 1080p or higher, and write to ./elements/ with descriptive filenames.\n```\n\n#### Product Explainer Video\n```text\nBuild a product explainer video.\n\nPRODUCT: [name and what it actually does]\nAUDIENCE: [who's watching and what they currently believe]\nTHE ONE THING THEY SHOULD UNDERSTAND AFTER WATCHING: [single sentence]\nLENGTH: [e.g. 60 seconds]\nVISUAL STYLE: [paste a style recipe]\n\nStructure: open on the problem as the audience experiences it, show the mechanism of the solution visually rather than describing it, close on the outcome. No feature lists. Every claim marked [FACT] for my verification.\n```\n\n#### Course Lesson Video\n```text\nBuild a course lesson video.\n\nCONCEPT: [what you're teaching]\nLEARNER STARTS KNOWING: [prerequisite level \u2014 be honest]\nLEARNER SHOULD BE ABLE TO DO AFTER: [concrete capability]\nLENGTH: [e.g. 4 minutes]\nVISUAL STYLE: [paste a style recipe]\n\nStructure it around the one thing learners typically get wrong about this concept. Build the visual metaphor early and return to it. Every claim marked [FACT].\n```\n\n---\n\n## Part 6: Two Big Mistakes\n\n#### Mistake 1: Fact Check After Render\nText and numbers on screen look authoritative. Wrong numbers mean re-rendering whole shots. Check facts first.\n\n**Pre-Render Fact-Check Prompt:**\n```text\nHere is my script. Every claim marked [FACT] needs verification before I render a single frame.\n\nFor each one: state whether it's accurate, cite the source, give me the correct figure if it's wrong, and flag anything that's technically true but misleading in context.\n\nBe blunt. I'd rather kill a claim now than regenerate a shot later.\n\n[paste script]\n```\n\n#### Mistake 2: Using Default Stock Presets\nPresets make videos look generic. Use **Custom Style Interrogator** to build unique look.\n\n---\n\n## Part 7: Alternate Web App Workflow\n\nNo AI Coding Assistant? Use Web App:\n1. Make prompt in main AI Chat.\n2. Open **Higgsfield Explainer** web tool.\n3. Paste prompt and pick preset (Pixel Art, Claymotion, Papercraft, Cartoon, Whiteboard, Flat Vector).",
       "is_shallow": false,
-      "path": "/items/guides/motion-graphics-in-ai"
+      "path": "/items/learning/motion-graphics-in-ai"
     },
     {
       "id": "obsidian-is-my-ais-second-brain",
       "name": "Obsidian Is My AIs Second Brain",
       "description": "Notion setup guide for using Obsidian as an AI second brain",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Obsidian",
@@ -353,14 +353,14 @@
       ],
       "url": "https://pear-diadem-016.notion.site/Obsidian-Is-My-AI-s-Second-Brain-Here-s-My-Full-Setup-33a4eefac3948167b640fcd0d83427c6",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/obsidian-is-my-ais-second-brain"
+      "is_shallow": true,
+      "path": "/items/learning/obsidian-is-my-ais-second-brain"
     },
     {
       "id": "prompt-engineering",
       "name": "Prompt Engineering Guide",
       "description": "Complete beginner-to-advanced guide, system prompt templates, and best practices for prompting LLMs by DAIR.AI.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Prompting",
@@ -369,14 +369,14 @@
       ],
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/prompt-engineering"
+      "is_shallow": true,
+      "path": "/items/learning/prompt-engineering"
     },
     {
       "id": "raw-footage-to-finished-video-in-ai",
       "name": "Raw Footage to Finished Video \u2014 AI Setup & Workflow Guide",
       "description": "An AI setup guide utilizing open-source tools and HyperFrames to automatically edit, score, and caption raw video footage without Premiere.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -386,13 +386,13 @@
       "url": "",
       "content": "Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.\n\n---\n\n## Overview\n\n#### What You Are Building\nA single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.\n\n#### How It Works\n- `video-use`: Free open-source skill that reads transcript, finds cut points, and runs the main edit.\n- `HyperFrames`: Code-based graphic generator called by `video-use` when visual elements are needed. You only talk to `video-use`.\n\n---\n\n## Setup (One-Time)\n\n1. Copy the `video-use` link from community files.\n2. Paste link into AI Code tab and prompt:\n   \"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for my key when needed.\"\n3. Paste ElevenLabs API key when prompted during first edit run.\n\n---\n\n## Workflow\n\n#### 1. Rough Cut\nPut raw video into project folder and prompt:\n\"Start new project for raw clip and make rough cut.\"\n\nAI uses Scribe for word-level timestamps, flags filler words and pauses, shows cut plan, and waits for approval.\n\nFix-it prompts:\n- \"Add a bit more padding before that sentence.\"\n- \"Remove the word 'basically' at start of line.\"\n\n> [!IMPORTANT]\n> Lock rough cut before adding graphics to avoid timing misalignment later.\n\n---\n\n#### 2. Graphics\nOpen new chat for graphics phase and prompt:\n\"Plan motion graphic for each segment, then build.\"\n\nRefinement prompts:\n- \"Use primary brand orange instead of default blue.\"\n- \"Place logo PNG on intro graphic.\"\n- \"Slow down entrance animation speed.\"\n\nEach tweak only re-renders affected section.\n\n---\n\n#### 3. Captions\nPrompt:\n\"Add captions using existing transcript.\"\n\nGenerated using existing Scribe timestamps.\n\n---\n\n#### 4. Music\nPoint AI to audio file and set volume level (recommended **-22 to -23 dB** for background voice balance):\n\"Add background music using this track at -22 dB.\"\n\n---\n\n#### 5. Export\nPrompt:\n\"Export final video.\"\n\nFinal file saves to downloads directory; source project folder remains intact.\n\n---\n\n## Summary Prompt Reference\n\n| Phase | Command / Prompt |\n| :--- | :--- |\n| **Setup** | `\"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for key when needed.\"` |\n| **Rough Cut** | `\"Start new project for raw clip and make rough cut.\"` |\n| **Graphics** | `\"Plan motion graphic for each segment, then build.\"` |\n| **Captions** | `\"Add captions using existing transcript.\"` |\n| **Export** | `\"Export final video.\"` |\n\n---\n\n## Key Notes\n\n- Word-level Scribe timestamps give accurate cut placement.\n- Use natural language prompts for edits instead of manual timeline trimming.",
       "is_shallow": false,
-      "path": "/items/guides/raw-footage-to-finished-video-in-ai"
+      "path": "/items/learning/raw-footage-to-finished-video-in-ai"
     },
     {
       "id": "the-1m-solopreneur-mvp",
       "name": "The 1M Solopreneur MVP",
       "description": "Google Docs guide for solopreneur MVP",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Solopreneur",
@@ -401,14 +401,14 @@
       ],
       "url": "https://docs.google.com/document/d/1zI2ya7sDv8ycXmOzPO_aOS8-dNEwDoow14q_rrs_aU4/edit",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/the-1m-solopreneur-mvp"
+      "is_shallow": true,
+      "path": "/items/learning/the-1m-solopreneur-mvp"
     },
     {
       "id": "the-ai-agent-playbook",
       "name": "The AI Agent Playbook",
       "description": "Open Residency x AI with Remy playbook",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Agent",
@@ -416,14 +416,14 @@
       ],
       "url": "https://drive.google.com/file/d/1oLaezBP36RA7X0vG9y3T8nuuDHf4qvbE/view",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/the-ai-agent-playbook"
+      "is_shallow": true,
+      "path": "/items/learning/the-ai-agent-playbook"
     },
     {
       "id": "the-ai-research-system",
       "name": "The AI Research System: A Three-Phase Method",
       "description": "A systematic three-phase methodology for conducting high-quality, verifiable research using multiple AI models (Perplexity, Grok, Claude, ChatGPT) to avoid hallucinations and generate actionable insights.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Research",
@@ -435,13 +435,13 @@
       "url": "",
       "content": "The output quality of AI research is not determined by which model you use, but by whether you have a process at all. Using one model as your only source is using a single, fallible voice as your entire evidence base. \n\nA better approach is a three-phase process where each phase uses a different tool for a specific job: Gather, Analyze, and Output.\n\n#### Phase 1: Gather\n*The goal is source discovery, web research, market data, and current events. You are looking for sourced, traceable starting material, not AI opinions.*\n\n- **Perplexity**: Search-first AI that always cites sources. It links every answer to the original source material.\n  - *Best Practice*: Ask specific questions. Instead of \"Tell me about competitor X\", ask: \"What has competitor X announced in the last 90 days? What do their recent job postings suggest about their strategic direction? Cite all sources.\"\n- **Grok**: For real-time intelligence. Connected directly to X data. Use this to track fast-moving markets, competitor announcements, or regulatory developments that haven't been indexed by search engines yet.\n\n*Phase 1 Output*: A set of raw, sourced notes, links, and data points ready for synthesis.\n\n#### Phase 2: Analyze\n*The goal is summarizing findings, identifying patterns, synthesizing across sources, extracting key points, and pressure-testing interpretations.*\n\n- **Claude**: Built for long-form thinking, identifying patterns, and synthesizing across multiple sources.\n\n**Key Synthesis Prompts for Claude:**\n- **Research Synthesis**:\n  > I have gathered the following research on [topic]. Synthesize it into a briefing of no more than one page covering: the three most important findings, what these findings mean for our business specifically, the key areas of uncertainty or conflicting evidence, and the one or two questions that still need to be answered before we can act with confidence. Research: [paste in your phase one notes]\n- **Competitive Intelligence**:\n  > Build me a competitive intelligence brief on [competitor]. Based on the following sources and what you know, cover: their current product positioning and how it has changed recently, pricing strategy and packaging, go-to-market approach and primary channels, known strengths and vulnerabilities, recent signals about their strategic direction, and one or two things they are likely to do next. Sources: [paste in your phase one notes]\n- **Industry Trend Analysis**:\n  > Analyze the following trends affecting [your industry]: [list what you found]. For each trend: how material it is likely to be in the next two to three years, whether it represents a threat or an opportunity for our business specifically, what leading companies in our space are doing in response, and what we should be doing now to either capitalize on or protect against it.\n\n**Common Mistakes to Avoid:**\n1. **Trusting first outputs**: Always ask Claude to identify the weakest assumption in its own analysis.\n2. **Weak prompting**: Specificity separates useful synthesis from generic summaries.\n3. **Shallow sourcing**: Phase two cannot fix poor data from phase one. Always verify factual claims against primary sources.\n\n#### Phase 3: Output\n*The goal is turning synthesized insights into a tailored deliverable (reports, memos, briefings).*\n\n- **Claude**: Best for reports, memos, strategy documents, written briefs, and anything requiring voice and judgment.\n- **ChatGPT**: Best for structured formats, data-heavy summaries, and content where pattern/completeness matters more than prose quality.\n\n**The Output Prompt:**\n> I have the following research that I need to present to [audience, leadership, board, client, team]: [describe or paste in your phase two synthesis]. Help me turn this into a narrative that: opens with the single most important finding, builds the supporting evidence in a logical sequence, explains what the data means for our strategy or decisions, and closes with a clear recommendation or call to action. The audience cares most about: [describe what matters to them]",
       "is_shallow": false,
-      "path": "/items/guides/the-ai-research-system"
+      "path": "/items/learning/the-ai-research-system"
     },
     {
       "id": "top-ai-courses-for-beginners",
       "name": "Top AI Courses for Beginners",
       "description": "A curated list of foundational AI and Machine Learning courses from top platforms, ideal for absolute beginners wanting to learn generative AI and ethics.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Skool",
@@ -451,13 +451,13 @@
       "url": "",
       "content": "The following is a comprehensive list of recommended courses on Artificial Intelligence (AI) and Machine Learning (ML), curated from leading technology companies and prestigious academic institutions. This guide is designed to help you find the right course for your skill level and career goals, whether you are a complete beginner or an aspiring professional. The courses are categorized by creator and cover a range of topics from foundational concepts and practical coding to ethical considerations and prompt engineering.\n\n---\n\n## Foundational AI Courses\n\n#### Introduction to Generative AI\nThis course is perfect for beginners and offers practical labs. It focuses on generative AI, a technology that allows you to create new content such as text, images, and code. Participants can experiment and learn by doing, which makes the learning process engaging and effective.\n\n* **Creator:** Cloud Skills Boost platform\n* **For whom:** Absolute beginners.\n* **What you'll learn:** The basics of generating text, images, and code + practical labs.\n* **Time:** ~1 hour\n* **\ud83d\udd17 Link:** https://www.cloudskillsboost.google/course_templates/536\n\n#### Responsible AI\nThis course focuses on the ethical aspects of AI, discussing issues such as bias, fairness, and building ethical AI tools. It provides practical tips on how to create AI solutions that respect social values.\n\n* **Creator:** Cloud Skills Boost\n* **For whom:** Anyone who wants to understand the ethics of AI (bias, fairness, safety).\n* **Time:** ~1 hour\n* **\ud83d\udd17 Link:** https://www.cloudskillsboost.google/course_templates/554\n\n#### Introduction to AI and Machine Learning\nAn accelerated course for aspiring machine learning engineers that includes coding exercises. It's a great way to gain practical skills in building and deploying machine learning models.\n\n* **Creator:** Cloud Skills Boost\n* **For whom:** Future ML Engineers (requires basic technical knowledge).\n* **What you'll learn:** The basics of AI/ML, cloud tools.\n* **\ud83d\udd17 Link:** https://www.cloudskillsboost.google/course_templates/593\n\n---\n\n## Academic & Comprehensive Courses\n\n#### CS50: Introduction to AI with Python\nOne of the most in-depth introductory courses to AI at the university level. It covers a wide range of topics, including search, machine learning, natural language processing, and more. This course is an excellent choice for those who want to gain a thorough understanding of the fundamentals of AI.\n\n* **Creator:** Harvard University\n* **For whom:** Those seeking deep, academic knowledge.\n* **What you'll learn:** Search algorithms, ML, NLP, neural networks.\n* **Time:** ~16 hours\n* **\ud83d\udd17 Link:** https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python\n\n#### AI for Beginners\nA complete curriculum consisting of 12 lessons, 24 labs, and real-world projects. This course offers a comprehensive introduction to AI, allowing participants to gain practical skills by working on real projects.\n\n* **Creator:** Microsoft\n* **For whom:** Systematic learners who enjoy projects.\n* **What you'll learn:** A full curriculum in 12 lessons: from neurons to NLP + 24 labs.\n* **\ud83d\udd17 Link:** https://github.com/microsoft/AI-For-Beginners\n\n#### Machine Learning with Python\nPart of a professional AI certificate. This course focuses on supervised and unsupervised learning, as well as real-world use cases. It's a great opportunity to learn how to apply machine learning techniques in practice.\n\n* **Creator:** IBM (on Coursera)\n* **For whom:** Practitioners who want to learn ML (supervised/unsupervised learning).\n* **Time:** ~16 hours\n* **\ud83d\udd17 Link:** https://www.coursera.org/learn/machine-learning-with-python\n\n#### Prompt Engineering for AI Models\nCreated in collaboration with leading AI researchers, this course teaches you how to create better prompts for real-world applications. It's a unique opportunity to learn how to effectively communicate with large language models and generative AI systems.\n\n* **Creator:** DeepLearning.AI (Andrew Ng)\n* **For whom:** All users of AI text and image generation models.\n* **What you'll learn:** How to effectively create prompts for specific tasks.\n* **\ud83d\udd17 Link:** https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/\n\n#### AI for Everyone\nA non-technical course that helps you understand how to think about and work with AI. It is an excellent choice for people who want to understand the impact of AI on business and society, without getting into the technical details.\n\n* **Creator:** Andrew Ng (Stanford) on Coursera\n* **For whom:** Non-technical managers, entrepreneurs, the curious.\n* **What you'll learn:** How to think about AI, implement it in business, and understand its impact.\n* **Time:** ~16 hours\n* **\ud83d\udd17 Link:** https://www.coursera.org/learn/ai-for-everyone\n\n#### AI Fundamentals\nPart of a series of AI certificates for beginners, including quizzes and badges. This course offers an introduction to fundamental AI concepts, allowing participants to earn a certificate that confirms their skills.\n\n* **Creator:** IBM (on Coursera)\n* **For whom:** Beginners who want to earn an AI certificate.\n* **What you'll learn:** Fundamental AI concepts, business applications + quizzes.\n* **\ud83d\udd17 Link:** https://www.coursera.org/learn/applied-artifical-intelligence-ibm-watson-ai",
       "is_shallow": false,
-      "path": "/items/guides/top-ai-courses-for-beginners"
+      "path": "/items/learning/top-ai-courses-for-beginners"
     },
     {
       "id": "which-model-should-i-use",
       "name": "Which Model Should I Use? (Field Guide)",
       "description": "A strategic framework for choosing the right AI model for the job and deciding how much \"effort\" or \"thinking time\" to give it, maximizing productivity while saving costs and credits.",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Workflow",
@@ -468,13 +468,13 @@
       "url": "",
       "content": "When working with AI, you are essentially choosing which person to call and how long to let them think. Every company stacks their models the same three ways:\n\n#### The Three Personas of AI Models\n1. **The Staff (e.g., Claude Sonnet, ChatGPT Luna)**: Fast, cheap, and good at almost everything that fills a normal day. Start here, and you will be right most of the time. (Cost: ~2 coins)\n2. **The Manager (e.g., Claude Opus, ChatGPT Terra)**: You go to this one when the work actually matters. A serious document, a harder problem, a plan you are going to build on top of. (Cost: ~5 coins)\n3. **The Consultant (e.g., Claude Fable, ChatGPT Sol)**: Brilliant, expensive, and slow. You bring this one in for the hard part, and then you let them go. (Cost: ~10 coins)\n\n**Rule of Thumb**: Can the staff do it? Yes. Is it worth paying the consultant? Probably not.\n\n#### The Effort Dial (Thinking Time)\nEvery model has a dial controlling how long it thinks before answering.\n- **LOW**: Simple work in volume. Fast and cheap.\n- **MEDIUM**: The everyday setting. Good results without the wait.\n- **HIGH**: Real thinking. Hard problems and the final check.\n- **MAX**: The one decision everything else hangs on.\n\n*Note*: Pushing the dial all the way up for ordinary work causes the AI to overthink. Start lower than feels right and climb only when the answer disappoints you. The dial controls thinking, not talking.\n\n#### Workflows by Task Type\n\n- **Errands (Web searches, lookups, quick edits, summaries)**\n  - *Who*: Staff\n  - *Setting*: LOW\n  - *Why*: The expensive model and the cheap one bring back the same answer, but the cheap one is faster. \n- **Writing (Copy and Emails)**\n  - *Who*: Manager decides, Staff drafts\n  - *Setting*: MEDIUM\n  - *Why*: A piece is settled before the first sentence is written. Plan with the manager, let the staff type.\n- **Documents & PDFs**\n  - *Who*: Manager plans, Staff builds\n  - *Setting*: MEDIUM, THEN LOW\n- **Deep Research**\n  - *Who*: Manager\n  - *Setting*: LOW TO MEDIUM\n  - *Why*: Research runs on finding good sources, not overthinking them.\n- **Slide Decks**\n  - *Who*: Staff builds, Consultant polishes\n  - *Setting*: MEDIUM, THEN HIGH\n- **Spreadsheets**\n  - *Who*: Staff (one sheet) or Consultant (many sheets)\n  - *Setting*: MEDIUM or HIGH\n- **Websites and Apps**\n  - *Who*: Consultant plans, Staff builds\n  - *Setting*: HIGH, THEN LOW\n\n#### The Paragraph That Pays For Itself\nThe smartest models are incredibly wordy. You pay for every word. Use this standing order (as a Custom Instruction, Skill, or Text Expander snippet) to cut costs and save time:\n\n> Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.",
       "is_shallow": false,
-      "path": "/items/guides/which-model-should-i-use"
+      "path": "/items/learning/which-model-should-i-use"
     },
     {
       "id": "zapier-sdk-quickstart",
       "name": "Zapier SDK Quickstart",
       "description": "Quickstart documentation for the Zapier SDK",
-      "category": "Guides",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Zapier",
@@ -483,8 +483,8 @@
       ],
       "url": "https://docs.zapier.com/sdk/quickstart",
       "content": "",
-      "is_shallow": false,
-      "path": "/items/guides/zapier-sdk-quickstart"
+      "is_shallow": true,
+      "path": "/items/learning/zapier-sdk-quickstart"
     },
     {
       "id": "ai-agent-coordination",
@@ -1179,7 +1179,7 @@
       "id": "cinematic-real-estate-listing",
       "name": "Cinematic Real Estate Listing Video",
       "description": "A master prompt for generating cinematic real estate listing videos using Higgsfield and Claude.",
-      "category": "Video",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Video",
@@ -1189,7 +1189,7 @@
       "url": "",
       "content": "```text\nThe ONE thing you customize for every listing is the WALKTHROUGH:\n\nyou describe how the camera should move through the place. Write that\n\nfirst (Step 1), then paste the full prompt (Step 2).\n\n================================================================\n\nSTEP 1 \u2014 WRITE YOUR WALKTHROUGH (how it should go)\n\n================================================================\n\nDescribe the camera's route as ONE continuous move, in the order you\n\nwant to show the home. This is what makes each video custom. Call out:\n\n- where it starts (outside, the front door, or a key room)\n\n- the order of rooms, and how it moves between them (glide, turn, rise, descend)\n\n- where the furniture unfolds into place\n\n- where to slow down (the selling features: kitchen, view, primary suite)\n\n- how it ends (a hero shot, or back where it started)\n\nKeep it one flowing path. The model follows it as a single continuous shot.\n\n>>> WRITE YOURS HERE:\n\n[ ........................................................... ]\n\nEXAMPLE (Oliver's apartment) \u2014 copy this style:\n\n\"Start just outside the front door and push in through the entrance.\n\nGlide into the kitchen as the furniture and decor unfold into place.\n\nContinue out into the living room. Turn to the right and look up toward\n\nthe staircase, then rise up the stairs. As you reach the top, let the\n\nupstairs interior unfold into place. Drift over toward the desk and\n\ncomputer setup, then move out over the edge of the landing and descend\n\nback down into the living room to finish.\"\n\n================================================================\n\nSTEP 2 \u2014 THE PROMPT (paste into Claude, attach your photo, drop your walkthrough in)\n\n================================================================\n\nUse Higgsfield to create a cinematic real estate listing video from\n\nthis photo. Model: Kling 3.0, highest quality mode (pro or 4k), then\n\nupscale the result.\n\nWALKTHROUGH (how the camera should move \u2014 paste your Step 1 here):\n\n[ your walkthrough goes here ]\n\nSHOT: one continuous, smooth cinematic walkthrough that follows the\n\nwalkthrough above. Slow luxurious motion, seamless forward movement,\n\nsubtle parallax, shallow depth of field, decelerating to reveal each\n\nroom.\n\nFIDELITY (critical, do not break): stay faithful to the reference\n\nphoto. Preserve the exact architecture, layout, furniture, materials,\n\ncolors, and proportions shown. Do NOT add, remove, move, or invent\n\nrooms, furniture, windows, doors, or objects. Keep every straight line\n\nstraight: no warping or bending of walls, doorframes, counters, or\n\nwindows.\n\nLOOK: premium architectural film grade, high dynamic range, natural\n\nrealistic textures, soft cinematic color. Golden hour warmth outside\n\neasing into a soft interior glow. Calm, aspirational, expensive.\n\nMOTION FEEL: steady, slow, luxurious. No shaky cam, no fast cuts, no\n\nsnap zooms.\n\nFURNITURE REVEAL (marketing flourish, ON by default): as the camera\n\nenters each space, have the furniture and decor elegantly fold/assemble\n\ninto place, then settle into the final furnished look.\n\n(Toggle OFF for a fully faithful flythrough when the agent wants exact.)\n\nNEGATIVE / AVOID: no people, no text, no logos, no watermarks, no\n\nwarping, no distorted or bending lines, no extra or invented rooms,\n\nno cartoon or fake CGI look, no flicker, no morphing walls.\n\n================================================================\n\nTWO WAYS TO BUILD IT (pick based on the listing)\n\n================================================================\n\nA. ONE CONTINUOUS WALKTHROUGH (the wow factor):\n\n   One generation that follows your whole path. Best when you have a\n\n   strong main photo and want the cinematic, flowing reveal. Anchor it\n\n   with a start photo (and an end photo if you have one).\n\nB. ROOM BY ROOM, THEN STITCH (max accuracy):\n\n   Run the prompt once per real listing photo, give each clip a short\n\n   one-room walkthrough (e.g. \"push into the kitchen and slow on the\n\n   island\"), then stitch the clips in this order:\n\n   exterior -> entry -> living -> kitchen -> primary bedroom -> bath -> standout feature.\n\n   Use this when the agent needs it to match the real home exactly.\n\nExterior/aerial beat (either mode): use the REAL exterior photo as the\n\nstart frame, OR a real Google Earth Studio aerial of the actual address.\n\nNEVER use an AI-invented exterior.\n\n================================================================\n\nTWEAKABLES (give the buyer control)\n\n================================================================\n\n- Speed: slow & luxurious  OR  energetic & modern\n\n- Time of day / light: golden hour / bright airy daylight / twilight / cozy evening glow\n\n- Furniture: unfold-in (stylized, default)  OR  static (faithful/accurate)\n\n- Mood: calm luxury / vibrant modern / cozy & warm\n\n- Aspect ratio: 16:9 (YouTube + website)  OR  9:16 (Reels / TikTok / Stories)\n\n- Clip length: 5s or 10s\n\n- Quality: Kling 3.0 pro or 4k, then upscale_video\n\n================================================================\n\nQUALITY STEP\n\n================================================================\n\nAfter it generates, run upscale_video for the final resolution bump.\n\nThis is the fix for \"I wanted higher quality.\"\n```",
       "is_shallow": false,
-      "path": "/items/video/cinematic-real-estate-listing"
+      "path": "/items/learning/cinematic-real-estate-listing"
     },
     {
       "id": "client-welcome",
@@ -1987,7 +1987,7 @@
       "id": "higgsfield-ugc-prompt",
       "name": "Higgsfield UGC Prompt",
       "description": "A detailed prompt for creating an authentic UGC selfie video using Higgsfield.",
-      "category": "Video",
+      "category": "Learning",
       "subcategory": "",
       "tags": [
         "Video",
@@ -1997,7 +1997,7 @@
       "url": "",
       "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
       "is_shallow": false,
-      "path": "/items/video/higgsfield-ugc-prompt"
+      "path": "/items/learning/higgsfield-ugc-prompt"
     },
     {
       "id": "hire-vs-outsource",
@@ -3968,7 +3968,7 @@
       "id": "hubspot-full-stack-ai-marketing-toolkit",
       "name": "HubSpot Full-Stack AI Marketing Toolkit",
       "description": "Comprehensive marketing toolkit template on Google Sheets.",
-      "category": "Templates",
+      "category": "Resources",
       "subcategory": "",
       "tags": [
         "Marketing",
@@ -3978,13 +3978,13 @@
       "url": "https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit",
       "content": "",
       "is_shallow": true,
-      "path": "/items/templates/hubspot-full-stack-ai-marketing-toolkit"
+      "path": "/items/resources/hubspot-full-stack-ai-marketing-toolkit"
     },
     {
       "id": "marketing-against-the-grain-newsletter-template",
       "name": "Marketing Against the Grain Newsletter Template",
       "description": "Email newsletter setup template on Google Sheets.",
-      "category": "Templates",
+      "category": "Resources",
       "subcategory": "",
       "tags": [
         "Newsletter",
@@ -3994,7 +3994,7 @@
       "url": "https://docs.google.com/spreadsheets/d/12cw8R1Ef45SkHLKp4ypKZLk5a3vi9hTtn1PqRdPztgw/edit",
       "content": "",
       "is_shallow": true,
-      "path": "/items/templates/marketing-against-the-grain-newsletter-template"
+      "path": "/items/resources/marketing-against-the-grain-newsletter-template"
     },
     {
       "id": "ada",
@@ -4032,7 +4032,7 @@
       "id": "antigravity",
       "name": "Antigravity IDE & Suite",
       "description": "AI-powered terminal and extension suite with autonomous agent pair-programming capabilities.",
-      "category": "Coding",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "IDE",
@@ -4043,7 +4043,7 @@
       "url": "https://antigravity.google.com",
       "content": "",
       "is_shallow": true,
-      "path": "/items/coding/antigravity"
+      "path": "/items/tools/antigravity"
     },
     {
       "id": "apollo-io",
@@ -4156,7 +4156,7 @@
       "id": "claude-code-cli",
       "name": "Claude Code CLI",
       "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
-      "category": "Coding",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "CLI",
@@ -4167,7 +4167,7 @@
       "url": "https://docs.anthropic.com",
       "content": "",
       "is_shallow": true,
-      "path": "/items/coding/claude-code-cli"
+      "path": "/items/tools/claude-code-cli"
     },
     {
       "id": "claude",
@@ -4221,7 +4221,7 @@
       "id": "copilot-cli",
       "name": "Copilot CLI",
       "description": "GitHub's terminal agent for command assistance, explanations, and git automation.",
-      "category": "Coding",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "CLI",
@@ -4232,7 +4232,7 @@
       "url": "https://github.com/github/gh-copilot",
       "content": "",
       "is_shallow": true,
-      "path": "/items/coding/copilot-cli"
+      "path": "/items/tools/copilot-cli"
     },
     {
       "id": "copy-ai",
@@ -4317,7 +4317,7 @@
       "id": "firecrawl-cli",
       "name": "Firecrawl CLI & API",
       "description": "Turn entire websites into LLM-ready clean markdown data for scraping and indexing.",
-      "category": "Automation",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "Scraping",
@@ -4328,7 +4328,7 @@
       "url": "https://firecrawl.dev",
       "content": "",
       "is_shallow": true,
-      "path": "/items/automation/firecrawl-cli"
+      "path": "/items/tools/firecrawl-cli"
     },
     {
       "id": "fireflies-ai",
@@ -4817,7 +4817,7 @@
       "id": "ollama",
       "name": "Ollama",
       "description": "Local LLM runner for hosting Llama 3, DeepSeek, and Mistral models locally on your machine.",
-      "category": "AI",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "Local",
@@ -4827,7 +4827,7 @@
       "url": "https://ollama.com",
       "content": "",
       "is_shallow": true,
-      "path": "/items/ai/ollama"
+      "path": "/items/tools/ollama"
     },
     {
       "id": "opal-experiment",
@@ -5085,7 +5085,7 @@
       "id": "trae-ide",
       "name": "Trae IDE",
       "description": "ByteDance's AI-powered IDE with native inline completion and agent tracking.",
-      "category": "Coding",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "IDE",
@@ -5096,7 +5096,7 @@
       "url": "https://trae.ai",
       "content": "",
       "is_shallow": true,
-      "path": "/items/coding/trae-ide"
+      "path": "/items/tools/trae-ide"
     },
     {
       "id": "uncensored-ai",
@@ -5149,7 +5149,7 @@
       "id": "windsurf",
       "name": "Windsurf (Codeium)",
       "description": "Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.",
-      "category": "Coding",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "IDE",
@@ -5160,13 +5160,13 @@
       "url": "https://codeium.com/windsurf",
       "content": "",
       "is_shallow": true,
-      "path": "/items/coding/windsurf"
+      "path": "/items/tools/windsurf"
     },
     {
       "id": "wispr-flow",
       "name": "Wispr Flow",
       "description": "Ultra-fast AI voice-to-text dictation tool optimized for developers and productivity.",
-      "category": "Productivity",
+      "category": "Tools",
       "subcategory": "",
       "tags": [
         "Dictation",
@@ -5177,7 +5177,7 @@
       "url": "https://wisprflow.ai",
       "content": "",
       "is_shallow": true,
-      "path": "/items/productivity/wispr-flow"
+      "path": "/items/tools/wispr-flow"
     },
     {
       "id": "workable",
@@ -5297,7 +5297,7 @@
           "id": "how-to-create-a-cold-email-generator-using-ai",
           "name": "How to Create a Cold Email Generator Using AI",
           "description": "Creating personalized cold emails using AI.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Email",
@@ -5306,8 +5306,8 @@
           ],
           "url": "https://offers.hubspot.com/cold-email-using-ai",
           "content": "",
-          "is_shallow": false,
-          "path": "/items/guides/how-to-create-a-cold-email-generator-using-ai"
+          "is_shallow": true,
+          "path": "/items/learning/how-to-create-a-cold-email-generator-using-ai"
         },
         {
           "id": "ai-sales-outreach-and-sequencing",
@@ -5782,7 +5782,7 @@
           "id": "the-ai-research-system",
           "name": "The AI Research System: A Three-Phase Method",
           "description": "A systematic three-phase methodology for conducting high-quality, verifiable research using multiple AI models (Perplexity, Grok, Claude, ChatGPT) to avoid hallucinations and generate actionable insights.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Research",
@@ -5794,7 +5794,7 @@
           "url": "",
           "content": "The output quality of AI research is not determined by which model you use, but by whether you have a process at all. Using one model as your only source is using a single, fallible voice as your entire evidence base. \n\nA better approach is a three-phase process where each phase uses a different tool for a specific job: Gather, Analyze, and Output.\n\n#### Phase 1: Gather\n*The goal is source discovery, web research, market data, and current events. You are looking for sourced, traceable starting material, not AI opinions.*\n\n- **Perplexity**: Search-first AI that always cites sources. It links every answer to the original source material.\n  - *Best Practice*: Ask specific questions. Instead of \"Tell me about competitor X\", ask: \"What has competitor X announced in the last 90 days? What do their recent job postings suggest about their strategic direction? Cite all sources.\"\n- **Grok**: For real-time intelligence. Connected directly to X data. Use this to track fast-moving markets, competitor announcements, or regulatory developments that haven't been indexed by search engines yet.\n\n*Phase 1 Output*: A set of raw, sourced notes, links, and data points ready for synthesis.\n\n#### Phase 2: Analyze\n*The goal is summarizing findings, identifying patterns, synthesizing across sources, extracting key points, and pressure-testing interpretations.*\n\n- **Claude**: Built for long-form thinking, identifying patterns, and synthesizing across multiple sources.\n\n**Key Synthesis Prompts for Claude:**\n- **Research Synthesis**:\n  > I have gathered the following research on [topic]. Synthesize it into a briefing of no more than one page covering: the three most important findings, what these findings mean for our business specifically, the key areas of uncertainty or conflicting evidence, and the one or two questions that still need to be answered before we can act with confidence. Research: [paste in your phase one notes]\n- **Competitive Intelligence**:\n  > Build me a competitive intelligence brief on [competitor]. Based on the following sources and what you know, cover: their current product positioning and how it has changed recently, pricing strategy and packaging, go-to-market approach and primary channels, known strengths and vulnerabilities, recent signals about their strategic direction, and one or two things they are likely to do next. Sources: [paste in your phase one notes]\n- **Industry Trend Analysis**:\n  > Analyze the following trends affecting [your industry]: [list what you found]. For each trend: how material it is likely to be in the next two to three years, whether it represents a threat or an opportunity for our business specifically, what leading companies in our space are doing in response, and what we should be doing now to either capitalize on or protect against it.\n\n**Common Mistakes to Avoid:**\n1. **Trusting first outputs**: Always ask Claude to identify the weakest assumption in its own analysis.\n2. **Weak prompting**: Specificity separates useful synthesis from generic summaries.\n3. **Shallow sourcing**: Phase two cannot fix poor data from phase one. Always verify factual claims against primary sources.\n\n#### Phase 3: Output\n*The goal is turning synthesized insights into a tailored deliverable (reports, memos, briefings).*\n\n- **Claude**: Best for reports, memos, strategy documents, written briefs, and anything requiring voice and judgment.\n- **ChatGPT**: Best for structured formats, data-heavy summaries, and content where pattern/completeness matters more than prose quality.\n\n**The Output Prompt:**\n> I have the following research that I need to present to [audience, leadership, board, client, team]: [describe or paste in your phase two synthesis]. Help me turn this into a narrative that: opens with the single most important finding, builds the supporting evidence in a logical sequence, explains what the data means for our strategy or decisions, and closes with a clear recommendation or call to action. The audience cares most about: [describe what matters to them]",
           "is_shallow": false,
-          "path": "/items/guides/the-ai-research-system"
+          "path": "/items/learning/the-ai-research-system"
         },
         {
           "id": "ai-powered-market-research",
@@ -5882,7 +5882,7 @@
           "id": "mobile-app-growth-cheat-sheet",
           "name": "Mobile App Growth Cheat Sheet",
           "description": "Cheat sheet for mobile app marketing and growth.",
-          "category": "Cheat Sheets",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Mobile",
@@ -5893,13 +5893,13 @@
           "url": "https://offers.hubspot.com/view/mobile-app-growth",
           "content": "",
           "is_shallow": true,
-          "path": "/items/cheatsheets/mobile-app-growth-cheat-sheet"
+          "path": "/items/learning/mobile-app-growth-cheat-sheet"
         },
         {
           "id": "how-to-build-a-10k-month-app-in-2026",
           "name": "How to Build a $10k/Month App in 2026",
           "description": "A 60-second blueprint on building and launching a profitable app, from idea generation to deployment and marketing.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "App Development",
@@ -5909,7 +5909,7 @@
           "url": "",
           "content": "#### 1. Idea Generation\n- Stop obsessing over a completely unique idea.\n- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.\n- Find ways to tweak or improve them to create your own version.\n\n#### 2. Choose Your Stack\n- **Web App**: Use **Next.js** for seamless front-end and back-end development.\n- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.\n\n#### 3. Leverage AI Tools\n- Familiarize yourself with AI coding assistants.\n- **Claude Coder**: Best for front-end design and user experience.\n- **Codex**: Best for complex backend architecture.\n\n#### 4. Backend & Payments\n- **Database / Backend**: Supabase or Firebase.\n- **Payments**: Stripe (Web) or RevenueCat (Mobile).\n\n#### 5. Launch & Distribute\n- Release early to get user feedback immediately.\n- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).\n- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.\n- **Scale**: Once organic works, turn the winning formulas into paid ads.",
           "is_shallow": false,
-          "path": "/items/guides/how-to-build-a-10k-month-app-in-2026"
+          "path": "/items/learning/how-to-build-a-10k-month-app-in-2026"
         },
         {
           "id": "ai-workflow-building-no-code",
@@ -5993,7 +5993,7 @@
           "id": "claude-code-cli",
           "name": "Claude Code CLI",
           "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "CLI",
@@ -6004,13 +6004,13 @@
           "url": "https://docs.anthropic.com",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/claude-code-cli"
+          "path": "/items/tools/claude-code-cli"
         },
         {
           "id": "windsurf",
           "name": "Windsurf (Codeium)",
           "description": "Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "IDE",
@@ -6021,7 +6021,7 @@
           "url": "https://codeium.com/windsurf",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/windsurf"
+          "path": "/items/tools/windsurf"
         }
       ]
     },
@@ -6032,7 +6032,7 @@
           "id": "chatgpt-and-ai-cheatsheet",
           "name": "ChatGPT & AI Cheatsheet",
           "description": "A complete, dense reference guide for AI prompting, covering universal formulas, techniques, writing styles, and common workflows.",
-          "category": "Cheat Sheets",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "ChatGPT",
@@ -6042,13 +6042,13 @@
           "url": "",
           "content": "#### The Universal Prompt Formula\n> Act as **[ROLE]**, perform **[TASK]**, in **[FORMAT]**\n> *Example:* \"Act as a senior copywriter, write 5 cold-email subject lines for a SaaS launch, in a numbered list with hooks bolded.\"\n\n#### 1. Roles\nWho should the AI pretend to be?\nMarketer, Copywriter, SEO specialist, Consultant, Coder, Editor, Analyst, Recruiter, Teacher, Translator, Interviewer, Trainer, CFO, Designer. Or specific people: *\"Act like Hormozi / Bezos / Naval\"*\n\n#### 2. Tasks\nWhat do you want it to do?\nWrite caption, Blog post, Email sequence, Sales copy, Product desc, Video script, SEO keywords, Summarize, Translate, Outline, Analyze, Brainstorm, Critique, Refactor.\n\n#### 3. Output Formats\nHow should the answer look?\nBullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, Step-by-step, Pros vs Cons, Tweet thread, Script, Email.\n\n#### Prompting Techniques\n- **Zero-shot**: Just ask. No examples. Use for simple, well-known tasks.\n- **One-shot**: Give one example before the ask. Sets tone fast.\n- **Few-shot**: 3\u20135 examples. Best for matching a specific style or pattern.\n- **Chain-of-Thought**: Add \"think step by step.\" Forces reasoning before the answer.\n- **Tree-of-Thought**: \"Brainstorm 5 approaches, evaluate each, then pick the best.\"\n- **Role-play**: \"You are X.\" Locks tone, vocabulary, and POV.\n- **Chained prompts**: Output of prompt 1 becomes input to prompt 2. Compounds quality.\n- **Instructional**: Explicit steps. \"First do A, then B, then return C.\"\n\n#### Clone Your Voice Workflow\n1. Paste 2\u20133 samples of your writing.\n2. Ask: *\"Analyze the tone and style. Output a bullet-pointed style guide.\"*\n3. Save that style guide as a reusable system prompt.\n4. Use it: *\"Rewrite [text] using the style guide above.\"*\n\n#### Chained Workflow (SEO Blog Post)\n1. Generate an SEO outline for keyword [topic].\n2. Write 10 persuasive headlines from that outline.\n3. Draft subheadings for each section.\n4. Surface 30 keywords to weave in naturally.\n5. Write 15 CTAs.\n6. Combine winners into a full draft.\n7. Rewrite in the voice of [role / brand].\n\n#### Midjourney Prompt Builder\n1. **Prep**: *\"I'll give you formatting examples for Midjourney.\"*\n2. **Format**: Paste the Midjourney structure (subject, style, lighting, camera, params).\n3. **Samples**: Drop in 2\u20133 high-quality MJ prompts.\n4. **Context**: *\"Now generate 5 prompts for [scene].\"*\n5. **Ship**: Copy \u2192 paste into Midjourney.\n\n#### Pro Tips Most People Miss\n- Ask for output as CSV or JSON to paste straight into Sheets or code.\n- Ingredients > recipes. Feed it your raw data and let it cook.\n- Make it argue with itself: *\"Now critique that answer harshly.\"*\n- Always fact-check with a second engine (Perplexity, Claude, Gemini).\n- *\"Ask me 5 questions before answering\"* dramatically improves output.\n- Save your best prompts as reusable templates.\n- For long tasks, ask for a plan first, then approve before execution.\n\n#### AI Glossary\n- **Prompt**: The instructions you give the AI.\n- **Input**: Text, image, or file you provide.\n- **Output**: What the AI gives back.\n- **Token**: A chunk of text (~4 chars). Models bill by token.\n- **Context**: Everything the model can \"see\" right now.\n- **LLM**: Large Language Model (e.g., GPT-4, Claude, Gemini).\n- **Temperature**: Creativity dial. Low = safe, high = wild.\n- **Hallucination**: When the AI invents facts confidently.\n- **RAG**: Retrieval-Augmented Generation \u2014 pulls in real data.\n\n#### When to Use What\n- **ChatGPT**: Drafts, brainstorming\n- **Claude**: Long docs, analysis, code\n- **Perplexity**: Facts + sources\n- **Midjourney**: Images\n- **Runway / Kling**: Video",
           "is_shallow": false,
-          "path": "/items/cheatsheets/chatgpt-and-ai-cheatsheet"
+          "path": "/items/learning/chatgpt-and-ai-cheatsheet"
         },
         {
           "id": "39-claude-skills-examples",
           "name": "39 Claude Skills Examples",
           "description": "Examples of Claude skills to transform workflows.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Claude",
@@ -6057,14 +6057,14 @@
           ],
           "url": "https://aiblewmymind.substack.com/p/claude-skills-36-examples",
           "content": "",
-          "is_shallow": false,
-          "path": "/items/guides/39-claude-skills-examples"
+          "is_shallow": true,
+          "path": "/items/learning/39-claude-skills-examples"
         },
         {
           "id": "build-3-ai-agents-in-base44",
           "name": "Build 3 AI Agents in Base44 \u2014 Complete Prompt Pack",
           "description": "A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Skool",
@@ -6074,13 +6074,13 @@
           "url": "",
           "content": "## Before You Start\n\n- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)\n  *(Prompts below ready to use. Swap bracketed parts for your own details.)*\n- **Required Accounts:** Free/trial accounts for tools to connect:\n  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)\n  - **Publisher:** LinkedIn, X\n  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack\n\n> [!TIP]\n> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.\n\n#### Standard Setup\n\n1. Name the agent\n2. Write the identity under \"About the agent\"\n3. Fill in Memory (your background details)\n4. Connect plugins\n5. Enter the job prompt\n6. Set permissions and select the model\n7. Configure automation\n\n---\n\n## Agent 1: Vesper (Inbox Triage)\n\n**Difficulty:** Beginner | **Build Time:** ~2 minutes\n\n#### Step 1: Name\n`Vesper`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.\n\nYou remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.\n\nFocus on being practical and direct.\n```\n\n#### Step 3: Memory Tab\n- **My name:** `[Your first name]`\n- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`\n- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`\n- **What I'm working on right now:** `[current project].`\n- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`\n- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like \"just circling back\"].`\n- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`\n\n*(Leave \"Things the agent has learned about you\" alone: it updates automatically).*\n\n#### Step 4: Plugins\n- Gmail\n- Google Calendar\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nRead incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.\n\nRules:\n- Save replies as drafts only. Do not send messages automatically.\n- Follow the communication style defined in Memory: short, direct, and concise.\n- If someone requests a meeting, check the calendar first and offer two or three open timeslots.\n- Group newsletters, receipts, and system notifications at the bottom of the summary as a total count.\n- When flagging an item, include one line explaining specifically why it needs my attention.\n\nFormat your summary like this:\nNEEDS ATTENTION (with a one-line explanation for each)\nDRAFTED (subject line + recipient)\nFILTERED (total count by category)\n```\n\n#### Step 6: Set Permissions\n> [!WARNING]\n> Go to **Settings -> Security -> Agent Permissions**:\n> - **Update data:** OFF\n> - **Delete data:** OFF\n> \n> Check these settings before linking accounts.\n\n- Ensure **Auto-detect secrets** is ON to store API keys securely.\n\n#### Step 7: Send to WhatsApp\n1. Go to **Customize -> Channels -> Connect**\n2. Scan the QR code and confirm the link.\n3. Add this instruction:\n   ```text\n   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.\n   ```\n\n#### Step 8: Automate\n```text\nRun this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.\n```\n\n---\n\n## Agent 2: The Publisher (LinkedIn + X)\n\n**Difficulty:** Intermediate | **Build Time:** ~5 minutes\n\n#### Step 1: Name\n`[Your name]'s Publisher`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou write posts matching my personal style and voice.\n\nUse clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.\n\nGuidelines:\n- Avoid buzzwords, generic intros, or unnecessary filler phrases.\n- Avoid repetitive short lines created purely for emphasis.\n- Do not invent fictional stories, metrics, or client examples. Ask for details if an example is needed.\n- Focus on one key concept per post.\n\nKeep content clear, specific, and practical.\n```\n\n#### Step 3: Memory Tab\n- **I post about:** `[your topics]`\n- **My audience:** `[who they are, their experience level, their main goals]`\n- **My voice:** `[3-4 lines describing your communication style]`\n- **Words and phrases I never use:** `[list specific words to avoid]`\n- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`\n\n> [!IMPORTANT]\n> Include actual past posts. This helps establish the writing style more accurately than general descriptions.\n\n#### Step 4: Plugins\n- LinkedIn\n- X (Twitter)\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nTake a single topic and prepare separate versions for LinkedIn and X.\n\nLinkedIn (longer version):\n- Place the core message in the opening line.\n- Use 150-300 words with short paragraphs.\n- Include one specific example or data point.\n- End with a practical key takeaway.\n\nX (short version):\n- Stay under 280 characters, or use a short thread if necessary.\n- Focus the message in the opening line.\n- Do not include hashtags.\n\nShow both versions for review before scheduling. Once approved, schedule the posts.\n```\n\n#### Step 6: Memory Scope\nGo to **Sharing and Access -> Memory**:\n- **No memory:** Starts each chat with no saved context.\n- **Separated:** Retains context within individual conversations while keeping them isolated.\n- **Shared:** Shares learned details across all conversations.\n\n> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.\n\n#### Step 7: Automate\n```text\nEvery Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.\n```\n\n---\n\n## Agent 3: The Analyst\n\n**Difficulty:** Advanced | **Build Time:** ~10 minutes\n\n#### Step 1: Name\n`The Analyst`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou monitor site metrics and business data, reporting changes clearly.\n\nState metric drops or performance changes directly at the beginning of the report.\n\nFocus on significant shifts in data rather than routine numbers. If traffic dropped, state the percentage decrease and the underlying cause directly.\n\nDistinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.\n\nIf metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.\n```\n\n#### Step 3: Memory Tab\n- **My business:** `[your products or services, target market]`\n- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`\n- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`\n- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`\n- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`\n\n#### Step 4: Plugins\n- Google Analytics\n- CRM (HubSpot, etc.)\n- Slack *(Setup: Custom -> Channels -> Select channel)*\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nCheck daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.\n\nGuidelines:\n- Compare performance against the same period last month and the same day last week.\n- Flag metric variations larger than 15%.\n- For CRM tracking: report lead counts by stage and flag items inactive for over 7 days.\n- If a traffic channel declines, identify the specific pages or campaigns driving the drop.\n- Clearly separate confirmed metrics from analytical estimates.\n\nReport structure:\nNOTABLE CHANGES (largest shifts listed first)\nTRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)\nPIPELINE STATUS (stage counts and inactive leads)\nANALYSIS (clearly marked as hypothesis)\n```\n\n#### Step 6: Model Configuration\n> [!IMPORTANT]\n> Go to **Settings -> General**:\n> - **Chat model:** Handles interactive sessions.\n> - **Automation model:** Handles scheduled background runs.\n>\n> Select a high-capability model for the **Automation model** to support automated data analysis.\n\n#### Step 7: Automate\n```text\nRun this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.\n```\n\n---\n\n## Ship It: Share Your Agents\n\n- Go to **Sharing -> Public Template Link**.\n- Connected accounts and API keys do not transfer with template links.\n\n---\n\n## Quick Reference Table\n\n| Setting | Location | Recommendation |\n| :--- | :--- | :--- |\n| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |\n| **Auto-detect secrets** | Settings -> Security | `ON` |\n| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |\n| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |\n| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |\n| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |\n| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |\n\n---\n\n## Troubleshooting\n\n- **\"My replies sound artificial.\"**\n  - Provide additional reference examples in Memory to better reflect your writing style.\n- **\"The agent flags minor details.\"**\n  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`\n- **\"The background task does not update data.\"**\n  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.\n- **\"The agent reports estimated data as fact.\"**\n  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`",
           "is_shallow": false,
-          "path": "/items/guides/build-3-ai-agents-in-base44"
+          "path": "/items/learning/build-3-ai-agents-in-base44"
         },
         {
           "id": "prompt-engineering",
           "name": "Prompt Engineering Guide",
           "description": "Complete beginner-to-advanced guide, system prompt templates, and best practices for prompting LLMs by DAIR.AI.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Prompting",
@@ -6089,8 +6089,8 @@
           ],
           "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
           "content": "",
-          "is_shallow": false,
-          "path": "/items/guides/prompt-engineering"
+          "is_shallow": true,
+          "path": "/items/learning/prompt-engineering"
         },
         {
           "id": "ai-prompt-engineering",
@@ -6111,7 +6111,7 @@
           "id": "higgsfield-ugc-prompt",
           "name": "Higgsfield UGC Prompt",
           "description": "A detailed prompt for creating an authentic UGC selfie video using Higgsfield.",
-          "category": "Video",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Video",
@@ -6121,7 +6121,7 @@
           "url": "",
           "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
           "is_shallow": false,
-          "path": "/items/video/higgsfield-ugc-prompt"
+          "path": "/items/learning/higgsfield-ugc-prompt"
         },
         {
           "id": "awesome-chatgpt-prompts",
@@ -6286,7 +6286,7 @@
           "id": "claude-code-cli",
           "name": "Claude Code CLI",
           "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "CLI",
@@ -6297,7 +6297,7 @@
           "url": "https://docs.anthropic.com",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/claude-code-cli"
+          "path": "/items/tools/claude-code-cli"
         },
         {
           "id": "claude",
@@ -6323,7 +6323,7 @@
           "id": "motion-graphics-in-ai",
           "name": "Motion Graphics with AI \u2014 Full Setup & Workflow Guide",
           "description": "A 3-step workflow for creating custom, high-quality motion graphics directly inside your AI workspace using an MCP connector.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Skool",
@@ -6333,13 +6333,13 @@
           "url": "",
           "content": "Create custom, high-quality motion graphics directly inside your AI workspace using an MCP connector and structured prompt templates.\n\n---\n\n## Quick Start\n\n#### What You Need\n- **Higgsfield AI Account:** Sign up on their site.\n- **AI Tool / Coding Assistant:** Fitted with custom Higgsfield MCP connector.\n\n#### 3-Step Workflow\n1. **Generate Prompt:** Describe style and topic to main AI Chat.\n2. **Build with AI Coding Assistant:** Paste prompt into AI Coding Assistant. Tell it \"Build it\".\n3. **Save Output:** Get final video folder.\n\n---\n\n## Part 1: One-Time Setup\n\n1. Make account on Higgsfield.\n2. Copy custom MCP URL inside Higgsfield.\n3. Open AI Settings $\\rightarrow$ Customize $\\rightarrow$ Add Custom Connector $\\rightarrow$ paste MCP URL.\n4. Finish simple auth flow.\n\nMCP setup done. Image and video models now ready inside AI Coding Assistant.\n\n---\n\n## Part 2: Prompt Generator (AI Chat Template)\n\nUse template inside main AI Chat. Fill in brackets to make prompt for AI Coding Assistant.\n\n#### Master Prompt Generator\n\n```text\nYou are writing a single, self-contained build prompt that I will paste into my AI Coding Assistant, which has the Higgsfield MCP connected. The AI will use that prompt to generate a complete narrated motion-graphics video end to end.\n\nTOPIC: [your topic]\nTARGET LENGTH: [e.g. 90 seconds]\nVISUAL STYLE: [describe the look in concrete nouns \u2014 materials, textures, palette, line quality, camera behavior]\n\nWrite the build prompt so it contains all of the following, explicitly:\n\n1. STYLE BIBLE\n   - A locked style description written so that shot 40 looks identical to shot 1\n   - Color palette with specific hex values\n   - Texture and material rules\n   - Typography rules for on-screen text\n   - Camera and motion rules (what moves, what never moves)\n   - An explicit \"never do this\" list to prevent style drift\n\n2. SCRIPT\n   - A complete voiceover script, written to be spoken, at the target length\n   - Broken into numbered beats\n   - Every factual claim marked with [FACT] so I can verify before render\n\n3. SHOT LIST\n   - One entry per beat: shot number, duration, what's on screen, what the VO says over it\n   - Each shot's image/video generation prompt written out in full\n   - The style bible referenced or restated in every single shot prompt\n\n4. ON-SCREEN TEXT\n   - Exact wording for every label, number, arrow annotation, and caption\n   - Placement notes\n\n5. AUDIO\n   - Voiceover generation instructions including tone, pace, and voice character\n   - Timing notes so VO and visuals land together\n\n6. ASSEMBLY\n   - Instructions to write all assets and the final video to a clearly named local folder\n\nOutput the build prompt only. No preamble, no explanation, no commentary. I am pasting it directly into the AI Coding Assistant.\n```\n\n---\n\n## Part 3: Style Recipes\n\nDrop recipes into `VISUAL STYLE:` field in generator.\n\n#### Vox-Style Paper Cutout\nPaper-cutout collage. Old photos with coarse halftone dots, rough paper edges, soft drop shadow. Elements look like real layers. Hand-drawn arrows in one accent color. Flat muted background, warm paper texture. Data shown as cut-paper bar charts and dotted maps. Text: bold condensed sans, lowercase. Camera: slow 2D pushes and slides. Elements snap in on beat. No 3D, no gradients, no lens flares, no glow.\n\n#### Bright Cartoon\nBright cartoon. Thick outlines, flat colors, high saturation: orange, teal, pink, yellow on clean light background. Round friendly characters, exaggerated shapes. Bouncy motion with squash, stretch, overshoot. Text: chunky round sans. Camera: fast whip transitions, pop-in reveals, bounce on settle. No realistic textures, no dark colors, no slow moves.\n\n#### Whiteboard Doodle\nWhiteboard doodle. Clean white board, black dry-erase marker with wobble and variable line weight, drawn on live. One or two accent marker colors for arrows. Simple stick figures and box diagrams. Text: hand-written marker style. Camera: slow pans across wide board, pushes on details. No extra color fills, no photos, no gradients.\n\n#### Pixel Art\nPixel art, 16-bit style. Fixed pixel grid, zero sub-pixel movement. 16 color limit. Dithering for shading. Readable sprites. Text: bitmap font, pixel-perfect, no anti-aliasing. Motion: low frame rate step animation. Camera: hard cuts, grid scrolls. No smooth motion, no modern effects.\n\n#### Isometric Flat Vector\nIsometric flat vector. 30-degree isometric view across all shots. Flat colors with soft shadows, no gradients. Muted palette: dusty blue, soft coral, warm grey, one main accent color. Buildings, devices built as blocks. Text: clean geometric sans. Camera: slow isometric drift. No perspective distortion, no complex lighting.\n\n---\n\n#### Custom Style Interrogator Prompt\n\nNot sure about visual style? Run prompt in main AI Chat first:\n\n```text\nI want to develop a signature motion-graphics style for my channel. I'm going to describe what I have in mind loosely, and I want you to interrogate it into something precise and reproducible.\n\nHere's the vague version: [describe it however it comes out \u2014 references, vibes, half-formed ideas]\n\nAsk me the questions you need to pin down: materials and textures, exact palette, line quality, how things enter and exit frame, camera behavior, typography, and what the style must never do.\n\nThen output a single VISUAL STYLE paragraph, written in concrete physical nouns rather than adjectives, specific enough that a generation model produces the same look on shot 1 and shot 40. Include an explicit \"never\" list.\n```\n\n---\n\n## Part 4: AI Coding Assistant Command\n\nAfter making prompt in AI Chat, run command in AI Coding Assistant:\n\n```bash\nTake that prompt and build it.\n```\n\n#### Advanced Command (More Control)\n```bash\nTake that prompt and build it. Before generating anything, show me the shot list and wait for my approval. Then generate all shots, lock the style reference across every one, generate the voiceover, time the blocks so audio and visuals land together, and write the finished project plus every individual asset to ./[project-name]/\n```\n\n---\n\n## Part 5: Extra Workflows\n\n#### Language Translation\n```text\nMake a version of this video in Spanish. Regenerate the voiceover with a native-sounding delivery in the same tone and pace as the original, retime the blocks to fit the new audio length, translate all on-screen text and re-render the affected shots, and keep the visual style byte-for-byte identical. Write it to ./[project-name]-es/\n```\n\n#### Motion Graphic Overlays\n```text\nI need individual motion-graphic elements to composite over footage I already recorded. Not a full video.\n\nVISUAL STYLE: [paste a style recipe]\n\nGenerate these as standalone assets with transparent backgrounds where possible:\n1. [e.g. an animated arrow pointing down-left, drawing on over 0.6s, holding, then drawing off]\n2. [e.g. a bar chart building from zero to three bars labeled 2019, 2022, 2025]\n3. [e.g. a lower-third name plate that slides in from frame left]\n\nFor each: specify duration, output at 1080p or higher, and write to ./elements/ with descriptive filenames.\n```\n\n#### Product Explainer Video\n```text\nBuild a product explainer video.\n\nPRODUCT: [name and what it actually does]\nAUDIENCE: [who's watching and what they currently believe]\nTHE ONE THING THEY SHOULD UNDERSTAND AFTER WATCHING: [single sentence]\nLENGTH: [e.g. 60 seconds]\nVISUAL STYLE: [paste a style recipe]\n\nStructure: open on the problem as the audience experiences it, show the mechanism of the solution visually rather than describing it, close on the outcome. No feature lists. Every claim marked [FACT] for my verification.\n```\n\n#### Course Lesson Video\n```text\nBuild a course lesson video.\n\nCONCEPT: [what you're teaching]\nLEARNER STARTS KNOWING: [prerequisite level \u2014 be honest]\nLEARNER SHOULD BE ABLE TO DO AFTER: [concrete capability]\nLENGTH: [e.g. 4 minutes]\nVISUAL STYLE: [paste a style recipe]\n\nStructure it around the one thing learners typically get wrong about this concept. Build the visual metaphor early and return to it. Every claim marked [FACT].\n```\n\n---\n\n## Part 6: Two Big Mistakes\n\n#### Mistake 1: Fact Check After Render\nText and numbers on screen look authoritative. Wrong numbers mean re-rendering whole shots. Check facts first.\n\n**Pre-Render Fact-Check Prompt:**\n```text\nHere is my script. Every claim marked [FACT] needs verification before I render a single frame.\n\nFor each one: state whether it's accurate, cite the source, give me the correct figure if it's wrong, and flag anything that's technically true but misleading in context.\n\nBe blunt. I'd rather kill a claim now than regenerate a shot later.\n\n[paste script]\n```\n\n#### Mistake 2: Using Default Stock Presets\nPresets make videos look generic. Use **Custom Style Interrogator** to build unique look.\n\n---\n\n## Part 7: Alternate Web App Workflow\n\nNo AI Coding Assistant? Use Web App:\n1. Make prompt in main AI Chat.\n2. Open **Higgsfield Explainer** web tool.\n3. Paste prompt and pick preset (Pixel Art, Claymotion, Papercraft, Cartoon, Whiteboard, Flat Vector).",
           "is_shallow": false,
-          "path": "/items/guides/motion-graphics-in-ai"
+          "path": "/items/learning/motion-graphics-in-ai"
         },
         {
           "id": "raw-footage-to-finished-video-in-ai",
           "name": "Raw Footage to Finished Video \u2014 AI Setup & Workflow Guide",
           "description": "An AI setup guide utilizing open-source tools and HyperFrames to automatically edit, score, and caption raw video footage without Premiere.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Skool",
@@ -6349,7 +6349,7 @@
           "url": "",
           "content": "Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.\n\n---\n\n## Overview\n\n#### What You Are Building\nA single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.\n\n#### How It Works\n- `video-use`: Free open-source skill that reads transcript, finds cut points, and runs the main edit.\n- `HyperFrames`: Code-based graphic generator called by `video-use` when visual elements are needed. You only talk to `video-use`.\n\n---\n\n## Setup (One-Time)\n\n1. Copy the `video-use` link from community files.\n2. Paste link into AI Code tab and prompt:\n   \"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for my key when needed.\"\n3. Paste ElevenLabs API key when prompted during first edit run.\n\n---\n\n## Workflow\n\n#### 1. Rough Cut\nPut raw video into project folder and prompt:\n\"Start new project for raw clip and make rough cut.\"\n\nAI uses Scribe for word-level timestamps, flags filler words and pauses, shows cut plan, and waits for approval.\n\nFix-it prompts:\n- \"Add a bit more padding before that sentence.\"\n- \"Remove the word 'basically' at start of line.\"\n\n> [!IMPORTANT]\n> Lock rough cut before adding graphics to avoid timing misalignment later.\n\n---\n\n#### 2. Graphics\nOpen new chat for graphics phase and prompt:\n\"Plan motion graphic for each segment, then build.\"\n\nRefinement prompts:\n- \"Use primary brand orange instead of default blue.\"\n- \"Place logo PNG on intro graphic.\"\n- \"Slow down entrance animation speed.\"\n\nEach tweak only re-renders affected section.\n\n---\n\n#### 3. Captions\nPrompt:\n\"Add captions using existing transcript.\"\n\nGenerated using existing Scribe timestamps.\n\n---\n\n#### 4. Music\nPoint AI to audio file and set volume level (recommended **-22 to -23 dB** for background voice balance):\n\"Add background music using this track at -22 dB.\"\n\n---\n\n#### 5. Export\nPrompt:\n\"Export final video.\"\n\nFinal file saves to downloads directory; source project folder remains intact.\n\n---\n\n## Summary Prompt Reference\n\n| Phase | Command / Prompt |\n| :--- | :--- |\n| **Setup** | `\"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for key when needed.\"` |\n| **Rough Cut** | `\"Start new project for raw clip and make rough cut.\"` |\n| **Graphics** | `\"Plan motion graphic for each segment, then build.\"` |\n| **Captions** | `\"Add captions using existing transcript.\"` |\n| **Export** | `\"Export final video.\"` |\n\n---\n\n## Key Notes\n\n- Word-level Scribe timestamps give accurate cut placement.\n- Use natural language prompts for edits instead of manual timeline trimming.",
           "is_shallow": false,
-          "path": "/items/guides/raw-footage-to-finished-video-in-ai"
+          "path": "/items/learning/raw-footage-to-finished-video-in-ai"
         },
         {
           "id": "ai-video-and-visual-content",
@@ -6370,7 +6370,7 @@
           "id": "cinematic-real-estate-listing",
           "name": "Cinematic Real Estate Listing Video",
           "description": "A master prompt for generating cinematic real estate listing videos using Higgsfield and Claude.",
-          "category": "Video",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Video",
@@ -6380,13 +6380,13 @@
           "url": "",
           "content": "```text\nThe ONE thing you customize for every listing is the WALKTHROUGH:\n\nyou describe how the camera should move through the place. Write that\n\nfirst (Step 1), then paste the full prompt (Step 2).\n\n================================================================\n\nSTEP 1 \u2014 WRITE YOUR WALKTHROUGH (how it should go)\n\n================================================================\n\nDescribe the camera's route as ONE continuous move, in the order you\n\nwant to show the home. This is what makes each video custom. Call out:\n\n- where it starts (outside, the front door, or a key room)\n\n- the order of rooms, and how it moves between them (glide, turn, rise, descend)\n\n- where the furniture unfolds into place\n\n- where to slow down (the selling features: kitchen, view, primary suite)\n\n- how it ends (a hero shot, or back where it started)\n\nKeep it one flowing path. The model follows it as a single continuous shot.\n\n>>> WRITE YOURS HERE:\n\n[ ........................................................... ]\n\nEXAMPLE (Oliver's apartment) \u2014 copy this style:\n\n\"Start just outside the front door and push in through the entrance.\n\nGlide into the kitchen as the furniture and decor unfold into place.\n\nContinue out into the living room. Turn to the right and look up toward\n\nthe staircase, then rise up the stairs. As you reach the top, let the\n\nupstairs interior unfold into place. Drift over toward the desk and\n\ncomputer setup, then move out over the edge of the landing and descend\n\nback down into the living room to finish.\"\n\n================================================================\n\nSTEP 2 \u2014 THE PROMPT (paste into Claude, attach your photo, drop your walkthrough in)\n\n================================================================\n\nUse Higgsfield to create a cinematic real estate listing video from\n\nthis photo. Model: Kling 3.0, highest quality mode (pro or 4k), then\n\nupscale the result.\n\nWALKTHROUGH (how the camera should move \u2014 paste your Step 1 here):\n\n[ your walkthrough goes here ]\n\nSHOT: one continuous, smooth cinematic walkthrough that follows the\n\nwalkthrough above. Slow luxurious motion, seamless forward movement,\n\nsubtle parallax, shallow depth of field, decelerating to reveal each\n\nroom.\n\nFIDELITY (critical, do not break): stay faithful to the reference\n\nphoto. Preserve the exact architecture, layout, furniture, materials,\n\ncolors, and proportions shown. Do NOT add, remove, move, or invent\n\nrooms, furniture, windows, doors, or objects. Keep every straight line\n\nstraight: no warping or bending of walls, doorframes, counters, or\n\nwindows.\n\nLOOK: premium architectural film grade, high dynamic range, natural\n\nrealistic textures, soft cinematic color. Golden hour warmth outside\n\neasing into a soft interior glow. Calm, aspirational, expensive.\n\nMOTION FEEL: steady, slow, luxurious. No shaky cam, no fast cuts, no\n\nsnap zooms.\n\nFURNITURE REVEAL (marketing flourish, ON by default): as the camera\n\nenters each space, have the furniture and decor elegantly fold/assemble\n\ninto place, then settle into the final furnished look.\n\n(Toggle OFF for a fully faithful flythrough when the agent wants exact.)\n\nNEGATIVE / AVOID: no people, no text, no logos, no watermarks, no\n\nwarping, no distorted or bending lines, no extra or invented rooms,\n\nno cartoon or fake CGI look, no flicker, no morphing walls.\n\n================================================================\n\nTWO WAYS TO BUILD IT (pick based on the listing)\n\n================================================================\n\nA. ONE CONTINUOUS WALKTHROUGH (the wow factor):\n\n   One generation that follows your whole path. Best when you have a\n\n   strong main photo and want the cinematic, flowing reveal. Anchor it\n\n   with a start photo (and an end photo if you have one).\n\nB. ROOM BY ROOM, THEN STITCH (max accuracy):\n\n   Run the prompt once per real listing photo, give each clip a short\n\n   one-room walkthrough (e.g. \"push into the kitchen and slow on the\n\n   island\"), then stitch the clips in this order:\n\n   exterior -> entry -> living -> kitchen -> primary bedroom -> bath -> standout feature.\n\n   Use this when the agent needs it to match the real home exactly.\n\nExterior/aerial beat (either mode): use the REAL exterior photo as the\n\nstart frame, OR a real Google Earth Studio aerial of the actual address.\n\nNEVER use an AI-invented exterior.\n\n================================================================\n\nTWEAKABLES (give the buyer control)\n\n================================================================\n\n- Speed: slow & luxurious  OR  energetic & modern\n\n- Time of day / light: golden hour / bright airy daylight / twilight / cozy evening glow\n\n- Furniture: unfold-in (stylized, default)  OR  static (faithful/accurate)\n\n- Mood: calm luxury / vibrant modern / cozy & warm\n\n- Aspect ratio: 16:9 (YouTube + website)  OR  9:16 (Reels / TikTok / Stories)\n\n- Clip length: 5s or 10s\n\n- Quality: Kling 3.0 pro or 4k, then upscale_video\n\n================================================================\n\nQUALITY STEP\n\n================================================================\n\nAfter it generates, run upscale_video for the final resolution bump.\n\nThis is the fix for \"I wanted higher quality.\"\n```",
           "is_shallow": false,
-          "path": "/items/video/cinematic-real-estate-listing"
+          "path": "/items/learning/cinematic-real-estate-listing"
         },
         {
           "id": "higgsfield-ugc-prompt",
           "name": "Higgsfield UGC Prompt",
           "description": "A detailed prompt for creating an authentic UGC selfie video using Higgsfield.",
-          "category": "Video",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Video",
@@ -6396,7 +6396,7 @@
           "url": "",
           "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
           "is_shallow": false,
-          "path": "/items/video/higgsfield-ugc-prompt"
+          "path": "/items/learning/higgsfield-ugc-prompt"
         },
         {
           "id": "video-script-60s",
@@ -6487,7 +6487,7 @@
           "id": "how-to-find-a-tech-job-in-2026",
           "name": "How to Find a Tech Job in 2026",
           "description": "A concise blueprint for breaking into tech and landing a software engineering job in a competitive market.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Career",
@@ -6497,7 +6497,7 @@
           "url": "",
           "content": "#### 1. Master LeetCode\n- Start practicing daily well before the recruiting cycle begins.\n- If you don't know where to start, focus on the **Blind 75** list on LeetCode.\n\n#### 2. Learn a High-Demand Skill\n- If your resume isn't getting bites, you need new skills.\n- Dive deep into **AWS** (via AWS Skill Builder) or **Spring Boot**.\n- Recommended resource: *Amigoscode* on YouTube.\n\n#### 3. Build Something Valuable\n- Classes and degrees are no longer enough.\n- Build a significant project that takes at least 3-6 weeks to complete to showcase on your resume.\n\n#### 4. Network Relentlessly\n- \"It's not what you know, it's who you know.\"\n- Attend career fairs and hackathons.\n- Message your connections directly when applying for jobs; referrals are the easiest way to get an interview.",
           "is_shallow": false,
-          "path": "/items/guides/how-to-find-a-tech-job-in-2026"
+          "path": "/items/learning/how-to-find-a-tech-job-in-2026"
         },
         {
           "id": "ai-assisted-recruiting",
@@ -6677,7 +6677,7 @@
           "id": "mobile-app-growth-cheat-sheet",
           "name": "Mobile App Growth Cheat Sheet",
           "description": "Cheat sheet for mobile app marketing and growth.",
-          "category": "Cheat Sheets",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Mobile",
@@ -6688,13 +6688,13 @@
           "url": "https://offers.hubspot.com/view/mobile-app-growth",
           "content": "",
           "is_shallow": true,
-          "path": "/items/cheatsheets/mobile-app-growth-cheat-sheet"
+          "path": "/items/learning/mobile-app-growth-cheat-sheet"
         },
         {
           "id": "1m-attention",
           "name": "1M Attention",
           "description": "A blueprint for getting attention and marketing successfully",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Marketing",
@@ -6703,8 +6703,8 @@
           ],
           "url": "https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit",
           "content": "",
-          "is_shallow": false,
-          "path": "/items/guides/1m-attention"
+          "is_shallow": true,
+          "path": "/items/learning/1m-attention"
         },
         {
           "id": "content-ideas",
@@ -6806,7 +6806,7 @@
           "id": "hubspot-full-stack-ai-marketing-toolkit",
           "name": "HubSpot Full-Stack AI Marketing Toolkit",
           "description": "Comprehensive marketing toolkit template on Google Sheets.",
-          "category": "Templates",
+          "category": "Resources",
           "subcategory": "",
           "tags": [
             "Marketing",
@@ -6816,13 +6816,13 @@
           "url": "https://docs.google.com/spreadsheets/d/1e25QKZ79GO7b5obA2DwB5W3I0Gflw3-unziCK2lWixA/edit",
           "content": "",
           "is_shallow": true,
-          "path": "/items/templates/hubspot-full-stack-ai-marketing-toolkit"
+          "path": "/items/resources/hubspot-full-stack-ai-marketing-toolkit"
         },
         {
           "id": "marketing-against-the-grain-newsletter-template",
           "name": "Marketing Against the Grain Newsletter Template",
           "description": "Email newsletter setup template on Google Sheets.",
-          "category": "Templates",
+          "category": "Resources",
           "subcategory": "",
           "tags": [
             "Newsletter",
@@ -6832,7 +6832,7 @@
           "url": "https://docs.google.com/spreadsheets/d/12cw8R1Ef45SkHLKp4ypKZLk5a3vi9hTtn1PqRdPztgw/edit",
           "content": "",
           "is_shallow": true,
-          "path": "/items/templates/marketing-against-the-grain-newsletter-template"
+          "path": "/items/resources/marketing-against-the-grain-newsletter-template"
         },
         {
           "id": "copy-ai",
@@ -6905,7 +6905,7 @@
           "id": "fabric",
           "name": "Fabric (Daniel Miessler)",
           "description": "Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.",
-          "category": "Frameworks",
+          "category": "Resources",
           "subcategory": "",
           "tags": [
             "Workflow",
@@ -6916,13 +6916,13 @@
           "url": "https://github.com/danielmiessler/fabric",
           "content": "",
           "is_shallow": true,
-          "path": "/items/frameworks/fabric"
+          "path": "/items/resources/fabric"
         },
         {
           "id": "taste-skill",
           "name": "Taste Skill",
           "description": "The Anti-Slop Frontend Framework for AI Agents.",
-          "category": "Frameworks",
+          "category": "Resources",
           "subcategory": "",
           "tags": [
             "Frontend",
@@ -6932,7 +6932,7 @@
           "url": "https://www.tasteskill.dev/",
           "content": "",
           "is_shallow": true,
-          "path": "/items/frameworks/taste-skill"
+          "path": "/items/resources/taste-skill"
         },
         {
           "id": "official-mcp-servers",
@@ -6954,7 +6954,7 @@
           "id": "antigravity",
           "name": "Antigravity IDE & Suite",
           "description": "AI-powered terminal and extension suite with autonomous agent pair-programming capabilities.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "IDE",
@@ -6965,13 +6965,13 @@
           "url": "https://antigravity.google.com",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/antigravity"
+          "path": "/items/tools/antigravity"
         },
         {
           "id": "claude-code-cli",
           "name": "Claude Code CLI",
           "description": "Anthropic's command-line agent for codebase searching, editing, and execution.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "CLI",
@@ -6982,13 +6982,13 @@
           "url": "https://docs.anthropic.com",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/claude-code-cli"
+          "path": "/items/tools/claude-code-cli"
         },
         {
           "id": "copilot-cli",
           "name": "Copilot CLI",
           "description": "GitHub's terminal agent for command assistance, explanations, and git automation.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "CLI",
@@ -6999,7 +6999,7 @@
           "url": "https://github.com/github/gh-copilot",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/copilot-cli"
+          "path": "/items/tools/copilot-cli"
         },
         {
           "id": "cursor",
@@ -7020,7 +7020,7 @@
           "id": "firecrawl-cli",
           "name": "Firecrawl CLI & API",
           "description": "Turn entire websites into LLM-ready clean markdown data for scraping and indexing.",
-          "category": "Automation",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "Scraping",
@@ -7031,7 +7031,7 @@
           "url": "https://firecrawl.dev",
           "content": "",
           "is_shallow": true,
-          "path": "/items/automation/firecrawl-cli"
+          "path": "/items/tools/firecrawl-cli"
         },
         {
           "id": "github-copilot",
@@ -7068,7 +7068,7 @@
           "id": "trae-ide",
           "name": "Trae IDE",
           "description": "ByteDance's AI-powered IDE with native inline completion and agent tracking.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "IDE",
@@ -7079,13 +7079,13 @@
           "url": "https://trae.ai",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/trae-ide"
+          "path": "/items/tools/trae-ide"
         },
         {
           "id": "windsurf",
           "name": "Windsurf (Codeium)",
           "description": "Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.",
-          "category": "Coding",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "IDE",
@@ -7096,7 +7096,7 @@
           "url": "https://codeium.com/windsurf",
           "content": "",
           "is_shallow": true,
-          "path": "/items/coding/windsurf"
+          "path": "/items/tools/windsurf"
         }
       ]
     },
@@ -7107,7 +7107,7 @@
           "id": "build-3-ai-agents-in-base44",
           "name": "Build 3 AI Agents in Base44 \u2014 Complete Prompt Pack",
           "description": "A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Skool",
@@ -7117,13 +7117,13 @@
           "url": "",
           "content": "## Before You Start\n\n- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)\n  *(Prompts below ready to use. Swap bracketed parts for your own details.)*\n- **Required Accounts:** Free/trial accounts for tools to connect:\n  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)\n  - **Publisher:** LinkedIn, X\n  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack\n\n> [!TIP]\n> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.\n\n#### Standard Setup\n\n1. Name the agent\n2. Write the identity under \"About the agent\"\n3. Fill in Memory (your background details)\n4. Connect plugins\n5. Enter the job prompt\n6. Set permissions and select the model\n7. Configure automation\n\n---\n\n## Agent 1: Vesper (Inbox Triage)\n\n**Difficulty:** Beginner | **Build Time:** ~2 minutes\n\n#### Step 1: Name\n`Vesper`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.\n\nYou remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.\n\nFocus on being practical and direct.\n```\n\n#### Step 3: Memory Tab\n- **My name:** `[Your first name]`\n- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`\n- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`\n- **What I'm working on right now:** `[current project].`\n- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`\n- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like \"just circling back\"].`\n- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`\n\n*(Leave \"Things the agent has learned about you\" alone: it updates automatically).*\n\n#### Step 4: Plugins\n- Gmail\n- Google Calendar\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nRead incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.\n\nRules:\n- Save replies as drafts only. Do not send messages automatically.\n- Follow the communication style defined in Memory: short, direct, and concise.\n- If someone requests a meeting, check the calendar first and offer two or three open timeslots.\n- Group newsletters, receipts, and system notifications at the bottom of the summary as a total count.\n- When flagging an item, include one line explaining specifically why it needs my attention.\n\nFormat your summary like this:\nNEEDS ATTENTION (with a one-line explanation for each)\nDRAFTED (subject line + recipient)\nFILTERED (total count by category)\n```\n\n#### Step 6: Set Permissions\n> [!WARNING]\n> Go to **Settings -> Security -> Agent Permissions**:\n> - **Update data:** OFF\n> - **Delete data:** OFF\n> \n> Check these settings before linking accounts.\n\n- Ensure **Auto-detect secrets** is ON to store API keys securely.\n\n#### Step 7: Send to WhatsApp\n1. Go to **Customize -> Channels -> Connect**\n2. Scan the QR code and confirm the link.\n3. Add this instruction:\n   ```text\n   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.\n   ```\n\n#### Step 8: Automate\n```text\nRun this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.\n```\n\n---\n\n## Agent 2: The Publisher (LinkedIn + X)\n\n**Difficulty:** Intermediate | **Build Time:** ~5 minutes\n\n#### Step 1: Name\n`[Your name]'s Publisher`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou write posts matching my personal style and voice.\n\nUse clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.\n\nGuidelines:\n- Avoid buzzwords, generic intros, or unnecessary filler phrases.\n- Avoid repetitive short lines created purely for emphasis.\n- Do not invent fictional stories, metrics, or client examples. Ask for details if an example is needed.\n- Focus on one key concept per post.\n\nKeep content clear, specific, and practical.\n```\n\n#### Step 3: Memory Tab\n- **I post about:** `[your topics]`\n- **My audience:** `[who they are, their experience level, their main goals]`\n- **My voice:** `[3-4 lines describing your communication style]`\n- **Words and phrases I never use:** `[list specific words to avoid]`\n- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`\n\n> [!IMPORTANT]\n> Include actual past posts. This helps establish the writing style more accurately than general descriptions.\n\n#### Step 4: Plugins\n- LinkedIn\n- X (Twitter)\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nTake a single topic and prepare separate versions for LinkedIn and X.\n\nLinkedIn (longer version):\n- Place the core message in the opening line.\n- Use 150-300 words with short paragraphs.\n- Include one specific example or data point.\n- End with a practical key takeaway.\n\nX (short version):\n- Stay under 280 characters, or use a short thread if necessary.\n- Focus the message in the opening line.\n- Do not include hashtags.\n\nShow both versions for review before scheduling. Once approved, schedule the posts.\n```\n\n#### Step 6: Memory Scope\nGo to **Sharing and Access -> Memory**:\n- **No memory:** Starts each chat with no saved context.\n- **Separated:** Retains context within individual conversations while keeping them isolated.\n- **Shared:** Shares learned details across all conversations.\n\n> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.\n\n#### Step 7: Automate\n```text\nEvery Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.\n```\n\n---\n\n## Agent 3: The Analyst\n\n**Difficulty:** Advanced | **Build Time:** ~10 minutes\n\n#### Step 1: Name\n`The Analyst`\n\n#### Step 2: About the Agent (Identity Box)\n```text\nYou monitor site metrics and business data, reporting changes clearly.\n\nState metric drops or performance changes directly at the beginning of the report.\n\nFocus on significant shifts in data rather than routine numbers. If traffic dropped, state the percentage decrease and the underlying cause directly.\n\nDistinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.\n\nIf metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.\n```\n\n#### Step 3: Memory Tab\n- **My business:** `[your products or services, target market]`\n- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`\n- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`\n- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`\n- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`\n\n#### Step 4: Plugins\n- Google Analytics\n- CRM (HubSpot, etc.)\n- Slack *(Setup: Custom -> Channels -> Select channel)*\n\n#### Step 5: Job Prompt\n```text\nHere's your job.\n\nCheck daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.\n\nGuidelines:\n- Compare performance against the same period last month and the same day last week.\n- Flag metric variations larger than 15%.\n- For CRM tracking: report lead counts by stage and flag items inactive for over 7 days.\n- If a traffic channel declines, identify the specific pages or campaigns driving the drop.\n- Clearly separate confirmed metrics from analytical estimates.\n\nReport structure:\nNOTABLE CHANGES (largest shifts listed first)\nTRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)\nPIPELINE STATUS (stage counts and inactive leads)\nANALYSIS (clearly marked as hypothesis)\n```\n\n#### Step 6: Model Configuration\n> [!IMPORTANT]\n> Go to **Settings -> General**:\n> - **Chat model:** Handles interactive sessions.\n> - **Automation model:** Handles scheduled background runs.\n>\n> Select a high-capability model for the **Automation model** to support automated data analysis.\n\n#### Step 7: Automate\n```text\nRun this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.\n```\n\n---\n\n## Ship It: Share Your Agents\n\n- Go to **Sharing -> Public Template Link**.\n- Connected accounts and API keys do not transfer with template links.\n\n---\n\n## Quick Reference Table\n\n| Setting | Location | Recommendation |\n| :--- | :--- | :--- |\n| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |\n| **Auto-detect secrets** | Settings -> Security | `ON` |\n| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |\n| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |\n| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |\n| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |\n| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |\n\n---\n\n## Troubleshooting\n\n- **\"My replies sound artificial.\"**\n  - Provide additional reference examples in Memory to better reflect your writing style.\n- **\"The agent flags minor details.\"**\n  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`\n- **\"The background task does not update data.\"**\n  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.\n- **\"The agent reports estimated data as fact.\"**\n  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`",
           "is_shallow": false,
-          "path": "/items/guides/build-3-ai-agents-in-base44"
+          "path": "/items/learning/build-3-ai-agents-in-base44"
         },
         {
           "id": "zapier-sdk-quickstart",
           "name": "Zapier SDK Quickstart",
           "description": "Quickstart documentation for the Zapier SDK",
-          "category": "Guides",
+          "category": "Learning",
           "subcategory": "",
           "tags": [
             "Zapier",
@@ -7132,8 +7132,8 @@
           ],
           "url": "https://docs.zapier.com/sdk/quickstart",
           "content": "",
-          "is_shallow": false,
-          "path": "/items/guides/zapier-sdk-quickstart"
+          "is_shallow": true,
+          "path": "/items/learning/zapier-sdk-quickstart"
         },
         {
           "id": "ai-workflow-building-no-code",
@@ -7171,7 +7171,7 @@
           "id": "firecrawl-cli",
           "name": "Firecrawl CLI & API",
           "description": "Turn entire websites into LLM-ready clean markdown data for scraping and indexing.",
-          "category": "Automation",
+          "category": "Tools",
           "subcategory": "",
           "tags": [
             "Scraping",
@@ -7182,7 +7182,7 @@
           "url": "https://firecrawl.dev",
           "content": "",
           "is_shallow": true,
-          "path": "/items/automation/firecrawl-cli"
+          "path": "/items/tools/firecrawl-cli"
         },
         {
           "id": "gumloop",

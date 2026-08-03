@@ -125,7 +125,7 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
 - **Personal / Portfolio / Story Site:** Guided interactive documentary scroll through sequential pinned scenes (Cold Open -> Origin -> Stats -> Work/Stack -> Community -> Photo Reveal -> CTA).
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Skool

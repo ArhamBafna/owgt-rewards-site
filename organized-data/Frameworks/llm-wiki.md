@@ -8,7 +8,7 @@ Minimalist pattern and prompt template for building personal knowledge bases usi
 https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 ### Category
-Frameworks
+Resources
 
 ### Tags
 - Knowledge Base

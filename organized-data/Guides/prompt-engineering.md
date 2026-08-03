@@ -8,7 +8,7 @@ Complete beginner-to-advanced guide, system prompt templates, and best practices
 https://github.com/dair-ai/Prompt-Engineering-Guide
 
 ### Category
-Guides
+Learning
 
 ### Tags
 - Prompting
