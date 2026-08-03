@@ -10,7 +10,7 @@ Summarize this meeting transcript into: key decisions, action items (with owners
 ```
 
 ### Category
-Business Ops
+Prompts
 
 ### Tags
 - Business Ops

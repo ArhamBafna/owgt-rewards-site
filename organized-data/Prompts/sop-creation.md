@@ -10,7 +10,7 @@ Turn this brain dump into a numbered SOP for someone who has never done this tas
 ```
 
 ### Category
-Business Ops
+Prompts
 
 ### Tags
 - Business Ops

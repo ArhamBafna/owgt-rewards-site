@@ -10,7 +10,7 @@ Draft a reply to this email: [paste email]. Key points: [your bullet points]. Un
 ```
 
 ### Category
-Communication
+Prompts
 
 ### Tags
 - Communication

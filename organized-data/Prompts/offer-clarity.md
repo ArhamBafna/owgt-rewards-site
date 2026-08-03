@@ -10,7 +10,7 @@ Help me improve this offer: [describe offer]. Who is it for, what problem does i
 ```
 
 ### Category
-Thinking & Strategy
+Prompts
 
 ### Tags
 - Thinking & Strategy

@@ -10,7 +10,7 @@ Write 5 social media captions for [platform] about [topic]. Audience: [describe]
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

@@ -1148,8 +1148,8 @@
       "id": "business-audit",
       "name": "Business Audit",
       "description": "I run a [describe business].",
-      "category": "Thinking & Strategy",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Analysis & Research",
       "tags": [
         "Thinking & Strategy",
         "Prompt",
@@ -1158,7 +1158,7 @@
       "url": "",
       "content": "```text\nI run a [describe business]. Help me identify my biggest time wasters and where AI could have the most impact in the next 30 days.\n```",
       "is_shallow": false,
-      "path": "/items/thinking-&-strategy/business-audit"
+      "path": "/items/prompts/business-audit"
     },
     {
       "id": "challenge-an-assumption",
@@ -1195,8 +1195,8 @@
       "id": "client-welcome",
       "name": "Client Welcome",
       "description": "Write a welcome email to a new client.",
-      "category": "Communication",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Communication",
         "Prompt",
@@ -1205,14 +1205,14 @@
       "url": "",
       "content": "```text\nWrite a welcome email to a new client. My business: [describe]. Tone: warm, professional. Include next steps and timeline. Under 200 words.\n```",
       "is_shallow": false,
-      "path": "/items/communication/client-welcome"
+      "path": "/items/prompts/client-welcome"
     },
     {
       "id": "cold-dm",
       "name": "Cold DM",
       "description": "Write a LinkedIn DM to [name], [role] at [company].",
-      "category": "Sales",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Sales",
         "Prompt",
@@ -1221,14 +1221,14 @@
       "url": "",
       "content": "```text\nWrite a LinkedIn DM to [name], [role] at [company]. Reference: [specific detail]. I help [audience] [achieve outcome]. Goal: get a 15-min call. Under 80 words. Human, not AI-sounding.\n```",
       "is_shallow": false,
-      "path": "/items/sales/cold-dm"
+      "path": "/items/prompts/cold-dm"
     },
     {
       "id": "cold-email",
       "name": "Cold Email",
       "description": "Write a cold email to [name], [role] at [company].",
-      "category": "Sales",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Sales",
         "Prompt",
@@ -1237,7 +1237,7 @@
       "url": "",
       "content": "```text\nWrite a cold email to [name], [role] at [company]. Subject: under 7 words. Opening: reference [something specific]. Body: connect to [problem]. Include vague result. CTA: low-friction ask. Under 200 words.\n```",
       "is_shallow": false,
-      "path": "/items/sales/cold-email"
+      "path": "/items/prompts/cold-email"
     },
     {
       "id": "compare-and-contrast-these-two",
@@ -1273,8 +1273,8 @@
       "id": "competitor-analysis",
       "name": "Competitor Analysis",
       "description": "Analyze the positioning of [competitor/brand].",
-      "category": "Thinking & Strategy",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Analysis & Research",
       "tags": [
         "Thinking & Strategy",
         "Prompt",
@@ -1283,14 +1283,14 @@
       "url": "",
       "content": "```text\nAnalyze the positioning of [competitor/brand]. What do they do well? What are gaps I could exploit? How should I differentiate against them?\n```",
       "is_shallow": false,
-      "path": "/items/thinking-&-strategy/competitor-analysis"
+      "path": "/items/prompts/competitor-analysis"
     },
     {
       "id": "content-ideas",
       "name": "Content Ideas",
       "description": "Give me 10 content topic ideas for [niche/audience].",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Creative & Content",
       "tags": [
         "Marketing",
         "Prompt",
@@ -1299,7 +1299,7 @@
       "url": "",
       "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
       "is_shallow": false,
-      "path": "/items/marketing/content-ideas"
+      "path": "/items/prompts/content-ideas"
     },
     {
       "id": "craft-an-ask-for-a-warm-introduction",
@@ -1485,8 +1485,8 @@
       "id": "deliver-difficult-news",
       "name": "Deliver Difficult News",
       "description": "A template to structure the communication of difficult news to an audience.",
-      "category": "Leadership & Management",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Claude",
         "Prompt",
@@ -1496,7 +1496,7 @@
       "url": "",
       "content": "```\nI need to communicate [difficult news] to [audience]. The news is: [describe]. Help me structure the communication so it: leads with the most important fact, explains the reasoning honestly, acknowledges the impact on the audience, and ends with what happens next. Give me the one thing I'm most tempted to soften that I should instead say directly.\n```",
       "is_shallow": false,
-      "path": "/items/leadership-&-management/deliver-difficult-news"
+      "path": "/items/prompts/deliver-difficult-news"
     },
     {
       "id": "design-a-weekly-review-framework",
@@ -1697,8 +1697,8 @@
       "id": "email-newsletter",
       "name": "Email Newsletter",
       "description": "Write a complete email newsletter.",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Marketing",
         "Prompt",
@@ -1707,14 +1707,14 @@
       "url": "",
       "content": "```text\nWrite a complete email newsletter. Subject: [under 7 words]. Hook: 2 sentences. Body: one insight, under 300 words. CTA: one ask. Sign-off: warm, 2 lines. Topic: [topic]. Audience: [describe]. Tone: [your tone].\n```",
       "is_shallow": false,
-      "path": "/items/marketing/email-newsletter"
+      "path": "/items/prompts/email-newsletter"
     },
     {
       "id": "email-reply",
       "name": "Email Reply",
       "description": "Draft a reply to this email: [paste email].",
-      "category": "Communication",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Communication",
         "Prompt",
@@ -1723,7 +1723,7 @@
       "url": "",
       "content": "```text\nDraft a reply to this email: [paste email]. Key points: [your bullet points]. Under 150 words. Tone: [direct/friendly/formal]. Sign as: [your name].\n```",
       "is_shallow": false,
-      "path": "/items/communication/email-reply"
+      "path": "/items/prompts/email-reply"
     },
     {
       "id": "employee-engagement-analysis",
@@ -1804,8 +1804,8 @@
       "id": "follow-up-touch-1",
       "name": "Follow-Up Touch 1",
       "description": "Short follow-up to [name] after no reply to my outreach about [topic].",
-      "category": "Sales",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Sales",
         "Prompt",
@@ -1814,14 +1814,14 @@
       "url": "",
       "content": "```text\nShort follow-up to [name] after no reply to my outreach about [topic]. Add value: [tip/insight]. Same CTA. Under 80 words.\n```",
       "is_shallow": false,
-      "path": "/items/sales/follow-up-touch-1"
+      "path": "/items/prompts/follow-up-touch-1"
     },
     {
       "id": "follow-up",
       "name": "Follow-Up",
       "description": "Draft a follow-up email to [name] about [topic].",
-      "category": "Communication",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Communication",
         "Prompt",
@@ -1830,7 +1830,7 @@
       "url": "",
       "content": "```text\nDraft a follow-up email to [name] about [topic]. Second follow-up. Brief, add value. Clear CTA. Under 100 words.\n```",
       "is_shallow": false,
-      "path": "/items/communication/follow-up"
+      "path": "/items/prompts/follow-up"
     },
     {
       "id": "generate-10-creative-solutions-to",
@@ -1971,8 +1971,8 @@
       "id": "hashtag-strategy",
       "name": "Hashtag Strategy",
       "description": "Give me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram.",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "AI & Technical",
       "tags": [
         "Marketing",
         "Prompt",
@@ -1981,7 +1981,7 @@
       "url": "",
       "content": "```text\nGive me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram. Mix of large (1M+), medium (100K-1M), and niche (under 100K).\n```",
       "is_shallow": false,
-      "path": "/items/marketing/hashtag-strategy"
+      "path": "/items/prompts/hashtag-strategy"
     },
     {
       "id": "higgsfield-ugc-prompt",
@@ -2018,8 +2018,8 @@
       "id": "hook-generator",
       "name": "Hook Generator",
       "description": "Write 5 strong video/post hooks about [topic].",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Creative & Content",
       "tags": [
         "Marketing",
         "Prompt",
@@ -2028,14 +2028,14 @@
       "url": "",
       "content": "```text\nWrite 5 strong video/post hooks about [topic]. Under 8 words each. Create curiosity or call out a problem. No question marks.\n```",
       "is_shallow": false,
-      "path": "/items/marketing/hook-generator"
+      "path": "/items/prompts/hook-generator"
     },
     {
       "id": "idea-validation",
       "name": "Idea Validation",
       "description": "I want to [describe idea/project].",
-      "category": "Thinking & Strategy",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "AI & Technical",
       "tags": [
         "Thinking & Strategy",
         "Prompt",
@@ -2044,7 +2044,7 @@
       "url": "",
       "content": "```text\nI want to [describe idea/project]. What are the 5 biggest risks? What would need to be true for this to succeed? What should I test first?\n```",
       "is_shallow": false,
-      "path": "/items/thinking-&-strategy/idea-validation"
+      "path": "/items/prompts/idea-validation"
     },
     {
       "id": "identify-inefficiencies-in-this-workflow",
@@ -2170,8 +2170,8 @@
       "id": "job-description",
       "name": "Job Description",
       "description": "Write a job description for a [role] at my business.",
-      "category": "Business Ops",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Business Operations",
       "tags": [
         "Business Ops",
         "Prompt",
@@ -2180,7 +2180,7 @@
       "url": "",
       "content": "```text\nWrite a job description for a [role] at my business. Company: [describe]. Responsibilities: [list]. Requirements: [list]. Tone: engaging, honest. Under 300 words.\n```",
       "is_shallow": false,
-      "path": "/items/business-ops/job-description"
+      "path": "/items/prompts/job-description"
     },
     {
       "id": "kpi-framework-design",
@@ -2231,8 +2231,8 @@
       "id": "meeting-request",
       "name": "Meeting Request",
       "description": "Write a brief meeting request to [name] about [topic].",
-      "category": "Communication",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Communication",
         "Prompt",
@@ -2241,14 +2241,14 @@
       "url": "",
       "content": "```text\nWrite a brief meeting request to [name] about [topic]. Purpose and format clear. Under 100 words.\n```",
       "is_shallow": false,
-      "path": "/items/communication/meeting-request"
+      "path": "/items/prompts/meeting-request"
     },
     {
       "id": "meeting-summary",
       "name": "Meeting Summary",
       "description": "Summarize this meeting transcript into: key decisions, action items (with owners), open questions.",
-      "category": "Business Ops",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Business Ops",
         "Prompt",
@@ -2257,7 +2257,7 @@
       "url": "",
       "content": "```text\nSummarize this meeting transcript into: key decisions, action items (with owners), open questions. [paste transcript or notes]\n```",
       "is_shallow": false,
-      "path": "/items/business-ops/meeting-summary"
+      "path": "/items/prompts/meeting-summary"
     },
     {
       "id": "navigate-a-stakeholder-disagreement",
@@ -2278,8 +2278,8 @@
       "id": "objection-response",
       "name": "Objection Response",
       "description": "Write a response to this sales objection: [quote objection].",
-      "category": "Sales",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Sales",
         "Prompt",
@@ -2288,14 +2288,14 @@
       "url": "",
       "content": "```text\nWrite a response to this sales objection: [quote objection]. Acknowledge it, reframe the value, ask a clarifying question. Keep it natural and under 60 words.\n```",
       "is_shallow": false,
-      "path": "/items/sales/objection-response"
+      "path": "/items/prompts/objection-response"
     },
     {
       "id": "offer-clarity",
       "name": "Offer Clarity",
       "description": "Help me improve this offer: [describe offer].",
-      "category": "Thinking & Strategy",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "AI & Technical",
       "tags": [
         "Thinking & Strategy",
         "Prompt",
@@ -2304,7 +2304,7 @@
       "url": "",
       "content": "```text\nHelp me improve this offer: [describe offer]. Who is it for, what problem does it solve, what outcome does it create, and what makes it different? Give me 3 better ways to position it.\n```",
       "is_shallow": false,
-      "path": "/items/thinking-&-strategy/offer-clarity"
+      "path": "/items/prompts/offer-clarity"
     },
     {
       "id": "onboarding-program-design",
@@ -2370,8 +2370,8 @@
       "id": "polite-decline",
       "name": "Polite Decline",
       "description": "Decline this request politely: [describe request].",
-      "category": "Communication",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Communication",
         "Prompt",
@@ -2380,7 +2380,7 @@
       "url": "",
       "content": "```text\nDecline this request politely: [describe request]. Leave door open. Under 80 words.\n```",
       "is_shallow": false,
-      "path": "/items/communication/polite-decline"
+      "path": "/items/prompts/polite-decline"
     },
     {
       "id": "post-mortem-framework",
@@ -2536,8 +2536,8 @@
       "id": "proposal",
       "name": "Proposal",
       "description": "Write a sales proposal.",
-      "category": "Business Ops",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Business Ops",
         "Prompt",
@@ -2546,7 +2546,7 @@
       "url": "",
       "content": "```text\nWrite a sales proposal. Client: [name/company]. Problem: [describe]. Solution: [describe]. Deliverables: [list]. Timeline: [duration]. Investment: [$X]. Expected outcome: [describe]. Format: 6 sections (situation, opportunity, solution, investment, credibility, next steps). Under 500 words.\n```",
       "is_shallow": false,
-      "path": "/items/business-ops/proposal"
+      "path": "/items/prompts/proposal"
     },
     {
       "id": "refine-your-pitch-narrative",
@@ -2582,8 +2582,8 @@
       "id": "repurposing",
       "name": "Repurposing",
       "description": "Repurpose this content: [paste content].",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Creative & Content",
       "tags": [
         "Marketing",
         "Prompt",
@@ -2592,7 +2592,7 @@
       "url": "",
       "content": "```text\nRepurpose this content: [paste content]. Create: 3 short captions, 1 email newsletter, 1 Twitter thread, 3 carousel bullet points. Voice: [your tone].\n```",
       "is_shallow": false,
-      "path": "/items/marketing/repurposing"
+      "path": "/items/prompts/repurposing"
     },
     {
       "id": "research-synthesis",
@@ -2718,8 +2718,8 @@
       "id": "sop-creation",
       "name": "SOP Creation",
       "description": "Turn this brain dump into a numbered SOP for someone who has never done this task.",
-      "category": "Business Ops",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Business Operations",
       "tags": [
         "Business Ops",
         "Prompt",
@@ -2728,7 +2728,7 @@
       "url": "",
       "content": "```text\nTurn this brain dump into a numbered SOP for someone who has never done this task. Add title and brief description. Flag missing steps as [FILL IN]. Brain dump: [paste text]\n```",
       "is_shallow": false,
-      "path": "/items/business-ops/sop-creation"
+      "path": "/items/prompts/sop-creation"
     },
     {
       "id": "summarize-the-financial-implications-of",
@@ -2884,8 +2884,8 @@
       "id": "video-script-60s",
       "name": "Video Script (60s)",
       "description": "Write a 60-second video script about [topic].",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Creative & Content",
       "tags": [
         "Marketing",
         "Prompt",
@@ -2894,14 +2894,14 @@
       "url": "",
       "content": "```text\nWrite a 60-second video script about [topic]. Hook, body (3-4 points), CTA. Tone: [your tone]. No stage directions. Just the words I say.\n```",
       "is_shallow": false,
-      "path": "/items/marketing/video-script-60s"
+      "path": "/items/prompts/video-script-60s"
     },
     {
       "id": "week-of-captions",
       "name": "Week of Captions",
       "description": "Write 5 social media captions for [platform] about [topic].",
-      "category": "Marketing",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "Creative & Content",
       "tags": [
         "Marketing",
         "Prompt",
@@ -2910,14 +2910,14 @@
       "url": "",
       "content": "```text\nWrite 5 social media captions for [platform] about [topic]. Audience: [describe]. Types needed: value post, story post, hot take, social proof, engagement. Tone: [your tone]. Max 200 words each.\n```",
       "is_shallow": false,
-      "path": "/items/marketing/week-of-captions"
+      "path": "/items/prompts/week-of-captions"
     },
     {
       "id": "weekly-planning",
       "name": "Weekly Planning",
       "description": "Based on these goals: [list goals], help me plan my top 3 priorities for this week.",
-      "category": "Thinking & Strategy",
-      "subcategory": "",
+      "category": "Prompts",
+      "subcategory": "AI & Technical",
       "tags": [
         "Thinking & Strategy",
         "Prompt",
@@ -2926,7 +2926,7 @@
       "url": "",
       "content": "```text\nBased on these goals: [list goals], help me plan my top 3 priorities for this week. What should I NOT do this week? What can I delegate or automate?\n```",
       "is_shallow": false,
-      "path": "/items/thinking-&-strategy/weekly-planning"
+      "path": "/items/prompts/weekly-planning"
     },
     {
       "id": "what-would-a-mckinsey-consultant",
@@ -5360,8 +5360,8 @@
           "id": "cold-dm",
           "name": "Cold DM",
           "description": "Write a LinkedIn DM to [name], [role] at [company].",
-          "category": "Sales",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
           "tags": [
             "Sales",
             "Prompt",
@@ -5370,14 +5370,14 @@
           "url": "",
           "content": "```text\nWrite a LinkedIn DM to [name], [role] at [company]. Reference: [specific detail]. I help [audience] [achieve outcome]. Goal: get a 15-min call. Under 80 words. Human, not AI-sounding.\n```",
           "is_shallow": false,
-          "path": "/items/sales/cold-dm"
+          "path": "/items/prompts/cold-dm"
         },
         {
           "id": "cold-email",
           "name": "Cold Email",
           "description": "Write a cold email to [name], [role] at [company].",
-          "category": "Sales",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Sales & Outreach",
           "tags": [
             "Sales",
             "Prompt",
@@ -5386,14 +5386,14 @@
           "url": "",
           "content": "```text\nWrite a cold email to [name], [role] at [company]. Subject: under 7 words. Opening: reference [something specific]. Body: connect to [problem]. Include vague result. CTA: low-friction ask. Under 200 words.\n```",
           "is_shallow": false,
-          "path": "/items/sales/cold-email"
+          "path": "/items/prompts/cold-email"
         },
         {
           "id": "email-newsletter",
           "name": "Email Newsletter",
           "description": "Write a complete email newsletter.",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
           "tags": [
             "Marketing",
             "Prompt",
@@ -5402,14 +5402,14 @@
           "url": "",
           "content": "```text\nWrite a complete email newsletter. Subject: [under 7 words]. Hook: 2 sentences. Body: one insight, under 300 words. CTA: one ask. Sign-off: warm, 2 lines. Topic: [topic]. Audience: [describe]. Tone: [your tone].\n```",
           "is_shallow": false,
-          "path": "/items/marketing/email-newsletter"
+          "path": "/items/prompts/email-newsletter"
         },
         {
           "id": "email-reply",
           "name": "Email Reply",
           "description": "Draft a reply to this email: [paste email].",
-          "category": "Communication",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Writing & Communication",
           "tags": [
             "Communication",
             "Prompt",
@@ -5418,7 +5418,7 @@
           "url": "",
           "content": "```text\nDraft a reply to this email: [paste email]. Key points: [your bullet points]. Under 150 words. Tone: [direct/friendly/formal]. Sign as: [your name].\n```",
           "is_shallow": false,
-          "path": "/items/communication/email-reply"
+          "path": "/items/prompts/email-reply"
         },
         {
           "id": "summarize-this-email-thread-into",
@@ -5520,8 +5520,8 @@
           "id": "content-ideas",
           "name": "Content Ideas",
           "description": "Give me 10 content topic ideas for [niche/audience].",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Creative & Content",
           "tags": [
             "Marketing",
             "Prompt",
@@ -5530,7 +5530,7 @@
           "url": "",
           "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
           "is_shallow": false,
-          "path": "/items/marketing/content-ideas"
+          "path": "/items/prompts/content-ideas"
         },
         {
           "id": "rewrite-this-in-half-the",
@@ -6402,8 +6402,8 @@
           "id": "video-script-60s",
           "name": "Video Script (60s)",
           "description": "Write a 60-second video script about [topic].",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Creative & Content",
           "tags": [
             "Marketing",
             "Prompt",
@@ -6412,7 +6412,7 @@
           "url": "",
           "content": "```text\nWrite a 60-second video script about [topic]. Hook, body (3-4 points), CTA. Tone: [your tone]. No stage directions. Just the words I say.\n```",
           "is_shallow": false,
-          "path": "/items/marketing/video-script-60s"
+          "path": "/items/prompts/video-script-60s"
         },
         {
           "id": "animejs",
@@ -6578,8 +6578,8 @@
           "id": "job-description",
           "name": "Job Description",
           "description": "Write a job description for a [role] at my business.",
-          "category": "Business Ops",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Business Operations",
           "tags": [
             "Business Ops",
             "Prompt",
@@ -6588,7 +6588,7 @@
           "url": "",
           "content": "```text\nWrite a job description for a [role] at my business. Company: [describe]. Responsibilities: [list]. Requirements: [list]. Tone: engaging, honest. Under 300 words.\n```",
           "is_shallow": false,
-          "path": "/items/business-ops/job-description"
+          "path": "/items/prompts/job-description"
         },
         {
           "id": "onboarding-program-design",
@@ -6710,8 +6710,8 @@
           "id": "content-ideas",
           "name": "Content Ideas",
           "description": "Give me 10 content topic ideas for [niche/audience].",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Creative & Content",
           "tags": [
             "Marketing",
             "Prompt",
@@ -6720,14 +6720,14 @@
           "url": "",
           "content": "```text\nGive me 10 content topic ideas for [niche/audience]. Make each specific and actionable. Format as a numbered list.\n```",
           "is_shallow": false,
-          "path": "/items/marketing/content-ideas"
+          "path": "/items/prompts/content-ideas"
         },
         {
           "id": "hashtag-strategy",
           "name": "Hashtag Strategy",
           "description": "Give me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram.",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "AI & Technical",
           "tags": [
             "Marketing",
             "Prompt",
@@ -6736,14 +6736,14 @@
           "url": "",
           "content": "```text\nGive me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram. Mix of large (1M+), medium (100K-1M), and niche (under 100K).\n```",
           "is_shallow": false,
-          "path": "/items/marketing/hashtag-strategy"
+          "path": "/items/prompts/hashtag-strategy"
         },
         {
           "id": "hook-generator",
           "name": "Hook Generator",
           "description": "Write 5 strong video/post hooks about [topic].",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Creative & Content",
           "tags": [
             "Marketing",
             "Prompt",
@@ -6752,14 +6752,14 @@
           "url": "",
           "content": "```text\nWrite 5 strong video/post hooks about [topic]. Under 8 words each. Create curiosity or call out a problem. No question marks.\n```",
           "is_shallow": false,
-          "path": "/items/marketing/hook-generator"
+          "path": "/items/prompts/hook-generator"
         },
         {
           "id": "repurposing",
           "name": "Repurposing",
           "description": "Repurpose this content: [paste content].",
-          "category": "Marketing",
-          "subcategory": "",
+          "category": "Prompts",
+          "subcategory": "Creative & Content",
           "tags": [
             "Marketing",
             "Prompt",
@@ -6768,7 +6768,7 @@
           "url": "",
           "content": "```text\nRepurpose this content: [paste content]. Create: 3 short captions, 1 email newsletter, 1 Twitter thread, 3 carousel bullet points. Voice: [your tone].\n```",
           "is_shallow": false,
-          "path": "/items/marketing/repurposing"
+          "path": "/items/prompts/repurposing"
         },
         {
           "id": "reddit-communities-to-promote-your-app",

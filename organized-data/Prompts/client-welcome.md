@@ -10,7 +10,7 @@ Write a welcome email to a new client. My business: [describe]. Tone: warm, prof
 ```
 
 ### Category
-Communication
+Prompts
 
 ### Tags
 - Communication

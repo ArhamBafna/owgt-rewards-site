@@ -10,7 +10,7 @@ Draft a follow-up email to [name] about [topic]. Second follow-up. Brief, add va
 ```
 
 ### Category
-Communication
+Prompts
 
 ### Tags
 - Communication

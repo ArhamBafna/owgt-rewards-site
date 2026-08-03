@@ -10,7 +10,7 @@ Write 5 strong video/post hooks about [topic]. Under 8 words each. Create curios
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

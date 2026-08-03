@@ -10,7 +10,7 @@ Decline this request politely: [describe request]. Leave door open. Under 80 wor
 ```
 
 ### Category
-Communication
+Prompts
 
 ### Tags
 - Communication

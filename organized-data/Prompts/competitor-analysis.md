@@ -10,7 +10,7 @@ Analyze the positioning of [competitor/brand]. What do they do well? What are ga
 ```
 
 ### Category
-Thinking & Strategy
+Prompts
 
 ### Tags
 - Thinking & Strategy

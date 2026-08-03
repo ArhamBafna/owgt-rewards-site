@@ -10,7 +10,7 @@ I need to communicate [difficult news] to [audience]. The news is: [describe]. H
 ```
 
 ### Category
-Leadership & Management
+Prompts
 
 ### Tags
 - Claude

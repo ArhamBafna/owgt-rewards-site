@@ -10,7 +10,7 @@ Write a complete email newsletter. Subject: [under 7 words]. Hook: 2 sentences. 
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

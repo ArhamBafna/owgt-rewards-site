@@ -10,7 +10,7 @@ Give me 10 content topic ideas for [niche/audience]. Make each specific and acti
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

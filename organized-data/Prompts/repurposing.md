@@ -10,7 +10,7 @@ Repurpose this content: [paste content]. Create: 3 short captions, 1 email newsl
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

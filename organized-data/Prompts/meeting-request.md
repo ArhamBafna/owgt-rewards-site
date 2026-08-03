@@ -10,7 +10,7 @@ Write a brief meeting request to [name] about [topic]. Purpose and format clear.
 ```
 
 ### Category
-Communication
+Prompts
 
 ### Tags
 - Communication

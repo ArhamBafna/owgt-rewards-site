@@ -10,7 +10,7 @@ Give me 15 relevant hashtags for a post about [topic] targeting [audience] on In
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

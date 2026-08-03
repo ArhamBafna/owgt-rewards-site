@@ -10,7 +10,7 @@ Write a cold email to [name], [role] at [company]. Subject: under 7 words. Openi
 ```
 
 ### Category
-Sales
+Prompts
 
 ### Tags
 - Sales

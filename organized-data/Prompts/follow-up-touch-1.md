@@ -10,7 +10,7 @@ Short follow-up to [name] after no reply to my outreach about [topic]. Add value
 ```
 
 ### Category
-Sales
+Prompts
 
 ### Tags
 - Sales

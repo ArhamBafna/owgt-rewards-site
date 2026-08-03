@@ -10,7 +10,7 @@ Write a response to this sales objection: [quote objection]. Acknowledge it, ref
 ```
 
 ### Category
-Sales
+Prompts
 
 ### Tags
 - Sales

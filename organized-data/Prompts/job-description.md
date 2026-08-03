@@ -10,7 +10,7 @@ Write a job description for a [role] at my business. Company: [describe]. Respon
 ```
 
 ### Category
-Business Ops
+Prompts
 
 ### Tags
 - Business Ops

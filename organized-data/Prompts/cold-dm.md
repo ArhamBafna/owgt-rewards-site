@@ -10,7 +10,7 @@ Write a LinkedIn DM to [name], [role] at [company]. Reference: [specific detail]
 ```
 
 ### Category
-Sales
+Prompts
 
 ### Tags
 - Sales

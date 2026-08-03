@@ -10,7 +10,7 @@ Write a 60-second video script about [topic]. Hook, body (3-4 points), CTA. Tone
 ```
 
 ### Category
-Marketing
+Prompts
 
 ### Tags
 - Marketing

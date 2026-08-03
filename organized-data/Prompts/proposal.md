@@ -10,7 +10,7 @@ Write a sales proposal. Client: [name/company]. Problem: [describe]. Solution: [
 ```
 
 ### Category
-Business Ops
+Prompts
 
 ### Tags
 - Business Ops

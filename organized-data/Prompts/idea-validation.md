@@ -10,7 +10,7 @@ I want to [describe idea/project]. What are the 5 biggest risks? What would need
 ```
 
 ### Category
-Thinking & Strategy
+Prompts
 
 ### Tags
 - Thinking & Strategy

@@ -10,7 +10,7 @@ Based on these goals: [list goals], help me plan my top 3 priorities for this we
 ```
 
 ### Category
-Thinking & Strategy
+Prompts
 
 ### Tags
 - Thinking & Strategy
