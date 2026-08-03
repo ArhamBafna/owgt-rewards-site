@@ -140,7 +140,7 @@ function initSearchSystem() {
       originalMainContent = mainContentArea.innerHTML;
     }
 
-    const tokens = query.split(/\s+/);
+    const tokens = query.split(/\s+/).filter(Boolean);
     const isTagScope = currentScope.toLowerCase() === 'tags' || window.location.pathname.includes('/tags');
     const isBookmarkScope = currentScope.toLowerCase() === 'bookmarks';
     
@@ -149,27 +149,52 @@ function initSearchSystem() {
       bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]').map(b => b.id);
     }
 
+    const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
     const scoredResults = searchData.map(item => {
       if (currentScope !== 'global' && !isBookmarkScope && item.category.toLowerCase() !== currentScope.toLowerCase()) return null;
       if (isBookmarkScope && !bookmarks.includes(item.id)) return null;
 
       let score = 0;
       let matchedSnippet = '';
+      const matchedTokens = new Set();
 
       const searchInStr = (str, points, type) => {
         if (!str) return;
         const lowerStr = str.toLowerCase();
-        let matched = false;
+
+        // Exact phrase match bonus
+        if (tokens.length > 1 && lowerStr.includes(query)) {
+          score += points * 3;
+        }
+
         tokens.forEach(token => {
-          const idx = lowerStr.indexOf(token);
+          let idx = -1;
+          let matchLen = token.length;
+
+          if (token.length <= 3) {
+            // Whole-word matching for short tokens (e.g. 'ai', 'ui', 'pdf')
+            const regex = new RegExp(`\\b${escapeRegExp(token)}\\b`, 'i');
+            const match = regex.exec(str);
+            if (match) {
+              idx = match.index;
+              matchLen = match[0].length;
+            }
+          } else {
+            idx = lowerStr.indexOf(token);
+          }
+
           if (idx !== -1) {
             score += points;
+            matchedTokens.add(token);
             if (!matchedSnippet && type !== 'tag') {
               const start = Math.max(0, idx - 40);
-              const end = Math.min(str.length, idx + token.length + 40);
+              const end = Math.min(str.length, idx + matchLen + 40);
               let snip = str.substring(start, end);
-              const regex = new RegExp(token, 'gi');
-              snip = snip.replace(regex, match => `<mark>${match}</mark>`);
+              const highlightRegex = token.length <= 3
+                ? new RegExp(`\\b(${escapeRegExp(token)})\\b`, 'gi')
+                : new RegExp(`(${escapeRegExp(token)})`, 'gi');
+              snip = snip.replace(highlightRegex, match => `<mark>${match}</mark>`);
               matchedSnippet = (start > 0 ? '...' : '') + snip + (end < str.length ? '...' : '');
             }
           }
@@ -185,16 +210,27 @@ function initSearchSystem() {
       if (item.tags) {
         item.tags.forEach(tag => {
           tokens.forEach(token => {
-            if (tag.toLowerCase().includes(token)) {
+            let matched = false;
+            if (token.length <= 3) {
+              const regex = new RegExp(`\\b${escapeRegExp(token)}\\b`, 'i');
+              matched = regex.test(tag);
+            } else {
+              matched = tag.toLowerCase().includes(token);
+            }
+            if (matched) {
               score += tagPoints;
+              matchedTokens.add(token);
               if (!matchedSnippet) matchedSnippet = `Tag: <mark>${tag}</mark>`;
             }
           });
         });
       }
 
-      if (score > 0) {
-        return { item, score, matchedSnippet };
+      // Requiring multi-token match when query has multiple tokens
+      const minTokensRequired = tokens.length > 1 ? Math.min(tokens.length, 2) : 1;
+      if (score > 0 && matchedTokens.size >= minTokensRequired) {
+        const finalScore = score * (matchedTokens.size / tokens.length);
+        return { item, score: finalScore, matchedSnippet };
       }
       return null;
     }).filter(r => r !== null).sort((a, b) => b.score - a.score);
