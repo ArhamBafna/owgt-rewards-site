@@ -84,10 +84,20 @@
       "norm_label": "clean_tags.py"
     },
     {
+      "label": "clean_tag()",
+      "file_type": "code",
+      "source_file": "scripts/clean_tags.py",
+      "source_location": "L190",
+      "_origin": "ast",
+      "id": "scripts_clean_tags_clean_tag",
+      "community": 410,
+      "norm_label": "clean_tag()"
+    },
+    {
       "label": "clean_markdown_file()",
       "file_type": "code",
       "source_file": "scripts/clean_tags.py",
-      "source_location": "L194",
+      "source_location": "L209",
       "_origin": "ast",
       "id": "scripts_clean_tags_clean_markdown_file",
       "community": 410,
@@ -97,7 +107,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "scripts/clean_tags.py",
-      "source_location": "L259",
+      "source_location": "L266",
       "_origin": "ast",
       "id": "scripts_clean_tags_run",
       "community": 410,
@@ -162,36 +172,6 @@
       "id": "scripts_crop_logo",
       "community": 396,
       "norm_label": "crop_logo.py"
-    },
-    {
-      "label": "deep_tag_analysis.py",
-      "file_type": "code",
-      "source_file": "scripts/deep_tag_analysis.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_deep_tag_analysis",
-      "community": 412,
-      "norm_label": "deep_tag_analysis.py"
-    },
-    {
-      "label": "deep_analyze()",
-      "file_type": "code",
-      "source_file": "scripts/deep_tag_analysis.py",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "scripts_deep_tag_analysis_deep_analyze",
-      "community": 412,
-      "norm_label": "deep_analyze()"
-    },
-    {
-      "label": "examine_all_tags.py",
-      "file_type": "code",
-      "source_file": "scripts/examine_all_tags.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "scripts_examine_all_tags",
-      "community": 413,
-      "norm_label": "examine_all_tags.py"
     },
     {
       "label": "extract_bookmarks.py",
@@ -27339,7 +27319,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/clean_tags.py",
-      "source_location": "L194",
+      "source_location": "L209",
       "weight": 1.0,
       "source": "scripts_clean_tags",
       "target": "scripts_clean_tags_clean_markdown_file",
@@ -27349,7 +27329,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/clean_tags.py",
-      "source_location": "L259",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "scripts_clean_tags",
+      "target": "scripts_clean_tags_clean_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/clean_tags.py",
+      "source_location": "L266",
       "weight": 1.0,
       "source": "scripts_clean_tags",
       "target": "scripts_clean_tags_run",
@@ -27360,7 +27350,18 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/clean_tags.py",
-      "source_location": "L264",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "scripts_clean_tags_clean_markdown_file",
+      "target": "scripts_clean_tags_clean_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/clean_tags.py",
+      "source_location": "L270",
       "weight": 1.0,
       "source": "scripts_clean_tags_run",
       "target": "scripts_clean_tags_clean_markdown_file",
@@ -27437,16 +27438,6 @@
       "weight": 1.0,
       "source": "scripts_convert_pdf_main",
       "target": "scripts_convert_pdf_extract_pdf_text",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/deep_tag_analysis.py",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "scripts_deep_tag_analysis",
-      "target": "scripts_deep_tag_analysis_deep_analyze",
       "confidence_score": 1.0
     },
     {
@@ -54320,5 +54311,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ea200193f809fe1fc8790efb4547dad562088bf0"
+  "built_at_commit": "b9c010bda8cb3c4ec49fdfd976015ac9f2ac8941"
 }

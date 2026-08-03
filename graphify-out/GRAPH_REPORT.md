@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-03)
 
 ## Corpus Check
-- 399 files · ~511,358 words
+- 396 files · ~493,543 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2730 nodes · 2700 edges · 414 communities (400 shown, 14 thin omitted)
+- 2728 nodes · 2701 edges · 412 communities (399 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ea200193`
+- Built from commit: `b9c010bd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -435,7 +435,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (414 total, 14 thin omitted)
+## Communities (412 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1985,10 +1985,14 @@ Nodes (5): Category, Description, Name, Tags, URL
 Cohesion: 0.33
 Nodes (5): Category, Description, Name, Tags, URL
 
+### Community 410 - "Community 410"
+Cohesion: 0.83
+Nodes (3): clean_markdown_file(), clean_tag(), run()
+
 ## Knowledge Gaps
 - **2197 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2192 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
