@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OWGT Rewards Library</title>
+  
+  <meta name="description" content="A curated library of AI prompts, tools, guides, and resources.">
+  
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  
+  <style>
+    /* Hallmark · genre: playful · macrostructure: Ecosystem Index · theme: Carnival (Drop 06 · Pressroom)
+     * nav: N6 Masthead · footer: Ft1 Mast-headed
+     * E5 custom illustration · HP1 vertical rail
+     */
+     
+    /* Page specific overrides and additions */
+    
+    /* Nav - N6 Newspaper Masthead */
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 0; gap: var(--space-xl); }
+    .mast-nav li { display: inline-flex; align-items: center; gap: var(--space-xl); }
+    .mast-nav li:not(:last-child)::after { content: ""; display: inline-block; width: 2px; height: 1em; background-color: var(--color-ink); }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); padding: 4px 10px; border-radius: 999px; text-decoration: none; color: var(--color-ink); border: 1px solid transparent; transition: background-color var(--duration-fast) var(--ease-out), color var(--duration-fast) var(--ease-out), border-color var(--duration-fast) var(--ease-out); }
+    .mast-nav a:hover, .mast-nav a.active { background-color: var(--color-accent); color: var(--color-accent-ink); border-color: var(--color-ink); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    /* Hero - H1 Marquee */
+    .hero-marquee { min-height: 50dvh; display: grid; align-content: center; padding: var(--space-3xl) var(--page-gutter); text-align: center; }
+    .display-xxl { font-size: clamp(4rem, 10vw, 10rem); line-height: 0.82; letter-spacing: -0.005em; }
+
+    /* Horizontal Scroller / Bundles Container */
+    .horizontal-scroll {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      padding-bottom: var(--space-md);
+    }
+    .horizontal-scroll::-webkit-scrollbar { display: none; }
+    .scroll-card {
+      flex: 1 1 260px;
+      max-width: 320px;
+    }
+
+    /* Tag Cloud */
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    .tag {
+      padding: var(--space-2xs) var(--space-sm);
+      border: var(--card-border);
+      border-radius: var(--pill-radius);
+      box-shadow: 2px 2px 0 var(--color-ink);
+      background: var(--color-paper-2);
+      color: var(--color-ink);
+      font-family: var(--font-outlier);
+      transition: all var(--duration-fast) var(--ease-out);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .tag:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 3px 3px 0 var(--color-ink);
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+    }
+    
+    /* Footer - Ft1 Mast-headed */
+    .foot-mast {
+      padding: var(--space-3xl) var(--page-gutter);
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      border-top: 2px solid var(--color-ink);
+    }
+    .foot-mast .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+    .foot-mast .wordmark {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-variation-settings: "wdth" 110, "wght" 800;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .foot-mast .tagline { margin-top: var(--space-xs); font-family: var(--font-body); text-align: center; }
+    .foot-mast .links { margin-top: var(--space-xs); font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-xs); letter-spacing: 0.05em; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <header class="new-global-header" id="globalHeader">
+  <div class="new-header-left">
+    <a href="/rewards" class="new-logo-link">
+      <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
+      <span class="new-header-title">OWGT Rewards</span>
+    </a>
+  </div>
+  <nav class="new-header-nav" aria-label="Primary">
+    <ul>
+      <li><a href="/prompts">Prompts</a></li>
+      <li><a href="/tools">Tools</a></li>
+      <li><a href="/learning">Learning</a></li>
+      <li><a href="/resources">Resources</a></li>
+      <li><a href="/tags">Tags</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
+    </ul>
+  </nav>
+  <div class="new-header-right">
+    <!-- Search Trigger Icon -->
+    <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    </button>
+    
+    <!-- Expanded Search Container -->
+    <div id="headerSearchContainer" class="header-search-container" style="display: none;">
+      <!-- Step 1: Scope Selection -->
+      <div id="searchScopeSelect" class="search-scope-select">
+        <button class="scope-btn" data-scope="global">All Rewards</button>
+        <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
+      </div>
+      
+      <!-- Step 2: Search Input -->
+      <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
+        <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
+        <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
+        <button id="executeSearchBtn" class="execute-search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+        <button id="closeSearchBtn" class="close-search-btn" aria-label="Close Search">✕</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <main class="page-wrap">
+    
+    <!-- Hero Section (Landing Page Top) -->
+    <section class="hero-marquee">
+      <h1 class="display-xxl">OWGT REWARDS</h1>
+      <nav class="mast-nav" aria-label="Primary" style="margin-top: var(--space-xl);">
+        <ul>
+          <li><a href="#categories">Browse</a></li>
+          <li><a href="#spotlight">Spotlight</a></li>
+          <li><a href="#bundles">Bundles</a></li>
+        </ul>
+      </nav>
+      <hr class="mast-rule double" style="margin-top: var(--space-xl);" aria-hidden="true">
+    </section>
+
+    <!-- Browse by Category Grid -->
+    <section id="categories" class="section section--paper-2">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <h2>Categories</h2>
+        </div>
+        
+        <div class="card-grid card-grid--4">
+          <a href="prompts" class="card" style="--cat-color: var(--color-cat-prompts);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Prompts</h3>
+              <p class="card__desc">Ready-to-use prompt templates for daily workflows.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">148 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="tools" class="card" style="--cat-color: var(--color-cat-tools);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Tools</h3>
+              <p class="card__desc">Curated AI tools for automation, coding, and productivity.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">82 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+
+          <a href="learning" class="card" style="--cat-color: var(--color-cat-learning);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Learning</h3>
+              <p class="card__desc">Guides, courses, video tutorials, and cheat sheets.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">54 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="resources" class="card" style="--cat-color: var(--color-cat-resources);">
+            <div class="card__accent-strip"></div>
+            <div class="card__body">
+              <h3 class="card__title">Resources</h3>
+              <p class="card__desc">Knowledge bases, frameworks, and templates.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">56 Items</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotlight Section (Random per load) -->
+    <section id="spotlight" class="section section--accent-1">
+      <div class="container">
+        <div class="split split--60-40">
+          <div class="stack stack--lg">
+            <div>
+              <h2>Spotlight Resource</h2>
+            </div>
+            
+            <div class="card" style="background: var(--color-paper-2); color: var(--color-ink); padding: var(--space-xl); box-shadow: 6px 6px 0 var(--color-ink);">
+              <h3 id="spotlight-title" style="font-size: var(--text-3xl);">Loading Spotlight...</h3>
+              <p id="spotlight-category" class="meta" style="margin-top: var(--space-xs); color: var(--color-muted);">Category: Resource</p>
+              <p id="spotlight-desc" style="margin-top: var(--space-md); font-size: var(--text-lg); line-height: 1.4;">
+                "Loading curated AI resource..."
+              </p>
+              <div class="cluster" style="margin-top: var(--space-xl);">
+                <button id="spotlight-copy-btn" class="btn btn--secondary">Copy Prompt</button>
+                <a id="spotlight-link-btn" href="#" class="btn btn--secondary" style="display: inline-block;">View Details →</a>
+                <button id="spotlight-shuffle-btn" class="btn btn--ghost" style="border: 2px solid var(--color-ink);">Shuffle ↻</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="halftone" style="width: 100%; height: 100%; min-height: 300px; border: 2px solid var(--color-ink);"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case Bundles Row -->
+    <section id="bundles" class="section">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl);">
+          <h2>Curated Bundles</h2>
+          <p style="margin-top: var(--space-xs);">Select a stack to view all related resources in one place.</p>
+        </div>
+        
+        <div class="horizontal-scroll colour-block">
+          <a href="/items/bundles/bundle-cold-outreach-stack" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Cold Outreach Stack</h3>
+              <p class="card__desc">Everything you need to automate lead gen and emails.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="/items/bundles/bundle-content-creation" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Content Creation</h3>
+              <p class="card__desc">Systematize your social media and blog posting.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="/items/bundles/bundle-marketing-stack" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Marketing Stack</h3>
+              <p class="card__desc">SOPs, prompt chains, and tools to run your agency.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          
+          <a href="/items/bundles/bundle-no-code-automation" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">No-Code Automation</h3>
+              <p class="card__desc">Time-saving automations for everyday work.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Popular Tag Cloud -->
+    <section class="section section--accent-2">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: var(--space-xl); text-align: center;">
+          <h2 style="color: var(--color-accent-2-ink);">Popular Tags</h2>
+        </div>
+        <div class="tag-cloud" style="justify-content: center; max-width: 800px; margin: 0 auto;">
+          <a href="tag-detail.html" class="tag">#marketing</a>
+          <a href="tags.html" class="tag">#sales</a>
+          <a href="tags.html" class="tag">#automation</a>
+          <a href="tags.html" class="tag">#chatgpt</a>
+          <a href="tags.html" class="tag">#midjourney</a>
+          <a href="tags.html" class="tag">#copywriting</a>
+          <a href="tags.html" class="tag">#sops</a>
+          <a href="tags.html" class="tag">#seo</a>
+          <a href="tags.html" class="tag">#research</a>
+          <a href="tags.html" class="tag">#design</a>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="links muted">© 2026 OWGT</p>
+      
+      <div style="margin-top: var(--space-xl); text-align: center;">
+        <span style="font-family: var(--font-display); font-size: 2rem; color: var(--color-accent);">✱ ✱ ✱ ✱</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -354,7 +354,7 @@ def main():
 
     # Clean loose item & bundle files from site root
     PRESERVED_ROOT_FILES = {
-        'index.html', 'prompts.html', 'tools.html', 'guides.html', 
+        'index.html', 'rewards.html', 'prompts.html', 'tools.html', 'guides.html', 
         'resources.html', 'learning.html', 'cheatsheets.html', 
         'templates.html', 'frameworks.html', 'tags.html', 
         'tag-detail.html', 'bookmarks.html', 'deep-guide.html', 
@@ -390,7 +390,7 @@ def main():
     generate_category_page("Saved", [])
     
     # Process static standalone pages to inject header
-    standalone_pages = ['index.html', 'tags.html', 'bookmarks.html', 'templates.html', 'tag-detail.html']
+    standalone_pages = ['rewards.html', 'tags.html', 'bookmarks.html', 'templates.html', 'tag-detail.html']
     import re
     old_header_regex = re.compile(r'<header class="new-global-header"[^>]*>[\s\S]*?</header>')
     

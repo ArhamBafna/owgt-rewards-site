@@ -120,7 +120,7 @@ function initSearchSystem() {
     const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
     const parts = cleanPath.split('/').filter(Boolean);
     const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
-    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
+    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'rewards' || lastSeg === 'rewards.html' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
     if (isHome) {
       const openFilterBtn = document.getElementById('openFilterDrawerBtn');
       if (openFilterBtn) openFilterBtn.style.display = 'none';
@@ -149,7 +149,7 @@ function initSearchSystem() {
     const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
     const parts = cleanPath.split('/').filter(Boolean);
     const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
-    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
+    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'rewards' || lastSeg === 'rewards.html' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
     if (isHome) {
       const openFilterBtn = document.getElementById('openFilterDrawerBtn');
       if (openFilterBtn) openFilterBtn.style.display = 'inline-flex';
@@ -591,7 +591,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.getElementById('globalHeader');
   if (!header) return;
   
-  if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '/home') {
+  if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '/home' || window.location.pathname.endsWith('/rewards.html') || window.location.pathname === '/rewards') {
     document.body.classList.add('is-home');
   }
 });
@@ -657,7 +657,7 @@ function initFilterSystem() {
   const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
   const parts = cleanPath.split('/').filter(Boolean);
   const lastSegment = parts.length > 0 ? parts[parts.length - 1] : '';
-  const isHomePage = parts.length === 0 || lastSegment === 'home' || lastSegment === 'home.html' || lastSegment === 'index.html' || lastSegment === 'site';
+  const isHomePage = parts.length === 0 || lastSegment === 'home' || lastSegment === 'rewards' || lastSegment === 'rewards.html' || lastSegment === 'home.html' || lastSegment === 'index.html' || lastSegment === 'site';
 
   const headerContent = document.querySelector('.new-global-header') || document.querySelector('header');
   if (headerContent) {
