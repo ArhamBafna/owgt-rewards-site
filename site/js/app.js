@@ -35,15 +35,33 @@ function initSearchSystem() {
   const mainContentArea = document.querySelector('main');
   
   // Set Local Scope Button Text based on path
-  const pathParts = window.location.pathname.split('/');
-  const catMatch = pathParts.length > 1 ? pathParts[1] : '';
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  let catSlug = pathParts.length > 0 ? pathParts[0] : '';
+  if (catSlug === 'items' && pathParts.length > 1) {
+    catSlug = pathParts[1];
+  }
   const localScopeBtn = document.getElementById('localScopeBtn');
   let pageCategory = '';
-  if (['prompts', 'tools', 'guides', 'resources', 'tags', 'bookmarks', 'learning', 'cheatsheets', 'templates', 'frameworks'].includes(catMatch)) {
-    pageCategory = catMatch.charAt(0).toUpperCase() + catMatch.slice(1);
-    if(localScopeBtn) localScopeBtn.textContent = pageCategory;
+  const catMap = {
+    'prompts': 'Prompts',
+    'tools': 'Tools',
+    'guides': 'Guides',
+    'resources': 'Resources',
+    'tags': 'Tags',
+    'bookmarks': 'Bookmarks',
+    'learning': 'Learning',
+    'cheatsheets': 'Cheatsheets',
+    'templates': 'Templates',
+    'frameworks': 'Frameworks'
+  };
+  if (catMap[catSlug]) {
+    pageCategory = catMap[catSlug];
+    if(localScopeBtn) {
+      localScopeBtn.textContent = pageCategory;
+      localScopeBtn.style.display = 'inline-block';
+    }
   } else {
-    if(localScopeBtn) localScopeBtn.style.display = 'none'; // hide if not in category
+    if(localScopeBtn) localScopeBtn.style.display = 'none';
   }
 
   fetch('/search-index.json')
@@ -113,7 +131,10 @@ function initSearchSystem() {
 
   const executeSearch = () => {
     const query = searchInput.value.toLowerCase().trim();
-    if (!query) return;
+    if (!query) {
+      closeSearch();
+      return;
+    }
 
     if (!originalMainContent && mainContentArea) {
       originalMainContent = mainContentArea.innerHTML;
@@ -158,6 +179,7 @@ function initSearchSystem() {
       searchInStr(item.name, 1000, 'name');
       searchInStr(item.description, 100, 'desc');
       searchInStr(item.content, 10, 'content');
+      searchInStr(item.url, 50, 'url');
       
       const tagPoints = isTagScope ? 500 : 1;
       if (item.tags) {
@@ -191,29 +213,96 @@ function initSearchSystem() {
   function renderResults(results, query) {
     if (!mainContentArea) return;
     
+    const escapeHTML = str => {
+      if (!str) return '';
+      return String(str).replace(/[&<>'"]/g, tag => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+      }[tag]));
+    };
+
     let html = `<div style="padding: var(--space-xl) var(--space-md);">`;
-    html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${query}"</h2>`;
+    html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${escapeHTML(query)}"</h2>`;
     
     if (results.length === 0) {
       html += `<p style="font-family: var(--font-outlier); color: var(--color-muted);">No items matched your search in this scope.</p>`;
     } else {
-      html += `<div class="search-results-grid">`;
+      html += `<div class="card-grid card-grid--4">`;
       results.forEach(res => {
         const item = res.item;
-        html += `
-          <a href="${item.path}" class="card" style="border: 1px solid var(--color-ink); padding: var(--space-md); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; background: var(--color-paper);">
-            <div style="font-size: 10px; font-family: var(--font-outlier); text-transform: uppercase; margin-bottom: 8px; color: var(--color-muted);">${item.category}</div>
-            <h3 style="font-family: var(--font-display); font-size: var(--text-lg); margin: 0 0 8px 0; text-transform: uppercase;">${item.name}</h3>
-            <p style="font-size: var(--text-sm); margin: 0 0 12px 0;">${item.description || ''}</p>
-            <div class="search-snippet">${res.matchedSnippet}</div>
-          </a>
-        `;
+        const tagsStr = item.tags ? item.tags.slice(0, 3).map(t => '#' + t).join(' ') : '';
+        if (item.is_shallow) {
+          // Shallow Item Card matching site category card styling
+          html += `
+            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
+                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                <p class="card__desc">${escapeHTML(item.description || '')}</p>
+                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-line;">${escapeHTML(item.content || item.description || '')}</p>
+                ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
+              </div>
+            </div>
+          `;
+        } else {
+          // Deep Item Card matching site category card styling
+          html += `
+            <a href="${item.path}" class="card" style="--cat-color: var(--color-cat-prompts); text-decoration: none;">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
+                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                <p class="card__desc">${escapeHTML(item.description || '')}</p>
+                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
+              </div>
+              <div class="card__footer">
+                <span class="meta">${escapeHTML(tagsStr)}</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+          `;
+        }
+      });
+      html += `</div>`;
+    }
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
+                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                <p class="card__desc">${escapeHTML(item.description || '')}</p>
+                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
+              </div>
+              <div class="card__footer">
+                <span class="meta">${escapeHTML(tagsStr)}</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+          `;
+        }
       });
       html += `</div>`;
     }
     html += `</div>`;
     
     mainContentArea.innerHTML = html;
+    initBookmarks();
+    initExpandableCards();
   }
 }
 
