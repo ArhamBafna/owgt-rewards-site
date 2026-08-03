@@ -17,102 +17,204 @@ document.addEventListener('DOMContentLoaded', () => {
    SEARCH SYSTEM
    ========================================================================== */
 function initSearchSystem() {
-  // Inject Search Overlay into DOM
-  const overlayHtml = `
-    <div id="search-overlay" class="search-overlay" style="display: none;">
-      <div class="search-modal">
-        <div class="search-header">
-          <input type="text" id="search-input-main" placeholder="Search the vault... (Esc to close)" autocomplete="off">
-        </div>
-        <div id="search-results" class="search-results">
-          <!-- Results populated here -->
-        </div>
-      </div>
-    </div>
-  `;
-  document.body.insertAdjacentHTML('beforeend', overlayHtml);
+  const triggerBtn = document.getElementById('searchTriggerBtn');
+  const searchContainer = document.getElementById('headerSearchContainer');
+  const scopeSelect = document.getElementById('searchScopeSelect');
+  const inputWrapper = document.getElementById('searchInputWrapper');
+  const scopeBtns = document.querySelectorAll('.scope-btn');
+  const activeScopePill = document.getElementById('activeScopePill');
+  const searchInput = document.getElementById('headerSearchInput');
+  const executeBtn = document.getElementById('executeSearchBtn');
+  const closeBtn = document.getElementById('closeSearchBtn');
   
-  // Inject minimal CSS for search overlay
-  const style = document.createElement('style');
-  style.textContent = `
-    .search-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 9999; display: flex; justify-content: center; padding-top: 10vh; backdrop-filter: blur(4px); }
-    .search-modal { background: var(--color-paper); width: 100%; max-width: 600px; border: 2px solid var(--color-ink); box-shadow: 8px 8px 0 var(--color-ink); max-height: 80vh; display: flex; flex-direction: column; }
-    .search-header { border-bottom: 2px solid var(--color-ink); padding: var(--space-sm); }
-    #search-input-main { width: 100%; padding: var(--space-md); font-family: var(--font-display); font-size: var(--text-2xl); border: none; background: transparent; outline: none; }
-    .search-results { padding: var(--space-md); overflow-y: auto; display: flex; flex-direction: column; gap: var(--space-sm); }
-    .search-result-item { padding: var(--space-sm); border: 1px solid var(--color-ink); text-decoration: none; color: var(--color-ink); display: block; transition: all 0.1s; }
-    .search-result-item:hover, .search-result-item.active { background: var(--color-accent); color: var(--color-accent-ink); transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--color-ink); }
-    .search-result-title { font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase; }
-    .search-result-meta { font-family: var(--font-outlier); font-size: var(--text-xs); margin-top: 4px; opacity: 0.8; }
-  `;
-  document.head.appendChild(style);
+  if (!triggerBtn || !searchContainer) return;
 
-  const overlay = document.getElementById('search-overlay');
-  const input = document.getElementById('search-input-main');
-  const resultsContainer = document.getElementById('search-results');
-  
   let searchData = [];
+  let currentScope = 'global'; // 'global' or category name
+  let originalMainContent = null;
+  const mainContentArea = document.querySelector('main');
   
-  // Load index asynchronously
+  // Set Local Scope Button Text based on path
+  const pathParts = window.location.pathname.split('/');
+  const catMatch = pathParts.length > 1 ? pathParts[1] : '';
+  const localScopeBtn = document.getElementById('localScopeBtn');
+  let pageCategory = '';
+  if (['prompts', 'tools', 'guides', 'resources', 'tags', 'bookmarks', 'learning', 'cheatsheets', 'templates', 'frameworks'].includes(catMatch)) {
+    pageCategory = catMatch.charAt(0).toUpperCase() + catMatch.slice(1);
+    if(localScopeBtn) localScopeBtn.textContent = pageCategory;
+  } else {
+    if(localScopeBtn) localScopeBtn.style.display = 'none'; // hide if not in category
+  }
+
   fetch('/search-index.json')
     .then(res => res.json())
     .then(data => { searchData = data; })
     .catch(err => console.error('Could not load search index', err));
 
-  // Toggle Search
-  window.toggleSearch = () => {
-    if (overlay.style.display === 'none') {
-      overlay.style.display = 'flex';
-      input.focus();
+  const globalHeader = document.getElementById('globalHeader');
+
+  triggerBtn.addEventListener('click', () => {
+    const isCategoryPage = !!pageCategory;
+    if (!isCategoryPage) {
+      // Direct open Global "All Rewards" search on homepage/global pages
+      currentScope = 'global';
+      activeScopePill.textContent = 'All Rewards';
+      searchContainer.style.display = 'flex';
+      scopeSelect.style.display = 'none';
+      triggerBtn.style.display = 'none';
+      inputWrapper.style.display = 'flex';
+      if (globalHeader) globalHeader.classList.add('search-active');
+      searchInput.focus();
     } else {
-      overlay.style.display = 'none';
-      input.value = '';
-      resultsContainer.innerHTML = '';
+      // Show scope options on category pages (e.g. Prompts, Tools, Guides, etc.)
+      searchContainer.style.display = 'flex';
+      scopeSelect.style.display = 'flex';
+      inputWrapper.style.display = 'none';
+    }
+  });
+
+  scopeBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const scopeType = e.target.getAttribute('data-scope');
+      currentScope = scopeType === 'global' ? 'global' : pageCategory;
+      activeScopePill.textContent = scopeType === 'global' ? 'All Rewards' : currentScope;
+      
+      // Hide scope selector, hide trigger button to avoid overlap
+      scopeSelect.style.display = 'none';
+      triggerBtn.style.display = 'none';
+      
+      // Show input wrapper and activate search-active class on header to fade out nav
+      inputWrapper.style.display = 'flex';
+      if (globalHeader) globalHeader.classList.add('search-active');
+      
+      searchInput.focus();
+    });
+  });
+
+  const closeSearch = () => {
+    if (globalHeader) globalHeader.classList.remove('search-active');
+    triggerBtn.style.display = 'flex';
+    searchContainer.style.display = 'none';
+    inputWrapper.style.display = 'none';
+    scopeSelect.style.display = 'none';
+    searchInput.value = '';
+    if (originalMainContent && mainContentArea) {
+      mainContentArea.innerHTML = originalMainContent;
+      originalMainContent = null;
     }
   };
 
-  // Close on background click
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) toggleSearch();
+  closeBtn.addEventListener('click', closeSearch);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && searchContainer.style.display !== 'none') {
+      closeSearch();
+    }
   });
 
-  // Search Logic (As you type)
-  input.addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase();
-    if (!query) {
-      resultsContainer.innerHTML = '';
-      return;
+  const executeSearch = () => {
+    const query = searchInput.value.toLowerCase().trim();
+    if (!query) return;
+
+    if (!originalMainContent && mainContentArea) {
+      originalMainContent = mainContentArea.innerHTML;
     }
+
+    const tokens = query.split(/\s+/);
+    const isTagScope = currentScope.toLowerCase() === 'tags' || window.location.pathname.includes('/tags');
+    const isBookmarkScope = currentScope.toLowerCase() === 'bookmarks';
     
-    const results = searchData.filter(item => {
-      return item.name.toLowerCase().includes(query) || 
-             (item.description && item.description.toLowerCase().includes(query)) ||
-             (item.tags && item.tags.some(tag => tag.toLowerCase().includes(query)));
-    }).slice(0, 8); // Top 8 results
+    let bookmarks = [];
+    if (isBookmarkScope) {
+      bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]').map(b => b.id);
+    }
+
+    const scoredResults = searchData.map(item => {
+      if (currentScope !== 'global' && !isBookmarkScope && item.category.toLowerCase() !== currentScope.toLowerCase()) return null;
+      if (isBookmarkScope && !bookmarks.includes(item.id)) return null;
+
+      let score = 0;
+      let matchedSnippet = '';
+
+      const searchInStr = (str, points, type) => {
+        if (!str) return;
+        const lowerStr = str.toLowerCase();
+        let matched = false;
+        tokens.forEach(token => {
+          const idx = lowerStr.indexOf(token);
+          if (idx !== -1) {
+            score += points;
+            if (!matchedSnippet && type !== 'tag') {
+              const start = Math.max(0, idx - 40);
+              const end = Math.min(str.length, idx + token.length + 40);
+              let snip = str.substring(start, end);
+              const regex = new RegExp(token, 'gi');
+              snip = snip.replace(regex, match => `<mark>${match}</mark>`);
+              matchedSnippet = (start > 0 ? '...' : '') + snip + (end < str.length ? '...' : '');
+            }
+          }
+        });
+      };
+
+      searchInStr(item.name, 1000, 'name');
+      searchInStr(item.description, 100, 'desc');
+      searchInStr(item.content, 10, 'content');
+      
+      const tagPoints = isTagScope ? 500 : 1;
+      if (item.tags) {
+        item.tags.forEach(tag => {
+          tokens.forEach(token => {
+            if (tag.toLowerCase().includes(token)) {
+              score += tagPoints;
+              if (!matchedSnippet) matchedSnippet = `Tag: <mark>${tag}</mark>`;
+            }
+          });
+        });
+      }
+
+      if (score > 0) {
+        return { item, score, matchedSnippet };
+      }
+      return null;
+    }).filter(r => r !== null).sort((a, b) => b.score - a.score);
+
+    renderResults(scoredResults, query);
+  };
+
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      executeSearch();
+    }
+  });
+
+  executeBtn.addEventListener('click', executeSearch);
+
+  function renderResults(results, query) {
+    if (!mainContentArea) return;
+    
+    let html = `<div style="padding: var(--space-xl) var(--space-md);">`;
+    html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${query}"</h2>`;
     
     if (results.length === 0) {
-      resultsContainer.innerHTML = '<p style="font-family: var(--font-outlier); padding: 1rem;">No results found.</p>';
-      return;
+      html += `<p style="font-family: var(--font-outlier); color: var(--color-muted);">No items matched your search in this scope.</p>`;
+    } else {
+      html += `<div class="search-results-grid">`;
+      results.forEach(res => {
+        const item = res.item;
+        html += `
+          <a href="${item.path}" class="card" style="border: 1px solid var(--color-ink); padding: var(--space-md); text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; background: var(--color-paper);">
+            <div style="font-size: 10px; font-family: var(--font-outlier); text-transform: uppercase; margin-bottom: 8px; color: var(--color-muted);">${item.category}</div>
+            <h3 style="font-family: var(--font-display); font-size: var(--text-lg); margin: 0 0 8px 0; text-transform: uppercase;">${item.name}</h3>
+            <p style="font-size: var(--text-sm); margin: 0 0 12px 0;">${item.description || ''}</p>
+            <div class="search-snippet">${res.matchedSnippet}</div>
+          </a>
+        `;
+      });
+      html += `</div>`;
     }
-
-    const escapeHTML = str => {
-      if (!str) return '';
-      return String(str).replace(/[&<>'"]/g, tag => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        "'": '&#39;',
-        '"': '&quot;'
-      }[tag]));
-    };
-
-    resultsContainer.innerHTML = results.map(item => `
-      <a href="${escapeHTML(item.path)}" class="search-result-item">
-        <div class="search-result-title">${escapeHTML(item.name)}</div>
-        <div class="search-result-meta">${escapeHTML(item.category)} ${item.tags.length ? '· ' + item.tags.map(t=>'#'+escapeHTML(t)).join(' ') : ''}</div>
-      </a>
-    `).join('');
-  });
+    html += `</div>`;
+    
+    mainContentArea.innerHTML = html;
+  }
 }
 
 /* ==========================================================================
@@ -344,7 +446,7 @@ function initExpandableCards() {
    ========================================================================== */
 function highlightActiveNav() {
   const path = window.location.pathname.replace(/^\//, '').replace(/\.html$/, '');
-  document.querySelectorAll('.mast-nav a').forEach(link => {
+  document.querySelectorAll('.new-header-nav a, .mast-nav a').forEach(link => {
     const href = link.getAttribute('href').replace(/^\//, '').replace(/\.html$/, '');
     if (href === path) {
       link.classList.add('active');

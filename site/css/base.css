@@ -1917,16 +1917,25 @@ hr,
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-xl);
   list-style: none;
   padding: 0;
-  margin: var(--space-2xs) 0 0;
+  margin: 0;
   text-align: center;
 }
 
 .mast-nav li {
   display: inline-flex;
   align-items: center;
+  gap: var(--space-xl);
+}
+
+.mast-nav li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: var(--color-ink);
 }
 
 .mast-nav a {
@@ -2014,19 +2023,24 @@ hr,
   text-transform: uppercase;
   text-align: center;
 }
-/* New Global Header */
+
+/* New Global Header - Soft Coral (#f7aea1) Theme */
 .new-global-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: var(--color-ink);
-  color: var(--color-paper-2);
+  background-color: #f7aea1;
+  color: var(--color-ink);
+  border-top: 3px solid var(--color-ink);
+  border-bottom: 2px solid var(--color-ink);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-sm) var(--page-gutter);
+  padding: 0.4rem var(--page-gutter);
+  height: 52px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 .new-global-header.hidden-on-home {
@@ -2042,51 +2056,116 @@ hr,
 .new-header-left {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 .new-logo-link {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
   text-decoration: none;
-  color: var(--color-paper-2);
+  color: var(--color-ink);
+  white-space: nowrap;
 }
 .new-header-logo {
-  height: 28px;
+  height: 32px;
   width: auto;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .new-header-title {
   font-family: var(--font-display);
-  font-size: var(--text-lg);
+  font-size: 1.35rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  line-height: 1;
+  color: var(--color-ink);
+}
+.new-header-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .new-header-nav ul {
   display: flex;
-  gap: var(--space-md);
+  align-items: center;
+  gap: var(--space-sm);
   margin: 0;
   padding: 0;
   list-style: none;
 }
+.new-header-nav li {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .new-header-nav a {
-  color: var(--color-paper-2);
+  color: var(--color-ink);
   font-family: var(--font-outlier);
+  font-weight: 700;
   text-transform: uppercase;
   font-size: var(--text-xs);
   letter-spacing: var(--ls-label);
   text-decoration: none;
+  white-space: nowrap;
+  padding: 4px 10px;
+  border-radius: 999px;
+  transition: all var(--duration-fast) var(--ease-out);
 }
-.new-header-nav a:hover {
-  color: var(--color-accent);
-}
-.new-header-nav li:not(:last-child) {
-  border-right: none;
-  margin-right: 0;
-  padding-right: 0;
+.new-header-nav a:hover,
+.new-header-nav a.active {
+  background-color: var(--color-ink);
+  color: #f7aea1;
+  border: 1px solid var(--color-ink);
 }
 body {
-  padding-top: 60px; /* Space for the fixed header */
+  padding-top: 52px; /* Space for the fixed header */
 }
 body.is-home {
   padding-top: 0; /* No space needed initially on home */
 }
+/* Search Header CSS */
+.new-header-right { display: flex; align-items: center; }
+.search-trigger-btn { background: none; border: none; cursor: pointer; color: var(--color-ink); padding: 8px; }
+.new-global-header.search-active .search-trigger-btn { display: none !important; }
+
+/* The container itself has no background or border now */
+.header-search-container { 
+  position: absolute; 
+  right: var(--page-gutter, 24px); 
+  top: 50%; 
+  transform: translateY(-50%); 
+  display: flex; 
+  align-items: center; 
+  z-index: 100; 
+  white-space: nowrap; 
+}
+/* When active, stretch leftwards but leave room for logo */
+.new-global-header.search-active .header-search-container {
+  left: 240px; 
+  right: var(--page-gutter, 24px);
+  justify-content: flex-end;
+}
+
+.search-scope-select { display: flex; gap: 8px; }
+.scope-btn { background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; cursor: pointer; font-family: var(--font-display); font-size: var(--text-sm); border-radius: 4px; box-shadow: 2px 2px 0 var(--color-ink); }
+.scope-btn:hover { background: var(--color-accent); color: var(--color-accent-ink); }
+
+/* The input wrapper spans the available space */
+.search-input-wrapper { display: flex; align-items: center; gap: 8px; width: 100%; padding: 0; }
+.active-scope-pill { font-size: 10px; background: var(--color-ink); color: var(--color-paper); padding: 2px 6px; border-radius: 12px; font-family: var(--font-display); cursor: pointer; flex-shrink: 0; }
+#headerSearchInput { flex-grow: 1; border: none; outline: none; font-family: var(--font-outlier); font-size: var(--text-base); background: transparent; padding: 4px 0; color: var(--color-ink); border-bottom: 2px solid var(--color-ink); border-radius: 0; }
+#headerSearchInput::placeholder { color: rgba(0,0,0,0.4); }
+
+.execute-search-btn, .close-search-btn { background: none; border: none; cursor: pointer; color: var(--color-ink); display: flex; align-items: center; justify-content: center; padding: 4px; flex-shrink: 0; }
+.close-search-btn { font-size: 16px; font-weight: bold; }
+
+/* Hide nav when search is active */
+.new-global-header .new-header-nav { transition: opacity 0.2s ease, visibility 0.2s; }
+.new-global-header.search-active .new-header-nav { opacity: 0; visibility: hidden; }
+
+/* Search Results Grid */
+.search-results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; padding: 24px 0; }
+.search-snippet { font-size: 12px; color: var(--color-muted); margin-top: 8px; border-left: 2px solid var(--color-accent); padding-left: 8px; font-style: italic; }
+.search-snippet mark { background: var(--color-accent); color: var(--color-accent-ink); }

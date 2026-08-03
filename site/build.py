@@ -301,6 +301,10 @@ def main():
         }
         items.append(item)
         
+        import re
+        clean_content = re.sub(r'<[^>]+>', '', body)
+        clean_content = re.sub(r'[*_#`\[\]]', '', clean_content)
+        
         search_index.append({
             "id": slug,
             "name": name,
@@ -309,7 +313,8 @@ def main():
             "subcategory": subcategory,
             "tags": tags,
             "path": item["path"],
-            "is_shallow": is_shallow
+            "is_shallow": is_shallow,
+            "content": clean_content.strip()
         })
         
     use_cases = {
