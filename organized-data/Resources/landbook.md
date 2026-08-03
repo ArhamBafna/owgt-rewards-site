@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Design
 - Inspiration
-- Web
+- Web Development

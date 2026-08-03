@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Business
 - Prompt
-- Proposal
+- Sales & Outreach

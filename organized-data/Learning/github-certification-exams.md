@@ -12,6 +12,6 @@ Learning
 
 ### Tags
 - GitHub
-- Certification
+- Learning
 - Developer Tools
 - Education

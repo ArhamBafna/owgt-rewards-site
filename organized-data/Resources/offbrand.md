@@ -13,4 +13,4 @@ Resources
 ### Tags
 - UI Inspiration
 - Web Design
-- Studio
+- Design

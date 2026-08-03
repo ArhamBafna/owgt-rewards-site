@@ -11,5 +11,4 @@ https://www.cloudflare.com/drop/
 Resources
 
 ### Tags
-- Cloudflare
-- Infrastructure
+- Web Development

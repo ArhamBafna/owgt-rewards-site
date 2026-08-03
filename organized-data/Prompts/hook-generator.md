@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Marketing
 - Prompt
-- Hook
+- Writing & Communication

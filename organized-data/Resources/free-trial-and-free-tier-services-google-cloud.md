@@ -11,6 +11,6 @@ https://cloud.google.com/free
 Resources
 
 ### Tags
-- Google Cloud
+- Cloud Services
 - Free
 - Hosting

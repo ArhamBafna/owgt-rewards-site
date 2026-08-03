@@ -13,5 +13,4 @@ Learning
 ### Tags
 - Course
 - RAG
-- Q&A
 - LLM

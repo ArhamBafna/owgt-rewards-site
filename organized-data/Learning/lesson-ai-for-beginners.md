@@ -13,5 +13,5 @@ Learning
 ### Tags
 - Course
 - AI
-- Microsoft
-- Beginners
+- AI & Technical
+- Learning

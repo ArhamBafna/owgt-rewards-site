@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Prompt
 - Workflow
-- GitHub Gist
+- Developer Tools

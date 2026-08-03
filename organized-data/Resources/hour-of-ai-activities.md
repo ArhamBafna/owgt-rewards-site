@@ -13,4 +13,4 @@ Resources
 ### Tags
 - Education
 - AI
-- Activities
+- Learning

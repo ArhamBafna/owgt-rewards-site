@@ -12,5 +12,4 @@ Resources
 
 ### Tags
 - UI
-- Shaders
-- Effects
+- Web Development

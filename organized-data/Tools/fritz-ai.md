@@ -12,6 +12,7 @@ Tools
 
 ### Tags
 - Meeting
-- Audio
+- Audio & Speech
 - Transcription
 - Productivity
+- Meeting Assistant

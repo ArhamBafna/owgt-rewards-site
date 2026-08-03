@@ -11,6 +11,4 @@ https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/
 Resources
 
 ### Tags
-- Reddit
 - Marketing
-- Promotion

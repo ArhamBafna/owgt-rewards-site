@@ -13,5 +13,5 @@ Tools
 ### Tags
 - IDE
 - AI
-- ByteDance
+- AI Coding
 - Editor

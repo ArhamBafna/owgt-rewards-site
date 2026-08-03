@@ -11,6 +11,5 @@ https://53.fs1.hubspotusercontent-na1.net/hubfs/53/The%20Eric%20Ryan%20Playbook_
 Learning
 
 ### Tags
-- Product Ideas
-- Playbook
 - Business
+- Playbook

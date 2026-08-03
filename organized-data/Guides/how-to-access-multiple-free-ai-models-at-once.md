@@ -12,5 +12,5 @@ Learning
 
 ### Tags
 - AI Models
-- Make
+- Workflow Automation
 - Guide

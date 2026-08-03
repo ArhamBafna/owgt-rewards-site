@@ -11,7 +11,5 @@ https://github.com/GokuMohandas/Made-With-ML
 Learning
 
 ### Tags
-- ML
-- Production
-- MLOps
+- Machine Learning
 - Course

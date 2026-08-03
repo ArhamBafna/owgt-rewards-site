@@ -15,4 +15,4 @@ Tools
 ### Tags
 - AI Tools
 - Recruiting
-- Video Interview
+- Career

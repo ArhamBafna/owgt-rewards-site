@@ -11,6 +11,5 @@ https://www.figma.com/design/1RjQY50dy7t9SucZtAIb1p/Super-Visuals--Backgrounds-L
 Resources
 
 ### Tags
-- Figma
+- UI
 - Design
-- Backgrounds

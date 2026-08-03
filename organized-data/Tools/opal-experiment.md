@@ -12,5 +12,4 @@ Tools
 
 ### Tags
 - Google
-- Experiment
 - AI Tools

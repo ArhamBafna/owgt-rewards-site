@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Sales
 - Prompt
-- Objection
+- Sales & Outreach

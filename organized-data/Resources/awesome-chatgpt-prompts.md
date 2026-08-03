@@ -14,4 +14,3 @@ Resources
 - Prompt
 - ChatGPT
 - Collection
-- Roleplay

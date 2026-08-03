@@ -11,5 +11,5 @@ https://www.igloo.inc/
 Tools
 
 ### Tags
-- Web3
+- Web Development
 - Community

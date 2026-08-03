@@ -13,4 +13,3 @@ Tools
 ### Tags
 - UI
 - Components
-- shadcn

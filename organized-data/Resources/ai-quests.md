@@ -11,5 +11,5 @@ https://research.google/ai-quests/intl/en_us
 Resources
 
 ### Tags
-- AI Research
-- Quests
+- Research
+- Learning

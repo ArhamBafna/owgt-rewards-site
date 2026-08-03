@@ -15,4 +15,4 @@ Tools
 ### Tags
 - AI Tools
 - Research
-- Internal Knowledge
+- Knowledge Base

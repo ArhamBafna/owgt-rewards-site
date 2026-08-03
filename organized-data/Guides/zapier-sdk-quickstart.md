@@ -12,5 +12,4 @@ Learning
 
 ### Tags
 - Zapier
-- SDK
-- Developer Docs
+- Developer Tools

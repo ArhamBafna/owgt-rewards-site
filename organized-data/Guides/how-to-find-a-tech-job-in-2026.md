@@ -30,4 +30,3 @@ Learning
 ### Tags
 - Career
 - Coding
-- Job Search

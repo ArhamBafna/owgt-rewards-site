@@ -15,4 +15,3 @@ Prompts
 ### Tags
 - Marketing
 - Prompt
-- Hashtag

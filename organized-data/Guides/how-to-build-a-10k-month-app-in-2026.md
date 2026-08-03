@@ -34,6 +34,5 @@ A 60-second blueprint on building and launching a profitable app, from idea gene
 Learning
 
 ### Tags
-- App Development
+- Software Engineering
 - Business
-- Software

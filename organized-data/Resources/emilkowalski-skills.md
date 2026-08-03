@@ -11,6 +11,6 @@ https://github.com/emilkowalski/skills
 Resources
 
 ### Tags
-- Design Engineering
+- UI
 - Skills
 - GitHub

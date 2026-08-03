@@ -12,5 +12,3 @@ Tools
 
 ### Tags
 - Automation
-- RSS
-- Relay.app

@@ -14,5 +14,5 @@ Tools
 
 ### Tags
 - AI Tools
-- Conversational Marketing
-- Sales Qualification
+- Marketing
+- Sales & Outreach

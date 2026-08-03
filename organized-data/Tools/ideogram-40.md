@@ -13,4 +13,4 @@ Tools
 ### Tags
 - AI
 - Image Generation
-- Generation
+- AI Tools

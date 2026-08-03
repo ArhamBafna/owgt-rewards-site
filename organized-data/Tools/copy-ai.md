@@ -14,5 +14,5 @@ Tools
 
 ### Tags
 - AI Tools
-- Copywriting
+- Writing & Communication
 - Marketing

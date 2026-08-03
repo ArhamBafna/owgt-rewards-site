@@ -13,5 +13,5 @@ Tools
 ### Tags
 - CLI
 - GitHub
-- Git
+- Developer Tools
 - AI

@@ -15,4 +15,4 @@ Tools
 ### Tags
 - AI Tools
 - Customer Support
-- Multi-Channel
+- Customer Service

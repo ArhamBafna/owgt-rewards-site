@@ -12,6 +12,7 @@ Tools
 
 ### Tags
 - Meeting
-- Chrome Extension
+- Developer Tools
 - Transcription
 - Productivity
+- Meeting Assistant

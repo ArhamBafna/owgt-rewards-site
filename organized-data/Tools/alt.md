@@ -12,6 +12,6 @@ Tools
 
 ### Tags
 - Meeting
-- Voice
+- Audio & Speech
 - Summarizer
 - Productivity

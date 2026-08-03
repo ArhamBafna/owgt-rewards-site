@@ -12,5 +12,4 @@ Learning
 
 ### Tags
 - Marketing
-- Attention
 - Guide

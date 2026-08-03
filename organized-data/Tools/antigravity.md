@@ -13,5 +13,5 @@ Tools
 ### Tags
 - IDE
 - AI
-- Terminal
+- Developer Tools
 - Agent

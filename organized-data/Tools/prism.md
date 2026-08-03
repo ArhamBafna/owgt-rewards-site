@@ -11,6 +11,6 @@ https://prism.openai.com/
 Tools
 
 ### Tags
-- LaTeX
+- Document Generator
 - Editor
 - AI

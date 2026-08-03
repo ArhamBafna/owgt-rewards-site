@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-03)
 
 ## Corpus Check
-- 385 files · ~489,366 words
+- 399 files · ~511,358 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2650 nodes · 2610 edges · 401 communities (387 shown, 14 thin omitted)
+- 2730 nodes · 2700 edges · 414 communities (400 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d1ba6f4a`
+- Built from commit: `ea200193`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -402,7 +402,20 @@
 - [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
+- [[_COMMUNITY_Community 394|Community 394]]
+- [[_COMMUNITY_Community 397|Community 397]]
+- [[_COMMUNITY_Community 399|Community 399]]
 - [[_COMMUNITY_Community 400|Community 400]]
+- [[_COMMUNITY_Community 401|Community 401]]
+- [[_COMMUNITY_Community 402|Community 402]]
+- [[_COMMUNITY_Community 403|Community 403]]
+- [[_COMMUNITY_Community 404|Community 404]]
+- [[_COMMUNITY_Community 405|Community 405]]
+- [[_COMMUNITY_Community 406|Community 406]]
+- [[_COMMUNITY_Community 407|Community 407]]
+- [[_COMMUNITY_Community 408|Community 408]]
+- [[_COMMUNITY_Community 409|Community 409]]
+- [[_COMMUNITY_Community 410|Community 410]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -422,7 +435,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (401 total, 14 thin omitted)
+## Communities (414 total, 14 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1920,8 +1933,60 @@ Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model
 Cohesion: 0.67
 Nodes (3): Guide Rules, GUIDES, Missing Information
 
+### Community 394 - "Community 394"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 397 - "Community 397"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 399 - "Community 399"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Prompt, Tags
+
+### Community 400 - "Community 400"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 401 - "Community 401"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 402 - "Community 402"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 403 - "Community 403"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 404 - "Community 404"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 405 - "Community 405"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 406 - "Community 406"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 407 - "Community 407"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 408 - "Community 408"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 409 - "Community 409"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2132 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2127 more)
+- **2197 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2192 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1929,9 +1994,9 @@ Nodes (3): Guide Rules, GUIDES, Missing Information
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Master Index` connect `Community 27` to `Community 25`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
-  _2132 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2197 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

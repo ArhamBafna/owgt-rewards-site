@@ -183,4 +183,4 @@ Learning
 ### Tags
 - Video
 - Prompt
-- Real Estate
+- Content Creation

@@ -11,6 +11,5 @@ https://lablab.ai/ai-hackathons
 Resources
 
 ### Tags
-- Hackathons
+- Community
 - AI
-- Events

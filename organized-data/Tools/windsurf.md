@@ -13,5 +13,5 @@ Tools
 ### Tags
 - IDE
 - AI
-- Codeium
+- AI Coding
 - Agent

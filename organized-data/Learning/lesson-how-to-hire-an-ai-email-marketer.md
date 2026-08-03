@@ -11,6 +11,6 @@ https://maven.com/p/9763a4/how-to-hire-an-ai-email-marketer
 Learning
 
 ### Tags
-- Email Marketing
+- Marketing
 - Course
 - Recruiting

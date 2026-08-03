@@ -12,6 +12,5 @@ Tools
 
 ### Tags
 - LLM
-- Proxy
 - API
 - Free

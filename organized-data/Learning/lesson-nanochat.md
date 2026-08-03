@@ -11,7 +11,7 @@ https://github.com/karpathy/nanochat
 Learning
 
 ### Tags
-- Architecture
-- GPT
-- Training
+- AI & Technical
+- LLM
+- Machine Learning
 - Coding

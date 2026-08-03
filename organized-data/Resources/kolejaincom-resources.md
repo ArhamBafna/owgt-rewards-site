@@ -11,5 +11,5 @@ https://www.kolejain.com/resources
 Resources
 
 ### Tags
-- Resources
+- Resource
 - Collection

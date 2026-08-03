@@ -11,6 +11,4 @@ https://freedom.to/
 Tools
 
 ### Tags
-- Focus
 - Productivity
-- App Blocker

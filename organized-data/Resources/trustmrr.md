@@ -12,5 +12,4 @@ Resources
 
 ### Tags
 - Startups
-- Revenue
-- Database
+- Developer Tools

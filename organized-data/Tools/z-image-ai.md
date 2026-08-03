@@ -12,5 +12,5 @@ Tools
 
 ### Tags
 - Image Generation
-- Photorealistic
 - Free
+- AI Tools

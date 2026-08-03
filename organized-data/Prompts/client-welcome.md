@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Communication
 - Prompt
-- Client
+- Writing & Communication

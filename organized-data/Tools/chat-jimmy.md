@@ -11,6 +11,6 @@ Link: https://chatjimmy.ai/
 Tools
 
 ### Tags
-- Chat Interface
-- Fast
+- LLM
+- Developer Tools
 - AI Tools

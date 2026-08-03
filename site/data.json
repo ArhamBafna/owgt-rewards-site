@@ -23,10 +23,9 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Mobile",
+        "Marketing",
         "App",
-        "Growth",
-        "Marketing"
+        "Growth"
       ],
       "url": "https://offers.hubspot.com/view/mobile-app-growth",
       "content": "",
@@ -90,7 +89,6 @@
       "subcategory": "",
       "tags": [
         "Marketing",
-        "Attention",
         "Guide"
       ],
       "url": "https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit",
@@ -122,8 +120,7 @@
       "subcategory": "",
       "tags": [
         "Business",
-        "Agent",
-        "Entrepreneurship"
+        "Agent"
       ],
       "url": "",
       "content": "#### The AI Startup Ladder (4-Step Process)\n1. **Validate**: Pick a niche (e.g., med spas, agencies) and do outreach to prove demand.\n2. **Pre-sell**: Sell the service and collect cash before building. Use a simple document with a Stripe checkout link.\n3. **Deliver**: Once paid, drop everything to manually deliver the result within 48 hours. This builds your reputation and earns referrals.\n4. **Build & Automate**: Productize the service to scale deployment.\n\n#### 1. AI Inbox & Calendar Manager (Highest Potential)\n- **What it is**: Building an AI executive assistant to manage emails and meetings for busy CEOs.\n- **Why it works**: Entrepreneurs desperately want to buy back their time.\n- **Income Potential**: $3,000 - $5,000 / day.\n\n#### 2. AI Data Cleanup Agency\n- **What it is**: Organizing a company's messy internal data (emails, CRMs, spreadsheets), vectorizing it, and putting an AI search layer on top.\n- **Why it works**: Businesses need to make better decisions based on their own data.\n- **Income Potential**: $1,500 - $3,000 / day.\n\n#### 3. AI Sales Chatbot\n- **What it is**: Creating a chatbot that converts social media chats, texts, and emails into leads and sales.\n- **Why it works**: Business owners get massive inbound engagement but lack time to reply.\n- **Income Potential**: $1,000 - $1,500 / day.\n\n#### 4. AI Content Repurposing Service\n- **What it is**: Turning long-form content (podcasts, webinars) into short-form clips for TikTok/Reels using AI tools.\n- **Why it works**: Algorithms favor niche short-form content.\n- **Income Potential**: $750 - $1,000 / day.\n\n#### 5. AI Appointment Setter\n- **What it is**: Replacing human inbound phone agents with AI voice agents to book sales calls.\n- **Why it works**: Cheaper than a human, available 24/7, and performs incredibly well.\n- **Income Potential**: $500 - $1,000 / day.",
@@ -186,8 +183,8 @@
       "subcategory": "",
       "tags": [
         "Web Design",
-        "GoHighLevel",
-        "Agency",
+        "Workflow Automation",
+        "Business",
         "Sales"
       ],
       "url": "",
@@ -251,7 +248,7 @@
       "subcategory": "",
       "tags": [
         "AI Models",
-        "Make",
+        "Workflow Automation",
         "Guide"
       ],
       "url": "https://community.make.com/t/how-to-access-multiple-free-ai-models-at-once/40751",
@@ -266,9 +263,8 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "App Development",
-        "Business",
-        "Software"
+        "Software Engineering",
+        "Business"
       ],
       "url": "",
       "content": "#### 1. Idea Generation\n- Stop obsessing over a completely unique idea.\n- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.\n- Find ways to tweak or improve them to create your own version.\n\n#### 2. Choose Your Stack\n- **Web App**: Use **Next.js** for seamless front-end and back-end development.\n- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.\n\n#### 3. Leverage AI Tools\n- Familiarize yourself with AI coding assistants.\n- **Claude Coder**: Best for front-end design and user experience.\n- **Codex**: Best for complex backend architecture.\n\n#### 4. Backend & Payments\n- **Database / Backend**: Supabase or Firebase.\n- **Payments**: Stripe (Web) or RevenueCat (Mobile).\n\n#### 5. Launch & Distribute\n- Release early to get user feedback immediately.\n- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).\n- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.\n- **Scale**: Once organic works, turn the winning formulas into paid ads.",
@@ -299,8 +295,7 @@
       "subcategory": "",
       "tags": [
         "Career",
-        "Coding",
-        "Job Search"
+        "Coding"
       ],
       "url": "",
       "content": "#### 1. Master LeetCode\n- Start practicing daily well before the recruiting cycle begins.\n- If you don't know where to start, focus on the **Blind 75** list on LeetCode.\n\n#### 2. Learn a High-Demand Skill\n- If your resume isn't getting bites, you need new skills.\n- Dive deep into **AWS** (via AWS Skill Builder) or **Spring Boot**.\n- Recommended resource: *Amigoscode* on YouTube.\n\n#### 3. Build Something Valuable\n- Classes and degrees are no longer enough.\n- Build a significant project that takes at least 3-6 weeks to complete to showcase on your resume.\n\n#### 4. Network Relentlessly\n- \"It's not what you know, it's who you know.\"\n- Attend career fairs and hackathons.\n- Message your connections directly when applying for jobs; referrals are the easiest way to get an interview.",
@@ -314,9 +309,8 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Product Ideas",
-        "Playbook",
-        "Business"
+        "Business",
+        "Playbook"
       ],
       "url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/The%20Eric%20Ryan%20Playbook_%20How%20to%20Spot%20$100M+%20Product%20Ideas.pdf",
       "content": "",
@@ -346,9 +340,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Obsidian",
-        "Notion",
-        "Second Brain",
+        "Knowledge Base",
         "Workflow"
       ],
       "url": "https://pear-diadem-016.notion.site/Obsidian-Is-My-AI-s-Second-Brain-Here-s-My-Full-Setup-33a4eefac3948167b640fcd0d83427c6",
@@ -395,8 +387,6 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Solopreneur",
-        "MVP",
         "Business"
       ],
       "url": "https://docs.google.com/document/d/1zI2ya7sDv8ycXmOzPO_aOS8-dNEwDoow14q_rrs_aU4/edit",
@@ -478,8 +468,7 @@
       "subcategory": "",
       "tags": [
         "Zapier",
-        "SDK",
-        "Developer Docs"
+        "Developer Tools"
       ],
       "url": "https://docs.zapier.com/sdk/quickstart",
       "content": "",
@@ -659,7 +648,7 @@
       "subcategory": "",
       "tags": [
         "AI",
-        "Market Research",
+        "Analysis & Research",
         "Strategy",
         "Perplexity"
       ],
@@ -736,8 +725,8 @@
       "subcategory": "",
       "tags": [
         "AI",
-        "Tool Evaluation",
-        "Procurement"
+        "AI Tools",
+        "Business"
       ],
       "url": "",
       "content": "What it is: Knowing which AI tool is right for a specific job and being able to justify that decision.\nBeginner: Compares two tools for a specific use case on quality, cost, and integration. \nAdvanced: Runs formal AI tool evaluation processes with structured criteria and proof-of-concept testing.\nTool to start: This guide. Use it as a framework for your next evaluation decision.",
@@ -782,7 +771,7 @@
       "subcategory": "",
       "tags": [
         "GitHub",
-        "Certification",
+        "Learning",
         "Developer Tools",
         "Education"
       ],
@@ -801,7 +790,7 @@
         "Agent",
         "Course",
         "Guide",
-        "Kaggle"
+        "Machine Learning"
       ],
       "url": "https://www.kaggle.com/learn",
       "content": "",
@@ -817,8 +806,8 @@
       "tags": [
         "Course",
         "AI",
-        "Microsoft",
-        "Beginners"
+        "AI & Technical",
+        "Learning"
       ],
       "url": "https://github.com/microsoft/ai-for-beginners",
       "content": "",
@@ -848,7 +837,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Email Marketing",
+        "Marketing",
         "Course",
         "Recruiting"
       ],
@@ -866,7 +855,6 @@
       "tags": [
         "Course",
         "RAG",
-        "Q&A",
         "LLM"
       ],
       "url": "https://github.com/DataTalksClub/llm-zoomcamp",
@@ -881,9 +869,7 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "ML",
-        "Production",
-        "MLOps",
+        "Machine Learning",
         "Course"
       ],
       "url": "https://github.com/GokuMohandas/Made-With-ML",
@@ -898,9 +884,9 @@
       "category": "Learning",
       "subcategory": "",
       "tags": [
-        "Architecture",
-        "GPT",
-        "Training",
+        "AI & Technical",
+        "LLM",
+        "Machine Learning",
         "Coding"
       ],
       "url": "https://github.com/karpathy/nanochat",
@@ -1218,7 +1204,7 @@
       "tags": [
         "Video",
         "Prompt",
-        "Real Estate"
+        "Content Creation"
       ],
       "url": "",
       "content": "```text\nThe ONE thing you customize for every listing is the WALKTHROUGH:\n\nyou describe how the camera should move through the place. Write that\n\nfirst (Step 1), then paste the full prompt (Step 2).\n\n================================================================\n\nSTEP 1 \u2014 WRITE YOUR WALKTHROUGH (how it should go)\n\n================================================================\n\nDescribe the camera's route as ONE continuous move, in the order you\n\nwant to show the home. This is what makes each video custom. Call out:\n\n- where it starts (outside, the front door, or a key room)\n\n- the order of rooms, and how it moves between them (glide, turn, rise, descend)\n\n- where the furniture unfolds into place\n\n- where to slow down (the selling features: kitchen, view, primary suite)\n\n- how it ends (a hero shot, or back where it started)\n\nKeep it one flowing path. The model follows it as a single continuous shot.\n\n>>> WRITE YOURS HERE:\n\n[ ........................................................... ]\n\nEXAMPLE (Oliver's apartment) \u2014 copy this style:\n\n\"Start just outside the front door and push in through the entrance.\n\nGlide into the kitchen as the furniture and decor unfold into place.\n\nContinue out into the living room. Turn to the right and look up toward\n\nthe staircase, then rise up the stairs. As you reach the top, let the\n\nupstairs interior unfold into place. Drift over toward the desk and\n\ncomputer setup, then move out over the edge of the landing and descend\n\nback down into the living room to finish.\"\n\n================================================================\n\nSTEP 2 \u2014 THE PROMPT (paste into Claude, attach your photo, drop your walkthrough in)\n\n================================================================\n\nUse Higgsfield to create a cinematic real estate listing video from\n\nthis photo. Model: Kling 3.0, highest quality mode (pro or 4k), then\n\nupscale the result.\n\nWALKTHROUGH (how the camera should move \u2014 paste your Step 1 here):\n\n[ your walkthrough goes here ]\n\nSHOT: one continuous, smooth cinematic walkthrough that follows the\n\nwalkthrough above. Slow luxurious motion, seamless forward movement,\n\nsubtle parallax, shallow depth of field, decelerating to reveal each\n\nroom.\n\nFIDELITY (critical, do not break): stay faithful to the reference\n\nphoto. Preserve the exact architecture, layout, furniture, materials,\n\ncolors, and proportions shown. Do NOT add, remove, move, or invent\n\nrooms, furniture, windows, doors, or objects. Keep every straight line\n\nstraight: no warping or bending of walls, doorframes, counters, or\n\nwindows.\n\nLOOK: premium architectural film grade, high dynamic range, natural\n\nrealistic textures, soft cinematic color. Golden hour warmth outside\n\neasing into a soft interior glow. Calm, aspirational, expensive.\n\nMOTION FEEL: steady, slow, luxurious. No shaky cam, no fast cuts, no\n\nsnap zooms.\n\nFURNITURE REVEAL (marketing flourish, ON by default): as the camera\n\nenters each space, have the furniture and decor elegantly fold/assemble\n\ninto place, then settle into the final furnished look.\n\n(Toggle OFF for a fully faithful flythrough when the agent wants exact.)\n\nNEGATIVE / AVOID: no people, no text, no logos, no watermarks, no\n\nwarping, no distorted or bending lines, no extra or invented rooms,\n\nno cartoon or fake CGI look, no flicker, no morphing walls.\n\n================================================================\n\nTWO WAYS TO BUILD IT (pick based on the listing)\n\n================================================================\n\nA. ONE CONTINUOUS WALKTHROUGH (the wow factor):\n\n   One generation that follows your whole path. Best when you have a\n\n   strong main photo and want the cinematic, flowing reveal. Anchor it\n\n   with a start photo (and an end photo if you have one).\n\nB. ROOM BY ROOM, THEN STITCH (max accuracy):\n\n   Run the prompt once per real listing photo, give each clip a short\n\n   one-room walkthrough (e.g. \"push into the kitchen and slow on the\n\n   island\"), then stitch the clips in this order:\n\n   exterior -> entry -> living -> kitchen -> primary bedroom -> bath -> standout feature.\n\n   Use this when the agent needs it to match the real home exactly.\n\nExterior/aerial beat (either mode): use the REAL exterior photo as the\n\nstart frame, OR a real Google Earth Studio aerial of the actual address.\n\nNEVER use an AI-invented exterior.\n\n================================================================\n\nTWEAKABLES (give the buyer control)\n\n================================================================\n\n- Speed: slow & luxurious  OR  energetic & modern\n\n- Time of day / light: golden hour / bright airy daylight / twilight / cozy evening glow\n\n- Furniture: unfold-in (stylized, default)  OR  static (faithful/accurate)\n\n- Mood: calm luxury / vibrant modern / cozy & warm\n\n- Aspect ratio: 16:9 (YouTube + website)  OR  9:16 (Reels / TikTok / Stories)\n\n- Clip length: 5s or 10s\n\n- Quality: Kling 3.0 pro or 4k, then upscale_video\n\n================================================================\n\nQUALITY STEP\n\n================================================================\n\nAfter it generates, run upscale_video for the final resolution bump.\n\nThis is the fix for \"I wanted higher quality.\"\n```",
@@ -1234,7 +1220,7 @@
       "tags": [
         "Communication",
         "Prompt",
-        "Client"
+        "Writing & Communication"
       ],
       "url": "",
       "content": "```text\nWrite a welcome email to a new client. My business: [describe]. Tone: warm, professional. Include next steps and timeline. Under 200 words.\n```",
@@ -1312,7 +1298,7 @@
       "tags": [
         "Strategy",
         "Prompt",
-        "Competitor"
+        "Analysis & Research"
       ],
       "url": "",
       "content": "```text\nAnalyze the positioning of [competitor/brand]. What do they do well? What are gaps I could exploit? How should I differentiate against them?\n```",
@@ -1524,7 +1510,7 @@
       "tags": [
         "Claude",
         "Prompt",
-        "Leadership",
+        "Business Operations",
         "Communication"
       ],
       "url": "",
@@ -1873,10 +1859,9 @@
       "category": "Prompts",
       "subcategory": "Analysis & Research",
       "tags": [
-        "Audit",
+        "Analysis & Research",
         "Prompt",
-        "Workflow",
-        "System"
+        "Workflow"
       ],
       "url": "",
       "content": "```text\nConduct a complete diagnostic audit of my current AI ecosystem, workflows, and tool stack. \nEvaluate:\n1. Tool redundancy and missing CLI/API equivalents.\n2. Skill efficiency and recurring task automation opportunities.\n3. Model routing strategy based on task complexity vs cost.\n4. Gaps in context management and persistent memory systems.\nProvide an actionable 5-step optimization roadmap.\n```",
@@ -2026,8 +2011,7 @@
       "subcategory": "AI & Technical",
       "tags": [
         "Marketing",
-        "Prompt",
-        "Hashtag"
+        "Prompt"
       ],
       "url": "",
       "content": "```text\nGive me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram. Mix of large (1M+), medium (100K-1M), and niche (under 100K).\n```",
@@ -2043,7 +2027,7 @@
       "tags": [
         "Video",
         "Prompt",
-        "UGC"
+        "Content Creation"
       ],
       "url": "",
       "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
@@ -2070,11 +2054,11 @@
       "name": "Hook Generator",
       "description": "Write 5 strong video/post hooks about [topic].",
       "category": "Prompts",
-      "subcategory": "Creative & Content",
+      "subcategory": "Writing & Communication",
       "tags": [
         "Marketing",
         "Prompt",
-        "Hook"
+        "Writing & Communication"
       ],
       "url": "",
       "content": "```text\nWrite 5 strong video/post hooks about [topic]. Under 8 words each. Create curiosity or call out a problem. No question marks.\n```",
@@ -2226,7 +2210,7 @@
       "tags": [
         "Business",
         "Prompt",
-        "Job"
+        "Business Operations"
       ],
       "url": "",
       "content": "```text\nWrite a job description for a [role] at my business. Company: [describe]. Responsibilities: [list]. Requirements: [list]. Tone: engaging, honest. Under 300 words.\n```",
@@ -2334,7 +2318,7 @@
       "tags": [
         "Sales",
         "Prompt",
-        "Objection"
+        "Sales & Outreach"
       ],
       "url": "",
       "content": "```text\nWrite a response to this sales objection: [quote objection]. Acknowledge it, reframe the value, ask a clarifying question. Keep it natural and under 60 words.\n```",
@@ -2346,11 +2330,11 @@
       "name": "Offer Clarity",
       "description": "Help me improve this offer: [describe offer].",
       "category": "Prompts",
-      "subcategory": "AI & Technical",
+      "subcategory": "Sales & Outreach",
       "tags": [
         "Strategy",
         "Prompt",
-        "Offer"
+        "Sales & Outreach"
       ],
       "url": "",
       "content": "```text\nHelp me improve this offer: [describe offer]. Who is it for, what problem does it solve, what outcome does it create, and what makes it different? Give me 3 better ways to position it.\n```",
@@ -2426,7 +2410,7 @@
       "tags": [
         "Communication",
         "Prompt",
-        "Polite"
+        "Writing & Communication"
       ],
       "url": "",
       "content": "```text\nDecline this request politely: [describe request]. Leave door open. Under 80 words.\n```",
@@ -2592,7 +2576,7 @@
       "tags": [
         "Business",
         "Prompt",
-        "Proposal"
+        "Sales & Outreach"
       ],
       "url": "",
       "content": "```text\nWrite a sales proposal. Client: [name/company]. Problem: [describe]. Solution: [describe]. Deliverables: [list]. Timeline: [duration]. Investment: [$X]. Expected outcome: [describe]. Format: 6 sections (situation, opportunity, solution, investment, credibility, next steps). Under 500 words.\n```",
@@ -2638,7 +2622,7 @@
       "tags": [
         "Marketing",
         "Prompt",
-        "Repurposing"
+        "Content Creation"
       ],
       "url": "",
       "content": "```text\nRepurpose this content: [paste content]. Create: 3 short captions, 1 email newsletter, 1 Twitter thread, 3 carousel bullet points. Voice: [your tone].\n```",
@@ -2774,7 +2758,7 @@
       "tags": [
         "Business",
         "Prompt",
-        "Sop"
+        "Business Operations"
       ],
       "url": "",
       "content": "```text\nTurn this brain dump into a numbered SOP for someone who has never done this task. Add title and brief description. Flag missing steps as [FILL IN]. Brain dump: [paste text]\n```",
@@ -3241,9 +3225,8 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Hackathons",
-        "AI",
-        "Events"
+        "Community",
+        "AI"
       ],
       "url": "https://lablab.ai/ai-hackathons",
       "content": "",
@@ -3257,8 +3240,8 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "AI Research",
-        "Quests"
+        "Research",
+        "Learning"
       ],
       "url": "https://research.google/ai-quests/intl/en_us",
       "content": "",
@@ -3305,7 +3288,7 @@
       "tags": [
         "Ideas",
         "Coding",
-        "Projects"
+        "Software Engineering"
       ],
       "url": "https://github.com/florinpop17/app-ideas",
       "content": "",
@@ -3321,8 +3304,7 @@
       "tags": [
         "Prompt",
         "ChatGPT",
-        "Collection",
-        "Roleplay"
+        "Collection"
       ],
       "url": "https://github.com/f/awesome-chatgpt-prompts",
       "content": "",
@@ -3386,8 +3368,8 @@
       "subcategory": "",
       "tags": [
         "MCP",
-        "List",
-        "Cursor",
+        "Resource",
+        "AI Coding",
         "Servers"
       ],
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
@@ -3402,9 +3384,8 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Figma",
-        "Design",
-        "Backgrounds"
+        "UI",
+        "Design"
       ],
       "url": "https://www.figma.com/design/1RjQY50dy7t9SucZtAIb1p/Super-Visuals--Backgrounds-Library",
       "content": "",
@@ -3468,7 +3449,7 @@
       "tags": [
         "Claude",
         "Skills",
-        "Google Drive"
+        "Cloud Services"
       ],
       "url": "https://drive.google.com/drive/folders/1lhFm0v6ppm04daPMI3a5vrIcpBMo5uKP",
       "content": "",
@@ -3498,8 +3479,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Cloudflare",
-        "Infrastructure"
+        "Web Development"
       ],
       "url": "https://www.cloudflare.com/drop/",
       "content": "",
@@ -3529,9 +3509,9 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "UI Sounds",
-        "Web Audio",
-        "Interactions"
+        "Audio & Speech",
+        "Web Development",
+        "UI"
       ],
       "url": "https://cuelume-site.pages.dev/",
       "content": "",
@@ -3561,7 +3541,6 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Brand Guidelines",
         "Design",
         "Inspiration"
       ],
@@ -3577,7 +3556,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Design Engineering",
+        "UI",
         "Skills",
         "GitHub"
       ],
@@ -3609,7 +3588,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Google Cloud",
+        "Cloud Services",
         "Free",
         "Hosting"
       ],
@@ -3659,7 +3638,7 @@
       "tags": [
         "Education",
         "AI",
-        "Activities"
+        "Learning"
       ],
       "url": "https://csforall.org/en-US/activities/hour-of-ai",
       "content": "",
@@ -3675,7 +3654,7 @@
       "tags": [
         "UI",
         "React",
-        "Framer Motion",
+        "Animation",
         "Tailwind CSS"
       ],
       "url": "",
@@ -3690,7 +3669,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Resources",
+        "Resource",
         "Collection"
       ],
       "url": "https://www.kolejain.com/resources",
@@ -3707,7 +3686,7 @@
       "tags": [
         "Design",
         "Inspiration",
-        "Web"
+        "Web Development"
       ],
       "url": "https://land-book.com/",
       "content": "",
@@ -3738,7 +3717,7 @@
       "tags": [
         "AI Models",
         "Free",
-        "DEV Community"
+        "Community"
       ],
       "url": "https://dev.to/sbalasa/list-of-ai-models-17on",
       "content": "",
@@ -3802,7 +3781,7 @@
       "tags": [
         "UI Inspiration",
         "Web Design",
-        "Studio"
+        "Design"
       ],
       "url": "https://www.itsoffbrand.com/",
       "content": "",
@@ -3817,7 +3796,7 @@
       "subcategory": "",
       "tags": [
         "MCP",
-        "Official",
+        "Developer Tools",
         "Servers"
       ],
       "url": "https://github.com/modelcontextprotocol/servers",
@@ -3834,7 +3813,7 @@
       "tags": [
         "Prompt",
         "Workflow",
-        "GitHub Gist"
+        "Developer Tools"
       ],
       "url": "https://gist.github.com/velvet-shark/b4c6724c391f612c4de4e9a07b0a74b6",
       "content": "",
@@ -3849,8 +3828,7 @@
       "subcategory": "",
       "tags": [
         "UI",
-        "Shaders",
-        "Effects"
+        "Web Development"
       ],
       "url": "",
       "content": "Link: https://radiant-shaders.com/",
@@ -3864,9 +3842,7 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Reddit",
-        "Marketing",
-        "Promotion"
+        "Marketing"
       ],
       "url": "https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/edit",
       "content": "",
@@ -3880,7 +3856,6 @@
       "category": "Resources",
       "subcategory": "",
       "tags": [
-        "Y Combinator",
         "Startups",
         "Ideas"
       ],
@@ -3913,7 +3888,6 @@
       "subcategory": "",
       "tags": [
         "Startups",
-        "Success Stories",
         "Business"
       ],
       "url": "",
@@ -3976,8 +3950,7 @@
       "subcategory": "",
       "tags": [
         "Startups",
-        "Revenue",
-        "Database"
+        "Developer Tools"
       ],
       "url": "",
       "content": "Link: https://trustmrr.com/",
@@ -4056,7 +4029,7 @@
       "tags": [
         "AI Tools",
         "Customer Support",
-        "Multi-Channel"
+        "Customer Service"
       ],
       "url": "",
       "content": "Workflow it replaces: Multi-channel support triage. Ada handles the first layer of customer contact across all channels simultaneously.\nBusiness outcome: Customer enquiries resolved without agent involvement for repeatable request types.\nBest for: Enterprise organisations with high-volume customer contact across multiple channels.",
@@ -4071,7 +4044,7 @@
       "subcategory": "",
       "tags": [
         "Meeting",
-        "Voice",
+        "Audio & Speech",
         "Summarizer",
         "Productivity"
       ],
@@ -4089,7 +4062,7 @@
       "tags": [
         "Animation",
         "JavaScript",
-        "Library"
+        "Developer Tools"
       ],
       "url": "https://animejs.com/documentation/getting-started/",
       "content": "",
@@ -4105,7 +4078,7 @@
       "tags": [
         "IDE",
         "AI",
-        "Terminal",
+        "Developer Tools",
         "Agent"
       ],
       "url": "https://antigravity.google.com",
@@ -4183,8 +4156,8 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Chat Interface",
-        "Fast",
+        "LLM",
+        "Developer Tools",
         "AI Tools"
       ],
       "url": "",
@@ -4279,7 +4252,7 @@
         "Agent",
         "Toolkits",
         "API",
-        "Integration"
+        "Workflow Automation"
       ],
       "url": "https://github.com/ComposioHQ/composio",
       "content": "",
@@ -4294,8 +4267,7 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Research",
-        "Scientific Literature"
+        "Research"
       ],
       "url": "",
       "content": "Workflow it replaces: Academic literature review.\nBusiness outcome: Evidence-based research and fact-checking without a dedicated researcher.\nBest for: Healthcare, pharma, policy, and any function requiring evidence-based decision-making.",
@@ -4311,7 +4283,7 @@
       "tags": [
         "CLI",
         "GitHub",
-        "Git",
+        "Developer Tools",
         "AI"
       ],
       "url": "https://github.com/github/gh-copilot",
@@ -4327,7 +4299,7 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Copywriting",
+        "Writing & Communication",
         "Marketing"
       ],
       "url": "",
@@ -4373,8 +4345,8 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Conversational Marketing",
-        "Sales Qualification"
+        "Marketing",
+        "Sales & Outreach"
       ],
       "url": "",
       "content": "Workflow it replaces: Manual website lead qualification.\nBusiness outcome: Sales teams spend time on qualified pipeline rather than first-contact qualification.\nBest for: B2B companies with high inbound traffic and a sales-led growth motion.",
@@ -4406,7 +4378,10 @@
         "Meeting",
         "Summarizer",
         "Productivity",
-        "Free"
+        "Free",
+        "Meeting Assistant",
+        "Transcription",
+        "AI Tools"
       ],
       "url": "https://fathom.video",
       "content": "",
@@ -4453,7 +4428,6 @@
       "subcategory": "",
       "tags": [
         "LLM",
-        "Proxy",
         "API",
         "Free"
       ],
@@ -4469,9 +4443,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Focus",
-        "Productivity",
-        "App Blocker"
+        "Productivity"
       ],
       "url": "https://freedom.to/",
       "content": "",
@@ -4486,9 +4458,10 @@
       "subcategory": "",
       "tags": [
         "Meeting",
-        "Audio",
+        "Audio & Speech",
         "Transcription",
-        "Productivity"
+        "Productivity",
+        "Meeting Assistant"
       ],
       "url": "https://fritz.ai",
       "content": "",
@@ -4503,8 +4476,8 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Presentations",
-        "Design"
+        "Design",
+        "Document Generator"
       ],
       "url": "",
       "content": "Workflow it replaces: Slide deck creation. The blank slide problem, building structure, formatting, and designing presentations from scratch.\nBusiness outcome: First-draft presentations that took hours take minutes. Design and structure are handled automatically.\nBest for: Any team producing high volumes of presentations.",
@@ -4548,9 +4521,8 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Google Labs",
-        "Workflow",
-        "AI Tools"
+        "AI Tools",
+        "Workflow"
       ],
       "url": "https://labs.google/fx/tools/flow",
       "content": "",
@@ -4627,8 +4599,7 @@
       "subcategory": "",
       "tags": [
         "UI",
-        "Components",
-        "shadcn"
+        "Components"
       ],
       "url": "https://www.hextaui.com/",
       "content": "",
@@ -4644,7 +4615,7 @@
       "tags": [
         "AI Tools",
         "Recruiting",
-        "Video Interview"
+        "Career"
       ],
       "url": "",
       "content": "Workflow it replaces: First-round video screening by HR teams.\nBusiness outcome: Screening capacity increases significantly without adding recruiter hours.\nBest for: Large enterprises with structured hiring processes and high applicant volumes.",
@@ -4722,7 +4693,7 @@
       "tags": [
         "AI",
         "Image Generation",
-        "Generation"
+        "AI Tools"
       ],
       "url": "https://ideogram.ai/models/4.0/",
       "content": "",
@@ -4736,7 +4707,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Web3",
+        "Web Development",
         "Community"
       ],
       "url": "https://www.igloo.inc/",
@@ -4880,7 +4851,7 @@
       "tags": [
         "AI Tools",
         "Automation",
-        "Complex Logic"
+        "Workflow Automation"
       ],
       "url": "",
       "content": "Workflow it replaces: Complex operational workflows with conditional logic, approval processes.\nBusiness outcome: Complex processes that required a developer run without ongoing maintenance.\nBest for: Power users building complex, multi-step automation workflows.",
@@ -4942,7 +4913,7 @@
       "tags": [
         "AI Tools",
         "Research",
-        "Internal Knowledge"
+        "Knowledge Base"
       ],
       "url": "",
       "content": "Workflow it replaces: Internal research across multiple documents.\nBusiness outcome: Internal research that required cross-referencing multiple files becomes a single conversation.\nBest for: Research teams, consultants, and analysts working across large document libraries.",
@@ -4988,7 +4959,6 @@
       "subcategory": "",
       "tags": [
         "Google",
-        "Experiment",
         "AI Tools"
       ],
       "url": "https://opal.google/landing/",
@@ -5003,8 +4973,8 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "OpenAI",
-        "OAuth",
+        "LLM",
+        "Developer Tools",
         "GitHub"
       ],
       "url": "https://github.com/EvanZhouDev/openai-oauth",
@@ -5020,8 +4990,7 @@
       "subcategory": "",
       "tags": [
         "Agent",
-        "Multi-Agent",
-        "Framework",
+        "Developer Tools",
         "Automation"
       ],
       "url": "https://github.com/openclaw/openclaw.ai",
@@ -5111,7 +5080,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "LaTeX",
+        "Document Generator",
         "Editor",
         "AI"
       ],
@@ -5159,8 +5128,7 @@
       "subcategory": "",
       "tags": [
         "Animation",
-        "Interactive",
-        "Graphics"
+        "Design"
       ],
       "url": "https://rive.app/",
       "content": "",
@@ -5174,9 +5142,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Automation",
-        "RSS",
-        "Relay.app"
+        "Automation"
       ],
       "url": "https://run.relay.app/shared/rss-post-to-message-CxdkjGBKGCJF",
       "content": "",
@@ -5241,9 +5207,10 @@
       "subcategory": "",
       "tags": [
         "Meeting",
-        "Chrome Extension",
+        "Developer Tools",
         "Transcription",
-        "Productivity"
+        "Productivity",
+        "Meeting Assistant"
       ],
       "url": "https://tactiq.io",
       "content": "",
@@ -5259,7 +5226,7 @@
       "tags": [
         "AI Tools",
         "Customer Support",
-        "Live Chat"
+        "Customer Service"
       ],
       "url": "",
       "content": "Workflow it replaces: Live chat support monitoring.\nBusiness outcome: E-commerce and small business support runs around the clock without a dedicated support team.\nBest for: E-commerce businesses and small-to-mid businesses with customer-facing support needs.",
@@ -5307,7 +5274,7 @@
       "tags": [
         "IDE",
         "AI",
-        "ByteDance",
+        "AI Coding",
         "Editor"
       ],
       "url": "https://trae.ai",
@@ -5322,7 +5289,7 @@
       "category": "Tools",
       "subcategory": "",
       "tags": [
-        "Uncensored",
+        "LLM",
         "App",
         "AI Tools"
       ],
@@ -5370,7 +5337,7 @@
       "tags": [
         "IDE",
         "AI",
-        "Codeium",
+        "AI Coding",
         "Agent"
       ],
       "url": "https://codeium.com/windsurf",
@@ -5433,7 +5400,7 @@
       "subcategory": "",
       "tags": [
         "AI Tools",
-        "Creative"
+        "Content Creation"
       ],
       "url": "https://yupp.ai/",
       "content": "",
@@ -5448,8 +5415,8 @@
       "subcategory": "",
       "tags": [
         "Image Generation",
-        "Photorealistic",
-        "Free"
+        "Free",
+        "AI Tools"
       ],
       "url": "",
       "content": "Link: https://z-image.app/",
@@ -5481,7 +5448,7 @@
       "tags": [
         "AI Tools",
         "Automation",
-        "No-Code"
+        "Workflow Automation"
       ],
       "url": "",
       "content": "Workflow it replaces: Manual data transfer and process triggers between applications.\nBusiness outcome: Repetitive cross-application tasks that required human attention run automatically.\nBest for: Teams that need broad application connectivity without engineering resources.",
@@ -5562,7 +5529,7 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Email Marketing",
+            "Marketing",
             "Course",
             "Recruiting"
           ],
@@ -6019,7 +5986,7 @@
           "subcategory": "",
           "tags": [
             "AI",
-            "Market Research",
+            "Analysis & Research",
             "Strategy",
             "Perplexity"
           ],
@@ -6100,10 +6067,9 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Mobile",
+            "Marketing",
             "App",
-            "Growth",
-            "Marketing"
+            "Growth"
           ],
           "url": "https://offers.hubspot.com/view/mobile-app-growth",
           "content": "",
@@ -6117,9 +6083,8 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "App Development",
-            "Business",
-            "Software"
+            "Software Engineering",
+            "Business"
           ],
           "url": "",
           "content": "#### 1. Idea Generation\n- Stop obsessing over a completely unique idea.\n- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.\n- Find ways to tweak or improve them to create your own version.\n\n#### 2. Choose Your Stack\n- **Web App**: Use **Next.js** for seamless front-end and back-end development.\n- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.\n\n#### 3. Leverage AI Tools\n- Familiarize yourself with AI coding assistants.\n- **Claude Coder**: Best for front-end design and user experience.\n- **Codex**: Best for complex backend architecture.\n\n#### 4. Backend & Payments\n- **Database / Backend**: Supabase or Firebase.\n- **Payments**: Stripe (Web) or RevenueCat (Mobile).\n\n#### 5. Launch & Distribute\n- Release early to get user feedback immediately.\n- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).\n- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.\n- **Scale**: Once organic works, turn the winning formulas into paid ads.",
@@ -6165,7 +6130,7 @@
           "tags": [
             "Ideas",
             "Coding",
-            "Projects"
+            "Software Engineering"
           ],
           "url": "https://github.com/florinpop17/app-ideas",
           "content": "",
@@ -6195,9 +6160,7 @@
           "category": "Resources",
           "subcategory": "",
           "tags": [
-            "Reddit",
-            "Marketing",
-            "Promotion"
+            "Marketing"
           ],
           "url": "https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/edit",
           "content": "",
@@ -6230,7 +6193,7 @@
           "tags": [
             "IDE",
             "AI",
-            "Codeium",
+            "AI Coding",
             "Agent"
           ],
           "url": "https://codeium.com/windsurf",
@@ -6331,7 +6294,7 @@
           "tags": [
             "Video",
             "Prompt",
-            "UGC"
+            "Content Creation"
           ],
           "url": "",
           "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
@@ -6347,8 +6310,7 @@
           "tags": [
             "Prompt",
             "ChatGPT",
-            "Collection",
-            "Roleplay"
+            "Collection"
           ],
           "url": "https://github.com/f/awesome-chatgpt-prompts",
           "content": "",
@@ -6397,7 +6359,7 @@
           "tags": [
             "Claude",
             "Skills",
-            "Google Drive"
+            "Cloud Services"
           ],
           "url": "https://drive.google.com/drive/folders/1lhFm0v6ppm04daPMI3a5vrIcpBMo5uKP",
           "content": "",
@@ -6590,7 +6552,7 @@
           "tags": [
             "Video",
             "Prompt",
-            "Real Estate"
+            "Content Creation"
           ],
           "url": "",
           "content": "```text\nThe ONE thing you customize for every listing is the WALKTHROUGH:\n\nyou describe how the camera should move through the place. Write that\n\nfirst (Step 1), then paste the full prompt (Step 2).\n\n================================================================\n\nSTEP 1 \u2014 WRITE YOUR WALKTHROUGH (how it should go)\n\n================================================================\n\nDescribe the camera's route as ONE continuous move, in the order you\n\nwant to show the home. This is what makes each video custom. Call out:\n\n- where it starts (outside, the front door, or a key room)\n\n- the order of rooms, and how it moves between them (glide, turn, rise, descend)\n\n- where the furniture unfolds into place\n\n- where to slow down (the selling features: kitchen, view, primary suite)\n\n- how it ends (a hero shot, or back where it started)\n\nKeep it one flowing path. The model follows it as a single continuous shot.\n\n>>> WRITE YOURS HERE:\n\n[ ........................................................... ]\n\nEXAMPLE (Oliver's apartment) \u2014 copy this style:\n\n\"Start just outside the front door and push in through the entrance.\n\nGlide into the kitchen as the furniture and decor unfold into place.\n\nContinue out into the living room. Turn to the right and look up toward\n\nthe staircase, then rise up the stairs. As you reach the top, let the\n\nupstairs interior unfold into place. Drift over toward the desk and\n\ncomputer setup, then move out over the edge of the landing and descend\n\nback down into the living room to finish.\"\n\n================================================================\n\nSTEP 2 \u2014 THE PROMPT (paste into Claude, attach your photo, drop your walkthrough in)\n\n================================================================\n\nUse Higgsfield to create a cinematic real estate listing video from\n\nthis photo. Model: Kling 3.0, highest quality mode (pro or 4k), then\n\nupscale the result.\n\nWALKTHROUGH (how the camera should move \u2014 paste your Step 1 here):\n\n[ your walkthrough goes here ]\n\nSHOT: one continuous, smooth cinematic walkthrough that follows the\n\nwalkthrough above. Slow luxurious motion, seamless forward movement,\n\nsubtle parallax, shallow depth of field, decelerating to reveal each\n\nroom.\n\nFIDELITY (critical, do not break): stay faithful to the reference\n\nphoto. Preserve the exact architecture, layout, furniture, materials,\n\ncolors, and proportions shown. Do NOT add, remove, move, or invent\n\nrooms, furniture, windows, doors, or objects. Keep every straight line\n\nstraight: no warping or bending of walls, doorframes, counters, or\n\nwindows.\n\nLOOK: premium architectural film grade, high dynamic range, natural\n\nrealistic textures, soft cinematic color. Golden hour warmth outside\n\neasing into a soft interior glow. Calm, aspirational, expensive.\n\nMOTION FEEL: steady, slow, luxurious. No shaky cam, no fast cuts, no\n\nsnap zooms.\n\nFURNITURE REVEAL (marketing flourish, ON by default): as the camera\n\nenters each space, have the furniture and decor elegantly fold/assemble\n\ninto place, then settle into the final furnished look.\n\n(Toggle OFF for a fully faithful flythrough when the agent wants exact.)\n\nNEGATIVE / AVOID: no people, no text, no logos, no watermarks, no\n\nwarping, no distorted or bending lines, no extra or invented rooms,\n\nno cartoon or fake CGI look, no flicker, no morphing walls.\n\n================================================================\n\nTWO WAYS TO BUILD IT (pick based on the listing)\n\n================================================================\n\nA. ONE CONTINUOUS WALKTHROUGH (the wow factor):\n\n   One generation that follows your whole path. Best when you have a\n\n   strong main photo and want the cinematic, flowing reveal. Anchor it\n\n   with a start photo (and an end photo if you have one).\n\nB. ROOM BY ROOM, THEN STITCH (max accuracy):\n\n   Run the prompt once per real listing photo, give each clip a short\n\n   one-room walkthrough (e.g. \"push into the kitchen and slow on the\n\n   island\"), then stitch the clips in this order:\n\n   exterior -> entry -> living -> kitchen -> primary bedroom -> bath -> standout feature.\n\n   Use this when the agent needs it to match the real home exactly.\n\nExterior/aerial beat (either mode): use the REAL exterior photo as the\n\nstart frame, OR a real Google Earth Studio aerial of the actual address.\n\nNEVER use an AI-invented exterior.\n\n================================================================\n\nTWEAKABLES (give the buyer control)\n\n================================================================\n\n- Speed: slow & luxurious  OR  energetic & modern\n\n- Time of day / light: golden hour / bright airy daylight / twilight / cozy evening glow\n\n- Furniture: unfold-in (stylized, default)  OR  static (faithful/accurate)\n\n- Mood: calm luxury / vibrant modern / cozy & warm\n\n- Aspect ratio: 16:9 (YouTube + website)  OR  9:16 (Reels / TikTok / Stories)\n\n- Clip length: 5s or 10s\n\n- Quality: Kling 3.0 pro or 4k, then upscale_video\n\n================================================================\n\nQUALITY STEP\n\n================================================================\n\nAfter it generates, run upscale_video for the final resolution bump.\n\nThis is the fix for \"I wanted higher quality.\"\n```",
@@ -6606,7 +6568,7 @@
           "tags": [
             "Video",
             "Prompt",
-            "UGC"
+            "Content Creation"
           ],
           "url": "",
           "content": "```text\nAuthentic UGC selfie video, single continuous shot, vertical 9:16. The blonde woman in the car holds the coral-pink KOLAI hairspray can up next to her cheek and speaks directly into the phone camera with natural, candid, slightly excited energy \u2014 like a real TikTok review. Her lips move in perfect sync with the following dialogue, in a young warm American female voice (mid-20s, friendly, conversational, slight upspeak):\n\n\n\n\"Okay I just found my new obsession \u2014 KOLAI hairspray from Sweden. Holds my curls all day, zero crunch, and it's a hundred percent vegan. Run, don't walk.\"\n\n\n\nShe gestures naturally with the can while talking, gives it a tiny shake near 'obsession', tilts the can slightly so the gold KOLAI label stays readable to camera, smiles softly at 'vegan', raises her eyebrows on 'Run, don't walk'. Tiny natural head movements, micro-expressions, eye contact with the lens. Subtle handheld phone camera wobble. Soft natural daylight through car windows, warm highlights on her hair and the can. Shallow depth of field, car interior softly out of focus. Background ambient car/road sound, no music. No text overlays, no captions, no watermarks.\n```",
@@ -6638,7 +6600,7 @@
           "tags": [
             "Animation",
             "JavaScript",
-            "Library"
+            "Developer Tools"
           ],
           "url": "https://animejs.com/documentation/getting-started/",
           "content": "",
@@ -6685,8 +6647,7 @@
           "subcategory": "",
           "tags": [
             "Animation",
-            "Interactive",
-            "Graphics"
+            "Design"
           ],
           "url": "https://rive.app/",
           "content": "",
@@ -6706,8 +6667,7 @@
           "subcategory": "",
           "tags": [
             "Career",
-            "Coding",
-            "Job Search"
+            "Coding"
           ],
           "url": "",
           "content": "#### 1. Master LeetCode\n- Start practicing daily well before the recruiting cycle begins.\n- If you don't know where to start, focus on the **Blind 75** list on LeetCode.\n\n#### 2. Learn a High-Demand Skill\n- If your resume isn't getting bites, you need new skills.\n- Dive deep into **AWS** (via AWS Skill Builder) or **Spring Boot**.\n- Recommended resource: *Amigoscode* on YouTube.\n\n#### 3. Build Something Valuable\n- Classes and degrees are no longer enough.\n- Build a significant project that takes at least 3-6 weeks to complete to showcase on your resume.\n\n#### 4. Network Relentlessly\n- \"It's not what you know, it's who you know.\"\n- Attend career fairs and hackathons.\n- Message your connections directly when applying for jobs; referrals are the easiest way to get an interview.",
@@ -6798,7 +6758,7 @@
           "tags": [
             "Business",
             "Prompt",
-            "Job"
+            "Business Operations"
           ],
           "url": "",
           "content": "```text\nWrite a job description for a [role] at my business. Company: [describe]. Responsibilities: [list]. Requirements: [list]. Tone: engaging, honest. Under 300 words.\n```",
@@ -6844,7 +6804,7 @@
           "tags": [
             "AI Tools",
             "Recruiting",
-            "Video Interview"
+            "Career"
           ],
           "url": "",
           "content": "Workflow it replaces: First-round video screening by HR teams.\nBusiness outcome: Screening capacity increases significantly without adding recruiter hours.\nBest for: Large enterprises with structured hiring processes and high applicant volumes.",
@@ -6893,10 +6853,9 @@
           "category": "Learning",
           "subcategory": "",
           "tags": [
-            "Mobile",
+            "Marketing",
             "App",
-            "Growth",
-            "Marketing"
+            "Growth"
           ],
           "url": "https://offers.hubspot.com/view/mobile-app-growth",
           "content": "",
@@ -6911,7 +6870,6 @@
           "subcategory": "",
           "tags": [
             "Marketing",
-            "Attention",
             "Guide"
           ],
           "url": "https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit",
@@ -6943,8 +6901,7 @@
           "subcategory": "AI & Technical",
           "tags": [
             "Marketing",
-            "Prompt",
-            "Hashtag"
+            "Prompt"
           ],
           "url": "",
           "content": "```text\nGive me 15 relevant hashtags for a post about [topic] targeting [audience] on Instagram. Mix of large (1M+), medium (100K-1M), and niche (under 100K).\n```",
@@ -6956,11 +6913,11 @@
           "name": "Hook Generator",
           "description": "Write 5 strong video/post hooks about [topic].",
           "category": "Prompts",
-          "subcategory": "Creative & Content",
+          "subcategory": "Writing & Communication",
           "tags": [
             "Marketing",
             "Prompt",
-            "Hook"
+            "Writing & Communication"
           ],
           "url": "",
           "content": "```text\nWrite 5 strong video/post hooks about [topic]. Under 8 words each. Create curiosity or call out a problem. No question marks.\n```",
@@ -6976,7 +6933,7 @@
           "tags": [
             "Marketing",
             "Prompt",
-            "Repurposing"
+            "Content Creation"
           ],
           "url": "",
           "content": "```text\nRepurpose this content: [paste content]. Create: 3 short captions, 1 email newsletter, 1 Twitter thread, 3 carousel bullet points. Voice: [your tone].\n```",
@@ -6990,9 +6947,7 @@
           "category": "Resources",
           "subcategory": "",
           "tags": [
-            "Reddit",
-            "Marketing",
-            "Promotion"
+            "Marketing"
           ],
           "url": "https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/edit",
           "content": "",
@@ -7055,7 +7010,7 @@
           "subcategory": "",
           "tags": [
             "AI Tools",
-            "Copywriting",
+            "Writing & Communication",
             "Marketing"
           ],
           "url": "",
@@ -7155,7 +7110,7 @@
           "subcategory": "",
           "tags": [
             "MCP",
-            "Official",
+            "Developer Tools",
             "Servers"
           ],
           "url": "https://github.com/modelcontextprotocol/servers",
@@ -7172,7 +7127,7 @@
           "tags": [
             "IDE",
             "AI",
-            "Terminal",
+            "Developer Tools",
             "Agent"
           ],
           "url": "https://antigravity.google.com",
@@ -7206,7 +7161,7 @@
           "tags": [
             "CLI",
             "GitHub",
-            "Git",
+            "Developer Tools",
             "AI"
           ],
           "url": "https://github.com/github/gh-copilot",
@@ -7286,7 +7241,7 @@
           "tags": [
             "IDE",
             "AI",
-            "ByteDance",
+            "AI Coding",
             "Editor"
           ],
           "url": "https://trae.ai",
@@ -7303,7 +7258,7 @@
           "tags": [
             "IDE",
             "AI",
-            "Codeium",
+            "AI Coding",
             "Agent"
           ],
           "url": "https://codeium.com/windsurf",
@@ -7340,8 +7295,7 @@
           "subcategory": "",
           "tags": [
             "Zapier",
-            "SDK",
-            "Developer Docs"
+            "Developer Tools"
           ],
           "url": "https://docs.zapier.com/sdk/quickstart",
           "content": "",
@@ -7373,7 +7327,7 @@
             "Agent",
             "Toolkits",
             "API",
-            "Integration"
+            "Workflow Automation"
           ],
           "url": "https://github.com/ComposioHQ/composio",
           "content": "",
@@ -7421,7 +7375,7 @@
           "tags": [
             "AI Tools",
             "Automation",
-            "Complex Logic"
+            "Workflow Automation"
           ],
           "url": "",
           "content": "Workflow it replaces: Complex operational workflows with conditional logic, approval processes.\nBusiness outcome: Complex processes that required a developer run without ongoing maintenance.\nBest for: Power users building complex, multi-step automation workflows.",
@@ -7435,9 +7389,7 @@
           "category": "Tools",
           "subcategory": "",
           "tags": [
-            "Automation",
-            "RSS",
-            "Relay.app"
+            "Automation"
           ],
           "url": "https://run.relay.app/shared/rss-post-to-message-CxdkjGBKGCJF",
           "content": "",
@@ -7485,7 +7437,7 @@
           "tags": [
             "AI Tools",
             "Automation",
-            "No-Code"
+            "Workflow Automation"
           ],
           "url": "",
           "content": "Workflow it replaces: Manual data transfer and process triggers between applications.\nBusiness outcome: Repetitive cross-application tasks that required human attention run automatically.\nBest for: Teams that need broad application connectivity without engineering resources.",
@@ -7499,212 +7451,105 @@
     "ChatGPT": 3,
     "Prompt": 160,
     "Workflow": 75,
-    "Mobile": 1,
+    "Marketing": 16,
     "App": 2,
     "Growth": 3,
-    "Marketing": 14,
     "CLI": 6,
     "Automation": 9,
-    "Knowledge Base": 2,
-    "LLM": 7,
+    "Knowledge Base": 4,
+    "LLM": 11,
     "Frontend": 2,
     "AI": 23,
-    "Design": 11,
-    "Attention": 1,
+    "Design": 13,
     "Guide": 12,
     "Claude": 79,
     "Skills": 10,
-    "Business": 13,
+    "Business": 15,
     "Agent": 17,
-    "Entrepreneurship": 1,
     "Skool": 9,
-    "Community": 11,
+    "Community": 13,
     "Web Design": 3,
-    "GoHighLevel": 1,
-    "Agency": 1,
+    "Workflow Automation": 5,
     "Sales": 6,
     "AI Models": 3,
-    "Make": 1,
-    "App Development": 1,
-    "Software": 1,
+    "Software Engineering": 2,
     "Email": 4,
-    "Career": 18,
+    "Career": 19,
     "Coding": 3,
-    "Job Search": 1,
-    "Product Ideas": 1,
     "Playbook": 2,
-    "Obsidian": 1,
-    "Notion": 1,
-    "Second Brain": 1,
     "Best Practices": 2,
-    "Solopreneur": 1,
-    "MVP": 1,
-    "Research": 3,
+    "Research": 4,
     "Perplexity": 2,
     "Strategy": 7,
     "Zapier": 2,
-    "SDK": 1,
-    "Developer Docs": 1,
+    "Developer Tools": 14,
     "learn skill": 17,
-    "Market Research": 1,
-    "Tool Evaluation": 1,
-    "Procurement": 1,
+    "Analysis & Research": 3,
+    "AI Tools": 58,
     "GitHub": 8,
-    "Certification": 1,
-    "Developer Tools": 3,
+    "Learning": 4,
     "Education": 4,
     "Course": 6,
-    "Kaggle": 1,
-    "Microsoft": 1,
-    "Beginners": 1,
+    "Machine Learning": 3,
+    "AI & Technical": 2,
     "Cold": 3,
     "Writing": 2,
-    "Email Marketing": 1,
     "Recruiting": 4,
     "RAG": 2,
-    "Q&A": 1,
-    "ML": 1,
-    "Production": 1,
-    "MLOps": 1,
-    "Architecture": 1,
-    "GPT": 1,
-    "Training": 1,
     "Video": 6,
-    "Real Estate": 1,
+    "Content Creation": 4,
     "Communication": 6,
-    "Client": 1,
-    "Competitor": 1,
+    "Writing & Communication": 4,
     "Content Generation": 2,
-    "Leadership": 1,
+    "Business Operations": 3,
     "Follow-Up": 2,
-    "Audit": 1,
-    "System": 1,
-    "Hashtag": 1,
-    "UGC": 1,
-    "Hook": 1,
     "Ideas": 3,
-    "Job": 1,
     "Meeting": 7,
-    "Objection": 1,
-    "Offer": 1,
-    "Polite": 1,
-    "Proposal": 1,
-    "Repurposing": 1,
-    "Sop": 1,
+    "Sales & Outreach": 4,
     "Weekly": 2,
-    "AI Tools": 54,
     "Directory": 6,
-    "UI": 13,
-    "Hackathons": 1,
-    "Events": 1,
-    "AI Research": 1,
-    "Quests": 1,
-    "Projects": 1,
+    "UI": 16,
     "Collection": 3,
-    "Roleplay": 1,
     "Template": 5,
     "MCP": 3,
-    "List": 1,
-    "Cursor": 1,
+    "Resource": 2,
+    "AI Coding": 3,
     "Servers": 2,
-    "Figma": 1,
-    "Backgrounds": 1,
     "Image Generation": 3,
     "Components": 4,
     "Anthropic": 3,
-    "Google Drive": 1,
-    "Cloudflare": 1,
-    "Infrastructure": 1,
-    "UI Sounds": 1,
-    "Web Audio": 1,
-    "Interactions": 1,
-    "Brand Guidelines": 1,
+    "Cloud Services": 2,
+    "Web Development": 5,
+    "Audio & Speech": 3,
     "Inspiration": 3,
-    "Design Engineering": 1,
     "Newsletter": 2,
-    "Google Cloud": 1,
     "Free": 6,
     "Hosting": 2,
     "Students": 3,
-    "Activities": 1,
     "React": 6,
-    "Framer Motion": 1,
+    "Animation": 7,
     "Tailwind CSS": 2,
-    "Resources": 1,
-    "Web": 1,
     "UI Inspiration": 2,
-    "DEV Community": 1,
     "Domains": 2,
-    "Studio": 1,
-    "Official": 1,
-    "GitHub Gist": 1,
-    "Shaders": 1,
-    "Effects": 1,
-    "Reddit": 1,
-    "Promotion": 1,
-    "Y Combinator": 1,
     "Startups": 4,
-    "Success Stories": 1,
-    "Revenue": 1,
-    "Database": 1,
-    "Animation": 6,
     "Open Source": 5,
     "Toolkits": 2,
     "Customer Support": 2,
-    "Multi-Channel": 1,
-    "Voice": 1,
+    "Customer Service": 2,
     "Summarizer": 3,
     "Productivity": 7,
     "JavaScript": 2,
-    "Library": 1,
     "IDE": 3,
-    "Terminal": 1,
     "Scraping": 2,
     "Data": 2,
     "Enterprise": 11,
     "API": 4,
-    "Chat Interface": 1,
-    "Fast": 1,
-    "Integration": 1,
-    "Scientific Literature": 1,
-    "Git": 1,
-    "Copywriting": 1,
     "Speech to Text": 4,
-    "Conversational Marketing": 1,
-    "Sales Qualification": 1,
-    "Proxy": 1,
-    "Focus": 1,
-    "App Blocker": 1,
-    "Audio": 1,
-    "Transcription": 2,
-    "Presentations": 1,
-    "Google Labs": 1,
-    "shadcn": 1,
-    "Video Interview": 1,
-    "Generation": 1,
-    "Web3": 1,
+    "Meeting Assistant": 3,
+    "Transcription": 3,
+    "Document Generator": 2,
     "Local": 2,
-    "Complex Logic": 1,
-    "Internal Knowledge": 1,
     "Google": 2,
-    "Experiment": 1,
-    "OpenAI": 1,
-    "OAuth": 1,
-    "Multi-Agent": 1,
-    "Framework": 1,
-    "LaTeX": 1,
-    "Editor": 2,
-    "Interactive": 1,
-    "Graphics": 1,
-    "RSS": 1,
-    "Relay.app": 1,
-    "Chrome Extension": 1,
-    "Live Chat": 1,
-    "ByteDance": 1,
-    "Uncensored": 1,
-    "Codeium": 1,
-    "Creative": 1,
-    "Photorealistic": 1,
-    "No-Code": 1
+    "Editor": 2
   }
 }

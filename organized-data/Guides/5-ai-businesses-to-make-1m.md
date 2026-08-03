@@ -43,4 +43,3 @@ Learning
 ### Tags
 - Business
 - Agent
-- Entrepreneurship

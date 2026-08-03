@@ -11,6 +11,6 @@ https://github.com/EvanZhouDev/openai-oauth
 Tools
 
 ### Tags
-- OpenAI
-- OAuth
+- LLM
+- Developer Tools
 - GitHub

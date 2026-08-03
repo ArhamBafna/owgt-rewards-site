@@ -12,6 +12,6 @@ Resources
 
 ### Tags
 - MCP
-- List
-- Cursor
+- Resource
+- AI Coding
 - Servers

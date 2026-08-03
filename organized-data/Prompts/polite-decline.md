@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Communication
 - Prompt
-- Polite
+- Writing & Communication

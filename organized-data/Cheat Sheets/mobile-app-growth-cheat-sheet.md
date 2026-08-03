@@ -11,7 +11,6 @@ https://offers.hubspot.com/view/mobile-app-growth
 Learning
 
 ### Tags
-- Mobile
+- Marketing
 - App
 - Growth
-- Marketing

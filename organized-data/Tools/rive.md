@@ -12,5 +12,4 @@ Tools
 
 ### Tags
 - Animation
-- Interactive
-- Graphics
+- Design

@@ -11,6 +11,5 @@ https://www.ycombinator.com/rfs
 Resources
 
 ### Tags
-- Y Combinator
 - Startups
 - Ideas

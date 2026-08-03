@@ -11,6 +11,5 @@ https://brand.dropbox.com/
 Resources
 
 ### Tags
-- Brand Guidelines
 - Design
 - Inspiration

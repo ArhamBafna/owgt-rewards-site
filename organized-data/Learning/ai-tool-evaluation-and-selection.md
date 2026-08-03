@@ -15,5 +15,5 @@ Learning
 
 ### Tags
 - AI
-- Tool Evaluation
-- Procurement
+- AI Tools
+- Business

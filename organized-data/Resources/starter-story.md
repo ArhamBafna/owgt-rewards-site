@@ -12,5 +12,4 @@ Resources
 
 ### Tags
 - Startups
-- Success Stories
 - Business

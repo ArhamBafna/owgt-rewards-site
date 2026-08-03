@@ -13,4 +13,4 @@ Resources
 ### Tags
 - AI Models
 - Free
-- DEV Community
+- Community

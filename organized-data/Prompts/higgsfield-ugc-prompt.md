@@ -23,4 +23,4 @@ Learning
 ### Tags
 - Video
 - Prompt
-- UGC
+- Content Creation

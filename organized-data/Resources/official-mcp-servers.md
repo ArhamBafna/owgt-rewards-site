@@ -12,5 +12,5 @@ Resources
 
 ### Tags
 - MCP
-- Official
+- Developer Tools
 - Servers

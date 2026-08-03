@@ -11,6 +11,6 @@ Link: https://uncensored.com/ai
 Tools
 
 ### Tags
-- Uncensored
+- LLM
 - App
 - AI Tools

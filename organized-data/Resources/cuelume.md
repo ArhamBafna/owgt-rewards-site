@@ -11,6 +11,6 @@ https://cuelume-site.pages.dev/
 Resources
 
 ### Tags
-- UI Sounds
-- Web Audio
-- Interactions
+- Audio & Speech
+- Web Development
+- UI

@@ -11,6 +11,5 @@ https://labs.google/fx/tools/flow
 Tools
 
 ### Tags
-- Google Labs
-- Workflow
 - AI Tools
+- Workflow

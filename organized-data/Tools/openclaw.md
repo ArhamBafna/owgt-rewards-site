@@ -12,6 +12,5 @@ Tools
 
 ### Tags
 - Agent
-- Multi-Agent
-- Framework
+- Developer Tools
 - Automation

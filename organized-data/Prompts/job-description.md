@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Business
 - Prompt
-- Job
+- Business Operations

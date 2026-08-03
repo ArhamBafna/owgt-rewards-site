@@ -13,5 +13,5 @@ Resources
 ### Tags
 - UI
 - React
-- Framer Motion
+- Animation
 - Tailwind CSS

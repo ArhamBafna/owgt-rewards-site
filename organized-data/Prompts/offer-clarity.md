@@ -15,4 +15,4 @@ Prompts
 ### Tags
 - Strategy
 - Prompt
-- Offer
+- Sales & Outreach

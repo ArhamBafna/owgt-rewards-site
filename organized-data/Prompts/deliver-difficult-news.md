@@ -15,5 +15,5 @@ Prompts
 ### Tags
 - Claude
 - Prompt
-- Leadership
+- Business Operations
 - Communication

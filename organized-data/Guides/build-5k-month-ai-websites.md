@@ -41,6 +41,6 @@ Learning
 
 ### Tags
 - Web Design
-- GoHighLevel
-- Agency
+- Workflow Automation
+- Business
 - Sales

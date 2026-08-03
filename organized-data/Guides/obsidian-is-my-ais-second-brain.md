@@ -11,7 +11,5 @@ https://pear-diadem-016.notion.site/Obsidian-Is-My-AI-s-Second-Brain-Here-s-My-F
 Learning
 
 ### Tags
-- Obsidian
-- Notion
-- Second Brain
+- Knowledge Base
 - Workflow

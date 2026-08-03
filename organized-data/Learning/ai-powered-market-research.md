@@ -16,6 +16,6 @@ Learning
 
 ### Tags
 - AI
-- Market Research
+- Analysis & Research
 - Strategy
 - Perplexity

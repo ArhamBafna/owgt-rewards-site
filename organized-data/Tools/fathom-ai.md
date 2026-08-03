@@ -15,3 +15,6 @@ Tools
 - Summarizer
 - Productivity
 - Free
+- Meeting Assistant
+- Transcription
+- AI Tools

@@ -19,7 +19,6 @@ Provide an actionable 5-step optimization roadmap.
 Prompts
 
 ### Tags
-- Audit
+- Analysis & Research
 - Prompt
 - Workflow
-- System

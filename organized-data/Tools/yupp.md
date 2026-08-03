@@ -12,4 +12,4 @@ Tools
 
 ### Tags
 - AI Tools
-- Creative
+- Content Creation
