@@ -49,7 +49,7 @@ function initSearchSystem() {
     'guides': 'Guides',
     'resources': 'Resources',
     'tags': 'Tags',
-    'bookmarks': 'Bookmarks',
+    'bookmarks': 'Saved',
     'learning': 'Learning',
     'cheatsheets': 'Cheatsheets',
     'templates': 'Templates',
@@ -426,15 +426,19 @@ function loadRandomResource() {
 function initCopyEngine() {
   window.copyToClipboard = (textToCopy, btnElement) => {
     navigator.clipboard.writeText(textToCopy).then(() => {
-      const originalText = btnElement.innerText;
-      btnElement.innerText = "✔ COPIED!";
+      const originalHTML = btnElement.innerHTML;
+      btnElement.classList.add('is-copied');
       btnElement.style.background = "#22c55e";
       btnElement.style.color = "#fff";
+      btnElement.style.borderColor = "#22c55e";
+      btnElement.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
       
       setTimeout(() => {
-        btnElement.innerText = originalText;
+        btnElement.classList.remove('is-copied');
+        btnElement.innerHTML = originalHTML;
         btnElement.style.background = "";
         btnElement.style.color = "";
+        btnElement.style.borderColor = "";
       }, 2000);
     });
   };
@@ -684,7 +688,7 @@ function initFilterSystem() {
   }
   const catMap = {
     'prompts': 'Prompts', 'tools': 'Tools', 'guides': 'Guides',
-    'resources': 'Resources', 'tags': 'Tags', 'bookmarks': 'Bookmarks',
+    'resources': 'Resources', 'tags': 'Tags', 'bookmarks': 'Saved',
     'learning': 'Learning', 'cheatsheets': 'Cheat Sheets',
     'templates': 'Templates', 'frameworks': 'Frameworks'
   };

@@ -387,7 +387,7 @@ def main():
     with open(SEARCH_INDEX_PATH, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, separators=(',', ':'))
     
-    generate_category_page("Bookmarks", [])
+    generate_category_page("Saved", [])
     
     # Process static standalone pages to inject header
     standalone_pages = ['index.html', 'tags.html', 'bookmarks.html', 'templates.html', 'tag-detail.html']
