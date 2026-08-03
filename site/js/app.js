@@ -117,6 +117,15 @@ function initSearchSystem() {
     inputWrapper.style.display = 'none';
     scopeSelect.style.display = 'none';
     searchInput.value = '';
+    const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+    const parts = cleanPath.split('/').filter(Boolean);
+    const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
+    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
+    if (isHome) {
+      const openFilterBtn = document.getElementById('openFilterDrawerBtn');
+      if (openFilterBtn) openFilterBtn.style.display = 'none';
+      if (typeof window.resetFilters === 'function') window.resetFilters();
+    }
     if (originalMainContent && mainContentArea) {
       mainContentArea.innerHTML = originalMainContent;
       originalMainContent = null;
@@ -135,6 +144,15 @@ function initSearchSystem() {
     if (!query) {
       closeSearch();
       return;
+    }
+
+    const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+    const parts = cleanPath.split('/').filter(Boolean);
+    const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
+    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
+    if (isHome) {
+      const openFilterBtn = document.getElementById('openFilterDrawerBtn');
+      if (openFilterBtn) openFilterBtn.style.display = 'inline-flex';
     }
 
     if (!originalMainContent && mainContentArea) {
@@ -257,7 +275,7 @@ function initSearchSystem() {
       }[tag]));
     };
 
-    let html = `<div style="padding: var(--space-xl) var(--space-md);">`;
+    let html = `<div style="padding: var(--space-xl) var(--space-md); margin-top: var(--space-md);">`;
     html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${escapeHTML(query)}"</h2>`;
     
     if (results.length === 0) {
@@ -380,6 +398,9 @@ function updateBookmarkUI(id, isBookmarked) {
    ========================================================================== */
 function initShortcuts() {
   document.addEventListener('keydown', (e) => {
+    // Ignore keyboard shortcuts if modifier keys (Ctrl, Meta, Alt) are pressed
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+
     // Don't trigger if user is typing in an input
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
       if (e.key === 'Escape') toggleSearch();
@@ -572,23 +593,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
   if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '/home') {
     document.body.classList.add('is-home');
-    header.classList.add('hidden-on-home');
-    
-    const target = document.querySelector('.hero-marquee'); // Using hero section
-    if (target) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (!entry.isIntersecting) {
-            header.classList.remove('hidden-on-home');
-            header.classList.add('visible-on-home');
-          } else {
-            header.classList.add('hidden-on-home');
-            header.classList.remove('visible-on-home');
-          }
-        });
-      }, { threshold: 0.1 });
-      observer.observe(target);
-    }
   }
 });
 
@@ -621,9 +625,9 @@ function initFilterSystem() {
           </select>
         </div>
         <div class="filter-group" id="subcategoryFilterGroup" style="display:none;">
-          <label>Subcategory</label>
+          <label>Type</label>
           <select class="filter-select" id="filterSubcategorySelect">
-            <option value="">All Subcategories</option>
+            <option value="">All Types</option>
           </select>
         </div>
         <div class="filter-group">
@@ -655,21 +659,27 @@ function initFilterSystem() {
   const lastSegment = parts.length > 0 ? parts[parts.length - 1] : '';
   const isHomePage = parts.length === 0 || lastSegment === 'home' || lastSegment === 'home.html' || lastSegment === 'index.html' || lastSegment === 'site';
 
-  const headerContent = document.querySelector('.header-content') || document.querySelector('header');
-  if (headerContent && !isHomePage) {
-    const triggerBtn = document.createElement('button');
-    triggerBtn.className = 'filter-trigger-btn';
-    triggerBtn.id = 'openFilterDrawerBtn';
-    triggerBtn.setAttribute('aria-label', 'Open Filters');
-    triggerBtn.innerHTML = `
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-      <span class="filter-badge" id="filterActiveBadge">0</span>
-    `;
-    const searchContainer = document.getElementById('headerSearchContainer');
-    if (searchContainer) {
-       searchContainer.parentNode.insertBefore(triggerBtn, searchContainer.nextSibling);
+  const headerContent = document.querySelector('.new-global-header') || document.querySelector('header');
+  if (headerContent) {
+    let triggerBtn = document.getElementById('openFilterDrawerBtn');
+    if (!triggerBtn) {
+      triggerBtn = document.createElement('button');
+      triggerBtn.className = 'filter-trigger-btn';
+      triggerBtn.id = 'openFilterDrawerBtn';
+      triggerBtn.setAttribute('aria-label', 'Open Filters');
+      triggerBtn.style.display = isHomePage ? 'none' : 'inline-flex';
+      triggerBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+        <span class="filter-badge" id="filterActiveBadge">0</span>
+      `;
+      const searchContainer = document.getElementById('headerSearchContainer');
+      if (searchContainer) {
+         searchContainer.parentNode.insertBefore(triggerBtn, searchContainer.nextSibling);
+      } else {
+         headerContent.appendChild(triggerBtn);
+      }
     } else {
-       headerContent.appendChild(triggerBtn);
+      triggerBtn.style.display = isHomePage ? 'none' : 'inline-flex';
     }
     
     triggerBtn.addEventListener('click', openDrawer);
@@ -703,7 +713,7 @@ function initFilterSystem() {
     }
     const subcats = [...new Set(pool.map(i => i.subcategory).filter(Boolean))].sort();
 
-    filterSubcategorySelect.innerHTML = '<option value="">All Subcategories</option>';
+    filterSubcategorySelect.innerHTML = '<option value="">All Types</option>';
     if (subcats.length > 0) {
       subcats.forEach(s => {
         filterSubcategorySelect.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`);
@@ -716,9 +726,7 @@ function initFilterSystem() {
   }
 
   function populateDrawer() {
-    let itemsToProcess = allItems;
     if (!isGlobal) {
-      itemsToProcess = allItems.filter(i => (i.category || '').toLowerCase() === pageCategory.toLowerCase());
       categoryFilterGroup.style.display = 'none';
     } else {
       categoryFilterGroup.style.display = 'block';
@@ -731,8 +739,9 @@ function initFilterSystem() {
 
     updateSubcategories();
 
+    // Populate ALL tags across the site so ALL tags appear in filter drawer
     const tags = new Set();
-    itemsToProcess.forEach(item => {
+    allItems.forEach(item => {
       if (item.tags) item.tags.forEach(t => tags.add(t));
     });
     const sortedTags = [...tags].sort();
@@ -773,7 +782,7 @@ function initFilterSystem() {
   });
   filterSubcategorySelect.addEventListener('change', (e) => activeFilters.subcategory = e.target.value);
 
-  resetFiltersBtn.addEventListener('click', () => {
+  window.resetFilters = () => {
     activeFilters.category = '';
     activeFilters.subcategory = '';
     activeFilters.tags = [];
@@ -782,6 +791,10 @@ function initFilterSystem() {
     document.querySelectorAll('.filter-tag-pill').forEach(btn => btn.classList.remove('is-active'));
     updateSubcategories();
     applyFilters();
+  };
+
+  resetFiltersBtn.addEventListener('click', () => {
+    window.resetFilters();
   });
 
   applyFiltersBtn.addEventListener('click', () => {
