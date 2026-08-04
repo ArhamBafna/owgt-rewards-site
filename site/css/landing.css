@@ -6,7 +6,10 @@
 
 /* Landing page — Carnival Pressroom · conversion-focused */
 
+body.landing-page,
 .landing-page {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
   padding-bottom: calc(var(--nav-height) + var(--space-md));
 }
 
@@ -290,10 +293,19 @@
   font-weight: 500;
   line-height: 1.5;
   color: var(--color-ink);
+  max-width: 100%;
 }
 
 /* Pillars */
 .landing-pillar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-pillar .card__body {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -306,6 +318,7 @@
   font-weight: 500;
   line-height: 1.5;
   color: var(--color-ink);
+  max-width: 100%;
 }
 
 .landing-pillar__num {
@@ -316,10 +329,57 @@
   line-height: 1;
 }
 
+.landing-pillar__sneak-peek {
+  margin-top: auto;
+  padding-top: var(--space-md);
+  border-top: 2px dashed var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  pointer-events: auto;
+}
+
+.landing-pillar__sneak-label {
+  font-family: var(--font-outlier);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent-2);
+}
+
+.landing-pillar__sneak-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  line-height: 1.2;
+}
+
+.landing-pillar__sneak-text {
+  font-family: var(--font-outlier);
+  font-size: 0.85rem;
+  color: var(--color-ink);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.landing-pillar__sneak-btn {
+  align-self: flex-start;
+  margin-top: var(--space-xs);
+  font-size: 0.85rem !important;
+  padding: 0.25rem 0.65rem !important;
+  pointer-events: auto;
+}
+
 /* Static cards — no links, no hover lift */
 .card--static {
   cursor: default;
-  pointer-events: none;
 }
 
 .card--static .card__title {
