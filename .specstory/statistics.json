@@ -1,0 +1,67 @@
+{
+  "sessions": {
+    "04be3e1a-e281-4789-9fe8-dcc8a6e7ab20": {
+      "user_message_count": 2,
+      "agent_message_count": 10,
+      "start_timestamp": "2026-05-26T21:40:57Z",
+      "end_timestamp": "2026-05-26T21:42:16Z",
+      "markdown_size_bytes": 59754,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:53Z"
+    },
+    "18163653-141a-4168-b852-6d462ecb3352": {
+      "user_message_count": 5,
+      "agent_message_count": 55,
+      "start_timestamp": "2026-07-25T22:52:40Z",
+      "end_timestamp": "2026-07-26T20:32:47Z",
+      "markdown_size_bytes": 322677,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:53Z"
+    },
+    "af5dfc5e-7be7-4ce2-9a2f-7265c7e4f1fe": {
+      "user_message_count": 2,
+      "agent_message_count": 63,
+      "start_timestamp": "2026-08-03T18:18:13-04:00",
+      "end_timestamp": "2026-08-03T18:18:13-04:00",
+      "markdown_size_bytes": 49189,
+      "provider": "cursoride",
+      "last_updated": "2026-08-03T22:36:41Z"
+    },
+    "df8d458b-adcf-4d82-8443-1aa86057d9e7": {
+      "user_message_count": 3,
+      "agent_message_count": 23,
+      "start_timestamp": "2026-06-19T18:42:09Z",
+      "end_timestamp": "2026-06-19T18:45:37Z",
+      "markdown_size_bytes": 47627,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:53Z"
+    },
+    "e2c4e6bf-61de-445f-be49-577c8f10e7bc": {
+      "user_message_count": 2,
+      "agent_message_count": 35,
+      "start_timestamp": "2026-06-29T16:49:31Z",
+      "end_timestamp": "2026-06-29T16:53:28Z",
+      "markdown_size_bytes": 46727,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:44Z"
+    },
+    "e2d2bd1b-817c-4803-8214-7836b37500a3": {
+      "user_message_count": 3,
+      "agent_message_count": 24,
+      "start_timestamp": "2026-05-26T21:50:28Z",
+      "end_timestamp": "2026-05-26T21:56:20Z",
+      "markdown_size_bytes": 68615,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:44Z"
+    },
+    "e55e4d27-ea39-400b-a502-a65e097f237a": {
+      "user_message_count": 3,
+      "agent_message_count": 33,
+      "start_timestamp": "2026-06-22T15:26:19Z",
+      "end_timestamp": "2026-06-22T15:36:55Z",
+      "markdown_size_bytes": 81445,
+      "provider": "antigravity-cli",
+      "last_updated": "2026-08-03T22:19:44Z"
+    }
+  }
+}

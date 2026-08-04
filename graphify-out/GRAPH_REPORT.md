@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-03)
 
 ## Corpus Check
-- 396 files · ~493,671 words
+- 410 files · ~581,792 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2728 nodes · 2701 edges · 412 communities (399 shown, 13 thin omitted)
+- 2814 nodes · 2776 edges · 423 communities (406 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6d812d2e`
+- Built from commit: `a1f9c245`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -416,18 +416,27 @@
 - [[_COMMUNITY_Community 408|Community 408]]
 - [[_COMMUNITY_Community 409|Community 409]]
 - [[_COMMUNITY_Community 410|Community 410]]
+- [[_COMMUNITY_Community 412|Community 412]]
+- [[_COMMUNITY_Community 413|Community 413]]
+- [[_COMMUNITY_Community 414|Community 414]]
+- [[_COMMUNITY_Community 415|Community 415]]
+- [[_COMMUNITY_Community 416|Community 416]]
+- [[_COMMUNITY_Community 417|Community 417]]
+- [[_COMMUNITY_Community 419|Community 419]]
+- [[_COMMUNITY_Community 420|Community 420]]
+- [[_COMMUNITY_Community 421|Community 421]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
-2. `Content` - 12 edges
-3. `Agent 1: Vesper (Inbox Triage)` - 9 edges
-4. `Build 1 — RISE Hydration Drink` - 9 edges
-5. `Motion Graphics with AI — Full Setup & Workflow Guide` - 9 edges
-6. `Agent 1: Vesper (Inbox Triage)` - 9 edges
-7. `Step 2 — Generate Premium Visuals in AI Media Generator` - 9 edges
-8. `Build 1 — RISE Hydration Drink` - 9 edges
-9. `Academic & Comprehensive Courses` - 9 edges
-10. `Master Index` - 9 edges
+2. `TONE.md — AI Newsletter / Personal Brand Voice` - 13 edges
+3. `Content` - 12 edges
+4. `Landing page brief (project-specific answers only)` - 12 edges
+5. `Agent 1: Vesper (Inbox Triage)` - 9 edges
+6. `Build 1 — RISE Hydration Drink` - 9 edges
+7. `Motion Graphics with AI — Full Setup & Workflow Guide` - 9 edges
+8. `Agent 1: Vesper (Inbox Triage)` - 9 edges
+9. `Step 2 — Generate Premium Visuals in AI Media Generator` - 9 edges
+10. `Build 1 — RISE Hydration Drink` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -435,7 +444,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (412 total, 13 thin omitted)
+## Communities (423 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1989,18 +1998,36 @@ Nodes (5): Category, Description, Name, Tags, URL
 Cohesion: 0.83
 Nodes (3): clean_markdown_file(), clean_tag(), run()
 
+### Community 412 - "Community 412"
+Cohesion: 0.33
+Nodes (5): Category, Description, Name, Tags, URL
+
+### Community 413 - "Community 413"
+Cohesion: 0.06
+Nodes (35): 1. Plainspoken, Never Dumbed Down, 2026-07-25 22:52:40Z, 2. Honest, Never Promotional, 3. Personal Without Oversharing, 4. Curious, Never Hype-Chasing, 5. Warm, Never Ingratiating, Archetype, Banned terms (+27 more)
+
+### Community 414 - "Community 414"
+Cohesion: 0.10
+Nodes (19): Brand, Category cards (with live counts), Copywriting guardrails, FAQ (objection handling), Final CTA, Form - I will give later, just make space for now., Hero — above the fold, How it works (3 steps) (+11 more)
+
+### Community 415 - "Community 415"
+Cohesion: 0.22
+Nodes (8): 1. Install the CLI tool, 2026-06-19 18:42:09Z, 2. Register the skill, 3. Build your first graph, 4. Update the graph, How to install and use it, What can you do with it?, What is Graphify?
+
+### Community 416 - "Community 416"
+Cohesion: 0.50
+Nodes (3): 2026-05-26 21:50:28Z, Summary of Changes, Summary of Work
+
 ## Knowledge Gaps
-- **2197 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `Rewards Directory Instructions`, `Connecting Higgsfield` (+2192 more)
+- **2260 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `2026-05-26 21:40:57Z`, `Summary of Work` (+2255 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Master Index` connect `Community 27` to `Community 25`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
-  _2197 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2260 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
@@ -2011,3 +2038,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Community 5` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

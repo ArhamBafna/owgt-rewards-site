@@ -1,0 +1,1 @@
+Repo architecture at `site\repomix-output.xml`

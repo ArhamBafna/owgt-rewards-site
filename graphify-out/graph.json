@@ -474,6 +474,26 @@
       "norm_label": "initfiltersystem()"
     },
     {
+      "label": "landing.js",
+      "file_type": "code",
+      "source_file": "site/js/landing.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_js_landing",
+      "community": 418,
+      "norm_label": "landing.js"
+    },
+    {
+      "label": "scrollToSignup()",
+      "file_type": "code",
+      "source_file": "site/js/landing.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "site_js_landing_scrolltosignup",
+      "community": 418,
+      "norm_label": "scrolltosignup()"
+    },
+    {
       "label": "serve.py",
       "file_type": "code",
       "source_file": "site/serve.py",
@@ -572,6 +592,576 @@
       "id": "agents_skool_guide_to_md_skill_steps",
       "community": 376,
       "norm_label": "steps"
+    },
+    {
+      "label": "2026-05-26_21-40-57Z-go-to-file-c.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-40-57Z-go-to-file-c.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_40_57z_go_to_file_c",
+      "community": 419,
+      "norm_label": "2026-05-26_21-40-57z-go-to-file-c.md"
+    },
+    {
+      "label": "2026-05-26 21:40:57Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-40-57Z-go-to-file-c.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_40_57z_go_to_file_c_2026_05_26_21_40_57z",
+      "community": 419,
+      "norm_label": "2026-05-26 21:40:57z"
+    },
+    {
+      "label": "2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french",
+      "community": 416,
+      "norm_label": "2026-05-26_21-50-28z-look-at-downloads-french.md"
+    },
+    {
+      "label": "2026-05-26 21:50:28Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_2026_05_26_21_50_28z",
+      "community": 416,
+      "norm_label": "2026-05-26 21:50:28z"
+    },
+    {
+      "label": "Summary of Work",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L1305",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_summary_of_work",
+      "community": 416,
+      "norm_label": "summary of work"
+    },
+    {
+      "label": "Summary of Changes",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L1547",
+      "_origin": "ast",
+      "id": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_summary_of_changes",
+      "community": 416,
+      "norm_label": "summary of changes"
+    },
+    {
+      "label": "2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what",
+      "community": 415,
+      "norm_label": "2026-06-19_18-42-09z-is-graphify-installed-what.md"
+    },
+    {
+      "label": "2026-06-19 18:42:09Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2026_06_19_18_42_09z",
+      "community": 415,
+      "norm_label": "2026-06-19 18:42:09z"
+    },
+    {
+      "label": "What is Graphify?",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L968",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_what_is_graphify",
+      "community": 415,
+      "norm_label": "what is graphify?"
+    },
+    {
+      "label": "What can you do with it?",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L973",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_what_can_you_do_with_it",
+      "community": 415,
+      "norm_label": "what can you do with it?"
+    },
+    {
+      "label": "How to install and use it",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L981",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "community": 415,
+      "norm_label": "how to install and use it"
+    },
+    {
+      "label": "1. Install the CLI tool",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L983",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_1_install_the_cli_tool",
+      "community": 415,
+      "norm_label": "1. install the cli tool"
+    },
+    {
+      "label": "2. Register the skill",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L990",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2_register_the_skill",
+      "community": 415,
+      "norm_label": "2. register the skill"
+    },
+    {
+      "label": "3. Build your first graph",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L1001",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_3_build_your_first_graph",
+      "community": 415,
+      "norm_label": "3. build your first graph"
+    },
+    {
+      "label": "4. Update the graph",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L1009",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_4_update_the_graph",
+      "community": 415,
+      "norm_label": "4. update the graph"
+    },
+    {
+      "label": "2026-06-22_15-26-19Z-i-have-a-vercel.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-22_15-26-19Z-i-have-a-vercel.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_22_15_26_19z_i_have_a_vercel",
+      "community": 420,
+      "norm_label": "2026-06-22_15-26-19z-i-have-a-vercel.md"
+    },
+    {
+      "label": "2026-06-22 15:26:19Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-22_15-26-19Z-i-have-a-vercel.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_22_15_26_19z_i_have_a_vercel_2026_06_22_15_26_19z",
+      "community": 420,
+      "norm_label": "2026-06-22 15:26:19z"
+    },
+    {
+      "label": "2026-06-29_16-49-31Z-create-a-project-in.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-29_16-49-31Z-create-a-project-in.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_29_16_49_31z_create_a_project_in",
+      "community": 421,
+      "norm_label": "2026-06-29_16-49-31z-create-a-project-in.md"
+    },
+    {
+      "label": "2026-06-29 16:49:31Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-06-29_16-49-31Z-create-a-project-in.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_06_29_16_49_31z_create_a_project_in_2026_06_29_16_49_31z",
+      "community": 421,
+      "norm_label": "2026-06-29 16:49:31z"
+    },
+    {
+      "label": "2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "community": 413,
+      "norm_label": "2026-07-25_22-52-40z-i-want-to-extract.md"
+    },
+    {
+      "label": "2026-07-25 22:52:40Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_2026_07_25_22_52_40z",
+      "community": 413,
+      "norm_label": "2026-07-25 22:52:40z"
+    },
+    {
+      "label": "TONE.md \u2014 AI Newsletter / Personal Brand Voice",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3269",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "community": 413,
+      "norm_label": "tone.md \u2014 ai newsletter / personal brand voice"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3279",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_context",
+      "community": 413,
+      "norm_label": "context"
+    },
+    {
+      "label": "Voice Attributes",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3297",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "community": 413,
+      "norm_label": "voice attributes"
+    },
+    {
+      "label": "1. Plainspoken, Never Dumbed Down",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3301",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_1_plainspoken_never_dumbed_down",
+      "community": 413,
+      "norm_label": "1. plainspoken, never dumbed down"
+    },
+    {
+      "label": "2. Honest, Never Promotional",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3325",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_2_honest_never_promotional",
+      "community": 413,
+      "norm_label": "2. honest, never promotional"
+    },
+    {
+      "label": "3. Personal Without Oversharing",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3349",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_3_personal_without_oversharing",
+      "community": 413,
+      "norm_label": "3. personal without oversharing"
+    },
+    {
+      "label": "4. Curious, Never Hype-Chasing",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3373",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_4_curious_never_hype_chasing",
+      "community": 413,
+      "norm_label": "4. curious, never hype-chasing"
+    },
+    {
+      "label": "5. Warm, Never Ingratiating",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3397",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_5_warm_never_ingratiating",
+      "community": 413,
+      "norm_label": "5. warm, never ingratiating"
+    },
+    {
+      "label": "Archetype",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3421",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_archetype",
+      "community": 413,
+      "norm_label": "archetype"
+    },
+    {
+      "label": "NN/g 4 Dimensions Positioning",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3429",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_nn_g_4_dimensions_positioning",
+      "community": 413,
+      "norm_label": "nn/g 4 dimensions positioning"
+    },
+    {
+      "label": "Tone Modulation Matrix",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3442",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_modulation_matrix",
+      "community": 413,
+      "norm_label": "tone modulation matrix"
+    },
+    {
+      "label": "Lexicon",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3461",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "community": 413,
+      "norm_label": "lexicon"
+    },
+    {
+      "label": "Preferred terms",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3463",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_preferred_terms",
+      "community": 413,
+      "norm_label": "preferred terms"
+    },
+    {
+      "label": "Banned terms",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3479",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_banned_terms",
+      "community": 413,
+      "norm_label": "banned terms"
+    },
+    {
+      "label": "Power words",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3499",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_power_words",
+      "community": 413,
+      "norm_label": "power words"
+    },
+    {
+      "label": "Jargon policy",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3522",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_jargon_policy",
+      "community": 413,
+      "norm_label": "jargon policy"
+    },
+    {
+      "label": "Naming conventions",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3528",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_naming_conventions",
+      "community": 413,
+      "norm_label": "naming conventions"
+    },
+    {
+      "label": "Mechanics",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3539",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_mechanics",
+      "community": 413,
+      "norm_label": "mechanics"
+    },
+    {
+      "label": "Inclusive Language",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3558",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_inclusive_language",
+      "community": 413,
+      "norm_label": "inclusive language"
+    },
+    {
+      "label": "Channel-Specific Guidance",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3570",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "community": 413,
+      "norm_label": "channel-specific guidance"
+    },
+    {
+      "label": "Email Newsletter (Primary)",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3572",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_email_newsletter_primary",
+      "community": 413,
+      "norm_label": "email newsletter (primary)"
+    },
+    {
+      "label": "Twitter/X",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3592",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_twitter_x",
+      "community": 413,
+      "norm_label": "twitter/x"
+    },
+    {
+      "label": "LinkedIn",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3612",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_linkedin",
+      "community": 413,
+      "norm_label": "linkedin"
+    },
+    {
+      "label": "Blog/Website",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3632",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_blog_website",
+      "community": 413,
+      "norm_label": "blog/website"
+    },
+    {
+      "label": "Global Do's and Don'ts",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3652",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_global_do_s_and_don_ts",
+      "community": 413,
+      "norm_label": "global do's and don'ts"
+    },
+    {
+      "label": "Do",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3656",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_do",
+      "community": 413,
+      "norm_label": "do"
+    },
+    {
+      "label": "Don't",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3669",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_don_t",
+      "community": 413,
+      "norm_label": "don't"
+    },
+    {
+      "label": "Examples Library",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3684",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_examples_library",
+      "community": 413,
+      "norm_label": "examples library"
+    },
+    {
+      "label": "Before / After",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3688",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_before_after",
+      "community": 413,
+      "norm_label": "before / after"
+    },
+    {
+      "label": "Full-artefact samples",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3762",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_full_artefact_samples",
+      "community": 413,
+      "norm_label": "full-artefact samples"
+    },
+    {
+      "label": "Provenance",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3771",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_provenance",
+      "community": 413,
+      "norm_label": "provenance"
+    },
+    {
+      "label": "TONE.md \u2014 AI Newsletter / Personal Brand Voice",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3802",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice_3802",
+      "community": 413,
+      "norm_label": "tone.md \u2014 ai newsletter / personal brand voice"
+    },
+    {
+      "label": "We need to extract the raw string assigned to 'content'",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L5348",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_we_need_to_extract_the_raw_string_assigned_to_content",
+      "community": 413,
+      "norm_label": "we need to extract the raw string assigned to 'content'"
+    },
+    {
+      "label": "It's between r\\\"\\\"\\\" and \\\"\\\"\\\"",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L5349",
+      "_origin": "ast",
+      "id": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_it_s_between_r_and",
+      "community": 413,
+      "norm_label": "it's between r\\\"\\\"\\\" and \\\"\\\"\\\""
+    },
+    {
+      "label": "2026-08-03_22-18-13Z-landing-page-design-for.md",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-08-03_22-18-13Z-landing-page-design-for.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specstory_history_2026_08_03_22_18_13z_landing_page_design_for",
+      "community": 417,
+      "norm_label": "2026-08-03_22-18-13z-landing-page-design-for.md"
+    },
+    {
+      "label": "2026-08-03 22:18:13Z",
+      "file_type": "document",
+      "source_file": ".specstory/history/2026-08-03_22-18-13Z-landing-page-design-for.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specstory_history_2026_08_03_22_18_13z_landing_page_design_for_2026_08_03_22_18_13z",
+      "community": 417,
+      "norm_label": "2026-08-03 22:18:13z"
     },
     {
       "label": "AGENTS.md",
@@ -19654,6 +20244,66 @@
       "norm_label": "tags"
     },
     {
+      "label": "landing-page-design-skill.md",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill",
+      "community": 412,
+      "norm_label": "landing-page-design-skill.md"
+    },
+    {
+      "label": "Name",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill_name",
+      "community": 412,
+      "norm_label": "name"
+    },
+    {
+      "label": "Description",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill_description",
+      "community": 412,
+      "norm_label": "description"
+    },
+    {
+      "label": "URL",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill_url",
+      "community": 412,
+      "norm_label": "url"
+    },
+    {
+      "label": "Category",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill_category",
+      "community": 412,
+      "norm_label": "category"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "organized_data_resources_landing_page_design_skill_tags",
+      "community": 412,
+      "norm_label": "tags"
+    },
+    {
       "label": "lando-norris.md",
       "file_type": "document",
       "source_file": "organized-data/Resources/lando-norris.md",
@@ -26594,6 +27244,16 @@
       "norm_label": "tools"
     },
     {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "site/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_agents",
+      "community": 422,
+      "norm_label": "agents.md"
+    },
+    {
       "label": "DESIGN_PLAN.md",
       "file_type": "document",
       "source_file": "site/DESIGN_PLAN.md",
@@ -27282,6 +27942,206 @@
       "id": "site_design_plan_17_open_questions",
       "community": 28,
       "norm_label": "17. open questions"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_readme",
+      "community": 414,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "OWGT Rewards",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "site_readme_owgt_rewards",
+      "community": 414,
+      "norm_label": "owgt rewards"
+    },
+    {
+      "label": "What is this?",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "site_readme_what_is_this",
+      "community": 414,
+      "norm_label": "what is this?"
+    },
+    {
+      "label": "What's inside",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "site_readme_what_s_inside",
+      "community": 414,
+      "norm_label": "what's inside"
+    },
+    {
+      "label": "Who it's for",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "site_readme_who_it_s_for",
+      "community": 414,
+      "norm_label": "who it's for"
+    },
+    {
+      "label": "Brand",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "site_readme_brand",
+      "community": 414,
+      "norm_label": "brand"
+    },
+    {
+      "label": "Landing page brief (project-specific answers only)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "site_readme_landing_page_brief_project_specific_answers_only",
+      "community": 414,
+      "norm_label": "landing page brief (project-specific answers only)"
+    },
+    {
+      "label": "Hero \u2014 above the fold",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "site_readme_hero_above_the_fold",
+      "community": 414,
+      "norm_label": "hero \u2014 above the fold"
+    },
+    {
+      "label": "Problem section (empathy)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "site_readme_problem_section_empathy",
+      "community": 414,
+      "norm_label": "problem section (empathy)"
+    },
+    {
+      "label": "Solution / What you get (3 pillars)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "site_readme_solution_what_you_get_3_pillars",
+      "community": 414,
+      "norm_label": "solution / what you get (3 pillars)"
+    },
+    {
+      "label": "Category cards (with live counts)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "site_readme_category_cards_with_live_counts",
+      "community": 414,
+      "norm_label": "category cards (with live counts)"
+    },
+    {
+      "label": "Spotlight (featured item)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "site_readme_spotlight_featured_item",
+      "community": 414,
+      "norm_label": "spotlight (featured item)"
+    },
+    {
+      "label": "Use-case bundles (the library as workflows)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "site_readme_use_case_bundles_the_library_as_workflows",
+      "community": 414,
+      "norm_label": "use-case bundles (the library as workflows)"
+    },
+    {
+      "label": "How it works (3 steps)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "site_readme_how_it_works_3_steps",
+      "community": 414,
+      "norm_label": "how it works (3 steps)"
+    },
+    {
+      "label": "FAQ (objection handling)",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "site_readme_faq_objection_handling",
+      "community": 414,
+      "norm_label": "faq (objection handling)"
+    },
+    {
+      "label": "Final CTA",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "site_readme_final_cta",
+      "community": 414,
+      "norm_label": "final cta"
+    },
+    {
+      "label": "Copywriting guardrails",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "site_readme_copywriting_guardrails",
+      "community": 414,
+      "norm_label": "copywriting guardrails"
+    },
+    {
+      "label": "Form - I will give later, just make space for now.",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "site_readme_form_i_will_give_later_just_make_space_for_now",
+      "community": 414,
+      "norm_label": "form - i will give later, just make space for now."
+    },
+    {
+      "label": "Tech stack & structure",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "site_readme_tech_stack_structure",
+      "community": 414,
+      "norm_label": "tech stack & structure"
+    },
+    {
+      "label": "Run & deploy",
+      "file_type": "document",
+      "source_file": "site/README.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "site_readme_run_deploy",
+      "community": 414,
+      "norm_label": "run & deploy"
     }
   ],
   "links": [
@@ -27761,6 +28621,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "site/js/landing.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "site_js_landing",
+      "target": "site_js_landing_scrolltosignup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "site/serve.py",
       "source_location": "L8",
       "weight": 1.0,
@@ -27837,6 +28707,506 @@
       "weight": 1.0,
       "source": "agents_skool_guide_to_md_skill",
       "target": "agents_skool_guide_to_md_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-05-26_21-40-57Z-go-to-file-c.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_05_26_21_40_57z_go_to_file_c",
+      "target": "specstory_history_2026_05_26_21_40_57z_go_to_file_c_2026_05_26_21_40_57z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french",
+      "target": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_2026_05_26_21_50_28z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L1547",
+      "weight": 1.0,
+      "source": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_2026_05_26_21_50_28z",
+      "target": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_summary_of_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-05-26_21-50-28Z-look-at-downloads-french.md",
+      "source_location": "L1305",
+      "weight": 1.0,
+      "source": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_2026_05_26_21_50_28z",
+      "target": "specstory_history_2026_05_26_21_50_28z_look_at_downloads_french_summary_of_work",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2026_06_19_18_42_09z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L981",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2026_06_19_18_42_09z",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L973",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2026_06_19_18_42_09z",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_what_can_you_do_with_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L968",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2026_06_19_18_42_09z",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_what_is_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L983",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_1_install_the_cli_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L990",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_2_register_the_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L1001",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_3_build_your_first_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-19_18-42-09Z-is-graphify-installed-what.md",
+      "source_location": "L1009",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_how_to_install_and_use_it",
+      "target": "specstory_history_2026_06_19_18_42_09z_is_graphify_installed_what_4_update_the_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-22_15-26-19Z-i-have-a-vercel.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_22_15_26_19z_i_have_a_vercel",
+      "target": "specstory_history_2026_06_22_15_26_19z_i_have_a_vercel_2026_06_22_15_26_19z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-06-29_16-49-31Z-create-a-project-in.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_06_29_16_49_31z_create_a_project_in",
+      "target": "specstory_history_2026_06_29_16_49_31z_create_a_project_in_2026_06_29_16_49_31z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_2026_07_25_22_52_40z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L5349",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_it_s_between_r_and",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3269",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3802",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice_3802",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L5348",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_we_need_to_extract_the_raw_string_assigned_to_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3421",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_archetype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3570",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3279",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3684",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_examples_library",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3652",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_global_do_s_and_don_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3558",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_inclusive_language",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3461",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3539",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_mechanics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3429",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_nn_g_4_dimensions_positioning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3771",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_provenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3442",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_modulation_matrix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3297",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_tone_md_ai_newsletter_personal_brand_voice",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3301",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_1_plainspoken_never_dumbed_down",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3325",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_2_honest_never_promotional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3349",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_3_personal_without_oversharing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3373",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_4_curious_never_hype_chasing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3397",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_voice_attributes",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_5_warm_never_ingratiating",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3479",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_banned_terms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3522",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_jargon_policy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3528",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_naming_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3499",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_power_words",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3463",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_lexicon",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_preferred_terms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3632",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_blog_website",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3572",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_email_newsletter_primary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3612",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_linkedin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3592",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_channel_specific_guidance",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_twitter_x",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3656",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_global_do_s_and_don_ts",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3669",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_global_do_s_and_don_ts",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_don_t",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3688",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_examples_library",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_before_after",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-07-25_22-52-40Z-i-want-to-extract.md",
+      "source_location": "L3762",
+      "weight": 1.0,
+      "source": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_examples_library",
+      "target": "specstory_history_2026_07_25_22_52_40z_i_want_to_extract_full_artefact_samples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specstory/history/2026-08-03_22-18-13Z-landing-page-design-for.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specstory_history_2026_08_03_22_18_13z_landing_page_design_for",
+      "target": "specstory_history_2026_08_03_22_18_13z_landing_page_design_for_2026_08_03_22_18_13z",
       "confidence_score": 1.0
     },
     {
@@ -46730,6 +48100,56 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landing_page_design_skill_category",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landing_page_design_skill_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landing_page_design_skill_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landing_page_design_skill_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "organized-data/Resources/landing-page-design-skill.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landing_page_design_skill_url",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "organized-data/master.md",
@@ -54308,8 +55728,198 @@
       "source": "site_design_plan_13_responsive_design_notes",
       "target": "site_design_plan_13_2_mobile_specific_behavior",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "site_readme",
+      "target": "site_readme_owgt_rewards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_brand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_landing_page_brief_project_specific_answers_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_run_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_tech_stack_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_what_is_this",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_what_s_inside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "site_readme_owgt_rewards",
+      "target": "site_readme_who_it_s_for",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_category_cards_with_live_counts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_copywriting_guardrails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_faq_objection_handling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_final_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_form_i_will_give_later_just_make_space_for_now",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_hero_above_the_fold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_how_it_works_3_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_problem_section_empathy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_solution_what_you_get_3_pillars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_spotlight_featured_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "site/README.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "site_readme_landing_page_brief_project_specific_answers_only",
+      "target": "site_readme_use_case_bundles_the_library_as_workflows",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6d812d2e70481edb868ca1516e9744012b5b49e2"
+  "built_at_commit": "a1f9c245a5657f9a2f19a4d80ba91346823563ff"
 }

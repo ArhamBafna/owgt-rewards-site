@@ -1,0 +1,401 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+_templates/
+  category.html
+  deep-item.html
+  header.html
+.hallmark/
+  log.json
+css/
+  base.css
+  landing.css
+  tokens.css
+items/
+  bundles/
+    bundle-ai-research.html
+    bundle-build-ai-apps.html
+    bundle-career-and-hiring.html
+    bundle-cold-outreach-stack.html
+    bundle-content-creation.html
+    bundle-developer-toolkit.html
+    bundle-marketing-stack.html
+    bundle-no-code-automation.html
+    bundle-prompt-engineering.html
+    bundle-video-and-motion.html
+  business-ops/
+    job-description.html
+    meeting-summary.html
+    proposal.html
+    sop-creation.html
+  cheatsheets/
+    chatgpt-and-ai-cheatsheet.html
+  communication/
+    client-welcome.html
+    email-reply.html
+    follow-up.html
+    meeting-request.html
+    polite-decline.html
+  guides/
+    1m-attention.html
+    39-claude-skills-examples.html
+    5-ai-businesses-to-make-1m.html
+    avoid-chat-limits.html
+    build-10-000-websites-with-ai.html
+    build-3-ai-agents-in-base44.html
+    build-5k-month-ai-websites.html
+    build-a-self-updating-llm-knowledge-base.html
+    build-an-award-worthy-f1-landing-page.html
+    build-insane-animated-websites.html
+    how-to-access-multiple-free-ai-models-at-once.html
+    how-to-build-a-10k-month-app-in-2026.html
+    how-to-create-a-cold-email-generator-using-ai.html
+    how-to-find-a-tech-job-in-2026.html
+    how-to-spot-100m-product-ideas.html
+    motion-graphics-in-ai.html
+    obsidian-is-my-ais-second-brain.html
+    prompt-engineering.html
+    raw-footage-to-finished-video-in-ai.html
+    the-1m-solopreneur-mvp.html
+    the-ai-agent-playbook.html
+    the-ai-research-system.html
+    top-ai-courses-for-beginners.html
+    which-model-should-i-use.html
+    zapier-sdk-quickstart.html
+  leadership-&-management/
+    deliver-difficult-news.html
+  learning/
+    5-ai-businesses-to-make-1m.html
+    ai-agent-coordination.html
+    ai-assisted-content-creation.html
+    ai-assisted-recruiting.html
+    ai-competitive-intelligence.html
+    ai-crm-and-pipeline-management.html
+    ai-data-interpretation.html
+    ai-ethics-and-governance-awareness.html
+    ai-learning-and-development.html
+    ai-literacy.html
+    ai-output-verification.html
+    ai-performance-management.html
+    ai-powered-market-research.html
+    ai-powered-process-documentation.html
+    ai-presentation-and-document-production.html
+    ai-prompt-engineering.html
+    ai-sales-outreach-and-sequencing.html
+    ai-tool-evaluation-and-selection.html
+    ai-video-and-visual-content.html
+    ai-workflow-building-no-code.html
+    avoid-chat-limits.html
+    build-10-000-websites-with-ai.html
+    build-3-ai-agents-in-base44.html
+    build-5k-month-ai-websites.html
+    build-an-award-worthy-f1-landing-page.html
+    build-insane-animated-websites.html
+    chatgpt-and-ai-cheatsheet.html
+    cinematic-real-estate-listing.html
+    higgsfield-ugc-prompt.html
+    how-to-build-a-10k-month-app-in-2026.html
+    how-to-find-a-tech-job-in-2026.html
+    motion-graphics-in-ai.html
+    raw-footage-to-finished-video-in-ai.html
+    the-ai-research-system.html
+    top-ai-courses-for-beginners.html
+    which-model-should-i-use.html
+  marketing/
+    content-ideas.html
+    email-newsletter.html
+    hashtag-strategy.html
+    hook-generator.html
+    repurposing.html
+    video-script-60s.html
+    week-of-captions.html
+  prompts/
+    act-as-a-skeptical-senior.html
+    all-hands-talking-points.html
+    analyze-customer-feedback-for-growth-signals.html
+    analyze-this-data-and-identify.html
+    analyze-why-a-deal-was-lost.html
+    apply-first-principles-thinking.html
+    assess-an-acquisition-or-partnership.html
+    assumptions-stress-test.html
+    break-this-goal-into-a-realistic-30-60-90-day-plan.html
+    build-a-competitive-battle-card.html
+    build-a-decision-framework.html
+    build-a-decision-matrix.html
+    build-a-project-risk-assessment.html
+    build-a-sop-for-a-repeatable-process.html
+    build-a-user-interview-question-set.html
+    build-an-onboarding-checklist.html
+    build-interview-questions.html
+    build-your-90-day-roadmap.html
+    business-audit.html
+    challenge-an-assumption.html
+    client-welcome.html
+    cold-dm.html
+    cold-email.html
+    compare-and-contrast-these-two.html
+    compare-two-real-options.html
+    competitor-analysis.html
+    content-ideas.html
+    craft-an-ask-for-a-warm-introduction.html
+    create-a-meeting-agenda.html
+    create-a-personal-okr-for.html
+    create-a-project-kickoff-checklist.html
+    create-a-tight-10-minute-meeting.html
+    culture-assessment.html
+    data-story-narrative.html
+    decide-how-to-deliver-difficult-news-category-5.html
+    decide-on-organizational-structure.html
+    decide-whether-to-pivot-or-stay-the-course.html
+    decide-whether-to-promote-or-let-go.html
+    define-your-unique-positioning.html
+    deliver-difficult-news.html
+    design-a-weekly-review-framework.html
+    diagnose-a-team-problem.html
+    diagnose-why-something-isnt-working.html
+    difficult-employee-conversation.html
+    draft-5-questions-i-should.html
+    draft-a-follow-up-after-no-response.html
+    draft-a-polite-but-firm.html
+    draft-a-product-announcement.html
+    draft-a-request-to-leadership.html
+    draft-a-weekly-update-to-your-team.html
+    draft-an-executive-summary.html
+    draft-performance-feedback.html
+    edit-this-paragraph-for-clarity.html
+    email-newsletter.html
+    email-reply.html
+    employee-engagement-analysis.html
+    enter-or-exit-a-market-10-what-this-changes.html
+    evaluate-a-new-market-opportunity.html
+    evaluate-a-new-opportunity.html
+    explain-these-financial-terms-in-plain-language-for-a.html
+    follow-up-touch-1.html
+    follow-up.html
+    full-ai-system-self-audit-prompt.html
+    generate-10-creative-solutions-to.html
+    generate-5-different-ways-to.html
+    generate-alternatives-when-youre-stuck.html
+    generate-feature-ideas-from-complaints.html
+    get-devils-advocate-feedback.html
+    give-me-5-options-61.html
+    give-me-a-structured-swot.html
+    give-me-the-tl-dr-of.html
+    handle-a-difficult-investor-conversation.html
+    hashtag-strategy.html
+    hire-vs-outsource.html
+    hook-generator.html
+    idea-validation.html
+    identify-inefficiencies-in-this-workflow.html
+    identify-the-3-biggest-risks.html
+    identify-the-real-bottleneck.html
+    identify-the-root-cause.html
+    identify-the-story-this-data.html
+    identify-your-biggest-blind-spot.html
+    improve-your-onboarding-flow.html
+    investment-decision-analysis.html
+    job-description.html
+    kpi-framework-design.html
+    make-the-decision-youve-been-avoiding.html
+    meeting-effectiveness-audit.html
+    meeting-request.html
+    meeting-summary.html
+    navigate-a-stakeholder-disagreement.html
+    objection-response.html
+    offer-clarity.html
+    onboarding-program-design.html
+    performance-review-preparation.html
+    plan-a-difficult-conversation.html
+    plan-a-project-kickoff.html
+    polite-decline.html
+    post-mortem-framework.html
+    prepare-for-a-board-meeting.html
+    prepare-for-a-sales-call.html
+    pressure-test-a-strategy.html
+    pressure-test-your-business-idea.html
+    pricing-decision-framework.html
+    prioritize-a-product-backlog.html
+    prioritize-between-competing-initiatives.html
+    prioritize-between-two-strategic-directions.html
+    project-risk-assessment.html
+    proposal.html
+    refine-your-pitch-narrative.html
+    refine-your-value-proposition.html
+    repurposing.html
+    research-synthesis.html
+    respond-to-a-critical-investor-question.html
+    rewrite-this-in-half-the.html
+    rewrite-this-section-to-be.html
+    root-cause-analysis.html
+    run-a-competitor-analysis.html
+    run-a-pre-mortem.html
+    set-team-priorities.html
+    sop-creation.html
+    summarize-the-financial-implications-of.html
+    summarize-this-email-thread-into.html
+    summarize-this-meeting-transcript-into.html
+    team-alignment-message.html
+    team-effectiveness-diagnosis.html
+    three-scenario-planning.html
+    turn-these-messy-meeting-notes.html
+    turn-these-stats-into-3.html
+    turn-this-bullet-point-outline-into.html
+    turn-this-messy-process-description.html
+    video-script-60s.html
+    week-of-captions.html
+    weekly-planning.html
+    what-would-a-mckinsey-consultant.html
+    worst-case-scenario-planning.html
+    write-5-sharp-talking-points.html
+    write-a-clear-jargon-free-explanation.html
+    write-a-cold-outreach-email.html
+    write-a-company-announcement.html
+    write-a-compensation-explanation.html
+    write-a-customer-re-engagement-email.html
+    write-a-diplomatic-response-to.html
+    write-a-job-description.html
+    write-a-partnership-proposal.html
+    write-a-performance-review-for.html
+    write-an-escalation-policy.html
+    write-an-executive-summary-for.html
+    write-an-investor-update.html
+  resources/
+    bklit-ui.html
+    hover-dev.html
+    radiant-shaders.html
+    starter-story.html
+    trustmrr.html
+    uiverse.html
+  sales/
+    cold-dm.html
+    cold-email.html
+    follow-up-touch-1.html
+    objection-response.html
+  thinking-&-strategy/
+    business-audit.html
+    competitor-analysis.html
+    idea-validation.html
+    offer-clarity.html
+    weekly-planning.html
+  tools/
+    ada.html
+    apollo-io.html
+    atlassian-rovo.html
+    bytez.html
+    chat-jimmy.html
+    chatgpt-enterprise.html
+    chatgpt.html
+    claude-api.html
+    claude.html
+    consensus.html
+    copy-ai.html
+    cursor.html
+    dictaflow.html
+    drift.html
+    eightfold.html
+    fireflies-ai.html
+    gamma.html
+    github-copilot.html
+    gong.html
+    grok.html
+    gumloop.html
+    hirevue.html
+    hubert.html
+    hubspot-ai.html
+    hunyuan-video.html
+    intercom-fin.html
+    jasper.html
+    lavender.html
+    make.html
+    marketo-engage.html
+    microsoft-365-copilot.html
+    notebooklm.html
+    notion-ai.html
+    openwhispr.html
+    otterai.html
+    paradox-olivia.html
+    perplexity.html
+    reply-io.html
+    tidio.html
+    tipalti.html
+    uncensored-ai.html
+    vic-ai.html
+    willow.html
+    workable.html
+    workato.html
+    z-image-ai.html
+    zapier.html
+    zendesk-ai.html
+  video/
+    cinematic-real-estate-listing.html
+    higgsfield-ugc-prompt.html
+js/
+  app.js
+  landing.js
+bookmarks.html
+build.py
+bundle_mapping.json
+cheatsheets.html
+data.json
+deep-guide.html
+deep-prompt.html
+DESIGN_PLAN.md
+favicon.png
+frameworks.html
+guides.html
+index.html
+learning.html
+owgt-rewards-logo.png
+prompts.html
+README.md
+resources.html
+rewards.html
+saved.html
+search-index.json
+serve.py
+tag-detail.html
+tags.html
+templates.html
+tools.html
+use-case.html
+vercel.json
+</directory_structure>
