@@ -2060,8 +2060,8 @@
     "semantic_hash": ""
   },
   "site/index.html": {
-    "mtime": 1785847332.957306,
-    "ast_hash": "fa821806982a9945098e9626a167c85a",
+    "mtime": 1785851377.4819126,
+    "ast_hash": "f05170c75ee677ee0fe18a68e2586264",
     "semantic_hash": ""
   },
   "site/learning.html": {
@@ -3837,6 +3837,16 @@
   "site/AGENTS.md": {
     "mtime": 1785797563.4356747,
     "ast_hash": "35bb87c94de274dba57c6267467a5d04",
+    "semantic_hash": ""
+  },
+  "site/sending-email.jpg": {
+    "mtime": 1785847523.1711142,
+    "ast_hash": "007d96659858bddd8e632e7388e0a76a",
+    "semantic_hash": ""
+  },
+  "HANDOFF.md": {
+    "mtime": 1785851563.48341,
+    "ast_hash": "9a10bc5b556275b660cdbb0eb2c09b77",
     "semantic_hash": ""
   }
 }

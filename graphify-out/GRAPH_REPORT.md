@@ -1,16 +1,16 @@
-# Graph Report - rewards  (2026-08-03)
+# Graph Report - rewards  (2026-08-04)
 
 ## Corpus Check
-- 410 files · ~581,792 words
+- 411 files · ~598,622 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2814 nodes · 2776 edges · 423 communities (406 shown, 17 thin omitted)
+- 2823 nodes · 2784 edges · 424 communities (407 shown, 17 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a1f9c245`
+- Built from commit: `308a0722`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -425,6 +425,7 @@
 - [[_COMMUNITY_Community 419|Community 419]]
 - [[_COMMUNITY_Community 420|Community 420]]
 - [[_COMMUNITY_Community 421|Community 421]]
+- [[_COMMUNITY_Community 423|Community 423]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -444,7 +445,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (423 total, 17 thin omitted)
+## Communities (424 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -2018,8 +2019,12 @@ Nodes (8): 1. Install the CLI tool, 2026-06-19 18:42:09Z, 2. Register the skill,
 Cohesion: 0.50
 Nodes (3): 2026-05-26 21:50:28Z, Summary of Changes, Summary of Work
 
+### Community 423 - "Community 423"
+Cohesion: 0.22
+Nodes (8): 1. Problem Description, 2. What Was Attempted & Why It Didn't Work, 3. Location in Codebase, 4. Recommended Solutions for Next Developer, Attempt 1: CSS Overrides in `<style>` tag, Attempt 2: Inline Styles with `white-space: nowrap` and `width: 100%`, Attempt 3: Flexbox Container with `align-items: center`, Handoff: Brevo Form Unsubscribe / Privacy Lines Issue
+
 ## Knowledge Gaps
-- **2260 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `2026-05-26 21:40:57Z`, `Summary of Work` (+2255 more)
+- **2266 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `2026-05-26 21:40:57Z`, `Summary of Work` (+2261 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -2027,7 +2032,7 @@ Nodes (3): 2026-05-26 21:50:28Z, Summary of Changes, Summary of Work
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
-  _2260 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2266 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
