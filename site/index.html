@@ -577,9 +577,9 @@
                   </div>
                   <div style="padding: 4px 0 8px;">
                     <div class="sib-form-block" style="text-align: center;">
-                      <div class="sib-text-form-block sib-text-form-block-privacy" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-                        <p style="text-align: center; font-size: 11px; margin: 0; white-space: nowrap;">By subscribing, you agree to receive our newsletters. You may unsubscribe at any time.</p>
-                        <p style="text-align: center; font-size: 11px; margin: 0; white-space: nowrap;">We value your privacy: no spam, no selling.</p>
+                      <div class="sib-text-form-block sib-text-form-block-privacy" style="text-align:center;">
+                        <p style="font-size:10px;margin:0;">By subscribing, you agree to receive our newsletters. You may unsubscribe at any time.</p>
+                        <p style="font-size:10px;margin:0;">We value your privacy: no spam, no selling.</p>
                       </div>
                     </div>
                   </div>
@@ -628,6 +628,34 @@
     var AUTOHIDE = Boolean(1);
   </script>
   <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  <script>
+    // Fix Brevo privacy text: runs after all scripts+styles settle.
+    // Brevo's sib-styles.css overrides p-tag inline styles, so we
+    // replace the entire block with our own element Brevo doesn't target.
+    window.addEventListener('load', function () {
+      var block = document.querySelector('.sib-text-form-block-privacy');
+      if (!block) return;
+      var wrapper = document.createElement('div');
+      wrapper.setAttribute('style', [
+        'text-align:center',
+        'font-family:Helvetica,Arial,sans-serif',
+        'color:#999',
+        'line-height:1.5',
+      ].join(';'));
+      var line1 = document.createElement('div');
+      line1.setAttribute('style', 'font-size:10px;letter-spacing:-0.1px;white-space:nowrap;');
+      line1.textContent = 'By subscribing, you agree to receive our newsletters. You may unsubscribe at any time.';
+      var line2 = document.createElement('div');
+      line2.setAttribute('style', 'font-size:10px;letter-spacing:-0.1px;');
+      line2.textContent = 'We value your privacy: no spam, no selling.';
+      wrapper.appendChild(line1);
+      wrapper.appendChild(line2);
+      block.innerHTML = '';
+      block.appendChild(wrapper);
+      // Ensure the block itself doesn't constrain width
+      block.setAttribute('style', 'text-align:center;overflow:visible;');
+    });
+  </script>
 </body>
 
 </html>
