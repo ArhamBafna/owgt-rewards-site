@@ -64,6 +64,28 @@
     .signup-block #sib-form-container {
       margin: 0 auto;
     }
+    /* Brevo custom overrides */
+    .signup-block .sib-form {
+      margin-top: 8px !important;
+      padding-top: 0 !important;
+    }
+    .signup-block #sib-form-container {
+      padding-top: 0 !important;
+    }
+    #sib-container .sib-form-block-drain p {
+      text-align: center !important;
+      font-size: 34px !important;
+      font-weight: 800 !important;
+      line-height: 1.15 !important;
+      color: #fd0009 !important;
+      margin: 0 !important;
+    }
+    #sib-container .sib-text-form-block-privacy p {
+      font-size: 10px !important;
+      line-height: 1.3 !important;
+      color: #555555 !important;
+      margin: 2px 0 !important;
+    }
   </style>
   <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 </head>
@@ -412,7 +434,7 @@
       </div>
     </section>
 
-    <section class="section section--accent-1" id="signup" style="padding-top: var(--space-md);">
+    <section class="section section--accent-1" id="signup">
       <div class="container">
         <div class="signup-block">
           <h2>Get the library free</h2>
@@ -445,13 +467,13 @@
               <div></div>
               <div id="sib-container" class="sib-container--large sib-container--vertical" style="max-width:540px; text-align:center; background-color:rgba(246,250,251,1); border-width:0px; border-style:dashed; border-color:#C0CCD9; border-radius:10px; direction:ltr; margin: 0 auto;">
                 <form id="sib-form" method="POST" action="https://4432c9d1.sibforms.com/serve/MUIFAFd-ELRb80KAFGK8Vzt-7DWyP7ieFIfLymcOXoiObnRsTS9d1pBMH9Ow1iVmZRCF2cij5ugrXvTAMonnYXnxHgcjYf3aVdfjFTrU1kqMRyQKEZhKXVNCz12FyHI77T7q2Nqh4pOETlvaT56-UWuwBSzuzvUVk6-UeiyQEnI9rIczo67djuwGEj371o-yRl5m5NJ0tz28ygIFZA==" data-type="subscription">
-                  <div style="padding: 12px 0 8px;">
-                    <div class="sib-form-block" style="font-family:Trebuchet MS, sans-serif; font-size:38px; font-weight:700; text-align:center; color:#fd0009; background-color:transparent; line-height:1.1;">
+                  <div style="padding: 12px 0 4px;">
+                    <div class="sib-form-block sib-form-block-drain">
                       <p>keeping up with AI will DRAIN you</p>
                     </div>
                   </div>
-                  <div style="padding: 8px 0;">
-                    <div class="sib-form-block" style="font-family:Trebuchet MS, sans-serif; font-size:16px; text-align:left; color:#060606; background-color:transparent; text-align:left">
+                  <div style="padding: 4px 0 12px;">
+                    <div class="sib-form-block">
                       <div class="sib-text-form-block">
                         <p>unless you get EVERYTHING YOU NEED TO KNOW delivered to your inbox. read while having your morning coffee. once a week.</p>
                       </div>
@@ -480,9 +502,9 @@
                       </button>
                     </div>
                   </div>
-                  <div style="padding: 8px 0;">
-                    <div class="sib-form-block" style="font-family:Helvetica, sans-serif; font-size:8px; text-align:center; color:#3C4858; background-color:transparent; text-align:center">
-                      <div class="sib-text-form-block">
+                  <div style="padding: 4px 0 8px;">
+                    <div class="sib-form-block">
+                      <div class="sib-text-form-block sib-text-form-block-privacy">
                         <p>By subscribing, you agree to receive our newsletters. You may unsubscribe at any time.</p>
                         <p>We value your privacy: no spam, no selling.</p>
                       </div>
