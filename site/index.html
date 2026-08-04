@@ -74,17 +74,25 @@
     }
     #sib-container .sib-form-block-drain p {
       text-align: center !important;
-      font-size: 34px !important;
+      font-size: 23px !important;
       font-weight: 800 !important;
-      line-height: 1.15 !important;
+      line-height: 1.2 !important;
       color: #fd0009 !important;
       margin: 0 !important;
+      white-space: nowrap;
     }
     #sib-container .sib-text-form-block-privacy p {
-      font-size: 10px !important;
+      text-align: center !important;
+      font-size: 9.5px !important;
       line-height: 1.3 !important;
       color: #555555 !important;
       margin: 2px 0 !important;
+    }
+    @media (max-width: 480px) {
+      #sib-container .sib-form-block-drain p {
+        font-size: 18px !important;
+        white-space: normal;
+      }
     }
   </style>
   <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
