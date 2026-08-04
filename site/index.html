@@ -85,12 +85,19 @@
       line-height: 1.2 !important;
       color: #fd0009 !important;
       margin: 0 0 14px 0 !important;
-      white-space: nowrap;
+      white-space: normal;
+      word-break: break-word;
     }
 
     #sib-container .sib-form-block {
       padding-left: 0 !important;
       padding-right: 0 !important;
+    }
+
+    #sib-container .sib-text-form-block p {
+      text-align: center !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
     }
 
     #sib-container .sib-text-form-block-privacy,
@@ -114,13 +121,19 @@
     @media (max-width: 480px) {
       #sib-container .sib-form-block-drain p {
         font-size: 18px !important;
-        white-space: normal;
+        white-space: normal !important;
         margin-bottom: 8px !important;
       }
 
       #sib-container .sib-text-form-block-privacy p {
         font-size: 8px !important;
         white-space: normal !important;
+      }
+
+      #sib-container {
+        max-width: 100% !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
       }
     }
   </style>
@@ -643,7 +656,7 @@
         'line-height:1.5',
       ].join(';'));
       var line1 = document.createElement('div');
-      line1.setAttribute('style', 'font-size:10px;letter-spacing:-0.1px;white-space:nowrap;');
+      line1.setAttribute('style', 'font-size:10px;letter-spacing:-0.1px;white-space:normal;word-break:break-word;');
       line1.textContent = 'By subscribing, you agree to receive our newsletters. You may unsubscribe at any time.';
       var line2 = document.createElement('div');
       line2.setAttribute('style', 'font-size:10px;letter-spacing:-0.1px;');

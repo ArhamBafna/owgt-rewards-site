@@ -2136,6 +2136,22 @@ hr,
 body {
   padding-top: 52px; /* Space for the fixed header */
 }
+
+/* ── Mobile header ── */
+@media (max-width: 767px) {
+  .new-header-nav {
+    display: none; /* hide full nav on mobile; logo + search icon sufficient */
+  }
+
+  .new-header-title {
+    font-size: 1.05rem; /* slightly smaller so logo+title don't crowd */
+  }
+
+  /* Search container: on mobile leave full width from logo edge */
+  .new-global-header.search-active .header-search-container {
+    left: 130px;
+  }
+}
 /* Search Header CSS */
 .new-header-right { display: flex; align-items: center; flex: 1; justify-content: flex-end; min-width: 0; }
 .search-trigger-btn { background: none; border: none; cursor: pointer; color: var(--color-ink); padding: 8px; }

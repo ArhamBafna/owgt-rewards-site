@@ -35,6 +35,13 @@
     .hero-marquee { min-height: 50dvh; display: grid; align-content: center; padding: var(--space-3xl) var(--page-gutter); text-align: center; }
     .display-xxl { font-size: clamp(4rem, 10vw, 10rem); line-height: 0.82; letter-spacing: -0.005em; }
 
+    @media (max-width: 480px) {
+      .hero-marquee { min-height: auto; padding: var(--space-xl) var(--page-gutter); }
+      .display-xxl { font-size: clamp(2.8rem, 14vw, 4rem); }
+      .mast-nav ul { gap: var(--space-md); }
+      .mast-nav li { gap: var(--space-md); }
+    }
+
     /* Horizontal Scroller / Bundles Container */
     .horizontal-scroll {
       display: flex;
