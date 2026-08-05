@@ -1,7 +1,7 @@
 {
   "organized-data/master.json": {
-    "mtime": 1785781071.80043,
-    "ast_hash": "8fe64e5c1b3ff129e4d96ecec656cf33",
+    "mtime": 1785943840.293448,
+    "ast_hash": "526263acd7e9b5323518040e7d0ad913",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "scripts/generate_indices.py": {
-    "mtime": 1785536742.887702,
-    "ast_hash": "7ded02df8356578c644d7e961664f4c6",
+    "mtime": 1785943830.8145995,
+    "ast_hash": "cebed268a93c69e4666e18f6fb2941c1",
     "semantic_hash": ""
   },
   ".agents/skool-guide-to-md/SKILL.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "data/github.txt": {
-    "mtime": 1785525163.9234848,
-    "ast_hash": "18e24f3aead288452d37cfd517dacb23",
+    "mtime": 1785943442.4864247,
+    "ast_hash": "333fe44d3da4ade754ed8214929d70c1",
     "semantic_hash": ""
   },
   "data/notion.txt": {
@@ -1930,8 +1930,8 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1785782167.7769146,
-    "ast_hash": "8ede96e5123e065e37ea7cbf5ce8144c",
+    "mtime": 1785943840.295468,
+    "ast_hash": "1d0acc4d075e29d5e107f93da27ccf08",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2010,8 +2010,8 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1785847348.8499,
-    "ast_hash": "b0a2cc4142fbfd968cc4d15ef4b87f6a",
+    "mtime": 1785943618.524544,
+    "ast_hash": "879958c0d0552f36114a881ae80e1352",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2020,8 +2020,8 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1785847348.856083,
-    "ast_hash": "71ac41c40e72f360430678da7dcbdf9f",
+    "mtime": 1785943618.5327275,
+    "ast_hash": "5e18792ee4e14a8b7b17cda39a30fd2f",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2030,8 +2030,8 @@
     "semantic_hash": ""
   },
   "site/bookmarks.html": {
-    "mtime": 1785847348.8589902,
-    "ast_hash": "5416b67cbbbbd956f49890d3b8340667",
+    "mtime": 1785943618.5398674,
+    "ast_hash": "bb6c31b0c16874f290792f5d2f4023a4",
     "semantic_hash": ""
   },
   "site/cheatsheets.html": {
@@ -2060,43 +2060,43 @@
     "semantic_hash": ""
   },
   "site/index.html": {
-    "mtime": 1785851377.4819126,
-    "ast_hash": "f05170c75ee677ee0fe18a68e2586264",
+    "mtime": 1785862989.3576596,
+    "ast_hash": "c9f01b24abe1052da05eac2ed9767013",
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1785847348.6136851,
+    "mtime": 1785943618.0680814,
     "ast_hash": "616a642e90eda68a67746d065416e1fe",
     "semantic_hash": ""
   },
   "site/prompts.html": {
-    "mtime": 1785847348.6172028,
+    "mtime": 1785943618.0749588,
     "ast_hash": "163c69b68f98ec5813342b56733b1d01",
     "semantic_hash": ""
   },
   "site/resources.html": {
-    "mtime": 1785847348.6152024,
+    "mtime": 1785943618.0708733,
     "ast_hash": "08f53177e0d80452300673e8af9b4803",
     "semantic_hash": ""
   },
   "site/tag-detail.html": {
-    "mtime": 1785847348.8599908,
-    "ast_hash": "35764481caa7aab988147794d24acdde",
+    "mtime": 1785943618.5428054,
+    "ast_hash": "caccd3ab0df80659477d6b16883e7951",
     "semantic_hash": ""
   },
   "site/tags.html": {
-    "mtime": 1785847348.8579907,
-    "ast_hash": "977e3016aac8aed3c33e7b399356e110",
+    "mtime": 1785943618.5387692,
+    "ast_hash": "147313ad725a23ae12f6b69ef3878f52",
     "semantic_hash": ""
   },
   "site/templates.html": {
-    "mtime": 1785847348.8589902,
-    "ast_hash": "561a8f7829c6b4f81c68fb6c562efd29",
+    "mtime": 1785943618.540888,
+    "ast_hash": "304aa2a426b2c0244102e8ccf421c421",
     "semantic_hash": ""
   },
   "site/tools.html": {
-    "mtime": 1785847348.619208,
-    "ast_hash": "f2cd00a819eb8348cbc35b26f018b639",
+    "mtime": 1785943618.0749588,
+    "ast_hash": "9eba048d515072207bf0a9b64e3ae0b5",
     "semantic_hash": ""
   },
   "site/use-case.html": {
@@ -2150,52 +2150,52 @@
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-ai-research.html": {
-    "mtime": 1785847348.8309004,
+    "mtime": 1785943618.4912474,
     "ast_hash": "2fc18f5bfb88a16eecb81c77f158eedd",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-build-ai-apps.html": {
-    "mtime": 1785847348.8319006,
+    "mtime": 1785943618.4992914,
     "ast_hash": "b68f969f6e4b9a1bc682106b57d243a5",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-career-and-hiring.html": {
-    "mtime": 1785847348.8338997,
+    "mtime": 1785943618.501546,
     "ast_hash": "eb73c4b8567c66d973da4a7e20fd6456",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-cold-outreach-stack.html": {
-    "mtime": 1785847348.8299003,
+    "mtime": 1785943618.4912474,
     "ast_hash": "8af9fab2a4db0b306e754b3608053be2",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-content-creation.html": {
-    "mtime": 1785847348.8309004,
+    "mtime": 1785943618.4912474,
     "ast_hash": "1b34debcc0ef85da9e07318843cc635f",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-developer-toolkit.html": {
-    "mtime": 1785847348.8369367,
+    "mtime": 1785943618.501546,
     "ast_hash": "e14c429ab6c922828d073bf03cb7e98c",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-marketing-stack.html": {
-    "mtime": 1785847348.8359022,
+    "mtime": 1785943618.501546,
     "ast_hash": "79f3353b546929b51fda3a363aef6450",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-no-code-automation.html": {
-    "mtime": 1785847348.8379412,
+    "mtime": 1785943618.5077193,
     "ast_hash": "7d8bb429024d2b7dc4d68bee4d3aed4d",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-prompt-engineering.html": {
-    "mtime": 1785847348.8329024,
+    "mtime": 1785943618.501546,
     "ast_hash": "394fa89bc31e1b8b7cf5003dd6bf6e8a",
     "semantic_hash": ""
   },
   "site/items/bundles/bundle-video-and-motion.html": {
-    "mtime": 1785847348.8329024,
+    "mtime": 1785943618.501546,
     "ast_hash": "4347975d1b38c4d6ed3b6d42b34c9858",
     "semantic_hash": ""
   },
@@ -2380,97 +2380,97 @@
     "semantic_hash": ""
   },
   "site/items/learning/ai-agent-coordination.html": {
-    "mtime": 1785847348.6313486,
+    "mtime": 1785943618.1078598,
     "ast_hash": "c08b82797a968d61bacb6a7eef1ebc38",
     "semantic_hash": ""
   },
   "site/items/learning/ai-assisted-content-creation.html": {
-    "mtime": 1785847348.63235,
+    "mtime": 1785943618.115406,
     "ast_hash": "9969d780315b8fc10c8cd5f26b5ec1a8",
     "semantic_hash": ""
   },
   "site/items/learning/ai-assisted-recruiting.html": {
-    "mtime": 1785847348.63235,
+    "mtime": 1785943618.1188037,
     "ast_hash": "795b46c37673f7400360dd48b3de1ce4",
     "semantic_hash": ""
   },
   "site/items/learning/ai-competitive-intelligence.html": {
-    "mtime": 1785847348.6333485,
+    "mtime": 1785943618.1188037,
     "ast_hash": "84c461c3b2a4eb5aef9da985ce0f9bde",
     "semantic_hash": ""
   },
   "site/items/learning/ai-crm-and-pipeline-management.html": {
-    "mtime": 1785847348.634351,
+    "mtime": 1785943618.1188037,
     "ast_hash": "a1690dc001a65c829435ba6e5ece4e03",
     "semantic_hash": ""
   },
   "site/items/learning/ai-data-interpretation.html": {
-    "mtime": 1785847348.634351,
+    "mtime": 1785943618.123441,
     "ast_hash": "696dc0dbc27e11477274b60671d7a4fd",
     "semantic_hash": ""
   },
   "site/items/learning/ai-ethics-and-governance-awareness.html": {
-    "mtime": 1785847348.6353498,
+    "mtime": 1785943618.123441,
     "ast_hash": "6f8876c38882f35e3bd9a94b97704004",
     "semantic_hash": ""
   },
   "site/items/learning/ai-learning-and-development.html": {
-    "mtime": 1785847348.6353498,
+    "mtime": 1785943618.129513,
     "ast_hash": "9c1e29d0eee5e35198ef7b92595fb175",
     "semantic_hash": ""
   },
   "site/items/learning/ai-literacy.html": {
-    "mtime": 1785847348.6363468,
+    "mtime": 1785943618.1331017,
     "ast_hash": "760b40192cbfdf4f1a7a171879f2d7d9",
     "semantic_hash": ""
   },
   "site/items/learning/ai-output-verification.html": {
-    "mtime": 1785847348.6363468,
+    "mtime": 1785943618.1367052,
     "ast_hash": "3f697807c3222a23164a02df8326e6ce",
     "semantic_hash": ""
   },
   "site/items/learning/ai-performance-management.html": {
-    "mtime": 1785847348.6375916,
+    "mtime": 1785943618.1367052,
     "ast_hash": "ffc4b1583488fa6f85405a129a3b6f50",
     "semantic_hash": ""
   },
   "site/items/learning/ai-powered-market-research.html": {
-    "mtime": 1785847348.6385899,
+    "mtime": 1785943618.139987,
     "ast_hash": "057df311c5e69371e1192f3762fb78df",
     "semantic_hash": ""
   },
   "site/items/learning/ai-powered-process-documentation.html": {
-    "mtime": 1785847348.6385899,
+    "mtime": 1785943618.144069,
     "ast_hash": "117a385f224c6e055bd4799505543eaa",
     "semantic_hash": ""
   },
   "site/items/learning/ai-presentation-and-document-production.html": {
-    "mtime": 1785847348.6395907,
+    "mtime": 1785943618.1477342,
     "ast_hash": "8dfb4993a82f7f6db21af65b2828fd86",
     "semantic_hash": ""
   },
   "site/items/learning/ai-prompt-engineering.html": {
-    "mtime": 1785847348.6395907,
+    "mtime": 1785943618.1509795,
     "ast_hash": "f0d4c87c58219f35ff40ad6ce2fd7007",
     "semantic_hash": ""
   },
   "site/items/learning/ai-sales-outreach-and-sequencing.html": {
-    "mtime": 1785847348.640596,
+    "mtime": 1785943618.1528285,
     "ast_hash": "8fa9bcdde958f0a8c3fa71abcdbae6b7",
     "semantic_hash": ""
   },
   "site/items/learning/ai-tool-evaluation-and-selection.html": {
-    "mtime": 1785847348.640596,
+    "mtime": 1785943618.1542957,
     "ast_hash": "a9d34b6b61660766876dc88f8ec1ec4b",
     "semantic_hash": ""
   },
   "site/items/learning/ai-video-and-visual-content.html": {
-    "mtime": 1785847348.6415956,
+    "mtime": 1785943618.1664288,
     "ast_hash": "fe9d9afbec15523a9abd2daaadc6a2d1",
     "semantic_hash": ""
   },
   "site/items/learning/ai-workflow-building-no-code.html": {
-    "mtime": 1785847348.6425953,
+    "mtime": 1785943618.167444,
     "ast_hash": "2ab50a1f14763391524ba9e7ba17f6dc",
     "semantic_hash": ""
   },
@@ -2510,642 +2510,642 @@
     "semantic_hash": ""
   },
   "site/items/prompts/act-as-a-skeptical-senior.html": {
-    "mtime": 1785847348.6425953,
+    "mtime": 1785943618.167444,
     "ast_hash": "833f60dbf313ae8ebfb41541c71d0ac7",
     "semantic_hash": ""
   },
   "site/items/prompts/all-hands-talking-points.html": {
-    "mtime": 1785847348.6435957,
+    "mtime": 1785943618.1721804,
     "ast_hash": "b878dc38cb5e2a542e9bfca87fb2285e",
     "semantic_hash": ""
   },
   "site/items/prompts/analyze-customer-feedback-for-growth-signals.html": {
-    "mtime": 1785847348.6435957,
+    "mtime": 1785943618.1721804,
     "ast_hash": "5a9fbe3b6bc16179855f11cdd6feada8",
     "semantic_hash": ""
   },
   "site/items/prompts/analyze-this-data-and-identify.html": {
-    "mtime": 1785847348.6445909,
+    "mtime": 1785943618.1721804,
     "ast_hash": "8c98bb4e729ef7e8ad0f090e7e5727d1",
     "semantic_hash": ""
   },
   "site/items/prompts/analyze-why-a-deal-was-lost.html": {
-    "mtime": 1785847348.6455958,
+    "mtime": 1785943618.1721804,
     "ast_hash": "8bbab5225eb019dc33c953db1576b284",
     "semantic_hash": ""
   },
   "site/items/prompts/apply-first-principles-thinking.html": {
-    "mtime": 1785847348.6465917,
+    "mtime": 1785943618.1721804,
     "ast_hash": "13d5103d2cc2c86c6d6be7577e549e4d",
     "semantic_hash": ""
   },
   "site/items/prompts/assess-an-acquisition-or-partnership.html": {
-    "mtime": 1785847348.6475933,
+    "mtime": 1785943618.1721804,
     "ast_hash": "3a084be27cb82ca3e0024343a9677bfa",
     "semantic_hash": ""
   },
   "site/items/prompts/assumptions-stress-test.html": {
-    "mtime": 1785847348.648591,
+    "mtime": 1785943618.182611,
     "ast_hash": "d2aa83a913c969c3fb8e471c754e6c86",
     "semantic_hash": ""
   },
   "site/items/prompts/break-this-goal-into-a-realistic-30-60-90-day-plan.html": {
-    "mtime": 1785847348.649598,
+    "mtime": 1785943618.1851196,
     "ast_hash": "0423cf745aa6d0e82445aade9f306c44",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-competitive-battle-card.html": {
-    "mtime": 1785847348.6505923,
+    "mtime": 1785943618.185637,
     "ast_hash": "f0f088fce919edcba8c88bebd03585f4",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-decision-framework.html": {
-    "mtime": 1785847348.6515944,
+    "mtime": 1785943618.189039,
     "ast_hash": "423d1437980e9e5eecd7b8edbfeab2b7",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-decision-matrix.html": {
-    "mtime": 1785847348.6526,
+    "mtime": 1785943618.189039,
     "ast_hash": "394661f00907bb95af53348e15d24803",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-project-risk-assessment.html": {
-    "mtime": 1785847348.6526,
+    "mtime": 1785943618.1926968,
     "ast_hash": "06fbf17f2bcda05b519e332d1e110e6b",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-sop-for-a-repeatable-process.html": {
-    "mtime": 1785847348.6536026,
+    "mtime": 1785943618.1926968,
     "ast_hash": "17de11b982f634d07a03f0f747cb9aee",
     "semantic_hash": ""
   },
   "site/items/prompts/build-a-user-interview-question-set.html": {
-    "mtime": 1785847348.654592,
+    "mtime": 1785943618.1973445,
     "ast_hash": "2539d653ce0c42656c47197fac3c9fac",
     "semantic_hash": ""
   },
   "site/items/prompts/build-an-onboarding-checklist.html": {
-    "mtime": 1785847348.655594,
+    "mtime": 1785943618.201115,
     "ast_hash": "64c51237ea58791e278fe81d44d9c6d8",
     "semantic_hash": ""
   },
   "site/items/prompts/build-interview-questions.html": {
-    "mtime": 1785847348.6566257,
+    "mtime": 1785943618.2020211,
     "ast_hash": "35829880f792f27d9b51f0507db34e81",
     "semantic_hash": ""
   },
   "site/items/prompts/build-your-90-day-roadmap.html": {
-    "mtime": 1785847348.6575942,
+    "mtime": 1785943618.2020211,
     "ast_hash": "f977e18a4f8a085fba41224329556960",
     "semantic_hash": ""
   },
   "site/items/prompts/challenge-an-assumption.html": {
-    "mtime": 1785847348.6596863,
+    "mtime": 1785943618.2057807,
     "ast_hash": "870934b5c9cb0ae4dbd88f38673ce723",
     "semantic_hash": ""
   },
   "site/items/prompts/compare-and-contrast-these-two.html": {
-    "mtime": 1785847348.663592,
+    "mtime": 1785943618.2179585,
     "ast_hash": "1ad6cd5b97bdbccf0f16d29a0fbf44a4",
     "semantic_hash": ""
   },
   "site/items/prompts/compare-two-real-options.html": {
-    "mtime": 1785847348.663592,
+    "mtime": 1785943618.2199867,
     "ast_hash": "d8739e07208e618d2e3aeb165a0364b3",
     "semantic_hash": ""
   },
   "site/items/prompts/craft-an-ask-for-a-warm-introduction.html": {
-    "mtime": 1785847348.6655931,
+    "mtime": 1785943618.224888,
     "ast_hash": "afc671ad2081d72360a51b656b6f5a61",
     "semantic_hash": ""
   },
   "site/items/prompts/create-a-meeting-agenda.html": {
-    "mtime": 1785847348.6665971,
+    "mtime": 1785943618.2269003,
     "ast_hash": "0bac100d2e17b75a6639b69b6f40e6d3",
     "semantic_hash": ""
   },
   "site/items/prompts/create-a-personal-okr-for.html": {
-    "mtime": 1785847348.6665971,
+    "mtime": 1785943618.2289116,
     "ast_hash": "10a0dd4430e99e44bbdced1766eed5b6",
     "semantic_hash": ""
   },
   "site/items/prompts/create-a-project-kickoff-checklist.html": {
-    "mtime": 1785847348.667706,
+    "mtime": 1785943618.2317069,
     "ast_hash": "7fa431372b0bcbdd9e9c30932e83660d",
     "semantic_hash": ""
   },
   "site/items/prompts/create-a-tight-10-minute-meeting.html": {
-    "mtime": 1785847348.667706,
+    "mtime": 1785943618.2337284,
     "ast_hash": "f2ef42e5e312941952351297321d7690",
     "semantic_hash": ""
   },
   "site/items/prompts/culture-assessment.html": {
-    "mtime": 1785847348.6686273,
+    "mtime": 1785943618.2345824,
     "ast_hash": "8996d56ef92b1f15c7b8be81472557eb",
     "semantic_hash": ""
   },
   "site/items/prompts/data-story-narrative.html": {
-    "mtime": 1785847348.6686273,
+    "mtime": 1785943618.2345824,
     "ast_hash": "92e15a02b391c3529564ab2a31468baa",
     "semantic_hash": ""
   },
   "site/items/prompts/decide-how-to-deliver-difficult-news-category-5.html": {
-    "mtime": 1785847348.6696584,
+    "mtime": 1785943618.2345824,
     "ast_hash": "33e96b5be89773d841497e9d35f7f6fc",
     "semantic_hash": ""
   },
   "site/items/prompts/decide-on-organizational-structure.html": {
-    "mtime": 1785847348.6696584,
+    "mtime": 1785943618.2395806,
     "ast_hash": "d3c3a8a1e203334e5605dc9b80d25ec6",
     "semantic_hash": ""
   },
   "site/items/prompts/decide-whether-to-pivot-or-stay-the-course.html": {
-    "mtime": 1785847348.6705923,
+    "mtime": 1785943618.241682,
     "ast_hash": "f97ab8d6b1ed55b80f2449fbb146d05c",
     "semantic_hash": ""
   },
   "site/items/prompts/decide-whether-to-promote-or-let-go.html": {
-    "mtime": 1785847348.6705923,
+    "mtime": 1785943618.2448606,
     "ast_hash": "34c5ae19cf6d083c5053dc40837c78c4",
     "semantic_hash": ""
   },
   "site/items/prompts/define-your-unique-positioning.html": {
-    "mtime": 1785847348.671626,
+    "mtime": 1785943618.2457747,
     "ast_hash": "da70f722fed14035670f2dca82111a48",
     "semantic_hash": ""
   },
   "site/items/prompts/design-a-weekly-review-framework.html": {
-    "mtime": 1785847348.6726296,
+    "mtime": 1785943618.2520978,
     "ast_hash": "1ce804f38058418053cf539edd794739",
     "semantic_hash": ""
   },
   "site/items/prompts/diagnose-a-team-problem.html": {
-    "mtime": 1785847348.6726296,
+    "mtime": 1785943618.2544742,
     "ast_hash": "425ed369db62a1fae473b299880d69da",
     "semantic_hash": ""
   },
   "site/items/prompts/diagnose-why-something-isnt-working.html": {
-    "mtime": 1785847348.6735952,
+    "mtime": 1785943618.2560294,
     "ast_hash": "352c0e9c898773dcaff1f22573cd56cb",
     "semantic_hash": ""
   },
   "site/items/prompts/difficult-employee-conversation.html": {
-    "mtime": 1785847348.6735952,
+    "mtime": 1785943618.2571244,
     "ast_hash": "e23f2483292cbb5ac96ed178acbb3fa1",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-5-questions-i-should.html": {
-    "mtime": 1785847348.674595,
+    "mtime": 1785943618.259142,
     "ast_hash": "fe67be5025a61ac06d8b5cd987b2cb5f",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-a-follow-up-after-no-response.html": {
-    "mtime": 1785847348.674595,
+    "mtime": 1785943618.259142,
     "ast_hash": "54344c9c95b7c67e700c6ef6d93174a1",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-a-polite-but-firm.html": {
-    "mtime": 1785847348.6755948,
+    "mtime": 1785943618.2611673,
     "ast_hash": "f6ea7c9574b6be08cadba0f734ae53fc",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-a-product-announcement.html": {
-    "mtime": 1785847348.6755948,
+    "mtime": 1785943618.2662184,
     "ast_hash": "c2e0bcd7928ed785adff526846e2fcb6",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-a-request-to-leadership.html": {
-    "mtime": 1785847348.6765947,
+    "mtime": 1785943618.2683926,
     "ast_hash": "d215e072578dbd9af696d74a09c287b4",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-a-weekly-update-to-your-team.html": {
-    "mtime": 1785847348.677591,
+    "mtime": 1785943618.269356,
     "ast_hash": "3333d47b5df7b484d10b924d647b96d6",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-an-executive-summary.html": {
-    "mtime": 1785847348.677591,
+    "mtime": 1785943618.2712765,
     "ast_hash": "e9a78bec2320f94a4a602910bc51d476",
     "semantic_hash": ""
   },
   "site/items/prompts/draft-performance-feedback.html": {
-    "mtime": 1785847348.6785915,
+    "mtime": 1785943618.2712765,
     "ast_hash": "a816184aa543efbce25393a380687832",
     "semantic_hash": ""
   },
   "site/items/prompts/edit-this-paragraph-for-clarity.html": {
-    "mtime": 1785847348.6796198,
+    "mtime": 1785943618.2740285,
     "ast_hash": "50989d81f780ac33b91d2a6c780b9b30",
     "semantic_hash": ""
   },
   "site/items/prompts/employee-engagement-analysis.html": {
-    "mtime": 1785847348.681594,
+    "mtime": 1785943618.2779982,
     "ast_hash": "a294759e0495d034584467aab846731c",
     "semantic_hash": ""
   },
   "site/items/prompts/enter-or-exit-a-market-10-what-this-changes.html": {
-    "mtime": 1785847348.681594,
+    "mtime": 1785943618.2790642,
     "ast_hash": "5cd19af5f88dc40cfb430b339dc4ae08",
     "semantic_hash": ""
   },
   "site/items/prompts/evaluate-a-new-market-opportunity.html": {
-    "mtime": 1785847348.682594,
+    "mtime": 1785943618.2823045,
     "ast_hash": "589b66d897a5d66ba1ed085792ac453d",
     "semantic_hash": ""
   },
   "site/items/prompts/evaluate-a-new-opportunity.html": {
-    "mtime": 1785847348.682594,
+    "mtime": 1785943618.2834458,
     "ast_hash": "13960d155094b32a45446d2a0d6c473b",
     "semantic_hash": ""
   },
   "site/items/prompts/explain-these-financial-terms-in-plain-language-for-a.html": {
-    "mtime": 1785847348.6836102,
+    "mtime": 1785943618.285647,
     "ast_hash": "05574298511b6d502af3611505fc384b",
     "semantic_hash": ""
   },
   "site/items/prompts/generate-10-creative-solutions-to.html": {
-    "mtime": 1785847348.6856103,
+    "mtime": 1785943618.2888439,
     "ast_hash": "4e5d33942dbc41b85d04bdc4f954f4a7",
     "semantic_hash": ""
   },
   "site/items/prompts/generate-5-different-ways-to.html": {
-    "mtime": 1785847348.6865952,
+    "mtime": 1785943618.2908833,
     "ast_hash": "24b4210e535e58179929bb4137b6d9d1",
     "semantic_hash": ""
   },
   "site/items/prompts/generate-alternatives-when-youre-stuck.html": {
-    "mtime": 1785847348.6865952,
+    "mtime": 1785943618.2929204,
     "ast_hash": "aac770ed8729031cde5cafdf14012ba0",
     "semantic_hash": ""
   },
   "site/items/prompts/generate-feature-ideas-from-complaints.html": {
-    "mtime": 1785847348.6875947,
+    "mtime": 1785943618.2929204,
     "ast_hash": "f1b2d0ff60e104ca0056f8d838a78d55",
     "semantic_hash": ""
   },
   "site/items/prompts/get-devils-advocate-feedback.html": {
-    "mtime": 1785847348.6875947,
+    "mtime": 1785943618.2949548,
     "ast_hash": "f30a21a3c907e6e919f71137a8e396a2",
     "semantic_hash": ""
   },
   "site/items/prompts/give-me-5-options-61.html": {
-    "mtime": 1785847348.689612,
+    "mtime": 1785943618.2983477,
     "ast_hash": "251f17d7b4c575968d75816984e262f3",
     "semantic_hash": ""
   },
   "site/items/prompts/give-me-a-structured-swot.html": {
-    "mtime": 1785847348.6906104,
+    "mtime": 1785943618.2992828,
     "ast_hash": "3a57e0cb766f469d7c02ed990fd550e5",
     "semantic_hash": ""
   },
   "site/items/prompts/give-me-the-tl-dr-of.html": {
-    "mtime": 1785847348.6906104,
+    "mtime": 1785943618.301308,
     "ast_hash": "9259ca47521db85b370bc8e31b18fc24",
     "semantic_hash": ""
   },
   "site/items/prompts/handle-a-difficult-investor-conversation.html": {
-    "mtime": 1785847348.6915913,
+    "mtime": 1785943618.303512,
     "ast_hash": "d89a7feb325454afec15859c37032dac",
     "semantic_hash": ""
   },
   "site/items/prompts/hire-vs-outsource.html": {
-    "mtime": 1785847348.6935947,
+    "mtime": 1785943618.3075533,
     "ast_hash": "451ab0d3fb0bcf93a28153270917ffa2",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-inefficiencies-in-this-workflow.html": {
-    "mtime": 1785847348.6955926,
+    "mtime": 1785943618.315442,
     "ast_hash": "7712a09e526236efc4871fd95c61637b",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-the-3-biggest-risks.html": {
-    "mtime": 1785847348.6965935,
+    "mtime": 1785943618.315442,
     "ast_hash": "1c5523c540ac244d951721cf0bd0a96e",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-the-real-bottleneck.html": {
-    "mtime": 1785847348.6965935,
+    "mtime": 1785943618.315442,
     "ast_hash": "67d6e78654cc3372230397319ac6f2c7",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-the-root-cause.html": {
-    "mtime": 1785847348.697594,
+    "mtime": 1785943618.315442,
     "ast_hash": "231cc8c04e1ebca69a65fc019b2cbe25",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-the-story-this-data.html": {
-    "mtime": 1785847348.6985917,
+    "mtime": 1785943618.320843,
     "ast_hash": "9224ef7d97be2ff2b4782b62551b4ee5",
     "semantic_hash": ""
   },
   "site/items/prompts/identify-your-biggest-blind-spot.html": {
-    "mtime": 1785847348.6985917,
+    "mtime": 1785943618.3217618,
     "ast_hash": "eabae3f965d9a475b4924239e83371c0",
     "semantic_hash": ""
   },
   "site/items/prompts/improve-your-onboarding-flow.html": {
-    "mtime": 1785847348.699625,
+    "mtime": 1785943618.3217618,
     "ast_hash": "6dfc5ecee4f685e0140471c9255411a3",
     "semantic_hash": ""
   },
   "site/items/prompts/investment-decision-analysis.html": {
-    "mtime": 1785847348.700592,
+    "mtime": 1785943618.3237834,
     "ast_hash": "61fe311f903ece9508549adce0342037",
     "semantic_hash": ""
   },
   "site/items/prompts/kpi-framework-design.html": {
-    "mtime": 1785847348.7015944,
+    "mtime": 1785943618.3258035,
     "ast_hash": "8d01b25cb9db39b5436458dfd6571090",
     "semantic_hash": ""
   },
   "site/items/prompts/make-the-decision-youve-been-avoiding.html": {
-    "mtime": 1785847348.7025936,
+    "mtime": 1785943618.3278246,
     "ast_hash": "9783e12c63ef35d7dab90c004f56f546",
     "semantic_hash": ""
   },
   "site/items/prompts/meeting-effectiveness-audit.html": {
-    "mtime": 1785847348.7025936,
+    "mtime": 1785943618.3278246,
     "ast_hash": "69ddd1e78f3257c7ceba297ea8ab4e05",
     "semantic_hash": ""
   },
   "site/items/prompts/navigate-a-stakeholder-disagreement.html": {
-    "mtime": 1785847348.706593,
+    "mtime": 1785943618.335081,
     "ast_hash": "c3a193c192d7c25e6df7002808226019",
     "semantic_hash": ""
   },
   "site/items/prompts/onboarding-program-design.html": {
-    "mtime": 1785847348.7095916,
+    "mtime": 1785943618.338116,
     "ast_hash": "e64fd14e745a93ce840fe389c425c44e",
     "semantic_hash": ""
   },
   "site/items/prompts/performance-review-preparation.html": {
-    "mtime": 1785847348.7135963,
+    "mtime": 1785943618.338116,
     "ast_hash": "d0319d572583d5b5e5a05cca58c1074a",
     "semantic_hash": ""
   },
   "site/items/prompts/plan-a-difficult-conversation.html": {
-    "mtime": 1785847348.7159274,
+    "mtime": 1785943618.3411074,
     "ast_hash": "5ee07ee1ab90e625601e13663ec5bd78",
     "semantic_hash": ""
   },
   "site/items/prompts/plan-a-project-kickoff.html": {
-    "mtime": 1785847348.7403266,
+    "mtime": 1785943618.342944,
     "ast_hash": "82a325fb4d93c6c4345358b3afec644d",
     "semantic_hash": ""
   },
   "site/items/prompts/post-mortem-framework.html": {
-    "mtime": 1785847348.7423275,
+    "mtime": 1785943618.3456244,
     "ast_hash": "03a4d269355ffbf45961d6f1acc7b4d1",
     "semantic_hash": ""
   },
   "site/items/prompts/prepare-for-a-board-meeting.html": {
-    "mtime": 1785847348.7433245,
+    "mtime": 1785943618.3476415,
     "ast_hash": "43d4e4f42247f95390dee5e4dee14136",
     "semantic_hash": ""
   },
   "site/items/prompts/prepare-for-a-sales-call.html": {
-    "mtime": 1785847348.7433245,
+    "mtime": 1785943618.3496642,
     "ast_hash": "6316033478d31d3fe2f0d3527d6f22aa",
     "semantic_hash": ""
   },
   "site/items/prompts/pressure-test-a-strategy.html": {
-    "mtime": 1785847348.7458525,
+    "mtime": 1785943618.3510864,
     "ast_hash": "bfb5b0e6c18ac89a4a5f5160f671d5dd",
     "semantic_hash": ""
   },
   "site/items/prompts/pressure-test-your-business-idea.html": {
-    "mtime": 1785847348.746865,
+    "mtime": 1785943618.3518386,
     "ast_hash": "f5217eac1c65a0d445e1ef95c4f60f59",
     "semantic_hash": ""
   },
   "site/items/prompts/pricing-decision-framework.html": {
-    "mtime": 1785847348.7478652,
+    "mtime": 1785943618.353349,
     "ast_hash": "a04da0db1fb0341d204bddd8caeea3a3",
     "semantic_hash": ""
   },
   "site/items/prompts/prioritize-a-product-backlog.html": {
-    "mtime": 1785847348.748864,
+    "mtime": 1785943618.353349,
     "ast_hash": "d6e26184ef4c14f1aefcc2cc6a542589",
     "semantic_hash": ""
   },
   "site/items/prompts/prioritize-between-competing-initiatives.html": {
-    "mtime": 1785847348.749866,
+    "mtime": 1785943618.355779,
     "ast_hash": "90448ca92506eef16291002e7a0ceabf",
     "semantic_hash": ""
   },
   "site/items/prompts/prioritize-between-two-strategic-directions.html": {
-    "mtime": 1785847348.7508612,
+    "mtime": 1785943618.3563483,
     "ast_hash": "153472d2d2adbdc9e7664bf574834efa",
     "semantic_hash": ""
   },
   "site/items/prompts/project-risk-assessment.html": {
-    "mtime": 1785847348.7508612,
+    "mtime": 1785943618.3563483,
     "ast_hash": "6dd360873ea5ed34994d041f17a5a25a",
     "semantic_hash": ""
   },
   "site/items/prompts/refine-your-pitch-narrative.html": {
-    "mtime": 1785847348.7533069,
+    "mtime": 1785943618.3563483,
     "ast_hash": "1914fdcb07ef91083f720fc944fef2e9",
     "semantic_hash": ""
   },
   "site/items/prompts/refine-your-value-proposition.html": {
-    "mtime": 1785847348.7533069,
+    "mtime": 1785943618.3563483,
     "ast_hash": "375d2320643a918f9af89b0ec630af3d",
     "semantic_hash": ""
   },
   "site/items/prompts/research-synthesis.html": {
-    "mtime": 1785847348.754272,
+    "mtime": 1785943618.3611643,
     "ast_hash": "aa074dccf2746e94910337577ef65661",
     "semantic_hash": ""
   },
   "site/items/prompts/respond-to-a-critical-investor-question.html": {
-    "mtime": 1785847348.7557237,
+    "mtime": 1785943618.3645737,
     "ast_hash": "14268467f6be24565dfd08b79c79c638",
     "semantic_hash": ""
   },
   "site/items/prompts/rewrite-this-in-half-the.html": {
-    "mtime": 1785847348.7567072,
+    "mtime": 1785943618.3645737,
     "ast_hash": "711cf696fa0bbcf0b1015b64aedd8eef",
     "semantic_hash": ""
   },
   "site/items/prompts/rewrite-this-section-to-be.html": {
-    "mtime": 1785847348.7567072,
+    "mtime": 1785943618.3645737,
     "ast_hash": "e714b7510b7efa7c90cd4f6234592b00",
     "semantic_hash": ""
   },
   "site/items/prompts/root-cause-analysis.html": {
-    "mtime": 1785847348.7567072,
+    "mtime": 1785943618.3700466,
     "ast_hash": "5227ae0df79d854be33cdcc39beff233",
     "semantic_hash": ""
   },
   "site/items/prompts/run-a-competitor-analysis.html": {
-    "mtime": 1785847348.7581415,
+    "mtime": 1785943618.3700466,
     "ast_hash": "c51b4861ff92f86277574cccf2f5aa7f",
     "semantic_hash": ""
   },
   "site/items/prompts/run-a-pre-mortem.html": {
-    "mtime": 1785847348.7581415,
+    "mtime": 1785943618.372066,
     "ast_hash": "f02326e170d3d8375722a583958f97b2",
     "semantic_hash": ""
   },
   "site/items/prompts/set-team-priorities.html": {
-    "mtime": 1785847348.7595248,
+    "mtime": 1785943618.374086,
     "ast_hash": "87fa468829062eb9bee0e92c8a1d7dee",
     "semantic_hash": ""
   },
   "site/items/prompts/summarize-the-financial-implications-of.html": {
-    "mtime": 1785847348.762996,
+    "mtime": 1785943618.3761055,
     "ast_hash": "d0876177719ab7f1fbd28a928a192231",
     "semantic_hash": ""
   },
   "site/items/prompts/summarize-this-email-thread-into.html": {
-    "mtime": 1785847348.763585,
+    "mtime": 1785943618.377948,
     "ast_hash": "c5651b25356f79e872196b281816743c",
     "semantic_hash": ""
   },
   "site/items/prompts/summarize-this-meeting-transcript-into.html": {
-    "mtime": 1785847348.763585,
+    "mtime": 1785943618.377948,
     "ast_hash": "9bb838819d136d8a41e100e685fc5f07",
     "semantic_hash": ""
   },
   "site/items/prompts/team-alignment-message.html": {
-    "mtime": 1785847348.7650895,
+    "mtime": 1785943618.380876,
     "ast_hash": "5ddcf6697a33dba3069099f43d46dec4",
     "semantic_hash": ""
   },
   "site/items/prompts/team-effectiveness-diagnosis.html": {
-    "mtime": 1785847348.7657611,
+    "mtime": 1785943618.380876,
     "ast_hash": "c80abcf59ae3519f1d9e06f466930141",
     "semantic_hash": ""
   },
   "site/items/prompts/three-scenario-planning.html": {
-    "mtime": 1785847348.7663846,
+    "mtime": 1785943618.380876,
     "ast_hash": "84797ea53c6d72e07036b14ce920fe93",
     "semantic_hash": ""
   },
   "site/items/prompts/turn-these-messy-meeting-notes.html": {
-    "mtime": 1785847348.7672071,
+    "mtime": 1785943618.3857152,
     "ast_hash": "11de77c084105a0f45483f1c5252b9c1",
     "semantic_hash": ""
   },
   "site/items/prompts/turn-these-stats-into-3.html": {
-    "mtime": 1785847348.7678266,
+    "mtime": 1785943618.3857152,
     "ast_hash": "b34784359c68050238e6742ebe067a33",
     "semantic_hash": ""
   },
   "site/items/prompts/turn-this-bullet-point-outline-into.html": {
-    "mtime": 1785847348.7678266,
+    "mtime": 1785943618.3857152,
     "ast_hash": "27017c6ca3e60ec86d93f79606299a24",
     "semantic_hash": ""
   },
   "site/items/prompts/turn-this-messy-process-description.html": {
-    "mtime": 1785847348.7691524,
+    "mtime": 1785943618.3857152,
     "ast_hash": "1d196b706ce56e65477fc4797f302b4b",
     "semantic_hash": ""
   },
   "site/items/prompts/what-would-a-mckinsey-consultant.html": {
-    "mtime": 1785847348.77184,
+    "mtime": 1785943618.3937936,
     "ast_hash": "5f6da7a79fa3ba26d33546f4df8958be",
     "semantic_hash": ""
   },
   "site/items/prompts/worst-case-scenario-planning.html": {
-    "mtime": 1785847348.77184,
+    "mtime": 1785943618.3941424,
     "ast_hash": "303ceddda5a299355d20a3e469ec42df",
     "semantic_hash": ""
   },
   "site/items/prompts/write-5-sharp-talking-points.html": {
-    "mtime": 1785847348.772853,
+    "mtime": 1785943618.3941424,
     "ast_hash": "e06130ace159331dd50372e7d3416e1f",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-clear-jargon-free-explanation.html": {
-    "mtime": 1785847348.7739694,
+    "mtime": 1785943618.3982427,
     "ast_hash": "1907080c04b004d3aac75020aaf39a61",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-cold-outreach-email.html": {
-    "mtime": 1785847348.774613,
+    "mtime": 1785943618.3982427,
     "ast_hash": "7b750a6ca6e111437f37159edef99800",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-company-announcement.html": {
-    "mtime": 1785847348.774613,
+    "mtime": 1785943618.4017327,
     "ast_hash": "d7d429873f874ddb67ce3d21128cf617",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-compensation-explanation.html": {
-    "mtime": 1785847348.783148,
+    "mtime": 1785943618.4017327,
     "ast_hash": "f369de2b4430be611e41a6c9d8c93e3e",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-customer-re-engagement-email.html": {
-    "mtime": 1785847348.7842748,
+    "mtime": 1785943618.4017327,
     "ast_hash": "dc7f1ba9f4603fe4eb868cbbd668be02",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-diplomatic-response-to.html": {
-    "mtime": 1785847348.7842748,
+    "mtime": 1785943618.4017327,
     "ast_hash": "6f8d1f70d690be7a66670a3c0675b31a",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-job-description.html": {
-    "mtime": 1785847348.7857547,
+    "mtime": 1785943618.4065535,
     "ast_hash": "a469981d3dc824afe16761dea8ac000b",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-partnership-proposal.html": {
-    "mtime": 1785847348.7876196,
+    "mtime": 1785943618.4071105,
     "ast_hash": "1cefce63044d9c74d87ed816e7512252",
     "semantic_hash": ""
   },
   "site/items/prompts/write-a-performance-review-for.html": {
-    "mtime": 1785847348.788708,
+    "mtime": 1785943618.4071105,
     "ast_hash": "a90a35fb4ca8f3f13256c90b14d5a55d",
     "semantic_hash": ""
   },
   "site/items/prompts/write-an-escalation-policy.html": {
-    "mtime": 1785847348.788708,
+    "mtime": 1785943618.4071105,
     "ast_hash": "a253c69d645e2459bae8b2baabbf3d5b",
     "semantic_hash": ""
   },
   "site/items/prompts/write-an-executive-summary-for.html": {
-    "mtime": 1785847348.790131,
+    "mtime": 1785943618.410635,
     "ast_hash": "a339c9af65263f9d442b527046e421f7",
     "semantic_hash": ""
   },
   "site/items/prompts/write-an-investor-update.html": {
-    "mtime": 1785847348.7911632,
+    "mtime": 1785943618.410635,
     "ast_hash": "8364b3477dc1ad6ce5423ec2e556e2f0",
     "semantic_hash": ""
   },
   "site/items/resources/bklit-ui.html": {
-    "mtime": 1785847348.7911632,
+    "mtime": 1785943618.410635,
     "ast_hash": "b7db68e90f311d96036f2ba4008bc5e6",
     "semantic_hash": ""
   },
   "site/items/resources/hover-dev.html": {
-    "mtime": 1785847348.7925112,
+    "mtime": 1785943618.4148362,
     "ast_hash": "d5c35ebc07e7350344429c52067767e7",
     "semantic_hash": ""
   },
   "site/items/resources/radiant-shaders.html": {
-    "mtime": 1785847348.79302,
+    "mtime": 1785943618.4148362,
     "ast_hash": "109ad9e85557bdd9bd1595a1e5f72aec",
     "semantic_hash": ""
   },
   "site/items/resources/starter-story.html": {
-    "mtime": 1785847348.794189,
+    "mtime": 1785943618.4193132,
     "ast_hash": "8bfbc7f97895e403708695f4783ee98d",
     "semantic_hash": ""
   },
   "site/items/resources/trustmrr.html": {
-    "mtime": 1785847348.7962053,
+    "mtime": 1785943618.4198751,
     "ast_hash": "78209697ab1378936bfe7577d0f97d9f",
     "semantic_hash": ""
   },
   "site/items/resources/uiverse.html": {
-    "mtime": 1785847348.7971966,
+    "mtime": 1785943618.4198751,
     "ast_hash": "3a41ee9e0ade9700b730ce84a63050b9",
     "semantic_hash": ""
   },
@@ -3195,242 +3195,242 @@
     "semantic_hash": ""
   },
   "site/items/tools/ada.html": {
-    "mtime": 1785847348.7971966,
-    "ast_hash": "69394711336f570bfc736850b3329a60",
+    "mtime": 1785943618.4198751,
+    "ast_hash": "d9f488b4649e1f978c4b5cd87b98ed2c",
     "semantic_hash": ""
   },
   "site/items/tools/apollo-io.html": {
-    "mtime": 1785847348.7985713,
+    "mtime": 1785943618.4248028,
     "ast_hash": "cafe30acf57d4e6106c5b6e4e8dcae24",
     "semantic_hash": ""
   },
   "site/items/tools/atlassian-rovo.html": {
-    "mtime": 1785847348.7995772,
+    "mtime": 1785943618.426317,
     "ast_hash": "bbe1c64b880e220466b7e5f769caf419",
     "semantic_hash": ""
   },
   "site/items/tools/bytez.html": {
-    "mtime": 1785847348.7995772,
+    "mtime": 1785943618.426317,
     "ast_hash": "f9b9d39891a2bfb148f77c4942be8949",
     "semantic_hash": ""
   },
   "site/items/tools/chat-jimmy.html": {
-    "mtime": 1785847348.8005786,
+    "mtime": 1785943618.426317,
     "ast_hash": "1f95824a369ee20e99eed68e5c6805ef",
     "semantic_hash": ""
   },
   "site/items/tools/chatgpt-enterprise.html": {
-    "mtime": 1785847348.8015854,
+    "mtime": 1785943618.426317,
     "ast_hash": "d4e8175682118e0683d8d73cd39d9c11",
     "semantic_hash": ""
   },
   "site/items/tools/chatgpt.html": {
-    "mtime": 1785847348.8015854,
+    "mtime": 1785943618.432029,
     "ast_hash": "ed9f07a81952a3c194e846e216c0d600",
     "semantic_hash": ""
   },
   "site/items/tools/claude-api.html": {
-    "mtime": 1785847348.8025799,
+    "mtime": 1785943618.432029,
     "ast_hash": "d331f4a915c0479c5e09d369ce95f731",
     "semantic_hash": ""
   },
   "site/items/tools/claude.html": {
-    "mtime": 1785847348.8036158,
+    "mtime": 1785943618.4351912,
     "ast_hash": "b840f64e82db9fd10511ed9b5801ba5d",
     "semantic_hash": ""
   },
   "site/items/tools/consensus.html": {
-    "mtime": 1785847348.8036158,
+    "mtime": 1785943618.4351912,
     "ast_hash": "76595e82c5f19756a193bc0847930205",
     "semantic_hash": ""
   },
   "site/items/tools/copy-ai.html": {
-    "mtime": 1785847348.8045783,
+    "mtime": 1785943618.4351912,
     "ast_hash": "7b05b4931dc65750f8077c6b49b06dfa",
     "semantic_hash": ""
   },
   "site/items/tools/cursor.html": {
-    "mtime": 1785847348.8056133,
+    "mtime": 1785943618.4351912,
     "ast_hash": "47bf756ec2f2a6b57def945ffe211a02",
     "semantic_hash": ""
   },
   "site/items/tools/dictaflow.html": {
-    "mtime": 1785847348.8056133,
+    "mtime": 1785943618.4351912,
     "ast_hash": "10744f010cb02b262f9e7f16221e5e79",
     "semantic_hash": ""
   },
   "site/items/tools/drift.html": {
-    "mtime": 1785847348.806594,
+    "mtime": 1785943618.4351912,
     "ast_hash": "c8fad4c5ef0c314d418b37fc7862a766",
     "semantic_hash": ""
   },
   "site/items/tools/eightfold.html": {
-    "mtime": 1785847348.806594,
+    "mtime": 1785943618.4351912,
     "ast_hash": "11cd518fa34fb2762983baed8c329a9b",
     "semantic_hash": ""
   },
   "site/items/tools/fireflies-ai.html": {
-    "mtime": 1785847348.8075821,
+    "mtime": 1785943618.4423966,
     "ast_hash": "c0c30177a495256883c72fb6633ed5f9",
     "semantic_hash": ""
   },
   "site/items/tools/gamma.html": {
-    "mtime": 1785847348.8075821,
+    "mtime": 1785943618.4423966,
     "ast_hash": "ebf24b0bef73e9ae061b5b1d6157715f",
     "semantic_hash": ""
   },
   "site/items/tools/github-copilot.html": {
-    "mtime": 1785847348.8085778,
+    "mtime": 1785943618.4423966,
     "ast_hash": "fd0afa428a8352fde8c25d9fc8c155d2",
     "semantic_hash": ""
   },
   "site/items/tools/gong.html": {
-    "mtime": 1785847348.8095827,
+    "mtime": 1785943618.4423966,
     "ast_hash": "e65ef85821f8b3493f83b9d97f72ea69",
     "semantic_hash": ""
   },
   "site/items/tools/grok.html": {
-    "mtime": 1785847348.8095827,
+    "mtime": 1785943618.4500825,
     "ast_hash": "77b01017cc7891a91c60c2651a37e75f",
     "semantic_hash": ""
   },
   "site/items/tools/gumloop.html": {
-    "mtime": 1785847348.8105812,
+    "mtime": 1785943618.4500825,
     "ast_hash": "0a39d5533e51ed2978ed4e0161a55203",
     "semantic_hash": ""
   },
   "site/items/tools/hirevue.html": {
-    "mtime": 1785847348.8105812,
+    "mtime": 1785943618.4500825,
     "ast_hash": "854145a0bf7ab6912d9ee2db2c7cd32a",
     "semantic_hash": ""
   },
   "site/items/tools/hubert.html": {
-    "mtime": 1785847348.8115802,
+    "mtime": 1785943618.4535108,
     "ast_hash": "daa7d7fa5595ee8a7ab41e3bad0ec796",
     "semantic_hash": ""
   },
   "site/items/tools/hubspot-ai.html": {
-    "mtime": 1785847348.8125837,
+    "mtime": 1785943618.4535108,
     "ast_hash": "4455a6101e9c76cb201bc9db7894b899",
     "semantic_hash": ""
   },
   "site/items/tools/hunyuan-video.html": {
-    "mtime": 1785847348.8125837,
+    "mtime": 1785943618.457935,
     "ast_hash": "fd9adb81f984c19d5309964e490c989e",
     "semantic_hash": ""
   },
   "site/items/tools/intercom-fin.html": {
-    "mtime": 1785847348.8135822,
+    "mtime": 1785943618.458377,
     "ast_hash": "e55f73e000506be62bcd3d370a7b4604",
     "semantic_hash": ""
   },
   "site/items/tools/jasper.html": {
-    "mtime": 1785847348.814587,
+    "mtime": 1785943618.4602544,
     "ast_hash": "3b9d98eca7f9eef5ff4aa2b123222004",
     "semantic_hash": ""
   },
   "site/items/tools/lavender.html": {
-    "mtime": 1785847348.8155825,
+    "mtime": 1785943618.4602544,
     "ast_hash": "021f465080ec92bfa8ec0bf1f58a9b7e",
     "semantic_hash": ""
   },
   "site/items/tools/make.html": {
-    "mtime": 1785847348.8155825,
+    "mtime": 1785943618.4602544,
     "ast_hash": "3b34e537aba9793c643ac5182265057f",
     "semantic_hash": ""
   },
   "site/items/tools/marketo-engage.html": {
-    "mtime": 1785847348.8165822,
+    "mtime": 1785943618.466367,
     "ast_hash": "67deea8d11eb76d15df486b3fc972252",
     "semantic_hash": ""
   },
   "site/items/tools/microsoft-365-copilot.html": {
-    "mtime": 1785847348.817582,
+    "mtime": 1785943618.4675891,
     "ast_hash": "66aa526215a5e6cc7100dc2b16646d4f",
     "semantic_hash": ""
   },
   "site/items/tools/notebooklm.html": {
-    "mtime": 1785847348.817582,
+    "mtime": 1785943618.4675891,
     "ast_hash": "3d7978f1161f73c5de65e7febd8f231e",
     "semantic_hash": ""
   },
   "site/items/tools/notion-ai.html": {
-    "mtime": 1785847348.8185823,
+    "mtime": 1785943618.4675891,
     "ast_hash": "d2499829937420a5e3dec7066e2bbec4",
     "semantic_hash": ""
   },
   "site/items/tools/openwhispr.html": {
-    "mtime": 1785847348.8195796,
+    "mtime": 1785943618.4675891,
     "ast_hash": "ea21f76e235771db72b197e703323d96",
     "semantic_hash": ""
   },
   "site/items/tools/otterai.html": {
-    "mtime": 1785847348.8195796,
+    "mtime": 1785943618.4675891,
     "ast_hash": "2a82ef792bf5cc858f4de9f8e15c4431",
     "semantic_hash": ""
   },
   "site/items/tools/paradox-olivia.html": {
-    "mtime": 1785847348.8205802,
+    "mtime": 1785943618.4675891,
     "ast_hash": "6f4b9dc280033cdaf8deaf23dfb6eeca",
     "semantic_hash": ""
   },
   "site/items/tools/perplexity.html": {
-    "mtime": 1785847348.8215802,
+    "mtime": 1785943618.4747288,
     "ast_hash": "041159bc2087497225b64060f5e040a6",
     "semantic_hash": ""
   },
   "site/items/tools/reply-io.html": {
-    "mtime": 1785847348.8215802,
+    "mtime": 1785943618.4747288,
     "ast_hash": "2366111918e731edbc5fff12c70c3b63",
     "semantic_hash": ""
   },
   "site/items/tools/tidio.html": {
-    "mtime": 1785847348.8225808,
+    "mtime": 1785943618.4747288,
     "ast_hash": "f1efac8d434ce6b62cfceded30f9a357",
     "semantic_hash": ""
   },
   "site/items/tools/tipalti.html": {
-    "mtime": 1785847348.8235786,
+    "mtime": 1785943618.4747288,
     "ast_hash": "a51f552c09ce1747dbffab61ce6d4164",
     "semantic_hash": ""
   },
   "site/items/tools/uncensored-ai.html": {
-    "mtime": 1785847348.8235786,
+    "mtime": 1785943618.4747288,
     "ast_hash": "e9857b096310404f39039b6e8b1832a9",
     "semantic_hash": ""
   },
   "site/items/tools/vic-ai.html": {
-    "mtime": 1785847348.8245797,
+    "mtime": 1785943618.4794774,
     "ast_hash": "c06ecf60c005149839e3c8e75b6a716c",
     "semantic_hash": ""
   },
   "site/items/tools/willow.html": {
-    "mtime": 1785847348.8255782,
+    "mtime": 1785943618.482613,
     "ast_hash": "eac796db2866ce46e4c250d8dc89589a",
     "semantic_hash": ""
   },
   "site/items/tools/workable.html": {
-    "mtime": 1785847348.8255782,
+    "mtime": 1785943618.48464,
     "ast_hash": "a643656a77ef14168bb3a5f6c228199e",
     "semantic_hash": ""
   },
   "site/items/tools/workato.html": {
-    "mtime": 1785847348.8268988,
+    "mtime": 1785943618.48464,
     "ast_hash": "d66a90c3e05692c26f8bd91969745f01",
     "semantic_hash": ""
   },
   "site/items/tools/z-image-ai.html": {
-    "mtime": 1785847348.8279011,
+    "mtime": 1785943618.48464,
     "ast_hash": "1b2229e34f30551dd1ac79e4c2e5af8a",
     "semantic_hash": ""
   },
   "site/items/tools/zapier.html": {
-    "mtime": 1785847348.8288984,
+    "mtime": 1785943618.4899838,
     "ast_hash": "fb8d480e15636a5fb4d84708eb05b2a3",
     "semantic_hash": ""
   },
   "site/items/tools/zendesk-ai.html": {
-    "mtime": 1785847348.8288984,
+    "mtime": 1785943618.4912474,
     "ast_hash": "02cfb7d148ea9f9fdcd5bf867999bdfd",
     "semantic_hash": ""
   },
@@ -3465,222 +3465,222 @@
     "semantic_hash": ""
   },
   "site/items/learning/5-ai-businesses-to-make-1m.html": {
-    "mtime": 1785847348.6222005,
+    "mtime": 1785943618.083341,
     "ast_hash": "c478e7040e7023b9f338df1cd0dd920f",
     "semantic_hash": ""
   },
   "site/items/learning/avoid-chat-limits.html": {
-    "mtime": 1785847348.6222005,
+    "mtime": 1785943618.083341,
     "ast_hash": "f4fbecc34787de268ec113a4d354bbcd",
     "semantic_hash": ""
   },
   "site/items/learning/build-10-000-websites-with-ai.html": {
-    "mtime": 1785847348.6236033,
+    "mtime": 1785943618.083341,
     "ast_hash": "66612832d3529c8bcd262be8fb7c59f7",
     "semantic_hash": ""
   },
   "site/items/learning/build-3-ai-agents-in-base44.html": {
-    "mtime": 1785847348.6247747,
+    "mtime": 1785943618.09074,
     "ast_hash": "20dc6b5141fc6ca294b77cedecb1b06d",
     "semantic_hash": ""
   },
   "site/items/learning/build-5k-month-ai-websites.html": {
-    "mtime": 1785847348.6247747,
+    "mtime": 1785943618.09074,
     "ast_hash": "2af1c601f6f6dab187ff1bc16094ea4d",
     "semantic_hash": ""
   },
   "site/items/learning/build-an-award-worthy-f1-landing-page.html": {
-    "mtime": 1785847348.6262014,
+    "mtime": 1785943618.09074,
     "ast_hash": "631386796235dcccc26c3a61a18c9253",
     "semantic_hash": ""
   },
   "site/items/learning/build-insane-animated-websites.html": {
-    "mtime": 1785847348.6262014,
+    "mtime": 1785943618.0987828,
     "ast_hash": "149f0a71f2c9e33f71cc180c57cbdfa9",
     "semantic_hash": ""
   },
   "site/items/learning/chatgpt-and-ai-cheatsheet.html": {
-    "mtime": 1785847348.6212027,
+    "mtime": 1785943618.083341,
     "ast_hash": "5b303baa6c4da32f51954b11d670c83e",
     "semantic_hash": ""
   },
   "site/items/learning/cinematic-real-estate-listing.html": {
-    "mtime": 1785847348.6605968,
+    "mtime": 1785943618.2057807,
     "ast_hash": "49e62e113199330971bc3591158e2809",
     "semantic_hash": ""
   },
   "site/items/learning/higgsfield-ugc-prompt.html": {
-    "mtime": 1785847348.692594,
+    "mtime": 1785943618.3075533,
     "ast_hash": "91eaf95ea9825c9b79d98082f104e87c",
     "semantic_hash": ""
   },
   "site/items/learning/how-to-build-a-10k-month-app-in-2026.html": {
-    "mtime": 1785847348.6272092,
+    "mtime": 1785943618.1017272,
     "ast_hash": "8289f59f1eba5ca45514b1a10b258f1a",
     "semantic_hash": ""
   },
   "site/items/learning/how-to-find-a-tech-job-in-2026.html": {
-    "mtime": 1785847348.6277149,
+    "mtime": 1785943618.1017272,
     "ast_hash": "cd59476e600d7ac5a10be769103ac1db",
     "semantic_hash": ""
   },
   "site/items/learning/motion-graphics-in-ai.html": {
-    "mtime": 1785847348.6287212,
+    "mtime": 1785943618.1017272,
     "ast_hash": "2f2b00cbe3bbf4b24247e0a8e814cd29",
     "semantic_hash": ""
   },
   "site/items/learning/raw-footage-to-finished-video-in-ai.html": {
-    "mtime": 1785847348.6287212,
+    "mtime": 1785943618.1073983,
     "ast_hash": "8866bc95f72b7f0ceed5bdebfdab9895",
     "semantic_hash": ""
   },
   "site/items/learning/the-ai-research-system.html": {
-    "mtime": 1785847348.6301417,
+    "mtime": 1785943618.1078598,
     "ast_hash": "c115988a1e1860619a777699f2843860",
     "semantic_hash": ""
   },
   "site/items/learning/top-ai-courses-for-beginners.html": {
-    "mtime": 1785847348.6301417,
+    "mtime": 1785943618.1078598,
     "ast_hash": "2dec735dc99763eaa77b3bbc705dc3b8",
     "semantic_hash": ""
   },
   "site/items/learning/which-model-should-i-use.html": {
-    "mtime": 1785847348.6313486,
+    "mtime": 1785943618.1078598,
     "ast_hash": "e05d468310b7e854a63e11b6ee427b78",
     "semantic_hash": ""
   },
   "site/items/prompts/business-audit.html": {
-    "mtime": 1785847348.6575942,
+    "mtime": 1785943618.2057807,
     "ast_hash": "6310296c26280c9362be692fd84320b1",
     "semantic_hash": ""
   },
   "site/items/prompts/client-welcome.html": {
-    "mtime": 1785847348.661594,
+    "mtime": 1785943618.2057807,
     "ast_hash": "8abcab21acc5a44862f587b9bab9b1ad",
     "semantic_hash": ""
   },
   "site/items/prompts/cold-dm.html": {
-    "mtime": 1785847348.661594,
+    "mtime": 1785943618.2139058,
     "ast_hash": "a9b2cac0841b66daab76ca06614b741b",
     "semantic_hash": ""
   },
   "site/items/prompts/cold-email.html": {
-    "mtime": 1785847348.6626515,
+    "mtime": 1785943618.2159314,
     "ast_hash": "4a527aece2143ca5668fd836b30cfb96",
     "semantic_hash": ""
   },
   "site/items/prompts/competitor-analysis.html": {
-    "mtime": 1785847348.6646235,
+    "mtime": 1785943618.222874,
     "ast_hash": "068aced12da6f479a432b5ff3ad46000",
     "semantic_hash": ""
   },
   "site/items/prompts/content-ideas.html": {
-    "mtime": 1785847348.6646235,
+    "mtime": 1785943618.222874,
     "ast_hash": "220b1f64b24f65f7a2fb5000ec97ea4e",
     "semantic_hash": ""
   },
   "site/items/prompts/deliver-difficult-news.html": {
-    "mtime": 1785847348.671626,
+    "mtime": 1785943618.2509544,
     "ast_hash": "146c0aef4e64c24d78b00666dd8182f5",
     "semantic_hash": ""
   },
   "site/items/prompts/email-newsletter.html": {
-    "mtime": 1785847348.6796198,
+    "mtime": 1785943618.275978,
     "ast_hash": "0d1da41b8973ace48470a1853744617b",
     "semantic_hash": ""
   },
   "site/items/prompts/email-reply.html": {
-    "mtime": 1785847348.6805944,
+    "mtime": 1785943618.275978,
     "ast_hash": "6c550ea369d2e95bcdaf54a27a51c927",
     "semantic_hash": ""
   },
   "site/items/prompts/follow-up-touch-1.html": {
-    "mtime": 1785847348.6845975,
+    "mtime": 1785943618.285647,
     "ast_hash": "08a4c2e665722849b895fc07d5e673bb",
     "semantic_hash": ""
   },
   "site/items/prompts/follow-up.html": {
-    "mtime": 1785847348.6845975,
+    "mtime": 1785943618.2877657,
     "ast_hash": "fb0a1290d422456f1c170a25ad42a08f",
     "semantic_hash": ""
   },
   "site/items/prompts/hashtag-strategy.html": {
-    "mtime": 1785847348.692594,
+    "mtime": 1785943618.3055353,
     "ast_hash": "e1181316178e323cf18b64c4b314dfb0",
     "semantic_hash": ""
   },
   "site/items/prompts/hook-generator.html": {
-    "mtime": 1785847348.6935947,
+    "mtime": 1785943618.3075533,
     "ast_hash": "3777cad1d52f6c83ba3e85750feb501b",
     "semantic_hash": ""
   },
   "site/items/prompts/idea-validation.html": {
-    "mtime": 1785847348.694591,
+    "mtime": 1785943618.3121028,
     "ast_hash": "d508480bfe2b0611f8b0ddfb496e0a88",
     "semantic_hash": ""
   },
   "site/items/prompts/job-description.html": {
-    "mtime": 1785847348.700592,
+    "mtime": 1785943618.3237834,
     "ast_hash": "121a52b987b7eed059fe0ef300f73477",
     "semantic_hash": ""
   },
   "site/items/prompts/meeting-request.html": {
-    "mtime": 1785847348.703592,
+    "mtime": 1785943618.3330336,
     "ast_hash": "6b07610be83d1023dcf5a1914c86b433",
     "semantic_hash": ""
   },
   "site/items/prompts/meeting-summary.html": {
-    "mtime": 1785847348.7055933,
+    "mtime": 1785943618.3335478,
     "ast_hash": "aefa724dc96b1e8132a4166a77ac6cc1",
     "semantic_hash": ""
   },
   "site/items/prompts/objection-response.html": {
-    "mtime": 1785847348.7086267,
+    "mtime": 1785943618.3360999,
     "ast_hash": "85a689057b68984035fe0d2dd9bd5ed6",
     "semantic_hash": ""
   },
   "site/items/prompts/offer-clarity.html": {
-    "mtime": 1785847348.7095916,
+    "mtime": 1785943618.338116,
     "ast_hash": "ae9ad278c3c2ca998a856ad079384a31",
     "semantic_hash": ""
   },
   "site/items/prompts/polite-decline.html": {
-    "mtime": 1785847348.7413297,
+    "mtime": 1785943618.344466,
     "ast_hash": "9d2fd13f4c7628160d8a82964c86097d",
     "semantic_hash": ""
   },
   "site/items/prompts/proposal.html": {
-    "mtime": 1785847348.7521572,
+    "mtime": 1785943618.3563483,
     "ast_hash": "dde1659e235f5ad24cb515bad2d0d19f",
     "semantic_hash": ""
   },
   "site/items/prompts/repurposing.html": {
-    "mtime": 1785847348.754272,
+    "mtime": 1785943618.3611643,
     "ast_hash": "eb12eebb7a6349ab4c01c6ee66af359a",
     "semantic_hash": ""
   },
   "site/items/prompts/sop-creation.html": {
-    "mtime": 1785847348.7595248,
+    "mtime": 1785943618.3761055,
     "ast_hash": "b37a42dac473989f2b9257d99a039029",
     "semantic_hash": ""
   },
   "site/items/prompts/video-script-60s.html": {
-    "mtime": 1785847348.7691524,
+    "mtime": 1785943618.3857152,
     "ast_hash": "5e3cb5f7235e10f9fcdd68a1687d32f7",
     "semantic_hash": ""
   },
   "site/items/prompts/week-of-captions.html": {
-    "mtime": 1785847348.7705646,
+    "mtime": 1785943618.3857152,
     "ast_hash": "d0df8b4069c87bb10fb99cb945325928",
     "semantic_hash": ""
   },
   "site/items/prompts/weekly-planning.html": {
-    "mtime": 1785847348.7711344,
+    "mtime": 1785943618.3857152,
     "ast_hash": "6369aacd37655741cab264f5c2a65fa3",
     "semantic_hash": ""
   },
   "site/saved.html": {
-    "mtime": 1785847348.8569896,
+    "mtime": 1785943618.5327275,
     "ast_hash": "56a8feb8d331b6277a7e7297517b8908",
     "semantic_hash": ""
   },
@@ -3760,7 +3760,7 @@
     "semantic_hash": ""
   },
   "site/items/prompts/full-ai-system-self-audit-prompt.html": {
-    "mtime": 1785847348.6856103,
+    "mtime": 1785943618.2888439,
     "ast_hash": "d985811af2f5138a4def633d36aa4824",
     "semantic_hash": ""
   },
@@ -3770,8 +3770,8 @@
     "semantic_hash": ""
   },
   "site/rewards.html": {
-    "mtime": 1785847348.8579907,
-    "ast_hash": "d1db3ece698248f6f1ae9aba3c6ceedf",
+    "mtime": 1785943618.5327275,
+    "ast_hash": "5f9c4af9fd56355ecedd36c7da45e7c9",
     "semantic_hash": ""
   },
   ".hallmark/log.json": {
@@ -3844,9 +3844,24 @@
     "ast_hash": "007d96659858bddd8e632e7388e0a76a",
     "semantic_hash": ""
   },
-  "HANDOFF.md": {
-    "mtime": 1785851563.48341,
-    "ast_hash": "9a10bc5b556275b660cdbb0eb2c09b77",
+  ".agents/add-reward-item/SKILL.md": {
+    "mtime": 1785944099.4540024,
+    "ast_hash": "15607ca85f906febd20145fdda54ec2f",
+    "semantic_hash": ""
+  },
+  "organized-data/Tools/aipen-chatgpt-app.md": {
+    "mtime": 1785943612.0567088,
+    "ast_hash": "b164be828d7ac52cef4955b6778fdd8c",
+    "semantic_hash": ""
+  },
+  "scripts/tag_analysis_report.json": {
+    "mtime": 1785943569.5364523,
+    "ast_hash": "1497a1bef29d2f8b5c171974fddf5303",
+    "semantic_hash": ""
+  },
+  "organized-data/tags.txt": {
+    "mtime": 1785943840.2979898,
+    "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   }
 }

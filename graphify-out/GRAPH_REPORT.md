@@ -1,16 +1,16 @@
-# Graph Report - rewards  (2026-08-04)
+# Graph Report - rewards  (2026-08-05)
 
 ## Corpus Check
-- 411 files · ~598,622 words
+- 410 files · ~599,914 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2823 nodes · 2784 edges · 424 communities (407 shown, 17 thin omitted)
+- 2815 nodes · 2770 edges · 423 communities (407 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `308a0722`
+- Built from commit: `55c61302`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -425,7 +425,6 @@
 - [[_COMMUNITY_Community 419|Community 419]]
 - [[_COMMUNITY_Community 420|Community 420]]
 - [[_COMMUNITY_Community 421|Community 421]]
-- [[_COMMUNITY_Community 423|Community 423]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -445,7 +444,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (424 total, 17 thin omitted)
+## Communities (423 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.03
@@ -1872,8 +1871,8 @@ Cohesion: 0.33
 Nodes (5): Category, Content, Description, Name, Tags
 
 ### Community 357 - "Community 357"
-Cohesion: 0.44
-Nodes (8): cat_to_filename(), determine_subcategory(), generate_bundle_page(), generate_category_page(), generate_deep_item_pages(), get_cat_slug(), main(), parse_markdown()
+Cohesion: 0.22
+Nodes (8): 1. Fetch & Parse Input, 2. Save Raw Data (`rewards/data/`), 3. Save Organized Item (`rewards/organized-data/`), 4. Commands, 5. Commit and Push Changes, Add Reward Item, Anti-Patterns, Workflow
 
 ### Community 358 - "Community 358"
 Cohesion: 0.33
@@ -1942,6 +1941,10 @@ Nodes (3): 8.1 Available Filters Per Category Page, 8.2 Filter Interaction Model
 ### Community 385 - "Community 385"
 Cohesion: 0.67
 Nodes (3): Guide Rules, GUIDES, Missing Information
+
+### Community 391 - "Community 391"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
 
 ### Community 394 - "Community 394"
 Cohesion: 0.33
@@ -2019,20 +2022,16 @@ Nodes (8): 1. Install the CLI tool, 2026-06-19 18:42:09Z, 2. Register the skill,
 Cohesion: 0.50
 Nodes (3): 2026-05-26 21:50:28Z, Summary of Changes, Summary of Work
 
-### Community 423 - "Community 423"
-Cohesion: 0.22
-Nodes (8): 1. Problem Description, 2. What Was Attempted & Why It Didn't Work, 3. Location in Codebase, 4. Recommended Solutions for Next Developer, Attempt 1: CSS Overrides in `<style>` tag, Attempt 2: Inline Styles with `white-space: nowrap` and `width: 100%`, Attempt 3: Flexbox Container with `align-items: center`, Handoff: Brevo Form Unsubscribe / Privacy Lines Issue
-
 ## Knowledge Gaps
-- **2266 isolated node(s):** `ThreadingServer`, `cleanUrls`, `Steps`, `2026-05-26 21:40:57Z`, `Summary of Work` (+2261 more)
+- **2271 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2266 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `ThreadingServer`, `cleanUrls`, `Steps` to the rest of the system?**
-  _2266 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
+  _2271 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

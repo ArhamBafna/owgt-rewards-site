@@ -111,3 +111,9 @@ https://github.com/GokuMohandas/Made-With-ML
 https://github.com/florinpop17/app-ideas
 
 ---
+
+Title: AIPen ChatGPT App (MunBohora)
+Description: ChatGPT application repository by MunBohora.
+Link: https://github.com/MunBohora/aipen-chatgpt-app
+
+---

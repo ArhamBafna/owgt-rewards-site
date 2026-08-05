@@ -971,6 +971,10 @@
       "path": "Resources/landbook.md"
     },
     {
+      "name": "Landing Page Design Skill",
+      "path": "Resources/landing-page-design-skill.md"
+    },
+    {
       "name": "Lando Norris",
       "path": "Resources/lando-norris.md"
     },
@@ -1061,6 +1065,10 @@
     {
       "name": "Ada",
       "path": "Tools/ada.md"
+    },
+    {
+      "name": "AIPen ChatGPT App",
+      "path": "Tools/aipen-chatgpt-app.md"
     },
     {
       "name": "Alt",

@@ -4055,6 +4055,22 @@
       "path": "/items/tools/ada"
     },
     {
+      "id": "aipen-chatgpt-app",
+      "name": "AIPen ChatGPT App",
+      "description": "Turn any ChatGPT answer into hyper realistic handwritten, print-ready notes without leaving the chat.",
+      "category": "Tools",
+      "subcategory": "",
+      "tags": [
+        "GitHub",
+        "ChatGPT",
+        "App"
+      ],
+      "url": "https://github.com/MunBohora/aipen-chatgpt-app",
+      "content": "GitHub Repository: https://github.com/MunBohora/aipen-chatgpt-app",
+      "is_shallow": true,
+      "path": "/items/tools/aipen-chatgpt-app"
+    },
+    {
       "id": "alt",
       "name": "Alt",
       "description": "Audio-first meeting and voice notes assistant built for effortless capturing and AI summarization.",
@@ -7466,11 +7482,11 @@
     }
   },
   "tags": {
-    "ChatGPT": 3,
+    "ChatGPT": 4,
     "Prompt": 160,
     "Workflow": 75,
     "Marketing": 16,
-    "App": 2,
+    "App": 3,
     "Growth": 3,
     "CLI": 6,
     "Automation": 9,
@@ -7504,7 +7520,7 @@
     "learn skill": 17,
     "Analysis & Research": 3,
     "AI Tools": 58,
-    "GitHub": 8,
+    "GitHub": 9,
     "Learning": 4,
     "Education": 4,
     "Course": 6,

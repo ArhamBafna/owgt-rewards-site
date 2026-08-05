@@ -1,0 +1,1094 @@
+{
+  "total_items": 355,
+  "total_tags": 104,
+  "single_item_tags": [
+    {
+      "tag": "AI Tool",
+      "title": "AIPen ChatGPT App",
+      "category": "Tools",
+      "subcategory": "",
+      "path": "/items/tools/aipen-chatgpt-app",
+      "desc": "ChatGPT application repository by MunBohora."
+    }
+  ],
+  "near_duplicates": {},
+  "generic_tags": {
+    "App": 3,
+    "Resource": 2,
+    "Free": 6,
+    "AI": 23
+  },
+  "misclassifications": [
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "GitHub Certification Exams",
+      "category": "Learning",
+      "tag": "Learning",
+      "reason": "Tag 'Learning' duplicates Category 'Learning'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "AI for Beginners (Microsoft)",
+      "category": "Learning",
+      "tag": "Learning",
+      "reason": "Tag 'Learning' duplicates Category 'Learning'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Act As A Skeptical Senior",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "All-Hands Talking Points",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Analyze Customer Feedback for Growth Signals",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Analyze This Data And Identify",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Analyze Why a Deal Was Lost",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Apply First Principles Thinking",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Assess an Acquisition or Partnership",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Assumptions Stress Test",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Break this goal into a realistic 30-60-90 day plan.",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a Competitive Battle Card",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a Decision Framework",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a Decision Matrix",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a Project Risk Assessment",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a SOP for a Repeatable Process",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build a User Interview Question Set",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build an Onboarding Checklist",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build Interview Questions",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Build Your 90-Day Roadmap",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Business Audit",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Challenge an Assumption",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Client Welcome",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Cold DM",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Cold Email",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Compare And Contrast These Two",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Compare Two Real Options",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Competitor Analysis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Content Ideas",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Craft an Ask for a Warm Introduction",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Create a Meeting Agenda",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Create A Personal Okr For",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Create A Project Kickoff Checklist",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Create A Tight 10-Minute Meeting",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Culture Assessment",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Data Story Narrative",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Decide How to Deliver Difficult News\nCATEGORY 5",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Decide on Organizational Structure",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Decide Whether to Pivot or Stay the Course",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Decide Whether to Promote or Let Go",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Define Your Unique Positioning",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Deliver Difficult News",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Design a Weekly Review Framework",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Diagnose a Team Problem",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Diagnose Why Something Isn't Working",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Difficult Employee Conversation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft 5 Questions I Should",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft a Follow-Up After No Response",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft A Polite But Firm",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft a Product Announcement",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft A Request To Leadership",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft a Weekly Update to Your Team",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft an Executive Summary",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Draft Performance Feedback",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Edit This Paragraph For Clarity",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Email Newsletter",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Email Reply",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Employee Engagement Analysis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Enter or Exit a Market\n10\nWHAT THIS CHANGES",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Evaluate a New Market Opportunity",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Evaluate a New Opportunity",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Explain these financial terms in plain language for a",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Follow-Up Touch 1",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Follow-Up",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Full AI System Self-Audit Prompt",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Generate 10 Creative Solutions To",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Generate 5 Different Ways To",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Generate Alternatives When You're Stuck",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Generate Feature Ideas from Complaints",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Get Devil's Advocate Feedback",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Give Me 5 Options. 61",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Give Me A Structured Swot",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Give Me The Tl;Dr Of",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Handle a Difficult Investor Conversation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Hashtag Strategy",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Hire Vs. Outsource",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Hook Generator",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Idea Validation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify Inefficiencies In This Workflow",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify The 3 Biggest Risks",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify the Real Bottleneck",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify the Root Cause",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify The Story This Data",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Identify Your Biggest Blind Spot",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Improve Your Onboarding Flow",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Investment Decision Analysis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Job Description",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Kpi Framework Design",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Make the Decision You've Been Avoiding",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Meeting Effectiveness Audit",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Meeting Request",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Meeting Summary",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Navigate a Stakeholder Disagreement",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Objection Response",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Offer Clarity",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Onboarding Program Design",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Performance Review Preparation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Plan a Difficult Conversation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Plan a Project Kickoff",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Polite Decline",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Post-Mortem Framework",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Prepare for a Board Meeting",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Prepare for a Sales Call",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Pressure-Test a Strategy",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Pressure-Test Your Business Idea",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Pricing Decision Framework",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Prioritize a Product Backlog",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Prioritize Between Competing Initiatives",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Prioritize Between Two Strategic Directions",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Project Risk Assessment",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Proposal",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Refine Your Pitch Narrative",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Refine Your Value Proposition",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Repurposing",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Research Synthesis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Respond to a Critical Investor Question",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Rewrite This In Half The",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Rewrite This Section To Be",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Root Cause Analysis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Run a Competitor Analysis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Run a Pre-Mortem",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Set Team Priorities",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "SOP Creation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Summarize The Financial Implications Of",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Summarize This Email Thread Into",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Summarize This Meeting Transcript Into",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Team Alignment Message",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Team Effectiveness Diagnosis",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Three-Scenario Planning",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Turn These Messy Meeting Notes",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Turn These Stats Into 3",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Turn This Bullet-Point Outline Into",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Turn This Messy Process Description",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Video Script (60s)",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Week of Captions",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Weekly Planning",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "What Would A Mckinsey Consultant",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Worst-Case Scenario Planning",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write 5 Sharp Talking Points",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write A Clear, Jargon-Free Explanation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Cold Outreach Email",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Company Announcement",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Compensation Explanation",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Customer Re-Engagement Email",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write A Diplomatic Response To",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Job Description",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write a Partnership Proposal",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write A Performance Review For",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write an Escalation Policy",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write An Executive Summary For",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Write an Investor Update",
+      "category": "Prompts",
+      "tag": "Prompt",
+      "reason": "Tag 'Prompt' duplicates Category 'Prompts'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "Awesome MCP Servers (Free MCP List)",
+      "category": "Resources",
+      "tag": "Resource",
+      "reason": "Tag 'Resource' duplicates Category 'Resources'"
+    },
+    {
+      "type": "Category-Tag Redundancy",
+      "title": "kolejain.com resources",
+      "category": "Resources",
+      "tag": "Resource",
+      "reason": "Tag 'Resource' duplicates Category 'Resources'"
+    }
+  ]
+}

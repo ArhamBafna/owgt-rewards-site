@@ -7,6 +7,8 @@ def generate_indices():
     
     data = {}
     
+    all_tags = set()
+    
     for root, dirs, files in os.walk(base_dir):
         category_dir = os.path.basename(root)
         if root == base_dir:
@@ -17,7 +19,7 @@ def generate_indices():
             data[cat_key] = []
             
         for file in files:
-            if file.endswith('.md') and file not in ['README.md']:
+            if file.endswith('.md') and file not in ['README.md', 'master.md', 'decisions.md']:
                 filepath = os.path.join(root, file)
                 rel_path = os.path.relpath(filepath, base_dir).replace('\\', '/')
                 
@@ -32,10 +34,21 @@ def generate_indices():
                     "path": rel_path
                 })
                 
+                tags_match = re.search(r'### Tags\n(.*?)(?=\n### |$)', content, re.IGNORECASE | re.DOTALL)
+                if tags_match:
+                    for line in tags_match.group(1).splitlines():
+                        line = line.strip()
+                        if line.startswith('-'):
+                            tag = line.lstrip('-').strip()
+                            if tag:
+                                all_tags.add(tag)
+                
     # Sort everything
     for k in data:
         data[k] = sorted(data[k], key=lambda x: x['name'].lower())
         
+    sorted_tags = sorted(list(all_tags), key=lambda s: s.lower())
+
     # Write master.json
     with open(os.path.join(base_dir, 'master.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
@@ -51,5 +64,11 @@ def generate_indices():
                 f.write(f"- [{item['name']}]({item['path']})\n")
             f.write("\n")
 
+    # Write tags.txt
+    with open(os.path.join(base_dir, 'tags.txt'), 'w', encoding='utf-8') as f:
+        f.write("\n".join(sorted_tags) + "\n")
+
 if __name__ == '__main__':
     generate_indices()
+
+
