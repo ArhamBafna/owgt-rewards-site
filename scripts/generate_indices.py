@@ -3,7 +3,8 @@ import json
 import re
 
 def generate_indices():
-    base_dir = 'c:/Users/bafna/Desktop/Projects/OWGT-Newsletter-Automation/rewards/organized-data'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.abspath(os.path.join(script_dir, '..', 'organized-data'))
     
     data = {}
     

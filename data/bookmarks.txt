@@ -412,3 +412,6 @@ Link: https://www.kaggle.com/learn
 Title: GitHub Certification Exams
 Link: https://certifications.github.com
 
+Title: The Code — Coding Hacks for AI Agents
+Link: https://hackbook-chi.vercel.app/
+

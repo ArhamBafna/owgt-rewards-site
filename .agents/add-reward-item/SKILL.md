@@ -22,7 +22,7 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
 - **Description Quality**: Do NOT write generic summaries. State exact function and utility (can use extracted info). If not 100% sure, use `/grill-me` to ask user for description.
 
 ### 2. Save Raw Data (`rewards/data/`)
-- Ask user target raw file/folder in `rewards/data/` (`bookmarks.txt`, `prompts.txt`, `github.txt`, `notion.txt`, `skills.txt`, `skool-communites/`, `youtube/`).
+- If you can't decide (even slightest doubt), ask user target raw file/folder in `rewards/data/` (`bookmarks.txt`, `prompts.txt`, `github.txt`, `notion.txt`, `skills.txt`, `skool-communites/`, `youtube/`).
 - Write raw link/text into selected target.
 
 ### 3. Save Organized Item (`rewards/organized-data/`)

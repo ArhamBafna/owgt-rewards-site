@@ -7,6 +7,10 @@
     {
       "name": "Mobile App Growth Cheat Sheet",
       "path": "Cheat Sheets/mobile-app-growth-cheat-sheet.md"
+    },
+    {
+      "name": "The Code \u2014 Coding Hacks for AI Agents",
+      "path": "Cheat Sheets/the-code-coding-agent-hacks.md"
     }
   ],
   "frameworks": [
