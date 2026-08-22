@@ -67,6 +67,7 @@ Newsletter
 Open Source
 Perplexity
 Playbook
+Product
 Productivity
 Prompt
 RAG

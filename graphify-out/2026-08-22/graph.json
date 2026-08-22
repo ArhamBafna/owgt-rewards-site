@@ -409,7 +409,7 @@
       "file_type": "code",
       "norm_label": "generate_deep_item_html()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L103"
+      "source_location": "L104"
     },
     {
       "id": "scripts_sync_site_parse_markdown_item",
@@ -421,7 +421,7 @@
       "file_type": "code",
       "norm_label": "parse_markdown_item()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L23"
+      "source_location": "L24"
     },
     {
       "id": "scripts_sync_site_render_category_card",
@@ -433,7 +433,7 @@
       "file_type": "code",
       "norm_label": "render_category_card()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L267"
+      "source_location": "L254"
     },
     {
       "id": "scripts_sync_site_sync_all",
@@ -445,7 +445,7 @@
       "file_type": "code",
       "norm_label": "sync_all()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L405"
+      "source_location": "L392"
     },
     {
       "id": "scripts_sync_site_update_category_html_page",
@@ -457,7 +457,7 @@
       "file_type": "code",
       "norm_label": "update_category_html_page()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L317"
+      "source_location": "L304"
     },
     {
       "id": "scripts_sync_site_update_indices",
@@ -469,7 +469,7 @@
       "file_type": "code",
       "norm_label": "update_indices()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L78"
+      "source_location": "L79"
     },
     {
       "id": "scripts_sync_site_update_landing_and_rewards_pages",
@@ -481,7 +481,7 @@
       "file_type": "code",
       "norm_label": "update_landing_and_rewards_pages()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L343"
+      "source_location": "L330"
     },
     {
       "id": "organization_prompt",
@@ -35681,7 +35681,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L423",
+      "source_location": "L410",
       "weight": 1.0
     },
     {
@@ -35693,7 +35693,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L470",
+      "source_location": "L457",
       "weight": 1.0
     },
     {
@@ -35705,7 +35705,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L549",
+      "source_location": "L536",
       "weight": 1.0
     },
     {
@@ -35717,7 +35717,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L558",
+      "source_location": "L545",
       "weight": 1.0
     },
     {
@@ -35729,7 +35729,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L561",
+      "source_location": "L548",
       "weight": 1.0
     },
     {
@@ -35741,7 +35741,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L334",
+      "source_location": "L321",
       "weight": 1.0
     },
     {
@@ -62119,7 +62119,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L103",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -62130,7 +62130,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -62141,7 +62141,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L267",
+      "source_location": "L254",
       "weight": 1.0
     },
     {
@@ -62152,7 +62152,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L317",
+      "source_location": "L304",
       "weight": 1.0
     },
     {
@@ -62163,7 +62163,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L343",
+      "source_location": "L330",
       "weight": 1.0
     },
     {
@@ -62174,7 +62174,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L405",
+      "source_location": "L392",
       "weight": 1.0
     },
     {
@@ -62185,7 +62185,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -67879,5 +67879,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f53af47b68720cb7d61f3b09555fcc31aa886fc4"
+  "built_at_commit": "f1b3650e7dc8d4611c7483a1dcdf61a502f0f99d"
 }

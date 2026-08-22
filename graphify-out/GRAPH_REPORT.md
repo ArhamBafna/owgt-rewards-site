@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 428 files · ~452,315 words
+- 439 files · ~454,588 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2968 nodes · 2931 edges · 441 communities (422 shown, 19 thin omitted)
+- 3045 nodes · 3008 edges · 452 communities (433 shown, 19 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f1b3650e`
+- Built from commit: `65cf7f60`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -444,6 +444,17 @@
 - 01-clickable-category-breadcrumbs.md
 - 02-search-index-domain-keywords.md
 - 03-automated-sitemap-generation.md
+- brand-growth-and-partnerships-prompts.md
+- content-marketing-prompts.md
+- cro-prompts.md
+- customer-loyalty-and-retention-prompts.md
+- customer-research-prompts.md
+- data-analytics-prompts.md
+- digital-ads-and-media-buying-prompts.md
+- innovation-and-future-trends-prompts.md
+- messaging-positioning-prompts.md
+- product-marketing-and-launches-prompts.md
+- shift-ai-prompts-database.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -463,7 +474,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (441 total, 19 thin omitted)
+## Communities (452 total, 19 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2105,18 +2116,60 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 Cohesion: 0.46
 Nodes (7): generate_deep_item_html(), parse_markdown_item(), render_category_card(), sync_all(), update_category_html_page(), update_indices(), update_landing_and_rewards_pages()
 
+### Community 441 - "brand-growth-and-partnerships-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 442 - "content-marketing-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 443 - "cro-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 444 - "customer-loyalty-and-retention-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 445 - "customer-research-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 446 - "data-analytics-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 447 - "digital-ads-and-media-buying-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 448 - "innovation-and-future-trends-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 449 - "messaging-positioning-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 450 - "product-marketing-and-launches-prompts.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 451 - "shift-ai-prompts-database.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2387 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2382 more)
+- **2453 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2448 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Master Index` connect `Master Index` to `master.md`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract` to the rest of the system?**
-  _2387 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2453 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
@@ -2127,3 +2180,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `build-insane-animated-websites.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Motion Graphics with AI — Full Setup & Workflow Guide` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
