@@ -9,6 +9,7 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
 
 ## Anti-Patterns
 - NEVER store plain URL redirect without getting page content first.
+- NEVER truncate or partially extract items: if extracting content, you MUST be 100% confident and guaranteed to extract ALL items/entries completely. If 100% full extraction is not guaranteed, store link to redirect to instead of partial content.
 - NEVER skip raw data entry in `data/`.
 - NEVER leave `organized-data/` unindexed; always run build scripts.
 - NEVER write generic or vague descriptions (e.g., "App repo by X").
@@ -17,7 +18,8 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
 ## Workflow
 
 ### 1. Fetch & Parse Input
-- **URL/Link**: If link, read full page text via `read_url_content` or Firecrawl/Exa. If content extractable, prefer directly stating content on site over giving link user to redirect to. Extract specific value proposition and details for description and content.
+- **URL/Link**: If link, read full page text via `read_url_content` or Firecrawl/Exa.
+  - **Extraction Rule**: If you can accurately, guaranteed extract ALL content/items 100% without loss or omission, extract and state all content directly on site. If not 100% sure and confident you can extract everything completely and accurately, provide the URL to redirect to instead.
 - **Guide/Tutorial**: If text extracted, if step-by-step guide, run `rewards/.agents/skool-guide-to-md/SKILL.md` to de-brand AI terms and structure markdown first.
 - **Description Quality**: Do NOT write generic summaries. State exact function and utility (can use extracted info). If not 100% sure, use `/grill-me` to ask user for description.
 
@@ -66,8 +68,6 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
   ```powershell
   graphify update .
   ```
-
-### 5. Commit and Push Changes
 - Stage, commit, and push changes to remote:
   ```powershell
   git add .

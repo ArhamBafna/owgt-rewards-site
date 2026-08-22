@@ -6,7 +6,7 @@ This index is automatically generated.
 
 - [ChatGPT & AI Cheatsheet](Cheat Sheets/chatgpt-and-ai-cheatsheet.md)
 - [Mobile App Growth Cheat Sheet](Cheat Sheets/mobile-app-growth-cheat-sheet.md)
-- [The Code — Coding Hacks for AI Agents](Cheat Sheets/the-code-coding-agent-hacks.md)
+- [The Code — 50+ Coding Agent Hacks](Cheat Sheets/the-code-coding-agent-hacks.md)
 
 ## Frameworks
 
