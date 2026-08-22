@@ -417,3 +417,6 @@ Link: https://hackbook-chi.vercel.app/
 
 Title: Build Your Generative AI Productivity Skills with Microsoft and LinkedIn
 Link: https://www.linkedin.com/learning/paths/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin
+
+Title: Generative AI: The Evolution of Thoughtful Online Search
+Link: https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtful-online-search/how-finding-and-sharing-information-online-has-evolved

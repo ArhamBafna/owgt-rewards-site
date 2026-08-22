@@ -66,6 +66,7 @@ This index is automatically generated.
 - [AI-Powered Process Documentation](Learning/ai-powered-process-documentation.md)
 - [Build Your Generative AI Productivity Skills with Microsoft and LinkedIn](Learning/build-your-generative-ai-productivity-skills.md)
 - [Cold Email: How to Write Like a Human](Learning/lesson-cold-email-how-to-write-like-a-human.md)
+- [Generative AI: The Evolution of Thoughtful Online Search](Learning/generative-ai-the-evolution-of-thoughtful-online-search.md)
 - [GitHub Certification Exams](Learning/github-certification-exams.md)
 - [How to Hire an AI Email Marketer](Learning/lesson-how-to-hire-an-ai-email-marketer.md)
 - [Kaggle 5-Day Agents Guide](Learning/kaggle-5-day-agents-guide.md)

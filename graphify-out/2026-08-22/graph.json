@@ -16861,7 +16861,7 @@
       "node_kind": "heading",
       "norm_label": "prompts",
       "source_file": "organized-data/master.md",
-      "source_location": "L75"
+      "source_location": "L76"
     },
     {
       "id": "organized_data_master_resources",
@@ -16873,7 +16873,7 @@
       "node_kind": "heading",
       "norm_label": "resources",
       "source_file": "organized-data/master.md",
-      "source_location": "L232"
+      "source_location": "L233"
     },
     {
       "id": "organized_data_master_templates",
@@ -16885,7 +16885,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "organized-data/master.md",
-      "source_location": "L287"
+      "source_location": "L288"
     },
     {
       "id": "organized_data_master_tools",
@@ -16897,7 +16897,7 @@
       "node_kind": "heading",
       "norm_label": "tools",
       "source_file": "organized-data/master.md",
-      "source_location": "L292"
+      "source_location": "L293"
     },
     {
       "id": "organized_data_resources_trustmrr",
@@ -28340,6 +28340,378 @@
       "source_location": "L1"
     },
     {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_10_run_agents_on_parallel_git_worktrees",
+      "label": "10. Run Agents on Parallel Git Worktrees",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "10. run agents on parallel git worktrees",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_11_resume_or_fork_sessions",
+      "label": "11. Resume or Fork Sessions",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "11. resume or fork sessions",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L157"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_12_rewind_codex_sessions_via_double_tap_esc",
+      "label": "12. Rewind Codex Sessions via Double-Tap Esc",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "12. rewind codex sessions via double-tap esc",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_13_run_skills_in_isolated_context_context_fork",
+      "label": "13. Run Skills in Isolated Context (`context: fork`)",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "13. run skills in isolated context (`context: fork`)",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L176"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_14_mid_task_inquiries_with_btw",
+      "label": "14. Mid-Task Inquiries with `/btw`",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "14. mid-task inquiries with `/btw`",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L194"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_15_write_a_spec_file_spec_md_first",
+      "label": "15. Write a Spec File (`spec.md`) First",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "15. write a spec file (`spec.md`) first",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L205"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_16_enforce_proof_in_status_updates",
+      "label": "16. Enforce Proof in Status Updates",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "16. enforce proof in status updates",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_17_make_claude_code_grill_you_before_building",
+      "label": "17. Make Claude Code Grill You Before Building",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "17. make claude code grill you before building",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_18_structured_todo_list_discipline",
+      "label": "18. Structured TODO List Discipline",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "18. structured todo list discipline",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L245"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_19_pin_files_explicitly_with_in_cursor",
+      "label": "19. Pin Files Explicitly with `@` in Cursor",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "19. pin files explicitly with `@` in cursor",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L254"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_1_pin_a_claude_md_at_repo_root",
+      "label": "1. Pin a CLAUDE.md at Repo Root",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. pin a claude.md at repo root",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_20_paste_screenshots_for_visual_layout_fixes",
+      "label": "20. Paste Screenshots for Visual & Layout Fixes",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "20. paste screenshots for visual & layout fixes",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L264"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_21_block_stop_until_tests_pass",
+      "label": "21. Block Stop Until Tests Pass",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "21. block stop until tests pass",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L272"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_22_auto_format_on_write_edit_posttooluse",
+      "label": "22. Auto-Format on Write / Edit (`PostToolUse`)",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "22. auto-format on write / edit (`posttooluse`)",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L290"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_23_secret_scanner_via_userpromptsubmit_hook",
+      "label": "23. Secret Scanner via `UserPromptSubmit` Hook",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "23. secret scanner via `userpromptsubmit` hook",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L308"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_24_pre_approve_read_only_inspection_commands",
+      "label": "24. Pre-Approve Read-Only Inspection Commands",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "24. pre-approve read-only inspection commands",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L324"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_25_recurring_monitor_and_loop_commands",
+      "label": "25. Recurring Monitor and Loop Commands",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "25. recurring monitor and loop commands",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L344"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_26_dynamic_bang_prefix_in_commands_skills",
+      "label": "26. Dynamic Bang (`!`) Prefix in Commands & Skills",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "26. dynamic bang (`!`) prefix in commands & skills",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L352"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_27_chrome_devtools_mcp_for_frontend_debugging",
+      "label": "27. Chrome DevTools MCP for Frontend Debugging",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "27. chrome devtools mcp for frontend debugging",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L373"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_28_language_server_lsp_plugins",
+      "label": "28. Language Server (LSP) Plugins",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "28. language server (lsp) plugins",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L387"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_29_code_simplifier_plugin",
+      "label": "29. Code Simplifier Plugin",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "29. code simplifier plugin",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L397"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_2_auto_generate_a_tight_claude_md_with_init",
+      "label": "2. Auto-Generate a Tight CLAUDE.md with `/init`",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. auto-generate a tight claude.md with `/init`",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_30_token_optimization_with_rtk",
+      "label": "30. Token Optimization with RTK",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "30. token optimization with rtk",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L404"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_3_layer_cursor_rules_mdc_by_scope",
+      "label": "3. Layer `.cursor/rules/*.mdc` by Scope",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. layer `.cursor/rules/*.mdc` by scope",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_4_auto_load_git_context_at_session_start",
+      "label": "4. Auto-Load Git Context at Session Start",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. auto-load git context at session start",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L67"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_5_lock_down_claude_code_s_stability_settings",
+      "label": "5. Lock Down Claude Code's Stability Settings",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. lock down claude code's stability settings",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_6_feed_claude_code_s_own_docs_map_into_context",
+      "label": "6. Feed Claude Code's Own Docs Map into Context",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. feed claude code's own docs map into context",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_7_shift_tab_into_plan_mode_for_risky_changes",
+      "label": "7. Shift+Tab into Plan Mode for Risky Changes",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "7. shift+tab into plan mode for risky changes",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L112"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_8_fan_out_independent_searches_with_parallel_subagents",
+      "label": "8. Fan Out Independent Searches with Parallel Subagents",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "8. fan out independent searches with parallel subagents",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L122"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_9_codex_split_tasks_at_commit_boundaries",
+      "label": "9. Codex: Split Tasks at Commit Boundaries",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "9. codex: split tasks at commit boundaries",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
+      "label": "Automation & Hooks",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "automation & hooks",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L270"
+    },
+    {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_category",
       "label": "Category",
       "_origin": "ast",
@@ -28364,6 +28736,18 @@
       "source_location": "L13"
     },
     {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
+      "label": "Context & Configuration",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "context & configuration",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L20"
+    },
+    {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_description",
       "label": "Description",
       "_origin": "ast",
@@ -28374,18 +28758,6 @@
       "norm_label": "description",
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
       "source_location": "L4"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_name",
-      "label": "Name",
-      "_origin": "ast",
-      "community": 423,
-      "community_name": "the-code-coding-agent-hacks.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "name",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L1"
     },
     {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_overview",
@@ -28400,6 +28772,18 @@
       "source_location": "L15"
     },
     {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
+      "label": "Prompting & Specification",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "prompting & specification",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L203"
+    },
+    {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tags",
       "label": "Tags",
       "_origin": "ast",
@@ -28409,7 +28793,19 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L822"
+      "source_location": "L413"
+    },
+    {
+      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
+      "label": "Tools & Plugins",
+      "_origin": "ast",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tools & plugins",
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L371"
     },
     {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_url",
@@ -28424,664 +28820,100 @@
       "source_location": "L10"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_29_block_stop_until_tests_pass_with_a_hook",
-      "label": "29. Block Stop until tests pass with a hook",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "29. block stop until tests pass with a hook",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L481"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_30_run_claude_code_headless_in_ci_for_triage",
-      "label": "30. Run Claude Code headless in CI for triage",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "30. run claude code headless in ci for triage",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L501"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_31_allowlist_read_only_commands_to_kill_prompt_fatigue",
-      "label": "31. Allowlist read-only commands to kill prompt fatigue",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "31. allowlist read-only commands to kill prompt fatigue",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L517"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_32_watch_background_tasks_with_the_monitor_tool",
-      "label": "32. Watch background tasks with the Monitor tool",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "32. watch background tasks with the monitor tool",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L539"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_33_get_notified_when_claude_code_finishes_a_task",
-      "label": "33. Get notified when Claude Code finishes a task",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "33. get notified when claude code finishes a task",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L548"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_34_block_api_keys_from_leaking_via_a_userpromptsubmit_hook",
-      "label": "34. Block API keys from leaking via a UserPromptSubmit hook",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "34. block api keys from leaking via a userpromptsubmit hook",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L565"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_35_kill_permission_spam_with_fewer_permission_prompts",
-      "label": "35. Kill permission spam with /fewer-permission-prompts",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "35. kill permission spam with /fewer-permission-prompts",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L584"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_36_monitor_deploys_without_leaving_claude_code",
-      "label": "36. Monitor deploys without leaving Claude Code",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "36. monitor deploys without leaving claude code",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L593"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_37_run_codex_review_on_every_pull_request",
-      "label": "37. Run @codex review on every pull request",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "37. run @codex review on every pull request",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L604"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_38_configure_cursor_s_yolo_mode_with_a_scoped_allowlist",
-      "label": "38. Configure Cursor's YOLO mode with a scoped allowlist",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "38. configure cursor's yolo mode with a scoped allowlist",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L621"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_39_schedule_jobs_in_the_cloud_with_schedule",
-      "label": "39. Schedule jobs in the cloud with /schedule",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "39. schedule jobs in the cloud with /schedule",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L637"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_40_run_prompts_on_repeat_with_scheduled_tasks",
-      "label": "40. Run prompts on repeat with scheduled tasks",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "40. run prompts on repeat with scheduled tasks",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L648"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_41_auto_format_claude_code_s_output_with_a_posttooluse_hook",
-      "label": "41. Auto-format Claude Code's output with a PostToolUse hook",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "41. auto-format claude code's output with a posttooluse hook",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L662"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "label": "Automation & Hooks",
-      "_origin": "ast",
-      "community": 425,
-      "community_name": "Automation & Hooks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "automation & hooks",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L479"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_10_run_agents_on_parallel_worktrees_not_branches",
-      "label": "10. Run agents on parallel worktrees, not branches",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "10. run agents on parallel worktrees, not branches",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L165"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_11_claude_resume_to_pick_up_yesterday_s_thread",
-      "label": "11. claude --resume to pick up yesterday's thread",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "11. claude --resume to pick up yesterday's thread",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L182"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_12_spawn_parallel_subagents_for_code_review",
-      "label": "12. Spawn parallel subagents for code review",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "12. spawn parallel subagents for code review",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L193"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_13_rewind_a_codex_session_by_double_tapping_esc",
-      "label": "13. Rewind a Codex session by double-tapping Esc",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "13. rewind a codex session by double-tapping esc",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L208"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_14_promote_any_session_into_a_reusable_slash_command",
-      "label": "14. Promote any session into a reusable slash command",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "14. promote any session into a reusable slash command",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L219"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_15_run_skills_in_isolated_context_with_context_fork",
-      "label": "15. Run skills in isolated context with `context: fork`",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "15. run skills in isolated context with `context: fork`",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L235"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_16_collapse_the_pr_ritual_into_one_pr_command",
-      "label": "16. Collapse the PR ritual into one /pr command",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "16. collapse the pr ritual into one /pr command",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L256"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_17_ask_side_questions_mid_task_with_btw",
-      "label": "17. Ask side questions mid-task with /btw",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "17. ask side questions mid-task with /btw",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L272"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_18_fork_a_claude_code_session_to_try_a_different_approach",
-      "label": "18. Fork a Claude Code session to try a different approach",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "18. fork a claude code session to try a different approach",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L281"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_7_shift_tab_into_plan_mode_for_risky_changes",
-      "label": "7. Shift+Tab into Plan Mode for risky changes",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "7. shift+tab into plan mode for risky changes",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L126"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_8_fan_out_independent_searches_with_subagents",
-      "label": "8. Fan out independent searches with subagents",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "8. fan out independent searches with subagents",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L138"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_9_codex_split_tasks_at_natural_commit_boundaries",
-      "label": "9. Codex: split tasks at natural commit boundaries",
-      "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "9. codex: split tasks at natural commit boundaries",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L150"
-    },
-    {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
       "label": "Workflow & Task Management",
       "_origin": "ast",
-      "community": 426,
-      "community_name": "Workflow & Task Management",
+      "community": 423,
+      "community_name": "the-code-coding-agent-hacks.md",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "workflow & task management",
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L124"
+      "source_location": "L110"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_19_project_slash_commands_as_reusable_prompts",
-      "label": "19. Project slash commands as reusable prompts",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "label": "build-your-generative-ai-productivity-skills.md",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "19. project slash commands as reusable prompts",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L298"
+      "node_kind": "page",
+      "norm_label": "build-your-generative-ai-productivity-skills.md",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L1"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_20_pin_files_to_cursor_chat_with_before_asking",
-      "label": "20. Pin files to Cursor chat with @ before asking",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_category",
+      "label": "Category",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "20. pin files to cursor chat with @ before asking",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L314"
+      "norm_label": "category",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L7"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_21_write_the_spec_then_ask_the_agent_to_implement",
-      "label": "21. Write the spec, then ask the agent to implement",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_content",
+      "label": "Content",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "21. write the spec, then ask the agent to implement",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L326"
+      "norm_label": "content",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L13"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_22_paste_ui_screenshots_to_pin_down_design_intent",
-      "label": "22. Paste UI screenshots to pin down design intent",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_description",
+      "label": "Description",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "22. paste ui screenshots to pin down design intent",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L348"
+      "norm_label": "description",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L4"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_23_force_a_todo_list_before_non_trivial_work",
-      "label": "23. Force a TODO list before non-trivial work",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_name",
+      "label": "Name",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "23. force a todo list before non-trivial work",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L363"
+      "norm_label": "name",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L1"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_24_pull_live_shell_output_into_slash_commands_with",
-      "label": "24. Pull live shell output into slash commands with !",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_tags",
+      "label": "Tags",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "24. pull live shell output into slash commands with !",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L377"
+      "norm_label": "tags",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L16"
     },
     {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_25_crank_up_reasoning_with_effort_high",
-      "label": "25. Crank up reasoning with /effort high",
+      "id": "organized_data_learning_build_your_generative_ai_productivity_skills_url",
+      "label": "URL",
       "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
+      "community": 424,
+      "community_name": "build-your-generative-ai-productivity-skills.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "25. crank up reasoning with /effort high",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L401"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_26_embed_live_shell_output_into_claude_code_skills",
-      "label": "26. Embed live shell output into Claude Code skills",
-      "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "26. embed live shell output into claude code skills",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L419"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_27_make_claude_code_grill_you_before_building",
-      "label": "27. Make Claude Code grill you before building",
-      "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "27. make claude code grill you before building",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L438"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_28_stop_agents_from_faking_progress_demand_proof_in_every_status_update",
-      "label": "28. Stop agents from faking progress \u2014 demand proof in every status update",
-      "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "28. stop agents from faking progress \u2014 demand proof in every status update",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L461"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "label": "Prompting & Specification",
-      "_origin": "ast",
-      "community": 427,
-      "community_name": "Prompting & Specification",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "prompting & specification",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L296"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_42_add_an_mcp_server_in_one_command",
-      "label": "42. Add an MCP server in one command",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "42. add an mcp server in one command",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L690"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_43_debug_frontend_bugs_with_the_chrome_devtools_mcp",
-      "label": "43. Debug frontend bugs with the Chrome DevTools MCP",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "43. debug frontend bugs with the chrome devtools mcp",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L704"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_44_catch_type_errors_before_commit_with_lsp_plugins",
-      "label": "44. Catch type errors before commit with LSP plugins",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "44. catch type errors before commit with lsp plugins",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L725"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_45_turn_figma_frames_into_code_with_codex",
-      "label": "45. Turn Figma frames into code with Codex",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "45. turn figma frames into code with codex",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L739"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_46_skill_route_blocked_urls_through_gemini",
-      "label": "46. Skill-route blocked URLs through Gemini",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "46. skill-route blocked urls through gemini",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L759"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_47_audit_your_claude_code_permissions_with_cc_safe",
-      "label": "47. Audit your Claude Code permissions with cc-safe",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "47. audit your claude code permissions with cc-safe",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L775"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_48_strip_needless_abstractions_with_code_simplifier",
-      "label": "48. Strip needless abstractions with code-simplifier",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "48. strip needless abstractions with code-simplifier",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L784"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_49_share_claude_code_sessions_as_html_replays",
-      "label": "49. Share Claude Code sessions as HTML replays",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "49. share claude code sessions as html replays",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L796"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_50_cut_claude_code_s_token_usage_by_70_with_rtk",
-      "label": "50. Cut Claude Code's token usage by 70% with rtk",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "50. cut claude code's token usage by 70% with rtk",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L806"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "label": "Tools & Plugins",
-      "_origin": "ast",
-      "community": 428,
-      "community_name": "Tools & Plugins",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "tools & plugins",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L688"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_1_pin_a_claude_md_at_repo_root",
-      "label": "1. Pin a CLAUDE.md at repo root",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. pin a claude.md at repo root",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L22"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_2_layer_cursor_rules_mdc_by_scope",
-      "label": "2. Layer .cursor/rules/*.mdc by scope",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. layer .cursor/rules/*.mdc by scope",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L42"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_3_lock_down_claude_code_s_unstable_behavior",
-      "label": "3. Lock down Claude Code's unstable behavior",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. lock down claude code's unstable behavior",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L58"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_4_auto_load_git_context_at_session_start",
-      "label": "4. Auto-load git context at session start",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. auto-load git context at session start",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L76"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_5_feed_claude_code_s_own_docs_into_context",
-      "label": "5. Feed Claude Code's own docs into context",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. feed claude code's own docs into context",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L95"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_6_auto_generate_a_tight_claude_md_with_init",
-      "label": "6. Auto-generate a tight CLAUDE.md with /init",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6. auto-generate a tight claude.md with /init",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L105"
-    },
-    {
-      "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
-      "label": "Context & Configuration",
-      "_origin": "ast",
-      "community": 429,
-      "community_name": "Context & Configuration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "context & configuration",
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L20"
+      "norm_label": "url",
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L10"
     },
     {
       "id": "organized_data_guides_prompt_engineering",
@@ -38111,17 +37943,6 @@
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_name",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
       "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_url",
       "relation": "contains",
       "_origin": "ast",
@@ -38139,7 +37960,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L124",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -38172,7 +37993,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L296",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
+      "source_location": "L371",
       "weight": 1.0
     },
     {
@@ -38188,24 +38031,13 @@
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tags",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L479",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L688",
+      "source_location": "L413",
       "weight": 1.0
     },
     {
@@ -38220,157 +38052,69 @@
       "weight": 1.0
     },
     {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tags",
+      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_21_block_stop_until_tests_pass",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L822",
+      "source_location": "L272",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_29_block_stop_until_tests_pass_with_a_hook",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_22_auto_format_on_write_edit_posttooluse",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L481",
+      "source_location": "L290",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_30_run_claude_code_headless_in_ci_for_triage",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_23_secret_scanner_via_userpromptsubmit_hook",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L501",
+      "source_location": "L308",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_31_allowlist_read_only_commands_to_kill_prompt_fatigue",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_24_pre_approve_read_only_inspection_commands",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L517",
+      "source_location": "L324",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_32_watch_background_tasks_with_the_monitor_tool",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_25_recurring_monitor_and_loop_commands",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L539",
+      "source_location": "L344",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_33_get_notified_when_claude_code_finishes_a_task",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_26_dynamic_bang_prefix_in_commands_skills",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L548",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_34_block_api_keys_from_leaking_via_a_userpromptsubmit_hook",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L565",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_35_kill_permission_spam_with_fewer_permission_prompts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L584",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_36_monitor_deploys_without_leaving_claude_code",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L593",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_37_run_codex_review_on_every_pull_request",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L604",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_38_configure_cursor_s_yolo_mode_with_a_scoped_allowlist",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L621",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_39_schedule_jobs_in_the_cloud_with_schedule",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L637",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_40_run_prompts_on_repeat_with_scheduled_tasks",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L648",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_automation_hooks",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_41_auto_format_claude_code_s_output_with_a_posttooluse_hook",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L662",
+      "source_location": "L352",
       "weight": 1.0
     },
     {
@@ -38386,13 +38130,13 @@
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_6_auto_generate_a_tight_claude_md_with_init",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_6_feed_claude_code_s_own_docs_map_into_context",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L105",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -38408,24 +38152,24 @@
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_2_layer_cursor_rules_mdc_by_scope",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_2_auto_generate_a_tight_claude_md_with_init",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L42",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_3_lock_down_claude_code_s_unstable_behavior",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_3_layer_cursor_rules_mdc_by_scope",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L58",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -38436,227 +38180,128 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L76",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_context_configuration",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_5_feed_claude_code_s_own_docs_into_context",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_5_lock_down_claude_code_s_stability_settings",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L95",
+      "source_location": "L84",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_19_project_slash_commands_as_reusable_prompts",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_15_write_a_spec_file_spec_md_first",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L298",
+      "source_location": "L205",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_20_pin_files_to_cursor_chat_with_before_asking",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_16_enforce_proof_in_status_updates",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L314",
+      "source_location": "L225",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_21_write_the_spec_then_ask_the_agent_to_implement",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_17_make_claude_code_grill_you_before_building",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L326",
+      "source_location": "L235",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_22_paste_ui_screenshots_to_pin_down_design_intent",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_18_structured_todo_list_discipline",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L348",
+      "source_location": "L245",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_23_force_a_todo_list_before_non_trivial_work",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_19_pin_files_explicitly_with_in_cursor",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L363",
+      "source_location": "L254",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_24_pull_live_shell_output_into_slash_commands_with",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_20_paste_screenshots_for_visual_layout_fixes",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L377",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_25_crank_up_reasoning_with_effort_high",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L401",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_26_embed_live_shell_output_into_claude_code_skills",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L419",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_27_make_claude_code_grill_you_before_building",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L438",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_prompting_specification",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_28_stop_agents_from_faking_progress_demand_proof_in_every_status_update",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L461",
+      "source_location": "L264",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_42_add_an_mcp_server_in_one_command",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_27_chrome_devtools_mcp_for_frontend_debugging",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L690",
+      "source_location": "L373",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_43_debug_frontend_bugs_with_the_chrome_devtools_mcp",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_28_language_server_lsp_plugins",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L704",
+      "source_location": "L387",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_44_catch_type_errors_before_commit_with_lsp_plugins",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_29_code_simplifier_plugin",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L725",
+      "source_location": "L397",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_45_turn_figma_frames_into_code_with_codex",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_30_token_optimization_with_rtk",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L739",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_46_skill_route_blocked_urls_through_gemini",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L759",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_47_audit_your_claude_code_permissions_with_cc_safe",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L775",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_48_strip_needless_abstractions_with_code_simplifier",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L784",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_49_share_claude_code_sessions_as_html_replays",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L796",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_tools_plugins",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_50_cut_claude_code_s_token_usage_by_70_with_rtk",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L806",
+      "source_location": "L404",
       "weight": 1.0
     },
     {
@@ -38667,128 +38312,84 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L126",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_8_fan_out_independent_searches_with_subagents",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_8_fan_out_independent_searches_with_parallel_subagents",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L138",
+      "source_location": "L122",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_9_codex_split_tasks_at_natural_commit_boundaries",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_9_codex_split_tasks_at_commit_boundaries",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L150",
+      "source_location": "L132",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_10_run_agents_on_parallel_worktrees_not_branches",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_10_run_agents_on_parallel_git_worktrees",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L165",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_11_claude_resume_to_pick_up_yesterday_s_thread",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_11_resume_or_fork_sessions",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L182",
+      "source_location": "L157",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_12_spawn_parallel_subagents_for_code_review",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_12_rewind_codex_sessions_via_double_tap_esc",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L193",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_13_rewind_a_codex_session_by_double_tapping_esc",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_13_run_skills_in_isolated_context_context_fork",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L208",
+      "source_location": "L176",
       "weight": 1.0
     },
     {
       "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_14_promote_any_session_into_a_reusable_slash_command",
+      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_14_mid_task_inquiries_with_btw",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L219",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_15_run_skills_in_isolated_context_with_context_fork",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L235",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_16_collapse_the_pr_ritual_into_one_pr_command",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L256",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_17_ask_side_questions_mid_task_with_btw",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L272",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_cheat_sheets_the_code_coding_agent_hacks_workflow_task_management",
-      "target": "organized_data_cheat_sheets_the_code_coding_agent_hacks_18_fork_a_claude_code_session_to_try_a_different_approach",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md",
-      "source_location": "L281",
+      "source_location": "L194",
       "weight": 1.0
     },
     {
@@ -43258,6 +42859,72 @@
       "weight": 1.0
     },
     {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_content",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_tags",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_description",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_build_your_generative_ai_productivity_skills",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills_category",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/build-your-generative-ai-productivity-skills.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "organized_data_learning_github_certification_exams",
       "target": "organized_data_learning_github_certification_exams_name",
       "relation": "contains",
@@ -43749,7 +43416,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L232",
+      "source_location": "L233",
       "weight": 1.0
     },
     {
@@ -43760,7 +43427,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L287",
+      "source_location": "L288",
       "weight": 1.0
     },
     {
@@ -43771,7 +43438,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L292",
+      "source_location": "L293",
       "weight": 1.0
     },
     {
@@ -43804,7 +43471,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L75",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -62058,7 +61725,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cold_email",
+      "target": "organized_data_prompts_cold_dm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62069,7 +61736,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_compare_and_contrast_these_two",
+      "target": "organized_data_prompts_cold_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62080,7 +61747,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_compare_two_real_options",
+      "target": "organized_data_prompts_compare_and_contrast_these_two",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62091,7 +61758,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_competitor_analysis",
+      "target": "organized_data_prompts_compare_two_real_options",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62102,7 +61769,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_content_ideas",
+      "target": "organized_data_prompts_competitor_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62113,7 +61780,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_craft_an_ask_for_a_warm_introduction",
+      "target": "organized_data_prompts_content_ideas",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62124,7 +61791,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_meeting_agenda",
+      "target": "organized_data_prompts_craft_an_ask_for_a_warm_introduction",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62135,7 +61802,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_personal_okr_for",
+      "target": "organized_data_prompts_create_a_meeting_agenda",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62146,7 +61813,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_project_kickoff_checklist",
+      "target": "organized_data_prompts_create_a_personal_okr_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62157,7 +61824,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_tight_10_minute_meeting",
+      "target": "organized_data_prompts_create_a_project_kickoff_checklist",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62168,7 +61835,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_culture_assessment",
+      "target": "organized_data_prompts_create_a_tight_10_minute_meeting",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62179,7 +61846,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_data_story_narrative",
+      "target": "organized_data_prompts_culture_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62190,18 +61857,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_on_organizational_structure",
+      "target": "organized_data_prompts_data_story_narrative",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L114",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_whether_to_pivot_or_stay_the_course",
+      "target": "organized_data_prompts_decide_on_organizational_structure",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62212,7 +61879,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_whether_to_promote_or_let_go",
+      "target": "organized_data_prompts_decide_whether_to_pivot_or_stay_the_course",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62223,7 +61890,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_define_your_unique_positioning",
+      "target": "organized_data_prompts_decide_whether_to_promote_or_let_go",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62234,7 +61901,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_deliver_difficult_news",
+      "target": "organized_data_prompts_define_your_unique_positioning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62245,7 +61912,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_design_a_weekly_review_framework",
+      "target": "organized_data_prompts_deliver_difficult_news",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62256,7 +61923,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_diagnose_a_team_problem",
+      "target": "organized_data_prompts_design_a_weekly_review_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62267,7 +61934,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_diagnose_why_something_isnt_working",
+      "target": "organized_data_prompts_diagnose_a_team_problem",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62278,7 +61945,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_difficult_employee_conversation",
+      "target": "organized_data_prompts_diagnose_why_something_isnt_working",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62289,7 +61956,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_5_questions_i_should",
+      "target": "organized_data_prompts_difficult_employee_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62300,7 +61967,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_follow_up_after_no_response",
+      "target": "organized_data_prompts_draft_5_questions_i_should",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62311,7 +61978,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_polite_but_firm",
+      "target": "organized_data_prompts_draft_a_follow_up_after_no_response",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62322,7 +61989,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_product_announcement",
+      "target": "organized_data_prompts_draft_a_polite_but_firm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62333,7 +62000,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_request_to_leadership",
+      "target": "organized_data_prompts_draft_a_product_announcement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62344,7 +62011,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_weekly_update_to_your_team",
+      "target": "organized_data_prompts_draft_a_request_to_leadership",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62355,7 +62022,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_an_executive_summary",
+      "target": "organized_data_prompts_draft_a_weekly_update_to_your_team",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62377,7 +62044,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_performance_feedback",
+      "target": "organized_data_prompts_draft_an_executive_summary",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62388,7 +62055,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_edit_this_paragraph_for_clarity",
+      "target": "organized_data_prompts_draft_performance_feedback",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62399,7 +62066,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_email_newsletter",
+      "target": "organized_data_prompts_edit_this_paragraph_for_clarity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62410,7 +62077,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_email_reply",
+      "target": "organized_data_prompts_email_newsletter",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62421,7 +62088,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_employee_engagement_analysis",
+      "target": "organized_data_prompts_email_reply",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62432,18 +62099,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_evaluate_a_new_market_opportunity",
+      "target": "organized_data_prompts_employee_engagement_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L138",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_evaluate_a_new_opportunity",
+      "target": "organized_data_prompts_evaluate_a_new_market_opportunity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62465,7 +62132,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_explain_these_financial_terms_in_plain_language_for_a",
+      "target": "organized_data_prompts_evaluate_a_new_opportunity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62476,7 +62143,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_follow_up",
+      "target": "organized_data_prompts_explain_these_financial_terms_in_plain_language_for_a",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62487,7 +62154,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_follow_up_touch_1",
+      "target": "organized_data_prompts_follow_up",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62498,7 +62165,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_full_ai_system_self_audit_prompt",
+      "target": "organized_data_prompts_follow_up_touch_1",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62509,7 +62176,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_10_creative_solutions_to",
+      "target": "organized_data_prompts_full_ai_system_self_audit_prompt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62520,7 +62187,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_5_different_ways_to",
+      "target": "organized_data_prompts_generate_10_creative_solutions_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62531,7 +62198,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_alternatives_when_youre_stuck",
+      "target": "organized_data_prompts_generate_5_different_ways_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62542,7 +62209,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_feature_ideas_from_complaints",
+      "target": "organized_data_prompts_generate_alternatives_when_youre_stuck",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62553,7 +62220,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_get_devils_advocate_feedback",
+      "target": "organized_data_prompts_generate_feature_ideas_from_complaints",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62564,7 +62231,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_5_options_61",
+      "target": "organized_data_prompts_get_devils_advocate_feedback",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62586,7 +62253,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_a_structured_swot",
+      "target": "organized_data_prompts_give_me_5_options_61",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62597,7 +62264,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_the_tl_dr_of",
+      "target": "organized_data_prompts_give_me_a_structured_swot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62608,7 +62275,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_handle_a_difficult_investor_conversation",
+      "target": "organized_data_prompts_give_me_the_tl_dr_of",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62619,7 +62286,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hashtag_strategy",
+      "target": "organized_data_prompts_handle_a_difficult_investor_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62630,7 +62297,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_higgsfield_ugc_prompt",
+      "target": "organized_data_prompts_hashtag_strategy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62641,7 +62308,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hire_vs_outsource",
+      "target": "organized_data_prompts_higgsfield_ugc_prompt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62652,7 +62319,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hook_generator",
+      "target": "organized_data_prompts_hire_vs_outsource",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62663,7 +62330,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_idea_validation",
+      "target": "organized_data_prompts_hook_generator",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62674,7 +62341,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_inefficiencies_in_this_workflow",
+      "target": "organized_data_prompts_idea_validation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62685,7 +62352,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_3_biggest_risks",
+      "target": "organized_data_prompts_identify_inefficiencies_in_this_workflow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62696,7 +62363,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_real_bottleneck",
+      "target": "organized_data_prompts_identify_the_3_biggest_risks",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62707,7 +62374,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_root_cause",
+      "target": "organized_data_prompts_identify_the_real_bottleneck",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62718,7 +62385,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_story_this_data",
+      "target": "organized_data_prompts_identify_the_root_cause",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62729,7 +62396,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_your_biggest_blind_spot",
+      "target": "organized_data_prompts_identify_the_story_this_data",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62740,7 +62407,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_improve_your_onboarding_flow",
+      "target": "organized_data_prompts_identify_your_biggest_blind_spot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62751,7 +62418,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_investment_decision_analysis",
+      "target": "organized_data_prompts_improve_your_onboarding_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62762,7 +62429,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_job_description",
+      "target": "organized_data_prompts_investment_decision_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62773,7 +62440,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_kpi_framework_design",
+      "target": "organized_data_prompts_job_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62784,7 +62451,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_make_the_decision_youve_been_avoiding",
+      "target": "organized_data_prompts_kpi_framework_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62795,7 +62462,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_effectiveness_audit",
+      "target": "organized_data_prompts_make_the_decision_youve_been_avoiding",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62806,7 +62473,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_request",
+      "target": "organized_data_prompts_meeting_effectiveness_audit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62817,7 +62484,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_summary",
+      "target": "organized_data_prompts_meeting_request",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62828,7 +62495,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_navigate_a_stakeholder_disagreement",
+      "target": "organized_data_prompts_meeting_summary",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62839,7 +62506,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_objection_response",
+      "target": "organized_data_prompts_navigate_a_stakeholder_disagreement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62850,7 +62517,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_offer_clarity",
+      "target": "organized_data_prompts_objection_response",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62861,7 +62528,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_onboarding_program_design",
+      "target": "organized_data_prompts_offer_clarity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62872,7 +62539,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_performance_review_preparation",
+      "target": "organized_data_prompts_onboarding_program_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62883,7 +62550,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_plan_a_difficult_conversation",
+      "target": "organized_data_prompts_performance_review_preparation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62894,7 +62561,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_plan_a_project_kickoff",
+      "target": "organized_data_prompts_plan_a_difficult_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62905,7 +62572,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_polite_decline",
+      "target": "organized_data_prompts_plan_a_project_kickoff",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62916,7 +62583,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_post_mortem_framework",
+      "target": "organized_data_prompts_polite_decline",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62927,7 +62594,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prepare_for_a_board_meeting",
+      "target": "organized_data_prompts_post_mortem_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62938,7 +62605,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prepare_for_a_sales_call",
+      "target": "organized_data_prompts_prepare_for_a_board_meeting",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62949,7 +62616,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pressure_test_a_strategy",
+      "target": "organized_data_prompts_prepare_for_a_sales_call",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62960,7 +62627,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pressure_test_your_business_idea",
+      "target": "organized_data_prompts_pressure_test_a_strategy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62971,7 +62638,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pricing_decision_framework",
+      "target": "organized_data_prompts_pressure_test_your_business_idea",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62982,7 +62649,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_a_product_backlog",
+      "target": "organized_data_prompts_pricing_decision_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62993,7 +62660,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_between_competing_initiatives",
+      "target": "organized_data_prompts_prioritize_a_product_backlog",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63004,7 +62671,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_between_two_strategic_directions",
+      "target": "organized_data_prompts_prioritize_between_competing_initiatives",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63015,7 +62682,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_project_risk_assessment",
+      "target": "organized_data_prompts_prioritize_between_two_strategic_directions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63037,7 +62704,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_proposal",
+      "target": "organized_data_prompts_project_risk_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63048,7 +62715,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_refine_your_pitch_narrative",
+      "target": "organized_data_prompts_proposal",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63059,7 +62726,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_refine_your_value_proposition",
+      "target": "organized_data_prompts_refine_your_pitch_narrative",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63070,7 +62737,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_repurposing",
+      "target": "organized_data_prompts_refine_your_value_proposition",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63081,7 +62748,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_research_synthesis",
+      "target": "organized_data_prompts_repurposing",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63092,7 +62759,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_respond_to_a_critical_investor_question",
+      "target": "organized_data_prompts_research_synthesis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63103,7 +62770,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_rewrite_this_in_half_the",
+      "target": "organized_data_prompts_respond_to_a_critical_investor_question",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63114,7 +62781,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_rewrite_this_section_to_be",
+      "target": "organized_data_prompts_rewrite_this_in_half_the",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63125,7 +62792,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_root_cause_analysis",
+      "target": "organized_data_prompts_rewrite_this_section_to_be",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63136,7 +62803,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_run_a_competitor_analysis",
+      "target": "organized_data_prompts_root_cause_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63158,7 +62825,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_run_a_pre_mortem",
+      "target": "organized_data_prompts_run_a_competitor_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63169,7 +62836,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_set_team_priorities",
+      "target": "organized_data_prompts_run_a_pre_mortem",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63180,7 +62847,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_sop_creation",
+      "target": "organized_data_prompts_set_team_priorities",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63191,7 +62858,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_the_financial_implications_of",
+      "target": "organized_data_prompts_sop_creation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63202,7 +62869,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_this_email_thread_into",
+      "target": "organized_data_prompts_summarize_the_financial_implications_of",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63213,7 +62880,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_this_meeting_transcript_into",
+      "target": "organized_data_prompts_summarize_this_email_thread_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63224,7 +62891,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_team_alignment_message",
+      "target": "organized_data_prompts_summarize_this_meeting_transcript_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63235,7 +62902,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_team_effectiveness_diagnosis",
+      "target": "organized_data_prompts_team_alignment_message",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63246,7 +62913,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_three_scenario_planning",
+      "target": "organized_data_prompts_team_effectiveness_diagnosis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63257,7 +62924,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_these_messy_meeting_notes",
+      "target": "organized_data_prompts_three_scenario_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63279,7 +62946,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_these_stats_into_3",
+      "target": "organized_data_prompts_turn_these_messy_meeting_notes",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63290,7 +62957,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_this_bullet_point_outline_into",
+      "target": "organized_data_prompts_turn_these_stats_into_3",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63301,7 +62968,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_this_messy_process_description",
+      "target": "organized_data_prompts_turn_this_bullet_point_outline_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63312,7 +62979,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_video_script_60s",
+      "target": "organized_data_prompts_turn_this_messy_process_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63323,7 +62990,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_week_of_captions",
+      "target": "organized_data_prompts_video_script_60s",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63334,7 +63001,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_weekly_planning",
+      "target": "organized_data_prompts_week_of_captions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63345,7 +63012,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_what_would_a_mckinsey_consultant",
+      "target": "organized_data_prompts_weekly_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63356,7 +63023,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_worst_case_scenario_planning",
+      "target": "organized_data_prompts_what_would_a_mckinsey_consultant",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63367,7 +63034,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_5_sharp_talking_points",
+      "target": "organized_data_prompts_worst_case_scenario_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63378,7 +63045,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_clear_jargon_free_explanation",
+      "target": "organized_data_prompts_write_5_sharp_talking_points",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63400,7 +63067,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_cold_outreach_email",
+      "target": "organized_data_prompts_write_a_clear_jargon_free_explanation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63411,7 +63078,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_company_announcement",
+      "target": "organized_data_prompts_write_a_cold_outreach_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63422,7 +63089,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_compensation_explanation",
+      "target": "organized_data_prompts_write_a_company_announcement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63433,7 +63100,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_customer_re_engagement_email",
+      "target": "organized_data_prompts_write_a_compensation_explanation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63444,7 +63111,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_diplomatic_response_to",
+      "target": "organized_data_prompts_write_a_customer_re_engagement_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63455,7 +63122,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_job_description",
+      "target": "organized_data_prompts_write_a_diplomatic_response_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63466,7 +63133,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_partnership_proposal",
+      "target": "organized_data_prompts_write_a_job_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63477,7 +63144,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_performance_review_for",
+      "target": "organized_data_prompts_write_a_partnership_proposal",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63488,7 +63155,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_escalation_policy",
+      "target": "organized_data_prompts_write_a_performance_review_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63499,7 +63166,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_executive_summary_for",
+      "target": "organized_data_prompts_write_an_escalation_policy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63521,7 +63188,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_investor_update",
+      "target": "organized_data_prompts_write_an_executive_summary_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63532,18 +63199,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_10015_tools",
+      "target": "organized_data_prompts_write_an_investor_update",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L234",
+      "source_location": "L231",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_21stdev",
+      "target": "organized_data_resources_10015_tools",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63554,7 +63221,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_ai_hackathons",
+      "target": "organized_data_resources_21stdev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63565,7 +63232,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_ai_quests",
+      "target": "organized_data_resources_ai_hackathons",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63576,7 +63243,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_ai_tool_index",
+      "target": "organized_data_resources_ai_quests",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63587,7 +63254,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_ai_tools_directory_aixploria",
+      "target": "organized_data_resources_ai_tool_index",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63609,7 +63276,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_app_ideas",
+      "target": "organized_data_resources_ai_tools_directory_aixploria",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63620,7 +63287,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_chatgpt_prompts",
+      "target": "organized_data_resources_app_ideas",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63631,7 +63298,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_design",
+      "target": "organized_data_resources_awesome_chatgpt_prompts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63642,7 +63309,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_llm_apps",
+      "target": "organized_data_resources_awesome_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63653,7 +63320,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_mcp_servers",
+      "target": "organized_data_resources_awesome_llm_apps",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63664,7 +63331,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_design_md",
+      "target": "organized_data_resources_awesome_mcp_servers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63675,7 +63342,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_backgrounds_library",
+      "target": "organized_data_resources_awesome_design_md",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63686,7 +63353,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_banana_prompts",
+      "target": "organized_data_resources_backgrounds_library",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63697,7 +63364,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_bklit_ui",
+      "target": "organized_data_resources_banana_prompts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63708,7 +63375,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_quickstarts",
+      "target": "organized_data_resources_bklit_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63730,7 +63397,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_skills",
+      "target": "organized_data_resources_claude_quickstarts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63741,7 +63408,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_startup_skill",
+      "target": "organized_data_resources_claude_skills",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63752,7 +63419,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_cloudflare_drop",
+      "target": "organized_data_resources_claude_startup_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63763,7 +63430,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_corbin_skool",
+      "target": "organized_data_resources_cloudflare_drop",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63774,7 +63441,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_cuelume",
+      "target": "organized_data_resources_corbin_skool",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63785,7 +63452,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_dotagents",
+      "target": "organized_data_resources_cuelume",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63796,7 +63463,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_dropbox_brand_guidelines",
+      "target": "organized_data_resources_dotagents",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63807,7 +63474,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_emilkowalski_skills",
+      "target": "organized_data_resources_dropbox_brand_guidelines",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63818,7 +63485,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_every",
+      "target": "organized_data_resources_emilkowalski_skills",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63829,7 +63496,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_free_trial_and_free_tier_services_google_cloud",
+      "target": "organized_data_resources_every",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63851,7 +63518,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_frontend_textbooks",
+      "target": "organized_data_resources_free_trial_and_free_tier_services_google_cloud",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63862,7 +63529,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_github_student_developer_pack",
+      "target": "organized_data_resources_frontend_textbooks",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63873,7 +63540,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_hour_of_ai_activities",
+      "target": "organized_data_resources_github_student_developer_pack",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63884,7 +63551,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_hover_dev",
+      "target": "organized_data_resources_hour_of_ai_activities",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63895,7 +63562,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_kolejaincom_resources",
+      "target": "organized_data_resources_hover_dev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63906,7 +63573,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_landbook",
+      "target": "organized_data_resources_kolejaincom_resources",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63917,7 +63584,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landbook",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63928,7 +63595,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_lando_norris",
+      "target": "organized_data_resources_landing_page_design_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63939,7 +63606,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_list_of_free_ai_models",
+      "target": "organized_data_resources_lando_norris",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63950,7 +63617,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_mobbin",
+      "target": "organized_data_resources_list_of_free_ai_models",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63972,7 +63639,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_namecom_free_domain",
+      "target": "organized_data_resources_mobbin",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63983,7 +63650,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_namecheap_education_program",
+      "target": "organized_data_resources_namecom_free_domain",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63994,7 +63661,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_offbrand",
+      "target": "organized_data_resources_namecheap_education_program",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64005,7 +63672,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_official_mcp_servers",
+      "target": "organized_data_resources_offbrand",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64016,7 +63683,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_openclaw_after_50_days",
+      "target": "organized_data_resources_official_mcp_servers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64027,7 +63694,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_radiant_shaders",
+      "target": "organized_data_resources_openclaw_after_50_days",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64038,7 +63705,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_system_prompts",
+      "target": "organized_data_resources_radiant_shaders",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64049,7 +63716,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_reddit_communities_to_promote_your_app",
+      "target": "organized_data_resources_system_prompts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64060,7 +63727,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_requests_for_startups_yc",
+      "target": "organized_data_resources_reddit_communities_to_promote_your_app",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64071,7 +63738,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_starter_story",
+      "target": "organized_data_resources_requests_for_startups_yc",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64093,7 +63760,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_starter_story_data",
+      "target": "organized_data_resources_starter_story",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64104,7 +63771,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_the_claude_skills_that_finally_made_ai_write_like_me",
+      "target": "organized_data_resources_starter_story_data",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64115,7 +63782,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_toolfk_online_tools",
+      "target": "organized_data_resources_the_claude_skills_that_finally_made_ai_write_like_me",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64126,7 +63793,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_trustmrr",
+      "target": "organized_data_resources_toolfk_online_tools",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64137,7 +63804,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_uiverse",
+      "target": "organized_data_resources_trustmrr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64148,7 +63815,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_what_ai_can_do_today",
+      "target": "organized_data_resources_uiverse",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64159,13 +63826,13 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_templates_hubspot_full_stack_ai_marketing_toolkit",
+      "target": "organized_data_resources_what_ai_can_do_today",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L289",
+      "source_location": "L286",
       "weight": 1.0
     },
     {
@@ -64181,7 +63848,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_templates_marketing_against_the_grain_newsletter_template",
+      "target": "organized_data_templates_hubspot_full_stack_ai_marketing_toolkit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64192,18 +63859,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_ada",
+      "target": "organized_data_templates_marketing_against_the_grain_newsletter_template",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L294",
+      "source_location": "L291",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_aipen_chatgpt_app",
+      "target": "organized_data_tools_ada",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64214,7 +63881,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_alt",
+      "target": "organized_data_tools_aipen_chatgpt_app",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64225,7 +63892,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_animejs",
+      "target": "organized_data_tools_alt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64236,7 +63903,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_antigravity",
+      "target": "organized_data_tools_animejs",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64247,7 +63914,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_apify_cli",
+      "target": "organized_data_tools_antigravity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64269,7 +63936,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_apollo_io",
+      "target": "organized_data_tools_apify_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64280,7 +63947,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_atlassian_rovo",
+      "target": "organized_data_tools_apollo_io",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64291,7 +63958,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_bytez",
+      "target": "organized_data_tools_atlassian_rovo",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64302,7 +63969,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chat_jimmy",
+      "target": "organized_data_tools_bytez",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64313,7 +63980,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chatgpt",
+      "target": "organized_data_tools_chat_jimmy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64324,7 +63991,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chatgpt_enterprise",
+      "target": "organized_data_tools_chatgpt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64335,7 +64002,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude",
+      "target": "organized_data_tools_chatgpt_enterprise",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64346,7 +64013,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude_api",
+      "target": "organized_data_tools_claude",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64357,7 +64024,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude_code_cli",
+      "target": "organized_data_tools_claude_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64368,7 +64035,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_composio",
+      "target": "organized_data_tools_claude_code_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64390,7 +64057,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_consensus",
+      "target": "organized_data_tools_composio",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64401,7 +64068,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_copilot_cli",
+      "target": "organized_data_tools_consensus",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64412,7 +64079,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_copy_ai",
+      "target": "organized_data_tools_copilot_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64423,7 +64090,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_cursor",
+      "target": "organized_data_tools_copy_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64434,7 +64101,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_dictaflow",
+      "target": "organized_data_tools_cursor",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64445,7 +64112,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_drift",
+      "target": "organized_data_tools_dictaflow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64456,7 +64123,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_eightfold",
+      "target": "organized_data_tools_drift",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64467,7 +64134,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fathom_ai",
+      "target": "organized_data_tools_eightfold",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64478,7 +64145,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_firecrawl_cli",
+      "target": "organized_data_tools_fathom_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64489,7 +64156,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fireflies_ai",
+      "target": "organized_data_tools_firecrawl_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64511,7 +64178,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_free_llm_api",
+      "target": "organized_data_tools_fireflies_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64522,7 +64189,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_freedomto",
+      "target": "organized_data_tools_free_llm_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64533,7 +64200,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fritz_ai",
+      "target": "organized_data_tools_freedomto",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64544,7 +64211,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gamma",
+      "target": "organized_data_tools_fritz_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64555,7 +64222,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_github_copilot",
+      "target": "organized_data_tools_gamma",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64566,7 +64233,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gong",
+      "target": "organized_data_tools_github_copilot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64577,7 +64244,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_google_ai_flow",
+      "target": "organized_data_tools_gong",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64588,7 +64255,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_grok",
+      "target": "organized_data_tools_google_ai_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64599,7 +64266,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gumloop",
+      "target": "organized_data_tools_grok",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64610,7 +64277,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hallmark",
+      "target": "organized_data_tools_gumloop",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64632,7 +64299,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_herenow",
+      "target": "organized_data_tools_hallmark",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64643,7 +64310,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hexta_ui",
+      "target": "organized_data_tools_herenow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64654,7 +64321,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hirevue",
+      "target": "organized_data_tools_hexta_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64665,7 +64332,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hoverdev",
+      "target": "organized_data_tools_hirevue",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64676,7 +64343,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hubert",
+      "target": "organized_data_tools_hoverdev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64687,7 +64354,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hubspot_ai",
+      "target": "organized_data_tools_hubert",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64698,7 +64365,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hunyuan_video",
+      "target": "organized_data_tools_hubspot_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64709,7 +64376,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_ideogram_40",
+      "target": "organized_data_tools_hunyuan_video",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64720,7 +64387,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_igloo_inc",
+      "target": "organized_data_tools_ideogram_40",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64731,7 +64398,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_impeccable",
+      "target": "organized_data_tools_igloo_inc",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64753,7 +64420,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_intercom_fin",
+      "target": "organized_data_tools_impeccable",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64764,7 +64431,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_jasper",
+      "target": "organized_data_tools_intercom_fin",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64775,7 +64442,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_kokonut_ui",
+      "target": "organized_data_tools_jasper",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64786,7 +64453,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_lavender",
+      "target": "organized_data_tools_kokonut_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64797,7 +64464,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_layers",
+      "target": "organized_data_tools_lavender",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64808,7 +64475,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_llm_cli",
+      "target": "organized_data_tools_layers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64819,7 +64486,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_magicui",
+      "target": "organized_data_tools_llm_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64830,7 +64497,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_make",
+      "target": "organized_data_tools_magicui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64841,7 +64508,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_marketo_engage",
+      "target": "organized_data_tools_make",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64852,7 +64519,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_microsoft_365_copilot",
+      "target": "organized_data_tools_marketo_engage",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64874,7 +64541,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_motiondev",
+      "target": "organized_data_tools_microsoft_365_copilot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64885,7 +64552,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_notebooklm",
+      "target": "organized_data_tools_motiondev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64896,7 +64563,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_notion_ai",
+      "target": "organized_data_tools_notebooklm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64907,7 +64574,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_ollama",
+      "target": "organized_data_tools_notion_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64918,7 +64585,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_opal_experiment",
+      "target": "organized_data_tools_ollama",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64929,7 +64596,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openai_oauth",
+      "target": "organized_data_tools_opal_experiment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64940,7 +64607,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openclaw",
+      "target": "organized_data_tools_openai_oauth",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64951,7 +64618,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openwhispr",
+      "target": "organized_data_tools_openclaw",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64962,7 +64629,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_otterai",
+      "target": "organized_data_tools_openwhispr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64973,7 +64640,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_paradox_olivia",
+      "target": "organized_data_tools_otterai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64995,7 +64662,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_parker",
+      "target": "organized_data_tools_paradox_olivia",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65006,7 +64673,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_perplexity",
+      "target": "organized_data_tools_parker",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65017,7 +64684,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_prism",
+      "target": "organized_data_tools_perplexity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65028,7 +64695,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_react_bits",
+      "target": "organized_data_tools_prism",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65039,7 +64706,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_reply_io",
+      "target": "organized_data_tools_react_bits",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65050,7 +64717,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_rive",
+      "target": "organized_data_tools_reply_io",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65061,7 +64728,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_rss_post_to_message",
+      "target": "organized_data_tools_rive",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65072,7 +64739,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_shadcn_ui",
+      "target": "organized_data_tools_rss_post_to_message",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65083,7 +64750,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_skills_sh",
+      "target": "organized_data_tools_shadcn_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65094,7 +64761,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_stitch",
+      "target": "organized_data_tools_skills_sh",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65116,7 +64783,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tactiq",
+      "target": "organized_data_tools_stitch",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65127,7 +64794,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tidio",
+      "target": "organized_data_tools_tactiq",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65138,7 +64805,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tipalti",
+      "target": "organized_data_tools_tidio",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65149,7 +64816,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tldv_io",
+      "target": "organized_data_tools_tipalti",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65160,7 +64827,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_trae_ide",
+      "target": "organized_data_tools_tldv_io",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65171,7 +64838,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_uncensored_ai",
+      "target": "organized_data_tools_trae_ide",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65182,7 +64849,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_vic_ai",
+      "target": "organized_data_tools_uncensored_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65193,7 +64860,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_willow",
+      "target": "organized_data_tools_vic_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65204,7 +64871,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_windsurf",
+      "target": "organized_data_tools_willow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65215,7 +64882,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_wispr_flow",
+      "target": "organized_data_tools_windsurf",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65237,7 +64904,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_workable",
+      "target": "organized_data_tools_wispr_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65248,7 +64915,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_workato",
+      "target": "organized_data_tools_workable",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65259,7 +64926,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_yupp",
+      "target": "organized_data_tools_workato",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65270,7 +64937,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_z_image_ai",
+      "target": "organized_data_tools_yupp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65281,7 +64948,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zapier",
+      "target": "organized_data_tools_z_image_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65292,7 +64959,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zapier_mcp",
+      "target": "organized_data_tools_zapier",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65303,13 +64970,24 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zendesk_ai",
+      "target": "organized_data_tools_zapier_mcp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
       "source_location": "L386",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_master",
+      "target": "organized_data_tools_zendesk_ai",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/master.md",
+      "source_location": "L387",
       "weight": 1.0
     },
     {
@@ -65589,7 +65267,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_cold_email_how_to_write_like_a_human",
+      "target": "organized_data_learning_build_your_generative_ai_productivity_skills",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65600,7 +65278,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_github_certification_exams",
+      "target": "organized_data_learning_lesson_cold_email_how_to_write_like_a_human",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65611,7 +65289,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_how_to_hire_an_ai_email_marketer",
+      "target": "organized_data_learning_github_certification_exams",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65622,7 +65300,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_kaggle_5_day_agents_guide",
+      "target": "organized_data_learning_lesson_how_to_hire_an_ai_email_marketer",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65633,7 +65311,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_llm_zoomcamp",
+      "target": "organized_data_learning_kaggle_5_day_agents_guide",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65644,7 +65322,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_made_with_ml",
+      "target": "organized_data_learning_lesson_llm_zoomcamp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65655,7 +65333,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_nanochat",
+      "target": "organized_data_learning_lesson_made_with_ml",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65666,18 +65344,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_act_as_a_skeptical_senior",
+      "target": "organized_data_learning_lesson_nanochat",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L77",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_all_hands_talking_points",
+      "target": "organized_data_prompts_act_as_a_skeptical_senior",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65688,7 +65366,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_customer_feedback_for_growth_signals",
+      "target": "organized_data_prompts_all_hands_talking_points",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65699,7 +65377,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_this_data_and_identify",
+      "target": "organized_data_prompts_analyze_customer_feedback_for_growth_signals",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65710,7 +65388,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_why_a_deal_was_lost",
+      "target": "organized_data_prompts_analyze_this_data_and_identify",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65721,7 +65399,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_apply_first_principles_thinking",
+      "target": "organized_data_prompts_analyze_why_a_deal_was_lost",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65732,7 +65410,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_assess_an_acquisition_or_partnership",
+      "target": "organized_data_prompts_apply_first_principles_thinking",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65743,7 +65421,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_assumptions_stress_test",
+      "target": "organized_data_prompts_assess_an_acquisition_or_partnership",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65754,7 +65432,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_break_this_goal_into_a_realistic_30_60_90_day_plan",
+      "target": "organized_data_prompts_assumptions_stress_test",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65765,7 +65443,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_competitive_battle_card",
+      "target": "organized_data_prompts_break_this_goal_into_a_realistic_30_60_90_day_plan",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65776,7 +65454,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_decision_framework",
+      "target": "organized_data_prompts_build_a_competitive_battle_card",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65787,7 +65465,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_decision_matrix",
+      "target": "organized_data_prompts_build_a_decision_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65798,7 +65476,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_project_risk_assessment",
+      "target": "organized_data_prompts_build_a_decision_matrix",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65809,7 +65487,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_sop_for_a_repeatable_process",
+      "target": "organized_data_prompts_build_a_project_risk_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65820,7 +65498,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_user_interview_question_set",
+      "target": "organized_data_prompts_build_a_sop_for_a_repeatable_process",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65831,7 +65509,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_an_onboarding_checklist",
+      "target": "organized_data_prompts_build_a_user_interview_question_set",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65842,7 +65520,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_interview_questions",
+      "target": "organized_data_prompts_build_an_onboarding_checklist",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65853,7 +65531,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_your_90_day_roadmap",
+      "target": "organized_data_prompts_build_interview_questions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65864,7 +65542,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_business_audit",
+      "target": "organized_data_prompts_build_your_90_day_roadmap",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65875,7 +65553,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_challenge_an_assumption",
+      "target": "organized_data_prompts_business_audit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65886,7 +65564,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cinematic_real_estate_listing",
+      "target": "organized_data_prompts_challenge_an_assumption",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65897,7 +65575,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_client_welcome",
+      "target": "organized_data_prompts_cinematic_real_estate_listing",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65908,7 +65586,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cold_dm",
+      "target": "organized_data_prompts_client_welcome",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65943,5 +65621,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6db8ae0a3427fc2cb48a7088121c3ccd0255b825"
+  "built_at_commit": "753b78a84f2a51bae022c768168529406be89d75"
 }

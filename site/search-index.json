@@ -5543,5 +5543,22 @@
     "url": "https://www.linkedin.com/learning/paths/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "generative-ai-the-evolution-of-thoughtful-online-search",
+    "name": "Generative AI: The Evolution of Thoughtful Online Search",
+    "description": "Course exploring how generative AI transforms online search, information discovery, and query reasoning strategies.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "AI",
+      "Research"
+    ],
+    "path": "/items/learning/generative-ai-the-evolution-of-thoughtful-online-search",
+    "url": "https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtful-online-search/how-finding-and-sharing-information-online-has-evolved",
+    "is_shallow": true,
+    "content": ""
   }
 ]
