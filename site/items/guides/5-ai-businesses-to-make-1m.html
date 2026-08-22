@@ -93,36 +93,43 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">#### The AI Startup Ladder (4-Step Process)
-1. **Validate**: Pick a niche (e.g., med spas, agencies) and do outreach to prove demand.
-2. **Pre-sell**: Sell the service and collect cash before building. Use a simple document with a Stripe checkout link.
-3. **Deliver**: Once paid, drop everything to manually deliver the result within 48 hours. This builds your reputation and earns referrals.
-4. **Build &amp; Automate**: Productize the service to scale deployment.
-
-#### 1. AI Inbox &amp; Calendar Manager (Highest Potential)
-- **What it is**: Building an AI executive assistant to manage emails and meetings for busy CEOs.
-- **Why it works**: Entrepreneurs desperately want to buy back their time.
-- **Income Potential**: $3,000 - $5,000 / day.
-
-#### 2. AI Data Cleanup Agency
-- **What it is**: Organizing a company&#x27;s messy internal data (emails, CRMs, spreadsheets), vectorizing it, and putting an AI search layer on top.
-- **Why it works**: Businesses need to make better decisions based on their own data.
-- **Income Potential**: $1,500 - $3,000 / day.
-
-#### 3. AI Sales Chatbot
-- **What it is**: Creating a chatbot that converts social media chats, texts, and emails into leads and sales.
-- **Why it works**: Business owners get massive inbound engagement but lack time to reply.
-- **Income Potential**: $1,000 - $1,500 / day.
-
-#### 4. AI Content Repurposing Service
-- **What it is**: Turning long-form content (podcasts, webinars) into short-form clips for TikTok/Reels using AI tools.
-- **Why it works**: Algorithms favor niche short-form content.
-- **Income Potential**: $750 - $1,000 / day.
-
-#### 5. AI Appointment Setter
-- **What it is**: Replacing human inbound phone agents with AI voice agents to book sales calls.
-- **Why it works**: Cheaper than a human, available 24/7, and performs incredibly well.
-- **Income Potential**: $500 - $1,000 / day.</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><h4>The AI Startup Ladder (4-Step Process)</h4>
+<ol>
+<li><strong>Validate</strong>: Pick a niche (e.g., med spas, agencies) and do outreach to prove demand.</li>
+<li><strong>Pre-sell</strong>: Sell the service and collect cash before building. Use a simple document with a Stripe checkout link.</li>
+<li><strong>Deliver</strong>: Once paid, drop everything to manually deliver the result within 48 hours. This builds your reputation and earns referrals.</li>
+<li><strong>Build &amp; Automate</strong>: Productize the service to scale deployment.</li>
+</ol>
+<h4>1. AI Inbox &amp; Calendar Manager (Highest Potential)</h4>
+<ul>
+<li><strong>What it is</strong>: Building an AI executive assistant to manage emails and meetings for busy CEOs.</li>
+<li><strong>Why it works</strong>: Entrepreneurs desperately want to buy back their time.</li>
+<li><strong>Income Potential</strong>: $3,000 - $5,000 / day.</li>
+</ul>
+<h4>2. AI Data Cleanup Agency</h4>
+<ul>
+<li><strong>What it is</strong>: Organizing a company's messy internal data (emails, CRMs, spreadsheets), vectorizing it, and putting an AI search layer on top.</li>
+<li><strong>Why it works</strong>: Businesses need to make better decisions based on their own data.</li>
+<li><strong>Income Potential</strong>: $1,500 - $3,000 / day.</li>
+</ul>
+<h4>3. AI Sales Chatbot</h4>
+<ul>
+<li><strong>What it is</strong>: Creating a chatbot that converts social media chats, texts, and emails into leads and sales.</li>
+<li><strong>Why it works</strong>: Business owners get massive inbound engagement but lack time to reply.</li>
+<li><strong>Income Potential</strong>: $1,000 - $1,500 / day.</li>
+</ul>
+<h4>4. AI Content Repurposing Service</h4>
+<ul>
+<li><strong>What it is</strong>: Turning long-form content (podcasts, webinars) into short-form clips for TikTok/Reels using AI tools.</li>
+<li><strong>Why it works</strong>: Algorithms favor niche short-form content.</li>
+<li><strong>Income Potential</strong>: $750 - $1,000 / day.</li>
+</ul>
+<h4>5. AI Appointment Setter</h4>
+<ul>
+<li><strong>What it is</strong>: Replacing human inbound phone agents with AI voice agents to book sales calls.</li>
+<li><strong>Why it works</strong>: Cheaper than a human, available 24/7, and performs incredibly well.</li>
+<li><strong>Income Potential</strong>: $500 - $1,000 / day.</li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -145,29 +152,13 @@
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

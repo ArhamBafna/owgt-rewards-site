@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 425 files · ~487,370 words
+- 428 files · ~480,537 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2962 nodes · 2928 edges · 438 communities (422 shown, 16 thin omitted)
+- 2968 nodes · 2931 edges · 441 communities (422 shown, 19 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `61fdd683`
+- Built from commit: `f53af47b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -441,6 +441,9 @@
 - getting-started-with-ai-on-jetson-nano.md
 - perform-large-scale-image-classification.md
 - sync_site.py
+- 01-clickable-category-breadcrumbs.md
+- 02-search-index-domain-keywords.md
+- 03-automated-sitemap-generation.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -460,7 +463,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (438 total, 16 thin omitted)
+## Communities (441 total, 19 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2103,17 +2106,17 @@ Cohesion: 0.46
 Nodes (7): generate_deep_item_html(), parse_markdown_item(), render_category_card(), sync_all(), update_category_html_page(), update_indices(), update_landing_and_rewards_pages()
 
 ## Knowledge Gaps
-- **2384 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2379 more)
+- **2387 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2382 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Academic & Comprehensive Courses` connect `Academic & Comprehensive Courses` to `master.md`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `Master Index` connect `Master Index` to `master.md`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract` to the rest of the system?**
-  _2384 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2387 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**

@@ -93,29 +93,35 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">#### 1. Idea Generation
-- Stop obsessing over a completely unique idea.
-- Use **Sensor Tower** or **Trust MRR** to find apps already generating real revenue.
-- Find ways to tweak or improve them to create your own version.
-
-#### 2. Choose Your Stack
-- **Web App**: Use **Next.js** for seamless front-end and back-end development.
-- **Mobile App**: Use **React Native** and **Expo Go** to build for both Apple and Android simultaneously.
-
-#### 3. Leverage AI Tools
-- Familiarize yourself with AI coding assistants.
-- **Claude Coder**: Best for front-end design and user experience.
-- **Codex**: Best for complex backend architecture.
-
-#### 4. Backend &amp; Payments
-- **Database / Backend**: Supabase or Firebase.
-- **Payments**: Stripe (Web) or RevenueCat (Mobile).
-
-#### 5. Launch &amp; Distribute
-- Release early to get user feedback immediately.
-- **Deployment**: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).
-- **Marketing**: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.
-- **Scale**: Once organic works, turn the winning formulas into paid ads.</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><h4>1. Idea Generation</h4>
+<ul>
+<li>Stop obsessing over a completely unique idea.</li>
+<li>Use <strong>Sensor Tower</strong> or <strong>Trust MRR</strong> to find apps already generating real revenue.</li>
+<li>Find ways to tweak or improve them to create your own version.</li>
+</ul>
+<h4>2. Choose Your Stack</h4>
+<ul>
+<li><strong>Web App</strong>: Use <strong>Next.js</strong> for seamless front-end and back-end development.</li>
+<li><strong>Mobile App</strong>: Use <strong>React Native</strong> and <strong>Expo Go</strong> to build for both Apple and Android simultaneously.</li>
+</ul>
+<h4>3. Leverage AI Tools</h4>
+<ul>
+<li>Familiarize yourself with AI coding assistants.</li>
+<li><strong>Claude Coder</strong>: Best for front-end design and user experience.</li>
+<li><strong>Codex</strong>: Best for complex backend architecture.</li>
+</ul>
+<h4>4. Backend &amp; Payments</h4>
+<ul>
+<li><strong>Database / Backend</strong>: Supabase or Firebase.</li>
+<li><strong>Payments</strong>: Stripe (Web) or RevenueCat (Mobile).</li>
+</ul>
+<h4>5. Launch &amp; Distribute</h4>
+<ul>
+<li>Release early to get user feedback immediately.</li>
+<li><strong>Deployment</strong>: Vercel (free for web), App Store ($99/yr), Play Store ($25/yr).</li>
+<li><strong>Marketing</strong>: Grow organically through TikTok, Instagram, UGC, Reddit, or Product Hunt.</li>
+<li><strong>Scale</strong>: Once organic works, turn the winning formulas into paid ads.</li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -138,29 +144,13 @@
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

@@ -105,9 +105,8 @@ what this changes.</p>
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-60% of executives now use AI to support their decisions. The ones getting the most from it aren&#x27;t using AI to generate content about their decisions.  They&#x27;re using it to think more clearly before they make them. That&#x27;s what these 25 prompts are for. Not writing. Thinking.
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>60% of executives now use AI to support their decisions. The ones getting the most from it aren't using AI to generate content about their decisions.  They're using it to think more clearly before they make them. That's what these 25 prompts are for. Not writing. Thinking.
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -130,29 +129,13 @@ what this changes.</p>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

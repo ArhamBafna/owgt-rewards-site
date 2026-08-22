@@ -93,15 +93,11 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">What it is: Using Al tools embedded in or connected to CRM systems to
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>What it is: Using Al tools embedded in or connected to CRM systems to
 update records, surface deal risks, forecast pipeline, and automate
 follow-up tasks.
-Who is hiring: Revenue operations and sales leadership.
-
-
-
-
-Beginner: Uses Al to draft a meeting summary and update CRM fields
+Who is hiring: Revenue operations and sales leadership.</p>
+<p>Beginner: Uses Al to draft a meeting summary and update CRM fields
 after a call. Saves time on administrative tasks.
 Advanced: Manages an Al-enhanced pipeline review process surfacing
 deal risks and stalled opportunities.
@@ -112,7 +108,7 @@ RESOURCESANDTALENT
 Why this category matters:
 HR is one of the highest-adoption enterprise Al categories. Al is embedded in
 recruiting, onboarding, performance management, and learning systems. HR
-professionals who cannot work alongside these tools are at a disadvantage</div>
+professionals who cannot work alongside these tools are at a disadvantage</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -135,29 +131,13 @@ professionals who cannot work alongside these tools are at a disadvantage</div>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

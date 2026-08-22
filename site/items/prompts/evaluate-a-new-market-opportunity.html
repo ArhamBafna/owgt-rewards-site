@@ -93,9 +93,8 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-Evaluate this market opportunity: [describe]. Assess it across five dimensions: market size and growth trajectory, competitive intensity, our right to win given current capabilities, capital required to compete, and strategic fit with our current direction. Give me a go/no-go recommendation with the key condition that would change your view.&quot; Before a significant decision, run the prompt that matches your decision type. Replace the brackets with your specifics. Read the output with the same critical eye you&#x27;d bring to advice from a trusted colleague, not as a verdict, but as structured input. The goal is better thinking before you commit. Not outsourcing the decision. CHOOSE YOUR DECISION SELECT THE RIGHT PROMPT REPLACE THE BRACKETS RUN IN CLAUDE REVIEW  AND DECIDE 1 2 3 4 5
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>Evaluate this market opportunity: [describe]. Assess it across five dimensions: market size and growth trajectory, competitive intensity, our right to win given current capabilities, capital required to compete, and strategic fit with our current direction. Give me a go/no-go recommendation with the key condition that would change your view.&quot; Before a significant decision, run the prompt that matches your decision type. Replace the brackets with your specifics. Read the output with the same critical eye you'd bring to advice from a trusted colleague, not as a verdict, but as structured input. The goal is better thinking before you commit. Not outsourcing the decision. CHOOSE YOUR DECISION SELECT THE RIGHT PROMPT REPLACE THE BRACKETS RUN IN CLAUDE REVIEW  AND DECIDE 1 2 3 4 5
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -120,29 +119,13 @@ WHAT THIS CHANGES</span></a>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

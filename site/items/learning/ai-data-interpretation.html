@@ -93,7 +93,7 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">What it is: Using Al to make sense of data sets, reports, and survey
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>What it is: Using Al to make sense of data sets, reports, and survey
 results, identifying key patterns, outliers, and actionable implications
 without requiring data science expertise.
 Who is hiring: Operations, marketing, HR, and finance functions
@@ -106,7 +106,7 @@ Prompt #84 (Research
 for recurring data reviews
 Synthesis) from the
 with standardised prompts.
-Executive Prompt Library.</div>
+Executive Prompt Library.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -129,29 +129,13 @@ Executive Prompt Library.</div>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

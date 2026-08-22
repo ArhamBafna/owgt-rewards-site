@@ -93,14 +93,14 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">GOVERNANCEAWARENESS
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>GOVERNANCEAWARENESS
 What it is: Understanding where Al can be used appropriately, covering
 data privacy, bias, and regulatory compliance. This is a professional
 judgment skill, not a technical one.
 Beginner: Knows which data cannot enter external Al tools. Understands
 the basics of Al bias. Advanced: Assesses Al tool suitability, identifies
 compliance risks, and communicates governance requirements.
-Tool to start: The Al Report&#x27;s Enterprise Al Policy Guide.
+Tool to start: The Al Report's Enterprise Al Policy Guide.
 SKILL 19:AITOOLEVALUATIONAND SELECTION
 What it is: Knowing which Al tool is right for a specific job and being able
 to justify that decision.
@@ -111,7 +111,7 @@ Tool to start: This guide. Use it as a framework for your next evaluation decisi
 WHATTHISMEANSFORYOURNEXTMOVE
 The professionals who will be most competitive are not the ones who know the most about Al.
 They are the ones with the most specific, demonstrable Al skills applied to real work. Pick two skills that apply
-to your current role. Build them. Document what changes. That is your competitive advantage.</div>
+to your current role. Build them. Document what changes. That is your competitive advantage.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -134,29 +134,13 @@ to your current role. Build them. Document what changes. That is your competitiv
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

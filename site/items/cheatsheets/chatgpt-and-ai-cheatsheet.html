@@ -93,80 +93,86 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">#### The Universal Prompt Formula
-&gt; Act as **[ROLE]**, perform **[TASK]**, in **[FORMAT]**
-&gt; *Example:* &quot;Act as a senior copywriter, write 5 cold-email subject lines for a SaaS launch, in a numbered list with hooks bolded.&quot;
-
-#### 1. Roles
-Who should the AI pretend to be?
-Marketer, Copywriter, SEO specialist, Consultant, Coder, Editor, Analyst, Recruiter, Teacher, Translator, Interviewer, Trainer, CFO, Designer. Or specific people: *&quot;Act like Hormozi / Bezos / Naval&quot;*
-
-#### 2. Tasks
-What do you want it to do?
-Write caption, Blog post, Email sequence, Sales copy, Product desc, Video script, SEO keywords, Summarize, Translate, Outline, Analyze, Brainstorm, Critique, Refactor.
-
-#### 3. Output Formats
-How should the answer look?
-Bullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, Step-by-step, Pros vs Cons, Tweet thread, Script, Email.
-
-#### Prompting Techniques
-- **Zero-shot**: Just ask. No examples. Use for simple, well-known tasks.
-- **One-shot**: Give one example before the ask. Sets tone fast.
-- **Few-shot**: 3–5 examples. Best for matching a specific style or pattern.
-- **Chain-of-Thought**: Add &quot;think step by step.&quot; Forces reasoning before the answer.
-- **Tree-of-Thought**: &quot;Brainstorm 5 approaches, evaluate each, then pick the best.&quot;
-- **Role-play**: &quot;You are X.&quot; Locks tone, vocabulary, and POV.
-- **Chained prompts**: Output of prompt 1 becomes input to prompt 2. Compounds quality.
-- **Instructional**: Explicit steps. &quot;First do A, then B, then return C.&quot;
-
-#### Clone Your Voice Workflow
-1. Paste 2–3 samples of your writing.
-2. Ask: *&quot;Analyze the tone and style. Output a bullet-pointed style guide.&quot;*
-3. Save that style guide as a reusable system prompt.
-4. Use it: *&quot;Rewrite [text] using the style guide above.&quot;*
-
-#### Chained Workflow (SEO Blog Post)
-1. Generate an SEO outline for keyword [topic].
-2. Write 10 persuasive headlines from that outline.
-3. Draft subheadings for each section.
-4. Surface 30 keywords to weave in naturally.
-5. Write 15 CTAs.
-6. Combine winners into a full draft.
-7. Rewrite in the voice of [role / brand].
-
-#### Midjourney Prompt Builder
-1. **Prep**: *&quot;I&#x27;ll give you formatting examples for Midjourney.&quot;*
-2. **Format**: Paste the Midjourney structure (subject, style, lighting, camera, params).
-3. **Samples**: Drop in 2–3 high-quality MJ prompts.
-4. **Context**: *&quot;Now generate 5 prompts for [scene].&quot;*
-5. **Ship**: Copy → paste into Midjourney.
-
-#### Pro Tips Most People Miss
-- Ask for output as CSV or JSON to paste straight into Sheets or code.
-- Ingredients &gt; recipes. Feed it your raw data and let it cook.
-- Make it argue with itself: *&quot;Now critique that answer harshly.&quot;*
-- Always fact-check with a second engine (Perplexity, Claude, Gemini).
-- *&quot;Ask me 5 questions before answering&quot;* dramatically improves output.
-- Save your best prompts as reusable templates.
-- For long tasks, ask for a plan first, then approve before execution.
-
-#### AI Glossary
-- **Prompt**: The instructions you give the AI.
-- **Input**: Text, image, or file you provide.
-- **Output**: What the AI gives back.
-- **Token**: A chunk of text (~4 chars). Models bill by token.
-- **Context**: Everything the model can &quot;see&quot; right now.
-- **LLM**: Large Language Model (e.g., GPT-4, Claude, Gemini).
-- **Temperature**: Creativity dial. Low = safe, high = wild.
-- **Hallucination**: When the AI invents facts confidently.
-- **RAG**: Retrieval-Augmented Generation — pulls in real data.
-
-#### When to Use What
-- **ChatGPT**: Drafts, brainstorming
-- **Claude**: Long docs, analysis, code
-- **Perplexity**: Facts + sources
-- **Midjourney**: Images
-- **Runway / Kling**: Video</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><h4>The Universal Prompt Formula</h4>
+<blockquote>
+<p>Act as <strong>[ROLE]</strong>, perform <strong>[TASK]</strong>, in <strong>[FORMAT]</strong>
+<em>Example:</em> "Act as a senior copywriter, write 5 cold-email subject lines for a SaaS launch, in a numbered list with hooks bolded."</p>
+</blockquote>
+<h4>1. Roles</h4>
+<p>Who should the AI pretend to be?
+Marketer, Copywriter, SEO specialist, Consultant, Coder, Editor, Analyst, Recruiter, Teacher, Translator, Interviewer, Trainer, CFO, Designer. Or specific people: <em>"Act like Hormozi / Bezos / Naval"</em></p>
+<h4>2. Tasks</h4>
+<p>What do you want it to do?
+Write caption, Blog post, Email sequence, Sales copy, Product desc, Video script, SEO keywords, Summarize, Translate, Outline, Analyze, Brainstorm, Critique, Refactor.</p>
+<h4>3. Output Formats</h4>
+<p>How should the answer look?
+Bullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, Step-by-step, Pros vs Cons, Tweet thread, Script, Email.</p>
+<h4>Prompting Techniques</h4>
+<ul>
+<li><strong>Zero-shot</strong>: Just ask. No examples. Use for simple, well-known tasks.</li>
+<li><strong>One-shot</strong>: Give one example before the ask. Sets tone fast.</li>
+<li><strong>Few-shot</strong>: 3–5 examples. Best for matching a specific style or pattern.</li>
+<li><strong>Chain-of-Thought</strong>: Add "think step by step." Forces reasoning before the answer.</li>
+<li><strong>Tree-of-Thought</strong>: "Brainstorm 5 approaches, evaluate each, then pick the best."</li>
+<li><strong>Role-play</strong>: "You are X." Locks tone, vocabulary, and POV.</li>
+<li><strong>Chained prompts</strong>: Output of prompt 1 becomes input to prompt 2. Compounds quality.</li>
+<li><strong>Instructional</strong>: Explicit steps. "First do A, then B, then return C."</li>
+</ul>
+<h4>Clone Your Voice Workflow</h4>
+<ol>
+<li>Paste 2–3 samples of your writing.</li>
+<li>Ask: <em>"Analyze the tone and style. Output a bullet-pointed style guide."</em></li>
+<li>Save that style guide as a reusable system prompt.</li>
+<li>Use it: <em>"Rewrite [text] using the style guide above."</em></li>
+</ol>
+<h4>Chained Workflow (SEO Blog Post)</h4>
+<ol>
+<li>Generate an SEO outline for keyword [topic].</li>
+<li>Write 10 persuasive headlines from that outline.</li>
+<li>Draft subheadings for each section.</li>
+<li>Surface 30 keywords to weave in naturally.</li>
+<li>Write 15 CTAs.</li>
+<li>Combine winners into a full draft.</li>
+<li>Rewrite in the voice of [role / brand].</li>
+</ol>
+<h4>Midjourney Prompt Builder</h4>
+<ol>
+<li><strong>Prep</strong>: <em>"I'll give you formatting examples for Midjourney."</em></li>
+<li><strong>Format</strong>: Paste the Midjourney structure (subject, style, lighting, camera, params).</li>
+<li><strong>Samples</strong>: Drop in 2–3 high-quality MJ prompts.</li>
+<li><strong>Context</strong>: <em>"Now generate 5 prompts for [scene]."</em></li>
+<li><strong>Ship</strong>: Copy → paste into Midjourney.</li>
+</ol>
+<h4>Pro Tips Most People Miss</h4>
+<ul>
+<li>Ask for output as CSV or JSON to paste straight into Sheets or code.</li>
+<li>Ingredients &gt; recipes. Feed it your raw data and let it cook.</li>
+<li>Make it argue with itself: <em>"Now critique that answer harshly."</em></li>
+<li>Always fact-check with a second engine (Perplexity, Claude, Gemini).</li>
+<li><em>"Ask me 5 questions before answering"</em> dramatically improves output.</li>
+<li>Save your best prompts as reusable templates.</li>
+<li>For long tasks, ask for a plan first, then approve before execution.</li>
+</ul>
+<h4>AI Glossary</h4>
+<ul>
+<li><strong>Prompt</strong>: The instructions you give the AI.</li>
+<li><strong>Input</strong>: Text, image, or file you provide.</li>
+<li><strong>Output</strong>: What the AI gives back.</li>
+<li><strong>Token</strong>: A chunk of text (~4 chars). Models bill by token.</li>
+<li><strong>Context</strong>: Everything the model can "see" right now.</li>
+<li><strong>LLM</strong>: Large Language Model (e.g., GPT-4, Claude, Gemini).</li>
+<li><strong>Temperature</strong>: Creativity dial. Low = safe, high = wild.</li>
+<li><strong>Hallucination</strong>: When the AI invents facts confidently.</li>
+<li><strong>RAG</strong>: Retrieval-Augmented Generation — pulls in real data.</li>
+</ul>
+<h4>When to Use What</h4>
+<ul>
+<li><strong>ChatGPT</strong>: Drafts, brainstorming</li>
+<li><strong>Claude</strong>: Long docs, analysis, code</li>
+<li><strong>Perplexity</strong>: Facts + sources</li>
+<li><strong>Midjourney</strong>: Images</li>
+<li><strong>Runway / Kling</strong>: Video</li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -189,29 +195,13 @@ Bullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, 
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

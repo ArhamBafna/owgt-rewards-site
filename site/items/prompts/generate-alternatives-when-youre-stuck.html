@@ -93,9 +93,8 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-I&#x27;ve been trying to solve [problem] by [current approach] and it&#x27;s not working. Generate five genuinely different alternative approaches, specifically ones that challenge the assumption that [state your core assumption]. For each one, tell me what it requires that we don&#x27;t currently have.
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>I've been trying to solve [problem] by [current approach] and it's not working. Generate five genuinely different alternative approaches, specifically ones that challenge the assumption that [state your core assumption]. For each one, tell me what it requires that we don't currently have.
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -118,29 +117,13 @@ I&#x27;ve been trying to solve [problem] by [current approach] and it&#x27;s not
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

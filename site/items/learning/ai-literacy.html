@@ -93,18 +93,18 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">What it is: The ability to understand what Al tools can and cannot do, use
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>What it is: The ability to understand what Al tools can and cannot do, use
 them as part of a daily workflow, and explain their outputs to colleagues
 and stakeholders.
-Who is hiring: Virtually every employer. Linkedln&#x27;s 2026 data shows Al
-capabilities moving from &quot;nice-to-have&quot; to standard expectations across
+Who is hiring: Virtually every employer. Linkedln's 2026 data shows Al
+capabilities moving from "nice-to-have" to standard expectations across
 marketing, HR, and operations.
 Beginner: Can use ChatGPT or Claude to complete basic tasks, drafting
 emails, summarising documents, researching questions.
 Advanced: Recommends the right Al tool for each job and critically
 assesses output reliability before acting on it.
 Tool to start: Claude or ChatGPT. Begin by replacing one manual task per
-day with an Al-assisted version.</div>
+day with an Al-assisted version.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -127,29 +127,13 @@ day with an Al-assisted version.</div>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

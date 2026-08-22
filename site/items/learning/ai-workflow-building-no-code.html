@@ -93,7 +93,7 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">What it is: Using tools like Zapier, Make, or Gumloop to connect
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>What it is: Using tools like Zapier, Make, or Gumloop to connect
 applications and automate repetitive tasks without writing code.
 Who is hiring: Operations, marketing, HR, and sales functions.
 Beginner: Builds a basic Zapier workflow connecting two applications.
@@ -101,7 +101,7 @@ Advanced: Designs multi-step automation sequences with conditional
 logic, error handling, and Al-processing nodes built in.
 Tool to start: Zapier. Begin with one automation connecting two
 tools you already use. ldentify a manual task that happens more
-than five times per week.</div>
+than five times per week.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -124,29 +124,13 @@ than five times per week.</div>
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

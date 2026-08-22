@@ -93,10 +93,10 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">What it is: Knowing which AI tool is right for a specific job and being able to justify that decision.
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>What it is: Knowing which AI tool is right for a specific job and being able to justify that decision.
 Beginner: Compares two tools for a specific use case on quality, cost, and integration. 
 Advanced: Runs formal AI tool evaluation processes with structured criteria and proof-of-concept testing.
-Tool to start: This guide. Use it as a framework for your next evaluation decision.</div>
+Tool to start: This guide. Use it as a framework for your next evaluation decision.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -119,29 +119,13 @@ Tool to start: This guide. Use it as a framework for your next evaluation decisi
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

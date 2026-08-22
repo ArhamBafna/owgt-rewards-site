@@ -93,41 +93,32 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">## 1. Setup
-You need two things:
-
-AI Code running in the desktop app.
-
-Higgsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.
-
-#### Connecting Higgsfield
-1. Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates
-2. Copy the MCP URL
-3. In AI Code: Connectors -&gt; Add custom connector
-4. Paste the URL and name it Higgsfield
-5. Approve the authorization page
-
-Done. No API keys.
-
-#### Confirm it worked
-Before starting a build prompt, run this:
-
-&gt; List the Higgsfield MCP tools you have access to.
-
-If it comes back empty, the connector didn&#x27;t authorize. Reconnect before going further, or you&#x27;ll get forty minutes into a build with an empty assets folder.
-
-#### Which model
-Use AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.
-
----
-
-## 2. Build One: Luxury Real Estate
-The site: THE LEDGE, a $24M cantilevered concrete-and-glass house on the Big Sur cliffs.
-
-Copy the whole thing. Paste into AI Code in an empty folder.
-
-```text
-Build a fully animated marketing site for THE LEDGE: a $24,000,000 cantilevered
+          <div class="prompt-text markdown-rendered" id="prompt-content"><h2>1. Setup</h2>
+<p>You need two things:</p>
+<p>AI Code running in the desktop app.</p>
+<p>Higgsfield MCP for visuals, which gives the AI direct access to image and video models without leaving the session.</p>
+<h4>Connecting Higgsfield</h4>
+<ol>
+<li>Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates</li>
+<li>Copy the MCP URL</li>
+<li>In AI Code: Connectors -&gt; Add custom connector</li>
+<li>Paste the URL and name it Higgsfield</li>
+<li>Approve the authorization page</li>
+</ol>
+<p>Done. No API keys.</p>
+<h4>Confirm it worked</h4>
+<p>Before starting a build prompt, run this:</p>
+<blockquote>
+<p>List the Higgsfield MCP tools you have access to.</p>
+</blockquote>
+<p>If it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder.</p>
+<h4>Which model</h4>
+<p>Use AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.</p>
+<hr />
+<h2>2. Build One: Luxury Real Estate</h2>
+<p>The site: THE LEDGE, a $24M cantilevered concrete-and-glass house on the Big Sur cliffs.</p>
+<p>Copy the whole thing. Paste into AI Code in an empty folder.</p>
+<pre><code class="language-text">Build a fully animated marketing site for THE LEDGE: a $24,000,000 cantilevered
 concrete-and-glass house on the Big Sur cliffs, listed by MERIDIAN.
 
 Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
@@ -219,7 +210,7 @@ Card layout: a small accent counter (`01 / 04`), the label in wide-tracked caps,
 figure in oversized display type, one line beneath. Each card cuts out and the next
 cuts in: hard, fast, no crossfade, matching the energy of the edit.
 
-**Sync mechanism:** drive the card changes from the video&#x27;s own
+**Sync mechanism:** drive the card changes from the video's own
 `timeupdate` event, switching at the known clip start timestamps. Reading
 `currentTime` works well; never assign to it. Do not drive the cards from scroll
 progress, because scroll and playback run independently and the text will drift out of sync
@@ -234,73 +225,87 @@ surrounding page behind it.
 
 Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
-```
-
-#### Why this prompt works
-- **Assets before code.** The site is designed around real images instead of AI guessing at layout and backfilling. This ordering decision improves overall build quality.
-- **One master asset, everything derived from it.** The six interiors are generated image-to-image from the exterior, not independently. This maintains consistent lighting and style.
-- **Detail is spent unevenly on purpose.** The drone reveal gets a full page of specific direction, while everything else stays concise. Be precise where the main mechanic lives.
-- **Never scrub video with scroll.** Scrubbing video with scroll often breaks these builds. Scroll should control the frame around a video, never the playback position inside it. Reading `currentTime` works fine, but writing to it stutters.
-
----
-
-## 3. Iteration Prompts
-The first output is a starting point, and iterating makes the final result stand out.
-
-#### Pass one: parallax
-```text
-Add a parallax scroll effect to the hero: background moving at a different rate
+</code></pre>
+<h4>Why this prompt works</h4>
+<ul>
+<li><strong>Assets before code.</strong> The site is designed around real images instead of AI guessing at layout and backfilling. This ordering decision improves overall build quality.</li>
+<li><strong>One master asset, everything derived from it.</strong> The six interiors are generated image-to-image from the exterior, not independently. This maintains consistent lighting and style.</li>
+<li><strong>Detail is spent unevenly on purpose.</strong> The drone reveal gets a full page of specific direction, while everything else stays concise. Be precise where the main mechanic lives.</li>
+<li><strong>Never scrub video with scroll.</strong> Scrubbing video with scroll often breaks these builds. Scroll should control the frame around a video, never the playback position inside it. Reading <code>currentTime</code> works fine, but writing to it stutters.</li>
+</ul>
+<hr />
+<h2>3. Iteration Prompts</h2>
+<p>The first output is a starting point, and iterating makes the final result stand out.</p>
+<h4>Pass one: parallax</h4>
+<pre><code class="language-text">Add a parallax scroll effect to the hero: background moving at a different rate
 to the foreground as you scroll down the page.
-```
-This single addition helps make the site look polished.
-
-#### Pass two: the construction timelapse
-```text
-Add a timelapse section showing the estate being built: the structure rising out
+</code></pre>
+<p>This single addition helps make the site look polished.</p>
+<h4>Pass two: the construction timelapse</h4>
+<pre><code class="language-text">Add a timelapse section showing the estate being built: the structure rising out
 of the ground and the property taking shape.
 
 Generate the stills with Higgsfield first, each one derived from the previous so the
 camera position and lighting stay locked. Then build the transitions between them.
 Play it on scroll-into-view, not scroll-scrubbed.
-```
-Takes roughly four minutes end to end, creating a clean feature for the site.
-
-#### Other iteration prompts worth keeping
-```text
-Make the hero type larger and tighter. Reduce the line height. Increase the
+</code></pre>
+<p>Takes roughly four minutes end to end, creating a clean feature for the site.</p>
+<h4>Other iteration prompts worth keeping</h4>
+<pre><code class="language-text">Make the hero type larger and tighter. Reduce the line height. Increase the
 contrast between the display and body sizes.
-```
-```text
-The section transitions are too soft. Make them hard cuts: no fades between
+</code></pre>
+<pre><code class="language-text">The section transitions are too soft. Make them hard cuts: no fades between
 background colours.
-```
-```text
-Add a custom cursor: a small ring that scales up over interactive elements.
-```
-```text
-Open the site at 1440px, check it yourself, and fix anything that&#x27;s misaligned,
+</code></pre>
+<pre><code class="language-text">Add a custom cursor: a small ring that scales up over interactive elements.
+</code></pre>
+<pre><code class="language-text">Open the site at 1440px, check it yourself, and fix anything that's misaligned,
 overlapping, or trapped below the fold. Report what you found.
-```
-Running that last prompt helps ensure proper layout alignment across the page.
-
----
-
-## 4. Build Two: Nacho Macho
-Same workflow, different aesthetic. This shows the workflow works across varied styles.
-
-#### The flavour system
-| # | Name | Colour | Note |
-|---|---|---|---|
-| 01 | Nacho Classico | `#F5A623` | golden, the original |
-| 02 | Chili Lime Slap | `#8FD14F` | lime, sharp, acidic |
-| 03 | Blazing Habanero | `#E23E2F` | hot red, second-chip heat |
-| 04 | Blue Corn Crunch | `#2B5FD9` | electric blue, stone-ground blue corn |
-
-One colour per flavour. The main design system builds directly from this table.
-
-#### The prompt
-```text
-Build a fully animated marketing site for NACHO MACHO: a small-batch tortilla chip
+</code></pre>
+<p>Running that last prompt helps ensure proper layout alignment across the page.</p>
+<hr />
+<h2>4. Build Two: Nacho Macho</h2>
+<p>Same workflow, different aesthetic. This shows the workflow works across varied styles.</p>
+<h4>The flavour system</h4>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Colour</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>Nacho Classico</td>
+<td><code>#F5A623</code></td>
+<td>golden, the original</td>
+</tr>
+<tr>
+<td>02</td>
+<td>Chili Lime Slap</td>
+<td><code>#8FD14F</code></td>
+<td>lime, sharp, acidic</td>
+</tr>
+<tr>
+<td>03</td>
+<td>Blazing Habanero</td>
+<td><code>#E23E2F</code></td>
+<td>hot red, second-chip heat</td>
+</tr>
+<tr>
+<td>04</td>
+<td>Blue Corn Crunch</td>
+<td><code>#2B5FD9</code></td>
+<td>electric blue, stone-ground blue corn</td>
+</tr>
+</tbody>
+</table>
+<p>One colour per flavour. The main design system builds directly from this table.</p>
+<h4>The prompt</h4>
+<pre><code class="language-text">Build a fully animated marketing site for NACHO MACHO: a small-batch tortilla chip
 brand. Tagline: *Loud snack. No apologies.*
 
 Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
@@ -373,7 +378,7 @@ Hero bag spin -&gt; Chip journey (three linked sections) -&gt; Flavour lineup -&
 ## Copy
 
 Short and direct. Headlines are clear statements. Every flavour description carries one
-concrete detail: how it&#x27;s fried, where the corn comes from, when the heat arrives.
+concrete detail: how it's fried, where the corn comes from, when the heat arrives.
 
 ## Hero: the bag spin
 
@@ -386,7 +391,7 @@ flavour image at the exact frame `scaleX` hits zero** to keep the transition smo
 Three full rotations across four flavours. Tie everything to `ScrollTrigger` with `scrub`,
 so scrolling backward spins it back and cycles colours in reverse.
 
-As each flavour lands, the page background changes directly to that flavour&#x27;s colour and the
+As each flavour lands, the page background changes directly to that flavour's colour and the
 flavour name swaps beneath the bag. A counter reads `01 / 04`. Scattered chip and
 ingredient cutouts drift behind the bag with parallax depth.
 
@@ -401,7 +406,7 @@ living above all three sections, with its transform driven by a single continuou
 ScrollTrigger across the full range.
 
 The chip moves in an arc across the screen (right side, left, then centre)
-rotating slowly as it travels. Text content sits opposite the chip&#x27;s current position.
+rotating slowly as it travels. Text content sits opposite the chip's current position.
 
 **Stage 1: Stone-ground.** Chip enters plain and unseasoned, upper right. Copy on
 the left about the corn.
@@ -430,7 +435,7 @@ progress spins the drum, starting faster and slowing down as the pin ends.
 
 At the end of the pin, one capsule drops through a chute, lands, and opens to
 show a discount code in large display type. The page background changes to that
-capsule&#x27;s flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`
+capsule's flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`
 button compress to `scale(0.96)` on click and bounce back.
 
 Build the drum, capsules, and chute from CSS shapes and the generated cutouts without using
@@ -447,17 +452,12 @@ on hover.
 
 Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
-```
-
-Check the four chip stills side by side before building. If the chip&#x27;s shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.
-
----
-
-## 5. The Live-Action Pass
-Run this second prompt after building the site to add real video content.
-
-```text
-Add one more section to the Nacho Macho site, between the discount wheel and the
+</code></pre>
+<p>Check the four chip stills side by side before building. If the chip's shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.</p>
+<hr />
+<h2>5. The Live-Action Pass</h2>
+<p>Run this second prompt after building the site to add real video content.</p>
+<pre><code class="language-text">Add one more section to the Nacho Macho site, between the discount wheel and the
 footer.
 
 This section uses live-action footage to contrast with the graphic style of the page.
@@ -491,16 +491,12 @@ One overlay headline placed cleanly above and below the video frame so text stay
 of the footage.
 
 Keep the surrounding background colour and texture consistent with the rest of the page.
-```
-
----
-
-## 6. The Universal Template
-Swap the placeholders to adapt this layout for other brands.
-
-```text
-Build a fully animated marketing site for [BRAND NAME]: [ONE-LINE DESCRIPTION OF
-WHAT IT IS AND WHO IT&#x27;S FOR].
+</code></pre>
+<hr />
+<h2>6. The Universal Template</h2>
+<p>Swap the placeholders to adapt this layout for other brands.</p>
+<pre><code class="language-text">Build a fully animated marketing site for [BRAND NAME]: [ONE-LINE DESCRIPTION OF
+WHAT IT IS AND WHO IT'S FOR].
 
 Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
 them. No placeholder images anywhere. Generate the assets, confirm the media IDs, then
@@ -567,13 +563,14 @@ footage inside it.]
 
 Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
-```
-
-#### Guidance
-- **The master asset is central.** Spend time refining it, as other images inherit its lighting and style.
-- **Pick one main feature.** Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.
-- **Banned words improve copy.** Setting clear negative constraints on overused words keeps the tone natural.
-- **Specify models directly.** Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.</div>
+</code></pre>
+<h4>Guidance</h4>
+<ul>
+<li><strong>The master asset is central.</strong> Spend time refining it, as other images inherit its lighting and style.</li>
+<li><strong>Pick one main feature.</strong> Focus detailed mechanical instructions on one primary showpiece section to keep the page layout clean.</li>
+<li><strong>Banned words improve copy.</strong> Setting clear negative constraints on overused words keeps the tone natural.</li>
+<li><strong>Specify models directly.</strong> Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.</li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -596,29 +593,13 @@ Prioritize visual impact over everything.
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

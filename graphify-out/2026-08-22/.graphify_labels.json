@@ -436,5 +436,8 @@
   "434": "generative-ai-for-beginners.md",
   "435": "getting-started-with-ai-on-jetson-nano.md",
   "436": "perform-large-scale-image-classification.md",
-  "437": "sync_site.py"
+  "437": "sync_site.py",
+  "438": "01-clickable-category-breadcrumbs.md",
+  "439": "02-search-index-domain-keywords.md",
+  "440": "03-automated-sitemap-generation.md"
 }

@@ -93,59 +93,53 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">Every message resends your entire chat history. Message one is tiny. Message 30 is massive. That is why limits hit fast and quality tanks (context rot). 
-
-Fix the weight. Stop wasting tokens. 
-
----
-
-## 1. Edit Instead of Following Up 
-Correcting a mistake with a new message saves the bad reply, your correction, and the new reply into history. Every future message reprocesses all of that junk.
-
-* **Action:** Edit your original message directly. The bad exchange disappears completely. 
-
----
-
-## 2. Batch Requests Into One Prompt 
-Three messages equal three full context reloads. One message with three asks equals one reload. 
-
-* **Template:**
-  &gt; Do all of the following in one response:
-  &gt; 1. A 3-sentence summary
-  &gt; 2. The 5 key points as bullets
-  &gt; 3. A 10-word headline
-
----
-
-## 3. Start a Fresh Chat Often 
-Long chats burn millions of tokens reading old history. Reset every 15 to 20 messages.
-
-* **Handoff Prompt:**
-  &gt; Summarize this chat as a handoff document: what we are working on, what is done, what is open, and key constraints. Make it short so I can paste it into a new chat.
-
----
-
-## 4. Turn Off Extended Thinking 
-Extended thinking creates massive output tokens before answering. Output tokens cost way more. Keep it off unless you need heavy reasoning.
-
----
-
-## 5. Convert Files to Markdown 
-PDFs and HTML carry dead weight like fonts, layouts, and images that drain tokens. 
-
-* **Action:** Convert files to clean Markdown before uploading. It cuts token weight by up to 90% 📉.
-
----
-
-## 6. The Session Reset Trick 
-Usage windows start at your very first message of the day.
-
-* **Action:** Send a dummy message early in the morning. Come back hours later for real work. You get two solid sessions instead of getting blocked midday.
-
----
-
-## 7. Work Off-Peak
-Peak hours bring server congestion and faster session burn. Shift heavy workloads to early mornings, late nights, or weekends.</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>Every message resends your entire chat history. Message one is tiny. Message 30 is massive. That is why limits hit fast and quality tanks (context rot). </p>
+<p>Fix the weight. Stop wasting tokens. </p>
+<hr />
+<h2>1. Edit Instead of Following Up</h2>
+<p>Correcting a mistake with a new message saves the bad reply, your correction, and the new reply into history. Every future message reprocesses all of that junk.</p>
+<ul>
+<li><strong>Action:</strong> Edit your original message directly. The bad exchange disappears completely. </li>
+</ul>
+<hr />
+<h2>2. Batch Requests Into One Prompt</h2>
+<p>Three messages equal three full context reloads. One message with three asks equals one reload. </p>
+<ul>
+<li><strong>Template:</strong><blockquote>
+<p>Do all of the following in one response:
+1. A 3-sentence summary
+2. The 5 key points as bullets
+3. A 10-word headline</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h2>3. Start a Fresh Chat Often</h2>
+<p>Long chats burn millions of tokens reading old history. Reset every 15 to 20 messages.</p>
+<ul>
+<li><strong>Handoff Prompt:</strong><blockquote>
+<p>Summarize this chat as a handoff document: what we are working on, what is done, what is open, and key constraints. Make it short so I can paste it into a new chat.</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h2>4. Turn Off Extended Thinking</h2>
+<p>Extended thinking creates massive output tokens before answering. Output tokens cost way more. Keep it off unless you need heavy reasoning.</p>
+<hr />
+<h2>5. Convert Files to Markdown</h2>
+<p>PDFs and HTML carry dead weight like fonts, layouts, and images that drain tokens. </p>
+<ul>
+<li><strong>Action:</strong> Convert files to clean Markdown before uploading. It cuts token weight by up to 90% 📉.</li>
+</ul>
+<hr />
+<h2>6. The Session Reset Trick</h2>
+<p>Usage windows start at your very first message of the day.</p>
+<ul>
+<li><strong>Action:</strong> Send a dummy message early in the morning. Come back hours later for real work. You get two solid sessions instead of getting blocked midday.</li>
+</ul>
+<hr />
+<h2>7. Work Off-Peak</h2>
+<p>Peak hours bring server congestion and faster session burn. Shift heavy workloads to early mornings, late nights, or weekends.</p></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -168,29 +162,13 @@ Peak hours bring server congestion and faster session burn. Shift heavy workload
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

@@ -93,55 +93,53 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">When working with AI, you are essentially choosing which person to call and how long to let them think. Every company stacks their models the same three ways:
-
-#### The Three Personas of AI Models
-1. **The Staff (e.g., Claude Sonnet, ChatGPT Luna)**: Fast, cheap, and good at almost everything that fills a normal day. Start here, and you will be right most of the time. (Cost: ~2 coins)
-2. **The Manager (e.g., Claude Opus, ChatGPT Terra)**: You go to this one when the work actually matters. A serious document, a harder problem, a plan you are going to build on top of. (Cost: ~5 coins)
-3. **The Consultant (e.g., Claude Fable, ChatGPT Sol)**: Brilliant, expensive, and slow. You bring this one in for the hard part, and then you let them go. (Cost: ~10 coins)
-
-**Rule of Thumb**: Can the staff do it? Yes. Is it worth paying the consultant? Probably not.
-
-#### The Effort Dial (Thinking Time)
-Every model has a dial controlling how long it thinks before answering.
-- **LOW**: Simple work in volume. Fast and cheap.
-- **MEDIUM**: The everyday setting. Good results without the wait.
-- **HIGH**: Real thinking. Hard problems and the final check.
-- **MAX**: The one decision everything else hangs on.
-
-*Note*: Pushing the dial all the way up for ordinary work causes the AI to overthink. Start lower than feels right and climb only when the answer disappoints you. The dial controls thinking, not talking.
-
-#### Workflows by Task Type
-
-- **Errands (Web searches, lookups, quick edits, summaries)**
-  - *Who*: Staff
-  - *Setting*: LOW
-  - *Why*: The expensive model and the cheap one bring back the same answer, but the cheap one is faster. 
-- **Writing (Copy and Emails)**
-  - *Who*: Manager decides, Staff drafts
-  - *Setting*: MEDIUM
-  - *Why*: A piece is settled before the first sentence is written. Plan with the manager, let the staff type.
-- **Documents &amp; PDFs**
-  - *Who*: Manager plans, Staff builds
-  - *Setting*: MEDIUM, THEN LOW
-- **Deep Research**
-  - *Who*: Manager
-  - *Setting*: LOW TO MEDIUM
-  - *Why*: Research runs on finding good sources, not overthinking them.
-- **Slide Decks**
-  - *Who*: Staff builds, Consultant polishes
-  - *Setting*: MEDIUM, THEN HIGH
-- **Spreadsheets**
-  - *Who*: Staff (one sheet) or Consultant (many sheets)
-  - *Setting*: MEDIUM or HIGH
-- **Websites and Apps**
-  - *Who*: Consultant plans, Staff builds
-  - *Setting*: HIGH, THEN LOW
-
-#### The Paragraph That Pays For Itself
-The smartest models are incredibly wordy. You pay for every word. Use this standing order (as a Custom Instruction, Skill, or Text Expander snippet) to cut costs and save time:
-
-&gt; Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>When working with AI, you are essentially choosing which person to call and how long to let them think. Every company stacks their models the same three ways:</p>
+<h4>The Three Personas of AI Models</h4>
+<ol>
+<li><strong>The Staff (e.g., Claude Sonnet, ChatGPT Luna)</strong>: Fast, cheap, and good at almost everything that fills a normal day. Start here, and you will be right most of the time. (Cost: ~2 coins)</li>
+<li><strong>The Manager (e.g., Claude Opus, ChatGPT Terra)</strong>: You go to this one when the work actually matters. A serious document, a harder problem, a plan you are going to build on top of. (Cost: ~5 coins)</li>
+<li><strong>The Consultant (e.g., Claude Fable, ChatGPT Sol)</strong>: Brilliant, expensive, and slow. You bring this one in for the hard part, and then you let them go. (Cost: ~10 coins)</li>
+</ol>
+<p><strong>Rule of Thumb</strong>: Can the staff do it? Yes. Is it worth paying the consultant? Probably not.</p>
+<h4>The Effort Dial (Thinking Time)</h4>
+<p>Every model has a dial controlling how long it thinks before answering.
+- <strong>LOW</strong>: Simple work in volume. Fast and cheap.
+- <strong>MEDIUM</strong>: The everyday setting. Good results without the wait.
+- <strong>HIGH</strong>: Real thinking. Hard problems and the final check.
+- <strong>MAX</strong>: The one decision everything else hangs on.</p>
+<p><em>Note</em>: Pushing the dial all the way up for ordinary work causes the AI to overthink. Start lower than feels right and climb only when the answer disappoints you. The dial controls thinking, not talking.</p>
+<h4>Workflows by Task Type</h4>
+<ul>
+<li><strong>Errands (Web searches, lookups, quick edits, summaries)</strong></li>
+<li><em>Who</em>: Staff</li>
+<li><em>Setting</em>: LOW</li>
+<li><em>Why</em>: The expensive model and the cheap one bring back the same answer, but the cheap one is faster. </li>
+<li><strong>Writing (Copy and Emails)</strong></li>
+<li><em>Who</em>: Manager decides, Staff drafts</li>
+<li><em>Setting</em>: MEDIUM</li>
+<li><em>Why</em>: A piece is settled before the first sentence is written. Plan with the manager, let the staff type.</li>
+<li><strong>Documents &amp; PDFs</strong></li>
+<li><em>Who</em>: Manager plans, Staff builds</li>
+<li><em>Setting</em>: MEDIUM, THEN LOW</li>
+<li><strong>Deep Research</strong></li>
+<li><em>Who</em>: Manager</li>
+<li><em>Setting</em>: LOW TO MEDIUM</li>
+<li><em>Why</em>: Research runs on finding good sources, not overthinking them.</li>
+<li><strong>Slide Decks</strong></li>
+<li><em>Who</em>: Staff builds, Consultant polishes</li>
+<li><em>Setting</em>: MEDIUM, THEN HIGH</li>
+<li><strong>Spreadsheets</strong></li>
+<li><em>Who</em>: Staff (one sheet) or Consultant (many sheets)</li>
+<li><em>Setting</em>: MEDIUM or HIGH</li>
+<li><strong>Websites and Apps</strong></li>
+<li><em>Who</em>: Consultant plans, Staff builds</li>
+<li><em>Setting</em>: HIGH, THEN LOW</li>
+</ul>
+<h4>The Paragraph That Pays For Itself</h4>
+<p>The smartest models are incredibly wordy. You pay for every word. Use this standing order (as a Custom Instruction, Skill, or Text Expander snippet) to cut costs and save time:</p>
+<blockquote>
+<p>Lead with the answer. Give me the outcome in the first sentence, then the reasoning underneath it, and stop there. Do not repeat my question back to me. Do not tell me what you are about to do. Do not summarize what you just did. Keep caveats to one line. Match the length to the ask, and when I ask for something short, short wins over complete. Do what I asked for and nothing next to it. If you think the ask is wrong, say so in one sentence and then do it anyway. Do not add a verification pass unless I ask for one. You already check your own work.</p>
+</blockquote></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -164,29 +162,13 @@ The smartest models are incredibly wordy. You pay for every word. Use this stand
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

@@ -93,9 +93,8 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-I need to have a difficult conversation with [investor role] about [topic, missed milestone, pivot, cap table issue]. Prepare me with: my opening statement, the three most likely responses, and how I handle each one while preserving the relationship.&quot; WHAT YOU HAVE NOW 50 prompts. Seven categories. All copy-paste ready. The founders getting the most from AI aren&#x27;t the ones using the most tools.  They&#x27;re the ones who&#x27;ve built a prompt for every high-stakes moment, so when it arrives, they already know what to run. That&#x27;s what this library gives you.
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>I need to have a difficult conversation with [investor role] about [topic, missed milestone, pivot, cap table issue]. Prepare me with: my opening statement, the three most likely responses, and how I handle each one while preserving the relationship.&quot; WHAT YOU HAVE NOW 50 prompts. Seven categories. All copy-paste ready. The founders getting the most from AI aren't the ones using the most tools.  They're the ones who've built a prompt for every high-stakes moment, so when it arrives, they already know what to run. That's what this library gives you.
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -118,29 +117,13 @@ I need to have a difficult conversation with [investor role] about [topic, misse
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

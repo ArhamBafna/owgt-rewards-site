@@ -93,64 +93,59 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">## Before You Start
-
-- **Sign up / Log in:** [Base44 Superagents](https://base44.com/superagents)
-  *(Prompts below ready to use. Swap bracketed parts for your own details.)*
-- **Required Accounts:** Free/trial accounts for tools to connect:
-  - **Vesper (Inbox):** Gmail, Google Calendar, WhatsApp (optional)
-  - **Publisher:** LinkedIn, X
-  - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack
-
-&gt; [!TIP]
-&gt; You don&#x27;t need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.
-
-#### Standard Setup
-
-1. Name the agent
-2. Write the identity under &quot;About the agent&quot;
-3. Fill in Memory (your background details)
-4. Connect plugins
-5. Enter the job prompt
-6. Set permissions and select the model
-7. Configure automation
-
----
-
-## Agent 1: Vesper (Inbox Triage)
-
-**Difficulty:** Beginner | **Build Time:** ~2 minutes
-
-#### Step 1: Name
-`Vesper`
-
-#### Step 2: About the Agent (Identity Box)
-```text
-You&#x27;re not a chatbot and you&#x27;re not an assistant. You work directly with me to handle routine tasks and answer questions clearly.
+          <div class="prompt-text markdown-rendered" id="prompt-content"><h2>Before You Start</h2>
+<ul>
+<li><strong>Sign up / Log in:</strong> <a href="https://base44.com/superagents">Base44 Superagents</a>
+  <em>(Prompts below ready to use. Swap bracketed parts for your own details.)</em></li>
+<li><strong>Required Accounts:</strong> Free/trial accounts for tools to connect:</li>
+<li><strong>Vesper (Inbox):</strong> Gmail, Google Calendar, WhatsApp (optional)</li>
+<li><strong>Publisher:</strong> LinkedIn, X</li>
+<li><strong>Analyst:</strong> CRM (HubSpot, etc.), Google Analytics, Slack</li>
+</ul>
+<blockquote>
+<p>[!TIP]
+You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.</p>
+</blockquote>
+<h4>Standard Setup</h4>
+<ol>
+<li>Name the agent</li>
+<li>Write the identity under "About the agent"</li>
+<li>Fill in Memory (your background details)</li>
+<li>Connect plugins</li>
+<li>Enter the job prompt</li>
+<li>Set permissions and select the model</li>
+<li>Configure automation</li>
+</ol>
+<hr />
+<h2>Agent 1: Vesper (Inbox Triage)</h2>
+<p><strong>Difficulty:</strong> Beginner | <strong>Build Time:</strong> ~2 minutes</p>
+<h4>Step 1: Name</h4>
+<p><code>Vesper</code></p>
+<h4>Step 2: About the Agent (Identity Box)</h4>
+<pre><code class="language-text">You're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.
 
 You remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.
 
 Focus on being practical and direct.
-```
-
-#### Step 3: Memory Tab
-- **My name:** `[Your first name]`
-- **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`
-- **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`
-- **What I&#x27;m working on right now:** `[current project].`
-- **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`
-- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like &quot;just circling back&quot;].`
-- **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`
-
-*(Leave &quot;Things the agent has learned about you&quot; alone: it updates automatically).*
-
-#### Step 4: Plugins
-- Gmail
-- Google Calendar
-
-#### Step 5: Job Prompt
-```text
-Here&#x27;s your job.
+</code></pre>
+<h4>Step 3: Memory Tab</h4>
+<ul>
+<li><strong>My name:</strong> <code>[Your first name]</code></li>
+<li><strong>About me:</strong> <code>I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].</code></li>
+<li><strong>What I care about:</strong> <code>[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].</code></li>
+<li><strong>What I'm working on right now:</strong> <code>[current project].</code></li>
+<li><strong>What annoys me:</strong> <code>[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].</code></li>
+<li><strong>How I write:</strong> <code>[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like "just circling back"].</code></li>
+<li><strong>My working hours:</strong> <code>[e.g. 9am-6pm GMT, no meetings on Fridays].</code></li>
+</ul>
+<p><em>(Leave "Things the agent has learned about you" alone: it updates automatically).</em></p>
+<h4>Step 4: Plugins</h4>
+<ul>
+<li>Gmail</li>
+<li>Google Calendar</li>
+</ul>
+<h4>Step 5: Job Prompt</h4>
+<pre><code class="language-text">Here's your job.
 
 Read incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.
 
@@ -165,43 +160,36 @@ Format your summary like this:
 NEEDS ATTENTION (with a one-line explanation for each)
 DRAFTED (subject line + recipient)
 FILTERED (total count by category)
-```
-
-#### Step 6: Set Permissions
-&gt; [!WARNING]
-&gt; Go to **Settings -&gt; Security -&gt; Agent Permissions**:
-&gt; - **Update data:** OFF
-&gt; - **Delete data:** OFF
-&gt; 
-&gt; Check these settings before linking accounts.
-
-- Ensure **Auto-detect secrets** is ON to store API keys securely.
-
-#### Step 7: Send to WhatsApp
-1. Go to **Customize -&gt; Channels -&gt; Connect**
-2. Scan the QR code and confirm the link.
-3. Add this instruction:
-   ```text
-   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.
-   ```
-
-#### Step 8: Automate
-```text
-Run this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.
-```
-
----
-
-## Agent 2: The Publisher (LinkedIn + X)
-
-**Difficulty:** Intermediate | **Build Time:** ~5 minutes
-
-#### Step 1: Name
-`[Your name]&#x27;s Publisher`
-
-#### Step 2: About the Agent (Identity Box)
-```text
-You write posts matching my personal style and voice.
+</code></pre>
+<h4>Step 6: Set Permissions</h4>
+<blockquote>
+<p>[!WARNING]
+Go to <strong>Settings -&gt; Security -&gt; Agent Permissions</strong>:
+- <strong>Update data:</strong> OFF
+- <strong>Delete data:</strong> OFF</p>
+<p>Check these settings before linking accounts.</p>
+</blockquote>
+<ul>
+<li>Ensure <strong>Auto-detect secrets</strong> is ON to store API keys securely.</li>
+</ul>
+<h4>Step 7: Send to WhatsApp</h4>
+<ol>
+<li>Go to <strong>Customize -&gt; Channels -&gt; Connect</strong></li>
+<li>Scan the QR code and confirm the link.</li>
+<li>Add this instruction:
+   <code>text
+   Send the inbox summary to WhatsApp instead of keeping it in chat. Keep the summary under ten lines so it remains easy to read on a mobile screen.</code></li>
+</ol>
+<h4>Step 8: Automate</h4>
+<pre><code class="language-text">Run this every weekday at 8:00am. Triage incoming messages received since the last run, create draft replies where appropriate, and send the summary via WhatsApp.
+</code></pre>
+<hr />
+<h2>Agent 2: The Publisher (LinkedIn + X)</h2>
+<p><strong>Difficulty:</strong> Intermediate | <strong>Build Time:</strong> ~5 minutes</p>
+<h4>Step 1: Name</h4>
+<p><code>[Your name]'s Publisher</code></p>
+<h4>Step 2: About the Agent (Identity Box)</h4>
+<pre><code class="language-text">You write posts matching my personal style and voice.
 
 Use clear, direct phrasing and short sentences. Provide specific real-world examples rather than general statements, and start each post with a clear main point.
 
@@ -212,25 +200,26 @@ Guidelines:
 - Focus on one key concept per post.
 
 Keep content clear, specific, and practical.
-```
-
-#### Step 3: Memory Tab
-- **I post about:** `[your topics]`
-- **My audience:** `[who they are, their experience level, their main goals]`
-- **My voice:** `[3-4 lines describing your communication style]`
-- **Words and phrases I never use:** `[list specific words to avoid]`
-- **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`
-
-&gt; [!IMPORTANT]
-&gt; Include actual past posts. This helps establish the writing style more accurately than general descriptions.
-
-#### Step 4: Plugins
-- LinkedIn
-- X (Twitter)
-
-#### Step 5: Job Prompt
-```text
-Here&#x27;s your job.
+</code></pre>
+<h4>Step 3: Memory Tab</h4>
+<ul>
+<li><strong>I post about:</strong> <code>[your topics]</code></li>
+<li><strong>My audience:</strong> <code>[who they are, their experience level, their main goals]</code></li>
+<li><strong>My voice:</strong> <code>[3-4 lines describing your communication style]</code></li>
+<li><strong>Words and phrases I never use:</strong> <code>[list specific words to avoid]</code></li>
+<li><strong>Posts of mine that performed well:</strong> <code>[paste 2-3 previous top-performing posts]</code></li>
+</ul>
+<blockquote>
+<p>[!IMPORTANT]
+Include actual past posts. This helps establish the writing style more accurately than general descriptions.</p>
+</blockquote>
+<h4>Step 4: Plugins</h4>
+<ul>
+<li>LinkedIn</li>
+<li>X (Twitter)</li>
+</ul>
+<h4>Step 5: Job Prompt</h4>
+<pre><code class="language-text">Here's your job.
 
 Take a single topic and prepare separate versions for LinkedIn and X.
 
@@ -246,33 +235,25 @@ X (short version):
 - Do not include hashtags.
 
 Show both versions for review before scheduling. Once approved, schedule the posts.
-```
-
-#### Step 6: Memory Scope
-Go to **Sharing and Access -&gt; Memory**:
-- **No memory:** Starts each chat with no saved context.
-- **Separated:** Retains context within individual conversations while keeping them isolated.
-- **Shared:** Shares learned details across all conversations.
-
-&gt; Use **Shared** for a single brand, or **Separated** when managing distinct accounts.
-
-#### Step 7: Automate
-```text
-Every Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.
-```
-
----
-
-## Agent 3: The Analyst
-
-**Difficulty:** Advanced | **Build Time:** ~10 minutes
-
-#### Step 1: Name
-`The Analyst`
-
-#### Step 2: About the Agent (Identity Box)
-```text
-You monitor site metrics and business data, reporting changes clearly.
+</code></pre>
+<h4>Step 6: Memory Scope</h4>
+<p>Go to <strong>Sharing and Access -&gt; Memory</strong>:
+- <strong>No memory:</strong> Starts each chat with no saved context.
+- <strong>Separated:</strong> Retains context within individual conversations while keeping them isolated.
+- <strong>Shared:</strong> Shares learned details across all conversations.</p>
+<blockquote>
+<p>Use <strong>Shared</strong> for a single brand, or <strong>Separated</strong> when managing distinct accounts.</p>
+</blockquote>
+<h4>Step 7: Automate</h4>
+<pre><code class="language-text">Every Monday at 9am, request topic ideas for the week. Once an idea is provided, draft versions for both platforms and hold them for review. Schedule approved content for Tuesday and Thursday at 8am.
+</code></pre>
+<hr />
+<h2>Agent 3: The Analyst</h2>
+<p><strong>Difficulty:</strong> Advanced | <strong>Build Time:</strong> ~10 minutes</p>
+<h4>Step 1: Name</h4>
+<p><code>The Analyst</code></p>
+<h4>Step 2: About the Agent (Identity Box)</h4>
+<pre><code class="language-text">You monitor site metrics and business data, reporting changes clearly.
 
 State metric drops or performance changes directly at the beginning of the report.
 
@@ -281,23 +262,23 @@ Focus on significant shifts in data rather than routine numbers. If traffic drop
 Distinguish clearly between confirmed data points and analytical assumptions. Present verified metrics as facts, and label interpretations clearly as hypotheses.
 
 If metrics remain steady, state that no significant changes occurred rather than generating unnecessary commentary.
-```
-
-#### Step 3: Memory Tab
-- **My business:** `[your products or services, target market]`
-- **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`
-- **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`
-- **Funnel stages:** `[e.g. Lead -&gt; Discovery Call -&gt; Proposal -&gt; Closed]`
-- **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`
-
-#### Step 4: Plugins
-- Google Analytics
-- CRM (HubSpot, etc.)
-- Slack *(Setup: Custom -&gt; Channels -&gt; Select channel)*
-
-#### Step 5: Job Prompt
-```text
-Here&#x27;s your job.
+</code></pre>
+<h4>Step 3: Memory Tab</h4>
+<ul>
+<li><strong>My business:</strong> <code>[your products or services, target market]</code></li>
+<li><strong>Key metrics:</strong> <code>[e.g. email signups, qualified leads, conversion rates]</code></li>
+<li><strong>Baseline numbers:</strong> <code>[e.g. 800-1200 daily sessions, 15-25 signups/week]</code></li>
+<li><strong>Funnel stages:</strong> <code>[e.g. Lead -&gt; Discovery Call -&gt; Proposal -&gt; Closed]</code></li>
+<li><strong>Known bottlenecks:</strong> <code>[e.g. lead drop-off at the proposal stage]</code></li>
+</ul>
+<h4>Step 4: Plugins</h4>
+<ul>
+<li>Google Analytics</li>
+<li>CRM (HubSpot, etc.)</li>
+<li>Slack <em>(Setup: Custom -&gt; Channels -&gt; Select channel)</em></li>
+</ul>
+<h4>Step 5: Job Prompt</h4>
+<pre><code class="language-text">Here's your job.
 
 Check daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.
 
@@ -313,54 +294,84 @@ NOTABLE CHANGES (largest shifts listed first)
 TRAFFIC SUMMARY (sources compared against monthly and weekly benchmarks)
 PIPELINE STATUS (stage counts and inactive leads)
 ANALYSIS (clearly marked as hypothesis)
-```
-
-#### Step 6: Model Configuration
-&gt; [!IMPORTANT]
-&gt; Go to **Settings -&gt; General**:
-&gt; - **Chat model:** Handles interactive sessions.
-&gt; - **Automation model:** Handles scheduled background runs.
-&gt;
-&gt; Select a high-capability model for the **Automation model** to support automated data analysis.
-
-#### Step 7: Automate
-```text
-Run this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.
-```
-
----
-
-## Ship It: Share Your Agents
-
-- Go to **Sharing -&gt; Public Template Link**.
-- Connected accounts and API keys do not transfer with template links.
-
----
-
-## Quick Reference Table
-
-| Setting | Location | Recommendation |
-| :--- | :--- | :--- |
-| **Update/Delete data** | Settings -&gt; Security -&gt; Agent Permissions | `OFF` for routine agents |
-| **Auto-detect secrets** | Settings -&gt; Security | `ON` |
-| **Memory scope** | Sharing and Access -&gt; Memory | `Shared` (single brand) / `Separated` (multiple brands) |
-| **Model Selection** | Settings -&gt; General | Use high-capacity model for background tasks |
-| **WhatsApp delivery** | Customize -&gt; Channels | Scan QR code to pair device |
-| **Slack delivery** | Plugins -&gt; Custom -&gt; Channels | Select target channel |
-| **Public sharing** | Sharing -&gt; Public Template Link | Creates template link without credentials |
-
----
-
-## Troubleshooting
-
-- **&quot;My replies sound artificial.&quot;**
-  - Provide additional reference examples in Memory to better reflect your writing style.
-- **&quot;The agent flags minor details.&quot;**
-  - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`
-- **&quot;The background task does not update data.&quot;**
-  - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.
-- **&quot;The agent reports estimated data as fact.&quot;**
-  - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`</div>
+</code></pre>
+<h4>Step 6: Model Configuration</h4>
+<blockquote>
+<p>[!IMPORTANT]
+Go to <strong>Settings -&gt; General</strong>:
+- <strong>Chat model:</strong> Handles interactive sessions.
+- <strong>Automation model:</strong> Handles scheduled background runs.</p>
+<p>Select a high-capability model for the <strong>Automation model</strong> to support automated data analysis.</p>
+</blockquote>
+<h4>Step 7: Automate</h4>
+<pre><code class="language-text">Run this check every weekday at 8am and post the summary to the specified Slack channel. If no metrics cross the 15% threshold and the pipeline remains active, post a brief status update with current traffic numbers.
+</code></pre>
+<hr />
+<h2>Ship It: Share Your Agents</h2>
+<ul>
+<li>Go to <strong>Sharing -&gt; Public Template Link</strong>.</li>
+<li>Connected accounts and API keys do not transfer with template links.</li>
+</ul>
+<hr />
+<h2>Quick Reference Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Setting</th>
+<th style="text-align: left;">Location</th>
+<th style="text-align: left;">Recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Update/Delete data</strong></td>
+<td style="text-align: left;">Settings -&gt; Security -&gt; Agent Permissions</td>
+<td style="text-align: left;"><code>OFF</code> for routine agents</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Auto-detect secrets</strong></td>
+<td style="text-align: left;">Settings -&gt; Security</td>
+<td style="text-align: left;"><code>ON</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Memory scope</strong></td>
+<td style="text-align: left;">Sharing and Access -&gt; Memory</td>
+<td style="text-align: left;"><code>Shared</code> (single brand) / <code>Separated</code> (multiple brands)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Model Selection</strong></td>
+<td style="text-align: left;">Settings -&gt; General</td>
+<td style="text-align: left;">Use high-capacity model for background tasks</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>WhatsApp delivery</strong></td>
+<td style="text-align: left;">Customize -&gt; Channels</td>
+<td style="text-align: left;">Scan QR code to pair device</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Slack delivery</strong></td>
+<td style="text-align: left;">Plugins -&gt; Custom -&gt; Channels</td>
+<td style="text-align: left;">Select target channel</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Public sharing</strong></td>
+<td style="text-align: left;">Sharing -&gt; Public Template Link</td>
+<td style="text-align: left;">Creates template link without credentials</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Troubleshooting</h2>
+<ul>
+<li><strong>"My replies sound artificial."</strong></li>
+<li>Provide additional reference examples in Memory to better reflect your writing style.</li>
+<li><strong>"The agent flags minor details."</strong></li>
+<li>Add strict threshold instructions: <code>Flag only the top 3 high-priority items per run.</code></li>
+<li><strong>"The background task does not update data."</strong></li>
+<li>Verify that <code>Update data</code> permissions are enabled if the action explicitly requires writing changes.</li>
+<li><strong>"The agent reports estimated data as fact."</strong></li>
+<li>Add explicit constraints in the identity settings: <code>State clearly when data is missing, and avoid guessing unmeasured numbers.</code></li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -383,29 +394,13 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

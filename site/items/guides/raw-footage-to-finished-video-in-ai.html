@@ -93,98 +93,98 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.
-
----
-
-## Overview
-
-#### What You Are Building
-A single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.
-
-#### How It Works
-- `video-use`: Free open-source skill that reads transcript, finds cut points, and runs the main edit.
-- `HyperFrames`: Code-based graphic generator called by `video-use` when visual elements are needed. You only talk to `video-use`.
-
----
-
-## Setup (One-Time)
-
-1. Copy the `video-use` link from community files.
-2. Paste link into AI Code tab and prompt:
-   &quot;Read install file first, install repo, set up FFmpeg, register skill, and prompt me for my key when needed.&quot;
-3. Paste ElevenLabs API key when prompted during first edit run.
-
----
-
-## Workflow
-
-#### 1. Rough Cut
-Put raw video into project folder and prompt:
-&quot;Start new project for raw clip and make rough cut.&quot;
-
-AI uses Scribe for word-level timestamps, flags filler words and pauses, shows cut plan, and waits for approval.
-
-Fix-it prompts:
-- &quot;Add a bit more padding before that sentence.&quot;
-- &quot;Remove the word &#x27;basically&#x27; at start of line.&quot;
-
-&gt; [!IMPORTANT]
-&gt; Lock rough cut before adding graphics to avoid timing misalignment later.
-
----
-
-#### 2. Graphics
-Open new chat for graphics phase and prompt:
-&quot;Plan motion graphic for each segment, then build.&quot;
-
-Refinement prompts:
-- &quot;Use primary brand orange instead of default blue.&quot;
-- &quot;Place logo PNG on intro graphic.&quot;
-- &quot;Slow down entrance animation speed.&quot;
-
-Each tweak only re-renders affected section.
-
----
-
-#### 3. Captions
-Prompt:
-&quot;Add captions using existing transcript.&quot;
-
-Generated using existing Scribe timestamps.
-
----
-
-#### 4. Music
-Point AI to audio file and set volume level (recommended **-22 to -23 dB** for background voice balance):
-&quot;Add background music using this track at -22 dB.&quot;
-
----
-
-#### 5. Export
-Prompt:
-&quot;Export final video.&quot;
-
-Final file saves to downloads directory; source project folder remains intact.
-
----
-
-## Summary Prompt Reference
-
-| Phase | Command / Prompt |
-| :--- | :--- |
-| **Setup** | `&quot;Read install file first, install repo, set up FFmpeg, register skill, and prompt me for key when needed.&quot;` |
-| **Rough Cut** | `&quot;Start new project for raw clip and make rough cut.&quot;` |
-| **Graphics** | `&quot;Plan motion graphic for each segment, then build.&quot;` |
-| **Captions** | `&quot;Add captions using existing transcript.&quot;` |
-| **Export** | `&quot;Export final video.&quot;` |
-
----
-
-## Key Notes
-
-- Word-level Scribe timestamps give accurate cut placement.
-- Use natural language prompts for edits instead of manual timeline trimming.</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><p>Turn raw video clips into captioned, scored, motion-graphic edited final videos directly inside your AI workspace. No Premiere or terminal experience needed.</p>
+<hr />
+<h2>Overview</h2>
+<h4>What You Are Building</h4>
+<p>A single AI setup that takes a raw clip and outputs a captioned, scored, motion-graphic edited video.</p>
+<h4>How It Works</h4>
+<ul>
+<li><code>video-use</code>: Free open-source skill that reads transcript, finds cut points, and runs the main edit.</li>
+<li><code>HyperFrames</code>: Code-based graphic generator called by <code>video-use</code> when visual elements are needed. You only talk to <code>video-use</code>.</li>
+</ul>
+<hr />
+<h2>Setup (One-Time)</h2>
+<ol>
+<li>Copy the <code>video-use</code> link from community files.</li>
+<li>Paste link into AI Code tab and prompt:
+   "Read install file first, install repo, set up FFmpeg, register skill, and prompt me for my key when needed."</li>
+<li>Paste ElevenLabs API key when prompted during first edit run.</li>
+</ol>
+<hr />
+<h2>Workflow</h2>
+<h4>1. Rough Cut</h4>
+<p>Put raw video into project folder and prompt:
+"Start new project for raw clip and make rough cut."</p>
+<p>AI uses Scribe for word-level timestamps, flags filler words and pauses, shows cut plan, and waits for approval.</p>
+<p>Fix-it prompts:
+- "Add a bit more padding before that sentence."
+- "Remove the word 'basically' at start of line."</p>
+<blockquote>
+<p>[!IMPORTANT]
+Lock rough cut before adding graphics to avoid timing misalignment later.</p>
+</blockquote>
+<hr />
+<h4>2. Graphics</h4>
+<p>Open new chat for graphics phase and prompt:
+"Plan motion graphic for each segment, then build."</p>
+<p>Refinement prompts:
+- "Use primary brand orange instead of default blue."
+- "Place logo PNG on intro graphic."
+- "Slow down entrance animation speed."</p>
+<p>Each tweak only re-renders affected section.</p>
+<hr />
+<h4>3. Captions</h4>
+<p>Prompt:
+"Add captions using existing transcript."</p>
+<p>Generated using existing Scribe timestamps.</p>
+<hr />
+<h4>4. Music</h4>
+<p>Point AI to audio file and set volume level (recommended <strong>-22 to -23 dB</strong> for background voice balance):
+"Add background music using this track at -22 dB."</p>
+<hr />
+<h4>5. Export</h4>
+<p>Prompt:
+"Export final video."</p>
+<p>Final file saves to downloads directory; source project folder remains intact.</p>
+<hr />
+<h2>Summary Prompt Reference</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Phase</th>
+<th style="text-align: left;">Command / Prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Setup</strong></td>
+<td style="text-align: left;"><code>"Read install file first, install repo, set up FFmpeg, register skill, and prompt me for key when needed."</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Rough Cut</strong></td>
+<td style="text-align: left;"><code>"Start new project for raw clip and make rough cut."</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Graphics</strong></td>
+<td style="text-align: left;"><code>"Plan motion graphic for each segment, then build."</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Captions</strong></td>
+<td style="text-align: left;"><code>"Add captions using existing transcript."</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Export</strong></td>
+<td style="text-align: left;"><code>"Export final video."</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Key Notes</h2>
+<ul>
+<li>Word-level Scribe timestamps give accurate cut placement.</li>
+<li>Use natural language prompts for edits instead of manual timeline trimming.</li>
+</ul></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -207,29 +207,13 @@ Final file saves to downloads directory; source project folder remains intact.
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

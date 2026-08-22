@@ -93,9 +93,8 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-Here is customer feedback I&#x27;ve collected: [paste]. Analyze it for growth signals, not just the satisfaction data, but what it reveals about: the customer segments most likely to expand, the use cases we&#x27;re underdeveloped in, and the competitor we&#x27;re most often replacing or being compared to. Give me the one growth hypothesis this data most supports.&quot; &quot;I&#x27;m considering investing [describe resource] in [describe opportunity]. Evaluate the investment on: expected return and time to see it, key assumptions that must hold for the return to materialize, what the minimum viable version of this investment looks like, and at what point I should cut my losses if it&#x27;s not working.
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>Here is customer feedback I've collected: [paste]. Analyze it for growth signals, not just the satisfaction data, but what it reveals about: the customer segments most likely to expand, the use cases we're underdeveloped in, and the competitor we're most often replacing or being compared to. Give me the one growth hypothesis this data most supports.&quot; &quot;I'm considering investing [describe resource] in [describe opportunity]. Evaluate the investment on: expected return and time to see it, key assumptions that must hold for the return to materialize, what the minimum viable version of this investment looks like, and at what point I should cut my losses if it's not working.
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -118,29 +117,13 @@ Here is customer feedback I&#x27;ve collected: [paste]. Analyze it for growth si
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>

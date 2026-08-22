@@ -93,9 +93,8 @@
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">```
-I need to decide whether to pivot or stay the course on [describe current direction]. Here is what the data is telling me: [share what you know]. Here is what I&#x27;m uncertain about: [describe]. Build two scenarios: one where the current signals are a real problem requiring a change, and one where they are noise that will resolve. Tell me what I would need to see in the next 60 days to know which scenario is true.
-```</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content"><pre><code>I need to decide whether to pivot or stay the course on [describe current direction]. Here is what the data is telling me: [share what you know]. Here is what I'm uncertain about: [describe]. Build two scenarios: one where the current signals are a real problem requiring a change, and one where they are noise that will resolve. Tell me what I would need to see in the next 60 days to know which scenario is true.
+</code></pre></div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -118,29 +117,13 @@ I need to decide whether to pivot or stay the course on [describe current direct
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const el = document.getElementById('prompt-content');
-      if (el) {
-        const raw = el.textContent;
-        if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
-          marked.setOptions({
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            }
-          });
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }
-      }
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightElement(block);
+      });
     });
   </script>
 </body>
