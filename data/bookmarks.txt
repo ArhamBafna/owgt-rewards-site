@@ -420,3 +420,6 @@ Link: https://www.linkedin.com/learning/paths/build-your-generative-ai-productiv
 
 Title: Generative AI: The Evolution of Thoughtful Online Search
 Link: https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtful-online-search/how-finding-and-sharing-information-online-has-evolved
+
+Title: Enhance Results with Prompt Engineering Strategies
+Link: https://platform.openai.com/docs/guides/prompt-engineering

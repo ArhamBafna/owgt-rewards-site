@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 413 files · ~630,880 words
+- 414 files · ~631,200 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2878 nodes · 2839 edges · 426 communities (410 shown, 16 thin omitted)
+- 2885 nodes · 2846 edges · 427 communities (411 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cb43232e`
+- Built from commit: `8e4213ee`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -429,6 +429,7 @@
 - the-code-coding-agent-hacks.md
 - build-your-generative-ai-productivity-skills.md
 - generative-ai-the-evolution-of-thoughtful-online-search.md
+- enhance-results-with-prompt-engineering-strategies.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -448,7 +449,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (426 total, 16 thin omitted)
+## Communities (427 total, 16 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2042,8 +2043,12 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
+### Community 426 - "enhance-results-with-prompt-engineering-strategies.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2318 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2313 more)
+- **2324 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2319 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -2051,7 +2056,7 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
-  _2318 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2324 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**

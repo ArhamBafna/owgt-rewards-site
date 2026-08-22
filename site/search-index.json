@@ -5560,5 +5560,24 @@
     "url": "https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtful-online-search/how-finding-and-sharing-information-online-has-evolved",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "enhance-results-with-prompt-engineering-strategies",
+    "name": "Enhance Results with Prompt Engineering Strategies",
+    "description": "Official OpenAI playbook outlining 6 core prompting strategies and tactics to maximize accuracy, reliability, and reasoning from LLMs.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Prompt",
+      "LLM",
+      "Best Practices",
+      "Guide"
+    ],
+    "path": "/items/learning/enhance-results-with-prompt-engineering-strategies",
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "is_shallow": true,
+    "content": ""
   }
 ]
