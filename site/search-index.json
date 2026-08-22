@@ -5579,5 +5579,23 @@
     "url": "https://platform.openai.com/docs/guides/prompt-engineering",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "generative-ai-explained",
+    "name": "Generative AI Explained",
+    "description": "NVIDIA Deep Learning Institute course explaining generative AI principles, architectures, and real-world enterprise applications.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "AI",
+      "Enterprise",
+      "Machine Learning"
+    ],
+    "path": "/items/learning/generative-ai-explained",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1",
+    "is_shallow": true,
+    "content": ""
   }
 ]

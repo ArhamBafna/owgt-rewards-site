@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787436215.3420002,
-    "seen": 1787436250.0384374,
-    "ast_hash": "f8d9ff63b4e826932ea89df513c54fbf",
+    "mtime": 1787436283.5036616,
+    "seen": 1787436340.9970534,
+    "ast_hash": "46fe4d940782217ac73ee7dfa3390ba9",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787436200.587041,
-    "seen": 1787436250.0384781,
-    "ast_hash": "b8ec4f8c559faf0b6c0c5a895b59ea1d",
+    "mtime": 1787436268.5638764,
+    "seen": 1787436340.9971445,
+    "ast_hash": "49a7c6e25f7cb9a9355019d38f4d51b1",
     "semantic_hash": ""
   },
   "data/github.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787436215.3420002,
-    "seen": 1787436250.0391643,
-    "ast_hash": "e422d2976228be1d90815c3fc9d3e477",
+    "mtime": 1787436283.505685,
+    "seen": 1787436341.0024955,
+    "ast_hash": "a4fa96d611537b781fa1a9468247b736",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787436230.9135494,
-    "seen": 1787436250.0384593,
-    "ast_hash": "f0e183fb3e1708f50040ce82c496b6f2",
+    "mtime": 1787436298.06629,
+    "seen": 1787436340.9971032,
+    "ast_hash": "2fd05aa3cd0493f20ff5ef53e9521b53",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787436230.9280765,
-    "seen": 1787436250.0384626,
-    "ast_hash": "053f30258ce6efb266ef9e1e4cb9fcb6",
+    "mtime": 1787436298.0820785,
+    "seen": 1787436340.9971113,
+    "ast_hash": "a7c2cc6e1040087c5a6d4d68eb154068",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1787436230.9321165,
-    "seen": 1787436250.0400853,
-    "ast_hash": "945c5aac0ca348dc035d9d89798288aa",
+    "mtime": 1787436298.0861175,
+    "seen": 1787436341.0036447,
+    "ast_hash": "746efdf87b5432eea6c3e6b5a34417b5",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4596,8 +4596,8 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787436215.3420002,
-    "seen": 1787436250.0391705,
+    "mtime": 1787436283.505685,
+    "seen": 1787436341.0025032,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
@@ -4623,6 +4623,12 @@
     "mtime": 1787436209.8912323,
     "seen": 1787436250.038569,
     "ast_hash": "c7e2b2c6942cb1c16c8f3cc825ff0108",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/enhance-results-with-prompt-engineering-strategies.md": {
+    "mtime": 1787436276.3074844,
+    "seen": 1787436340.9973378,
+    "ast_hash": "5814cc4d14008dce7f2da906943db94d",
     "semantic_hash": ""
   }
 }

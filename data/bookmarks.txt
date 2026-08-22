@@ -423,3 +423,6 @@ Link: https://www.linkedin.com/learning/generative-ai-the-evolution-of-thoughtfu
 
 Title: Enhance Results with Prompt Engineering Strategies
 Link: https://platform.openai.com/docs/guides/prompt-engineering
+
+Title: Generative AI Explained
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1
