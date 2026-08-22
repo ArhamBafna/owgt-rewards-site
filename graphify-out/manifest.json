@@ -4578,9 +4578,9 @@
     "semantic_hash": ""
   },
   ".agents/add-reward-item/SKILL.md": {
-    "mtime": 1787434884.3569667,
-    "seen": 1787434925.275762,
-    "ast_hash": "41ad4a91c8fd091a62af19abcc4d07a5",
+    "mtime": 1787435278.6875496,
+    "seen": 1787435315.8921664,
+    "ast_hash": "340f2b005b1f5db9408a272e67e5a050",
     "semantic_hash": ""
   },
   "organized-data/Tools/aipen-chatgpt-app.md": {
@@ -4601,12 +4601,6 @@
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
-  "scripts/update_site_json.py": {
-    "mtime": 1787434361.3607793,
-    "seen": 1787434394.8981545,
-    "ast_hash": "ec8e44b1b1423dc92f27bef72a578339",
-    "semantic_hash": ""
-  },
   "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md": {
     "mtime": 1787434833.019514,
     "seen": 1787434925.2758152,
@@ -4617,24 +4611,6 @@
     "mtime": 1787434833.0648623,
     "seen": 1787434925.2762992,
     "ast_hash": "ba87a612bef0d4b2f0f4f54e7d922f29",
-    "semantic_hash": ""
-  },
-  "scripts/build_all_50_hacks.py": {
-    "mtime": 1787434799.2442107,
-    "seen": 1787434925.2757328,
-    "ast_hash": "53a7f3288b0847f6a6b863f5f0e86cb4",
-    "semantic_hash": ""
-  },
-  "scripts/export_hacks.py": {
-    "mtime": 1787434753.7559266,
-    "seen": 1787434925.2757406,
-    "ast_hash": "8ec69ab9569ca4cb698f79db6b4cc0bc",
-    "semantic_hash": ""
-  },
-  "scripts/parse_hackbook.py": {
-    "mtime": 1787434723.7742867,
-    "seen": 1787434925.2757478,
-    "ast_hash": "924413c0c91ccb65afa495a0159c393b",
     "semantic_hash": ""
   }
 }

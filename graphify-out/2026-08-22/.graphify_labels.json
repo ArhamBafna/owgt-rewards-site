@@ -423,5 +423,13 @@
   "421": "2026-06-29_16-49-31Z-create-a-project-in.md",
   "422": "site/AGENTS.md",
   "423": "the-code-coding-agent-hacks.md",
-  "424": "update_site_json.py"
+  "424": "update_site_json.py",
+  "425": "Automation & Hooks",
+  "426": "Workflow & Task Management",
+  "427": "Prompting & Specification",
+  "428": "Tools & Plugins",
+  "429": "Context & Configuration",
+  "430": "build_all_50_hacks.py",
+  "431": "export_hacks.py",
+  "432": "parse_hackbook.py"
 }

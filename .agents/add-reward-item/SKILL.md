@@ -11,15 +11,17 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
 - NEVER store plain URL redirect without getting page content first.
 - NEVER truncate or partially extract items: if extracting content, you MUST be 100% confident and guaranteed to extract ALL items/entries completely. If 100% full extraction is not guaranteed, store link to redirect to instead of partial content.
 - NEVER skip raw data entry in `data/`.
-- NEVER leave `organized-data/` unindexed; always run build scripts.
+- NEVER leave `organized-data/` unindexed; always run index scripts.
 - NEVER write generic or vague descriptions (e.g., "App repo by X").
 - NEVER invent brand new tags if existing tags fit; check `rewards/organized-data/tags.txt` first.
+- NEVER hardcode absolute machine paths in scripts; always use dynamic relative paths (`os.path.dirname(__file__)`).
+- NEVER leave temporary or one-off scripts in `scripts/` or workspace; delete them immediately after execution.
 
 ## Workflow
 
 ### 1. Fetch & Parse Input
 - **URL/Link**: If link, read full page text via `read_url_content` or Firecrawl/Exa.
-  - **Extraction Rule**: If you can accurately, guaranteed extract ALL content/items 100% without loss or omission, extract and state all content directly on site. If not 100% sure and confident you can extract everything completely and accurately, provide the URL to redirect to instead.
+  - **Extraction Rule**: If you can accurately, guaranteed extract ALL content/items 100% without loss or omission, extract and state all content directly on site. If no, provide the URL to redirect to instead.
 - **Guide/Tutorial**: If text extracted, if step-by-step guide, run `rewards/.agents/skool-guide-to-md/SKILL.md` to de-brand AI terms and structure markdown first.
 - **Description Quality**: Do NOT write generic summaries. State exact function and utility (can use extracted info). If not 100% sure, use `/grill-me` to ask user for description.
 
@@ -59,11 +61,20 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read `/grill-me` skill
   python scripts/generate_indices.py
   ```
 
-### 4. Commands 
-- Build Website (`rewards/site/`)
-  ```powershell
-  python site/build.py
-  ```
+### 4. Sync Website (`rewards/site/`)
+- **Database & Search Index**:
+  - Add/update item object in `rewards/site/data.json` and `rewards/site/search-index.json`.
+  - Recalculate tag counts in `rewards/site/data.json` under `tags` dictionary.
+- **Standalone Item Page**:
+  - Create `rewards/site/items/<category-slug>/<slug>.html`.
+  - Link `Previous` and `Next` buttons to neighboring items in the category folder.
+- **Category Overview Page**:
+  - Add item card to `rewards/site/<category-slug>.html`.
+  - Increment the curated entry count badge in header (e.g. `X curated entries.`).
+- **Clean One-off Scripts**:
+  - If a temporary script was created to sync data, delete it immediately.
+
+### 5. Final Commands & Git
 - Update graphify:
   ```powershell
   graphify update .
