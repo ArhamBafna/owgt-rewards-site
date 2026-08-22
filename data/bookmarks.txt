@@ -426,3 +426,6 @@ Link: https://platform.openai.com/docs/guides/prompt-engineering
 
 Title: Generative AI Explained
 Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1
+
+Title: Building a Brain in 10 Minutes
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1

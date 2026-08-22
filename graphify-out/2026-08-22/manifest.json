@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787436283.5036616,
-    "seen": 1787436340.9970534,
-    "ast_hash": "46fe4d940782217ac73ee7dfa3390ba9",
+    "mtime": 1787436384.0253026,
+    "seen": 1787436449.7107382,
+    "ast_hash": "47a6f756bd0aa5f8268ed50e06d81393",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787436268.5638764,
-    "seen": 1787436340.9971445,
-    "ast_hash": "49a7c6e25f7cb9a9355019d38f4d51b1",
+    "mtime": 1787436366.4756303,
+    "seen": 1787436449.710827,
+    "ast_hash": "9cdc6c8a8435187eb111a0aa313371f5",
     "semantic_hash": ""
   },
   "data/github.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787436283.505685,
-    "seen": 1787436341.0024955,
-    "ast_hash": "a4fa96d611537b781fa1a9468247b736",
+    "mtime": 1787436384.0270712,
+    "seen": 1787436449.7124643,
+    "ast_hash": "89966574699048302f90d7680c3268c6",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787436298.06629,
-    "seen": 1787436340.9971032,
-    "ast_hash": "2fd05aa3cd0493f20ff5ef53e9521b53",
+    "mtime": 1787436403.3118904,
+    "seen": 1787436449.7107866,
+    "ast_hash": "b49a3d8f0cbfdaaf0fb965c1deb87a08",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787436298.0820785,
-    "seen": 1787436340.9971113,
-    "ast_hash": "a7c2cc6e1040087c5a6d4d68eb154068",
+    "mtime": 1787436403.3246226,
+    "seen": 1787436449.710794,
+    "ast_hash": "30f14948031243d77d1309f8eae27491",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1787436298.0861175,
-    "seen": 1787436341.0036447,
-    "ast_hash": "746efdf87b5432eea6c3e6b5a34417b5",
+    "mtime": 1787436403.3296897,
+    "seen": 1787436449.7133071,
+    "ast_hash": "f8189ec37373a62d6d3f7e709ac898e5",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4596,8 +4596,8 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787436283.505685,
-    "seen": 1787436341.0025032,
+    "mtime": 1787436384.0285268,
+    "seen": 1787436449.7124705,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
@@ -4629,6 +4629,12 @@
     "mtime": 1787436276.3074844,
     "seen": 1787436340.9973378,
     "ast_hash": "5814cc4d14008dce7f2da906943db94d",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/generative-ai-explained.md": {
+    "mtime": 1787436372.7855206,
+    "seen": 1787436449.711018,
+    "ast_hash": "75b2ad25ac92b4405ded594dc52161ed",
     "semantic_hash": ""
   }
 }

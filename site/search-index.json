@@ -5597,5 +5597,23 @@
     "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "building-a-brain-in-10-minutes",
+    "name": "Building a Brain in 10 Minutes",
+    "description": "Hands-on introductory course by NVIDIA DLI exploring neural network fundamentals, perceptrons, and training basics in Python.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Machine Learning",
+      "AI",
+      "Coding"
+    ],
+    "path": "/items/learning/building-a-brain-in-10-minutes",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1",
+    "is_shallow": true,
+    "content": ""
   }
 ]

@@ -65,6 +65,7 @@ This index is automatically generated.
 - [AI-Powered Market Research](Learning/ai-powered-market-research.md)
 - [AI-Powered Process Documentation](Learning/ai-powered-process-documentation.md)
 - [Build Your Generative AI Productivity Skills with Microsoft and LinkedIn](Learning/build-your-generative-ai-productivity-skills.md)
+- [Building a Brain in 10 Minutes](Learning/building-a-brain-in-10-minutes.md)
 - [Cold Email: How to Write Like a Human](Learning/lesson-cold-email-how-to-write-like-a-human.md)
 - [Enhance Results with Prompt Engineering Strategies](Learning/enhance-results-with-prompt-engineering-strategies.md)
 - [Generative AI Explained](Learning/generative-ai-explained.md)

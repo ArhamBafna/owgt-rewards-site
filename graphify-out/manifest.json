@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787436384.0253026,
-    "seen": 1787436449.7107382,
-    "ast_hash": "47a6f756bd0aa5f8268ed50e06d81393",
+    "mtime": 1787436503.955057,
+    "seen": 1787436554.1233125,
+    "ast_hash": "c0d1101343a2218997663e1a722ae0a7",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787436366.4756303,
-    "seen": 1787436449.710827,
-    "ast_hash": "9cdc6c8a8435187eb111a0aa313371f5",
+    "mtime": 1787436478.973794,
+    "seen": 1787436554.123403,
+    "ast_hash": "b522c8001c7610bf0e0ccf4e6a7b1c03",
     "semantic_hash": ""
   },
   "data/github.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787436384.0270712,
-    "seen": 1787436449.7124643,
-    "ast_hash": "89966574699048302f90d7680c3268c6",
+    "mtime": 1787436503.9570768,
+    "seen": 1787436554.1244705,
+    "ast_hash": "e1a86afef07c97a40ca718b0fbdcf67c",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787436403.3118904,
-    "seen": 1787436449.7107866,
-    "ast_hash": "b49a3d8f0cbfdaaf0fb965c1deb87a08",
+    "mtime": 1787436520.326027,
+    "seen": 1787436554.123362,
+    "ast_hash": "b3af1756648a673fe07a63ce75b0effa",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787436403.3246226,
-    "seen": 1787436449.710794,
-    "ast_hash": "30f14948031243d77d1309f8eae27491",
+    "mtime": 1787436520.342123,
+    "seen": 1787436554.1233714,
+    "ast_hash": "42f348b5b37790fb6575e0d5e16fcbdc",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1787436403.3296897,
-    "seen": 1787436449.7133071,
-    "ast_hash": "f8189ec37373a62d6d3f7e709ac898e5",
+    "mtime": 1787436520.343181,
+    "seen": 1787436554.1252577,
+    "ast_hash": "e886ba19f30e3c0d4ab8b54846692708",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4596,8 +4596,8 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787436384.0285268,
-    "seen": 1787436449.7124705,
+    "mtime": 1787436503.9570768,
+    "seen": 1787436554.1244764,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
@@ -4635,6 +4635,12 @@
     "mtime": 1787436372.7855206,
     "seen": 1787436449.711018,
     "ast_hash": "75b2ad25ac92b4405ded594dc52161ed",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/building-a-brain-in-10-minutes.md": {
+    "mtime": 1787436492.8644612,
+    "seen": 1787436554.1236045,
+    "ast_hash": "f85fe18521a1697ab2ba92fa34a47ccf",
     "semantic_hash": ""
   }
 }
