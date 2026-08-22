@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787436660.9871502,
-    "seen": 1787436713.6317897,
-    "ast_hash": "3d60174a45c8832d2367e646dd293462",
+    "mtime": 1787436833.0254428,
+    "seen": 1787436911.686165,
+    "ast_hash": "32bb98ef08dbaf357ff114a94151753a",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787436618.5375137,
-    "seen": 1787436713.6318526,
-    "ast_hash": "4b42909f5f6cb76b11137d67cf898614",
+    "mtime": 1787436798.1212795,
+    "seen": 1787436911.6862423,
+    "ast_hash": "40439dcc608a0e403ccbf3a3969b7389",
     "semantic_hash": ""
   },
   "data/github.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787436660.9871502,
-    "seen": 1787436713.632334,
-    "ast_hash": "7693166257ecbda642a1025217cde83a",
+    "mtime": 1787436833.0254428,
+    "seen": 1787436911.6869743,
+    "ast_hash": "b1972890d0ec0c9e5afc51b939e0cb6d",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787436684.98293,
-    "seen": 1787436713.6318235,
-    "ast_hash": "6a29259766aec16058dc6c4b1aa8f66d",
+    "mtime": 1787436852.7738988,
+    "seen": 1787436911.686207,
+    "ast_hash": "3dc4506819073e701c4525b390ec9cd8",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787436684.995756,
-    "seen": 1787436713.6318302,
-    "ast_hash": "9304b74c8eecb0caa8d7216df85587a0",
+    "mtime": 1787436852.786405,
+    "seen": 1787436911.6862137,
+    "ast_hash": "76bc27c49afb97fb99a2bc43a5501706",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1787436685.0018034,
-    "seen": 1787436713.6328077,
-    "ast_hash": "48a5203459a13e4b555dcfdc1aea5e10",
+    "mtime": 1787436852.792479,
+    "seen": 1787436911.6875088,
+    "ast_hash": "266b14a096168b56c215e9637f7907b5",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4596,8 +4596,8 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787436660.9871502,
-    "seen": 1787436713.6323369,
+    "mtime": 1787436833.0254428,
+    "seen": 1787436911.6869779,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
@@ -4647,6 +4647,12 @@
     "mtime": 1787436643.606473,
     "seen": 1787436713.6319554,
     "ast_hash": "4f745eef89bea5cc51ee145eca6cef98",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/building-rag-agents-with-llms.md": {
+    "mtime": 1787436815.855201,
+    "seen": 1787436911.6864223,
+    "ast_hash": "5db752092222ed9548601a5d57dd9f17",
     "semantic_hash": ""
   }
 }

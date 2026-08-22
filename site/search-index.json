@@ -5633,5 +5633,24 @@
     "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "building-rag-agents-with-llms",
+    "name": "Building RAG Agents with LLMs",
+    "description": "Advanced NVIDIA DLI course on constructing autonomous agentic workflows and retrieval pipelines using LangChain and LLM tool calling.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Agent",
+      "RAG",
+      "LLM",
+      "AI & Technical"
+    ],
+    "path": "/items/learning/building-rag-agents-with-llms",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1",
+    "is_shallow": true,
+    "content": ""
   }
 ]

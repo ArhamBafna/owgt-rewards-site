@@ -16861,7 +16861,7 @@
       "node_kind": "heading",
       "norm_label": "prompts",
       "source_file": "organized-data/master.md",
-      "source_location": "L81"
+      "source_location": "L82"
     },
     {
       "id": "organized_data_master_resources",
@@ -16873,7 +16873,7 @@
       "node_kind": "heading",
       "norm_label": "resources",
       "source_file": "organized-data/master.md",
-      "source_location": "L238"
+      "source_location": "L239"
     },
     {
       "id": "organized_data_master_templates",
@@ -16885,7 +16885,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "organized-data/master.md",
-      "source_location": "L293"
+      "source_location": "L294"
     },
     {
       "id": "organized_data_master_tools",
@@ -16897,7 +16897,7 @@
       "node_kind": "heading",
       "norm_label": "tools",
       "source_file": "organized-data/master.md",
-      "source_location": "L298"
+      "source_location": "L299"
     },
     {
       "id": "organized_data_resources_trustmrr",
@@ -29406,6 +29406,90 @@
       "norm_label": "url",
       "source_file": "organized-data/Guides/prompt-engineering.md",
       "source_location": "L7"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms",
+      "label": "building-rag-agents-with-llms.md",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "building-rag-agents-with-llms.md",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_category",
+      "label": "Category",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "category",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_content",
+      "label": "Content",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "content",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_description",
+      "label": "Description",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "description",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L4"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_name",
+      "label": "Name",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "name",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_tags",
+      "label": "Tags",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tags",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "organized_data_learning_building_rag_agents_with_llms_url",
+      "label": "URL",
+      "_origin": "ast",
+      "community": 430,
+      "community_name": "building-rag-agents-with-llms.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "url",
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L10"
     },
     {
       "id": "organized_data_guides_the_1m_solopreneur_mvp",
@@ -43477,6 +43561,72 @@
       "weight": 1.0
     },
     {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_content",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_tags",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_description",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_learning_building_rag_agents_with_llms",
+      "target": "organized_data_learning_building_rag_agents_with_llms_category",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/Learning/building-rag-agents-with-llms.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "organized_data_learning_enhance_results_with_prompt_engineering_strategies",
       "target": "organized_data_learning_enhance_results_with_prompt_engineering_strategies_name",
       "relation": "contains",
@@ -44166,7 +44316,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L238",
+      "source_location": "L239",
       "weight": 1.0
     },
     {
@@ -44177,7 +44327,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L293",
+      "source_location": "L294",
       "weight": 1.0
     },
     {
@@ -44188,7 +44338,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L298",
+      "source_location": "L299",
       "weight": 1.0
     },
     {
@@ -44221,7 +44371,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L81",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -62475,7 +62625,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_your_90_day_roadmap",
+      "target": "organized_data_prompts_build_interview_questions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62486,7 +62636,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_business_audit",
+      "target": "organized_data_prompts_build_your_90_day_roadmap",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62497,7 +62647,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_challenge_an_assumption",
+      "target": "organized_data_prompts_business_audit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62508,7 +62658,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cinematic_real_estate_listing",
+      "target": "organized_data_prompts_challenge_an_assumption",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62519,7 +62669,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_client_welcome",
+      "target": "organized_data_prompts_cinematic_real_estate_listing",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62530,7 +62680,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cold_dm",
+      "target": "organized_data_prompts_client_welcome",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62541,7 +62691,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_cold_email",
+      "target": "organized_data_prompts_cold_dm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62552,7 +62702,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_compare_and_contrast_these_two",
+      "target": "organized_data_prompts_cold_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62563,7 +62713,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_compare_two_real_options",
+      "target": "organized_data_prompts_compare_and_contrast_these_two",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62574,7 +62724,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_competitor_analysis",
+      "target": "organized_data_prompts_compare_two_real_options",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62585,7 +62735,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_content_ideas",
+      "target": "organized_data_prompts_competitor_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62596,7 +62746,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_craft_an_ask_for_a_warm_introduction",
+      "target": "organized_data_prompts_content_ideas",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62607,7 +62757,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_meeting_agenda",
+      "target": "organized_data_prompts_craft_an_ask_for_a_warm_introduction",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62618,7 +62768,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_personal_okr_for",
+      "target": "organized_data_prompts_create_a_meeting_agenda",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62629,7 +62779,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_project_kickoff_checklist",
+      "target": "organized_data_prompts_create_a_personal_okr_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62640,7 +62790,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_create_a_tight_10_minute_meeting",
+      "target": "organized_data_prompts_create_a_project_kickoff_checklist",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62651,7 +62801,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_culture_assessment",
+      "target": "organized_data_prompts_create_a_tight_10_minute_meeting",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62662,7 +62812,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_data_story_narrative",
+      "target": "organized_data_prompts_culture_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62673,18 +62823,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_on_organizational_structure",
+      "target": "organized_data_prompts_data_story_narrative",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L120",
+      "source_location": "L118",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_whether_to_pivot_or_stay_the_course",
+      "target": "organized_data_prompts_decide_on_organizational_structure",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62695,7 +62845,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_decide_whether_to_promote_or_let_go",
+      "target": "organized_data_prompts_decide_whether_to_pivot_or_stay_the_course",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62706,7 +62856,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_define_your_unique_positioning",
+      "target": "organized_data_prompts_decide_whether_to_promote_or_let_go",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62717,7 +62867,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_deliver_difficult_news",
+      "target": "organized_data_prompts_define_your_unique_positioning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62728,7 +62878,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_design_a_weekly_review_framework",
+      "target": "organized_data_prompts_deliver_difficult_news",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62739,7 +62889,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_diagnose_a_team_problem",
+      "target": "organized_data_prompts_design_a_weekly_review_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62750,7 +62900,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_diagnose_why_something_isnt_working",
+      "target": "organized_data_prompts_diagnose_a_team_problem",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62761,7 +62911,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_difficult_employee_conversation",
+      "target": "organized_data_prompts_diagnose_why_something_isnt_working",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62772,7 +62922,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_5_questions_i_should",
+      "target": "organized_data_prompts_difficult_employee_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62794,7 +62944,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_follow_up_after_no_response",
+      "target": "organized_data_prompts_draft_5_questions_i_should",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62805,7 +62955,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_polite_but_firm",
+      "target": "organized_data_prompts_draft_a_follow_up_after_no_response",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62816,7 +62966,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_product_announcement",
+      "target": "organized_data_prompts_draft_a_polite_but_firm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62827,7 +62977,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_request_to_leadership",
+      "target": "organized_data_prompts_draft_a_product_announcement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62838,7 +62988,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_a_weekly_update_to_your_team",
+      "target": "organized_data_prompts_draft_a_request_to_leadership",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62849,7 +62999,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_an_executive_summary",
+      "target": "organized_data_prompts_draft_a_weekly_update_to_your_team",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62860,7 +63010,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_draft_performance_feedback",
+      "target": "organized_data_prompts_draft_an_executive_summary",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62871,7 +63021,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_edit_this_paragraph_for_clarity",
+      "target": "organized_data_prompts_draft_performance_feedback",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62882,7 +63032,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_email_newsletter",
+      "target": "organized_data_prompts_edit_this_paragraph_for_clarity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62893,7 +63043,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_email_reply",
+      "target": "organized_data_prompts_email_newsletter",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62915,7 +63065,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_employee_engagement_analysis",
+      "target": "organized_data_prompts_email_reply",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62926,18 +63076,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_evaluate_a_new_market_opportunity",
+      "target": "organized_data_prompts_employee_engagement_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L144",
+      "source_location": "L141",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_evaluate_a_new_opportunity",
+      "target": "organized_data_prompts_evaluate_a_new_market_opportunity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62948,7 +63098,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_explain_these_financial_terms_in_plain_language_for_a",
+      "target": "organized_data_prompts_evaluate_a_new_opportunity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62959,7 +63109,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_follow_up",
+      "target": "organized_data_prompts_explain_these_financial_terms_in_plain_language_for_a",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62970,7 +63120,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_follow_up_touch_1",
+      "target": "organized_data_prompts_follow_up",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -62981,7 +63131,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_full_ai_system_self_audit_prompt",
+      "target": "organized_data_prompts_follow_up_touch_1",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63003,7 +63153,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_10_creative_solutions_to",
+      "target": "organized_data_prompts_full_ai_system_self_audit_prompt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63014,7 +63164,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_5_different_ways_to",
+      "target": "organized_data_prompts_generate_10_creative_solutions_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63025,7 +63175,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_alternatives_when_youre_stuck",
+      "target": "organized_data_prompts_generate_5_different_ways_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63036,7 +63186,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_generate_feature_ideas_from_complaints",
+      "target": "organized_data_prompts_generate_alternatives_when_youre_stuck",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63047,7 +63197,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_get_devils_advocate_feedback",
+      "target": "organized_data_prompts_generate_feature_ideas_from_complaints",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63058,7 +63208,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_5_options_61",
+      "target": "organized_data_prompts_get_devils_advocate_feedback",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63069,7 +63219,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_a_structured_swot",
+      "target": "organized_data_prompts_give_me_5_options_61",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63080,7 +63230,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_give_me_the_tl_dr_of",
+      "target": "organized_data_prompts_give_me_a_structured_swot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63091,7 +63241,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_handle_a_difficult_investor_conversation",
+      "target": "organized_data_prompts_give_me_the_tl_dr_of",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63102,7 +63252,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hashtag_strategy",
+      "target": "organized_data_prompts_handle_a_difficult_investor_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63113,7 +63263,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_higgsfield_ugc_prompt",
+      "target": "organized_data_prompts_hashtag_strategy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63124,7 +63274,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hire_vs_outsource",
+      "target": "organized_data_prompts_higgsfield_ugc_prompt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63135,7 +63285,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_hook_generator",
+      "target": "organized_data_prompts_hire_vs_outsource",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63146,7 +63296,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_idea_validation",
+      "target": "organized_data_prompts_hook_generator",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63157,7 +63307,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_inefficiencies_in_this_workflow",
+      "target": "organized_data_prompts_idea_validation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63168,7 +63318,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_3_biggest_risks",
+      "target": "organized_data_prompts_identify_inefficiencies_in_this_workflow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63179,7 +63329,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_real_bottleneck",
+      "target": "organized_data_prompts_identify_the_3_biggest_risks",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63190,7 +63340,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_root_cause",
+      "target": "organized_data_prompts_identify_the_real_bottleneck",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63201,7 +63351,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_the_story_this_data",
+      "target": "organized_data_prompts_identify_the_root_cause",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63212,7 +63362,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_identify_your_biggest_blind_spot",
+      "target": "organized_data_prompts_identify_the_story_this_data",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63223,7 +63373,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_improve_your_onboarding_flow",
+      "target": "organized_data_prompts_identify_your_biggest_blind_spot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63234,7 +63384,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_investment_decision_analysis",
+      "target": "organized_data_prompts_improve_your_onboarding_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63245,7 +63395,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_job_description",
+      "target": "organized_data_prompts_investment_decision_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63256,7 +63406,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_kpi_framework_design",
+      "target": "organized_data_prompts_job_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63267,7 +63417,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_make_the_decision_youve_been_avoiding",
+      "target": "organized_data_prompts_kpi_framework_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63278,7 +63428,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_effectiveness_audit",
+      "target": "organized_data_prompts_make_the_decision_youve_been_avoiding",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63289,7 +63439,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_request",
+      "target": "organized_data_prompts_meeting_effectiveness_audit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63300,7 +63450,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_meeting_summary",
+      "target": "organized_data_prompts_meeting_request",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63311,7 +63461,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_navigate_a_stakeholder_disagreement",
+      "target": "organized_data_prompts_meeting_summary",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63322,7 +63472,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_objection_response",
+      "target": "organized_data_prompts_navigate_a_stakeholder_disagreement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63333,7 +63483,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_offer_clarity",
+      "target": "organized_data_prompts_objection_response",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63344,7 +63494,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_onboarding_program_design",
+      "target": "organized_data_prompts_offer_clarity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63355,7 +63505,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_performance_review_preparation",
+      "target": "organized_data_prompts_onboarding_program_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63366,7 +63516,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_plan_a_difficult_conversation",
+      "target": "organized_data_prompts_performance_review_preparation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63377,7 +63527,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_plan_a_project_kickoff",
+      "target": "organized_data_prompts_plan_a_difficult_conversation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63388,7 +63538,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_polite_decline",
+      "target": "organized_data_prompts_plan_a_project_kickoff",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63399,7 +63549,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_post_mortem_framework",
+      "target": "organized_data_prompts_polite_decline",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63410,7 +63560,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prepare_for_a_board_meeting",
+      "target": "organized_data_prompts_post_mortem_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63421,7 +63571,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prepare_for_a_sales_call",
+      "target": "organized_data_prompts_prepare_for_a_board_meeting",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63432,7 +63582,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pressure_test_a_strategy",
+      "target": "organized_data_prompts_prepare_for_a_sales_call",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63454,7 +63604,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pressure_test_your_business_idea",
+      "target": "organized_data_prompts_pressure_test_a_strategy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63465,7 +63615,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_pricing_decision_framework",
+      "target": "organized_data_prompts_pressure_test_your_business_idea",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63476,7 +63626,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_a_product_backlog",
+      "target": "organized_data_prompts_pricing_decision_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63487,7 +63637,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_between_competing_initiatives",
+      "target": "organized_data_prompts_prioritize_a_product_backlog",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63498,7 +63648,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_prioritize_between_two_strategic_directions",
+      "target": "organized_data_prompts_prioritize_between_competing_initiatives",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63509,7 +63659,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_project_risk_assessment",
+      "target": "organized_data_prompts_prioritize_between_two_strategic_directions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63520,7 +63670,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_proposal",
+      "target": "organized_data_prompts_project_risk_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63531,7 +63681,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_refine_your_pitch_narrative",
+      "target": "organized_data_prompts_proposal",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63542,7 +63692,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_refine_your_value_proposition",
+      "target": "organized_data_prompts_refine_your_pitch_narrative",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63553,7 +63703,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_repurposing",
+      "target": "organized_data_prompts_refine_your_value_proposition",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63575,7 +63725,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_research_synthesis",
+      "target": "organized_data_prompts_repurposing",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63586,7 +63736,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_respond_to_a_critical_investor_question",
+      "target": "organized_data_prompts_research_synthesis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63597,7 +63747,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_rewrite_this_in_half_the",
+      "target": "organized_data_prompts_respond_to_a_critical_investor_question",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63608,7 +63758,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_rewrite_this_section_to_be",
+      "target": "organized_data_prompts_rewrite_this_in_half_the",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63619,7 +63769,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_root_cause_analysis",
+      "target": "organized_data_prompts_rewrite_this_section_to_be",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63630,7 +63780,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_run_a_competitor_analysis",
+      "target": "organized_data_prompts_root_cause_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63641,7 +63791,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_run_a_pre_mortem",
+      "target": "organized_data_prompts_run_a_competitor_analysis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63652,7 +63802,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_set_team_priorities",
+      "target": "organized_data_prompts_run_a_pre_mortem",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63663,7 +63813,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_sop_creation",
+      "target": "organized_data_prompts_set_team_priorities",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63674,7 +63824,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_the_financial_implications_of",
+      "target": "organized_data_prompts_sop_creation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63696,7 +63846,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_this_email_thread_into",
+      "target": "organized_data_prompts_summarize_the_financial_implications_of",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63707,7 +63857,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_summarize_this_meeting_transcript_into",
+      "target": "organized_data_prompts_summarize_this_email_thread_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63718,7 +63868,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_team_alignment_message",
+      "target": "organized_data_prompts_summarize_this_meeting_transcript_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63729,7 +63879,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_team_effectiveness_diagnosis",
+      "target": "organized_data_prompts_team_alignment_message",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63740,7 +63890,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_three_scenario_planning",
+      "target": "organized_data_prompts_team_effectiveness_diagnosis",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63751,7 +63901,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_these_messy_meeting_notes",
+      "target": "organized_data_prompts_three_scenario_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63762,7 +63912,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_these_stats_into_3",
+      "target": "organized_data_prompts_turn_these_messy_meeting_notes",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63773,7 +63923,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_this_bullet_point_outline_into",
+      "target": "organized_data_prompts_turn_these_stats_into_3",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63784,7 +63934,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_turn_this_messy_process_description",
+      "target": "organized_data_prompts_turn_this_bullet_point_outline_into",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63795,7 +63945,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_video_script_60s",
+      "target": "organized_data_prompts_turn_this_messy_process_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63817,7 +63967,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_week_of_captions",
+      "target": "organized_data_prompts_video_script_60s",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63828,7 +63978,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_weekly_planning",
+      "target": "organized_data_prompts_week_of_captions",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63839,7 +63989,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_what_would_a_mckinsey_consultant",
+      "target": "organized_data_prompts_weekly_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63850,7 +64000,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_worst_case_scenario_planning",
+      "target": "organized_data_prompts_what_would_a_mckinsey_consultant",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63861,7 +64011,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_5_sharp_talking_points",
+      "target": "organized_data_prompts_worst_case_scenario_planning",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63872,7 +64022,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_clear_jargon_free_explanation",
+      "target": "organized_data_prompts_write_5_sharp_talking_points",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63883,7 +64033,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_cold_outreach_email",
+      "target": "organized_data_prompts_write_a_clear_jargon_free_explanation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63894,7 +64044,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_company_announcement",
+      "target": "organized_data_prompts_write_a_cold_outreach_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63905,7 +64055,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_compensation_explanation",
+      "target": "organized_data_prompts_write_a_company_announcement",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63916,7 +64066,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_customer_re_engagement_email",
+      "target": "organized_data_prompts_write_a_compensation_explanation",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63938,7 +64088,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_diplomatic_response_to",
+      "target": "organized_data_prompts_write_a_customer_re_engagement_email",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63949,7 +64099,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_job_description",
+      "target": "organized_data_prompts_write_a_diplomatic_response_to",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63960,7 +64110,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_partnership_proposal",
+      "target": "organized_data_prompts_write_a_job_description",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63971,7 +64121,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_a_performance_review_for",
+      "target": "organized_data_prompts_write_a_partnership_proposal",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63982,7 +64132,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_escalation_policy",
+      "target": "organized_data_prompts_write_a_performance_review_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -63993,7 +64143,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_executive_summary_for",
+      "target": "organized_data_prompts_write_an_escalation_policy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64004,13 +64154,24 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_write_an_investor_update",
+      "target": "organized_data_prompts_write_an_executive_summary_for",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
       "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_master",
+      "target": "organized_data_prompts_write_an_investor_update",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/master.md",
+      "source_location": "L237",
       "weight": 1.0
     },
     {
@@ -64032,7 +64193,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L240",
+      "source_location": "L241",
       "weight": 1.0
     },
     {
@@ -64043,7 +64204,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L241",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -64054,7 +64215,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L242",
+      "source_location": "L243",
       "weight": 1.0
     },
     {
@@ -64065,7 +64226,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L243",
+      "source_location": "L244",
       "weight": 1.0
     },
     {
@@ -64076,7 +64237,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L244",
+      "source_location": "L245",
       "weight": 1.0
     },
     {
@@ -64087,7 +64248,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L245",
+      "source_location": "L246",
       "weight": 1.0
     },
     {
@@ -64098,7 +64259,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L246",
+      "source_location": "L247",
       "weight": 1.0
     },
     {
@@ -64109,23 +64270,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L247",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_design",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/master.md",
       "source_location": "L248",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_llm_apps",
+      "target": "organized_data_resources_awesome_design",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64147,7 +64297,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_mcp_servers",
+      "target": "organized_data_resources_awesome_llm_apps",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64158,7 +64308,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_awesome_design_md",
+      "target": "organized_data_resources_awesome_mcp_servers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64169,7 +64319,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_backgrounds_library",
+      "target": "organized_data_resources_awesome_design_md",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64180,7 +64330,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_banana_prompts",
+      "target": "organized_data_resources_backgrounds_library",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64191,7 +64341,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_bklit_ui",
+      "target": "organized_data_resources_banana_prompts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64202,7 +64352,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_quickstarts",
+      "target": "organized_data_resources_bklit_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64213,7 +64363,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_skills",
+      "target": "organized_data_resources_claude_quickstarts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64224,7 +64374,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_claude_startup_skill",
+      "target": "organized_data_resources_claude_skills",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64235,7 +64385,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_cloudflare_drop",
+      "target": "organized_data_resources_claude_startup_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64246,7 +64396,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_corbin_skool",
+      "target": "organized_data_resources_cloudflare_drop",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64268,7 +64418,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_cuelume",
+      "target": "organized_data_resources_corbin_skool",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64279,7 +64429,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_dotagents",
+      "target": "organized_data_resources_cuelume",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64290,7 +64440,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_dropbox_brand_guidelines",
+      "target": "organized_data_resources_dotagents",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64301,7 +64451,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_emilkowalski_skills",
+      "target": "organized_data_resources_dropbox_brand_guidelines",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64312,7 +64462,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_every",
+      "target": "organized_data_resources_emilkowalski_skills",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64323,7 +64473,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_free_trial_and_free_tier_services_google_cloud",
+      "target": "organized_data_resources_every",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64334,7 +64484,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_frontend_textbooks",
+      "target": "organized_data_resources_free_trial_and_free_tier_services_google_cloud",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64345,7 +64495,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_github_student_developer_pack",
+      "target": "organized_data_resources_frontend_textbooks",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64356,7 +64506,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_hour_of_ai_activities",
+      "target": "organized_data_resources_github_student_developer_pack",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64367,7 +64517,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_hover_dev",
+      "target": "organized_data_resources_hour_of_ai_activities",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64389,7 +64539,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_kolejaincom_resources",
+      "target": "organized_data_resources_hover_dev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64400,7 +64550,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_landbook",
+      "target": "organized_data_resources_kolejaincom_resources",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64411,7 +64561,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_landing_page_design_skill",
+      "target": "organized_data_resources_landbook",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64422,7 +64572,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_lando_norris",
+      "target": "organized_data_resources_landing_page_design_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64433,7 +64583,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_list_of_free_ai_models",
+      "target": "organized_data_resources_lando_norris",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64444,7 +64594,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_mobbin",
+      "target": "organized_data_resources_list_of_free_ai_models",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64455,7 +64605,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_namecom_free_domain",
+      "target": "organized_data_resources_mobbin",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64466,7 +64616,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_namecheap_education_program",
+      "target": "organized_data_resources_namecom_free_domain",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64477,7 +64627,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_offbrand",
+      "target": "organized_data_resources_namecheap_education_program",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64488,7 +64638,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_official_mcp_servers",
+      "target": "organized_data_resources_offbrand",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64510,7 +64660,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_openclaw_after_50_days",
+      "target": "organized_data_resources_official_mcp_servers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64521,7 +64671,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_radiant_shaders",
+      "target": "organized_data_resources_openclaw_after_50_days",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64532,7 +64682,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_system_prompts",
+      "target": "organized_data_resources_radiant_shaders",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64543,7 +64693,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_reddit_communities_to_promote_your_app",
+      "target": "organized_data_resources_system_prompts",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64554,7 +64704,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_requests_for_startups_yc",
+      "target": "organized_data_resources_reddit_communities_to_promote_your_app",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64565,7 +64715,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_starter_story",
+      "target": "organized_data_resources_requests_for_startups_yc",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64576,7 +64726,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_starter_story_data",
+      "target": "organized_data_resources_starter_story",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64587,7 +64737,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_the_claude_skills_that_finally_made_ai_write_like_me",
+      "target": "organized_data_resources_starter_story_data",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64598,7 +64748,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_toolfk_online_tools",
+      "target": "organized_data_resources_the_claude_skills_that_finally_made_ai_write_like_me",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64609,7 +64759,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_trustmrr",
+      "target": "organized_data_resources_toolfk_online_tools",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64631,7 +64781,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_uiverse",
+      "target": "organized_data_resources_trustmrr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64642,7 +64792,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_resources_what_ai_can_do_today",
+      "target": "organized_data_resources_uiverse",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64653,13 +64803,24 @@
     },
     {
       "source": "organized_data_master",
+      "target": "organized_data_resources_what_ai_can_do_today",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/master.md",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_master",
       "target": "organized_data_templates_hubspot_full_stack_ai_marketing_toolkit",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L295",
+      "source_location": "L296",
       "weight": 1.0
     },
     {
@@ -64670,7 +64831,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L296",
+      "source_location": "L297",
       "weight": 1.0
     },
     {
@@ -64692,7 +64853,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L300",
+      "source_location": "L301",
       "weight": 1.0
     },
     {
@@ -64703,7 +64864,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L301",
+      "source_location": "L302",
       "weight": 1.0
     },
     {
@@ -64714,7 +64875,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L302",
+      "source_location": "L303",
       "weight": 1.0
     },
     {
@@ -64725,7 +64886,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L303",
+      "source_location": "L304",
       "weight": 1.0
     },
     {
@@ -64736,7 +64897,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L304",
+      "source_location": "L305",
       "weight": 1.0
     },
     {
@@ -64747,7 +64908,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L305",
+      "source_location": "L306",
       "weight": 1.0
     },
     {
@@ -64758,7 +64919,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L306",
+      "source_location": "L307",
       "weight": 1.0
     },
     {
@@ -64769,23 +64930,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L307",
-      "weight": 1.0
-    },
-    {
-      "source": "organized_data_master",
-      "target": "organized_data_tools_bytez",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "organized-data/master.md",
       "source_location": "L308",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chat_jimmy",
+      "target": "organized_data_tools_bytez",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64807,7 +64957,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chatgpt",
+      "target": "organized_data_tools_chat_jimmy",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64818,7 +64968,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_chatgpt_enterprise",
+      "target": "organized_data_tools_chatgpt",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64829,7 +64979,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude",
+      "target": "organized_data_tools_chatgpt_enterprise",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64840,7 +64990,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude_api",
+      "target": "organized_data_tools_claude",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64851,7 +65001,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_claude_code_cli",
+      "target": "organized_data_tools_claude_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64862,7 +65012,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_composio",
+      "target": "organized_data_tools_claude_code_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64873,7 +65023,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_consensus",
+      "target": "organized_data_tools_composio",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64884,7 +65034,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_copilot_cli",
+      "target": "organized_data_tools_consensus",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64895,7 +65045,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_copy_ai",
+      "target": "organized_data_tools_copilot_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64906,7 +65056,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_cursor",
+      "target": "organized_data_tools_copy_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64928,7 +65078,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_dictaflow",
+      "target": "organized_data_tools_cursor",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64939,7 +65089,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_drift",
+      "target": "organized_data_tools_dictaflow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64950,7 +65100,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_eightfold",
+      "target": "organized_data_tools_drift",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64961,7 +65111,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fathom_ai",
+      "target": "organized_data_tools_eightfold",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64972,7 +65122,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_firecrawl_cli",
+      "target": "organized_data_tools_fathom_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64983,7 +65133,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fireflies_ai",
+      "target": "organized_data_tools_firecrawl_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -64994,7 +65144,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_free_llm_api",
+      "target": "organized_data_tools_fireflies_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65005,7 +65155,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_freedomto",
+      "target": "organized_data_tools_free_llm_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65016,7 +65166,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_fritz_ai",
+      "target": "organized_data_tools_freedomto",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65027,7 +65177,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gamma",
+      "target": "organized_data_tools_fritz_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65049,7 +65199,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_github_copilot",
+      "target": "organized_data_tools_gamma",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65060,7 +65210,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gong",
+      "target": "organized_data_tools_github_copilot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65071,7 +65221,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_google_ai_flow",
+      "target": "organized_data_tools_gong",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65082,7 +65232,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_grok",
+      "target": "organized_data_tools_google_ai_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65093,7 +65243,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_gumloop",
+      "target": "organized_data_tools_grok",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65104,7 +65254,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hallmark",
+      "target": "organized_data_tools_gumloop",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65115,7 +65265,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_herenow",
+      "target": "organized_data_tools_hallmark",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65126,7 +65276,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hexta_ui",
+      "target": "organized_data_tools_herenow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65137,7 +65287,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hirevue",
+      "target": "organized_data_tools_hexta_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65148,7 +65298,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hoverdev",
+      "target": "organized_data_tools_hirevue",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65170,7 +65320,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hubert",
+      "target": "organized_data_tools_hoverdev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65181,7 +65331,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hubspot_ai",
+      "target": "organized_data_tools_hubert",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65192,7 +65342,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_hunyuan_video",
+      "target": "organized_data_tools_hubspot_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65203,7 +65353,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_ideogram_40",
+      "target": "organized_data_tools_hunyuan_video",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65214,7 +65364,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_igloo_inc",
+      "target": "organized_data_tools_ideogram_40",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65225,7 +65375,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_impeccable",
+      "target": "organized_data_tools_igloo_inc",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65236,7 +65386,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_intercom_fin",
+      "target": "organized_data_tools_impeccable",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65247,7 +65397,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_jasper",
+      "target": "organized_data_tools_intercom_fin",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65258,7 +65408,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_kokonut_ui",
+      "target": "organized_data_tools_jasper",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65269,7 +65419,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_lavender",
+      "target": "organized_data_tools_kokonut_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65291,7 +65441,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_layers",
+      "target": "organized_data_tools_lavender",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65302,7 +65452,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_llm_cli",
+      "target": "organized_data_tools_layers",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65313,7 +65463,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_magicui",
+      "target": "organized_data_tools_llm_cli",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65324,7 +65474,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_make",
+      "target": "organized_data_tools_magicui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65335,7 +65485,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_marketo_engage",
+      "target": "organized_data_tools_make",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65346,7 +65496,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_microsoft_365_copilot",
+      "target": "organized_data_tools_marketo_engage",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65357,7 +65507,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_motiondev",
+      "target": "organized_data_tools_microsoft_365_copilot",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65368,7 +65518,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_notebooklm",
+      "target": "organized_data_tools_motiondev",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65379,7 +65529,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_notion_ai",
+      "target": "organized_data_tools_notebooklm",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65390,7 +65540,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_ollama",
+      "target": "organized_data_tools_notion_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65412,7 +65562,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_opal_experiment",
+      "target": "organized_data_tools_ollama",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65423,7 +65573,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openai_oauth",
+      "target": "organized_data_tools_opal_experiment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65434,7 +65584,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openclaw",
+      "target": "organized_data_tools_openai_oauth",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65445,7 +65595,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_openwhispr",
+      "target": "organized_data_tools_openclaw",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65456,7 +65606,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_otterai",
+      "target": "organized_data_tools_openwhispr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65467,7 +65617,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_paradox_olivia",
+      "target": "organized_data_tools_otterai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65478,7 +65628,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_parker",
+      "target": "organized_data_tools_paradox_olivia",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65489,7 +65639,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_perplexity",
+      "target": "organized_data_tools_parker",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65500,7 +65650,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_prism",
+      "target": "organized_data_tools_perplexity",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65511,7 +65661,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_react_bits",
+      "target": "organized_data_tools_prism",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65533,7 +65683,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_reply_io",
+      "target": "organized_data_tools_react_bits",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65544,7 +65694,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_rive",
+      "target": "organized_data_tools_reply_io",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65555,7 +65705,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_rss_post_to_message",
+      "target": "organized_data_tools_rive",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65566,7 +65716,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_shadcn_ui",
+      "target": "organized_data_tools_rss_post_to_message",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65577,7 +65727,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_skills_sh",
+      "target": "organized_data_tools_shadcn_ui",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65588,7 +65738,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_stitch",
+      "target": "organized_data_tools_skills_sh",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65599,7 +65749,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tactiq",
+      "target": "organized_data_tools_stitch",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65610,7 +65760,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tidio",
+      "target": "organized_data_tools_tactiq",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65621,7 +65771,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tipalti",
+      "target": "organized_data_tools_tidio",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65632,7 +65782,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_tldv_io",
+      "target": "organized_data_tools_tipalti",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65654,7 +65804,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_trae_ide",
+      "target": "organized_data_tools_tldv_io",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65665,7 +65815,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_uncensored_ai",
+      "target": "organized_data_tools_trae_ide",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65676,7 +65826,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_vic_ai",
+      "target": "organized_data_tools_uncensored_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65687,7 +65837,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_willow",
+      "target": "organized_data_tools_vic_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65698,7 +65848,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_windsurf",
+      "target": "organized_data_tools_willow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65709,7 +65859,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_wispr_flow",
+      "target": "organized_data_tools_windsurf",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65720,7 +65870,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_workable",
+      "target": "organized_data_tools_wispr_flow",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65731,7 +65881,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_workato",
+      "target": "organized_data_tools_workable",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65742,7 +65892,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_yupp",
+      "target": "organized_data_tools_workato",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65753,7 +65903,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_z_image_ai",
+      "target": "organized_data_tools_yupp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65775,7 +65925,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zapier",
+      "target": "organized_data_tools_z_image_ai",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65786,7 +65936,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zapier_mcp",
+      "target": "organized_data_tools_zapier",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -65797,13 +65947,24 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_tools_zendesk_ai",
+      "target": "organized_data_tools_zapier_mcp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
       "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "organized_data_master",
+      "target": "organized_data_tools_zendesk_ai",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-data/master.md",
+      "source_location": "L393",
       "weight": 1.0
     },
     {
@@ -66105,7 +66266,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_cold_email_how_to_write_like_a_human",
+      "target": "organized_data_learning_building_rag_agents_with_llms",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66116,7 +66277,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_enhance_results_with_prompt_engineering_strategies",
+      "target": "organized_data_learning_lesson_cold_email_how_to_write_like_a_human",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66127,7 +66288,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_generative_ai_explained",
+      "target": "organized_data_learning_enhance_results_with_prompt_engineering_strategies",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66138,7 +66299,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_generative_ai_the_evolution_of_thoughtful_online_search",
+      "target": "organized_data_learning_generative_ai_explained",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66149,7 +66310,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_github_certification_exams",
+      "target": "organized_data_learning_generative_ai_the_evolution_of_thoughtful_online_search",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66160,7 +66321,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_how_to_hire_an_ai_email_marketer",
+      "target": "organized_data_learning_github_certification_exams",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66171,7 +66332,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_kaggle_5_day_agents_guide",
+      "target": "organized_data_learning_lesson_how_to_hire_an_ai_email_marketer",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66182,7 +66343,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_llm_zoomcamp",
+      "target": "organized_data_learning_kaggle_5_day_agents_guide",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66193,7 +66354,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_made_with_ml",
+      "target": "organized_data_learning_lesson_llm_zoomcamp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66204,7 +66365,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_learning_lesson_nanochat",
+      "target": "organized_data_learning_lesson_made_with_ml",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66215,18 +66376,18 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_act_as_a_skeptical_senior",
+      "target": "organized_data_learning_lesson_nanochat",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/master.md",
-      "source_location": "L83",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_all_hands_talking_points",
+      "target": "organized_data_prompts_act_as_a_skeptical_senior",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66237,7 +66398,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_customer_feedback_for_growth_signals",
+      "target": "organized_data_prompts_all_hands_talking_points",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66248,7 +66409,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_this_data_and_identify",
+      "target": "organized_data_prompts_analyze_customer_feedback_for_growth_signals",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66259,7 +66420,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_analyze_why_a_deal_was_lost",
+      "target": "organized_data_prompts_analyze_this_data_and_identify",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66270,7 +66431,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_apply_first_principles_thinking",
+      "target": "organized_data_prompts_analyze_why_a_deal_was_lost",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66281,7 +66442,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_assess_an_acquisition_or_partnership",
+      "target": "organized_data_prompts_apply_first_principles_thinking",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66292,7 +66453,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_assumptions_stress_test",
+      "target": "organized_data_prompts_assess_an_acquisition_or_partnership",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66303,7 +66464,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_break_this_goal_into_a_realistic_30_60_90_day_plan",
+      "target": "organized_data_prompts_assumptions_stress_test",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66314,7 +66475,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_competitive_battle_card",
+      "target": "organized_data_prompts_break_this_goal_into_a_realistic_30_60_90_day_plan",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66325,7 +66486,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_decision_framework",
+      "target": "organized_data_prompts_build_a_competitive_battle_card",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66336,7 +66497,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_decision_matrix",
+      "target": "organized_data_prompts_build_a_decision_framework",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66347,7 +66508,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_project_risk_assessment",
+      "target": "organized_data_prompts_build_a_decision_matrix",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66358,7 +66519,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_sop_for_a_repeatable_process",
+      "target": "organized_data_prompts_build_a_project_risk_assessment",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66369,7 +66530,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_a_user_interview_question_set",
+      "target": "organized_data_prompts_build_a_sop_for_a_repeatable_process",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66380,7 +66541,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_an_onboarding_checklist",
+      "target": "organized_data_prompts_build_a_user_interview_question_set",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66391,7 +66552,7 @@
     },
     {
       "source": "organized_data_master",
-      "target": "organized_data_prompts_build_interview_questions",
+      "target": "organized_data_prompts_build_an_onboarding_checklist",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -66426,5 +66587,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4af6be665ee766d28c77cb09b39335ec36832478"
+  "built_at_commit": "ce90babcab507adf174a516b675986f482db7c4b"
 }

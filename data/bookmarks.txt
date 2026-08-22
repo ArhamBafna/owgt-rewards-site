@@ -432,3 +432,6 @@ Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-F
 
 Title: Augment your LLM using RAG
 Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1
+
+Title: Building RAG Agents with LLMs
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1
