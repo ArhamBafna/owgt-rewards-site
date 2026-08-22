@@ -400,30 +400,6 @@
       "source_location": "L8"
     },
     {
-      "id": "scripts_update_site_json_update_site_json",
-      "label": "update_site_json()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 424,
-      "community_name": "update_site_json.py",
-      "file_type": "code",
-      "norm_label": "update_site_json()",
-      "source_file": "scripts/update_site_json.py",
-      "source_location": "L5"
-    },
-    {
-      "id": "scripts_build_all_50_hacks_build_all_50",
-      "label": "build_all_50()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 430,
-      "community_name": "build_all_50_hacks.py",
-      "file_type": "code",
-      "norm_label": "build_all_50()",
-      "source_file": "scripts/build_all_50_hacks.py",
-      "source_location": "L5"
-    },
-    {
       "id": "organization_prompt",
       "label": "organization-prompt.md",
       "_origin": "ast",
@@ -24160,7 +24136,7 @@
       "node_kind": "heading",
       "norm_label": "1. fetch & parse input",
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L20"
+      "source_location": "L22"
     },
     {
       "id": "agents_add_reward_item_skill_2_save_raw_data_rewards_data",
@@ -24172,7 +24148,7 @@
       "node_kind": "heading",
       "norm_label": "2. save raw data (`rewards/data/`)",
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L26"
+      "source_location": "L28"
     },
     {
       "id": "agents_add_reward_item_skill_3_save_organized_item_rewards_organized_data",
@@ -24184,19 +24160,31 @@
       "node_kind": "heading",
       "norm_label": "3. save organized item (`rewards/organized-data/`)",
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L30"
+      "source_location": "L32"
     },
     {
-      "id": "agents_add_reward_item_skill_4_commands",
-      "label": "4. Commands",
+      "id": "agents_add_reward_item_skill_4_sync_website_rewards_site",
+      "label": "4. Sync Website (`rewards/site/`)",
       "_origin": "ast",
       "community": 357,
       "community_name": "Workflow",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "4. commands",
+      "norm_label": "4. sync website (`rewards/site/`)",
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L62"
+      "source_location": "L64"
+    },
+    {
+      "id": "agents_add_reward_item_skill_5_final_commands_git",
+      "label": "5. Final Commands & Git",
+      "_origin": "ast",
+      "community": 357,
+      "community_name": "Workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. final commands & git",
+      "source_file": ".agents/add-reward-item/SKILL.md",
+      "source_location": "L77"
     },
     {
       "id": "agents_add_reward_item_skill_add_reward_item",
@@ -24232,7 +24220,7 @@
       "node_kind": "heading",
       "norm_label": "workflow",
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L18"
+      "source_location": "L20"
     },
     {
       "id": "site_design_plan_1_1_duplicate_files",
@@ -28436,17 +28424,6 @@
       "source_location": "L10"
     },
     {
-      "id": "scripts_update_site_json",
-      "label": "update_site_json.py",
-      "_origin": "ast",
-      "community": 424,
-      "community_name": "update_site_json.py",
-      "file_type": "code",
-      "norm_label": "update_site_json.py",
-      "source_file": "scripts/update_site_json.py",
-      "source_location": "L1"
-    },
-    {
       "id": "organized_data_cheat_sheets_the_code_coding_agent_hacks_29_block_stop_until_tests_pass_with_a_hook",
       "label": "29. Block Stop until tests pass with a hook",
       "_origin": "ast",
@@ -29177,39 +29154,6 @@
       "norm_label": "url",
       "source_file": "organized-data/Guides/prompt-engineering.md",
       "source_location": "L7"
-    },
-    {
-      "id": "scripts_build_all_50_hacks",
-      "label": "build_all_50_hacks.py",
-      "_origin": "ast",
-      "community": 430,
-      "community_name": "build_all_50_hacks.py",
-      "file_type": "code",
-      "norm_label": "build_all_50_hacks.py",
-      "source_file": "scripts/build_all_50_hacks.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_export_hacks",
-      "label": "export_hacks.py",
-      "_origin": "ast",
-      "community": 431,
-      "community_name": "export_hacks.py",
-      "file_type": "code",
-      "norm_label": "export_hacks.py",
-      "source_file": "scripts/export_hacks.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_parse_hackbook",
-      "label": "parse_hackbook.py",
-      "_origin": "ast",
-      "community": 432,
-      "community_name": "parse_hackbook.py",
-      "file_type": "code",
-      "norm_label": "parse_hackbook.py",
-      "source_file": "scripts/parse_hackbook.py",
-      "source_location": "L1"
     },
     {
       "id": "organized_data_guides_the_1m_solopreneur_mvp",
@@ -34906,7 +34850,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L18",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -34917,7 +34861,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L20",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -34928,7 +34872,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L26",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -34939,18 +34883,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
       "source": "agents_add_reward_item_skill_workflow",
-      "target": "agents_add_reward_item_skill_4_commands",
+      "target": "agents_add_reward_item_skill_4_sync_website_rewards_site",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/add-reward-item/SKILL.md",
-      "source_location": "L62",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_add_reward_item_skill_workflow",
+      "target": "agents_add_reward_item_skill_5_final_commands_git",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/add-reward-item/SKILL.md",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -60298,17 +60253,6 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_build_all_50_hacks",
-      "target": "scripts_build_all_50_hacks_build_all_50",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/build_all_50_hacks.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
       "source": "scripts_clean_data",
       "target": "scripts_clean_data_normalize_tags",
       "relation": "contains",
@@ -60448,17 +60392,6 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/generate_indices.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_update_site_json",
-      "target": "scripts_update_site_json_update_site_json",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/update_site_json.py",
       "source_location": "L5",
       "weight": 1.0
     },
@@ -66010,5 +65943,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fc7a2b4aa6ce53cdd062cd4296a90a61371118a0"
+  "built_at_commit": "6db8ae0a3427fc2cb48a7088121c3ccd0255b825"
 }

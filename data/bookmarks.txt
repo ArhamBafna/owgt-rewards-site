@@ -415,3 +415,5 @@ Link: https://certifications.github.com
 Title: The Code — Coding Hacks for AI Agents
 Link: https://hackbook-chi.vercel.app/
 
+Title: Build Your Generative AI Productivity Skills with Microsoft and LinkedIn
+Link: https://www.linkedin.com/learning/paths/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin

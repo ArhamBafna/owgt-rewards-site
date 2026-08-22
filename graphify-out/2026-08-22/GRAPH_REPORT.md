@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 415 files · ~636,684 words
+- 411 files · ~634,818 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2890 nodes · 2847 edges · 433 communities (417 shown, 16 thin omitted)
+- 2885 nodes · 2846 edges · 429 communities (413 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fc7a2b4a`
+- Built from commit: `6db8ae0a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -451,7 +451,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (433 total, 16 thin omitted)
+## Communities (429 total, 16 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -1882,8 +1882,8 @@ Cohesion: 0.33
 Nodes (5): Category, Content, Description, Name, Tags
 
 ### Community 357 - "Workflow"
-Cohesion: 0.25
-Nodes (7): 1. Fetch & Parse Input, 2. Save Raw Data (`rewards/data/`), 3. Save Organized Item (`rewards/organized-data/`), 4. Commands, Add Reward Item, Anti-Patterns, Workflow
+Cohesion: 0.22
+Nodes (8): 1. Fetch & Parse Input, 2. Save Raw Data (`rewards/data/`), 3. Save Organized Item (`rewards/organized-data/`), 4. Sync Website (`rewards/site/`), 5. Final Commands & Git, Add Reward Item, Anti-Patterns, Workflow
 
 ### Community 358 - "1. DATA QUALITY ISSUES (Clean Before Build)"
 Cohesion: 0.33
@@ -2058,17 +2058,15 @@ Cohesion: 0.29
 Nodes (7): 1. Pin a CLAUDE.md at repo root, 2. Layer .cursor/rules/*.mdc by scope, 3. Lock down Claude Code's unstable behavior, 4. Auto-load git context at session start, 5. Feed Claude Code's own docs into context, 6. Auto-generate a tight CLAUDE.md with /init, Context & Configuration
 
 ## Knowledge Gaps
-- **2326 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2321 more)
+- **2327 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2322 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Master Index` connect `Master Index` to `master.md`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
-  _2326 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2327 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
@@ -2079,3 +2077,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `build-insane-animated-websites.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Motion Graphics with AI — Full Setup & Workflow Guide` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787434913.270036,
-    "seen": 1787434925.2757246,
-    "ast_hash": "bf2a550ea4d177344324a15952516d11",
+    "mtime": 1787436057.2969959,
+    "seen": 1787436147.1919842,
+    "ast_hash": "dfb1fbfc8c41629260c6ca3a631b39af",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787434058.374348,
-    "seen": 1787434394.8981824,
-    "ast_hash": "d1cf7a1536cdfef81df3c9c693b57b83",
+    "mtime": 1787436035.381882,
+    "seen": 1787436147.192525,
+    "ast_hash": "dc29828734a350710b0b0b25daae8fbd",
     "semantic_hash": ""
   },
   "data/github.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787434913.2710767,
-    "seen": 1787434925.2762675,
-    "ast_hash": "2a2a97c9d4f79b15250b1163d9171d99",
+    "mtime": 1787436057.2977743,
+    "seen": 1787436147.1935508,
+    "ast_hash": "2baa6fc7d9a4fc94decdea6043bfcd91",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787434833.0430038,
-    "seen": 1787434925.2757554,
-    "ast_hash": "a7ed3b2b1b7d7a94e9eb43bb0c168e70",
+    "mtime": 1787436101.0925012,
+    "seen": 1787436147.1920357,
+    "ast_hash": "87d473b96a15f1d8ee072a375c3923ca",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787434833.0606747,
-    "seen": 1787434925.2757592,
-    "ast_hash": "82084561b38632612d5ae4a944f6c8fc",
+    "mtime": 1787436101.1015053,
+    "seen": 1787436147.1920433,
+    "ast_hash": "af3e8b4c8e2c6164f97802dbeaf17bdd",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1786910759.319907,
-    "seen": 1787434394.8994308,
-    "ast_hash": "616a642e90eda68a67746d065416e1fe",
+    "mtime": 1787436101.1093702,
+    "seen": 1787436147.1941602,
+    "ast_hash": "eec5aa06b281793b1036cc3db074815c",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4578,9 +4578,9 @@
     "semantic_hash": ""
   },
   ".agents/add-reward-item/SKILL.md": {
-    "mtime": 1787435278.6875496,
-    "seen": 1787435315.8921664,
-    "ast_hash": "340f2b005b1f5db9408a272e67e5a050",
+    "mtime": 1787435668.0605452,
+    "seen": 1787436147.1920483,
+    "ast_hash": "864397c317119c1d1e1350a3be43467d",
     "semantic_hash": ""
   },
   "organized-data/Tools/aipen-chatgpt-app.md": {
@@ -4596,21 +4596,27 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787434913.2710767,
-    "seen": 1787434925.2762702,
+    "mtime": 1787436057.2977743,
+    "seen": 1787436147.1935546,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
   "organized-data/Cheat Sheets/the-code-coding-agent-hacks.md": {
-    "mtime": 1787434833.019514,
-    "seen": 1787434925.2758152,
-    "ast_hash": "2683c6c536ad9c4d379fa0f3719c556b",
+    "mtime": 1787435704.0253065,
+    "seen": 1787436147.1926126,
+    "ast_hash": "5d7803f93342b0ea9f79e60079c133aa",
     "semantic_hash": ""
   },
   "site/items/cheatsheets/the-code-coding-agent-hacks.html": {
     "mtime": 1787434833.0648623,
     "seen": 1787434925.2762992,
     "ast_hash": "ba87a612bef0d4b2f0f4f54e7d922f29",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/build-your-generative-ai-productivity-skills.md": {
+    "mtime": 1787436045.836821,
+    "seen": 1787436147.192846,
+    "ast_hash": "1dd5e06b80963d70f76879064032e1f4",
     "semantic_hash": ""
   }
 }

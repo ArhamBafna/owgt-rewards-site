@@ -6,7 +6,7 @@ This index is automatically generated.
 
 - [ChatGPT & AI Cheatsheet](Cheat Sheets/chatgpt-and-ai-cheatsheet.md)
 - [Mobile App Growth Cheat Sheet](Cheat Sheets/mobile-app-growth-cheat-sheet.md)
-- [The Code — 50+ Coding Agent Hacks](Cheat Sheets/the-code-coding-agent-hacks.md)
+- [The Code — Coding Hacks for AI Agents](Cheat Sheets/the-code-coding-agent-hacks.md)
 
 ## Frameworks
 
@@ -64,6 +64,7 @@ This index is automatically generated.
 - [AI-ASSISTED RECRUITING](Learning/ai-assisted-recruiting.md)
 - [AI-Powered Market Research](Learning/ai-powered-market-research.md)
 - [AI-Powered Process Documentation](Learning/ai-powered-process-documentation.md)
+- [Build Your Generative AI Productivity Skills with Microsoft and LinkedIn](Learning/build-your-generative-ai-productivity-skills.md)
 - [Cold Email: How to Write Like a Human](Learning/lesson-cold-email-how-to-write-like-a-human.md)
 - [GitHub Certification Exams](Learning/github-certification-exams.md)
 - [How to Hire an AI Email Marketer](Learning/lesson-how-to-hire-an-ai-email-marketer.md)

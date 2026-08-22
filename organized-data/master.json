@@ -9,7 +9,7 @@
       "path": "Cheat Sheets/mobile-app-growth-cheat-sheet.md"
     },
     {
-      "name": "The Code \u2014 50+ Coding Agent Hacks",
+      "name": "The Code \u2014 Coding Hacks for AI Agents",
       "path": "Cheat Sheets/the-code-coding-agent-hacks.md"
     }
   ],
@@ -209,6 +209,10 @@
     {
       "name": "AI-Powered Process Documentation",
       "path": "Learning/ai-powered-process-documentation.md"
+    },
+    {
+      "name": "Build Your Generative AI Productivity Skills with Microsoft and LinkedIn",
+      "path": "Learning/build-your-generative-ai-productivity-skills.md"
     },
     {
       "name": "Cold Email: How to Write Like a Human",

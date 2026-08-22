@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 411 files · ~634,818 words
+- 412 files · ~630,578 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2885 nodes · 2846 edges · 429 communities (413 shown, 16 thin omitted)
+- 2871 nodes · 2832 edges · 425 communities (409 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6db8ae0a`
+- Built from commit: `753b78a8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -427,23 +427,19 @@
 - 2026-06-22_15-26-19Z-i-have-a-vercel.md
 - 2026-06-29_16-49-31Z-create-a-project-in.md
 - the-code-coding-agent-hacks.md
-- Automation & Hooks
-- Workflow & Task Management
-- Prompting & Specification
-- Tools & Plugins
-- Context & Configuration
+- build-your-generative-ai-productivity-skills.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
-2. `Automation & Hooks` - 14 edges
-3. `TONE.md — AI Newsletter / Personal Brand Voice` - 13 edges
-4. `Workflow & Task Management` - 13 edges
-5. `Content` - 12 edges
-6. `Landing page brief (project-specific answers only)` - 12 edges
-7. `Prompting & Specification` - 11 edges
-8. `Tools & Plugins` - 10 edges
+2. `TONE.md — AI Newsletter / Personal Brand Voice` - 13 edges
+3. `Content` - 12 edges
+4. `Landing page brief (project-specific answers only)` - 12 edges
+5. `Agent 1: Vesper (Inbox Triage)` - 9 edges
+6. `Build 1 — RISE Hydration Drink` - 9 edges
+7. `Motion Graphics with AI — Full Setup & Workflow Guide` - 9 edges
+8. `Workflow & Task Management` - 9 edges
 9. `Agent 1: Vesper (Inbox Triage)` - 9 edges
-10. `Build 1 — RISE Hydration Drink` - 9 edges
+10. `Step 2 — Generate Premium Visuals in AI Media Generator` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -451,7 +447,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (429 total, 16 thin omitted)
+## Communities (425 total, 16 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2034,31 +2030,15 @@ Cohesion: 0.50
 Nodes (3): 2026-05-26 21:50:28Z, Summary of Changes, Summary of Work
 
 ### Community 423 - "the-code-coding-agent-hacks.md"
-Cohesion: 0.25
-Nodes (7): Category, Content, Description, Name, Overview, Tags, URL
+Cohesion: 0.05
+Nodes (41): 10. Run Agents on Parallel Git Worktrees, 11. Resume or Fork Sessions, 12. Rewind Codex Sessions via Double-Tap Esc, 13. Run Skills in Isolated Context (`context: fork`), 14. Mid-Task Inquiries with `/btw`, 15. Write a Spec File (`spec.md`) First, 16. Enforce Proof in Status Updates, 17. Make Claude Code Grill You Before Building (+33 more)
 
-### Community 425 - "Automation & Hooks"
-Cohesion: 0.14
-Nodes (14): 29. Block Stop until tests pass with a hook, 30. Run Claude Code headless in CI for triage, 31. Allowlist read-only commands to kill prompt fatigue, 32. Watch background tasks with the Monitor tool, 33. Get notified when Claude Code finishes a task, 34. Block API keys from leaking via a UserPromptSubmit hook, 35. Kill permission spam with /fewer-permission-prompts, 36. Monitor deploys without leaving Claude Code (+6 more)
-
-### Community 426 - "Workflow & Task Management"
-Cohesion: 0.15
-Nodes (13): 10. Run agents on parallel worktrees, not branches, 11. claude --resume to pick up yesterday's thread, 12. Spawn parallel subagents for code review, 13. Rewind a Codex session by double-tapping Esc, 14. Promote any session into a reusable slash command, 15. Run skills in isolated context with `context: fork`, 16. Collapse the PR ritual into one /pr command, 17. Ask side questions mid-task with /btw (+5 more)
-
-### Community 427 - "Prompting & Specification"
-Cohesion: 0.18
-Nodes (11): 19. Project slash commands as reusable prompts, 20. Pin files to Cursor chat with @ before asking, 21. Write the spec, then ask the agent to implement, 22. Paste UI screenshots to pin down design intent, 23. Force a TODO list before non-trivial work, 24. Pull live shell output into slash commands with !, 25. Crank up reasoning with /effort high, 26. Embed live shell output into Claude Code skills (+3 more)
-
-### Community 428 - "Tools & Plugins"
-Cohesion: 0.20
-Nodes (10): 42. Add an MCP server in one command, 43. Debug frontend bugs with the Chrome DevTools MCP, 44. Catch type errors before commit with LSP plugins, 45. Turn Figma frames into code with Codex, 46. Skill-route blocked URLs through Gemini, 47. Audit your Claude Code permissions with cc-safe, 48. Strip needless abstractions with code-simplifier, 49. Share Claude Code sessions as HTML replays (+2 more)
-
-### Community 429 - "Context & Configuration"
+### Community 424 - "build-your-generative-ai-productivity-skills.md"
 Cohesion: 0.29
-Nodes (7): 1. Pin a CLAUDE.md at repo root, 2. Layer .cursor/rules/*.mdc by scope, 3. Lock down Claude Code's unstable behavior, 4. Auto-load git context at session start, 5. Feed Claude Code's own docs into context, 6. Auto-generate a tight CLAUDE.md with /init, Context & Configuration
+Nodes (6): Category, Content, Description, Name, Tags, URL
 
 ## Knowledge Gaps
-- **2327 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2322 more)
+- **2312 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2307 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -2066,7 +2046,7 @@ Nodes (7): 1. Pin a CLAUDE.md at repo root, 2. Layer .cursor/rules/*.mdc by scop
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
-  _2327 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2312 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
