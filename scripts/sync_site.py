@@ -2,6 +2,7 @@ import os
 import json
 import re
 import html
+from urllib.parse import urlparse
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REWARDS_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
@@ -349,7 +350,7 @@ def update_landing_and_rewards_pages(all_items, items_by_folder):
         with open(index_path, 'r', encoding='utf-8') as f:
             idx_content = f.read()
             
-        idx_content = re.sub(r'(\d+)\s+resources', f'{total_count} resources', idx_content)
+        idx_content = re.sub(r'(>)\d+(\s+resources<)', rf'\g<1>{total_count}\2', idx_content)
         idx_content = re.sub(r'(<span class="landing-hero-num tnum">)\d+(</span>)', rf'\g<1>{total_count}\2', idx_content)
         idx_content = re.sub(r'\d+\s+resources\s+·\s+8\s+categories', f'{total_count} resources · 8 categories', idx_content)
         idx_content = re.sub(r'\d+\s+items across 8 categories\.', f'{total_count} items across 8 categories.', idx_content)
@@ -438,8 +439,10 @@ def sync_all():
             lower_t = t.lower()
             if lower_t not in tag_case_map:
                 tag_case_map[lower_t] = t
-            elif t != tag_case_map[lower_t] and t.istitle():
-                tag_case_map[lower_t] = t
+            else:
+                # Prefer title case or explicit uppercase (e.g., API) over all-lowercase
+                if t != tag_case_map[lower_t] and (t.istitle() or t.isupper()):
+                    tag_case_map[lower_t] = t
 
     for item in all_items:
         normalized_tags = []
@@ -501,9 +504,16 @@ def sync_all():
     for it in all_items:
         clean_content = re.sub(r'[#*`_\[\]()>]', ' ', it['content']).strip()
         if it['is_shallow'] and it['url']:
+            parsed_url = urlparse(it['url'])
+            # Extract just the hostname (e.g., github.com) and split on dots
+            host_parts = parsed_url.netloc.split('.')
+            host_keywords = " ".join([p for p in host_parts if p not in ('www', 'com', 'org', 'net', 'io')])
+            
+            # Combine domain name and raw url keywords for thorough matching
             url_keywords = re.sub(r'https?://|www\.', '', it['url'])
             url_keywords = re.sub(r'[/.\-_?=&%:]+', ' ', url_keywords).strip()
-            clean_content = f"{it['description']} {url_keywords}".strip()
+            
+            clean_content = f"{it['description']} {host_keywords} {url_keywords}".strip()
             
         search_index.append({
             "id": it['id'],
