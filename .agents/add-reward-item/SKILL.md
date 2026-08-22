@@ -1,99 +1,78 @@
 ---
 name: add-reward-item
-description: Add single or batch items, URLs, prompts, guides, tools, or resources into rewards database across data/, organized-data/, and site. Trigger on links, guides, snippets, or batch additions.
+description: Add single or batch items into rewards database (data/, organized-data/, site/). Trigger on links, guides, snippets, or batch additions.
 ---
 
 # Add Reward Item(s)
 
-Add single or batch entries into `data/`, `organized-data/`, and `site/`.
+### 1. Parse & Segment
+Split input into item queue: `[Item 1, ... Item N]`.
 
-## Core Guardrails
-- **Full extraction or redirect**: If extracting page content, extract 100% of items without truncation or omission. If 100% extraction cannot be guaranteed, store redirect URL instead of partial text.
-- **Always preserve raw data**: Every item must be recorded in `data/`.
-- **Existing tags first**: Check `rewards/organized-data/tags.txt` and match existing tags before introducing new ones.
-- **Specific utility descriptions**: State exact function and practical utility. Never write vague summaries (e.g. "App repo by X").
-- **Inspect generated sync changes**: Never commit automated site edits without inspecting changed files via `view_file`.
+### 2. Fetch & Extract
+For each item:
+- **URL**: Fetch full page. Extract full text if you can guarantee 100% complete; else store redirect URL. If 404/broken, mark failed and continue.
+  - **Paywall/Login Rule**: If link is LinkedIn Learning, NVIDIA DLI, Coursera, Udemy, or YouTube, skip full-text web scrape and create shallow redirect course entry immediately.
+- **If Appropriate**: Run `.agents/skool-guide-to-md/SKILL.md` to format markdown.
+- **Description**: Write specific function/utility summary (no generic fluff).
 
-## Phased Batch Workflow
+### 3. Disambiguation (Sweet Spot)
+- Prefer running routine steps autonomously.
+- If anomaly/unknown conflict occurs, be very happy to aggregate into single round and ask user with recommended answer.
+- I would rather have accurate (according to me) addition of reward items rather than you assuming and guessing things that are wrong .
 
-### Phase 1: Parse & Segment
-1. Inspect input and identify all discrete items (URLs, bullet lists, markdown guides, prompts, or text blocks).
-2. Segment input into an ordered item queue: `[Item 1, Item 2, ... Item N]`.
+### 4. Save Raw & Organized Data
+1. **Raw (`rewards/data/`)**: Append to matching source based on auto-routing matrix:
+   - `github.com` -> `rewards/data/github.txt`
+   - `youtube.com` / `youtu.be` -> `rewards/data/youtube/` or `bookmarks.txt` (agent decides; ask if unsure)
+   - `notion.so` / `notion.site` -> `rewards/data/notion.txt`
+   - Pure prompt text (no URL) -> `rewards/data/prompts.txt`
+   - Skill guide text -> `rewards/data/skills.txt`
+   - Other web links -> `rewards/data/bookmarks.txt`
+   - Unclassifiable -> Agent decides or asks human
+2. **Organized (`rewards/organized-data/<Category>/<slug>.md`)**:
+   - Categories: `Cheat Sheets`, `Frameworks`, `Guides`, `Learning`, `Prompts`, `Resources`, `Templates`, `Tools`.
+   - **Slug Rule**: Lowercase, alphanumeric, hyphens only, no trailing punctuation (e.g. `openai-prompt-engineering` not `openai-prompt-engineering!`).
+   - Tags: Match existing in `rewards/organized-data/tags.txt` first.
+   - Format:
+     ```markdown
+     ### Name
+     <Title>
 
-### Phase 2: Fetch & Extract
-For each item in the queue:
-- **Web Pages / URLs**: Read full text via `read_url_content` or Firecrawl/Exa.
-  - If content is completely extracted: retain parsed body for organized item.
-  - If content is dynamic/paywalled/truncated: keep external URL redirect.
-  - If URL is unreachable or 404: record item as failed and proceed with remaining queue.
-- **Step-by-Step Guides**: Run `rewards/.agents/skool-guide-to-md/SKILL.md` to format markdown and remove AI branding.
-- **Descriptions**: Derive specific utility description.
+     ### Description
+     <Specific description>
 
-### Phase 3: Single-Round Ambiguity Resolution
-If any item in the batch has unclear categorization, missing tags, doubtful description, or unknown raw target:
-1. Aggregate all open questions across the entire batch.
-2. Trigger a single `/grilling` round to resolve all ambiguities with the user before writing files.
+     ### Category
+     <Category>
 
-### Phase 4: Batch Storage (Raw & Organized)
-1. **Raw Storage (`rewards/data/`)**:
-   Auto-route and append each raw item by source type:
-   - Bookmarks / articles -> `rewards/data/bookmarks.txt`
-   - Prompts -> `rewards/data/prompts.txt`
-   - GitHub repositories -> `rewards/data/github.txt`
-   - YouTube links -> `rewards/data/youtube/`
-   - Notion pages -> `rewards/data/notion.txt`
-   - Agent skills -> `rewards/data/skills.txt`
+     ### URL
+     <URL or empty>
 
-2. **Organized Markdown (`rewards/organized-data/`)**:
-   Map category to one of: `Cheat Sheets`, `Frameworks`, `Guides`, `Learning`, `Prompts`, `Resources`, `Templates`, `Tools`.
-   Write `rewards/organized-data/<Category>/<slug>.md` for each item:
-   ```markdown
-   ### Name
-   <Title>
+     ### Content
+     <Full extracted text or empty>
 
-   ### Description
-   <Specific utility description>
+     ### Tags
+     - <tag1>
+     - <tag2>
+     ```
 
-   ### Category
-   <Category>
-
-   ### URL
-   <URL or empty>
-
-   ### Content
-   <Full extracted content / prompt / guide>
-
-   ### Tags
-   - <tag1>
-   - <tag2>
-   ```
-
-### Phase 5: Single Index & Site Sync
-1. **Regenerate indices**:
+### 5. Site Sync & Verification
+1. Run synchronizer:
    ```powershell
-   python scripts/generate_indices.py
+   python scripts/sync_site.py
    ```
-2. **Sync site database and HTML pages**:
-   - Update `rewards/site/data.json` and `rewards/site/search-index.json`.
-   - Update tag counts and category counts.
-   - Generate standalone item page: `rewards/site/items/<category-slug>/<slug>.html`.
-   - Update category overview: `rewards/site/<category-slug>.html`.
-   - Delete any temporary helper script used during sync.
-3. **Verification Gate**:
-   - Use `view_file` to inspect `data.json` and updated HTML files.
-   - Ensure accurate card links, tag counts, and navigation pointers.
+2. Verify output files via `view_file`.
 
-### Phase 6: Batch Git Commit & Summary
+### 6. Git & Summary
 1. Update graphify:
    ```powershell
    graphify update .
    ```
-2. Stage and commit all batch changes in a single commit:
+2. Commit & push. Follow batch naming convention:
+   - 1 item: `add reward: <Item Name>`
+   - 2+ items: `add rewards: <Item 1>, <Item 2> + N more (<Total> items)`
    ```powershell
    git add .
-   git commit -m "add reward: <Item 1>, <Item 2> (<N> items)"
+   git commit -m "<apply naming convention>"
    git push
    ```
-3. Report completion summary to user:
-   - List all successfully added items with assigned categories and tags.
-   - List any failed items with failure reason.
+3. Report added items and any failed URLs.

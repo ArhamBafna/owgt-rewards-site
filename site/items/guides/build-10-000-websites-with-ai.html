@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.">
+  <meta property="og:title" content="Build $10,000 Websites with AI Opus 5 - OWGT Rewards">
+  <meta property="og:description" content="Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/guides/build-10-000-websites-with-ai">
   <title>Build $10,000 Websites with AI Opus 5 - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
@@ -38,7 +42,7 @@
 <body>
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
-    <a href="/home" class="new-logo-link">
+    <a href="/rewards" class="new-logo-link">
       <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
@@ -47,27 +51,21 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Bookmarks</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/guides" style="color: inherit; text-decoration: none;">LEARNING</a></p>
         <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Build $10,000 Websites with AI Opus 5</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">Using AI Opus 5 and the Higgsfield MCP connector to build a fully animated luxury real estate marketing site.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+          <a href="/tag-detail?tag=Skool" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Skool</a><a href="/tag-detail?tag=Community" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Community</a><a href="/tag-detail?tag=Guide" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Guide</a>
         </div>
       </div>
     </header>
@@ -105,7 +103,7 @@ Higgsfield MCP for visuals, which gives the AI direct access to image and video 
 #### Connecting Higgsfield
 1. Open Higgsfield: https://higgsfield.ai/mcp?fpr=zinho-automates
 2. Copy the MCP URL
-3. In AI Code: Connectors -> Add custom connector
+3. In AI Code: Connectors -&gt; Add custom connector
 4. Paste the URL and name it Higgsfield
 5. Approve the authorization page
 
@@ -114,9 +112,9 @@ Done. No API keys.
 #### Confirm it worked
 Before starting a build prompt, run this:
 
-> List the Higgsfield MCP tools you have access to.
+&gt; List the Higgsfield MCP tools you have access to.
 
-If it comes back empty, the connector didn't authorize. Reconnect before going further, or you'll get forty minutes into a build with an empty assets folder.
+If it comes back empty, the connector didn&#x27;t authorize. Reconnect before going further, or you&#x27;ll get forty minutes into a build with an empty assets folder.
 
 #### Which model
 Use AI Opus 5 (or a similar high-capability reasoning model). It costs about half as much as Fable 5 and handles this type of build at basically the same quality. Set effort to high for the initial build since the extra thinking time helps here.
@@ -180,8 +178,8 @@ micro-interactions. Desktop-first, 1440px.
 
 ## Sections in order
 
-Hero -> Figures -> The House (pinned image, scrolling text) -> **Drone reveal
-(mid-scroll)** -> Interiors gallery -> Site & plan -> Enquiry/footer.
+Hero -&gt; Figures -&gt; The House (pinned image, scrolling text) -&gt; **Drone reveal
+(mid-scroll)** -&gt; Interiors gallery -&gt; Site &amp; plan -&gt; Enquiry/footer.
 
 ## Copy
 
@@ -221,7 +219,7 @@ Card layout: a small accent counter (`01 / 04`), the label in wide-tracked caps,
 figure in oversized display type, one line beneath. Each card cuts out and the next
 cuts in: hard, fast, no crossfade, matching the energy of the edit.
 
-**Sync mechanism:** drive the card changes from the video's own
+**Sync mechanism:** drive the card changes from the video&#x27;s own
 `timeupdate` event, switching at the known clip start timestamps. Reading
 `currentTime` works well; never assign to it. Do not drive the cards from scroll
 progress, because scroll and playback run independently and the text will drift out of sync
@@ -280,7 +278,7 @@ background colours.
 Add a custom cursor: a small ring that scales up over interactive elements.
 ```
 ```text
-Open the site at 1440px, check it yourself, and fix anything that's misaligned,
+Open the site at 1440px, check it yourself, and fix anything that&#x27;s misaligned,
 overlapping, or trapped below the fold. Report what you found.
 ```
 Running that last prompt helps ensure proper layout alignment across the page.
@@ -369,13 +367,13 @@ image swaps.
 
 ## Sections in order
 
-Hero bag spin -> Chip journey (three linked sections) -> Flavour lineup -> Discount wheel
--> Footer.
+Hero bag spin -&gt; Chip journey (three linked sections) -&gt; Flavour lineup -&gt; Discount wheel
+-&gt; Footer.
 
 ## Copy
 
 Short and direct. Headlines are clear statements. Every flavour description carries one
-concrete detail: how it's fried, where the corn comes from, when the heat arrives.
+concrete detail: how it&#x27;s fried, where the corn comes from, when the heat arrives.
 
 ## Hero: the bag spin
 
@@ -388,7 +386,7 @@ flavour image at the exact frame `scaleX` hits zero** to keep the transition smo
 Three full rotations across four flavours. Tie everything to `ScrollTrigger` with `scrub`,
 so scrolling backward spins it back and cycles colours in reverse.
 
-As each flavour lands, the page background changes directly to that flavour's colour and the
+As each flavour lands, the page background changes directly to that flavour&#x27;s colour and the
 flavour name swaps beneath the bag. A counter reads `01 / 04`. Scattered chip and
 ingredient cutouts drift behind the bag with parallax depth.
 
@@ -403,7 +401,7 @@ living above all three sections, with its transform driven by a single continuou
 ScrollTrigger across the full range.
 
 The chip moves in an arc across the screen (right side, left, then centre)
-rotating slowly as it travels. Text content sits opposite the chip's current position.
+rotating slowly as it travels. Text content sits opposite the chip&#x27;s current position.
 
 **Stage 1: Stone-ground.** Chip enters plain and unseasoned, upper right. Copy on
 the left about the corn.
@@ -432,7 +430,7 @@ progress spins the drum, starting faster and slowing down as the pin ends.
 
 At the end of the pin, one capsule drops through a chute, lands, and opens to
 show a discount code in large display type. The page background changes to that
-capsule's flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`
+capsule&#x27;s flavour colour on the reveal. Beneath it, an email field and a `CLAIM IT`
 button compress to `scale(0.96)` on click and bounce back.
 
 Build the drum, capsules, and chute from CSS shapes and the generated cutouts without using
@@ -451,7 +449,7 @@ Production-ready code, all Higgsfield assets integrated, no placeholder images.
 Prioritize visual impact over everything.
 ```
 
-Check the four chip stills side by side before building. If the chip's shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.
+Check the four chip stills side by side before building. If the chip&#x27;s shape or angle shifts between stages, the transition will look disconnected. Regenerate from the first still if needed.
 
 ---
 
@@ -502,14 +500,14 @@ Swap the placeholders to adapt this layout for other brands.
 
 ```text
 Build a fully animated marketing site for [BRAND NAME]: [ONE-LINE DESCRIPTION OF
-WHAT IT IS AND WHO IT'S FOR].
+WHAT IT IS AND WHO IT&#x27;S FOR].
 
 Generate ALL visual assets with the Higgsfield MCP FIRST, then build the site around
 them. No placeholder images anywhere. Generate the assets, confirm the media IDs, then
 wire everything in.
 
-Tone: [THREE ADJECTIVES]. Think [REFERENCE CATEGORY: e.g. "a modern design magazine",
-"packaging aisle", "an auction catalogue"], not [WHAT IT SHOULD NOT FEEL LIKE].
+Tone: [THREE ADJECTIVES]. Think [REFERENCE CATEGORY: e.g. &quot;a modern design magazine&quot;,
+&quot;packaging aisle&quot;, &quot;an auction catalogue&quot;], not [WHAT IT SHOULD NOT FEEL LIKE].
 [TYPOGRAPHY DIRECTION]. [COLOUR DIRECTION]. Explicitly avoid: [BANNED VISUAL CLICHES
 FOR THIS CATEGORY].
 
@@ -540,13 +538,13 @@ for smooth scroll, Framer Motion for micro-interactions. Desktop-first, 1440px.
 
 ## Sections in order
 
-[SECTION 1] -> [SECTION 2] -> **[SHOWPIECE SECTION]** -> [SECTION 4] -> [SECTION 5] ->
+[SECTION 1] -&gt; [SECTION 2] -&gt; **[SHOWPIECE SECTION]** -&gt; [SECTION 4] -&gt; [SECTION 5] -&gt;
 footer.
 
 ## Copy
 
-Write like [WHO THE VOICE BELONGS TO]. [SENTENCE STRUCTURE RULE: e.g. "short
-declarative sentences"]. Every description carries one concrete detail: [EXAMPLES OF DETAILS]. Avoid: [3-5 BANNED WORDS FOR THIS CATEGORY].
+Write like [WHO THE VOICE BELONGS TO]. [SENTENCE STRUCTURE RULE: e.g. &quot;short
+declarative sentences&quot;]. Every description carries one concrete detail: [EXAMPLES OF DETAILS]. Avoid: [3-5 BANNED WORDS FOR THIS CATEGORY].
 
 ## Animation
 
@@ -606,7 +604,6 @@ Prioritize visual impact over everything.
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -626,4 +623,3 @@ Prioritize visual impact over everything.
   </script>
 </body>
 </html>
-

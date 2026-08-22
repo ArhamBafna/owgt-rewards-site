@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motion Graphics with AI — Full Setup & Workflow Guide - OWGT Rewards</title>
+  <meta name="description" content="A 3-step workflow for creating custom, high-quality motion graphics directly inside your AI workspace using an MCP connector.">
+  <meta property="og:title" content="Motion Graphics with AI — Full Setup &amp; Workflow Guide - OWGT Rewards">
+  <meta property="og:description" content="A 3-step workflow for creating custom, high-quality motion graphics directly inside your AI workspace using an MCP connector.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/guides/motion-graphics-in-ai">
+  <title>Motion Graphics with AI — Full Setup &amp; Workflow Guide - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
@@ -38,7 +42,7 @@
 <body>
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
-    <a href="/home" class="new-logo-link">
+    <a href="/rewards" class="new-logo-link">
       <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
@@ -47,27 +51,21 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Bookmarks</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
-        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Motion Graphics with AI — Full Setup & Workflow Guide</h1>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/guides" style="color: inherit; text-decoration: none;">LEARNING</a></p>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Motion Graphics with AI — Full Setup &amp; Workflow Guide</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A 3-step workflow for creating custom, high-quality motion graphics directly inside your AI workspace using an MCP connector.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+          <a href="/tag-detail?tag=Skool" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Skool</a><a href="/tag-detail?tag=Community" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Community</a><a href="/tag-detail?tag=Guide" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Guide</a>
         </div>
       </div>
     </header>
@@ -107,7 +105,7 @@
 
 #### 3-Step Workflow
 1. **Generate Prompt:** Describe style and topic to main AI Chat.
-2. **Build with AI Coding Assistant:** Paste prompt into AI Coding Assistant. Tell it "Build it".
+2. **Build with AI Coding Assistant:** Paste prompt into AI Coding Assistant. Tell it &quot;Build it&quot;.
 3. **Save Output:** Get final video folder.
 
 ---
@@ -144,7 +142,7 @@ Write the build prompt so it contains all of the following, explicitly:
    - Texture and material rules
    - Typography rules for on-screen text
    - Camera and motion rules (what moves, what never moves)
-   - An explicit "never do this" list to prevent style drift
+   - An explicit &quot;never do this&quot; list to prevent style drift
 
 2. SCRIPT
    - A complete voiceover script, written to be spoken, at the target length
@@ -152,8 +150,8 @@ Write the build prompt so it contains all of the following, explicitly:
    - Every factual claim marked with [FACT] so I can verify before render
 
 3. SHOT LIST
-   - One entry per beat: shot number, duration, what's on screen, what the VO says over it
-   - Each shot's image/video generation prompt written out in full
+   - One entry per beat: shot number, duration, what&#x27;s on screen, what the VO says over it
+   - Each shot&#x27;s image/video generation prompt written out in full
    - The style bible referenced or restated in every single shot prompt
 
 4. ON-SCREEN TEXT
@@ -198,13 +196,13 @@ Isometric flat vector. 30-degree isometric view across all shots. Flat colors wi
 Not sure about visual style? Run prompt in main AI Chat first:
 
 ```text
-I want to develop a signature motion-graphics style for my channel. I'm going to describe what I have in mind loosely, and I want you to interrogate it into something precise and reproducible.
+I want to develop a signature motion-graphics style for my channel. I&#x27;m going to describe what I have in mind loosely, and I want you to interrogate it into something precise and reproducible.
 
-Here's the vague version: [describe it however it comes out — references, vibes, half-formed ideas]
+Here&#x27;s the vague version: [describe it however it comes out — references, vibes, half-formed ideas]
 
 Ask me the questions you need to pin down: materials and textures, exact palette, line quality, how things enter and exit frame, camera behavior, typography, and what the style must never do.
 
-Then output a single VISUAL STYLE paragraph, written in concrete physical nouns rather than adjectives, specific enough that a generation model produces the same look on shot 1 and shot 40. Include an explicit "never" list.
+Then output a single VISUAL STYLE paragraph, written in concrete physical nouns rather than adjectives, specific enough that a generation model produces the same look on shot 1 and shot 40. Include an explicit &quot;never&quot; list.
 ```
 
 ---
@@ -250,7 +248,7 @@ For each: specify duration, output at 1080p or higher, and write to ./elements/ 
 Build a product explainer video.
 
 PRODUCT: [name and what it actually does]
-AUDIENCE: [who's watching and what they currently believe]
+AUDIENCE: [who&#x27;s watching and what they currently believe]
 THE ONE THING THEY SHOULD UNDERSTAND AFTER WATCHING: [single sentence]
 LENGTH: [e.g. 60 seconds]
 VISUAL STYLE: [paste a style recipe]
@@ -262,7 +260,7 @@ Structure: open on the problem as the audience experiences it, show the mechanis
 ```text
 Build a course lesson video.
 
-CONCEPT: [what you're teaching]
+CONCEPT: [what you&#x27;re teaching]
 LEARNER STARTS KNOWING: [prerequisite level — be honest]
 LEARNER SHOULD BE ABLE TO DO AFTER: [concrete capability]
 LENGTH: [e.g. 4 minutes]
@@ -282,9 +280,9 @@ Text and numbers on screen look authoritative. Wrong numbers mean re-rendering w
 ```text
 Here is my script. Every claim marked [FACT] needs verification before I render a single frame.
 
-For each one: state whether it's accurate, cite the source, give me the correct figure if it's wrong, and flag anything that's technically true but misleading in context.
+For each one: state whether it&#x27;s accurate, cite the source, give me the correct figure if it&#x27;s wrong, and flag anything that&#x27;s technically true but misleading in context.
 
-Be blunt. I'd rather kill a claim now than regenerate a shot later.
+Be blunt. I&#x27;d rather kill a claim now than regenerate a shot later.
 
 [paste script]
 ```
@@ -308,8 +306,8 @@ No AI Coding Assistant? Use Web App:
         </div>
 
         <nav class="item-nav">
-          <a href="/items/guides/how-to-spot-100m-product-ideas" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">How to Spot 100M Product Ideas</span></a>
-          <a href="/items/guides/obsidian-is-my-ais-second-brain" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Obsidian Is My AIs Second Brain</span></a>
+          <a href="/items/guides/build-5k-month-ai-websites" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">How to Sell $5,000/Month AI Websites</span></a>
+          <a href="/items/guides/raw-footage-to-finished-video-in-ai" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Raw Footage to Finished Video — AI Setup &amp; Workflow Guide</span></a>
         </nav>
       </div>
     </section>
@@ -330,7 +328,6 @@ No AI Coding Assistant? Use Web App:
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -350,4 +347,3 @@ No AI Coding Assistant? Use Web App:
   </script>
 </body>
 </html>
-

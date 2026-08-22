@@ -356,7 +356,7 @@
   "354": "zapier.md",
   "355": "zapier-mcp.md",
   "356": "zendesk-ai.md",
-  "357": "Phased Batch Workflow",
+  "357": "Add Reward Item(s)",
   "358": "1. DATA QUALITY ISSUES (Clean Before Build)",
   "359": "NON-NEGOTIABLE RULES",
   "360": "PDF RULES",
@@ -435,5 +435,9 @@
   "433": "building-video-ai-applications.md",
   "434": "generative-ai-for-beginners.md",
   "435": "getting-started-with-ai-on-jetson-nano.md",
-  "436": "perform-large-scale-image-classification.md"
+  "436": "perform-large-scale-image-classification.md",
+  "437": "sync_site.py",
+  "438": "01-clickable-category-breadcrumbs.md",
+  "439": "02-search-index-domain-keywords.md",
+  "440": "03-automated-sitemap-generation.md"
 }

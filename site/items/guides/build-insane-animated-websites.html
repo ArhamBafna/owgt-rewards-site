@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A full setup guide for connecting Higgsfield MCP to your AI to generate custom visual assets and iterative feedback for animated websites.">
+  <meta property="og:title" content="Build Insane Animated Websites — Full Setup Guide - OWGT Rewards">
+  <meta property="og:description" content="A full setup guide for connecting Higgsfield MCP to your AI to generate custom visual assets and iterative feedback for animated websites.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/guides/build-insane-animated-websites">
   <title>Build Insane Animated Websites — Full Setup Guide - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
@@ -38,7 +42,7 @@
 <body>
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
-    <a href="/home" class="new-logo-link">
+    <a href="/rewards" class="new-logo-link">
       <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
@@ -47,27 +51,21 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Bookmarks</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/guides" style="color: inherit; text-decoration: none;">LEARNING</a></p>
         <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Build Insane Animated Websites — Full Setup Guide</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A full setup guide for connecting Higgsfield MCP to your AI to generate custom visual assets and iterative feedback for animated websites.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+          <a href="/tag-detail?tag=Skool" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Skool</a><a href="/tag-detail?tag=Community" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Community</a><a href="/tag-detail?tag=Guide" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Guide</a>
         </div>
       </div>
     </header>
@@ -111,9 +109,9 @@ Avoid placeholder images. Generating real assets first establishes exact dimensi
 ## Iterative Feedback Loop
 
 First render rarely final. Give specific, sequential feedback:
-- Logo on two lines -> Make logo single line.
-- Can angle wrong -> Face can directly to camera.
-- Color transitions rough -> Improve flavor scroll transition.
+- Logo on two lines -&gt; Make logo single line.
+- Can angle wrong -&gt; Face can directly to camera.
+- Color transitions rough -&gt; Improve flavor scroll transition.
 
 ---
 
@@ -156,10 +154,10 @@ Animated marketing site for premium hydration drink brand.
 - **3D Scroll:** Can rotates, tilts, and translates through scene on scroll with parallax background layers.
 - **Mouse Tracking:** Hero elements and 3D can subtly track cursor position; custom animated cursor.
 - **Interactive Particles:** Water droplets and ingredient particles react to cursor hover/proximity.
-- **Flavor Spin Section:** Pinned section where scrolling spins can on vertical axis and morphs flavor color sequentially (Red -> Green -> Orange -> Blue). Can color crossfades at each turn, syncing background accent and text labels.
+- **Flavor Spin Section:** Pinned section where scrolling spins can on vertical axis and morphs flavor color sequentially (Red -&gt; Green -&gt; Orange -&gt; Blue). Can color crossfades at each turn, syncing background accent and text labels.
 - **Mid-Scroll Video Reveal:** Video framed element scales/fades to full-bleed on scroll entry, plays splash animation, then releases scroll. Headline text split cleanly above and below video frame.
 
-#### Product Ad & Pre-Flight Check
+#### Product Ad &amp; Pre-Flight Check
 1. Generate video of person drinking product, holding product toward camera with locked flavor identity.
 2. Run clip through Virality Predictor to evaluate hook strength, attention curve, and retention risk.
 3. Place video near page end, immediately before final CTA.
@@ -210,8 +208,8 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
 - Real personal photos kept intact without generative modifications; environment built around photo.
 
 #### Variant Structure
-- **Product / Brand Site:** Hero -> Product Showcase -> Video Reveal -> Features -> Story/Science -> Interactive Product Spin/Morph -> CTA.
-- **Personal / Portfolio / Story Site:** Guided interactive documentary scroll through sequential pinned scenes (Cold Open -> Origin -> Stats -> Work/Stack -> Community -> Photo Reveal -> CTA).</div>
+- **Product / Brand Site:** Hero -&gt; Product Showcase -&gt; Video Reveal -&gt; Features -&gt; Story/Science -&gt; Interactive Product Spin/Morph -&gt; CTA.
+- **Personal / Portfolio / Story Site:** Guided interactive documentary scroll through sequential pinned scenes (Cold Open -&gt; Origin -&gt; Stats -&gt; Work/Stack -&gt; Community -&gt; Photo Reveal -&gt; CTA).</div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -221,7 +219,7 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
 
         <nav class="item-nav">
           <a href="/items/guides/build-an-award-worthy-f1-landing-page" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Build an Award-Worthy F1 Landing Page</span></a>
-          <a href="/items/guides/how-to-access-multiple-free-ai-models-at-once" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">How to Access Multiple Free AI Models at Once</span></a>
+          <a href="/items/guides/how-to-build-a-10k-month-app-in-2026" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">How to Build a $10k/Month App in 2026</span></a>
         </nav>
       </div>
     </section>
@@ -242,7 +240,6 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -262,4 +259,3 @@ Scrollytelling interactive narrative covering the origin story of an AI automati
   </script>
 </body>
 </html>
-

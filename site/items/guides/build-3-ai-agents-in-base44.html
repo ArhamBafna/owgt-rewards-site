@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.">
+  <meta property="og:title" content="Build 3 AI Agents in Base44 — Complete Prompt Pack - OWGT Rewards">
+  <meta property="og:description" content="A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/guides/build-3-ai-agents-in-base44">
   <title>Build 3 AI Agents in Base44 — Complete Prompt Pack - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
@@ -38,7 +42,7 @@
 <body>
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
-    <a href="/home" class="new-logo-link">
+    <a href="/rewards" class="new-logo-link">
       <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
@@ -47,27 +51,21 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Bookmarks</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/guides" style="color: inherit; text-decoration: none;">LEARNING</a></p>
         <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Build 3 AI Agents in Base44 — Complete Prompt Pack</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A complete prompt pack and setup guide for building 3 AI superagents (Inbox, Publisher, Analyst) in Base44.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+          <a href="/tag-detail?tag=Skool" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Skool</a><a href="/tag-detail?tag=Community" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Community</a><a href="/tag-detail?tag=Guide" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Guide</a>
         </div>
       </div>
     </header>
@@ -104,13 +102,13 @@
   - **Publisher:** LinkedIn, X
   - **Analyst:** CRM (HubSpot, etc.), Google Analytics, Slack
 
-> [!TIP]
-> You don't need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.
+&gt; [!TIP]
+&gt; You don&#x27;t need all tools right away. Build the Inbox Agent first with Gmail, which takes about two minutes. The rest follow the same process.
 
 #### Standard Setup
 
 1. Name the agent
-2. Write the identity under "About the agent"
+2. Write the identity under &quot;About the agent&quot;
 3. Fill in Memory (your background details)
 4. Connect plugins
 5. Enter the job prompt
@@ -128,7 +126,7 @@
 
 #### Step 2: About the Agent (Identity Box)
 ```text
-You're not a chatbot and you're not an assistant. You work directly with me to handle routine tasks and answer questions clearly.
+You&#x27;re not a chatbot and you&#x27;re not an assistant. You work directly with me to handle routine tasks and answer questions clearly.
 
 You remain calm and focused. You handle administrative work without needing constant reminders. When something genuinely needs my attention, state it plainly and explain why without unnecessary background context.
 
@@ -139,12 +137,12 @@ Focus on being practical and direct.
 - **My name:** `[Your first name]`
 - **About me:** `I run [what you do: e.g. a YouTube channel about AI automation, plus a small consulting side].`
 - **What I care about:** `[e.g. shipping fast, keeping admin low, keeping mornings free for creative work].`
-- **What I'm working on right now:** `[current project].`
+- **What I&#x27;m working on right now:** `[current project].`
 - **What annoys me:** `[e.g. long emails that hide the core request, unnecessary CCs, re-explaining context].`
-- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like "just circling back"].`
+- **How I write:** `[e.g. short sentences, direct language, friendly tone. Avoid corporate jargon like &quot;just circling back&quot;].`
 - **My working hours:** `[e.g. 9am-6pm GMT, no meetings on Fridays].`
 
-*(Leave "Things the agent has learned about you" alone: it updates automatically).*
+*(Leave &quot;Things the agent has learned about you&quot; alone: it updates automatically).*
 
 #### Step 4: Plugins
 - Gmail
@@ -152,7 +150,7 @@ Focus on being practical and direct.
 
 #### Step 5: Job Prompt
 ```text
-Here's your job.
+Here&#x27;s your job.
 
 Read incoming emails. Draft replies for routine messages. Flag items that require my direct input and explain why. If a message requests a meeting, check my calendar before responding.
 
@@ -170,17 +168,17 @@ FILTERED (total count by category)
 ```
 
 #### Step 6: Set Permissions
-> [!WARNING]
-> Go to **Settings -> Security -> Agent Permissions**:
-> - **Update data:** OFF
-> - **Delete data:** OFF
-> 
-> Check these settings before linking accounts.
+&gt; [!WARNING]
+&gt; Go to **Settings -&gt; Security -&gt; Agent Permissions**:
+&gt; - **Update data:** OFF
+&gt; - **Delete data:** OFF
+&gt; 
+&gt; Check these settings before linking accounts.
 
 - Ensure **Auto-detect secrets** is ON to store API keys securely.
 
 #### Step 7: Send to WhatsApp
-1. Go to **Customize -> Channels -> Connect**
+1. Go to **Customize -&gt; Channels -&gt; Connect**
 2. Scan the QR code and confirm the link.
 3. Add this instruction:
    ```text
@@ -199,7 +197,7 @@ Run this every weekday at 8:00am. Triage incoming messages received since the la
 **Difficulty:** Intermediate | **Build Time:** ~5 minutes
 
 #### Step 1: Name
-`[Your name]'s Publisher`
+`[Your name]&#x27;s Publisher`
 
 #### Step 2: About the Agent (Identity Box)
 ```text
@@ -223,8 +221,8 @@ Keep content clear, specific, and practical.
 - **Words and phrases I never use:** `[list specific words to avoid]`
 - **Posts of mine that performed well:** `[paste 2-3 previous top-performing posts]`
 
-> [!IMPORTANT]
-> Include actual past posts. This helps establish the writing style more accurately than general descriptions.
+&gt; [!IMPORTANT]
+&gt; Include actual past posts. This helps establish the writing style more accurately than general descriptions.
 
 #### Step 4: Plugins
 - LinkedIn
@@ -232,7 +230,7 @@ Keep content clear, specific, and practical.
 
 #### Step 5: Job Prompt
 ```text
-Here's your job.
+Here&#x27;s your job.
 
 Take a single topic and prepare separate versions for LinkedIn and X.
 
@@ -251,12 +249,12 @@ Show both versions for review before scheduling. Once approved, schedule the pos
 ```
 
 #### Step 6: Memory Scope
-Go to **Sharing and Access -> Memory**:
+Go to **Sharing and Access -&gt; Memory**:
 - **No memory:** Starts each chat with no saved context.
 - **Separated:** Retains context within individual conversations while keeping them isolated.
 - **Shared:** Shares learned details across all conversations.
 
-> Use **Shared** for a single brand, or **Separated** when managing distinct accounts.
+&gt; Use **Shared** for a single brand, or **Separated** when managing distinct accounts.
 
 #### Step 7: Automate
 ```text
@@ -289,17 +287,17 @@ If metrics remain steady, state that no significant changes occurred rather than
 - **My business:** `[your products or services, target market]`
 - **Key metrics:** `[e.g. email signups, qualified leads, conversion rates]`
 - **Baseline numbers:** `[e.g. 800-1200 daily sessions, 15-25 signups/week]`
-- **Funnel stages:** `[e.g. Lead -> Discovery Call -> Proposal -> Closed]`
+- **Funnel stages:** `[e.g. Lead -&gt; Discovery Call -&gt; Proposal -&gt; Closed]`
 - **Known bottlenecks:** `[e.g. lead drop-off at the proposal stage]`
 
 #### Step 4: Plugins
 - Google Analytics
 - CRM (HubSpot, etc.)
-- Slack *(Setup: Custom -> Channels -> Select channel)*
+- Slack *(Setup: Custom -&gt; Channels -&gt; Select channel)*
 
 #### Step 5: Job Prompt
 ```text
-Here's your job.
+Here&#x27;s your job.
 
 Check daily traffic against the previous month and identify notable changes in traffic sources. Check the CRM pipeline to track how leads progress through each stage.
 
@@ -318,12 +316,12 @@ ANALYSIS (clearly marked as hypothesis)
 ```
 
 #### Step 6: Model Configuration
-> [!IMPORTANT]
-> Go to **Settings -> General**:
-> - **Chat model:** Handles interactive sessions.
-> - **Automation model:** Handles scheduled background runs.
->
-> Select a high-capability model for the **Automation model** to support automated data analysis.
+&gt; [!IMPORTANT]
+&gt; Go to **Settings -&gt; General**:
+&gt; - **Chat model:** Handles interactive sessions.
+&gt; - **Automation model:** Handles scheduled background runs.
+&gt;
+&gt; Select a high-capability model for the **Automation model** to support automated data analysis.
 
 #### Step 7: Automate
 ```text
@@ -334,7 +332,7 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
 
 ## Ship It: Share Your Agents
 
-- Go to **Sharing -> Public Template Link**.
+- Go to **Sharing -&gt; Public Template Link**.
 - Connected accounts and API keys do not transfer with template links.
 
 ---
@@ -343,25 +341,25 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
 
 | Setting | Location | Recommendation |
 | :--- | :--- | :--- |
-| **Update/Delete data** | Settings -> Security -> Agent Permissions | `OFF` for routine agents |
-| **Auto-detect secrets** | Settings -> Security | `ON` |
-| **Memory scope** | Sharing and Access -> Memory | `Shared` (single brand) / `Separated` (multiple brands) |
-| **Model Selection** | Settings -> General | Use high-capacity model for background tasks |
-| **WhatsApp delivery** | Customize -> Channels | Scan QR code to pair device |
-| **Slack delivery** | Plugins -> Custom -> Channels | Select target channel |
-| **Public sharing** | Sharing -> Public Template Link | Creates template link without credentials |
+| **Update/Delete data** | Settings -&gt; Security -&gt; Agent Permissions | `OFF` for routine agents |
+| **Auto-detect secrets** | Settings -&gt; Security | `ON` |
+| **Memory scope** | Sharing and Access -&gt; Memory | `Shared` (single brand) / `Separated` (multiple brands) |
+| **Model Selection** | Settings -&gt; General | Use high-capacity model for background tasks |
+| **WhatsApp delivery** | Customize -&gt; Channels | Scan QR code to pair device |
+| **Slack delivery** | Plugins -&gt; Custom -&gt; Channels | Select target channel |
+| **Public sharing** | Sharing -&gt; Public Template Link | Creates template link without credentials |
 
 ---
 
 ## Troubleshooting
 
-- **"My replies sound artificial."**
+- **&quot;My replies sound artificial.&quot;**
   - Provide additional reference examples in Memory to better reflect your writing style.
-- **"The agent flags minor details."**
+- **&quot;The agent flags minor details.&quot;**
   - Add strict threshold instructions: `Flag only the top 3 high-priority items per run.`
-- **"The background task does not update data."**
+- **&quot;The background task does not update data.&quot;**
   - Verify that `Update data` permissions are enabled if the action explicitly requires writing changes.
-- **"The agent reports estimated data as fact."**
+- **&quot;The agent reports estimated data as fact.&quot;**
   - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`</div>
           
           <div class="copy-bar">
@@ -372,7 +370,7 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
 
         <nav class="item-nav">
           <a href="/items/guides/build-10-000-websites-with-ai" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Build $10,000 Websites with AI Opus 5</span></a>
-          <a href="/items/guides/build-5k-month-ai-websites" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">How to Sell $5,000/Month AI Websites</span></a>
+          <a href="/items/guides/build-an-award-worthy-f1-landing-page" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Build an Award-Worthy F1 Landing Page</span></a>
         </nav>
       </div>
     </section>
@@ -393,7 +391,6 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -413,4 +410,3 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
   </script>
 </body>
 </html>
-

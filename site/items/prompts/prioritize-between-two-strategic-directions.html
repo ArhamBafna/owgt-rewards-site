@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A strategic template to prioritize between two strategic directions.">
+  <meta property="og:title" content="Prioritize Between Two Strategic Directions - OWGT Rewards">
+  <meta property="og:description" content="A strategic template to prioritize between two strategic directions.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/prompts/prioritize-between-two-strategic-directions">
   <title>Prioritize Between Two Strategic Directions - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
@@ -54,20 +58,14 @@
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ PROMPTS</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/prompts" style="color: inherit; text-decoration: none;">PROMPTS</a></p>
         <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Prioritize Between Two Strategic Directions</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">A strategic template to prioritize between two strategic directions.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Claude</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Prompt</span>
+          <a href="/tag-detail?tag=Claude" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Claude</a><a href="/tag-detail?tag=Prompt" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Prompt</a>
         </div>
       </div>
     </header>
@@ -96,7 +94,7 @@
       <div class="container">
         <div class="prompt-box">
           <div class="prompt-text" id="prompt-content">```
-I'm deciding between [Option A] and [Option B] at [stage]. Analyze both on: revenue potential, required capabilities, reversibility, and optionality. Recommend one and state your assumptions." CATEGORY 2: DECISION MAKING
+I&#x27;m deciding between [Option A] and [Option B] at [stage]. Analyze both on: revenue potential, required capabilities, reversibility, and optionality. Recommend one and state your assumptions.&quot; CATEGORY 2: DECISION MAKING
 ```</div>
           
           <div class="copy-bar">
@@ -107,7 +105,7 @@ I'm deciding between [Option A] and [Option B] at [stage]. Analyze both on: reve
 
         <nav class="item-nav">
           <a href="/items/prompts/prioritize-between-competing-initiatives" class="item-nav-btn"><span class="meta">← Previous</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Prioritize Between Competing Initiatives</span></a>
-          <a href="/items/prompts/project-risk-assessment" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Project Risk Assessment</span></a>
+          <a href="/items/prompts/refine-your-pitch-narrative" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">Refine Your Pitch Narrative</span></a>
         </nav>
       </div>
     </section>
@@ -128,7 +126,6 @@ I'm deciding between [Option A] and [Option B] at [stage]. Analyze both on: reve
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -148,4 +145,3 @@ I'm deciding between [Option A] and [Option B] at [stage]. Analyze both on: reve
   </script>
 </body>
 </html>
-

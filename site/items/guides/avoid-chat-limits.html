@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how to avoid context rot and chat limits by editing messages, batching requests, and starting fresh chats often.">
+  <meta property="og:title" content="Avoid Chat Limits - OWGT Rewards">
+  <meta property="og:description" content="Learn how to avoid context rot and chat limits by editing messages, batching requests, and starting fresh chats often.">
+  <meta property="og:url" content="https://rewards.owgt.com/items/guides/avoid-chat-limits">
   <title>Avoid Chat Limits - OWGT Rewards</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
@@ -38,7 +42,7 @@
 <body>
   <header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
-    <a href="/home" class="new-logo-link">
+    <a href="/rewards" class="new-logo-link">
       <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
@@ -47,27 +51,21 @@
     <ul>
       <li><a href="/prompts">Prompts</a></li>
       <li><a href="/tools">Tools</a></li>
-      <li><a href="/guides">Guides</a></li>
+      <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Bookmarks</a></li>
+      <li><a href="/bookmarks">Saved</a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -83,11 +81,11 @@
   <main class="page-wrap">
     <header class="deep-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ GUIDES</p>
+        <p class="eyebrow" style="color: var(--color-accent); margin-bottom: var(--space-sm);">◆ <a href="/guides" style="color: inherit; text-decoration: none;">LEARNING</a></p>
         <h1 style="font-size: clamp(2.5rem, 6vw, 5rem);">Avoid Chat Limits</h1>
         <p style="margin-top: var(--space-md); font-size: var(--text-lg);">Learn how to avoid context rot and chat limits by editing messages, batching requests, and starting fresh chats often.</p>
         <div class="cluster" style="justify-content: center; margin-top: var(--space-md);">
-          <span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Skool</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Community</span><span class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px;">#Guide</span>
+          <a href="/tag-detail?tag=Skool" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Skool</a><a href="/tag-detail?tag=Community" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Community</a><a href="/tag-detail?tag=Guide" class="tag" style="background: var(--color-paper); border: 1px solid var(--color-ink); padding: 4px 12px; font-size: 10px; text-decoration: none; color: inherit;">#Guide</a>
         </div>
       </div>
     </header>
@@ -112,10 +110,10 @@ Correcting a mistake with a new message saves the bad reply, your correction, an
 Three messages equal three full context reloads. One message with three asks equals one reload. 
 
 * **Template:**
-  > Do all of the following in one response:
-  > 1. A 3-sentence summary
-  > 2. The 5 key points as bullets
-  > 3. A 10-word headline
+  &gt; Do all of the following in one response:
+  &gt; 1. A 3-sentence summary
+  &gt; 2. The 5 key points as bullets
+  &gt; 3. A 10-word headline
 
 ---
 
@@ -123,7 +121,7 @@ Three messages equal three full context reloads. One message with three asks equ
 Long chats burn millions of tokens reading old history. Reset every 15 to 20 messages.
 
 * **Handoff Prompt:**
-  > Summarize this chat as a handoff document: what we are working on, what is done, what is open, and key constraints. Make it short so I can paste it into a new chat.
+  &gt; Summarize this chat as a handoff document: what we are working on, what is done, what is open, and key constraints. Make it short so I can paste it into a new chat.
 
 ---
 
@@ -178,7 +176,6 @@ Peak hours bring server congestion and faster session burn. Shift heavy workload
       const el = document.getElementById('prompt-content');
       if (el) {
         const raw = el.textContent;
-        // Check if content looks like markdown (contains headers, lists, code blocks, etc.)
         if (/^#{1,6}\s|^\*\s|^-\s|^>\s|```|^\d+\.\s|\*\*|__/m.test(raw)) {
           marked.setOptions({
             breaks: true,
@@ -198,4 +195,3 @@ Peak hours bring server congestion and faster session burn. Shift heavy workload
   </script>
 </body>
 </html>
-
