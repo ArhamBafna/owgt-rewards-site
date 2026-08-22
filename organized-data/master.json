@@ -131,6 +131,10 @@
   ],
   "learning": [
     {
+      "name": "Accelerate Data Science Workflows",
+      "path": "Learning/accelerate-data-science-workflows.md"
+    },
+    {
       "name": "AI AGENT COORDINATION",
       "path": "Learning/ai-agent-coordination.md"
     },
@@ -227,6 +231,10 @@
       "path": "Learning/building-rag-agents-with-llms.md"
     },
     {
+      "name": "Building Video AI Applications",
+      "path": "Learning/building-video-ai-applications.md"
+    },
+    {
       "name": "Cold Email: How to Write Like a Human",
       "path": "Learning/lesson-cold-email-how-to-write-like-a-human.md"
     },
@@ -241,6 +249,10 @@
     {
       "name": "Generative AI: The Evolution of Thoughtful Online Search",
       "path": "Learning/generative-ai-the-evolution-of-thoughtful-online-search.md"
+    },
+    {
+      "name": "Getting Started with AI on Jetson Nano",
+      "path": "Learning/getting-started-with-ai-on-jetson-nano.md"
     },
     {
       "name": "GitHub Certification Exams",
@@ -263,8 +275,20 @@
       "path": "Learning/lesson-made-with-ml.md"
     },
     {
+      "name": "Mastering Recommender Systems",
+      "path": "Learning/mastering-recommender-systems.md"
+    },
+    {
       "name": "nanochat (Karpathy)",
       "path": "Learning/lesson-nanochat.md"
+    },
+    {
+      "name": "Perform Large-Scale Image Classification",
+      "path": "Learning/perform-large-scale-image-classification.md"
+    },
+    {
+      "name": "Start Building Generative AI Applications (Microsoft)",
+      "path": "Learning/generative-ai-for-beginners.md"
     }
   ],
   "prompts": [

@@ -44,6 +44,7 @@ This index is automatically generated.
 
 ## Learning
 
+- [Accelerate Data Science Workflows](Learning/accelerate-data-science-workflows.md)
 - [AI AGENT COORDINATION](Learning/ai-agent-coordination.md)
 - [AI COMPETITIVE INTELLIGENCE](Learning/ai-competitive-intelligence.md)
 - [AI CRM AND PIPELINE MANAGEMENT](Learning/ai-crm-and-pipeline-management.md)
@@ -68,16 +69,21 @@ This index is automatically generated.
 - [Build Your Generative AI Productivity Skills with Microsoft and LinkedIn](Learning/build-your-generative-ai-productivity-skills.md)
 - [Building a Brain in 10 Minutes](Learning/building-a-brain-in-10-minutes.md)
 - [Building RAG Agents with LLMs](Learning/building-rag-agents-with-llms.md)
+- [Building Video AI Applications](Learning/building-video-ai-applications.md)
 - [Cold Email: How to Write Like a Human](Learning/lesson-cold-email-how-to-write-like-a-human.md)
 - [Enhance Results with Prompt Engineering Strategies](Learning/enhance-results-with-prompt-engineering-strategies.md)
 - [Generative AI Explained](Learning/generative-ai-explained.md)
 - [Generative AI: The Evolution of Thoughtful Online Search](Learning/generative-ai-the-evolution-of-thoughtful-online-search.md)
+- [Getting Started with AI on Jetson Nano](Learning/getting-started-with-ai-on-jetson-nano.md)
 - [GitHub Certification Exams](Learning/github-certification-exams.md)
 - [How to Hire an AI Email Marketer](Learning/lesson-how-to-hire-an-ai-email-marketer.md)
 - [Kaggle 5-Day Agents Guide](Learning/kaggle-5-day-agents-guide.md)
 - [LLM Zoomcamp](Learning/lesson-llm-zoomcamp.md)
 - [Made With ML](Learning/lesson-made-with-ml.md)
+- [Mastering Recommender Systems](Learning/mastering-recommender-systems.md)
 - [nanochat (Karpathy)](Learning/lesson-nanochat.md)
+- [Perform Large-Scale Image Classification](Learning/perform-large-scale-image-classification.md)
+- [Start Building Generative AI Applications (Microsoft)](Learning/generative-ai-for-beginners.md)
 
 ## Prompts
 

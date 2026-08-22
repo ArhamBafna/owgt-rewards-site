@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 418 files · ~632,400 words
+- 424 files · ~634,233 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2913 nodes · 2874 edges · 431 communities (415 shown, 16 thin omitted)
+- 2956 nodes · 2917 edges · 437 communities (421 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ce90babc`
+- Built from commit: `a8a63d42`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -372,7 +372,7 @@
 - zapier.md
 - zapier-mcp.md
 - zendesk-ai.md
-- Workflow
+- Phased Batch Workflow
 - 1. DATA QUALITY ISSUES (Clean Before Build)
 - NON-NEGOTIABLE RULES
 - PDF RULES
@@ -434,6 +434,12 @@
 - building-a-brain-in-10-minutes.md
 - augment-your-llm-using-rag.md
 - building-rag-agents-with-llms.md
+- mastering-recommender-systems.md
+- accelerate-data-science-workflows.md
+- building-video-ai-applications.md
+- generative-ai-for-beginners.md
+- getting-started-with-ai-on-jetson-nano.md
+- perform-large-scale-image-classification.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -453,7 +459,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (431 total, 16 thin omitted)
+## Communities (437 total, 16 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -1883,9 +1889,9 @@ Nodes (5): Category, Description, Name, Tags, URL
 Cohesion: 0.33
 Nodes (5): Category, Content, Description, Name, Tags
 
-### Community 357 - "Workflow"
-Cohesion: 0.22
-Nodes (8): 1. Fetch & Parse Input, 2. Save Raw Data (`rewards/data/`), 3. Save Organized Item (`rewards/organized-data/`), 4. Sync Website (`rewards/site/`), 5. Final Commands & Git, Add Reward Item, Anti-Patterns, Workflow
+### Community 357 - "Phased Batch Workflow"
+Cohesion: 0.20
+Nodes (9): Add Reward Item(s), Core Guardrails, Phase 1: Parse & Segment, Phase 2: Fetch & Extract, Phase 3: Single-Round Ambiguity Resolution, Phase 4: Batch Storage (Raw & Organized), Phase 5: Single Index & Site Sync, Phase 6: Batch Git Commit & Summary (+1 more)
 
 ### Community 358 - "1. DATA QUALITY ISSUES (Clean Before Build)"
 Cohesion: 0.33
@@ -2067,18 +2073,44 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
+### Community 431 - "mastering-recommender-systems.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 432 - "accelerate-data-science-workflows.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 433 - "building-video-ai-applications.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 434 - "generative-ai-for-beginners.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 435 - "getting-started-with-ai-on-jetson-nano.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 436 - "perform-large-scale-image-classification.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2348 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2343 more)
+- **2385 isolated node(s):** `cleanUrls`, `Core Guardrails`, `Phase 1: Parse & Segment`, `Phase 2: Fetch & Extract`, `Phase 3: Single-Round Ambiguity Resolution` (+2380 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Academic & Comprehensive Courses` connect `Academic & Comprehensive Courses` to `master.md`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `Master Index` connect `Master Index` to `master.md`?**
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
-  _2348 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `cleanUrls`, `Core Guardrails`, `Phase 1: Parse & Segment` to the rest of the system?**
+  _2385 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
@@ -2087,5 +2119,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `motion-graphics-in-ai.md` be split into smaller, more focused modules?**
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
-- **Should `build-insane-animated-websites.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._

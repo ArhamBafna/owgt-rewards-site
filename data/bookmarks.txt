@@ -435,3 +435,18 @@ Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-F
 
 Title: Building RAG Agents with LLMs
 Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1
+
+Title: Mastering Recommender Systems
+Link: https://www.classcentral.com/course/youtube-grandmaster-series-mastering-recommender-systems-184298
+
+Title: Perform Large-Scale Image Classification
+Link: https://www.classcentral.com/course/youtube-grandmaster-series-how-to-perform-large-scale-image-classification-130184
+
+Title: Building Video AI Applications
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-02+V2
+
+Title: Accelerate Data Science Workflows
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1
+
+Title: Getting Started with AI on Jetson Nano
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2

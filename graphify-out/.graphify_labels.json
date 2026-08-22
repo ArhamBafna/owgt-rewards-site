@@ -356,7 +356,7 @@
   "354": "zapier.md",
   "355": "zapier-mcp.md",
   "356": "zendesk-ai.md",
-  "357": "Workflow",
+  "357": "Phased Batch Workflow",
   "358": "1. DATA QUALITY ISSUES (Clean Before Build)",
   "359": "NON-NEGOTIABLE RULES",
   "360": "PDF RULES",
@@ -429,5 +429,11 @@
   "427": "generative-ai-explained.md",
   "428": "building-a-brain-in-10-minutes.md",
   "429": "augment-your-llm-using-rag.md",
-  "430": "building-rag-agents-with-llms.md"
+  "430": "building-rag-agents-with-llms.md",
+  "431": "mastering-recommender-systems.md",
+  "432": "accelerate-data-science-workflows.md",
+  "433": "building-video-ai-applications.md",
+  "434": "generative-ai-for-beginners.md",
+  "435": "getting-started-with-ai-on-jetson-nano.md",
+  "436": "perform-large-scale-image-classification.md"
 }

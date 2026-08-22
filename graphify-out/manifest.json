@@ -1,8 +1,8 @@
 {
   "organized-data/master.json": {
-    "mtime": 1787436833.0254428,
-    "seen": 1787436911.686165,
-    "ast_hash": "32bb98ef08dbaf357ff114a94151753a",
+    "mtime": 1787437226.4008949,
+    "seen": 1787437434.1865528,
+    "ast_hash": "aa88c8113d5393bbdfb37083d68eab01",
     "semantic_hash": ""
   },
   "scripts/clean_data.py": {
@@ -54,15 +54,15 @@
     "semantic_hash": ""
   },
   "data/bookmarks.txt": {
-    "mtime": 1787436798.1212795,
-    "seen": 1787436911.6862423,
-    "ast_hash": "40439dcc608a0e403ccbf3a3969b7389",
+    "mtime": 1787437124.920063,
+    "seen": 1787437434.1866431,
+    "ast_hash": "915a6d6c257a038bfa9cdebc59136bf4",
     "semantic_hash": ""
   },
   "data/github.txt": {
-    "mtime": 1786910753.247367,
-    "seen": 1787434394.8981836,
-    "ast_hash": "7d4783a979b4248d31e14430513ddebb",
+    "mtime": 1787437152.8750036,
+    "seen": 1787437434.1866467,
+    "ast_hash": "4332b41341b89b6bef0bc403521a496d",
     "semantic_hash": ""
   },
   "data/notion.txt": {
@@ -2316,9 +2316,9 @@
     "semantic_hash": ""
   },
   "organized-data/master.md": {
-    "mtime": 1787436833.0254428,
-    "seen": 1787436911.6869743,
-    "ast_hash": "b1972890d0ec0c9e5afc51b939e0cb6d",
+    "mtime": 1787437226.402913,
+    "seen": 1787437434.1875546,
+    "ast_hash": "ef22e6818f0de7de4d67bc2cf8d0a6d7",
     "semantic_hash": ""
   },
   "organized-data/skills.txt": {
@@ -2400,9 +2400,9 @@
     "semantic_hash": ""
   },
   "site/data.json": {
-    "mtime": 1787436852.7738988,
-    "seen": 1787436911.686207,
-    "ast_hash": "3dc4506819073e701c4525b390ec9cd8",
+    "mtime": 1787437254.990598,
+    "seen": 1787437434.1866004,
+    "ast_hash": "bf04cb55ab108c54b3c8a8a507ac571e",
     "semantic_hash": ""
   },
   "site/js/app.js": {
@@ -2412,9 +2412,9 @@
     "semantic_hash": ""
   },
   "site/search-index.json": {
-    "mtime": 1787436852.786405,
-    "seen": 1787436911.6862137,
-    "ast_hash": "76bc27c49afb97fb99a2bc43a5501706",
+    "mtime": 1787437255.0000756,
+    "seen": 1787437434.1866086,
+    "ast_hash": "ae127baa794f2e7b6aba8a13e74c20bf",
     "semantic_hash": ""
   },
   "organization-prompt.md": {
@@ -2466,9 +2466,9 @@
     "semantic_hash": ""
   },
   "site/learning.html": {
-    "mtime": 1787436852.792479,
-    "seen": 1787436911.6875088,
-    "ast_hash": "266b14a096168b56c215e9637f7907b5",
+    "mtime": 1787437255.004109,
+    "seen": 1787437434.188259,
+    "ast_hash": "9aac673e2795835576f7fc3e437c9d44",
     "semantic_hash": ""
   },
   "site/prompts.html": {
@@ -4578,9 +4578,9 @@
     "semantic_hash": ""
   },
   ".agents/add-reward-item/SKILL.md": {
-    "mtime": 1787436636.5531325,
-    "seen": 1787436713.6318345,
-    "ast_hash": "6fe37217e1efd1d5d78238edfffa33de",
+    "mtime": 1787436983.0970664,
+    "seen": 1787437063.4942536,
+    "ast_hash": "d4b2a27933f479ab11896f4af758bff5",
     "semantic_hash": ""
   },
   "organized-data/Tools/aipen-chatgpt-app.md": {
@@ -4596,8 +4596,8 @@
     "semantic_hash": ""
   },
   "organized-data/tags.txt": {
-    "mtime": 1787436833.0254428,
-    "seen": 1787436911.6869779,
+    "mtime": 1787437226.402913,
+    "seen": 1787437434.1875591,
     "ast_hash": "d78f5961cf8596292291cfff9bd16b36",
     "semantic_hash": ""
   },
@@ -4653,6 +4653,42 @@
     "mtime": 1787436815.855201,
     "seen": 1787436911.6864223,
     "ast_hash": "5db752092222ed9548601a5d57dd9f17",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/mastering-recommender-systems.md": {
+    "mtime": 1787436970.7757094,
+    "seen": 1787437063.4943783,
+    "ast_hash": "1102b4dd8a73da8eccbfa3d8d386b85c",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/accelerate-data-science-workflows.md": {
+    "mtime": 1787437184.011876,
+    "seen": 1787437434.186799,
+    "ast_hash": "7455a299d5e27513eacba1b33a5cbd7c",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/building-video-ai-applications.md": {
+    "mtime": 1787437176.1796865,
+    "seen": 1787437434.1868513,
+    "ast_hash": "1718ec53203677e045209760992b478c",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/generative-ai-for-beginners.md": {
+    "mtime": 1787437211.7740607,
+    "seen": 1787437434.1868575,
+    "ast_hash": "225a6acd3f91ade81ec2f173818032c7",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/getting-started-with-ai-on-jetson-nano.md": {
+    "mtime": 1787437197.7761579,
+    "seen": 1787437434.1868637,
+    "ast_hash": "91da37f37542bdc30067db27f95a78ce",
+    "semantic_hash": ""
+  },
+  "organized-data/Learning/perform-large-scale-image-classification.md": {
+    "mtime": 1787437158.1626441,
+    "seen": 1787437434.1868875,
+    "ast_hash": "c986b3c4ad8b3270434b5c9fee6e6ff1",
     "semantic_hash": ""
   }
 }

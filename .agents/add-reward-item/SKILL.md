@@ -1,87 +1,99 @@
 ---
 name: add-reward-item
-description: Add new item, URL, prompt, guide, tool, or resource into rewards database across data/, organized-data/, and site. Trigger when user pastes link, info, guide, or asks to add reward entry.
+description: Add single or batch items, URLs, prompts, guides, tools, or resources into rewards database across data/, organized-data/, and site. Trigger on links, guides, snippets, or batch additions.
 ---
 
-# Add Reward Item
+# Add Reward Item(s)
 
-Add new entry to `data/`, `organized-data/`, and `site/`. Read and use `/grilling` skill anytime input ambiguous.
+Add single or batch entries into `data/`, `organized-data/`, and `site/`.
 
-## Anti-Patterns
-- NEVER store plain URL redirect without getting page content first.
-- NEVER truncate or partially extract items: if extracting content, you MUST be 100% confident and guaranteed to extract ALL items/entries completely. If 100% extraction is not guaranteed, store link to redirect to instead of partial content.
-- NEVER skip raw data entry in `data/`.
-- NEVER leave `organized-data/` unindexed; always run index scripts.
-- NEVER write generic or vague descriptions (e.g., "App repo by X").
-- NEVER invent brand new tags if existing tags fit; check `rewards/organized-data/tags.txt` first.
-- NEVER hardcode absolute machine paths in scripts; always use dynamic relative paths (`os.path.dirname(__file__)`).
+## Core Guardrails
+- **Full extraction or redirect**: If extracting page content, extract 100% of items without truncation or omission. If 100% extraction cannot be guaranteed, store redirect URL instead of partial text.
+- **Always preserve raw data**: Every item must be recorded in `data/`.
+- **Existing tags first**: Check `rewards/organized-data/tags.txt` and match existing tags before introducing new ones.
+- **Specific utility descriptions**: State exact function and practical utility. Never write vague summaries (e.g. "App repo by X").
+- **Inspect generated sync changes**: Never commit automated site edits without inspecting changed files via `view_file`.
 
+## Phased Batch Workflow
 
-## Workflow
+### Phase 1: Parse & Segment
+1. Inspect input and identify all discrete items (URLs, bullet lists, markdown guides, prompts, or text blocks).
+2. Segment input into an ordered item queue: `[Item 1, Item 2, ... Item N]`.
 
-### 1. Fetch & Parse Input
-- **URL/Link**: If link, read full page text via `read_url_content` or Firecrawl/Exa.
-  - **Extraction Rule**: If you can accurately, guaranteed extract ALL content/items 100% without loss or omission, extract and state all content directly on site. If no, provide the URL to redirect to instead.
-- **Guide/Tutorial**: If text extracted, if step-by-step guide, run `rewards/.agents/skool-guide-to-md/SKILL.md` to de-brand AI terms and structure markdown first.
-- **Description Quality**: Do NOT write generic summaries. State exact function and utility (can use extracted info). If not 100% sure, use `/grill-me` to ask user for description.
+### Phase 2: Fetch & Extract
+For each item in the queue:
+- **Web Pages / URLs**: Read full text via `read_url_content` or Firecrawl/Exa.
+  - If content is completely extracted: retain parsed body for organized item.
+  - If content is dynamic/paywalled/truncated: keep external URL redirect.
+  - If URL is unreachable or 404: record item as failed and proceed with remaining queue.
+- **Step-by-Step Guides**: Run `rewards/.agents/skool-guide-to-md/SKILL.md` to format markdown and remove AI branding.
+- **Descriptions**: Derive specific utility description.
 
-### 2. Save Raw Data (`rewards/data/`)
-- If you can't decide (even slightest doubt), ask user target raw file/folder in `rewards/data/` (`bookmarks.txt`, `prompts.txt`, `github.txt`, `notion.txt`, `skills.txt`, `skool-communites/`, `youtube/`).
-- Write raw link/text into selected target.
+### Phase 3: Single-Round Ambiguity Resolution
+If any item in the batch has unclear categorization, missing tags, doubtful description, or unknown raw target:
+1. Aggregate all open questions across the entire batch.
+2. Trigger a single `/grilling` round to resolve all ambiguities with the user before writing files.
 
-### 3. Save Organized Item (`rewards/organized-data/`)
-- Categorize: `Cheat Sheets`, `Frameworks`, `Guides`, `Learning`, `Prompts`, `Resources`, `Templates`, `Tools`.
-- **Tags Selection**:
-  - Read `rewards/organized-data/tags.txt` for existing tags.
-  - MUST prefer existing tags from `tags.txt`.
-  - Only add a NEW tag if item is unique, highly specific, or start of a new series/category.
-- Create `rewards/organized-data/<Category>/<slug>.md`:
-  ```markdown
-  ### Name
-  <Title>
+### Phase 4: Batch Storage (Raw & Organized)
+1. **Raw Storage (`rewards/data/`)**:
+   Auto-route and append each raw item by source type:
+   - Bookmarks / articles -> `rewards/data/bookmarks.txt`
+   - Prompts -> `rewards/data/prompts.txt`
+   - GitHub repositories -> `rewards/data/github.txt`
+   - YouTube links -> `rewards/data/youtube/`
+   - Notion pages -> `rewards/data/notion.txt`
+   - Agent skills -> `rewards/data/skills.txt`
 
-  ### Description
-  <Specific, high-value description>
+2. **Organized Markdown (`rewards/organized-data/`)**:
+   Map category to one of: `Cheat Sheets`, `Frameworks`, `Guides`, `Learning`, `Prompts`, `Resources`, `Templates`, `Tools`.
+   Write `rewards/organized-data/<Category>/<slug>.md` for each item:
+   ```markdown
+   ### Name
+   <Title>
 
-  ### Category
-  <Category>
+   ### Description
+   <Specific utility description>
 
-  ### URL
-  <URL or empty>
+   ### Category
+   <Category>
 
-  ### Content
-  <Full scraped text / prompt / guide content>
+   ### URL
+   <URL or empty>
 
-  ### Tags
-  - <tag1>
-  - <tag2>
-  ```
-- Run index script (updates `master.json`, `master.md`, `tags.txt`):
-  ```powershell
-  python scripts/generate_indices.py
-  ```
+   ### Content
+   <Full extracted content / prompt / guide>
 
-### 4. Sync Website (`rewards/site/`)
-- **Database & Search Index**:
-  - Add/update item object in `rewards/site/data.json` and `rewards/site/search-index.json`.
-  - Recalculate tag counts in `rewards/site/data.json` under `tags` dictionary.
-- **Standalone Item Page**:
-  - Create `rewards/site/items/<category-slug>/<slug>.html`.
-  - Link `Previous` and `Next` buttons to neighboring items in the category folder.
-- **Category Overview Page**:
-  - Add item card to `rewards/site/<category-slug>.html`.
-  - Increment the curated entry count badge in header (e.g. `X curated entries.`).
-- **Clean One-off Scripts**:
-  - If a temporary script was created to sync data, delete it immediately.
+   ### Tags
+   - <tag1>
+   - <tag2>
+   ```
 
-### 5. Final Commands & Git
-- Update graphify:
-  ```powershell
-  graphify update .
-  ```
-- Stage, commit, and push changes to remote (if multiple items, do once all added; not after each item):
-  ```powershell
-  git add .
-  git commit -m "add reward: <item-name> reward entry"
-  git push
-  ```
+### Phase 5: Single Index & Site Sync
+1. **Regenerate indices**:
+   ```powershell
+   python scripts/generate_indices.py
+   ```
+2. **Sync site database and HTML pages**:
+   - Update `rewards/site/data.json` and `rewards/site/search-index.json`.
+   - Update tag counts and category counts.
+   - Generate standalone item page: `rewards/site/items/<category-slug>/<slug>.html`.
+   - Update category overview: `rewards/site/<category-slug>.html`.
+   - Delete any temporary helper script used during sync.
+3. **Verification Gate**:
+   - Use `view_file` to inspect `data.json` and updated HTML files.
+   - Ensure accurate card links, tag counts, and navigation pointers.
+
+### Phase 6: Batch Git Commit & Summary
+1. Update graphify:
+   ```powershell
+   graphify update .
+   ```
+2. Stage and commit all batch changes in a single commit:
+   ```powershell
+   git add .
+   git commit -m "add reward: <Item 1>, <Item 2> (<N> items)"
+   git push
+   ```
+3. Report completion summary to user:
+   - List all successfully added items with assigned categories and tags.
+   - List any failed items with failure reason.

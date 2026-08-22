@@ -5652,5 +5652,114 @@
     "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1",
     "is_shallow": true,
     "content": ""
+  },
+  {
+    "id": "mastering-recommender-systems",
+    "name": "Mastering Recommender Systems",
+    "description": "Kaggle Grandmaster series video course covering end-to-end recommender systems, feature engineering, and collaborative filtering at scale.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Machine Learning",
+      "Data",
+      "Video"
+    ],
+    "path": "/items/learning/mastering-recommender-systems",
+    "url": "https://www.classcentral.com/course/youtube-grandmaster-series-mastering-recommender-systems-184298",
+    "is_shallow": true,
+    "content": ""
+  },
+  {
+    "id": "perform-large-scale-image-classification",
+    "name": "Perform Large-Scale Image Classification",
+    "description": "Grandmaster series deep-dive course on modern computer vision architectures, image data pipelines, and competitive classification techniques.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Machine Learning",
+      "AI",
+      "Video"
+    ],
+    "path": "/items/learning/perform-large-scale-image-classification",
+    "url": "https://www.classcentral.com/course/youtube-grandmaster-series-how-to-perform-large-scale-image-classification-130184",
+    "is_shallow": true,
+    "content": ""
+  },
+  {
+    "id": "building-video-ai-applications",
+    "name": "Building Video AI Applications",
+    "description": "NVIDIA DLI course on building intelligent video analytics pipelines using DeepStream SDK and GPU-accelerated computer vision models.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Video",
+      "AI",
+      "AI & Technical"
+    ],
+    "path": "/items/learning/building-video-ai-applications",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-02+V2",
+    "is_shallow": true,
+    "content": ""
+  },
+  {
+    "id": "accelerate-data-science-workflows",
+    "name": "Accelerate Data Science Workflows",
+    "description": "Practical course on accelerating Python data science, ETL, and machine learning pipelines using NVIDIA RAPIDS (cuDF, cuML).",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "Data",
+      "Machine Learning",
+      "Coding"
+    ],
+    "path": "/items/learning/accelerate-data-science-workflows",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1",
+    "is_shallow": true,
+    "content": ""
+  },
+  {
+    "id": "getting-started-with-ai-on-jetson-nano",
+    "name": "Getting Started with AI on Jetson Nano",
+    "description": "NVIDIA DLI project-based course covering edge AI deployment, computer vision models, and camera streams on Jetson Nano devices.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "AI",
+      "Coding",
+      "Local"
+    ],
+    "path": "/items/learning/getting-started-with-ai-on-jetson-nano",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2",
+    "is_shallow": true,
+    "content": ""
+  },
+  {
+    "id": "generative-ai-for-beginners",
+    "name": "Start Building Generative AI Applications (Microsoft)",
+    "description": "Microsoft 21-lesson comprehensive curriculum covering prompt engineering, LLM app development, RAG, and agent frameworks.",
+    "category": "Learning",
+    "subcategory": "",
+    "tags": [
+      "Course",
+      "Learning",
+      "GitHub",
+      "Open Source",
+      "LLM",
+      "AI Coding"
+    ],
+    "path": "/items/learning/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "is_shallow": true,
+    "content": ""
   }
 ]
