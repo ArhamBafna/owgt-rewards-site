@@ -2,6 +2,7 @@ import os
 import json
 import re
 import html
+import markdown
 from urllib.parse import urlparse
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -87,7 +88,7 @@ def update_indices(items_by_folder, all_tags):
         ]
         
     with open(os.path.join(ORGANIZED_DIR, 'master.json'), 'w', encoding='utf-8') as f:
-        json.dump(master_data, f, indent=2)
+        json.dump(master_data, f, separators=(',', ':'))
         
     with open(os.path.join(ORGANIZED_DIR, 'master.md'), 'w', encoding='utf-8') as f:
         f.write("# Master Index\n\nThis index is automatically generated.\n\n")
@@ -116,6 +117,8 @@ def generate_deep_item_html(item, prev_item, next_item):
         next_btn = f'<a href="{next_item["path"]}" class="item-nav-btn next"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">{html.escape(next_item["name"])}</span></a>'
     else:
         next_btn = '<a class="item-nav-btn next disabled"><span class="meta">Next →</span><span style="font-family: var(--font-display); font-size: var(--text-lg); text-transform: uppercase;">End of Library</span></a>'
+
+    rendered_content = markdown.markdown(item['content'], extensions=['fenced_code', 'tables'])
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -212,7 +215,7 @@ def generate_deep_item_html(item, prev_item, next_item):
     <section class="section">
       <div class="container">
         <div class="prompt-box">
-          <div class="prompt-text" id="prompt-content">{html.escape(item['content'])}</div>
+          <div class="prompt-text markdown-rendered" id="prompt-content">{rendered_content}</div>
           
           <div class="copy-bar">
             <span class="meta">Press 'C' to copy</span>
@@ -235,29 +238,13 @@ def generate_deep_item_html(item, prev_item, next_item):
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {{
-      const el = document.getElementById('prompt-content');
-      if (el) {{
-        const raw = el.textContent;
-        if (/^#{{1,6}}\\s|^\\*\\s|^-\\s|^>\\s|```|^\\d+\\.\\s|\\*\\*|__/m.test(raw)) {{
-          marked.setOptions({{
-            breaks: true,
-            gfm: true,
-            highlight: function(code, lang) {{
-              if (lang && hljs.getLanguage(lang)) {{
-                return hljs.highlight(code, {{ language: lang }}).value;
-              }}
-              return hljs.highlightAuto(code).value;
-            }}
-          }});
-          el.innerHTML = marked.parse(raw);
-          el.classList.add('markdown-rendered');
-        }}
-      }}
+      document.querySelectorAll('pre code').forEach((block) => {{
+        hljs.highlightElement(block);
+      }});
     }});
   </script>
 </body>
@@ -496,7 +483,7 @@ def sync_all():
     
     data_json_path = os.path.join(SITE_DIR, 'data.json')
     with open(data_json_path, 'w', encoding='utf-8') as f:
-        json.dump({"items": clean_items_for_data_json, "tags": sorted_tag_counts}, f, indent=2)
+        json.dump({"items": clean_items_for_data_json, "tags": sorted_tag_counts}, f, separators=(',', ':'))
     print(f"Saved {data_json_path}")
     
     # 3. Update site/search-index.json
@@ -530,7 +517,7 @@ def sync_all():
     
     search_json_path = os.path.join(SITE_DIR, 'search-index.json')
     with open(search_json_path, 'w', encoding='utf-8') as f:
-        json.dump(search_index, f, indent=2)
+        json.dump(search_index, f, separators=(',', ':'))
     print(f"Saved {search_json_path}")
     
     # 4. Generate/Update Item HTML Pages
