@@ -211,6 +211,10 @@
       "path": "Learning/ai-powered-process-documentation.md"
     },
     {
+      "name": "Augment Your LLM Using RAG",
+      "path": "Learning/augment-your-llm-using-rag.md"
+    },
+    {
       "name": "Build Your Generative AI Productivity Skills with Microsoft and LinkedIn",
       "path": "Learning/build-your-generative-ai-productivity-skills.md"
     },

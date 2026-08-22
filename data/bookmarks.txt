@@ -429,3 +429,6 @@ Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-F
 
 Title: Building a Brain in 10 Minutes
 Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1
+
+Title: Augment your LLM using RAG
+Link: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1

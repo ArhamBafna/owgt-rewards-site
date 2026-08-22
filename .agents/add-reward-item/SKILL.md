@@ -79,9 +79,9 @@ Add new entry to `data/`, `organized-data/`, and `site/`. Read and use `/grillin
   ```powershell
   graphify update .
   ```
-- Stage, commit, and push changes to remote:
+- Stage, commit, and push changes to remote (if multiple items, do once all added; not after each item):
   ```powershell
   git add .
-  git commit -m "add: <item-name> reward entry"
+  git commit -m "add reward: <item-name> reward entry"
   git push
   ```

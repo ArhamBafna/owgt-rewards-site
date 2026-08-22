@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 416 files · ~631,776 words
+- 417 files · ~632,084 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2899 nodes · 2860 edges · 429 communities (413 shown, 16 thin omitted)
+- 2906 nodes · 2867 edges · 430 communities (414 shown, 16 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ab61e579`
+- Built from commit: `4af6be66`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -432,6 +432,7 @@
 - enhance-results-with-prompt-engineering-strategies.md
 - generative-ai-explained.md
 - building-a-brain-in-10-minutes.md
+- augment-your-llm-using-rag.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -451,7 +452,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (429 total, 16 thin omitted)
+## Communities (430 total, 16 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2057,18 +2058,20 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
+### Community 429 - "augment-your-llm-using-rag.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2336 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2331 more)
+- **2342 isolated node(s):** `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input`, `2. Save Raw Data (`rewards/data/`)`, `3. Save Organized Item (`rewards/organized-data/`)` (+2337 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Master Index` connect `Master Index` to `master.md`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **What connects `cleanUrls`, `Anti-Patterns`, `1. Fetch & Parse Input` to the rest of the system?**
-  _2336 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2342 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
@@ -2079,3 +2082,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `build-insane-animated-websites.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Motion Graphics with AI — Full Setup & Workflow Guide` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
