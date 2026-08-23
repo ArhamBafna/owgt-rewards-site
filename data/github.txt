@@ -122,4 +122,4 @@ Title: Generative AI for Beginners (Microsoft)
 Description: Microsoft 21-lesson comprehensive curriculum covering prompt engineering, LLM app development, RAG, and agent frameworks.
 Link: https://github.com/microsoft/generative-ai-for-beginners
 
----
+---https://github.com/ai-boost/awesome-prompts#prompts

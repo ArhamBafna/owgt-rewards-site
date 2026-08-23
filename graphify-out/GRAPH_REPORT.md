@@ -1,16 +1,16 @@
 # Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 439 files · ~454,588 words
+- 450 files · ~457,049 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3045 nodes · 3008 edges · 452 communities (433 shown, 19 thin omitted)
+- 3122 nodes · 3083 edges · 463 communities (444 shown, 19 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `65cf7f60`
+- Built from commit: `c579ad2d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -455,6 +455,17 @@
 - messaging-positioning-prompts.md
 - product-marketing-and-launches-prompts.md
 - shift-ai-prompts-database.md
+- superhuman-cheat-sheet-beginners.md
+- top-ai-cheat-sheets.md
+- hubspot-cold-email-generator-ai.md
+- superhuman-ai-tutorials-academy.md
+- awesome-prompts-ai-boost.md
+- superhuman-chatgpt-prompt-library.md
+- superhuman-claude-prompt-library.md
+- full-stack-ai-marketing-toolkit.md
+- superhuman-business-ideas-2026.md
+- the-code-developer-resources.md
+- superhuman-ai-tools-directory.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -474,7 +485,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (452 total, 19 thin omitted)
+## Communities (463 total, 19 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -2160,8 +2171,52 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
+### Community 452 - "superhuman-cheat-sheet-beginners.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 453 - "top-ai-cheat-sheets.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 454 - "hubspot-cold-email-generator-ai.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 455 - "superhuman-ai-tutorials-academy.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 456 - "awesome-prompts-ai-boost.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 457 - "superhuman-chatgpt-prompt-library.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 458 - "superhuman-claude-prompt-library.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 459 - "full-stack-ai-marketing-toolkit.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 460 - "superhuman-business-ideas-2026.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 461 - "the-code-developer-resources.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
+### Community 462 - "superhuman-ai-tools-directory.md"
+Cohesion: 0.29
+Nodes (6): Category, Content, Description, Name, Tags, URL
+
 ## Knowledge Gaps
-- **2453 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2448 more)
+- **2519 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2514 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -2169,7 +2224,7 @@ Nodes (6): Category, Content, Description, Name, Tags, URL
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract` to the rest of the system?**
-  _2453 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2519 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**

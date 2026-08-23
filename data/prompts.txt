@@ -504,4 +504,5 @@ She gestures naturally with the can while talking, gives it a tiny shake near 'o
 
 ---
 
-Full AI System Self-Audit Prompt: 'Conduct a complete diagnostic audit of my current AI ecosystem, workflows, and tool stack. Evaluate: 1. Tool redundancy and missing CLI/API equivalents. 2. Skill efficiency and recurring task automation opportunities. 3. Model routing strategy based on task complexity vs cost. 4. Gaps in context management and persistent memory systems. Provide an actionable 5-step optimization roadmap.'
+Full AI System Self-Audit Prompt: 'Conduct a complete diagnostic audit of my current AI ecosystem, workflows, and tool stack. Evaluate: 1. Tool redundancy and missing CLI/API equivalents. 2. Skill efficiency and recurring task automation opportunities. 3. Model routing strategy based on task complexity vs cost. 4. Gaps in context management and persistent memory systems. Provide an actionable 5-step optimization roadmap.'https://claudeprompts.netlify.app/
+https://gpt-prompts-directory.netlify.app/

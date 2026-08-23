@@ -11,11 +11,13 @@ API
 App
 Audio & Speech
 Automation
+beginners
 Best Practices
 Business
 Business Operations
 Career
 ChatGPT
+cheatsheet
 Claude
 CLI
 Cloud Services
@@ -70,11 +72,13 @@ Playbook
 Product
 Productivity
 Prompt
+prompts
 RAG
 React
 Recruiting
 Research
 Resource
+resources
 Sales
 Sales & Outreach
 Scraping
@@ -83,6 +87,7 @@ Skills
 Skool
 Software Engineering
 Speech to Text
+spreadsheet
 Startups
 Strategy
 Students
@@ -90,7 +95,9 @@ Summarizer
 Tailwind CSS
 Template
 Toolkits
+tools
 Transcription
+tutorials
 UI
 UI Inspiration
 Video
