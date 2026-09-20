@@ -392,12 +392,12 @@
   "390": "Knowledge Library Organizer Specification",
   "391": "aipen-chatgpt-app.md",
   "392": "vercel.json",
-  "393": "patch_app.py",
+  "393": "OWGT Rewards — End-to-End Audit, Fix Log & Skill Review Notes",
   "394": "github-certification-exams.md",
   "395": "verify_routing.py",
   "396": "crop_logo.py",
   "397": "kaggle-5-day-agents-guide.md",
-  "398": "patch_search.py",
+  "398": "package.json",
   "399": "full-ai-system-self-audit-prompt.md",
   "400": "alt.md",
   "401": "apify-cli.md",
@@ -461,5 +461,6 @@
   "459": "full-stack-ai-marketing-toolkit.md",
   "460": "superhuman-business-ideas-2026.md",
   "461": "the-code-developer-resources.md",
-  "462": "superhuman-ai-tools-directory.md"
+  "462": "superhuman-ai-tools-directory.md",
+  "463": "vercel.json"
 }

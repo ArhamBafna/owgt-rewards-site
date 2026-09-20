@@ -4,6 +4,19 @@
   "graph": {},
   "nodes": [
     {
+      "id": "scripts_serve_cleanurlhandler",
+      "label": "CleanURLHandler",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 464,
+      "community_name": "CleanURLHandler",
+      "file_type": "code",
+      "norm_label": "cleanurlhandler",
+      "source_file": "scripts/serve.py",
+      "source_location": "L9"
+    },
+    {
       "id": "site_js_app_highlightactivenav",
       "label": "highlightActiveNav()",
       "_callable": true,
@@ -448,6 +461,18 @@
       "source_location": "L8"
     },
     {
+      "id": "site_js_landing_updatelivecounts",
+      "label": "updateLiveCounts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 418,
+      "community_name": "landing.js",
+      "file_type": "code",
+      "norm_label": "updatelivecounts()",
+      "source_file": "site/js/landing.js",
+      "source_location": "L81"
+    },
+    {
       "id": "scripts_sync_site_build_global_header",
       "label": "build_global_header()",
       "_callable": true,
@@ -517,7 +542,7 @@
       "file_type": "code",
       "norm_label": "sync_all()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L503"
+      "source_location": "L502"
     },
     {
       "id": "scripts_sync_site_update_category_html_page",
@@ -554,6 +579,30 @@
       "norm_label": "update_landing_and_rewards_pages()",
       "source_file": "scripts/sync_site.py",
       "source_location": "L413"
+    },
+    {
+      "id": "scripts_serve_cleanurlhandler_do_get",
+      "label": ".do_GET()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 464,
+      "community_name": "CleanURLHandler",
+      "file_type": "code",
+      "norm_label": ".do_get()",
+      "source_file": "scripts/serve.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "scripts_serve_cleanurlhandler_init",
+      "label": ".__init__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 464,
+      "community_name": "CleanURLHandler",
+      "file_type": "code",
+      "norm_label": ".__init__()",
+      "source_file": "scripts/serve.py",
+      "source_location": "L10"
     },
     {
       "id": "organization_prompt",
@@ -26324,7 +26373,7 @@
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "package_dependencies_vercel",
@@ -26335,7 +26384,7 @@
       "file_type": "code",
       "norm_label": "vercel",
       "source_file": "package.json",
-      "source_location": "L8"
+      "source_location": "L9"
     },
     {
       "id": "package_name",
@@ -26360,6 +26409,17 @@
       "source_location": "L4"
     },
     {
+      "id": "package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "package.json",
+      "source_location": "L5"
+    },
+    {
       "id": "package_scripts_dev",
       "label": "dev",
       "_origin": "ast",
@@ -26368,7 +26428,7 @@
       "file_type": "code",
       "norm_label": "dev",
       "source_file": "package.json",
-      "source_location": "L5"
+      "source_location": "L6"
     },
     {
       "id": "package_version",
@@ -26390,7 +26450,7 @@
       "file_type": "concept",
       "norm_label": "vercel",
       "source_file": "package.json",
-      "source_location": "L8"
+      "source_location": "L9"
     },
     {
       "id": "organized_data_prompts_full_ai_system_self_audit_prompt",
@@ -32614,6 +32674,17 @@
       "source_location": "L3"
     },
     {
+      "id": "scripts_serve",
+      "label": "serve.py",
+      "_origin": "ast",
+      "community": 464,
+      "community_name": "CleanURLHandler",
+      "file_type": "code",
+      "norm_label": "serve.py",
+      "source_file": "scripts/serve.py",
+      "source_location": "L1"
+    },
+    {
       "id": "organized_data_learning_ai_agent_coordination",
       "label": "ai-agent-coordination.md",
       "_origin": "ast",
@@ -37964,7 +38035,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L521",
+      "source_location": "L520",
       "weight": 1.0
     },
     {
@@ -37976,7 +38047,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L568",
+      "source_location": "L567",
       "weight": 1.0
     },
     {
@@ -37988,7 +38059,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L629",
+      "source_location": "L628",
       "weight": 1.0
     },
     {
@@ -38000,7 +38071,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L638",
+      "source_location": "L637",
       "weight": 1.0
     },
     {
@@ -38012,7 +38083,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L656",
+      "source_location": "L655",
       "weight": 1.0
     },
     {
@@ -38024,7 +38095,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L665",
+      "source_location": "L664",
       "weight": 1.0
     },
     {
@@ -38036,7 +38107,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L669",
+      "source_location": "L668",
       "weight": 1.0
     },
     {
@@ -38276,7 +38347,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -66018,7 +66089,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -66029,7 +66100,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L8",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -66040,7 +66122,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -66231,6 +66313,17 @@
       "weight": 1.0
     },
     {
+      "source": "scripts_serve",
+      "target": "scripts_serve_cleanurlhandler",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/serve.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_sync_site",
       "target": "scripts_sync_site_build_global_header",
       "relation": "contains",
@@ -66315,7 +66408,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L503",
+      "source_location": "L502",
       "weight": 1.0
     },
     {
@@ -67276,6 +67369,17 @@
       "weight": 1.0
     },
     {
+      "source": "site_js_landing",
+      "target": "site_js_landing_updatelivecounts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "site/js/landing.js",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
       "source": "site_readme",
       "target": "site_readme_owgt_rewards",
       "relation": "contains",
@@ -68065,6 +68169,28 @@
       "confidence_score": 1.0,
       "source_file": "vercel.json",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_serve_cleanurlhandler",
+      "target": "scripts_serve_cleanurlhandler_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/serve.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_serve_cleanurlhandler",
+      "target": "scripts_serve_cleanurlhandler_do_get",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/serve.py",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -72317,5 +72443,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4995149b512c0edacff71d4fb7fb9e2747d68683"
+  "built_at_commit": "bfaa5f5b205b21bdf3093c231a8c0c9302233c41"
 }

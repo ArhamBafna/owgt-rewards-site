@@ -13,7 +13,7 @@
       "file_type": "code",
       "norm_label": "highlightactivenav()",
       "source_file": "site/js/app.js",
-      "source_location": "L579"
+      "source_location": "L690"
     },
     {
       "id": "site_js_app_initbookmarks",
@@ -25,7 +25,7 @@
       "file_type": "code",
       "norm_label": "initbookmarks()",
       "source_file": "site/js/app.js",
-      "source_location": "L348"
+      "source_location": "L395"
     },
     {
       "id": "site_js_app_initcopyengine",
@@ -37,7 +37,7 @@
       "file_type": "code",
       "norm_label": "initcopyengine()",
       "source_file": "site/js/app.js",
-      "source_location": "L447"
+      "source_location": "L540"
     },
     {
       "id": "site_js_app_initexpandablecards",
@@ -49,7 +49,7 @@
       "file_type": "code",
       "norm_label": "initexpandablecards()",
       "source_file": "site/js/app.js",
-      "source_location": "L564"
+      "source_location": "L675"
     },
     {
       "id": "site_js_app_initfiltersystem",
@@ -61,7 +61,7 @@
       "file_type": "code",
       "norm_label": "initfiltersystem()",
       "source_file": "site/js/app.js",
-      "source_location": "L603"
+      "source_location": "L714"
     },
     {
       "id": "site_js_app_initfiltersystem_applyfilters",
@@ -73,7 +73,7 @@
       "file_type": "code",
       "norm_label": "applyfilters()",
       "source_file": "site/js/app.js",
-      "source_location": "L805"
+      "source_location": "L884"
     },
     {
       "id": "site_js_app_initfiltersystem_closedrawer",
@@ -85,7 +85,7 @@
       "file_type": "code",
       "norm_label": "closedrawer()",
       "source_file": "site/js/app.js",
-      "source_location": "L770"
+      "source_location": "L855"
     },
     {
       "id": "site_js_app_initfiltersystem_filterpagecards",
@@ -97,7 +97,7 @@
       "file_type": "code",
       "norm_label": "filterpagecards()",
       "source_file": "site/js/app.js",
-      "source_location": "L824"
+      "source_location": "L902"
     },
     {
       "id": "site_js_app_initfiltersystem_opendrawer",
@@ -109,7 +109,7 @@
       "file_type": "code",
       "norm_label": "opendrawer()",
       "source_file": "site/js/app.js",
-      "source_location": "L765"
+      "source_location": "L850"
     },
     {
       "id": "site_js_app_initfiltersystem_populatedrawer",
@@ -121,19 +121,7 @@
       "file_type": "code",
       "norm_label": "populatedrawer()",
       "source_file": "site/js/app.js",
-      "source_location": "L728"
-    },
-    {
-      "id": "site_js_app_initfiltersystem_updatesubcategories",
-      "label": "updateSubcategories()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 30,
-      "community_name": "app.js",
-      "file_type": "code",
-      "norm_label": "updatesubcategories()",
-      "source_file": "site/js/app.js",
-      "source_location": "L708"
+      "source_location": "L813"
     },
     {
       "id": "site_js_app_initsearchsystem",
@@ -145,7 +133,7 @@
       "file_type": "code",
       "norm_label": "initsearchsystem()",
       "source_file": "site/js/app.js",
-      "source_location": "L20"
+      "source_location": "L111"
     },
     {
       "id": "site_js_app_initsearchsystem_renderresults",
@@ -157,7 +145,7 @@
       "file_type": "code",
       "norm_label": "renderresults()",
       "source_file": "site/js/app.js",
-      "source_location": "L268"
+      "source_location": "L368"
     },
     {
       "id": "site_js_app_initshortcuts",
@@ -169,7 +157,7 @@
       "file_type": "code",
       "norm_label": "initshortcuts()",
       "source_file": "site/js/app.js",
-      "source_location": "L399"
+      "source_location": "L473"
     },
     {
       "id": "site_js_app_initspotlight",
@@ -181,7 +169,19 @@
       "file_type": "code",
       "norm_label": "initspotlight()",
       "source_file": "site/js/app.js",
-      "source_location": "L497"
+      "source_location": "L596"
+    },
+    {
+      "id": "site_js_app_ishomeroute",
+      "label": "isHomeRoute()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "ishomeroute()",
+      "source_file": "site/js/app.js",
+      "source_location": "L83"
     },
     {
       "id": "site_js_app_loadrandomresource",
@@ -193,7 +193,7 @@
       "file_type": "code",
       "norm_label": "loadrandomresource()",
       "source_file": "site/js/app.js",
-      "source_location": "L433"
+      "source_location": "L525"
     },
     {
       "id": "site_js_app_showtoast",
@@ -205,7 +205,19 @@
       "file_type": "code",
       "norm_label": "showtoast()",
       "source_file": "site/js/app.js",
-      "source_location": "L471"
+      "source_location": "L569"
+    },
+    {
+      "id": "site_js_app_updatebadgecount",
+      "label": "updateBadgeCount()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "updatebadgecount()",
+      "source_file": "site/js/app.js",
+      "source_location": "L434"
     },
     {
       "id": "site_js_app_updatebookmarkui",
@@ -217,7 +229,7 @@
       "file_type": "code",
       "norm_label": "updatebookmarkui()",
       "source_file": "site/js/app.js",
-      "source_location": "L380"
+      "source_location": "L446"
     },
     {
       "id": "scripts_convert_pdf_clean_text_formatting",
@@ -340,6 +352,42 @@
       "source_location": "L5"
     },
     {
+      "id": "scripts_verify_routing_get_test_paths",
+      "label": "get_test_paths()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 395,
+      "community_name": "verify_routing.py",
+      "file_type": "code",
+      "norm_label": "get_test_paths()",
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "scripts_verify_routing_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 395,
+      "community_name": "verify_routing.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "scripts_verify_routing_simulate_vercel_routing",
+      "label": "simulate_vercel_routing()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 395,
+      "community_name": "verify_routing.py",
+      "file_type": "code",
+      "norm_label": "simulate_vercel_routing()",
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L56"
+    },
+    {
       "id": "scripts_clean_tags_clean_markdown_file",
       "label": "clean_markdown_file()",
       "_callable": true,
@@ -400,6 +448,30 @@
       "source_location": "L8"
     },
     {
+      "id": "scripts_sync_site_build_global_header",
+      "label": "build_global_header()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 437,
+      "community_name": "sync_site.py",
+      "file_type": "code",
+      "norm_label": "build_global_header()",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L126"
+    },
+    {
+      "id": "scripts_sync_site_generate_bundle_html_page",
+      "label": "generate_bundle_html_page()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 437,
+      "community_name": "sync_site.py",
+      "file_type": "code",
+      "norm_label": "generate_bundle_html_page()",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L317"
+    },
+    {
       "id": "scripts_sync_site_generate_deep_item_html",
       "label": "generate_deep_item_html()",
       "_callable": true,
@@ -409,7 +481,7 @@
       "file_type": "code",
       "norm_label": "generate_deep_item_html()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L104"
+      "source_location": "L190"
     },
     {
       "id": "scripts_sync_site_parse_markdown_item",
@@ -421,7 +493,7 @@
       "file_type": "code",
       "norm_label": "parse_markdown_item()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L24"
+      "source_location": "L71"
     },
     {
       "id": "scripts_sync_site_render_category_card",
@@ -433,7 +505,7 @@
       "file_type": "code",
       "norm_label": "render_category_card()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L254"
+      "source_location": "L383"
     },
     {
       "id": "scripts_sync_site_sync_all",
@@ -445,7 +517,7 @@
       "file_type": "code",
       "norm_label": "sync_all()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L392"
+      "source_location": "L503"
     },
     {
       "id": "scripts_sync_site_update_category_html_page",
@@ -457,7 +529,7 @@
       "file_type": "code",
       "norm_label": "update_category_html_page()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L304"
+      "source_location": "L387"
     },
     {
       "id": "scripts_sync_site_update_indices",
@@ -469,7 +541,7 @@
       "file_type": "code",
       "norm_label": "update_indices()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L79"
+      "source_location": "L165"
     },
     {
       "id": "scripts_sync_site_update_landing_and_rewards_pages",
@@ -481,7 +553,7 @@
       "file_type": "code",
       "norm_label": "update_landing_and_rewards_pages()",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L330"
+      "source_location": "L413"
     },
     {
       "id": "organization_prompt",
@@ -1789,7 +1861,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-3-ai-agents-in-base44.md",
-      "source_location": "L281"
+      "source_location": "L280"
     },
     {
       "id": "organized_data_guides_build_3_ai_agents_in_base44_troubleshooting",
@@ -2929,7 +3001,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/raw-footage-to-finished-video-in-ai.md",
-      "source_location": "L105"
+      "source_location": "L104"
     },
     {
       "id": "organized_data_guides_raw_footage_to_finished_video_in_ai_what_you_are_building",
@@ -3853,7 +3925,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Cheat Sheets/chatgpt-and-ai-cheatsheet.md",
-      "source_location": "L87"
+      "source_location": "L86"
     },
     {
       "id": "organized_data_cheat_sheets_chatgpt_and_ai_cheatsheet_the_universal_prompt_formula",
@@ -6073,7 +6145,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Prompts/higgsfield-ugc-prompt.md",
-      "source_location": "L23"
+      "source_location": "L22"
     },
     {
       "id": "organized_data_prompts_hire_vs_outsource",
@@ -6517,7 +6589,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/avoid-chat-limits.md",
-      "source_location": "L66"
+      "source_location": "L65"
     },
     {
       "id": "organized_data_prompts_identify_the_3_biggest_risks",
@@ -8209,7 +8281,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/5-ai-businesses-to-make-1m.md",
-      "source_location": "L43"
+      "source_location": "L42"
     },
     {
       "id": "organized_data_guides_5_ai_businesses_to_make_1m_the_ai_startup_ladder_4_step_process",
@@ -9937,7 +10009,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-5k-month-ai-websites.md",
-      "source_location": "L42"
+      "source_location": "L41"
     },
     {
       "id": "organized_data_prompts_run_a_competitor_analysis",
@@ -11173,7 +11245,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/how-to-build-a-10k-month-app-in-2026.md",
-      "source_location": "L36"
+      "source_location": "L35"
     },
     {
       "id": "organized_data_prompts_turn_these_messy_meeting_notes",
@@ -12013,7 +12085,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/how-to-find-a-tech-job-in-2026.md",
-      "source_location": "L30"
+      "source_location": "L29"
     },
     {
       "id": "organized_data_prompts_write_a_clear_jargon_free_explanation",
@@ -12805,7 +12877,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/which-model-should-i-use.md",
-      "source_location": "L62"
+      "source_location": "L61"
     },
     {
       "id": "organized_data_guides_which_model_should_i_use_the_effort_dial_thinking_time",
@@ -14497,7 +14569,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/the-ai-research-system.md",
-      "source_location": "L52"
+      "source_location": "L51"
     },
     {
       "id": "organized_data_resources_cloudflare_drop",
@@ -16153,7 +16225,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/top-ai-courses-for-beginners.md",
-      "source_location": "L97"
+      "source_location": "L96"
     },
     {
       "id": "organized_data_resources_official_mcp_servers",
@@ -17257,7 +17329,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Templates/hubspot-full-stack-ai-marketing-toolkit.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_templates_hubspot_full_stack_ai_marketing_toolkit_url",
@@ -17329,7 +17401,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Templates/marketing-against-the-grain-newsletter-template.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_templates_marketing_against_the_grain_newsletter_template_url",
@@ -19669,7 +19741,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/motion-graphics-in-ai.md",
-      "source_location": "L218"
+      "source_location": "L217"
     },
     {
       "id": "organized_data_guides_motion_graphics_in_ai_vox_style_paper_cutout",
@@ -21300,7 +21372,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Cheat Sheets/mobile-app-growth-cheat-sheet.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_cheat_sheets_mobile_app_growth_cheat_sheet_url",
@@ -22092,7 +22164,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Frameworks/fabric.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_frameworks_fabric_url",
@@ -22884,7 +22956,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Frameworks/llm-wiki.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_frameworks_llm_wiki_url",
@@ -23676,7 +23748,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Frameworks/taste-skill.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_frameworks_taste_skill_url",
@@ -24496,7 +24568,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/1m-attention.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_1m_attention_url",
@@ -25059,7 +25131,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/39-claude-skills-examples.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_39_claude_skills_examples_url",
@@ -25422,7 +25494,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-a-self-updating-llm-knowledge-base.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_build_a_self_updating_llm_knowledge_base_url",
@@ -25694,7 +25766,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/how-to-access-multiple-free-ai-models-at-once.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_how_to_access_multiple_free_ai_models_at_once_url",
@@ -25818,12 +25890,12 @@
     },
     {
       "id": "site_vercel",
-      "label": "vercel.json",
+      "label": "site/vercel.json",
       "_origin": "ast",
       "community": 392,
       "community_name": "vercel.json",
       "file_type": "code",
-      "norm_label": "vercel.json",
+      "norm_label": "site/vercel.json",
       "source_file": "site/vercel.json",
       "source_location": "L1"
     },
@@ -25839,14 +25911,231 @@
       "source_location": "L2"
     },
     {
-      "id": "patch_app",
-      "label": "patch_app.py",
+      "id": "audit_findings",
+      "label": "AUDIT-FINDINGS.md",
       "_origin": "ast",
       "community": 393,
-      "community_name": "patch_app.py",
-      "file_type": "code",
-      "norm_label": "patch_app.py",
-      "source_file": "patch_app.py",
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "audit-findings.md",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "audit_findings_0_what_was_actually_verified_method_evidence",
+      "label": "0. What was actually verified (method & evidence)",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "0. what was actually verified (method & evidence)",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "audit_findings_1_1_area_1_markdown_data_parser",
+      "label": "1.1 Area 1 \u2014 Markdown & data parser",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.1 area 1 \u2014 markdown & data parser",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "audit_findings_1_2_area_2_routing_clean_urls",
+      "label": "1.2 Area 2 \u2014 Routing & clean URLs",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.2 area 2 \u2014 routing & clean urls",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "audit_findings_1_3_area_3_links_assets",
+      "label": "1.3 Area 3 \u2014 Links & assets",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.3 area 3 \u2014 links & assets",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "audit_findings_1_4_area_4_ui_javascript_interactions",
+      "label": "1.4 Area 4 \u2014 UI & JavaScript interactions",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.4 area 4 \u2014 ui & javascript interactions",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "audit_findings_1_5_bug_register",
+      "label": "1.5 Bug register",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.5 bug register",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "audit_findings_1_bug_audit_results_by_area",
+      "label": "1. Bug audit results by area",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. bug audit results by area",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "audit_findings_2_1_codebase_design",
+      "label": "2.1 `/codebase-design`",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.1 `/codebase-design`",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "audit_findings_2_2_code_simplification",
+      "label": "2.2 `/code-simplification`",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.2 `/code-simplification`",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L208"
+    },
+    {
+      "id": "audit_findings_2_3_code_review",
+      "label": "2.3 `/code-review`",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.3 `/code-review`",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L240"
+    },
+    {
+      "id": "audit_findings_2_4_dsa_codebase_audit",
+      "label": "2.4 `/dsa-codebase-audit`",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.4 `/dsa-codebase-audit`",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L279"
+    },
+    {
+      "id": "audit_findings_2_5_improve_codebase_architecture",
+      "label": "2.5 `/improve-codebase-architecture`",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.5 `/improve-codebase-architecture`",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L322"
+    },
+    {
+      "id": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "label": "2. Skill passes (notes only \u2014 **no code changed**)",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. skill passes (notes only \u2014 **no code changed**)",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L171"
+    },
+    {
+      "id": "audit_findings_3_fixes_applied_complete_change_set",
+      "label": "3. Fixes applied (complete change set)",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. fixes applied (complete change set)",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L351"
+    },
+    {
+      "id": "audit_findings_4_open_questions",
+      "label": "4. Open questions",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. open questions",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L369"
+    },
+    {
+      "id": "audit_findings_5_bottom_line",
+      "label": "5. Bottom line",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. bottom line",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L384"
+    },
+    {
+      "id": "audit_findings_discrepancies_found_and_deliberately_not_changed",
+      "label": "Discrepancies found and deliberately **not** changed",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "discrepancies found and deliberately **not** changed",
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L152"
+    },
+    {
+      "id": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "label": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "_origin": "ast",
+      "community": 393,
+      "community_name": "OWGT Rewards \u2014 End-to-End Audit, Fix Log & Skill Review Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "owgt rewards \u2014 end-to-end audit, fix log & skill review notes",
+      "source_file": "AUDIT-FINDINGS.md",
       "source_location": "L1"
     },
     {
@@ -26016,15 +26305,92 @@
       "source_location": "L7"
     },
     {
-      "id": "patch_search",
-      "label": "patch_search.py",
+      "id": "package",
+      "label": "package.json",
       "_origin": "ast",
       "community": 398,
-      "community_name": "patch_search.py",
+      "community_name": "package.json",
       "file_type": "code",
-      "norm_label": "patch_search.py",
-      "source_file": "patch_search.py",
+      "norm_label": "package.json",
+      "source_file": "package.json",
       "source_location": "L1"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "package_dependencies_vercel",
+      "label": "vercel",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "vercel",
+      "source_file": "package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "version",
+      "source_file": "package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "package_json_vercel",
+      "label": "vercel",
+      "_origin": "ast",
+      "community": 398,
+      "community_name": "package.json",
+      "file_type": "concept",
+      "norm_label": "vercel",
+      "source_file": "package.json",
+      "source_location": "L8"
     },
     {
       "id": "organized_data_prompts_full_ai_system_self_audit_prompt",
@@ -26372,7 +26738,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-insane-animated-websites.md",
-      "source_location": "L130"
+      "source_location": "L129"
     },
     {
       "id": "organized_data_guides_build_insane_animated_websites_tech_stack",
@@ -26480,7 +26846,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/how-to-create-a-cold-email-generator-using-ai.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_how_to_create_a_cold_email_generator_using_ai_url",
@@ -27272,7 +27638,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/how-to-spot-100m-product-ideas.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_how_to_spot_100m_product_ideas_url",
@@ -28325,7 +28691,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/obsidian-is-my-ais-second-brain.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_obsidian_is_my_ais_second_brain_url",
@@ -29465,7 +29831,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/prompt-engineering.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_prompt_engineering_url",
@@ -30184,7 +30550,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/the-1m-solopreneur-mvp.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_the_1m_solopreneur_mvp_url",
@@ -31036,7 +31402,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/the-ai-agent-playbook.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_the_ai_agent_playbook_url",
@@ -31948,7 +32314,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/zapier-sdk-quickstart.md",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "organized_data_guides_zapier_sdk_quickstart_url",
@@ -32213,6 +32579,39 @@
       "norm_label": "url",
       "source_file": "organized-data/Tools/superhuman-ai-tools-directory.md",
       "source_location": "L10"
+    },
+    {
+      "id": "vercel_cleanurls",
+      "label": "cleanUrls",
+      "_origin": "ast",
+      "community": 463,
+      "community_name": "vercel.json",
+      "file_type": "code",
+      "norm_label": "cleanurls",
+      "source_file": "vercel.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "vercel_json_vercel",
+      "label": "vercel.json",
+      "_origin": "ast",
+      "community": 463,
+      "community_name": "vercel.json",
+      "file_type": "code",
+      "norm_label": "vercel.json",
+      "source_file": "vercel.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "vercel_rewrites",
+      "label": "rewrites",
+      "_origin": "ast",
+      "community": 463,
+      "community_name": "vercel.json",
+      "file_type": "code",
+      "norm_label": "rewrites",
+      "source_file": "vercel.json",
+      "source_location": "L3"
     },
     {
       "id": "organized_data_learning_ai_agent_coordination",
@@ -33772,7 +34171,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-an-award-worthy-f1-landing-page.md",
-      "source_location": "L98"
+      "source_location": "L97"
     },
     {
       "id": "organized_data_learning_ai_presentation_and_document_production",
@@ -36688,7 +37087,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Guides/build-10-000-websites-with-ai.md",
-      "source_location": "L494"
+      "source_location": "L493"
     },
     {
       "id": "organized_data_guides_build_10_000_websites_with_ai_the_flavour_system",
@@ -36952,7 +37351,7 @@
       "node_kind": "heading",
       "norm_label": "tags",
       "source_file": "organized-data/Prompts/cinematic-real-estate-listing.md",
-      "source_location": "L183"
+      "source_location": "L182"
     },
     {
       "id": "organized_data_prompts_client_welcome",
@@ -37521,6 +37920,42 @@
       "weight": 1.0
     },
     {
+      "source": "scripts_sync_site_generate_bundle_html_page",
+      "target": "scripts_sync_site_render_category_card",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site_generate_bundle_html_page",
+      "target": "scripts_sync_site_build_global_header",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site_generate_deep_item_html",
+      "target": "scripts_sync_site_build_global_header",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_sync_site_sync_all",
       "target": "scripts_sync_site_parse_markdown_item",
       "relation": "calls",
@@ -37529,7 +37964,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L410",
+      "source_location": "L521",
       "weight": 1.0
     },
     {
@@ -37541,7 +37976,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L457",
+      "source_location": "L568",
       "weight": 1.0
     },
     {
@@ -37553,7 +37988,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L536",
+      "source_location": "L629",
       "weight": 1.0
     },
     {
@@ -37565,7 +38000,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L545",
+      "source_location": "L638",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site_sync_all",
+      "target": "scripts_sync_site_generate_bundle_html_page",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L656",
       "weight": 1.0
     },
     {
@@ -37577,7 +38024,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L548",
+      "source_location": "L665",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site_sync_all",
+      "target": "scripts_sync_site_build_global_header",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L669",
       "weight": 1.0
     },
     {
@@ -37589,7 +38048,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/sync_site.py",
-      "source_location": "L321",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_verify_routing_main",
+      "target": "scripts_verify_routing_get_test_paths",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_verify_routing_main",
+      "target": "scripts_verify_routing_simulate_vercel_routing",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -37601,7 +38084,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L355",
+      "source_location": "L403",
       "weight": 1.0
     },
     {
@@ -37613,7 +38096,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L362",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app_initbookmarks",
+      "target": "site_js_app_updatebadgecount",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "site/js/app.js",
+      "source_location": "L411",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app_initcopyengine",
+      "target": "site_js_app_showtoast",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "site/js/app.js",
+      "source_location": "L543",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app_initfiltersystem",
+      "target": "site_js_app_ishomeroute",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "site/js/app.js",
+      "source_location": "L763",
       "weight": 1.0
     },
     {
@@ -37625,19 +38144,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L820",
+      "source_location": "L898",
       "weight": 1.0
     },
     {
-      "source": "site_js_app_initfiltersystem_populatedrawer",
-      "target": "site_js_app_initfiltersystem_updatesubcategories",
+      "source": "site_js_app_initsearchsystem",
+      "target": "site_js_app_ishomeroute",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L740",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app_initsearchsystem",
+      "target": "site_js_app_initbookmarks",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "site/js/app.js",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app_initsearchsystem",
+      "target": "site_js_app_initexpandablecards",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "site/js/app.js",
+      "source_location": "L232",
       "weight": 1.0
     },
     {
@@ -37649,7 +38192,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L339",
+      "source_location": "L386",
       "weight": 1.0
     },
     {
@@ -37661,7 +38204,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L340",
+      "source_location": "L387",
       "weight": 1.0
     },
     {
@@ -37673,19 +38216,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L427",
+      "source_location": "L518",
       "weight": 1.0
     },
     {
-      "source": "site_js_app_initfiltersystem",
-      "target": "site_js_app_initfiltersystem_updatesubcategories",
-      "relation": "contains",
+      "source": "site_js_app_initspotlight",
+      "target": "site_js_app_showtoast",
+      "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L708",
+      "source_location": "L657",
       "weight": 1.0
     },
     {
@@ -37697,7 +38240,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L728",
+      "source_location": "L813",
       "weight": 1.0
     },
     {
@@ -37709,7 +38252,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L805",
+      "source_location": "L884",
       "weight": 1.0
     },
     {
@@ -37721,7 +38264,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "site/js/app.js",
-      "source_location": "L268",
+      "source_location": "L368",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies_vercel",
+      "target": "package_json_vercel",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -37821,6 +38376,204 @@
       "confidence_score": 1.0,
       "source_file": ".agents/skool-guide-to-md/SKILL.md",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings",
+      "target": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_5_bug_register",
+      "target": "audit_findings_discrepancies_found_and_deliberately_not_changed",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_bug_audit_results_by_area",
+      "target": "audit_findings_1_4_area_4_ui_javascript_interactions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_bug_audit_results_by_area",
+      "target": "audit_findings_1_5_bug_register",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_bug_audit_results_by_area",
+      "target": "audit_findings_1_1_area_1_markdown_data_parser",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_bug_audit_results_by_area",
+      "target": "audit_findings_1_2_area_2_routing_clean_urls",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_1_bug_audit_results_by_area",
+      "target": "audit_findings_1_3_area_3_links_assets",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "target": "audit_findings_2_1_codebase_design",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "target": "audit_findings_2_2_code_simplification",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "target": "audit_findings_2_3_code_review",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "target": "audit_findings_2_4_dsa_codebase_audit",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "target": "audit_findings_2_5_improve_codebase_architecture",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_0_what_was_actually_verified_method_evidence",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_2_skill_passes_notes_only_no_code_changed",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_1_bug_audit_results_by_area",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_3_fixes_applied_complete_change_set",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_4_open_questions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L369",
+      "weight": 1.0
+    },
+    {
+      "source": "audit_findings_owgt_rewards_end_to_end_audit_fix_log_skill_review_notes",
+      "target": "audit_findings_5_bottom_line",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AUDIT-FINDINGS.md",
+      "source_location": "L384",
       "weight": 1.0
     },
     {
@@ -40823,7 +41576,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/chatgpt-and-ai-cheatsheet.md",
-      "source_location": "L87",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -40977,7 +41730,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Cheat Sheets/mobile-app-growth-cheat-sheet.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41637,7 +42390,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Frameworks/fabric.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41692,7 +42445,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Frameworks/llm-wiki.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41758,7 +42511,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Frameworks/taste-skill.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41813,7 +42566,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/1m-attention.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41868,7 +42621,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/39-claude-skills-examples.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -41934,7 +42687,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/5-ai-businesses-to-make-1m.md",
-      "source_location": "L43",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -42143,7 +42896,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/avoid-chat-limits.md",
-      "source_location": "L66",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -42374,7 +43127,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-10-000-websites-with-ai.md",
-      "source_location": "L494",
+      "source_location": "L493",
       "weight": 1.0
     },
     {
@@ -42759,7 +43512,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-3-ai-agents-in-base44.md",
-      "source_location": "L281",
+      "source_location": "L280",
       "weight": 1.0
     },
     {
@@ -42803,7 +43556,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-5k-month-ai-websites.md",
-      "source_location": "L42",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -42902,7 +43655,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-a-self-updating-llm-knowledge-base.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -43199,7 +43952,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-an-award-worthy-f1-landing-page.md",
-      "source_location": "L98",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -43485,7 +44238,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/build-insane-animated-websites.md",
-      "source_location": "L130",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -43518,7 +44271,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/how-to-access-multiple-free-ai-models-at-once.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -43573,7 +44326,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/how-to-build-a-10k-month-app-in-2026.md",
-      "source_location": "L36",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -43683,7 +44436,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/how-to-create-a-cold-email-generator-using-ai.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -43738,7 +44491,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/how-to-find-a-tech-job-in-2026.md",
-      "source_location": "L30",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -43837,7 +44590,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/how-to-spot-100m-product-ideas.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -44222,7 +44975,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/motion-graphics-in-ai.md",
-      "source_location": "L218",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -44277,7 +45030,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/obsidian-is-my-ais-second-brain.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -44332,7 +45085,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/prompt-engineering.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -44464,7 +45217,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/raw-footage-to-finished-video-in-ai.md",
-      "source_location": "L105",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -44651,7 +45404,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/the-1m-solopreneur-mvp.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -44706,7 +45459,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/the-ai-agent-playbook.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -44772,7 +45525,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/the-ai-research-system.md",
-      "source_location": "L52",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -44959,7 +45712,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/top-ai-courses-for-beginners.md",
-      "source_location": "L97",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -45036,7 +45789,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/which-model-should-i-use.md",
-      "source_location": "L62",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -45124,7 +45877,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Guides/zapier-sdk-quickstart.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -48864,7 +49617,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Prompts/cinematic-real-estate-listing.md",
-      "source_location": "L183",
+      "source_location": "L182",
       "weight": 1.0
     },
     {
@@ -52230,7 +52983,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Prompts/higgsfield-ugc-prompt.md",
-      "source_location": "L23",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -59930,7 +60683,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Templates/hubspot-full-stack-ai-marketing-toolkit.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -59985,7 +60738,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "organized-data/Templates/marketing-against-the-grain-newsletter-template.md",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -65225,6 +65978,72 @@
       "weight": 1.0
     },
     {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_dependencies",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_vercel",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_rewards_site_enhancements_issues_01_clickable_category_breadcrumbs",
       "target": "scratch_rewards_site_enhancements_issues_01_clickable_category_breadcrumbs_01_clickable_category_breadcrumbs_on_item_pages",
       "relation": "contains",
@@ -65413,68 +66232,13 @@
     },
     {
       "source": "scripts_sync_site",
-      "target": "scripts_sync_site_generate_deep_item_html",
+      "target": "scripts_sync_site_build_global_header",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L104",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_sync_site",
-      "target": "scripts_sync_site_parse_markdown_item",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/sync_site.py",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_sync_site",
-      "target": "scripts_sync_site_render_category_card",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/sync_site.py",
-      "source_location": "L254",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_sync_site",
-      "target": "scripts_sync_site_update_category_html_page",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/sync_site.py",
-      "source_location": "L304",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_sync_site",
-      "target": "scripts_sync_site_update_landing_and_rewards_pages",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/sync_site.py",
-      "source_location": "L330",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_sync_site",
-      "target": "scripts_sync_site_sync_all",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/sync_site.py",
-      "source_location": "L392",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -65485,7 +66249,117 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/sync_site.py",
-      "source_location": "L79",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_generate_deep_item_html",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_generate_bundle_html_page",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L317",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_render_category_card",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L383",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_update_category_html_page",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_update_landing_and_rewards_pages",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_sync_all",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L503",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_sync_site",
+      "target": "scripts_sync_site_parse_markdown_item",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/sync_site.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_verify_routing",
+      "target": "scripts_verify_routing_simulate_vercel_routing",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_verify_routing",
+      "target": "scripts_verify_routing_get_test_paths",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_verify_routing",
+      "target": "scripts_verify_routing_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/verify_routing.py",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -66244,7 +67118,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L20",
+      "source_location": "L111",
       "weight": 1.0
     },
     {
@@ -66255,7 +67129,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L348",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app",
+      "target": "site_js_app_updatebadgecount",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "site/js/app.js",
+      "source_location": "L434",
       "weight": 1.0
     },
     {
@@ -66266,7 +67151,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L380",
+      "source_location": "L446",
       "weight": 1.0
     },
     {
@@ -66277,7 +67162,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L399",
+      "source_location": "L473",
       "weight": 1.0
     },
     {
@@ -66288,7 +67173,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L433",
+      "source_location": "L525",
       "weight": 1.0
     },
     {
@@ -66299,7 +67184,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L447",
+      "source_location": "L540",
       "weight": 1.0
     },
     {
@@ -66310,7 +67195,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L471",
+      "source_location": "L569",
       "weight": 1.0
     },
     {
@@ -66321,7 +67206,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L497",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -66332,7 +67217,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L564",
+      "source_location": "L675",
       "weight": 1.0
     },
     {
@@ -66343,7 +67228,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L579",
+      "source_location": "L690",
       "weight": 1.0
     },
     {
@@ -66354,7 +67239,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L603",
+      "source_location": "L714",
+      "weight": 1.0
+    },
+    {
+      "source": "site_js_app",
+      "target": "site_js_app_ishomeroute",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "site/js/app.js",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -66365,7 +67261,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "site/js/app.js",
-      "source_location": "L824",
+      "source_location": "L902",
       "weight": 1.0
     },
     {
@@ -67146,6 +68042,28 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".specstory/history/2026-08-03_22-18-13Z-landing-page-design-for.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "vercel_json_vercel",
+      "target": "vercel_cleanurls",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "vercel_json_vercel",
+      "target": "vercel_rewrites",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vercel.json",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -71382,7 +72300,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "site/js/app.js",
-      "source_location": "L685",
+      "source_location": "L788",
       "weight": 1.0
     },
     {
@@ -71394,10 +72312,10 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "site/js/app.js",
-      "source_location": "L775",
+      "source_location": "L860",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c579ad2d4478e858b20feb4898c8971c047fbfe2"
+  "built_at_commit": "4995149b512c0edacff71d4fb7fb9e2747d68683"
 }
