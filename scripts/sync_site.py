@@ -421,7 +421,7 @@ def update_landing_and_rewards_pages(all_items, items_by_folder):
             idx_content = f.read()
             
         idx_content = re.sub(r'(>)\d+(\s+resources<)', rf'\g<1>{total_count}\2', idx_content)
-        idx_content = re.sub(r'(<span class="landing-hero-num tnum">)\d+(</span>)', rf'\g<1>{total_count}\2', idx_content)
+        idx_content = re.sub(r'(<span class="landing-hero-num tnum"[^>]*data-hero-count[^>]*>)\d+(</span>)', rf'\g<1>{total_count}\2', idx_content)
         idx_content = re.sub(r'\d+\s+resources\s+·\s+8\s+categories', f'{total_count} resources · 8 categories', idx_content)
         idx_content = re.sub(r'\d+\s+items across 8 categories\.', f'{total_count} items across 8 categories.', idx_content)
         idx_content = re.sub(r'\d+ copy-paste AI prompts', f'{total_count} copy-paste AI prompts', idx_content)

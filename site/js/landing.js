@@ -89,7 +89,7 @@
         var total = data.items.length;
 
         // 1. Hero number
-        var heroNum = document.querySelector('.landing-hero-num:first-of-type') || document.getElementById('heroTotalCount');
+        var heroNum = document.querySelector('.landing-hero-num[data-hero-count]') || document.querySelector('.landing-hero-num:first-of-type');
         if (heroNum) {
           heroNum.textContent = total;
         }
