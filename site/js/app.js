@@ -3,6 +3,11 @@
  * Phase 6: Search, Bundles, Bookmarks & Utilities
  */
 
+function isHomeRoute() {
+  const path = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+  return path === '' || path === '/rewards';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initSearchSystem();
   initBookmarks();
@@ -117,11 +122,7 @@ function initSearchSystem() {
     inputWrapper.style.display = 'none';
     scopeSelect.style.display = 'none';
     searchInput.value = '';
-    const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-    const parts = cleanPath.split('/').filter(Boolean);
-    const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
-    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'rewards' || lastSeg === 'rewards.html' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
-    if (isHome) {
+    if (isHomeRoute()) {
       const openFilterBtn = document.getElementById('openFilterDrawerBtn');
       if (openFilterBtn) openFilterBtn.style.display = 'none';
       if (typeof window.resetFilters === 'function') window.resetFilters();
@@ -150,11 +151,7 @@ function initSearchSystem() {
       return;
     }
 
-    const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-    const parts = cleanPath.split('/').filter(Boolean);
-    const lastSeg = parts.length > 0 ? parts[parts.length - 1] : '';
-    const isHome = parts.length === 0 || lastSeg === 'home' || lastSeg === 'rewards' || lastSeg === 'rewards.html' || lastSeg === 'home.html' || lastSeg === 'index.html' || lastSeg === 'site';
-    if (isHome) {
+    if (isHomeRoute()) {
       const openFilterBtn = document.getElementById('openFilterDrawerBtn');
       if (openFilterBtn) openFilterBtn.style.display = 'inline-flex';
     }
@@ -441,24 +438,28 @@ function initShortcuts() {
     }
 
     switch(e.key.toLowerCase()) {
-      case '/':
+      case '/': {
         e.preventDefault();
         toggleSearch();
         break;
-      case 'b':
+      }
+      case 'b': {
         // Try to bookmark the current page if it's a deep page
         const bBtn = document.querySelector('.bookmark-main-btn');
         if (bBtn) bBtn.click();
         break;
-      case 'c':
+      }
+      case 'c': {
         // Copy the main prompt if it exists
         const copyBtn = document.querySelector('.copy-main-btn');
         if (copyBtn) copyBtn.click();
         break;
-      case 'r':
+      }
+      case 'r': {
         // Randomizer
         loadRandomResource();
         break;
+      }
     }
   });
 }
@@ -645,7 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.getElementById('globalHeader');
   if (!header) return;
   
-  if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html') || window.location.pathname === '/home' || window.location.pathname.endsWith('/rewards.html') || window.location.pathname === '/rewards') {
+  if (isHomeRoute()) {
     document.body.classList.add('is-home');
   }
 });
@@ -711,10 +712,7 @@ function initFilterSystem() {
   const resetFiltersBtn = document.getElementById('resetFiltersBtn');
   const applyFiltersBtn = document.getElementById('applyFiltersBtn');
   
-  const cleanPath = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-  const parts = cleanPath.split('/').filter(Boolean);
-  const lastSegment = parts.length > 0 ? parts[parts.length - 1] : '';
-  const isHomePage = parts.length === 0 || lastSegment === 'home' || lastSegment === 'rewards' || lastSegment === 'rewards.html' || lastSegment === 'home.html' || lastSegment === 'index.html' || lastSegment === 'site';
+  const isHomePageVal = isHomeRoute();
 
   const headerContent = document.querySelector('.new-global-header') || document.querySelector('header');
   if (headerContent) {
@@ -724,7 +722,7 @@ function initFilterSystem() {
       triggerBtn.className = 'filter-trigger-btn';
       triggerBtn.id = 'openFilterDrawerBtn';
       triggerBtn.setAttribute('aria-label', 'Open Filters');
-      triggerBtn.style.display = isHomePage ? 'none' : 'inline-flex';
+      triggerBtn.style.display = isHomePageVal ? 'none' : 'inline-flex';
       triggerBtn.innerHTML = `
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
         <span class="filter-badge" id="filterActiveBadge">0</span>
@@ -736,7 +734,7 @@ function initFilterSystem() {
          headerContent.appendChild(triggerBtn);
       }
     } else {
-      triggerBtn.style.display = isHomePage ? 'none' : 'inline-flex';
+      triggerBtn.style.display = isHomePageVal ? 'none' : 'inline-flex';
     }
     
     triggerBtn.addEventListener('click', openDrawer);
