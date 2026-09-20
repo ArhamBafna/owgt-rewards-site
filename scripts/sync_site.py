@@ -456,6 +456,9 @@ def update_landing_and_rewards_pages(all_items, items_by_folder):
         idx_content = re.sub(r'(<span class="landing-hero-num tnum">)\d+(</span>)', rf'\g<1>{total_count}\2', idx_content)
         idx_content = re.sub(r'\d+\s+resources\s+·\s+8\s+categories', f'{total_count} resources · 8 categories', idx_content)
         idx_content = re.sub(r'\d+\s+items across 8 categories\.', f'{total_count} items across 8 categories.', idx_content)
+        idx_content = re.sub(r'OWGT Rewards — \d+ AI Resources Free With Newsletter', f'OWGT Rewards — {total_count} AI Resources Free With Newsletter', idx_content)
+        idx_content = re.sub(r'\d+ copy-paste AI prompts', f'{total_count} copy-paste AI prompts', idx_content)
+        idx_content = re.sub(r'\d+ AI resources\. One weekly email\.', f'{total_count} AI resources. One weekly email.', idx_content)
         
         prompts_cnt = counts.get('Prompts', 0)
         tools_cnt = counts.get('Tools', 0)
@@ -604,7 +607,9 @@ def sync_all():
     # 3. Update site/search-index.json
     search_index = []
     for it in all_items:
-        clean_content = re.sub(r'[#*`_\[\]()>]', ' ', it['content']).strip()
+        # search_blob is the search-optimised text. `content` stays the raw item body
+        # so the UI (Quick View, Spotlight copy) never shows mangled or synthetic text.
+        search_blob = re.sub(r'[#*`_\[\]()>]', ' ', it['content']).strip()
         if it['is_shallow'] and it['url']:
             parsed_url = urlparse(it['url'])
             # Extract just the hostname (e.g., github.com) and split on dots
@@ -615,7 +620,7 @@ def sync_all():
             url_keywords = re.sub(r'https?://|www\.', '', it['url'])
             url_keywords = re.sub(r'[/.\-_?=&%:]+', ' ', url_keywords).strip()
             
-            clean_content = f"{it['description']} {host_keywords} {url_keywords}".strip()
+            search_blob = f"{it['description']} {host_keywords} {url_keywords}".strip()
             
         search_index.append({
             "id": it['id'],
@@ -627,7 +632,8 @@ def sync_all():
             "path": it['path'],
             "url": it['url'],
             "is_shallow": it['is_shallow'],
-            "content": clean_content
+            "content": it['content'],
+            "search_blob": search_blob
         })
     
     search_json_path = os.path.join(SITE_DIR, 'search-index.json')
@@ -658,7 +664,7 @@ def sync_all():
     # 5. Update Category Pages
     for folder, items in items_by_folder.items():
         update_category_html_page(folder, items)
-        
+
     # 5.5 Generate Bundle Pages
     bundle_paths = []
     bundle_mapping_path = os.path.join(SITE_DIR, 'bundle_mapping.json')
@@ -682,10 +688,10 @@ def sync_all():
                 
             bundle_paths.append(f"/items/bundles/bundle-{bundle_id}")
         print(f"Generated {len(bundle_mapping)} bundle pages.")
-        
+
     # 6. Update Landing (index.html) and Rewards (rewards.html) Pages
     update_landing_and_rewards_pages(all_items, items_by_folder)
-        
+
     # 7. Stale / Orphaned HTML Cleanup
     valid_html_paths = set(os.path.abspath(os.path.join(SITE_DIR, it['path'].lstrip('/'))) + '.html' for it in all_items if not it['is_shallow'])
     for b_path in bundle_paths:

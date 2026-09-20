@@ -51,7 +51,7 @@ function initSearchSystem() {
     'tags': 'Tags',
     'bookmarks': 'Saved',
     'learning': 'Learning',
-    'cheatsheets': 'Cheatsheets',
+    'cheatsheets': 'Cheat Sheets',
     'templates': 'Templates',
     'frameworks': 'Frameworks'
   };
@@ -131,7 +131,8 @@ function initSearchSystem() {
       originalMainContent = null;
       initBookmarks();
       initExpandableCards();
-      if (typeof window.initFilterSystem === 'function') window.initFilterSystem();
+      // The filter drawer lives outside <main>, so it survives a main-content restore.
+      // Re-running initFilterSystem here would append a second drawer (duplicate ids).
     }
   };
 
@@ -164,7 +165,8 @@ function initSearchSystem() {
 
     const tokens = query.split(/\s+/).filter(Boolean);
     const isTagScope = currentScope.toLowerCase() === 'tags' || window.location.pathname.includes('/tags');
-    const isBookmarkScope = currentScope.toLowerCase() === 'bookmarks';
+    // The Saved page's local scope label is 'Saved', so accept both spellings.
+    const isBookmarkScope = ['bookmarks', 'saved'].includes(currentScope.toLowerCase());
     
     let bookmarks = [];
     if (isBookmarkScope) {
@@ -174,7 +176,9 @@ function initSearchSystem() {
     const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
     const scoredResults = searchData.map(item => {
-      if (currentScope !== 'global' && !isBookmarkScope && item.category.toLowerCase() !== currentScope.toLowerCase()) return null;
+      // A category scope must match the item's category. The Tags scope is a tag search,
+      // so it is not restricted to a single category.
+      if (currentScope !== 'global' && !isBookmarkScope && !isTagScope && item.category.toLowerCase() !== currentScope.toLowerCase()) return null;
       if (isBookmarkScope && !bookmarks.includes(item.id)) return null;
 
       let score = 0;
@@ -225,7 +229,8 @@ function initSearchSystem() {
 
       searchInStr(item.name, 1000, 'name');
       searchInStr(item.description, 100, 'desc');
-      searchInStr(item.content, 10, 'content');
+      // search_blob is the search-optimised text; content holds the real display text.
+      searchInStr(item.search_blob || item.content, 10, 'content');
       searchInStr(item.url, 50, 'url');
       
       const tagPoints = isTagScope ? 500 : 1;
@@ -314,9 +319,19 @@ function initSearchSystem() {
           `;
         } else {
           // Deep Item Card matching site category card styling
-          const catClass = item.category_slug || (item.category ? item.category.toLowerCase() : 'prompts');
+          const catColorMap = {
+            'Cheat Sheets': '--color-cat-cheatsheets',
+            'Frameworks': '--color-cat-frameworks',
+            'Guides': '--color-cat-guides',
+            'Learning': '--color-cat-learning',
+            'Prompts': '--color-cat-prompts',
+            'Resources': '--color-cat-resources',
+            'Templates': '--color-cat-templates',
+            'Tools': '--color-cat-tools'
+          };
+          const catColor = catColorMap[item.category] || '--color-cat-prompts';
           html += `
-            <a href="${item.path}" class="card" style="--cat-color: var(--color-cat-${catClass}); text-decoration: none;">
+            <a href="${item.path}" class="card" style="--cat-color: var(${catColor}); text-decoration: none;">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
                 <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
@@ -401,6 +416,20 @@ function updateBookmarkUI(id, isBookmarked) {
    GLOBAL KEYBOARD SHORTCUTS
    ========================================================================== */
 function initShortcuts() {
+  // Open/close the header search. Used by the '/' shortcut and Escape handling.
+  // No-op on pages without the header search widgets (e.g. bundles, index).
+  window.toggleSearch = () => {
+    const triggerBtn = document.getElementById('searchTriggerBtn');
+    const searchContainer = document.getElementById('headerSearchContainer');
+    if (!triggerBtn || !searchContainer) return;
+    if (searchContainer.style.display !== 'none') {
+      const closeBtn = document.getElementById('closeSearchBtn');
+      if (closeBtn) closeBtn.click();
+    } else {
+      triggerBtn.click();
+    }
+  };
+
   document.addEventListener('keydown', (e) => {
     // Ignore keyboard shortcuts if modifier keys (Ctrl, Meta, Alt) are pressed
     if (e.ctrlKey || e.metaKey || e.altKey) return;
@@ -438,8 +467,10 @@ function loadRandomResource() {
   fetch('/search-index.json')
     .then(res => res.json())
     .then(data => {
-      if (data.length > 0) {
-        const randomItem = data[Math.floor(Math.random() * data.length)];
+      // Only deep items have a standalone page; shallow item paths are not routable.
+      const navigable = data.filter(it => !it.is_shallow && it.path);
+      if (navigable.length > 0) {
+        const randomItem = navigable[Math.floor(Math.random() * navigable.length)];
         window.location.href = `${randomItem.path}`;
       }
     });
@@ -450,6 +481,10 @@ function loadRandomResource() {
    ========================================================================== */
 function initCopyEngine() {
   window.copyToClipboard = (textToCopy, btnElement) => {
+    if (!navigator.clipboard) {
+      showToast('Copy not supported here');
+      return;
+    }
     navigator.clipboard.writeText(textToCopy).then(() => {
       showToast('Copied to clipboard!');
       const originalHTML = btnElement.innerHTML;
@@ -466,7 +501,7 @@ function initCopyEngine() {
         btnElement.style.color = "";
         btnElement.style.borderColor = "";
       }, 2000);
-    });
+    }).catch(() => showToast('Copy failed - use Ctrl/Cmd+C'));
   };
 }
 
@@ -483,7 +518,8 @@ function showToast(message) {
       background: 'var(--color-ink)', color: 'var(--color-paper)',
       padding: '0.75rem 1.5rem', fontFamily: 'var(--font-outlier)', textTransform: 'uppercase',
       fontSize: 'var(--text-xs)', zIndex: '9999', boxShadow: '4px 4px 0 var(--color-accent)',
-      transition: 'opacity 0.3s', opacity: '0'
+      // pointerEvents none so the invisible toast never swallows clicks
+      transition: 'opacity 0.3s', opacity: '0', pointerEvents: 'none'
     });
     document.body.appendChild(toast);
   }
@@ -517,6 +553,9 @@ function initSpotlight() {
     titleEl.textContent = item.name;
     catEl.textContent = `Category: ${item.category}`;
     descEl.textContent = item.description ? `"${item.description}"` : `"Curated AI resource from the vault."`;
+    if (copyBtn) {
+      copyBtn.textContent = (item.content && !item.is_shallow) ? 'Copy Prompt' : 'Copy Description';
+    }
     if (linkBtn) {
       if (item.is_shallow) {
         if (item.url) {
@@ -618,6 +657,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function initFilterSystem() {
   const mainContentArea = document.querySelector('main');
   if (!mainContentArea) return;
+  // Build the drawer once per page load; re-running would duplicate ids and listeners.
+  if (window.__owgtFiltersReady) return;
+  window.__owgtFiltersReady = true;
 
   let activeFilters = {
     category: '',
@@ -844,11 +886,15 @@ function initFilterSystem() {
        const headerTag = card.querySelector('.tag');
        const metaTags = card.querySelector('.meta');
        
-       const cardSubcat = headerTag ? headerTag.textContent.trim().toLowerCase() : '';
+       // Every card template puts the item's category in its header .tag element.
+       const cardLabel = headerTag ? headerTag.textContent.trim().toLowerCase() : '';
        const cardTagsStr = metaTags ? metaTags.textContent.toLowerCase() : '';
        
        let show = true;
-       if (activeFilters.subcategory && cardSubcat !== activeFilters.subcategory.toLowerCase()) {
+       if (activeFilters.category && cardLabel !== activeFilters.category.toLowerCase()) {
+         show = false;
+       }
+       if (show && activeFilters.subcategory && cardLabel !== activeFilters.subcategory.toLowerCase()) {
          show = false;
        }
        if (show && activeFilters.tags.length > 0) {
