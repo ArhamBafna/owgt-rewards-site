@@ -583,62 +583,41 @@ def sync_all():
             
     sorted_tag_counts = dict(sorted(tag_counts.items(), key=lambda x: (-x[1], x[0].lower())))
     
-    clean_items_for_data_json = [
-        {
-            "id": it['id'],
-            "name": it['name'],
-            "description": it['description'],
-            "category": it['category'],
-            "subcategory": it['subcategory'],
-            "tags": it['tags'],
-            "url": it['url'],
-            "content": it['content'],
-            "is_shallow": it['is_shallow'],
-            "path": it['path']
-        }
-        for it in all_items
-    ]
-    
-    data_json_path = os.path.join(SITE_DIR, 'data.json')
-    with open(data_json_path, 'w', encoding='utf-8') as f:
-        json.dump({"items": clean_items_for_data_json, "tags": sorted_tag_counts}, f, separators=(',', ':'))
-    print(f"Saved {data_json_path}")
-    
-    # 3. Update site/search-index.json
-    search_index = []
+    master_items = []
     for it in all_items:
-        # search_blob is the search-optimised text. `content` stays the raw item body
-        # so the UI (Quick View, Spotlight copy) never shows mangled or synthetic text.
         search_blob = re.sub(r'[#*`_\[\]()>]', ' ', it['content']).strip()
         if it['is_shallow'] and it['url']:
             parsed_url = urlparse(it['url'])
-            # Extract just the hostname (e.g., github.com) and split on dots
             host_parts = parsed_url.netloc.split('.')
             host_keywords = " ".join([p for p in host_parts if p not in ('www', 'com', 'org', 'net', 'io')])
             
-            # Combine domain name and raw url keywords for thorough matching
             url_keywords = re.sub(r'https?://|www\.', '', it['url'])
             url_keywords = re.sub(r'[/.\-_?=&%:]+', ' ', url_keywords).strip()
             
             search_blob = f"{it['description']} {host_keywords} {url_keywords}".strip()
             
-        search_index.append({
+        master_items.append({
             "id": it['id'],
             "name": it['name'],
             "description": it['description'],
             "category": it['category'],
-            "subcategory": it['subcategory'],
+            "category_slug": it['category_slug'],
             "tags": it['tags'],
-            "path": it['path'],
             "url": it['url'],
-            "is_shallow": it['is_shallow'],
             "content": it['content'],
-            "search_blob": search_blob
+            "search_blob": search_blob,
+            "is_shallow": it['is_shallow'],
+            "path": it['path']
         })
+    
+    data_json_path = os.path.join(SITE_DIR, 'data.json')
+    with open(data_json_path, 'w', encoding='utf-8') as f:
+        json.dump({"items": master_items, "tags": sorted_tag_counts}, f, separators=(',', ':'))
+    print(f"Saved {data_json_path}")
     
     search_json_path = os.path.join(SITE_DIR, 'search-index.json')
     with open(search_json_path, 'w', encoding='utf-8') as f:
-        json.dump(search_index, f, separators=(',', ':'))
+        json.dump(master_items, f, separators=(',', ':'))
     print(f"Saved {search_json_path}")
     
     # 4. Generate/Update Item HTML Pages
