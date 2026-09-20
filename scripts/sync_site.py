@@ -206,6 +206,23 @@ def generate_deep_item_html(item, prev_item, next_item):
 
     rendered_content = markdown.markdown(item['content'], extensions=['fenced_code', 'tables'])
 
+    is_prompt = (item.get('category') == 'Prompts')
+    if is_prompt:
+        highlight_css = ""
+        highlight_js = ""
+    else:
+        highlight_css = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">'
+        highlight_js = '''<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('pre code[class*="language-"]').forEach((block) => {
+        if (!block.classList.contains('language-text') && !block.classList.contains('language-plaintext')) {
+          hljs.highlightElement(block);
+        }
+      });
+    });
+  </script>'''
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -219,11 +236,11 @@ def generate_deep_item_html(item, prev_item, next_item):
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  {highlight_css}
   <style>
     .prompt-box {{ background: var(--color-paper); border: 2px solid var(--color-ink); box-shadow: var(--card-shadow); padding: var(--space-xl); margin: var(--space-2xl) auto; max-width: 800px; }}
     .prompt-text {{ font-family: var(--font-outlier); font-size: var(--text-base); line-height: var(--lh-body); white-space: pre-wrap; }}
-    .prompt-text.markdown-rendered {{ white-space: normal; font-family: var(--font-body); }}
+    .prompt-text.markdown-rendered {{ white-space: normal; font-family: var(--font-body); color: var(--color-ink); }}
     .prompt-text.markdown-rendered h1,
     .prompt-text.markdown-rendered h2,
     .prompt-text.markdown-rendered h3,
@@ -291,15 +308,8 @@ def generate_deep_item_html(item, prev_item, next_item):
       <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="/js/app.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {{
-      document.querySelectorAll('pre code').forEach((block) => {{
-        hljs.highlightElement(block);
-      }});
-    }});
-  </script>
+  {highlight_js}
 </body>
 </html>
 '''

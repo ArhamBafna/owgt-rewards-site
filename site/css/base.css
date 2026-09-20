@@ -171,6 +171,22 @@ p {
   max-width: none;
 }
 
+/* Prompt box styling safeguards */
+.prompt-box pre,
+.prompt-box code,
+.prompt-text pre,
+.prompt-text code {
+  color: var(--color-ink) !important;
+  background: transparent !important;
+  border: none !important;
+}
+.prompt-box .hljs,
+.prompt-text .hljs,
+.prompt-text [class*="hljs-"] {
+  color: var(--color-ink) !important;
+  background: transparent !important;
+}
+
 .eyebrow a {
   color: inherit;
   text-decoration: none;
