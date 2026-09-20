@@ -928,3 +928,43 @@ function initFilterSystem() {
     });
   }
 }
+
+// Live count updater for rewards.html and category pages
+if (window.owgtDataPromise) {
+  window.owgtDataPromise.then(function (data) {
+    if (!data || !Array.isArray(data.items)) return;
+    var catCounts = {};
+    data.items.forEach(function (it) {
+      var c = (it.category || it.folder_category || '').trim().toLowerCase();
+      if (c) catCounts[c] = (catCounts[c] || 0) + 1;
+    });
+
+    // Update category cards on rewards.html
+    document.querySelectorAll('.card-grid .card, .category-browse .card').forEach(function (card) {
+      var title = card.querySelector('.card__title');
+      var footerMeta = card.querySelector('.card__footer .meta');
+      if (title && footerMeta) {
+        var name = title.textContent.trim().toLowerCase();
+        if (catCounts[name] !== undefined) {
+          footerMeta.textContent = catCounts[name] + ' Items';
+        }
+      }
+    });
+
+    // Update category page hero description (e.g. "165 curated entries.")
+    var heroDesc = document.querySelector('.category-hero__desc');
+    if (heroDesc) {
+      var path = window.location.pathname.toLowerCase();
+      Object.keys(catCounts).forEach(function (catName) {
+        var slug = catName.replace(/\s+/g, '');
+        var slugHyphen = catName.replace(/\s+/g, '-');
+        if (path.includes(slug) || path.includes(slugHyphen)) {
+          heroDesc.textContent = heroDesc.textContent.replace(/\d+\s+curated\s+entries/i, catCounts[catName] + ' curated entries');
+        }
+      });
+    }
+  }).catch(function (e) {
+    console.warn('Could not update live counts:', e);
+  });
+}
+

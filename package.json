@@ -2,6 +2,7 @@
   "name": "owgt-rewards",
   "version": "1.0.0",
   "scripts": {
+    "build": "python scripts/sync_site.py",
     "dev": "vercel dev --yes"
   },
   "dependencies": {
