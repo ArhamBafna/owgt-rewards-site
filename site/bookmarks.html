@@ -107,8 +107,8 @@
       if (bookmarkIds.length === 0) {
         if (countEl) countEl.textContent = '0 saved entries.';
         gridEl.innerHTML = `
-          <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md);">
-            <p style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin-bottom: var(--space-xs);">Your Saved Vault is Empty</p>
+          <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md); margin: 0 auto; width: 100%;">
+            <h2 style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin: 0 auto var(--space-xs); max-width: none;">Your Saved Vault is Empty</h2>
             <p style="font-family: var(--font-body); color: var(--color-muted); max-width: 480px; margin: 0 auto var(--space-lg);">Click "♡ Save" on any prompt, tool, or guide across the library to pin it here for rapid access.</p>
             <a href="/rewards" class="btn btn--primary" style="display: inline-block;">Browse Rewards Library →</a>
           </div>`;
@@ -127,8 +127,8 @@
 
           if (savedItems.length === 0) {
             gridEl.innerHTML = `
-              <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md);">
-                <p style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin-bottom: var(--space-xs);">Your Saved Vault is Empty</p>
+              <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md); margin: 0 auto; width: 100%;">
+                <h2 style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin: 0 auto var(--space-xs); max-width: none;">Your Saved Vault is Empty</h2>
                 <p style="font-family: var(--font-body); color: var(--color-muted); max-width: 480px; margin: 0 auto var(--space-lg);">Click "♡ Save" on any prompt, tool, or guide across the library to pin it here for rapid access.</p>
                 <a href="/rewards" class="btn btn--primary" style="display: inline-block;">Browse Rewards Library →</a>
               </div>`;
