@@ -30,9 +30,13 @@ BUNDLE_META = {
         "title": "Content Creation",
         "description": "Systematize your social media and blog posting with AI-driven content workflows."
     },
+    "agency-and-marketing": {
+        "title": "Agency & Marketing Operations",
+        "description": "SOPs, prompt chains, and tools to run your agency and marketing operations."
+    },
     "marketing-stack": {
         "title": "Marketing Stack",
-        "description": "SOPs, prompt chains, and tools to run your agency and marketing operations."
+        "description": "SOPs, prompt chains, and tools to run your marketing operations and campaigns."
     },
     "no-code-automation": {
         "title": "No-Code Automation",
@@ -305,23 +309,17 @@ def generate_bundle_html_page(bundle_id, bundle_info, items):
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{html.escape(bundle_info['description'])}">
+  <meta property="og:title" content="{html.escape(bundle_info['title'])} - OWGT Rewards">
+  <meta property="og:description" content="{html.escape(bundle_info['description'])}">
+  <meta property="og:url" content="https://rewards.owgt.com/items/bundles/bundle-{bundle_id}">
   <title>{html.escape(bundle_info['title'])} - OWGT Rewards Library</title>
-  
+  <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
-  
   <style>
-    .nav-mast {{ display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }}
-    .mast-name {{ font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }}
-    .mast-line {{ font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }}
-    .mast-nav ul {{ display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }}
-    .mast-nav a {{ font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }}
-    .mast-nav a:hover, .mast-nav a.active {{ color: var(--color-accent); }}
-    .mast-rule.double {{ border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }}
-
     .bundle-header {{
       padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
       text-align: center;
@@ -329,25 +327,21 @@ def generate_bundle_html_page(bundle_id, bundle_info, items):
       color: var(--color-accent-ink);
       border-bottom: 2px solid var(--color-ink);
     }}
+    .bundle-header .eyebrow {{
+      margin: 0 auto var(--space-sm);
+      max-width: none;
+      color: var(--color-ink);
+      text-align: center;
+    }}
   </style>
 </head>
 <body>
-  <header class="nav-mast">
-    <a href="/rewards" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
-    <nav class="mast-nav" aria-label="Primary">
-      <ul>
-        <li><a href="/prompts">Prompts</a></li>
-        <li><a href="/tools">Tools</a></li>
-        <li><a href="/rewards#bundles" class="active">Bundles</a></li>
-      </ul>
-    </nav>
-    <hr class="mast-rule double" aria-hidden="true">
-  </header>
+  {build_global_header()}
 
   <main class="page-wrap">
     <header class="bundle-header">
       <div class="container container--narrow">
-        <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-sm);">◆ CURATED STACK</p>
+        <p class="eyebrow">◆ CURATED STACK</p>
         <h1 class="display-hero" style="font-size: clamp(2.5rem, 6vw, 6rem);">{html.escape(bundle_info['title'])}</h1>
         <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
           {html.escape(bundle_info['description'])}
@@ -363,6 +357,14 @@ def generate_bundle_html_page(bundle_id, bundle_info, items):
       </div>
     </section>
   </main>
+
+  <footer class="foot-mast">
+    <div class="container">
+      <p class="wordmark">OWGT Rewards</p>
+      <p class="links muted">© 2026 OWGT</p>
+      <p class="mast-line" style="margin-top: 8px;">MADE BY ARHAM</p>
+    </div>
+  </footer>
   
   <script src="/js/app.js"></script>
 </body>
