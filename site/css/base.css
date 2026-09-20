@@ -880,6 +880,13 @@ p {
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease !important;
 }
 
+[data-bookmark-id].is-saved,
+.bookmark-main-btn.is-saved {
+  background: #ef4444 !important;
+  color: #fff !important;
+  border-color: #ef4444 !important;
+}
+
 [data-bookmark-id]:hover,
 .bookmark-main-btn:hover {
   transform: none !important;

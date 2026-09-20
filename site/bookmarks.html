@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="/css/base.css">
 </head>
 <body>
-  <header class="new-global-header" id="globalHeader">
+  <!-- HEADER_START -->
+<header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
     <a href="/rewards" class="new-logo-link">
-      <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
+      <img src="/favicon.png" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
   </div>
@@ -23,24 +24,18 @@
       <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Saved</a></li>
+      <li><a href="/bookmarks">Saved <span id="navSavedBadge" class="nav__badge" style="display: none;">0</span></a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -52,6 +47,7 @@
     </div>
   </div>
 </header>
+<!-- HEADER_END -->
 
 
 

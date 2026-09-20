@@ -109,10 +109,11 @@
 </head>
 <body>
 
-  <header class="new-global-header" id="globalHeader">
+  <!-- HEADER_START -->
+<header class="new-global-header" id="globalHeader">
   <div class="new-header-left">
     <a href="/rewards" class="new-logo-link">
-      <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
+      <img src="/favicon.png" alt="OWGT Rewards Logo" class="new-header-logo">
       <span class="new-header-title">OWGT Rewards</span>
     </a>
   </div>
@@ -123,24 +124,18 @@
       <li><a href="/learning">Learning</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Saved</a></li>
+      <li><a href="/bookmarks">Saved <span id="navSavedBadge" class="nav__badge" style="display: none;">0</span></a></li>
     </ul>
   </nav>
   <div class="new-header-right">
-    <!-- Search Trigger Icon -->
     <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </button>
-    
-    <!-- Expanded Search Container -->
     <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <!-- Step 1: Scope Selection -->
       <div id="searchScopeSelect" class="search-scope-select">
         <button class="scope-btn" data-scope="global">All Rewards</button>
         <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
       </div>
-      
-      <!-- Step 2: Search Input -->
       <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
         <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
         <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
@@ -152,6 +147,7 @@
     </div>
   </div>
 </header>
+<!-- HEADER_END -->
 
 
 
@@ -308,40 +304,97 @@
           <a href="/items/bundles/bundle-cold-outreach-stack" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
             <div class="card__body">
               <h3 class="card__title">Cold Outreach Stack</h3>
-              <p class="card__desc">Everything you need to automate lead gen and emails.</p>
+              <p class="card__desc">Everything you need to automate lead gen and emails. A complete end-to-end workflow collection.</p>
             </div>
             <div class="card__footer">
               <span class="meta">View Bundle</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>
-          
           <a href="/items/bundles/bundle-content-creation" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
             <div class="card__body">
               <h3 class="card__title">Content Creation</h3>
-              <p class="card__desc">Systematize your social media and blog posting.</p>
+              <p class="card__desc">Systematize your social media and blog posting with AI-driven content workflows.</p>
             </div>
             <div class="card__footer">
               <span class="meta">View Bundle</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>
-          
-          <a href="/items/bundles/bundle-marketing-stack" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+          <a href="/items/bundles/bundle-ai-research" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">AI Research</h3>
+              <p class="card__desc">Deep-dive frameworks and tools for competitive analysis and rapid knowledge synthesis.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          <a href="/items/bundles/bundle-build-ai-apps" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Build AI Apps</h3>
+              <p class="card__desc">From idea to deployment: resources and frameworks for building modern AI applications.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          <a href="/items/bundles/bundle-prompt-engineering" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Prompt Engineering</h3>
+              <p class="card__desc">Master advanced prompting techniques to unlock the full potential of large language models.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          <a href="/items/bundles/bundle-video-and-motion" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Video & Motion</h3>
+              <p class="card__desc">Create cinematic visuals, animated assets, and compelling motion graphics using AI.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          <a href="/items/bundles/bundle-career-and-hiring" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Career & Hiring</h3>
+              <p class="card__desc">Optimize your job search, interviewing, and team building processes with AI assistance.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
+          <a href="/items/bundles/bundle-marketing-stack" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
             <div class="card__body">
               <h3 class="card__title">Marketing Stack</h3>
-              <p class="card__desc">SOPs, prompt chains, and tools to run your agency.</p>
+              <p class="card__desc">SOPs, prompt chains, and tools to run your agency and marketing operations.</p>
             </div>
             <div class="card__footer">
               <span class="meta">View Bundle</span>
               <span class="card__expand-arrow">→</span>
             </div>
           </a>
-          
+          <a href="/items/bundles/bundle-developer-toolkit" class="card scroll-card" style="background: var(--color-paper-3); text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">Developer Toolkit</h3>
+              <p class="card__desc">Essential CLIs, IDEs, and coding tools to supercharge your software engineering speed.</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>
           <a href="/items/bundles/bundle-no-code-automation" class="card scroll-card" style="background: var(--color-paper-2); text-decoration: none;">
             <div class="card__body">
               <h3 class="card__title">No-Code Automation</h3>
-              <p class="card__desc">Time-saving automations for everyday work.</p>
+              <p class="card__desc">Time-saving automations for everyday work. Connect tools without writing code.</p>
             </div>
             <div class="card__footer">
               <span class="meta">View Bundle</span>

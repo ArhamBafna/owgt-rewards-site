@@ -55,22 +55,27 @@ window.renderCard = (item, matchedSnippet = '') => {
     `;
   } else {
     return `
-      <a href="${window.escapeHTML(item.path)}" class="card" style="--cat-color: var(${catColor}); text-decoration: none;">
+      <div class="card" style="--cat-color: var(${catColor}); position: relative;">
         <div class="card__accent-strip"></div>
-        <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-          <span class="tag" style="font-size: 9px; padding: 2px 6px;">${window.escapeHTML(item.subcategory || item.category)}</span>
+        <div class="card__header" style="display: flex; justify-content: space-between; align-items: start; position: relative; z-index: 2;">
+          <span class="tag" style="font-size: 9px; padding: 2px 6px;">${window.escapeHTML(item.category)}</span>
           <button class="btn--ghost" data-bookmark-id="${window.escapeHTML(item.id)}" data-title="${window.escapeHTML(item.name)}" data-path="${window.escapeHTML(item.path)}" data-category="${window.escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
         </div>
         <div class="card__body">
-          <h3 class="card__title">${window.escapeHTML(item.name)}</h3>
+          <h3 class="card__title">
+            <a href="${window.escapeHTML(item.path)}" style="color: inherit; text-decoration: none;">
+              ${window.escapeHTML(item.name)}
+              <span style="position: absolute; inset: 0; z-index: 1;"></span>
+            </a>
+          </h3>
           <p class="card__desc">${window.escapeHTML(item.description || '')}</p>
-          ${matchedSnippet ? `<div class="search-snippet">${matchedSnippet}</div>` : ''}
+          ${matchedSnippet ? `<div class="search-snippet" style="position: relative; z-index: 2;">${matchedSnippet}</div>` : ''}
         </div>
         <div class="card__footer">
           <span class="meta">${tagsStr}</span>
           <span class="card__expand-arrow">→</span>
         </div>
-      </a>
+      </div>
     `;
   }
 };
@@ -117,7 +122,7 @@ function initSearchSystem() {
   if (!triggerBtn || !searchContainer) return;
 
   let searchData = [];
-  let currentScope = 'global'; // 'global' or category name
+  let searchScope = { mode: 'all', category: null }; // modes: 'all', 'category', 'tags', 'saved'
   let originalMainContent = null;
   const mainContentArea = document.querySelector('main');
   
@@ -141,8 +146,16 @@ function initSearchSystem() {
     'templates': 'Templates',
     'frameworks': 'Frameworks'
   };
+  let defaultLocalScope = { mode: 'all', category: null };
   if (catMap[catSlug]) {
     pageCategory = catMap[catSlug];
+    if (catSlug === 'tags') {
+      defaultLocalScope = { mode: 'tags', category: null };
+    } else if (catSlug === 'bookmarks' || catSlug === 'saved') {
+      defaultLocalScope = { mode: 'saved', category: null };
+    } else {
+      defaultLocalScope = { mode: 'category', category: pageCategory };
+    }
     if(localScopeBtn) {
       localScopeBtn.textContent = pageCategory;
       localScopeBtn.style.display = 'inline-block';
@@ -162,7 +175,7 @@ function initSearchSystem() {
     if (globalHeader) globalHeader.classList.add('search-active');
     if (!isCategoryPage) {
       // Direct open Global "All Rewards" search on homepage/global pages
-      currentScope = 'global';
+      searchScope = { mode: 'all', category: null };
       activeScopePill.textContent = 'All Rewards';
       searchContainer.style.display = 'flex';
       scopeSelect.style.display = 'none';
@@ -180,8 +193,13 @@ function initSearchSystem() {
   scopeBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       const scopeType = e.target.getAttribute('data-scope');
-      currentScope = scopeType === 'global' ? 'global' : pageCategory;
-      activeScopePill.textContent = scopeType === 'global' ? 'All Rewards' : currentScope;
+      if (scopeType === 'global') {
+        searchScope = { mode: 'all', category: null };
+        activeScopePill.textContent = 'All Rewards';
+      } else {
+        searchScope = { ...defaultLocalScope };
+        activeScopePill.textContent = pageCategory;
+      }
       
       // Hide scope selector, hide trigger button to avoid overlap
       scopeSelect.style.display = 'none';
@@ -241,9 +259,8 @@ function initSearchSystem() {
     }
 
     const tokens = query.split(/\s+/).filter(Boolean);
-    const isTagScope = currentScope.toLowerCase() === 'tags' || window.location.pathname.includes('/tags');
-    // The Saved page's local scope label is 'Saved', so accept both spellings.
-    const isBookmarkScope = ['bookmarks', 'saved'].includes(currentScope.toLowerCase());
+    const isTagScope = searchScope.mode === 'tags';
+    const isBookmarkScope = searchScope.mode === 'saved';
     
     let bookmarks = [];
     if (isBookmarkScope) {
@@ -253,9 +270,7 @@ function initSearchSystem() {
     const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
     const scoredResults = searchData.map(item => {
-      // A category scope must match the item's category. The Tags scope is a tag search,
-      // so it is not restricted to a single category.
-      if (currentScope !== 'global' && !isBookmarkScope && !isTagScope && item.category.toLowerCase() !== currentScope.toLowerCase()) return null;
+      if (searchScope.mode === 'category' && item.category !== searchScope.category) return null;
       if (isBookmarkScope && !bookmarks.includes(item.id)) return null;
 
       let score = 0;
@@ -378,35 +393,54 @@ function initSearchSystem() {
    BOOKMARKS
    ========================================================================== */
 function initBookmarks() {
-  window.toggleBookmark = (id, title, path, category) => {
-    let bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
-    const exists = bookmarks.find(b => b.id === id);
-    
-    if (exists) {
-      bookmarks = bookmarks.filter(b => b.id !== id);
-      showToast('Removed from Vault');
-    } else {
-      bookmarks.push({ id, title, path, category, date: new Date().toISOString() });
-      showToast('Saved to Vault');
-    }
-    
-    localStorage.setItem('owgt_bookmarks', JSON.stringify(bookmarks));
-    updateBookmarkUI(id, !exists);
-  };
+  if (!window.toggleBookmark) {
+    window.toggleBookmark = (id, title, path, category) => {
+      let bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+      const exists = bookmarks.find(b => b.id === id);
+      
+      if (exists) {
+        bookmarks = bookmarks.filter(b => b.id !== id);
+        showToast('Removed from Vault');
+      } else {
+        bookmarks.push({ id, title, path, category, date: new Date().toISOString() });
+        showToast('Saved to Vault');
+      }
+      
+      localStorage.setItem('owgt_bookmarks', JSON.stringify(bookmarks));
+      updateBookmarkUI(id, !exists);
+      updateBadgeCount(bookmarks.length);
+    };
+  }
   
   // Initialize UI state on page load
   const bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+  updateBadgeCount(bookmarks.length);
   document.querySelectorAll('[data-bookmark-id]').forEach(btn => {
     const id = btn.getAttribute('data-bookmark-id');
     const isBookmarked = bookmarks.some(b => b.id === id);
     updateBookmarkUI(id, isBookmarked);
     
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      toggleBookmark(id, btn.getAttribute('data-title'), btn.getAttribute('data-path'), btn.getAttribute('data-category'));
-    });
+    if (!btn.dataset.bookmarkBound) {
+      btn.dataset.bookmarkBound = 'true';
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleBookmark(id, btn.getAttribute('data-title'), btn.getAttribute('data-path'), btn.getAttribute('data-category'));
+      });
+    }
   });
+}
+
+function updateBadgeCount(count) {
+  const badge = document.getElementById('navSavedBadge');
+  if (badge) {
+    if (count > 0) {
+      badge.textContent = count;
+      badge.style.display = 'inline-flex';
+    } else {
+      badge.style.display = 'none';
+    }
+  }
 }
 
 function updateBookmarkUI(id, isBookmarked) {
@@ -414,16 +448,24 @@ function updateBookmarkUI(id, isBookmarked) {
     if (isBookmarked) {
       btn.innerHTML = '♥ Saved';
       btn.classList.add('is-saved');
-      btn.style.background = '#ef4444';
-      btn.style.color = '#fff';
     } else {
       btn.innerHTML = '♡ Save';
       btn.classList.remove('is-saved');
-      btn.style.background = 'transparent';
-      btn.style.color = 'inherit';
     }
   });
 }
+
+// Prune stale bookmarks once data is loaded
+window.owgtDataPromise.then(data => {
+  let bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+  const validIds = new Set(data.items.map(i => i.id));
+  const originalLength = bookmarks.length;
+  bookmarks = bookmarks.filter(b => validIds.has(b.id));
+  if (bookmarks.length !== originalLength) {
+    localStorage.setItem('owgt_bookmarks', JSON.stringify(bookmarks));
+  }
+  updateBadgeCount(bookmarks.length);
+});
 
 /* ==========================================================================
    GLOBAL KEYBOARD SHORTCUTS
@@ -678,7 +720,6 @@ function initFilterSystem() {
 
   let activeFilters = {
     category: '',
-    subcategory: '',
     tags: []
   };
   
@@ -696,12 +737,7 @@ function initFilterSystem() {
             <option value="">All Categories</option>
           </select>
         </div>
-        <div class="filter-group" id="subcategoryFilterGroup" style="display:none;">
-          <label>Type</label>
-          <select class="filter-select" id="filterSubcategorySelect">
-            <option value="">All Types</option>
-          </select>
-        </div>
+
         <div class="filter-group">
           <label>Tags</label>
           <div class="filter-tags-cloud" id="filterTagsCloud"></div>
@@ -720,8 +756,6 @@ function initFilterSystem() {
   const closeFilterDrawer = document.getElementById('closeFilterDrawer');
   const categoryFilterGroup = document.getElementById('categoryFilterGroup');
   const filterCategorySelect = document.getElementById('filterCategorySelect');
-  const subcategoryFilterGroup = document.getElementById('subcategoryFilterGroup');
-  const filterSubcategorySelect = document.getElementById('filterSubcategorySelect');
   const filterTagsCloud = document.getElementById('filterTagsCloud');
   const resetFiltersBtn = document.getElementById('resetFiltersBtn');
   const applyFiltersBtn = document.getElementById('applyFiltersBtn');
@@ -774,25 +808,7 @@ function initFilterSystem() {
   const pageCategory = catMap[catSlug] || '';
   const isGlobal = !pageCategory;
 
-  function updateSubcategories() {
-    const currentCat = isGlobal ? activeFilters.category : pageCategory;
-    let pool = allItems;
-    if (currentCat) {
-      pool = allItems.filter(i => (i.category || '').toLowerCase() === currentCat.toLowerCase());
-    }
-    const subcats = [...new Set(pool.map(i => i.subcategory).filter(Boolean))].sort();
 
-    filterSubcategorySelect.innerHTML = '<option value="">All Types</option>';
-    if (subcats.length > 0) {
-      subcats.forEach(s => {
-        filterSubcategorySelect.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`);
-      });
-      if (subcategoryFilterGroup) subcategoryFilterGroup.style.display = 'block';
-    } else {
-      if (subcategoryFilterGroup) subcategoryFilterGroup.style.display = 'none';
-      activeFilters.subcategory = '';
-    }
-  }
 
   function populateDrawer() {
     if (!isGlobal) {
@@ -806,7 +822,7 @@ function initFilterSystem() {
       });
     }
 
-    updateSubcategories();
+
 
     // Populate ALL tags across the site so ALL tags appear in filter drawer
     const tags = new Set();
@@ -846,19 +862,13 @@ function initFilterSystem() {
 
   filterCategorySelect.addEventListener('change', (e) => {
     activeFilters.category = e.target.value;
-    activeFilters.subcategory = '';
-    updateSubcategories();
   });
-  filterSubcategorySelect.addEventListener('change', (e) => activeFilters.subcategory = e.target.value);
 
   window.resetFilters = () => {
     activeFilters.category = '';
-    activeFilters.subcategory = '';
     activeFilters.tags = [];
     filterCategorySelect.value = '';
-    filterSubcategorySelect.value = '';
     document.querySelectorAll('.filter-tag-pill').forEach(btn => btn.classList.remove('is-active'));
-    updateSubcategories();
     applyFilters();
   };
 
@@ -874,7 +884,6 @@ function initFilterSystem() {
   function applyFilters() {
     let count = activeFilters.tags.length;
     if (activeFilters.category) count++;
-    if (activeFilters.subcategory) count++;
     
     const badge = document.getElementById('filterActiveBadge');
     if (badge) {
@@ -904,9 +913,6 @@ function initFilterSystem() {
        
        let show = true;
        if (activeFilters.category && cardLabel !== activeFilters.category.toLowerCase()) {
-         show = false;
-       }
-       if (show && activeFilters.subcategory && cardLabel !== activeFilters.subcategory.toLowerCase()) {
          show = false;
        }
        if (show && activeFilters.tags.length > 0) {

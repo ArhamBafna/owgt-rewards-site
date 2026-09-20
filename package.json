@@ -1,0 +1,10 @@
+{
+  "name": "owgt-rewards",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev --yes"
+  },
+  "dependencies": {
+    "vercel": "latest"
+  }
+}

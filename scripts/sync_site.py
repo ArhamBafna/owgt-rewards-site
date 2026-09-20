@@ -111,7 +111,6 @@ def parse_markdown_item(filepath, category_name):
         "category": cat,
         "folder_category": category_name,
         "category_slug": cat_slug,
-        "subcategory": "",
         "tags": tags,
         "url": url,
         "content": body,
@@ -119,6 +118,45 @@ def parse_markdown_item(filepath, category_name):
         "path": path,
         "rel_md_path": f"{category_name}/{os.path.basename(filepath)}"
     }
+
+def build_global_header():
+    return '''<header class="new-global-header" id="globalHeader">
+  <div class="new-header-left">
+    <a href="/rewards" class="new-logo-link">
+      <img src="/favicon.png" alt="OWGT Rewards Logo" class="new-header-logo">
+      <span class="new-header-title">OWGT Rewards</span>
+    </a>
+  </div>
+  <nav class="new-header-nav" aria-label="Primary">
+    <ul>
+      <li><a href="/prompts">Prompts</a></li>
+      <li><a href="/tools">Tools</a></li>
+      <li><a href="/learning">Learning</a></li>
+      <li><a href="/resources">Resources</a></li>
+      <li><a href="/tags">Tags</a></li>
+      <li><a href="/bookmarks">Saved <span id="navSavedBadge" class="nav__badge" style="display: none;">0</span></a></li>
+    </ul>
+  </nav>
+  <div class="new-header-right">
+    <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    </button>
+    <div id="headerSearchContainer" class="header-search-container" style="display: none;">
+      <div id="searchScopeSelect" class="search-scope-select">
+        <button class="scope-btn" data-scope="global">All Rewards</button>
+        <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
+      </div>
+      <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
+        <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
+        <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
+        <button id="executeSearchBtn" class="execute-search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+        <button id="closeSearchBtn" class="close-search-btn" aria-label="Close Search">✕</button>
+      </div>
+    </div>
+  </div>
+</header>'''
 
 def update_indices(items_by_folder, all_tags):
     sorted_tags = sorted(list(all_tags), key=lambda s: s.lower())
@@ -206,43 +244,7 @@ def generate_deep_item_html(item, prev_item, next_item):
   </style>
 </head>
 <body>
-  <header class="new-global-header" id="globalHeader">
-  <div class="new-header-left">
-    <a href="/rewards" class="new-logo-link">
-      <img src="/owgt-rewards-logo.png?v=3" alt="OWGT Rewards Logo" class="new-header-logo">
-      <span class="new-header-title">OWGT Rewards</span>
-    </a>
-  </div>
-  <nav class="new-header-nav" aria-label="Primary">
-    <ul>
-      <li><a href="/prompts">Prompts</a></li>
-      <li><a href="/tools">Tools</a></li>
-      <li><a href="/learning">Learning</a></li>
-      <li><a href="/resources">Resources</a></li>
-      <li><a href="/tags">Tags</a></li>
-      <li><a href="/bookmarks">Saved</a></li>
-    </ul>
-  </nav>
-  <div class="new-header-right">
-    <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open Search">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-    </button>
-    <div id="headerSearchContainer" class="header-search-container" style="display: none;">
-      <div id="searchScopeSelect" class="search-scope-select">
-        <button class="scope-btn" data-scope="global">All Rewards</button>
-        <button class="scope-btn" data-scope="local" id="localScopeBtn">Current Category</button>
-      </div>
-      <div id="searchInputWrapper" class="search-input-wrapper" style="display: none;">
-        <div class="active-scope-pill" id="activeScopePill">All Rewards</div>
-        <input type="text" id="headerSearchInput" placeholder="Search..." autocomplete="off">
-        <button id="executeSearchBtn" class="execute-search-btn" aria-label="Search">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </button>
-        <button id="closeSearchBtn" class="close-search-btn" aria-label="Close Search">✕</button>
-      </div>
-    </div>
-  </div>
-</header>
+  {build_global_header()}
 
   <main class="page-wrap">
     <header class="deep-header">
@@ -457,9 +459,34 @@ def update_landing_and_rewards_pages(all_items, items_by_folder):
             )
             rew_content = pattern.sub(rf'\g<1>{cnt} Items\2', rew_content)
             
+        bundle_mapping_path = os.path.join(SITE_DIR, 'bundle_mapping.json')
+        if os.path.exists(bundle_mapping_path):
+            with open(bundle_mapping_path, 'r', encoding='utf-8') as bf:
+                bundle_mapping = json.load(bf)
+            bundles_html = []
+            for i, bundle_id in enumerate(bundle_mapping.keys()):
+                meta = BUNDLE_META.get(bundle_id, {"title": bundle_id.replace('-', ' ').title(), "description": ""})
+                bg_color = "var(--color-paper-3)" if i % 2 == 0 else "var(--color-paper-2)"
+                bundles_html.append(f'''          <a href="/items/bundles/bundle-{bundle_id}" class="card scroll-card" style="background: {bg_color}; text-decoration: none;">
+            <div class="card__body">
+              <h3 class="card__title">{meta["title"]}</h3>
+              <p class="card__desc">{meta["description"]}</p>
+            </div>
+            <div class="card__footer">
+              <span class="meta">View Bundle</span>
+              <span class="card__expand-arrow">→</span>
+            </div>
+          </a>''')
+            bundles_html_str = "\n".join(bundles_html)
+            bundles_pattern = re.compile(
+                r'(<div class="horizontal-scroll colour-block">).*?(?=\s*</div>\s*</div>\s*</section>\s*<!-- Popular Tag Cloud -->)',
+                re.DOTALL | re.IGNORECASE
+            )
+            rew_content = bundles_pattern.sub(rf'\1\n{bundles_html_str}', rew_content)
+            
         with open(rewards_path, 'w', encoding='utf-8') as f:
             f.write(rew_content)
-        print("Updated rewards.html category badge counts.")
+        print("Updated rewards.html category badge counts and bundles.")
 
 def sync_all():
     print("Starting site sync from organized-data...")
@@ -624,6 +651,20 @@ def sync_all():
 
     # 6. Update Landing (index.html) and Rewards (rewards.html) Pages
     update_landing_and_rewards_pages(all_items, items_by_folder)
+
+    # 6.5 Rewrite hand-written headers
+    html_files = ['bookmarks.html', 'cheatsheets.html', 'frameworks.html', 'guides.html', 'index.html', 'learning.html', 'prompts.html', 'resources.html', 'rewards.html', 'tag-detail.html', 'tags.html', 'templates.html', 'tools.html']
+    header_html = build_global_header()
+    for file in html_files:
+        path = os.path.join(SITE_DIR, file)
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            if '<!-- HEADER_START -->' in content and '<!-- HEADER_END -->' in content:
+                content = re.sub(r'<!-- HEADER_START -->.*?<!-- HEADER_END -->', f'<!-- HEADER_START -->\n{header_html}\n<!-- HEADER_END -->', content, flags=re.DOTALL)
+                with open(path, 'w', encoding='utf-8') as f:
+                    f.write(content)
+            print(f"Rewrote header for {file}")
 
     # 7. Stale / Orphaned HTML Cleanup
     valid_html_paths = set(os.path.abspath(os.path.join(SITE_DIR, it['path'].lstrip('/'))) + '.html' for it in all_items if not it['is_shallow'])
