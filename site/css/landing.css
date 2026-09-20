@@ -680,6 +680,28 @@ body.landing-page,
   gap: var(--space-xs);
 }
 
+.landing-footer__org {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-ink);
+  text-align: center;
+  max-width: 60ch;
+  line-height: 1.4;
+  margin-bottom: var(--space-2xs);
+}
+
+.landing-footer__org a {
+  color: var(--color-ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.landing-footer__org a:hover {
+  color: var(--color-accent-2);
+}
+
 .landing-footer__copy {
   font-family: var(--font-outlier);
   font-size: var(--text-xs);
