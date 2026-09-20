@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build AI Apps - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    .bundle-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      border-bottom: 2px solid var(--color-ink);
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <a href="/rewards" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/prompts">Prompts</a></li>
+        <li><a href="/tools">Tools</a></li>
+        <li><a href="/rewards#bundles" class="active">Bundles</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="bundle-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-sm);">◆ CURATED STACK</p>
+        <h1 class="display-hero" style="font-size: clamp(2.5rem, 6vw, 6rem);">Build AI Apps</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          From idea to deployment: resources and frameworks for building modern AI applications.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-cheatsheets);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Cheat Sheets</span>
+                <button class="btn--ghost" data-bookmark-id="mobile-app-growth-cheat-sheet" data-title="Mobile App Growth Cheat Sheet" data-path="/items/cheatsheets/mobile-app-growth-cheat-sheet" data-category="Cheat Sheets" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Mobile App Growth Cheat Sheet</h3>
+                <p class="card__desc">Cheat sheet for mobile app marketing and growth.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Cheat sheet for mobile app marketing and growth.</p>
+                <a href="https://offers.hubspot.com/view/mobile-app-growth" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Marketing #App #Growth</span>
+              </div>
+            </div>
+            <a href="/items/guides/how-to-build-a-10k-month-app-in-2026" class="card" style="--cat-color: var(--color-cat-guides);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
+                <button class="btn--ghost" data-bookmark-id="how-to-build-a-10k-month-app-in-2026" data-title="How to Build a $10k/Month App in 2026" data-path="/items/guides/how-to-build-a-10k-month-app-in-2026" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">How to Build a $10k/Month App in 2026</h3>
+                <p class="card__desc">A 60-second blueprint on building and launching a profitable app, from idea generation to deployment and marketing.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Software Engineering #Business</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/learning/ai-workflow-building-no-code" class="card" style="--cat-color: var(--color-cat-learning);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-workflow-building-no-code" data-title="AI WORKFLOW BUILDING NO-CODE" data-path="/items/learning/ai-workflow-building-no-code" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI WORKFLOW BUILDING NO-CODE</h3>
+                <p class="card__desc">Using tools like Zapier, Make, or Gumloop to connect applications and automate repetitive tasks without writing code.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#learn skill #Career</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/prompts/apply-first-principles-thinking" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Prompts</span>
+                <button class="btn--ghost" data-bookmark-id="apply-first-principles-thinking" data-title="Apply First Principles Thinking" data-path="/items/prompts/apply-first-principles-thinking" data-category="Prompts" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Apply First Principles Thinking</h3>
+                <p class="card__desc">A strategic template to apply first principles thinking.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Claude #Prompt</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-resources);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="app-ideas" data-title="App Ideas" data-path="/items/resources/app-ideas" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">App Ideas</h3>
+                <p class="card__desc">A collection of application ideas to improve your coding skills.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">A collection of application ideas to improve your coding skills.</p>
+                <a href="https://github.com/florinpop17/app-ideas" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Ideas #Coding #Software Engineering</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-resources);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="awesome-llm-apps" data-title="Awesome LLM Apps (Shubham Saboo)" data-path="/items/resources/awesome-llm-apps" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Awesome LLM Apps (Shubham Saboo)</h3>
+                <p class="card__desc">Library of ready-to-use, beginner-friendly starter templates for AI agents, RAG, and multi-agent systems.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Library of ready-to-use, beginner-friendly starter templates for AI agents, RAG, and multi-agent systems.</p>
+                <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Template #RAG #Agent</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-resources);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="reddit-communities-to-promote-your-app" data-title="Reddit Communities to Promote Your App" data-path="/items/resources/reddit-communities-to-promote-your-app" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Reddit Communities to Promote Your App</h3>
+                <p class="card__desc">Google Docs list of Reddit communities to promote your app for free</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Google Docs list of Reddit communities to promote your app for free</p>
+                <a href="https://docs.google.com/document/d/1_sICGnI98lYlFGUedXFx8PJHldGDLWvjejiiz17vins/edit" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Marketing</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="claude-code-cli" data-title="Claude Code CLI" data-path="/items/tools/claude-code-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Claude Code CLI</h3>
+                <p class="card__desc">Anthropic&#x27;s command-line agent for codebase searching, editing, and execution.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Anthropic&#x27;s command-line agent for codebase searching, editing, and execution.</p>
+                <a href="https://docs.anthropic.com" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#CLI #Agent #Anthropic #AI</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="windsurf" data-title="Windsurf (Codeium)" data-path="/items/tools/windsurf" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Windsurf (Codeium)</h3>
+                <p class="card__desc">Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.</p>
+                <a href="https://codeium.com/windsurf" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#IDE #AI #AI Coding #Agent</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="/js/app.js"></script>
+</body>
+</html>

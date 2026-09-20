@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Toolkit - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    .bundle-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      border-bottom: 2px solid var(--color-ink);
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <a href="/rewards" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/prompts">Prompts</a></li>
+        <li><a href="/tools">Tools</a></li>
+        <li><a href="/rewards#bundles" class="active">Bundles</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="bundle-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-sm);">◆ CURATED STACK</p>
+        <h1 class="display-hero" style="font-size: clamp(2.5rem, 6vw, 6rem);">Developer Toolkit</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          Essential CLIs, IDEs, and coding tools to supercharge your software engineering speed.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="antigravity" data-title="Antigravity IDE &amp; Suite" data-path="/items/tools/antigravity" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Antigravity IDE &amp; Suite</h3>
+                <p class="card__desc">AI-powered terminal and extension suite with autonomous agent pair-programming capabilities.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">AI-powered terminal and extension suite with autonomous agent pair-programming capabilities.</p>
+                <a href="https://antigravity.google.com" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#IDE #AI #Developer Tools #Agent</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="claude-code-cli" data-title="Claude Code CLI" data-path="/items/tools/claude-code-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Claude Code CLI</h3>
+                <p class="card__desc">Anthropic&#x27;s command-line agent for codebase searching, editing, and execution.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Anthropic&#x27;s command-line agent for codebase searching, editing, and execution.</p>
+                <a href="https://docs.anthropic.com" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#CLI #Agent #Anthropic #AI</span>
+              </div>
+            </div>
+            <a href="/items/tools/cursor" class="card" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="cursor" data-title="Cursor" data-path="/items/tools/cursor" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Cursor</h3>
+                <p class="card__desc">An AI-first code editor built around multi-file code understanding, with the ability to reference entire codebases when generating or editing code. Why enterprises choose it: Cursor operates at a higher level than Copilot. Where Copilot completes lines and functions, Cursor can understand the architecture of a full codebase and make changes across multiple files simultaneously. Developers working on complex systems report it as qualitatively different from autocomplete-based tools.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="windsurf" data-title="Windsurf (Codeium)" data-path="/items/tools/windsurf" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Windsurf (Codeium)</h3>
+                <p class="card__desc">Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Agentic IDE suite powered by Codeium Cascade for flow-state AI pair programming.</p>
+                <a href="https://codeium.com/windsurf" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#IDE #AI #AI Coding #Agent</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="trae-ide" data-title="Trae IDE" data-path="/items/tools/trae-ide" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Trae IDE</h3>
+                <p class="card__desc">ByteDance&#x27;s AI-powered IDE with native inline completion and agent tracking.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">ByteDance&#x27;s AI-powered IDE with native inline completion and agent tracking.</p>
+                <a href="https://trae.ai" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#IDE #AI #AI Coding #Editor</span>
+              </div>
+            </div>
+            <a href="/items/tools/github-copilot" class="card" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="github-copilot" data-title="Github Copilot" data-path="/items/tools/github-copilot" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Github Copilot</h3>
+                <p class="card__desc">AI code completion, generation, and review integrated directly into the developer&#x27;s IDE, VS Code, JetBrains, Vim, and others. Why enterprises choose it: GitHub Copilot is the most widely deployed AI coding tool in enterprise environments. It writes code suggestions as developers type, generates functions from comments, explains existing code, and reviews pull requests. It integrates into the existing development workflow without changing how engineers work.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI Tools #Enterprise</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="copilot-cli" data-title="Copilot CLI" data-path="/items/tools/copilot-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Copilot CLI</h3>
+                <p class="card__desc">GitHub&#x27;s terminal agent for command assistance, explanations, and git automation.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">GitHub&#x27;s terminal agent for command assistance, explanations, and git automation.</p>
+                <a href="https://github.com/github/gh-copilot" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#CLI #GitHub #Developer Tools #AI</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="firecrawl-cli" data-title="Firecrawl CLI &amp; API" data-path="/items/tools/firecrawl-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Firecrawl CLI &amp; API</h3>
+                <p class="card__desc">Turn entire websites into LLM-ready clean markdown data for scraping and indexing.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Turn entire websites into LLM-ready clean markdown data for scraping and indexing.</p>
+                <a href="https://firecrawl.dev" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Scraping #Data #API #CLI</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-resources);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Resources</span>
+                <button class="btn--ghost" data-bookmark-id="official-mcp-servers" data-title="Official MCP Servers (Model Context Protocol)" data-path="/items/resources/official-mcp-servers" data-category="Resources" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Official MCP Servers (Model Context Protocol)</h3>
+                <p class="card__desc">Free, official plug-and-play MCP servers for filesystem, Brave search, SQLite, Git, and persistent memory.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Free, official plug-and-play MCP servers for filesystem, Brave search, SQLite, Git, and persistent memory.</p>
+                <a href="https://github.com/modelcontextprotocol/servers" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#MCP #Developer Tools #Servers</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-tools);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Tools</span>
+                <button class="btn--ghost" data-bookmark-id="llm-cli" data-title="LLM CLI Tool (Simon Willison)" data-path="/items/tools/llm-cli" data-category="Tools" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">LLM CLI Tool (Simon Willison)</h3>
+                <p class="card__desc">Free CLI tool to run, prompt, and stream LLM outputs locally or via APIs directly inside your terminal.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Free CLI tool to run, prompt, and stream LLM outputs locally or via APIs directly inside your terminal.</p>
+                <a href="https://github.com/simonw/llm" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#CLI #Local #LLM</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-frameworks);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Frameworks</span>
+                <button class="btn--ghost" data-bookmark-id="fabric" data-title="Fabric (Daniel Miessler)" data-path="/items/frameworks/fabric" data-category="Frameworks" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Fabric (Daniel Miessler)</h3>
+                <p class="card__desc">Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">Open-source framework of modular prompt patterns and AI workflows to augment daily life and coding tasks.</p>
+                <a href="https://github.com/danielmiessler/fabric" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Workflow #Prompt #CLI #Automation</span>
+              </div>
+            </div>
+            <div class="card card--expandable" style="--cat-color: var(--color-cat-frameworks);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Frameworks</span>
+                <button class="btn--ghost" data-bookmark-id="taste-skill" data-title="Taste Skill" data-path="/items/frameworks/taste-skill" data-category="Frameworks" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Taste Skill</h3>
+                <p class="card__desc">The Anti-Slop Frontend Framework for AI Agents.</p>
+              </div>
+              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                <span>Quick View</span>
+                <span class="card__expand-arrow">↓</span>
+              </button>
+              <div class="card__expand-content">
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">The Anti-Slop Frontend Framework for AI Agents.</p>
+                <a href="https://www.tasteskill.dev/" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Frontend #AI #Design</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="/js/app.js"></script>
+</body>
+</html>

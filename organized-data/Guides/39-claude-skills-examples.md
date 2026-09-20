@@ -8,8 +8,7 @@ Examples of Claude skills to transform workflows.
 https://aiblewmymind.substack.com/p/claude-skills-36-examples
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Claude
 - Skills

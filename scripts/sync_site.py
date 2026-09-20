@@ -21,6 +21,49 @@ CATEGORY_MAPPING = {
     'Tools': {'slug': 'tools', 'html': 'tools.html', 'color_token': '--color-cat-tools'},
 }
 
+BUNDLE_META = {
+    "cold-outreach-stack": {
+        "title": "Cold Outreach Stack",
+        "description": "Everything you need to automate lead gen and emails. A complete end-to-end workflow collection."
+    },
+    "content-creation": {
+        "title": "Content Creation",
+        "description": "Systematize your social media and blog posting with AI-driven content workflows."
+    },
+    "marketing-stack": {
+        "title": "Marketing Stack",
+        "description": "SOPs, prompt chains, and tools to run your agency and marketing operations."
+    },
+    "no-code-automation": {
+        "title": "No-Code Automation",
+        "description": "Time-saving automations for everyday work. Connect tools without writing code."
+    },
+    "ai-research": {
+        "title": "AI Research",
+        "description": "Deep-dive frameworks and tools for competitive analysis and rapid knowledge synthesis."
+    },
+    "build-ai-apps": {
+        "title": "Build AI Apps",
+        "description": "From idea to deployment: resources and frameworks for building modern AI applications."
+    },
+    "prompt-engineering": {
+        "title": "Prompt Engineering",
+        "description": "Master advanced prompting techniques to unlock the full potential of large language models."
+    },
+    "video-and-motion": {
+        "title": "Video & Motion",
+        "description": "Create cinematic visuals, animated assets, and compelling motion graphics using AI."
+    },
+    "career-and-hiring": {
+        "title": "Career & Hiring",
+        "description": "Optimize your job search, interviewing, and team building processes with AI assistance."
+    },
+    "developer-toolkit": {
+        "title": "Developer Toolkit",
+        "description": "Essential CLIs, IDEs, and coding tools to supercharge your software engineering speed."
+    }
+}
+
 def parse_markdown_item(filepath, category_name):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read().replace('\r\n', '\n')
@@ -31,12 +74,12 @@ def parse_markdown_item(filepath, category_name):
     desc_match = re.search(r'### Description[ \t]*\n(.*?)(?=\n### |$)', content, re.DOTALL)
     cat_match = re.search(r'### Category[ \t]*\n(.*?)(?=\n### |$)', content, re.DOTALL)
     url_match = re.search(r'### URL[ \t]*\n(.*?)(?=\n### |$)', content, re.DOTALL)
-    body_match = re.search(r'### Content[ \t]*\n(.*?)(?=\n### |$)', content, re.DOTALL)
+    body_match = re.search(r'### (?:Content|Prompt)[ \t]*\n(.*?)(?=\n### (?:Category|Tags|URL|Name|Title|Description)\b|$)', content, re.DOTALL)
     tags_match = re.search(r'### Tags[ \t]*\n(.*?)(?=\n### |$)', content, re.DOTALL)
     
     name = name_match.group(1).strip() if name_match else slug.replace('-', ' ').title()
     desc = desc_match.group(1).strip() if desc_match else ''
-    cat = cat_match.group(1).strip() if cat_match else category_name
+    cat = category_name
     url = url_match.group(1).strip() if url_match else ''
     body = body_match.group(1).strip() if body_match else ''
     
@@ -62,6 +105,7 @@ def parse_markdown_item(filepath, category_name):
     
     return {
         "id": slug,
+        "slug": slug,
         "name": name,
         "description": desc,
         "category": cat,
@@ -218,8 +262,11 @@ def generate_deep_item_html(item, prev_item, next_item):
           <div class="prompt-text markdown-rendered" id="prompt-content">{rendered_content}</div>
           
           <div class="copy-bar">
-            <span class="meta">Press 'C' to copy</span>
-            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)" title="Copy content" aria-label="Copy content" style="padding: 6px 10px; display: inline-flex; align-items: center; justify-content: center;"><svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>
+            <span class="meta">Press 'C' to copy • 'B' to save</span>
+            <div style="display: flex; gap: var(--space-sm); align-items: center;">
+              <button class="btn btn--ghost bookmark-main-btn" data-bookmark-id="{item['slug']}" data-title="{html.escape(item['name'])}" data-path="{item['path']}" data-category="{item['category']}" style="padding: 6px 12px; font-size: var(--text-sm);">♡ Save</button>
+              <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)" title="Copy content" aria-label="Copy content" style="padding: 6px 10px; display: inline-flex; align-items: center; justify-content: center;"><svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>
+            </div>
           </div>
         </div>
 
@@ -250,6 +297,74 @@ def generate_deep_item_html(item, prev_item, next_item):
 </body>
 </html>
 '''
+
+def generate_bundle_html_page(bundle_id, bundle_info, items):
+    cards_html = "".join([render_category_card(it) for it in items])
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{html.escape(bundle_info['title'])} - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  
+  <style>
+    .nav-mast {{ display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }}
+    .mast-name {{ font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }}
+    .mast-line {{ font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }}
+    .mast-nav ul {{ display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }}
+    .mast-nav a {{ font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }}
+    .mast-nav a:hover, .mast-nav a.active {{ color: var(--color-accent); }}
+    .mast-rule.double {{ border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }}
+
+    .bundle-header {{
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      border-bottom: 2px solid var(--color-ink);
+    }}
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <a href="/rewards" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/prompts">Prompts</a></li>
+        <li><a href="/tools">Tools</a></li>
+        <li><a href="/rewards#bundles" class="active">Bundles</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="bundle-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-sm);">◆ CURATED STACK</p>
+        <h1 class="display-hero" style="font-size: clamp(2.5rem, 6vw, 6rem);">{html.escape(bundle_info['title'])}</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          {html.escape(bundle_info['description'])}
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          {cards_html}
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="/js/app.js"></script>
+</body>
+</html>'''
 
 def render_category_card(item):
     tags_meta = " ".join([f"#{t}" for t in item['tags']])
@@ -293,8 +408,8 @@ def render_category_card(item):
                 <span class="card__expand-arrow">↓</span>
               </button>
               <div class="card__expand-content">
-                <p style="font-size: var(--text-sm);">{desc_escaped}</p>
-                <a href="{item['url']}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>
+                <p style="font-size: var(--text-sm); white-space: pre-wrap;">{html.escape(item['content']) if item.get('content') else desc_escaped}</p>
+                {f'<a href="{item["url"]}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>' if item.get('url') else ''}
               </div>
               <div class="card__footer">
                 <span class="meta">{tags_meta}</span>
@@ -544,11 +659,38 @@ def sync_all():
     for folder, items in items_by_folder.items():
         update_category_html_page(folder, items)
         
+    # 5.5 Generate Bundle Pages
+    bundle_paths = []
+    bundle_mapping_path = os.path.join(SITE_DIR, 'bundle_mapping.json')
+    if os.path.exists(bundle_mapping_path):
+        with open(bundle_mapping_path, 'r', encoding='utf-8') as f:
+            bundle_mapping = json.load(f)
+            
+        bundles_dir = os.path.join(SITE_DIR, 'items', 'bundles')
+        os.makedirs(bundles_dir, exist_ok=True)
+        
+        all_items_dict = {it['id']: it for it in all_items}
+        
+        for bundle_id, item_slugs in bundle_mapping.items():
+            meta = BUNDLE_META.get(bundle_id, {"title": bundle_id.replace('-', ' ').title(), "description": "Curated collection of resources."})
+            bundle_items = [all_items_dict[slug] for slug in item_slugs if slug in all_items_dict]
+            
+            html_content = generate_bundle_html_page(bundle_id, meta, bundle_items)
+            bundle_file_path = os.path.join(bundles_dir, f"bundle-{bundle_id}.html")
+            with open(bundle_file_path, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+                
+            bundle_paths.append(f"/items/bundles/bundle-{bundle_id}")
+        print(f"Generated {len(bundle_mapping)} bundle pages.")
+        
     # 6. Update Landing (index.html) and Rewards (rewards.html) Pages
     update_landing_and_rewards_pages(all_items, items_by_folder)
         
     # 7. Stale / Orphaned HTML Cleanup
     valid_html_paths = set(os.path.abspath(os.path.join(SITE_DIR, it['path'].lstrip('/'))) + '.html' for it in all_items if not it['is_shallow'])
+    for b_path in bundle_paths:
+        valid_html_paths.add(os.path.abspath(os.path.join(SITE_DIR, b_path.lstrip('/'))) + '.html')
+        
     items_dir = os.path.join(SITE_DIR, 'items')
     if os.path.exists(items_dir):
         for root, dirs, files in os.walk(items_dir):
@@ -577,6 +719,9 @@ def sync_all():
     for it in all_items:
         if not it['is_shallow']:
             urls.append({"loc": f"{base_url}{it['path']}", "priority": "0.6"})
+            
+    for b_path in bundle_paths:
+        urls.append({"loc": f"{base_url}{b_path}", "priority": "0.7"})
             
     sitemap_content = ['<?xml version="1.0" encoding="UTF-8"?>']
     sitemap_content.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')

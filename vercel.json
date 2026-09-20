@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/rewards" },
+    { "source": "/home", "destination": "/rewards" },
+    { "source": "/saved", "destination": "/bookmarks" }
+  ]
+}

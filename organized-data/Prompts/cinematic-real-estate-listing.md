@@ -178,8 +178,7 @@ This is the fix for "I wanted higher quality."
 ```
 
 ### Category
-Learning
-
+Prompts
 ### Tags
 - Video
 - Prompt

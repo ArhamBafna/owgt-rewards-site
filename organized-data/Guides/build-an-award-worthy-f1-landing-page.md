@@ -93,8 +93,7 @@ To update: make changes in AI Web Builder → push to GitHub → Netlify auto-re
 > **Note:** This workflow works for any niche — luxury brands, fitness, tech startups. Swap the visuals and prompts for your niche and follow the same framework.
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Skool
 - Community

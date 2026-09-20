@@ -8,8 +8,7 @@ Make Community walkthrough of accessing multiple free AI models
 https://community.make.com/t/how-to-access-multiple-free-ai-models-at-once/40751
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - AI Models
 - Workflow Automation

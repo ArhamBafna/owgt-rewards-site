@@ -489,8 +489,7 @@ Prioritize visual impact over everything.
 - **Specify models directly.** Use explicit settings like Seedance 2.0, 4K, and exact clip lengths for clearer outputs.
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Skool
 - Community

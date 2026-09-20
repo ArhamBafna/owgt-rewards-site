@@ -8,8 +8,7 @@ A blueprint for getting attention and marketing successfully
 https://docs.google.com/document/d/1jZ3W0-JVXpHOG_SbjTuqD2kYPo5PRozCXFkUUqgxQlI/edit
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Marketing
 - Guide

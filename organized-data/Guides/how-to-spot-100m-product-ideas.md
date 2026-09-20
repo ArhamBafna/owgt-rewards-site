@@ -8,8 +8,7 @@ The Eric Ryan Playbook on spotting 100M+ product ideas
 https://53.fs1.hubspotusercontent-na1.net/hubfs/53/The%20Eric%20Ryan%20Playbook_%20How%20to%20Spot%20$100M+%20Product%20Ideas.pdf
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Business
 - Playbook

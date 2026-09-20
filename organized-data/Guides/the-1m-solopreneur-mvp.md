@@ -8,7 +8,6 @@ Google Docs guide for solopreneur MVP
 https://docs.google.com/document/d/1zI2ya7sDv8ycXmOzPO_aOS8-dNEwDoow14q_rrs_aU4/edit
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Business

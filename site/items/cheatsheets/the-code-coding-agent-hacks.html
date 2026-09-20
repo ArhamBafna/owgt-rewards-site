@@ -95,11 +95,399 @@
         <div class="prompt-box">
           <div class="prompt-text markdown-rendered" id="prompt-content"><h4>Overview</h4>
 <p>A collection of high-impact tips, configuration recipes, prompting patterns, and automation hooks designed to accelerate developer workflows across modern AI coding agents (Claude Code, OpenAI Codex, and Cursor).</p>
-<hr /></div>
+<hr />
+<h3>Context &amp; Configuration</h3>
+<h4>1. Pin a CLAUDE.md at Repo Root</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: A short <code>CLAUDE.md</code> is auto-loaded into every session for repo-specific style, build commands, and conventions the model cannot infer. Keep it under ~80 lines.</li>
+</ul>
+<pre><code class="language-markdown"># CLAUDE.md
+## Commands
+- `pnpm dev` — start dev server
+- `pnpm test -- --watch` — TDD mode
+
+## Conventions
+- Server components by default; mark `&quot;use client&quot;` only when needed
+- DB access via `src/db/queries/*` only — never inline SQL in routes
+
+## Don't touch
+- `generated/` (codegen output)
+- `migrations/*.sql` (append-only)
+</code></pre>
+<h4>2. Auto-Generate a Tight CLAUDE.md with <code>/init</code></h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: An experimental <code>CLAUDE_CODE_NEW_INIT</code> flag rewrites <code>/init</code> to scan your stack, linters, and CI configuration, generating a concise ~60-line <code>CLAUDE.md</code> instead of bloated hundreds of lines.</li>
+</ul>
+<pre><code class="language-json">// .claude/settings.local.json
+{
+  &quot;env&quot;: {
+    &quot;CLAUDE_CODE_NEW_INIT&quot;: &quot;1&quot;
+  }
+}
+</code></pre>
+<p>Run <code>/init</code> to trigger the stack scan.</p>
+<h4>3. Layer <code>.cursor/rules/*.mdc</code> by Scope</h4>
+<ul>
+<li><strong>Agent</strong>: Cursor</li>
+<li><strong>Concept</strong>: Per-folder <code>.mdc</code> rules with glob patterns prevent prompt bloat. The model only receives rules relevant to the active file being edited.</li>
+</ul>
+<pre><code class="language-markdown">---
+description: API route conventions
+globs: app/api/**/*.ts
+alwaysApply: false
+---
+- Validate inputs with zod at the top of the handler
+- Return NextResponse.json — never raw Response
+- Errors: throw ApiError(status, code, message)
+</code></pre>
+<h4>4. Auto-Load Git Context at Session Start</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Use a <code>SessionStart</code> hook to capture branch name and uncommitted diffs automatically into a context file so Claude starts every session fully oriented.</li>
+</ul>
+<pre><code class="language-json">// .claude/settings.json
+{
+  &quot;hooks&quot;: {
+    &quot;SessionStart&quot;: [{
+      &quot;hooks&quot;: [{
+        &quot;type&quot;: &quot;command&quot;,
+        &quot;command&quot;: &quot;git status &gt; /tmp/claude-git-context.txt &amp;&amp; echo 'Development context loaded'&quot;
+      }]
+    }]
+  }
+}
+</code></pre>
+<h4>5. Lock Down Claude Code's Stability Settings</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Pin reasoning effort to high, disable 1M-token mode, deactivate adaptive thinking drift, and turn off auto-memory to prevent context bloat and hallucinated overrides.</li>
+</ul>
+<pre><code class="language-json">// ~/.claude/settings.json
+{
+  &quot;effortLevel&quot;: &quot;high&quot;,
+  &quot;env&quot;: {
+    &quot;CLAUDE_CODE_DISABLE_1M_CONTEXT&quot;: &quot;1&quot;,
+    &quot;CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING&quot;: &quot;1&quot;,
+    &quot;CLAUDE_CODE_DISABLE_AUTO_MEMORY&quot;: &quot;1&quot;,
+    &quot;CLAUDE_CODE_SUBAGENT_MODEL&quot;: &quot;sonnet&quot;
+  }
+}
+</code></pre>
+<h4>6. Feed Claude Code's Own Docs Map into Context</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Point Claude directly to Anthropic's live docs index URL so it looks up official syntax instead of guessing from stale pre-training data.</li>
+</ul>
+<pre><code class="language-text">https://code.claude.com/docs/en/claude_code_docs_map.md
+help me configure hooks
+</code></pre>
+<hr />
+<h3>Workflow &amp; Task Management</h3>
+<h4>7. Shift+Tab into Plan Mode for Risky Changes</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Plan Mode allows the agent to read, grep, and analyze code freely while blocking write/edit actions until you approve the implementation plan.</li>
+</ul>
+<pre><code class="language-text"># Toggle modes (Shift+Tab cycles)
+1. Default       — full tools
+2. Auto-accept   — skips approvals on allowed tools
+3. Plan Mode     — read-only until you approve
+</code></pre>
+<h4>8. Fan Out Independent Searches with Parallel Subagents</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Trigger multiple subagents in a single message to explore distinct codebase subsystems concurrently. Large grep outputs remain isolated within subagent contexts.</li>
+</ul>
+<pre><code class="language-javascript">// Run in parallel in a single assistant message
+Agent({ subagent_type: &quot;Explore&quot;, prompt: &quot;Find auth middleware&quot; })
+Agent({ subagent_type: &quot;Explore&quot;, prompt: &quot;Find payment handlers&quot; })
+Agent({ subagent_type: &quot;Explore&quot;, prompt: &quot;Find error boundaries&quot; })
+</code></pre>
+<h4>9. Codex: Split Tasks at Commit Boundaries</h4>
+<ul>
+<li><strong>Agent</strong>: Codex</li>
+<li><strong>Concept</strong>: Planning quality degrades over large 5+ file edits. Structure prompts to target one atomic commit at a time (schema -&gt; query -&gt; route -&gt; UI).</li>
+</ul>
+<pre><code class="language-text"># Prompt structure:
+&quot;Step 1: Add the comments table to schema.prisma + generate migration.&quot;
+# Review &amp; commit, then:
+&quot;Step 2: Add createComment + listComments in db/queries/comments.ts.&quot;
+</code></pre>
+<h4>10. Run Agents on Parallel Git Worktrees</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code, Codex, Cursor</li>
+<li><strong>Concept</strong>: Run simultaneous agents in separate worktree directories on the same repository to avoid branch collisions and clobbered working directories.</li>
+</ul>
+<pre><code class="language-bash">git worktree add ../myapp-auth feat/auth
+git worktree add ../myapp-billing feat/billing
+
+# Open each in separate terminal / editor:
+cd ../myapp-auth &amp;&amp; claude
+cd ../myapp-billing &amp;&amp; claude
+
+git worktree list
+git worktree remove ../myapp-auth
+</code></pre>
+<h4>11. Resume or Fork Sessions</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Persist long-running features across days using <code>--resume</code> or fork the session to experiment with alternative architectural approaches without losing progress.</li>
+</ul>
+<pre><code class="language-bash">claude --resume        # interactive session picker
+claude --continue      # resume most recent session
+claude -c -p &quot;now add the email step&quot;   # one-shot continuation
+claude --continue --fork-session        # fork branch from current state
+</code></pre>
+<h4>12. Rewind Codex Sessions via Double-Tap Esc</h4>
+<ul>
+<li><strong>Agent</strong>: Codex</li>
+<li><strong>Concept</strong>: In an empty composer, double-tap <code>Esc</code> to step backward through the chat history to edit prompt missteps and fork a clean path forward.</li>
+</ul>
+<pre><code class="language-text">Esc Esc          → edit previous message
+Esc Esc Esc ...  → walk further back
+Enter            → fork from this point
+</code></pre>
+<h4>13. Run Skills in Isolated Context (<code>context: fork</code>)</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Add <code>context: fork</code> and <code>agent: Explore</code> to <code>SKILL.md</code> frontmatter to execute deep research in an isolated subagent, preventing main thread clutter.</li>
+</ul>
+<pre><code class="language-markdown"># .claude/skills/deep-research/SKILL.md
+---
+name: deep-research
+description: Research a topic thoroughly
+context: fork
+agent: Explore
+---
+
+Research $ARGUMENTS thoroughly:
+1. Find relevant files using Glob and Grep
+2. Read and analyze the code
+3. Summarize findings with specific file references
+</code></pre>
+<h4>14. Mid-Task Inquiries with <code>/btw</code></h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Ask quick contextual questions in a side panel mid-turn without interrupting active tool runs or adding token weight to main history.</li>
+</ul>
+<pre><code class="language-text">/btw what was the name of that config file?
+</code></pre>
+<hr />
+<h3>Prompting &amp; Specification</h3>
+<h4>15. Write a Spec File (<code>spec.md</code>) First</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code, Codex, Cursor</li>
+<li><strong>Concept</strong>: Agents adhere significantly better to concrete markdown specification documents than conversational chat prompts.</li>
+</ul>
+<pre><code class="language-markdown"># spec.md — Add rate limiting
+
+## Goal
+Per-user 60 req/min on /api/* — return 429 with Retry-After.
+
+## Acceptance
+- [ ] middleware.ts intercepts /api/*
+- [ ] Redis-backed (use existing src/redis.ts)
+- [ ] Test: 61st req in a minute returns 429
+- [ ] Existing /api/health stays unlimited
+
+## Don't touch
+- auth middleware (separate concern)
+- /api/webhooks (provider retries need no limit)
+</code></pre>
+<h4>16. Enforce Proof in Status Updates</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code, Cursor</li>
+<li><strong>Concept</strong>: Prevent hallucinated or premature task completion claims by requiring evidence in every status update.</li>
+</ul>
+<pre><code class="language-markdown"># CLAUDE.md / .cursorrules
+Never say 'done' or 'working on it' unless the action has actually started.
+Every status update must include proof — a process ID, file path, URL, or command output.
+No proof = didn't happen.
+</code></pre>
+<h4>17. Make Claude Code Grill You Before Building</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Matt Pocock's <code>/grill-me</code> prompt forces the model to interview you step-by-step through the design tree to resolve ambiguities before coding.</li>
+</ul>
+<pre><code class="language-markdown">Interview me relentlessly about every aspect of this plan until we reach a shared understanding.
+Walk down each branch of the design tree resolving dependencies between decisions one by one.
+If a question can be answered by exploring the codebase, explore the codebase instead.
+For each question, provide your recommended answer.
+</code></pre>
+<h4>18. Structured TODO List Discipline</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code, Codex</li>
+<li><strong>Concept</strong>: Require the model to draft and maintain a checked TODO list so execution progress is trackable and interceptable.</li>
+</ul>
+<pre><code class="language-text">Plan this as a checked TODO list first. Don't write code yet.
+Once I approve the plan, work through items one at a time.
+After each item, briefly say what you did and what's next.
+</code></pre>
+<h4>19. Pin Files Explicitly with <code>@</code> in Cursor</h4>
+<ul>
+<li><strong>Agent</strong>: Cursor</li>
+<li><strong>Concept</strong>: Auto-retrieval often under-indexes multi-file refactors. Pin the entry point, interfaces/types, and consumer files directly.</li>
+</ul>
+<pre><code class="language-text">@src/auth/session.ts @src/auth/types.ts @app/api/me/route.ts
+
+Refactor session reading to use the new SessionContext type.
+Update all three files. Keep the existing cookie shape.
+</code></pre>
+<h4>20. Paste Screenshots for Visual &amp; Layout Fixes</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code, Cursor</li>
+<li><strong>Concept</strong>: Provide visual screenshots of UI bugs or Figma frames directly to leverage multimodal understanding rather than describing pixel offsets.</li>
+</ul>
+<hr />
+<h3>Automation &amp; Hooks</h3>
+<h4>21. Block Stop Until Tests Pass</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Refuse completion if test suites fail by exiting with code 2 in a <code>Stop</code> hook.</li>
+</ul>
+<pre><code class="language-json">// .claude/settings.json
+{
+  &quot;hooks&quot;: {
+    &quot;Stop&quot;: [{
+      &quot;matcher&quot;: &quot;&quot;,
+      &quot;hooks&quot;: [{
+        &quot;type&quot;: &quot;command&quot;,
+        &quot;command&quot;: &quot;pnpm test --run || echo 'tests failing — fix before stopping' &gt;&amp;2 &amp;&amp; exit 2&quot;
+      }]
+    }]
+  }
+}
+</code></pre>
+<h4>22. Auto-Format on Write / Edit (<code>PostToolUse</code>)</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Automatically format touched files after tool execution so code conforms to project styling without manual intervention.</li>
+</ul>
+<pre><code class="language-json">// .claude/settings.json
+{
+  &quot;hooks&quot;: {
+    &quot;PostToolUse&quot;: [{
+      &quot;matcher&quot;: &quot;Write|Edit&quot;,
+      &quot;hooks&quot;: [{
+        &quot;type&quot;: &quot;command&quot;,
+        &quot;command&quot;: &quot;bun run format || true&quot;
+      }]
+    }]
+  }
+}
+</code></pre>
+<h4>23. Secret Scanner via <code>UserPromptSubmit</code> Hook</h4>
+<ul>
+<li><strong>Agent</strong>: Codex</li>
+<li><strong>Concept</strong>: Intercept prompt submission to scan for API key regex patterns, aborting before credentials leave the local machine.</li>
+</ul>
+<pre><code class="language-json">{
+  &quot;hooks&quot;: {
+    &quot;UserPromptSubmit&quot;: [{
+      &quot;hooks&quot;: [{
+        &quot;type&quot;: &quot;command&quot;,
+        &quot;command&quot;: &quot;jq -r .prompt | grep -qE 'sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{36}|AKIA[0-9A-Z]{16}' &amp;&amp; printf '{\&quot;continue\&quot;:false,\&quot;stopReason\&quot;:\&quot;possible secret detected\&quot;}' || true&quot;
+      }]
+    }]
+  }
+}
+</code></pre>
+<h4>24. Pre-Approve Read-Only Inspection Commands</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Allowlist safe read operations to eliminate confirmation prompt fatigue while keeping write/destructive operations secured.</li>
+</ul>
+<pre><code class="language-json">// .claude/settings.json
+{
+  &quot;permissions&quot;: {
+    &quot;allow&quot;: [
+      &quot;Bash(ls:*)&quot;,
+      &quot;Bash(rg:*)&quot;,
+      &quot;Bash(git status:*)&quot;,
+      &quot;Bash(git diff:*)&quot;,
+      &quot;Bash(git log:*)&quot;,
+      &quot;Bash(jq:*)&quot;,
+      &quot;Bash(pnpm test:*)&quot;
+    ]
+  }
+}
+</code></pre>
+<h4>25. Recurring Monitor and Loop Commands</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Use <code>/loop</code> or the Monitor tool to stream logs and monitor builds/deploys in the background without burning active tokens on idle polling.</li>
+</ul>
+<pre><code class="language-bash">/loop 5m check if the deploy succeeded and report back
+/loop 15m scan my error logs and flag anything new
+</code></pre>
+<h4>26. Dynamic Bang (<code>!</code>) Prefix in Commands &amp; Skills</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Inject live terminal output into custom slash commands and skills by prefixing commands with <code>!</code> inside backticks.</li>
+</ul>
+<pre><code class="language-markdown"># .claude/commands/pr-summary.md
+---
+name: pr-summary
+description: Summarize changes in a pull request
+agent: Explore
+allowed-tools: Bash(gh *)
+---
+## Pull request context
+- PR diff: !`gh pr diff`
+- PR comments: !`gh pr view --comments`
+- Changed files: !`gh pr diff --name-only`
+</code></pre>
+<hr />
+<h3>Tools &amp; Plugins</h3>
+<h4>27. Chrome DevTools MCP for Frontend Debugging</h4>
+<ul>
+<li><strong>Agent</strong>: Cursor</li>
+<li><strong>Concept</strong>: Connect the Chrome DevTools MCP server to let Cursor open live pages, inspect console logs, and trace network requests directly.</li>
+</ul>
+<pre><code class="language-json">{
+  &quot;mcpServers&quot;: {
+    &quot;chrome-devtools&quot;: {
+      &quot;command&quot;: &quot;npx&quot;,
+      &quot;args&quot;: [&quot;-y&quot;, &quot;chrome-devtools-mcp@latest&quot;]
+    }
+  }
+}
+</code></pre>
+<h4>28. Language Server (LSP) Plugins</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Provide instant compiler diagnostics and type checks on file save.</li>
+</ul>
+<pre><code class="language-bash">/plugin install typescript-lsp@claude-plugins-official
+/plugin install pyright-lsp@claude-plugins-official
+/plugin install rust-analyzer-lsp@claude-plugins-official
+/plugin install gopls-lsp@claude-plugins-official
+</code></pre>
+<h4>29. Code Simplifier Plugin</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Strip unnecessary abstractions and boilerplate from freshly generated code to keep diffs concise and aligned with <code>CLAUDE.md</code>.</li>
+</ul>
+<pre><code class="language-bash">claude plugin install code-simplifier
+</code></pre>
+<h4>30. Token Optimization with RTK</h4>
+<ul>
+<li><strong>Agent</strong>: Claude Code</li>
+<li><strong>Concept</strong>: Intercept CLI tool outputs through <code>rtk</code> to strip noisy output (passing tests, progress bars) and reduce token consumption by up to 70%.</li>
+</ul>
+<pre><code class="language-bash">cargo install --git https://github.com/rtk-ai/rtk
+rtk init --global
+rtk gain
+</code></pre></div>
           
           <div class="copy-bar">
-            <span class="meta">Press 'C' to copy</span>
-            <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)" title="Copy content" aria-label="Copy content" style="padding: 6px 10px; display: inline-flex; align-items: center; justify-content: center;"><svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>
+            <span class="meta">Press 'C' to copy • 'B' to save</span>
+            <div style="display: flex; gap: var(--space-sm); align-items: center;">
+              <button class="btn btn--ghost bookmark-main-btn" data-bookmark-id="the-code-coding-agent-hacks" data-title="The Code — Coding Hacks for AI Agents" data-path="/items/cheatsheets/the-code-coding-agent-hacks" data-category="Cheat Sheets" style="padding: 6px 12px; font-size: var(--text-sm);">♡ Save</button>
+              <button class="btn btn--primary copy-main-btn" onclick="copyToClipboard(document.getElementById('prompt-content').innerText, this)" title="Copy content" aria-label="Copy content" style="padding: 6px 10px; display: inline-flex; align-items: center; justify-content: center;"><svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>
+            </div>
           </div>
         </div>
 

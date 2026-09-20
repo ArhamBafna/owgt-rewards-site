@@ -276,8 +276,7 @@ Run this check every weekday at 8am and post the summary to the specified Slack 
   - Add explicit constraints in the identity settings: `State clearly when data is missing, and avoid guessing unmeasured numbers.`
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Skool
 - Community

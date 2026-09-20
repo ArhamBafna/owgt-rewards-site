@@ -92,8 +92,7 @@ Part of a series of AI certificates for beginners, including quizzes and badges.
 * **🔗 Link:** https://www.coursera.org/learn/applied-artifical-intelligence-ibm-watson-ai
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Skool
 - Community

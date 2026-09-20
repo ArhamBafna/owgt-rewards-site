@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Research - OWGT Rewards Library</title>
+  
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  
+  <style>
+    .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
+    .mast-name { font-family: var(--font-display); font-size: clamp(2.25rem, 5vw, 3.75rem); letter-spacing: -0.01em; line-height: 0.95; margin: 0; color: var(--color-ink); }
+    .mast-line { font-variant: small-caps; letter-spacing: 0.08em; font-size: var(--text-xs); color: var(--color-muted); font-family: var(--font-outlier); }
+    .mast-nav ul { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: var(--space-md); list-style: none; padding: 0; margin: var(--space-2xs) 0 0; }
+    .mast-nav a { font-family: var(--font-outlier); text-transform: uppercase; font-size: var(--text-sm); letter-spacing: var(--ls-label); }
+    .mast-nav a:hover, .mast-nav a.active { color: var(--color-accent); }
+    .mast-rule.double { border: 0; border-top: 1px solid var(--color-ink); border-bottom: 1px solid var(--color-ink); height: 4px; margin: var(--space-sm) 0 0; }
+
+    .bundle-header {
+      padding: var(--space-3xl) var(--page-gutter) var(--space-xl);
+      text-align: center;
+      background: var(--color-accent);
+      color: var(--color-accent-ink);
+      border-bottom: 2px solid var(--color-ink);
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-mast">
+    <a href="/rewards" style="text-decoration: none;"><h1 class="mast-name">OWGT REWARDS</h1></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/prompts">Prompts</a></li>
+        <li><a href="/tools">Tools</a></li>
+        <li><a href="/rewards#bundles" class="active">Bundles</a></li>
+      </ul>
+    </nav>
+    <hr class="mast-rule double" aria-hidden="true">
+  </header>
+
+  <main class="page-wrap">
+    <header class="bundle-header">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-ink); margin-bottom: var(--space-sm);">◆ CURATED STACK</p>
+        <h1 class="display-hero" style="font-size: clamp(2.5rem, 6vw, 6rem);">AI Research</h1>
+        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">
+          Deep-dive frameworks and tools for competitive analysis and rapid knowledge synthesis.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container container--wide">
+        <div class="card-grid card-grid--4">
+          
+            <a href="/items/guides/the-ai-research-system" class="card" style="--cat-color: var(--color-cat-guides);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Guides</span>
+                <button class="btn--ghost" data-bookmark-id="the-ai-research-system" data-title="The AI Research System: A Three-Phase Method" data-path="/items/guides/the-ai-research-system" data-category="Guides" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">The AI Research System: A Three-Phase Method</h3>
+                <p class="card__desc">A systematic three-phase methodology for conducting high-quality, verifiable research using multiple AI models (Perplexity, Grok, Claude, ChatGPT) to avoid hallucinations and generate actionable insights.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Research #Workflow #Perplexity #Claude #ChatGPT</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/learning/ai-powered-market-research" class="card" style="--cat-color: var(--color-cat-learning);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Learning</span>
+                <button class="btn--ghost" data-bookmark-id="ai-powered-market-research" data-title="AI-Powered Market Research" data-path="/items/learning/ai-powered-market-research" data-category="Learning" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">AI-Powered Market Research</h3>
+                <p class="card__desc">Using AI tools to gather, synthesize, and interpret market data, competitive intelligence, and industry trends faster than traditional research methods.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#AI #Analysis & Research #Strategy #Perplexity</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/prompts/analyze-customer-feedback-for-growth-signals" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Prompts</span>
+                <button class="btn--ghost" data-bookmark-id="analyze-customer-feedback-for-growth-signals" data-title="Analyze Customer Feedback for Growth Signals" data-path="/items/prompts/analyze-customer-feedback-for-growth-signals" data-category="Prompts" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Analyze Customer Feedback for Growth Signals</h3>
+                <p class="card__desc">A strategic template to analyze customer feedback for growth signals.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Claude #Prompt</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/prompts/analyze-this-data-and-identify" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Prompts</span>
+                <button class="btn--ghost" data-bookmark-id="analyze-this-data-and-identify" data-title="Analyze This Data And Identify" data-path="/items/prompts/analyze-this-data-and-identify" data-category="Prompts" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Analyze This Data And Identify</h3>
+                <p class="card__desc">Analyzing data.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Prompt #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/prompts/analyze-why-a-deal-was-lost" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Prompts</span>
+                <button class="btn--ghost" data-bookmark-id="analyze-why-a-deal-was-lost" data-title="Analyze Why a Deal Was Lost" data-path="/items/prompts/analyze-why-a-deal-was-lost" data-category="Prompts" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Analyze Why a Deal Was Lost</h3>
+                <p class="card__desc">A strategic template to analyze why a deal was lost.</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Claude #Prompt</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+            <a href="/items/prompts/research-synthesis" class="card" style="--cat-color: var(--color-cat-prompts);">
+              <div class="card__accent-strip"></div>
+              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                <span class="tag" style="font-size: 9px; padding: 2px 6px;">Prompts</span>
+                <button class="btn--ghost" data-bookmark-id="research-synthesis" data-title="Research Synthesis" data-path="/items/prompts/research-synthesis" data-category="Prompts" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Research Synthesis</h3>
+                <p class="card__desc">I have gathered the following research or data on [topic].</p>
+              </div>
+              <div class="card__footer">
+                <span class="meta">#Prompt #Workflow</span>
+                <span class="card__expand-arrow">→</span>
+              </div>
+            </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="/js/app.js"></script>
+</body>
+</html>

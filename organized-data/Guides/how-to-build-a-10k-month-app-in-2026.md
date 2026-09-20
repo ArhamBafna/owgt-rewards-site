@@ -31,8 +31,7 @@ A 60-second blueprint on building and launching a profitable app, from idea gene
 - **Scale**: Once organic works, turn the winning formulas into paid ads.
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Software Engineering
 - Business

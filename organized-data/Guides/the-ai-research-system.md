@@ -47,8 +47,7 @@ A better approach is a three-phase process where each phase uses a different too
 > I have the following research that I need to present to [audience, leadership, board, client, team]: [describe or paste in your phase two synthesis]. Help me turn this into a narrative that: opens with the single most important finding, builds the supporting evidence in a logical sequence, explains what the data means for our strategy or decisions, and closes with a clear recommendation or call to action. The audience cares most about: [describe what matters to them]
 
 ### Category
-Learning
-
+Guides
 ### Tags
 - Research
 - Workflow

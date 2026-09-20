@@ -129,6 +129,9 @@ function initSearchSystem() {
     if (originalMainContent && mainContentArea) {
       mainContentArea.innerHTML = originalMainContent;
       originalMainContent = null;
+      initBookmarks();
+      initExpandableCards();
+      if (typeof window.initFilterSystem === 'function') window.initFilterSystem();
     }
   };
 
@@ -311,8 +314,9 @@ function initSearchSystem() {
           `;
         } else {
           // Deep Item Card matching site category card styling
+          const catClass = item.category_slug || (item.category ? item.category.toLowerCase() : 'prompts');
           html += `
-            <a href="${item.path}" class="card" style="--cat-color: var(--color-cat-prompts); text-decoration: none;">
+            <a href="${item.path}" class="card" style="--cat-color: var(--color-cat-${catClass}); text-decoration: none;">
               <div class="card__accent-strip"></div>
               <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
                 <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
@@ -447,6 +451,7 @@ function loadRandomResource() {
 function initCopyEngine() {
   window.copyToClipboard = (textToCopy, btnElement) => {
     navigator.clipboard.writeText(textToCopy).then(() => {
+      showToast('Copied to clipboard!');
       const originalHTML = btnElement.innerHTML;
       btnElement.classList.add('is-copied');
       btnElement.style.background = "#22c55e";
@@ -514,9 +519,18 @@ function initSpotlight() {
     descEl.textContent = item.description ? `"${item.description}"` : `"Curated AI resource from the vault."`;
     if (linkBtn) {
       if (item.is_shallow) {
-        linkBtn.style.display = 'none';
+        if (item.url) {
+          linkBtn.href = item.url;
+          linkBtn.target = '_blank';
+          linkBtn.textContent = 'Visit Resource ↗';
+          linkBtn.style.display = 'inline-block';
+        } else {
+          linkBtn.style.display = 'none';
+        }
       } else if (item.path) {
         linkBtn.href = `${item.path}`;
+        linkBtn.target = '_self';
+        linkBtn.textContent = 'View Resource →';
         linkBtn.style.display = 'inline-block';
       }
     }
@@ -542,8 +556,9 @@ function initSpotlight() {
 
   copyBtn.addEventListener('click', () => {
     if (!currentItem) return;
-    const textToCopy = currentItem.description || currentItem.name;
+    const textToCopy = currentItem.content || currentItem.description || currentItem.name;
     navigator.clipboard.writeText(textToCopy).then(() => {
+      showToast('Copied to clipboard!');
       const origText = copyBtn.innerText;
       copyBtn.innerText = "✔ COPIED!";
       copyBtn.style.background = "#22c55e";

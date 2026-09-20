@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tag - OWGT Rewards Library</title>
   
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
   
   <style>
     .nav-mast { display: grid; gap: var(--space-2xs); padding: var(--space-md) var(--page-gutter) 0; text-align: center; }
@@ -139,7 +139,7 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const params = new URLSearchParams(window.location.search);
@@ -147,7 +147,7 @@
       
       if (!tagName) {
         document.getElementById('tag-title').textContent = 'No tag specified';
-        document.getElementById('tag-results').innerHTML = '<p style="text-align:center;">Please select a tag from the <a href="tags" style="text-decoration: underline;">tag directory</a>.</p>';
+        document.getElementById('tag-results').innerHTML = '<p style="text-align:center;">Please select a tag from the <a href="/tags" style="text-decoration: underline;">tag directory</a>.</p>';
         return;
       }
       
@@ -178,10 +178,15 @@
           };
           
           grid.innerHTML = items.map(item => {
+            const tagsStr = (item.tags || []).slice(0, 3).map(t => '#' + escapeHTML(t)).join(' ');
             if (item.is_shallow) {
               return `
-                <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
+                <div class="card card--expandable" style="--cat-color: var(--color-cat-prompts);">
                   <div class="card__accent-strip"></div>
+                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
+                    <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                  </div>
                   <div class="card__body">
                     <h3 class="card__title">${escapeHTML(item.name)}</h3>
                     <p class="card__desc">${escapeHTML(item.description)}</p>
@@ -191,27 +196,34 @@
                     <span class="card__expand-arrow">↓</span>
                   </button>
                   <div class="card__expand-content">
-                    <p style="font-size: var(--text-sm);">${escapeHTML(item.description)}</p>
+                    <p style="font-size: var(--text-sm); white-space: pre-wrap;">${escapeHTML(item.content || item.description)}</p>
                     ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
+                  </div>
+                  <div class="card__footer">
+                    <span class="meta">${tagsStr}</span>
                   </div>
                 </div>`;
             } else {
               return `
-                <a href="${escapeHTML(item.path)}" class="card" style="--cat-color: var(--color-cat-prompts);">
+                <a href="${escapeHTML(item.path)}" class="card" style="--cat-color: var(--color-cat-prompts); text-decoration: none;">
                   <div class="card__accent-strip"></div>
+                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
+                    <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+                  </div>
                   <div class="card__body">
                     <h3 class="card__title">${escapeHTML(item.name)}</h3>
                     <p class="card__desc">${escapeHTML(item.description)}</p>
                   </div>
                   <div class="card__footer">
-                    <span class="meta">${escapeHTML(item.category)}</span>
+                    <span class="meta">${tagsStr}</span>
                     <span class="card__expand-arrow">→</span>
                   </div>
                 </a>`;
             }
           }).join('');
           
-          // Re-init expandable cards for dynamically added ones
+          if (typeof initBookmarks === 'function') initBookmarks();
           if (typeof initExpandableCards === 'function') initExpandableCards();
         })
         .catch(err => {

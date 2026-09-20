@@ -74,14 +74,14 @@
     <header class="category-header">
       <div class="container container--narrow">
         <h1 class="display-hero" style="font-size: clamp(2rem, 5vw, 4rem);">SAVED</h1>
-        <p style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">0 saved entries.</p>
+        <p id="saved-count-text" style="margin: var(--space-md) auto 0; font-size: var(--text-lg);">0 saved entries.</p>
       </div>
     </header>
 
     <section class="section">
       <div class="container container--wide">
-        <div class="card-grid card-grid--4">
-          
+        <div id="saved-cards-grid" class="card-grid card-grid--4">
+          <p style="font-family: var(--font-outlier); text-align: center; grid-column: 1 / -1;">Loading saved vault items...</p>
         </div>
       </div>
     </section>
@@ -95,6 +95,146 @@
     </div>
   </footer>
   <script src="/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderSavedPage();
+    });
+
+    function renderSavedPage() {
+      const countEl = document.getElementById('saved-count-text');
+      const gridEl = document.getElementById('saved-cards-grid');
+      if (!gridEl) return;
+
+      const bookmarks = JSON.parse(localStorage.getItem('owgt_bookmarks') || '[]');
+      const bookmarkIds = bookmarks.map(b => b.id);
+
+      if (bookmarkIds.length === 0) {
+        if (countEl) countEl.textContent = '0 saved entries.';
+        gridEl.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md);">
+            <p style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin-bottom: var(--space-xs);">Your Saved Vault is Empty</p>
+            <p style="font-family: var(--font-body); color: var(--color-muted); max-width: 480px; margin: 0 auto var(--space-lg);">Click "♡ Save" on any prompt, tool, or guide across the library to pin it here for rapid access.</p>
+            <a href="/rewards" class="btn btn--primary" style="display: inline-block;">Browse Rewards Library →</a>
+          </div>`;
+        return;
+      }
+
+      fetch('/data.json')
+        .then(res => res.json())
+        .then(data => {
+          const itemsMap = {};
+          (data.items || []).forEach(it => { itemsMap[it.id] = it; });
+
+          // Retain order of bookmarks as saved by user
+          const savedItems = bookmarkIds.map(id => itemsMap[id]).filter(Boolean);
+          
+          if (countEl) countEl.textContent = `${savedItems.length} saved entries.`;
+
+          if (savedItems.length === 0) {
+            gridEl.innerHTML = `
+              <div style="grid-column: 1 / -1; text-align: center; padding: var(--space-3xl) var(--space-md);">
+                <p style="font-family: var(--font-display); font-size: var(--text-2xl); text-transform: uppercase; margin-bottom: var(--space-xs);">Your Saved Vault is Empty</p>
+                <p style="font-family: var(--font-body); color: var(--color-muted); max-width: 480px; margin: 0 auto var(--space-lg);">Click "♡ Save" on any prompt, tool, or guide across the library to pin it here for rapid access.</p>
+                <a href="/rewards" class="btn btn--primary" style="display: inline-block;">Browse Rewards Library →</a>
+              </div>`;
+            return;
+          }
+
+          const escapeHTML = str => {
+            if (!str) return '';
+            return String(str).replace(/[&<>'"]/g, tag => ({
+              '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+            }[tag]));
+          };
+
+          const catColorMap = {
+            'Cheat Sheets': '--color-cat-cheatsheets',
+            'Frameworks': '--color-cat-frameworks',
+            'Guides': '--color-cat-guides',
+            'Learning': '--color-cat-learning',
+            'Prompts': '--color-cat-prompts',
+            'Resources': '--color-cat-resources',
+            'Templates': '--color-cat-templates',
+            'Tools': '--color-cat-tools'
+          };
+
+          gridEl.innerHTML = savedItems.map(item => {
+            const catColor = catColorMap[item.category] || '--color-cat-prompts';
+            const tagsStr = (item.tags || []).slice(0, 3).map(t => '#' + escapeHTML(t)).join(' ');
+
+            if (item.is_shallow) {
+              return `
+                <div class="card card--expandable" id="card-${escapeHTML(item.id)}" style="--cat-color: var(${catColor});">
+                  <div class="card__accent-strip"></div>
+                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
+                    <button class="btn--ghost is-saved" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px; background: #ef4444; color: #fff;">♥ Saved</button>
+                  </div>
+                  <div class="card__body">
+                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                    <p class="card__desc">${escapeHTML(item.description)}</p>
+                  </div>
+                  <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+                    <span>Quick View</span>
+                    <span class="card__expand-arrow">↓</span>
+                  </button>
+                  <div class="card__expand-content">
+                    <p style="font-size: var(--text-sm); white-space: pre-wrap;">${escapeHTML(item.content || item.description)}</p>
+                    ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
+                  </div>
+                  <div class="card__footer">
+                    <span class="meta">${tagsStr}</span>
+                  </div>
+                </div>`;
+            } else {
+              return `
+                <a href="${escapeHTML(item.path)}" class="card" id="card-${escapeHTML(item.id)}" style="--cat-color: var(${catColor}); text-decoration: none;">
+                  <div class="card__accent-strip"></div>
+                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
+                    <button class="btn--ghost is-saved" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px; background: #ef4444; color: #fff;">♥ Saved</button>
+                  </div>
+                  <div class="card__body">
+                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
+                    <p class="card__desc">${escapeHTML(item.description)}</p>
+                  </div>
+                  <div class="card__footer">
+                    <span class="meta">${tagsStr}</span>
+                    <span class="card__expand-arrow">→</span>
+                  </div>
+                </a>`;
+            }
+          }).join('');
+
+          if (typeof initBookmarks === 'function') initBookmarks();
+          if (typeof initExpandableCards === 'function') initExpandableCards();
+
+          // Hook into bookmark removal specifically for bookmarks page to remove card immediately
+          gridEl.querySelectorAll('[data-bookmark-id]').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+              const card = btn.closest('.card');
+              if (card) {
+                card.style.opacity = '0';
+                card.style.transform = 'scale(0.95)';
+                card.style.transition = 'all 0.25s ease-out';
+                setTimeout(() => {
+                  card.remove();
+                  const remaining = gridEl.querySelectorAll('.card').length;
+                  if (countEl) countEl.textContent = `${remaining} saved entries.`;
+                  if (remaining === 0) {
+                    renderSavedPage();
+                  }
+                }, 250);
+              }
+            });
+          });
+        })
+        .catch(err => {
+          console.error('Error loading saved bookmarks data:', err);
+          gridEl.innerHTML = '<p style="text-align:center; color: var(--color-muted);">Error loading saved items.</p>';
+        });
+    }
+  </script>
 </body>
 </html>
 

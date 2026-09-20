@@ -82,8 +82,7 @@ Bullet list, Numbered list, Table, CSV, JSON, Markdown, HTML, Summary, Outline, 
 - **Runway / Kling**: Video
 
 ### Category
-Learning
-
+Cheat Sheets
 ### Tags
 - ChatGPT
 - Prompt

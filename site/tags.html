@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tags - OWGT Rewards Library</title>
   
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
   
   <style>
     /* Tags Directory Styles */
@@ -179,7 +179,7 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       fetch('/data.json')
@@ -203,7 +203,7 @@
           Object.keys(groups).sort().forEach(letter => {
             html += `<div class="letter-group"><h2>${letter}</h2><div class="tag-grid">`;
             groups[letter].forEach(({ tag, count }) => {
-              html += `<a href="tag-detail?tag=${encodeURIComponent(tag)}" class="tag-card">
+              html += `<a href="/tag-detail?tag=${encodeURIComponent(tag)}" class="tag-card">
                 <span class="tag-name">#${tag}</span>
                 <span class="tag-count">${count}</span>
               </a>`;
