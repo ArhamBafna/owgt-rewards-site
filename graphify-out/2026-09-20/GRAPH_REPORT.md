@@ -1,16 +1,16 @@
-# Graph Report - rewards  (2026-09-20)
+# Graph Report - rewards  (2026-08-22)
 
 ## Corpus Check
-- 451 files · ~584,930 words
+- 450 files · ~457,049 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3156 nodes · 3129 edges · 464 communities (444 shown, 20 thin omitted)
+- 3122 nodes · 3083 edges · 463 communities (444 shown, 19 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4995149b`
+- Built from commit: `c579ad2d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -403,11 +403,8 @@
 - Knowledge Library Organizer Specification
 - aipen-chatgpt-app.md
 - vercel.json
-- OWGT Rewards — End-to-End Audit, Fix Log & Skill Review Notes
 - github-certification-exams.md
-- verify_routing.py
 - kaggle-5-day-agents-guide.md
-- package.json
 - full-ai-system-self-audit-prompt.md
 - alt.md
 - apify-cli.md
@@ -469,7 +466,6 @@
 - superhuman-business-ideas-2026.md
 - the-code-developer-resources.md
 - superhuman-ai-tools-directory.md
-- vercel.json
 
 ## God Nodes (most connected - your core abstractions)
 1. `OWGT Rewards — Information Architecture & UX Design Plan` - 18 edges
@@ -489,7 +485,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (464 total, 20 thin omitted)
+## Communities (463 total, 19 thin omitted)
 
 ### Community 0 - "organization-prompt.md"
 Cohesion: 0.03
@@ -612,8 +608,8 @@ Cohesion: 0.25
 Nodes (7): 1. Edit Instead of Following Up, 2. Batch Requests Into One Prompt, 3. Start a Fresh Chat Often, 4. Turn Off Extended Thinking, 5. Convert Files to Markdown, 6. The Session Reset Trick, 7. Work Off-Peak
 
 ### Community 30 - "app.js"
-Cohesion: 0.17
-Nodes (15): initBookmarks(), initCopyEngine(), initExpandableCards(), initFilterSystem(), applyFilters(), filterPageCards(), initSearchSystem(), renderResults() (+7 more)
+Cohesion: 0.15
+Nodes (13): initBookmarks(), initExpandableCards(), initFilterSystem(), applyFilters(), filterPageCards(), populateDrawer(), updateSubcategories(), initSearchSystem() (+5 more)
 
 ### Community 31 - "3.2 Navigation Architecture"
 Cohesion: 0.29
@@ -1995,25 +1991,13 @@ Nodes (3): Guide Rules, GUIDES, Missing Information
 Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
-### Community 393 - "OWGT Rewards — End-to-End Audit, Fix Log & Skill Review Notes"
-Cohesion: 0.11
-Nodes (18): 0. What was actually verified (method & evidence), 1.1 Area 1 — Markdown & data parser, 1.2 Area 2 — Routing & clean URLs, 1.3 Area 3 — Links & assets, 1.4 Area 4 — UI & JavaScript interactions, 1.5 Bug register, 1. Bug audit results by area, 2.1 `/codebase-design` (+10 more)
-
 ### Community 394 - "github-certification-exams.md"
 Cohesion: 0.33
 Nodes (5): Category, Description, Name, Tags, URL
 
-### Community 395 - "verify_routing.py"
-Cohesion: 0.83
-Nodes (3): get_test_paths(), main(), simulate_vercel_routing()
-
 ### Community 397 - "kaggle-5-day-agents-guide.md"
 Cohesion: 0.33
 Nodes (5): Category, Description, Name, Tags, URL
-
-### Community 398 - "package.json"
-Cohesion: 0.25
-Nodes (7): dependencies, vercel, vercel, name, scripts, dev, version
 
 ### Community 399 - "full-ai-system-self-audit-prompt.md"
 Cohesion: 0.33
@@ -2140,8 +2124,8 @@ Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
 ### Community 437 - "sync_site.py"
-Cohesion: 0.44
-Nodes (9): build_global_header(), generate_bundle_html_page(), generate_deep_item_html(), parse_markdown_item(), render_category_card(), sync_all(), update_category_html_page(), update_indices() (+1 more)
+Cohesion: 0.46
+Nodes (7): generate_deep_item_html(), parse_markdown_item(), render_category_card(), sync_all(), update_category_html_page(), update_indices(), update_landing_and_rewards_pages()
 
 ### Community 441 - "brand-growth-and-partnerships-prompts.md"
 Cohesion: 0.29
@@ -2232,17 +2216,15 @@ Cohesion: 0.29
 Nodes (6): Category, Content, Description, Name, Tags, URL
 
 ## Knowledge Gaps
-- **2539 isolated node(s):** `name`, `version`, `dev`, `vercel`, `cleanUrls` (+2534 more)
+- **2519 isolated node(s):** `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract`, `3. Disambiguation (Sweet Spot)`, `4. Save Raw & Organized Data` (+2514 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **20 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Academic & Comprehensive Courses` connect `Academic & Comprehensive Courses` to `master.md`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `dev` to the rest of the system?**
-  _2539 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `cleanUrls`, `1. Parse & Segment`, `2. Fetch & Extract` to the rest of the system?**
+  _2519 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `organization-prompt.md` be split into smaller, more focused modules?**
   _Cohesion score 0.02702702702702703 - nodes in this community are weakly interconnected._
 - **Should `build-3-ai-agents-in-base44.md` be split into smaller, more focused modules?**
@@ -2253,3 +2235,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `build-insane-animated-websites.md` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Motion Graphics with AI — Full Setup & Workflow Guide` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
