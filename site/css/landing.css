@@ -55,6 +55,11 @@ body.landing-page,
   text-align: right;
 }
 
+/* Nudge 391 left (-) or right (+). Change 0px: */
+.landing-hero-num[data-hero-count] {
+  transform: translateX(-4px);
+}
+
 .phantom {
   visibility: hidden;
 }
