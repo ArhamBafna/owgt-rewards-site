@@ -51,6 +51,8 @@ body.landing-page,
   line-height: 0.85;
   letter-spacing: var(--ls-display);
   color: var(--color-accent-2);
+  justify-self: end;
+  text-align: right;
 }
 
 .phantom {
