@@ -4,7 +4,7 @@ import sys
 import json
 import os
 
-BASE_URL = "http://localhost:3000"
+BASE_URL = "http://127.0.0.1:3000"
 
 def get_test_paths():
     paths = [

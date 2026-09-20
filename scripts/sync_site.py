@@ -367,54 +367,8 @@ def generate_bundle_html_page(bundle_id, bundle_info, items):
 </html>'''
 
 def render_category_card(item):
-    tags_meta = " ".join([f"#{t}" for t in item['tags']])
-    category_label = html.escape(item['category'])
-    name_escaped = html.escape(item['name'])
-    desc_escaped = html.escape(item['description'])
-    cat_color = CATEGORY_MAPPING.get(item.get('folder_category'), {}).get('color_token') or \
-                CATEGORY_MAPPING.get(item.get('category'), {}).get('color_token', '--color-cat-prompts')
-    
-    if not item['is_shallow']:
-        return f'''
-            <a href="{item['path']}" class="card" style="--cat-color: var({cat_color});">
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">{category_label}</span>
-                <button class="btn--ghost" data-bookmark-id="{item['id']}" data-title="{name_escaped}" data-path="{item['path']}" data-category="{category_label}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">{name_escaped}</h3>
-                <p class="card__desc">{desc_escaped}</p>
-              </div>
-              <div class="card__footer">
-                <span class="meta">{tags_meta}</span>
-                <span class="card__expand-arrow">→</span>
-              </div>
-            </a>'''
-    else:
-        return f'''
-            <div class="card card--expandable" style="--cat-color: var({cat_color});">
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">{category_label}</span>
-                <button class="btn--ghost" data-bookmark-id="{item['id']}" data-title="{name_escaped}" data-path="{item['path']}" data-category="{category_label}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">{name_escaped}</h3>
-                <p class="card__desc">{desc_escaped}</p>
-              </div>
-              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
-                <span>Quick View</span>
-                <span class="card__expand-arrow">↓</span>
-              </button>
-              <div class="card__expand-content">
-                <p style="font-size: var(--text-sm); white-space: pre-wrap;">{html.escape(item['content']) if item.get('content') else desc_escaped}</p>
-                {f'<a href="{item["url"]}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>' if item.get('url') else ''}
-              </div>
-              <div class="card__footer">
-                <span class="meta">{tags_meta}</span>
-              </div>
-            </div>'''
+    item_json = html.escape(json.dumps(item, separators=(',', ':')))
+    return f'<div class="js-card-render" data-item="{item_json}"></div>\n'
 
 def update_category_html_page(cat_folder, cat_items):
     cat_info = CATEGORY_MAPPING.get(cat_folder)
@@ -437,7 +391,7 @@ def update_category_html_page(cat_folder, cat_items):
     
     grid_pattern = re.compile(r'(<div class="card-grid card-grid--4">)(.*?)(</div>\s*</div>\s*</section>)', re.DOTALL)
     if grid_pattern.search(content):
-        content = grid_pattern.sub(f'\\1\n{cards_html}\n        \\3', content)
+        content = grid_pattern.sub(lambda m: f'{m.group(1)}\n{cards_html}\n        {m.group(3)}', content)
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(content)
         print(f"Updated {html_filename} with {count} items.")

@@ -3,12 +3,93 @@
  * Phase 6: Search, Bundles, Bookmarks & Utilities
  */
 
+window.catColorMap = {
+  'Cheat Sheets': '--color-cat-cheatsheets',
+  'Frameworks': '--color-cat-frameworks',
+  'Guides': '--color-cat-guides',
+  'Learning': '--color-cat-learning',
+  'Prompts': '--color-cat-prompts',
+  'Resources': '--color-cat-resources',
+  'Templates': '--color-cat-templates',
+  'Tools': '--color-cat-tools'
+};
+
+window.escapeHTML = str => {
+  if (!str) return '';
+  return String(str).replace(/[&<>'"]/g, tag => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+  }[tag]));
+};
+
+window.owgtDataPromise = fetch('/data.json').then(r => r.json());
+
+window.renderCard = (item, matchedSnippet = '') => {
+  const tagsStr = item.tags ? item.tags.slice(0, 3).map(t => '#' + window.escapeHTML(t)).join(' ') : '';
+  const catColor = window.catColorMap[item.category] || '--color-cat-prompts';
+  
+  if (item.is_shallow) {
+    return `
+      <div class="card card--expandable" style="--cat-color: var(${catColor});">
+        <div class="card__accent-strip"></div>
+        <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+          <span class="tag" style="font-size: 9px; padding: 2px 6px;">${window.escapeHTML(item.category)}</span>
+          <button class="btn--ghost" data-bookmark-id="${window.escapeHTML(item.id)}" data-title="${window.escapeHTML(item.name)}" data-path="${window.escapeHTML(item.path)}" data-category="${window.escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">${window.escapeHTML(item.name)}</h3>
+          <p class="card__desc">${window.escapeHTML(item.description || '')}</p>
+          ${matchedSnippet ? `<div class="search-snippet">${matchedSnippet}</div>` : ''}
+        </div>
+        <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
+          <span>Quick View</span>
+          <span class="card__expand-arrow">↓</span>
+        </button>
+        <div class="card__expand-content">
+          <p style="font-size: var(--text-sm); white-space: pre-wrap;">${window.escapeHTML(item.content || item.description || '')}</p>
+          ${item.url ? `<a href="${window.escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
+        </div>
+        <div class="card__footer">
+          <span class="meta">${tagsStr}</span>
+        </div>
+      </div>
+    `;
+  } else {
+    return `
+      <a href="${window.escapeHTML(item.path)}" class="card" style="--cat-color: var(${catColor}); text-decoration: none;">
+        <div class="card__accent-strip"></div>
+        <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
+          <span class="tag" style="font-size: 9px; padding: 2px 6px;">${window.escapeHTML(item.subcategory || item.category)}</span>
+          <button class="btn--ghost" data-bookmark-id="${window.escapeHTML(item.id)}" data-title="${window.escapeHTML(item.name)}" data-path="${window.escapeHTML(item.path)}" data-category="${window.escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">${window.escapeHTML(item.name)}</h3>
+          <p class="card__desc">${window.escapeHTML(item.description || '')}</p>
+          ${matchedSnippet ? `<div class="search-snippet">${matchedSnippet}</div>` : ''}
+        </div>
+        <div class="card__footer">
+          <span class="meta">${tagsStr}</span>
+          <span class="card__expand-arrow">→</span>
+        </div>
+      </a>
+    `;
+  }
+};
+
 function isHomeRoute() {
   const path = window.location.pathname.toLowerCase().replace(/\/+$/, '');
   return path === '' || path === '/rewards';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.js-card-render').forEach(el => {
+    try {
+      const item = JSON.parse(el.getAttribute('data-item'));
+      el.outerHTML = window.renderCard(item);
+    } catch (e) {
+      console.error('Failed to parse card placeholder data', e);
+    }
+  });
+
   initSearchSystem();
   initBookmarks();
   initShortcuts();
@@ -70,9 +151,8 @@ function initSearchSystem() {
     if(localScopeBtn) localScopeBtn.style.display = 'none';
   }
 
-  fetch('/search-index.json')
-    .then(res => res.json())
-    .then(data => { searchData = data; })
+  window.owgtDataPromise
+    .then(data => { searchData = data.items; })
     .catch(err => console.error('Could not load search index', err));
 
   const globalHeader = document.getElementById('globalHeader');
@@ -272,80 +352,16 @@ function initSearchSystem() {
 
   function renderResults(results, query) {
     if (!mainContentArea) return;
-    
-    const escapeHTML = str => {
-      if (!str) return '';
-      return String(str).replace(/[&<>'"]/g, tag => ({
-        '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-      }[tag]));
-    };
 
     let html = `<div style="padding: var(--space-xl) var(--space-md); margin-top: var(--space-md);">`;
-    html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${escapeHTML(query)}"</h2>`;
+    html += `<h2 style="font-family: var(--font-display); text-transform: uppercase; margin-bottom: var(--space-lg);">Search Results for "${window.escapeHTML(query)}"</h2>`;
     
     if (results.length === 0) {
       html += `<p style="font-family: var(--font-outlier); color: var(--color-muted);">No items matched your search in this scope.</p>`;
     } else {
       html += `<div class="card-grid card-grid--4">`;
       results.forEach(res => {
-        const item = res.item;
-        const tagsStr = item.tags ? item.tags.slice(0, 3).map(t => '#' + t).join(' ') : '';
-        if (item.is_shallow) {
-          // Shallow Item Card matching site category card styling
-          html += `
-            <div class="card card--expandable" style="--cat-color: var(--color-accent-2);">
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
-                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                <p class="card__desc">${escapeHTML(item.description || '')}</p>
-                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
-              </div>
-              <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
-                <span>Quick View</span>
-                <span class="card__expand-arrow">↓</span>
-              </button>
-              <div class="card__expand-content">
-                <p style="font-size: var(--text-sm); white-space: pre-line;">${escapeHTML(item.content || item.description || '')}</p>
-                ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
-              </div>
-            </div>
-          `;
-        } else {
-          // Deep Item Card matching site category card styling
-          const catColorMap = {
-            'Cheat Sheets': '--color-cat-cheatsheets',
-            'Frameworks': '--color-cat-frameworks',
-            'Guides': '--color-cat-guides',
-            'Learning': '--color-cat-learning',
-            'Prompts': '--color-cat-prompts',
-            'Resources': '--color-cat-resources',
-            'Templates': '--color-cat-templates',
-            'Tools': '--color-cat-tools'
-          };
-          const catColor = catColorMap[item.category] || '--color-cat-prompts';
-          html += `
-            <a href="${item.path}" class="card" style="--cat-color: var(${catColor}); text-decoration: none;">
-              <div class="card__accent-strip"></div>
-              <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.subcategory || item.category)}</span>
-                <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-              </div>
-              <div class="card__body">
-                <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                <p class="card__desc">${escapeHTML(item.description || '')}</p>
-                ${res.matchedSnippet ? `<div class="search-snippet">${res.matchedSnippet}</div>` : ''}
-              </div>
-              <div class="card__footer">
-                <span class="meta">${escapeHTML(tagsStr)}</span>
-                <span class="card__expand-arrow">→</span>
-              </div>
-            </a>
-          `;
-        }
+        html += window.renderCard(res.item, res.matchedSnippet);
       });
       html += `</div>`;
     }
@@ -465,11 +481,10 @@ function initShortcuts() {
 }
 
 function loadRandomResource() {
-  fetch('/search-index.json')
-    .then(res => res.json())
+  window.owgtDataPromise
     .then(data => {
       // Only deep items have a standalone page; shallow item paths are not routable.
-      const navigable = data.filter(it => !it.is_shallow && it.path);
+      const navigable = data.items.filter(it => !it.is_shallow && it.path);
       if (navigable.length > 0) {
         const randomItem = navigable[Math.floor(Math.random() * navigable.length)];
         window.location.href = `${randomItem.path}`;
@@ -582,10 +597,9 @@ function initSpotlight() {
     updateSpotlight(allData[randomIndex]);
   };
 
-  fetch('/search-index.json')
-    .then(res => res.json())
+  window.owgtDataPromise
     .then(data => {
-      allData = data;
+      allData = data.items;
       getRandomItem();
     })
     .catch(err => console.error('Error loading spotlight data:', err));
@@ -741,8 +755,8 @@ function initFilterSystem() {
   }
 
   let allItems = [];
-  fetch('/search-index.json').then(r => r.json()).then(data => {
-    allItems = data;
+  window.owgtDataPromise.then(data => {
+    allItems = data.items;
     populateDrawer();
   }).catch(err => console.error('Filter load error', err));
 

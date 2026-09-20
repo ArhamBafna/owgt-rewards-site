@@ -154,8 +154,7 @@
       document.title = `#${tagName} - OWGT Rewards Library`;
       document.getElementById('tag-title').textContent = `#${tagName}`;
       
-      fetch('/data.json')
-        .then(res => res.json())
+      window.owgtDataPromise
         .then(data => {
           const items = data.items.filter(item => 
             item.tags && item.tags.some(t => t.toLowerCase() === tagName.toLowerCase())
@@ -170,58 +169,7 @@
             return;
           }
           
-          const escapeHTML = str => {
-            if (!str) return '';
-            return String(str).replace(/[&<>'"]/g, tag => ({
-              '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-            }[tag]));
-          };
-          
-          grid.innerHTML = items.map(item => {
-            const tagsStr = (item.tags || []).slice(0, 3).map(t => '#' + escapeHTML(t)).join(' ');
-            if (item.is_shallow) {
-              return `
-                <div class="card card--expandable" style="--cat-color: var(--color-cat-prompts);">
-                  <div class="card__accent-strip"></div>
-                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
-                    <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                    <p class="card__desc">${escapeHTML(item.description)}</p>
-                  </div>
-                  <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
-                    <span>Quick View</span>
-                    <span class="card__expand-arrow">↓</span>
-                  </button>
-                  <div class="card__expand-content">
-                    <p style="font-size: var(--text-sm); white-space: pre-wrap;">${escapeHTML(item.content || item.description)}</p>
-                    ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
-                  </div>
-                  <div class="card__footer">
-                    <span class="meta">${tagsStr}</span>
-                  </div>
-                </div>`;
-            } else {
-              return `
-                <a href="${escapeHTML(item.path)}" class="card" style="--cat-color: var(--color-cat-prompts); text-decoration: none;">
-                  <div class="card__accent-strip"></div>
-                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
-                    <button class="btn--ghost" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px;">♡ Save</button>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                    <p class="card__desc">${escapeHTML(item.description)}</p>
-                  </div>
-                  <div class="card__footer">
-                    <span class="meta">${tagsStr}</span>
-                    <span class="card__expand-arrow">→</span>
-                  </div>
-                </a>`;
-            }
-          }).join('');
+          grid.innerHTML = items.map(item => window.renderCard(item)).join('');
           
           if (typeof initBookmarks === 'function') initBookmarks();
           if (typeof initExpandableCards === 'function') initExpandableCards();

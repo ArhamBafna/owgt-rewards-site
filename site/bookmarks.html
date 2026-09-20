@@ -119,8 +119,7 @@
         return;
       }
 
-      fetch('/data.json')
-        .then(res => res.json())
+      window.owgtDataPromise
         .then(data => {
           const itemsMap = {};
           (data.items || []).forEach(it => { itemsMap[it.id] = it; });
@@ -140,71 +139,7 @@
             return;
           }
 
-          const escapeHTML = str => {
-            if (!str) return '';
-            return String(str).replace(/[&<>'"]/g, tag => ({
-              '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-            }[tag]));
-          };
-
-          const catColorMap = {
-            'Cheat Sheets': '--color-cat-cheatsheets',
-            'Frameworks': '--color-cat-frameworks',
-            'Guides': '--color-cat-guides',
-            'Learning': '--color-cat-learning',
-            'Prompts': '--color-cat-prompts',
-            'Resources': '--color-cat-resources',
-            'Templates': '--color-cat-templates',
-            'Tools': '--color-cat-tools'
-          };
-
-          gridEl.innerHTML = savedItems.map(item => {
-            const catColor = catColorMap[item.category] || '--color-cat-prompts';
-            const tagsStr = (item.tags || []).slice(0, 3).map(t => '#' + escapeHTML(t)).join(' ');
-
-            if (item.is_shallow) {
-              return `
-                <div class="card card--expandable" id="card-${escapeHTML(item.id)}" style="--cat-color: var(${catColor});">
-                  <div class="card__accent-strip"></div>
-                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
-                    <button class="btn--ghost is-saved" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px; background: #ef4444; color: #fff;">♥ Saved</button>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                    <p class="card__desc">${escapeHTML(item.description)}</p>
-                  </div>
-                  <button class="card__expand-btn" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('is-open');">
-                    <span>Quick View</span>
-                    <span class="card__expand-arrow">↓</span>
-                  </button>
-                  <div class="card__expand-content">
-                    <p style="font-size: var(--text-sm); white-space: pre-wrap;">${escapeHTML(item.content || item.description)}</p>
-                    ${item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); width: 100%;">Visit Resource ↗</a>` : ''}
-                  </div>
-                  <div class="card__footer">
-                    <span class="meta">${tagsStr}</span>
-                  </div>
-                </div>`;
-            } else {
-              return `
-                <a href="${escapeHTML(item.path)}" class="card" id="card-${escapeHTML(item.id)}" style="--cat-color: var(${catColor}); text-decoration: none;">
-                  <div class="card__accent-strip"></div>
-                  <div class="card__header" style="display: flex; justify-content: space-between; align-items: start;">
-                    <span class="tag" style="font-size: 9px; padding: 2px 6px;">${escapeHTML(item.category)}</span>
-                    <button class="btn--ghost is-saved" data-bookmark-id="${escapeHTML(item.id)}" data-title="${escapeHTML(item.name)}" data-path="${escapeHTML(item.path)}" data-category="${escapeHTML(item.category)}" style="border: 1px solid var(--color-ink); padding: 2px 6px; font-family: var(--font-outlier); font-size: 10px; background: #ef4444; color: #fff;">♥ Saved</button>
-                  </div>
-                  <div class="card__body">
-                    <h3 class="card__title">${escapeHTML(item.name)}</h3>
-                    <p class="card__desc">${escapeHTML(item.description)}</p>
-                  </div>
-                  <div class="card__footer">
-                    <span class="meta">${tagsStr}</span>
-                    <span class="card__expand-arrow">→</span>
-                  </div>
-                </a>`;
-            }
-          }).join('');
+          gridEl.innerHTML = savedItems.map(item => window.renderCard(item)).join('');
 
           if (typeof initBookmarks === 'function') initBookmarks();
           if (typeof initExpandableCards === 'function') initExpandableCards();
